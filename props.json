@@ -1,0 +1,20 @@
+{
+    "frames": {
+        "nest.png": {
+            "frame": { "x": 1, "y": 1, "w": 306, "h": 315 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 306, "h": 315 },
+            "sourceSize": { "w": 306, "h": 315 }
+        }
+    },
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "props.png",
+        "format": "RGBA8888",
+        "size": { "w": 308, "h": 317 },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:b5bb040cfb8e3880bbac60c33756d3cd:6d757b695b4f64aca061bae8a7d14eb7:f4c39b94f5b79b4c461da96ae5609d50$"
+    }
+}

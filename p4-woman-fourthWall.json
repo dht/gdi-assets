@@ -1,0 +1,84 @@
+{"frames": {
+
+"a.svg":
+{
+	"frame": {"x":1,"y":1,"w":135,"h":404},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":404},
+	"sourceSize": {"w":135,"h":404}
+},
+"e.svg":
+{
+	"frame": {"x":138,"y":1,"w":135,"h":404},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":404},
+	"sourceSize": {"w":135,"h":404}
+},
+"fv.svg":
+{
+	"frame": {"x":275,"y":1,"w":135,"h":404},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":404},
+	"sourceSize": {"w":135,"h":404}
+},
+"ln.svg":
+{
+	"frame": {"x":412,"y":1,"w":135,"h":404},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":404},
+	"sourceSize": {"w":135,"h":404}
+},
+"mbp.svg":
+{
+	"frame": {"x":549,"y":1,"w":135,"h":404},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":404},
+	"sourceSize": {"w":135,"h":404}
+},
+"o.svg":
+{
+	"frame": {"x":686,"y":1,"w":135,"h":404},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":404},
+	"sourceSize": {"w":135,"h":404}
+},
+"st.svg":
+{
+	"frame": {"x":823,"y":1,"w":135,"h":404},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":404},
+	"sourceSize": {"w":135,"h":404}
+},
+"uq.svg":
+{
+	"frame": {"x":960,"y":1,"w":135,"h":404},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":404},
+	"sourceSize": {"w":135,"h":404}
+},
+"wr.svg":
+{
+	"frame": {"x":1097,"y":1,"w":135,"h":404},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":404},
+	"sourceSize": {"w":135,"h":404}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "p4-woman-fourthWall.png",
+	"format": "RGBA8888",
+	"size": {"w":1233,"h":406},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3b92b349bc5a79a0a8d69c73ca279b98:e9665115b7ae53e4d99793624097d947:c6d249d971889e4f51a11a00c5c3e1af$"
+}
+}

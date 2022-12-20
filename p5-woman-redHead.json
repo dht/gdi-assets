@@ -1,0 +1,84 @@
+{"frames": {
+
+"a.svg":
+{
+	"frame": {"x":1,"y":1,"w":104,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":412},
+	"sourceSize": {"w":104,"h":412}
+},
+"e.svg":
+{
+	"frame": {"x":107,"y":1,"w":104,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":412},
+	"sourceSize": {"w":104,"h":412}
+},
+"fv.svg":
+{
+	"frame": {"x":213,"y":1,"w":104,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":412},
+	"sourceSize": {"w":104,"h":412}
+},
+"ln.svg":
+{
+	"frame": {"x":319,"y":1,"w":104,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":412},
+	"sourceSize": {"w":104,"h":412}
+},
+"mbp.svg":
+{
+	"frame": {"x":425,"y":1,"w":104,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":412},
+	"sourceSize": {"w":104,"h":412}
+},
+"o.svg":
+{
+	"frame": {"x":531,"y":1,"w":104,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":412},
+	"sourceSize": {"w":104,"h":412}
+},
+"st.svg":
+{
+	"frame": {"x":637,"y":1,"w":104,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":412},
+	"sourceSize": {"w":104,"h":412}
+},
+"uq.svg":
+{
+	"frame": {"x":743,"y":1,"w":104,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":412},
+	"sourceSize": {"w":104,"h":412}
+},
+"wr.svg":
+{
+	"frame": {"x":849,"y":1,"w":104,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":412},
+	"sourceSize": {"w":104,"h":412}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "p5-woman-redHead.png",
+	"format": "RGBA8888",
+	"size": {"w":954,"h":414},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6878e849e6965aa2e9a7202cf56a3118:688f0ce1d3d5a379edfe24de3ff90845:8d7b5963da34d14823c2b91a4d0b192a$"
+}
+}

@@ -1,0 +1,84 @@
+{"frames": {
+
+"A.svg":
+{
+	"frame": {"x":1,"y":1,"w":200,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":130},
+	"sourceSize": {"w":200,"h":130}
+},
+"E.svg":
+{
+	"frame": {"x":203,"y":1,"w":200,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":130},
+	"sourceSize": {"w":200,"h":130}
+},
+"FV.svg":
+{
+	"frame": {"x":405,"y":1,"w":200,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":130},
+	"sourceSize": {"w":200,"h":130}
+},
+"LN.svg":
+{
+	"frame": {"x":607,"y":1,"w":200,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":130},
+	"sourceSize": {"w":200,"h":130}
+},
+"MBP.svg":
+{
+	"frame": {"x":809,"y":1,"w":200,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":130},
+	"sourceSize": {"w":200,"h":130}
+},
+"O.svg":
+{
+	"frame": {"x":1011,"y":1,"w":200,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":130},
+	"sourceSize": {"w":200,"h":130}
+},
+"TS.svg":
+{
+	"frame": {"x":1213,"y":1,"w":200,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":130},
+	"sourceSize": {"w":200,"h":130}
+},
+"UO.svg":
+{
+	"frame": {"x":1415,"y":1,"w":200,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":130},
+	"sourceSize": {"w":200,"h":130}
+},
+"WR.svg":
+{
+	"frame": {"x":1617,"y":1,"w":200,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":130},
+	"sourceSize": {"w":200,"h":130}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mouthShapes.png",
+	"format": "RGBA8888",
+	"size": {"w":1818,"h":132},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1913952e1d84544f894b1bae07f56706:b9e467a9790b8d27a362f22295e68842:3f7ed0cdd637fec360dcb9ea7c4d9588$"
+}
+}

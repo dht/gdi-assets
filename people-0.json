@@ -1,0 +1,301 @@
+{
+    "frames": {
+        "dog-1.png": {
+            "frame": { "x": 0, "y": 0, "w": 120, "h": 150 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 120, "h": 150 },
+            "sourceSize": { "w": 120, "h": 150 }
+        },
+        "man-and-woman-delivery.png": {
+            "frame": { "x": 1573, "y": 1244, "w": 366, "h": 503 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 366, "h": 503 },
+            "sourceSize": { "w": 366, "h": 503 }
+        },
+        "man-back-backpack.png": {
+            "frame": { "x": 1214, "y": 0, "w": 155, "h": 400 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 155, "h": 400 },
+            "sourceSize": { "w": 155, "h": 400 }
+        },
+        "man-back-blueShirt.png": {
+            "frame": { "x": 1369, "y": 0, "w": 173, "h": 400 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 173, "h": 400 },
+            "sourceSize": { "w": 173, "h": 400 }
+        },
+        "man-back-purpleShirt.png": {
+            "frame": { "x": 278, "y": 0, "w": 118, "h": 394 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 118, "h": 394 },
+            "sourceSize": { "w": 118, "h": 394 }
+        },
+        "man-back-redShirt.png": {
+            "frame": { "x": 828, "y": 0, "w": 119, "h": 399 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 119, "h": 399 },
+            "sourceSize": { "w": 119, "h": 399 }
+        },
+        "man-beard.png": {
+            "frame": { "x": 909, "y": 1244, "w": 273, "h": 475 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 273, "h": 475 },
+            "sourceSize": { "w": 273, "h": 475 }
+        },
+        "man-brown-pants.png": {
+            "frame": { "x": 0, "y": 815, "w": 118, "h": 414 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 118, "h": 414 },
+            "sourceSize": { "w": 118, "h": 414 }
+        },
+        "man-brown-suit.png": {
+            "frame": { "x": 1646, "y": 403, "w": 122, "h": 412 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 122, "h": 412 },
+            "sourceSize": { "w": 122, "h": 412 }
+        },
+        "man-business.png": {
+            "frame": { "x": 140, "y": 403, "w": 132, "h": 404 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 132, "h": 404 },
+            "sourceSize": { "w": 132, "h": 404 }
+        },
+        "man-coffee-inHand.png": {
+            "frame": { "x": 1007, "y": 815, "w": 176, "h": 422 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 422 },
+            "sourceSize": { "w": 176, "h": 422 }
+        },
+        "man-delivery-bike-blue.png": {
+            "frame": { "x": 192, "y": 1244, "w": 359, "h": 461 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 359, "h": 461 },
+            "sourceSize": { "w": 359, "h": 461 }
+        },
+        "man-delivery-bike.png": {
+            "frame": { "x": 551, "y": 1244, "w": 358, "h": 462 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 358, "h": 462 },
+            "sourceSize": { "w": 358, "h": 462 }
+        },
+        "man-delivery-box.png": {
+            "frame": { "x": 1542, "y": 0, "w": 173, "h": 400 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 173, "h": 400 },
+            "sourceSize": { "w": 173, "h": 400 }
+        },
+        "man-delivery-scooter-back.png": {
+            "frame": { "x": 1484, "y": 815, "w": 408, "h": 429 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 408, "h": 429 },
+            "sourceSize": { "w": 408, "h": 429 }
+        },
+        "man-delivery-scooter.png": {
+            "frame": { "x": 1182, "y": 1244, "w": 391, "h": 493 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 391, "h": 493 },
+            "sourceSize": { "w": 391, "h": 493 }
+        },
+        "man-delivery-standing-box.png": {
+            "frame": { "x": 0, "y": 1244, "w": 192, "h": 431 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 431 },
+            "sourceSize": { "w": 192, "h": 431 }
+        },
+        "man-delivery-walking.png": {
+            "frame": { "x": 531, "y": 815, "w": 205, "h": 419 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 205, "h": 419 },
+            "sourceSize": { "w": 205, "h": 419 }
+        },
+        "man-dog-poo.png": {
+            "frame": { "x": 1254, "y": 403, "w": 392, "h": 411 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 392, "h": 411 },
+            "sourceSize": { "w": 392, "h": 411 }
+        },
+        "man-grayShirt.png": {
+            "frame": { "x": 1889, "y": 0, "w": 116, "h": 403 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 116, "h": 403 },
+            "sourceSize": { "w": 116, "h": 403 }
+        },
+        "man-green-headphones.png": {
+            "frame": { "x": 353, "y": 815, "w": 178, "h": 417 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 178, "h": 417 },
+            "sourceSize": { "w": 178, "h": 417 }
+        },
+        "man-onPhone.png": {
+            "frame": { "x": 736, "y": 815, "w": 135, "h": 420 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 135, "h": 420 },
+            "sourceSize": { "w": 135, "h": 420 }
+        },
+        "man-spikeyHair.png": {
+            "frame": { "x": 521, "y": 403, "w": 115, "h": 409 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 115, "h": 409 },
+            "sourceSize": { "w": 115, "h": 409 }
+        },
+        "woman-back-grayShirt.png": {
+            "frame": { "x": 396, "y": 0, "w": 103, "h": 395 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 103, "h": 395 },
+            "sourceSize": { "w": 103, "h": 395 }
+        },
+        "woman-back-purpleHair.png": {
+            "frame": { "x": 1715, "y": 0, "w": 174, "h": 400 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 174, "h": 400 },
+            "sourceSize": { "w": 174, "h": 400 }
+        },
+        "woman-back-red-shirt.png": {
+            "frame": { "x": 659, "y": 0, "w": 169, "h": 397 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 169, "h": 397 },
+            "sourceSize": { "w": 169, "h": 397 }
+        },
+        "woman-back-training.png": {
+            "frame": { "x": 120, "y": 0, "w": 158, "h": 376 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 158, "h": 376 },
+            "sourceSize": { "w": 158, "h": 376 }
+        },
+        "woman-blue-hair.png": {
+            "frame": { "x": 412, "y": 403, "w": 109, "h": 408 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 109, "h": 408 },
+            "sourceSize": { "w": 109, "h": 408 }
+        },
+        "woman-bluePants.png": {
+            "frame": { "x": 636, "y": 403, "w": 114, "h": 409 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 114, "h": 409 },
+            "sourceSize": { "w": 114, "h": 409 }
+        },
+        "woman-business.png": {
+            "frame": { "x": 272, "y": 403, "w": 140, "h": 405 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 140, "h": 405 },
+            "sourceSize": { "w": 140, "h": 405 }
+        },
+        "woman-curly-redhead.png": {
+            "frame": { "x": 871, "y": 815, "w": 136, "h": 420 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 136, "h": 420 },
+            "sourceSize": { "w": 136, "h": 420 }
+        },
+        "woman-cyanPants-fourthWall.png": {
+            "frame": { "x": 947, "y": 0, "w": 153, "h": 399 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 153, "h": 399 },
+            "sourceSize": { "w": 153, "h": 399 }
+        },
+        "woman-cyanShirt-fourthWall.png": {
+            "frame": { "x": 499, "y": 0, "w": 160, "h": 396 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 160, "h": 396 },
+            "sourceSize": { "w": 160, "h": 396 }
+        },
+        "woman-dog-poo-2.png": {
+            "frame": { "x": 884, "y": 403, "w": 370, "h": 410 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 370, "h": 410 },
+            "sourceSize": { "w": 370, "h": 410 }
+        },
+        "woman-dog-poo.png": {
+            "frame": { "x": 1183, "y": 815, "w": 301, "h": 426 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 301, "h": 426 },
+            "sourceSize": { "w": 301, "h": 426 }
+        },
+        "woman-dog-purple-hair.png": {
+            "frame": { "x": 1768, "y": 403, "w": 233, "h": 412 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 412 },
+            "sourceSize": { "w": 233, "h": 412 }
+        },
+        "woman-fourthWall.png": {
+            "frame": { "x": 118, "y": 815, "w": 138, "h": 415 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 138, "h": 415 },
+            "sourceSize": { "w": 138, "h": 415 }
+        },
+        "woman-greenDress.png": {
+            "frame": { "x": 256, "y": 815, "w": 97, "h": 415 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 97, "h": 415 },
+            "sourceSize": { "w": 97, "h": 415 }
+        },
+        "woman-red-dress.png": {
+            "frame": { "x": 1100, "y": 0, "w": 114, "h": 399 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 114, "h": 399 },
+            "sourceSize": { "w": 114, "h": 399 }
+        },
+        "Woman-redDress-fourthWall.png": {
+            "frame": { "x": 0, "y": 403, "w": 140, "h": 404 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 140, "h": 404 },
+            "sourceSize": { "w": 140, "h": 404 }
+        },
+        "woman-redDress-onPhone.png": {
+            "frame": { "x": 750, "y": 403, "w": 134, "h": 409 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 134, "h": 409 },
+            "sourceSize": { "w": 134, "h": 409 }
+        }
+    },
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "people-0.png",
+        "format": "RGBA8888",
+        "size": { "w": 2005, "h": 1747 },
+        "scale": "1",
+        "related_multi_packs": ["people-1.json"],
+        "smartupdate": "$TexturePacker:SmartUpdate:bc4dbb04672ff83e9d0b009a87329123:117331e654f91c144a52a293075a1d0a:3bc698075ebb1fac99da252775db08e5$"
+    }
+}

@@ -1,0 +1,84 @@
+{"frames": {
+
+"a.svg":
+{
+	"frame": {"x":1,"y":1,"w":201,"h":351},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":201,"h":351},
+	"sourceSize": {"w":201,"h":359}
+},
+"e.svg":
+{
+	"frame": {"x":204,"y":1,"w":201,"h":351},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":201,"h":351},
+	"sourceSize": {"w":201,"h":359}
+},
+"fv.svg":
+{
+	"frame": {"x":407,"y":1,"w":201,"h":351},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":7,"w":201,"h":351},
+	"sourceSize": {"w":201,"h":358}
+},
+"ln.svg":
+{
+	"frame": {"x":610,"y":1,"w":201,"h":351},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":7,"w":201,"h":351},
+	"sourceSize": {"w":201,"h":358}
+},
+"mbp.svg":
+{
+	"frame": {"x":813,"y":1,"w":201,"h":351},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":7,"w":201,"h":351},
+	"sourceSize": {"w":201,"h":358}
+},
+"o.svg":
+{
+	"frame": {"x":1016,"y":1,"w":201,"h":351},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":7,"w":201,"h":351},
+	"sourceSize": {"w":201,"h":358}
+},
+"st.svg":
+{
+	"frame": {"x":1219,"y":1,"w":201,"h":351},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":7,"w":201,"h":351},
+	"sourceSize": {"w":201,"h":358}
+},
+"uq.svg":
+{
+	"frame": {"x":1422,"y":1,"w":201,"h":351},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":201,"h":351},
+	"sourceSize": {"w":201,"h":359}
+},
+"wr.svg":
+{
+	"frame": {"x":1625,"y":1,"w":201,"h":351},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":201,"h":351},
+	"sourceSize": {"w":201,"h":360}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "p12-man-book.png",
+	"format": "RGBA8888",
+	"size": {"w":1827,"h":353},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:337aa17de0602eb73772ac2720f1bbed:31264fe356e0c4a447fabdc6ce6df2e8:052d9d9a079359b53f97fdf246237868$"
+}
+}

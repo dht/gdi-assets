@@ -1,0 +1,28 @@
+{"frames": {
+
+"b.svg":
+{
+	"frame": {"x":1,"y":1,"w":198,"h":457},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":457},
+	"sourceSize": {"w":198,"h":457}
+},
+"n.svg":
+{
+	"frame": {"x":1,"y":460,"w":198,"h":457},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":457},
+	"sourceSize": {"w":198,"h":457}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "p7-man-coffee.png",
+	"format": "RGBA8888",
+	"size": {"w":200,"h":918},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a2578494eae63da775805c37ca0622ab:040b1017af0e2614071fe7624c487475:492db6e86a0c2188e46d345b7877c47b$"
+}
+}
