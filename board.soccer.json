@@ -1,0 +1,106 @@
+{
+    "identifier": "ville",
+    "backgroundType": "color",
+    "useRightHandedSystem": true,
+    "backgroundValues": {},
+    "id": "ville",
+    "name": "Ville",
+    "flyIn": {
+        "alpha": 0.5,
+        "radius": 33,
+        "target": [0, 0, 0],
+        "beta": 1
+    },
+    "index": 2,
+    "cameras": {
+        "c1": {
+            "type": "arc",
+            "identifier": "arc-camera-1",
+            "id": "c1",
+            "boardId": "ville",
+            "values": {
+                "target": [0, 0, 0],
+                "upperRadiusLimit": 30,
+                "alpha": 1,
+                "radius": 25,
+                "lowerBetaLimit": 30,
+                "beta": 1,
+                "lowerRadiusLimit": 10,
+                "upperBetaLimit": 80
+            },
+            "index": 0
+        }
+    },
+    "grounds": {},
+    "externals": {
+        "x1": {
+            "id": "x1",
+            "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/wembley.glb",
+            "identifier": "external-1",
+            "boardId": "ville",
+            "index": 0
+        }
+    },
+    "lights": {
+        "l1": {
+            "position": {
+                "x": 0,
+                "y": 30,
+                "z": 0
+            },
+            "id": "l1",
+            "intensity": 1,
+            "identifier": "sun-1",
+            "type": "hemispheric",
+            "boardId": "ville",
+            "specular": [1, 1, 0],
+            "diffuse": [1, 1, 1],
+            "index": 0
+        },
+        "l2": {
+            "identifier": "sun-2",
+            "id": "l2",
+            "specular": [1, 1, 0],
+            "diffuse": [1, 1, 1],
+            "boardId": "earth",
+            "intensity": 1,
+            "position": {
+                "z": 0,
+                "y": 50,
+                "x": 0
+            },
+            "type": "hemispheric",
+            "index": 1
+        }
+    },
+    "packs": {
+        "p1": {
+            "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/people-0.png",
+            "id": "p1",
+            "boardId": "ville",
+            "capacity": 100,
+            "identifier": "p1",
+            "index": 0
+        },
+        "p2": {
+            "capacity": 1,
+            "boardId": "ville",
+            "id": "p2",
+            "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/props.png",
+            "identifier": "p2",
+            "index": 1
+        }
+    },
+    "sounds": {
+        "s1": {
+            "boardId": "ville",
+            "id": "s1",
+            "identifier": "sound-1",
+            "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/ScottHolmesMusicCelebration.mp3",
+            "index": 0
+        }
+    },
+    "sprites": {},
+    "microAnimations": {},
+    "videos": {}
+}
