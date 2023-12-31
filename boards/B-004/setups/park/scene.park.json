@@ -100,7 +100,7 @@
   "externals": {
     "x1": {
       "id": "x1",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/ville.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/ville.glb",
       "identifier": "external-1",
       "boardId": "ville",
       "index": 0
@@ -109,11 +109,11 @@
       "boardId": "ville",
       "id": "x2",
       "identifier": "external-2",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/tree.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/tree.glb",
       "index": 1
     },
     "x3": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/fountain.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/fountain.glb",
       "id": "x3",
       "boardId": "ville",
       "identifier": "external-3",
@@ -616,7 +616,7 @@
       "id": "v1",
       "boardId": "ville",
       "identifier": "video-1",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/water-2.mp4",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/water-2.mp4",
       "objectType": "sphere",
       "values": {
         "diameterX": 9.3,

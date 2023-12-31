@@ -47,7 +47,7 @@
         "mainColor": [0, 0.3, 0],
         "majorUnitFrequency": 2,
         "gridRatio": 0.5,
-        "heightMap": "https://raw.githubusercontent.com/dht/boards-starter/main/public/scenes/heightMap-blank.png",
+        "heightMap": "https://raw.githubusercontent.com/dht/boards-starter/main/boards/B-001/assets/heightMap-blank.png",
         "maxHeight": 50
       },
       "width": 100,
@@ -73,7 +73,7 @@
         "mainColor": [0, 0.3, 0],
         "majorUnitFrequency": 2,
         "gridRatio": 0.5,
-        "heightMap": "https://raw.githubusercontent.com/dht/boards-starter/main/public/scenes/heightMap.png",
+        "heightMap": "https://raw.githubusercontent.com/dht/boards-starter/main/boards/B-001/assets/heightMap.png",
         "maxHeight": 15
       },
       "rotation": {
@@ -104,7 +104,7 @@
         "mainColor": [0, 0.3, 0],
         "majorUnitFrequency": 2,
         "gridRatio": 0.5,
-        "heightMap": "https://raw.githubusercontent.com/dht/boards-starter/main/public/scenes/heightMap-city.png",
+        "heightMap": "https://raw.githubusercontent.com/dht/boards-starter/main/boards/B-001/assets/heightMap-city.png",
         "maxHeight": 50
       },
       "width": 100,
@@ -121,7 +121,7 @@
   "externals": {
     "x1": {
       "id": "x1",
-      "url": "https://raw.githubusercontent.com/dht/boards-starter/main/public/scenes/car3.glb",
+      "url": "https://raw.githubusercontent.com/dht/boards-starter/main/public/glb/car3.glb",
       "identifier": "external-1",
       "boardId": "ville",
       "index": 0

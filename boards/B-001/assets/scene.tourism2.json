@@ -35,7 +35,7 @@
   "externals": {
     "x1": {
       "id": "x1",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/venice.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/venice.glb",
       "identifier": "external-1",
       "boardId": "ville",
       "index": 0

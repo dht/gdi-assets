@@ -28,7 +28,7 @@
   "grounds": {},
   "externals": {
     "x4": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/earth.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/earth.glb",
       "identifier": "external-4",
       "id": "x4",
       "boardId": "earth",

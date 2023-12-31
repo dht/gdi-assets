@@ -6,7 +6,7 @@
     "radius": 12,
     "alpha": 0.2,
     "beta": 1.5,
-    "glbPath": "https://raw.githubusercontent.com/dht-starter/main/public/scenes/car3.glb"
+    "glbPath": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/car3.glb"
   },
   "items": [
     {

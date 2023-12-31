@@ -104,7 +104,7 @@
   "externals": {
     "x1": {
       "id": "x1",
-      "url": "https://raw.githubusercontent.com/dht/boards-starter/main/public/scenes/car3.glb",
+      "url": "https://raw.githubusercontent.com/dht/boards-starter/main/public/glb/car3.glb",
       "identifier": "external-1",
       "boardId": "ville",
       "index": 0

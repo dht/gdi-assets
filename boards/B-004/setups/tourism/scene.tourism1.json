@@ -35,7 +35,7 @@
   "externals": {
     "x1": {
       "id": "x1",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/abby.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/abby.glb",
       "identifier": "external-1",
       "boardId": "ville",
       "index": 0
