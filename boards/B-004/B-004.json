@@ -1,0 +1,235 @@
+{
+  "id": "B-004",
+  "identifier": "com.usegdi.park-conversation",
+  "version": "0.1.0",
+  "url": "/boards/b-004",
+  "boardInfo": {
+    "name": "Park Conversation",
+    "index": 4,
+    "imageUrl": "/images/z_park.jpg",
+    "boardType": "linear",
+    "description": "Park Conversation is an innovative app that takes 3D simulation to the next level. Step into a virtual park where you can witness three teenagers engaging in a lifelike conversation about any topic you provide. Using state-of-the-art AI technology, this app generates realistic voice dialogue and mouth movements for a truly immersive experience.\n\nGone are the days of static simulations. With Park Conversation, you can watch and listen as the characters discuss and debate any subject of your choosing. Whether it's current events, movies, sports, or any other topic, the AI-generated conversation will feel authentic and engaging.\n\nPark Conversation brings together the power of AI and 3D simulation to create a unique and interactive environment. Be a part of the conversation and experience the future of virtual interactions.",
+    "descriptionLong": "Park Conversation is an innovative app that revolutionizes 3D simulation. Immerse yourself in a virtual park setting and witness three teenagers engaging in a captivating conversation about any topic you provide. Powered by state-of-the-art AI technology, this app generates realistic voice dialogue and mouth movements, creating an unprecedented level of immersion.\n\nGone are the days of static simulations. With Park Conversation, you can be a part of the conversation and witness lifelike interactions between the characters. Whether you want to explore current events, discuss movies, or engage in sports debates, the AI-generated conversation feels authentic and engaging.\n\nPark Conversation combines the power of AI and 3D simulation to create a unique and interactive environment. Step into the virtual park, listen to the conversation, and experience the future of virtual interactions.",
+    "oneLiner": "Experience lifelike conversations in a virtual park with 3D simulations and AI-generated voice dialogue and mouth movements.",
+    "oneLinerShort": "Engage in lifelike conversations in a virtual park with AI-generated voice dialogue.",
+    "header": "Conversation about ${prompt}",
+    "fields": [
+      {
+        "label": "input",
+        "content": "Prompt"
+      },
+      {
+        "label": "output",
+        "content": "3d conversation"
+      },
+      {
+        "label": "engines",
+        "content": "LLM #1, LLM #2, ElevenLabs"
+      }
+    ],
+    "tags": [
+      "simulation",
+      "3D",
+      "AI",
+      "conversation",
+      "voice",
+      "immersive",
+      "virtual",
+      "interactive"
+    ],
+    "order": 2,
+    "supportedResolutions": [
+      "1920x1080",
+      "1280x720"
+    ],
+    "tsVersion": 0
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^0.0.4",
+    "@gdi/ui": "^0.0.1",
+    "@gdi/widgets-starter": "^0.0.6"
+  },
+  "apis": [
+    "AI-3.0",
+    "turbo-3.5"
+  ],
+  "defaults": {
+    "setupId": "park",
+    "playbackId": "space"
+  },
+  "setupsUrl": "/B-004/B-004.setups.json",
+  "playbacksUrl": "",
+  "flowUrl": "/B-004/B-004.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-005",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": false,
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "B-004",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.babylon",
+        "title": "babylon",
+        "position": {
+          "x": 56,
+          "y": 2
+        },
+        "dimension": {
+          "x": 63,
+          "y": 24
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.transcript",
+        "title": "Transcript",
+        "position": {
+          "x": 56,
+          "y": 27
+        },
+        "dimension": {
+          "x": 63,
+          "y": 19
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "flavour": "outcome"
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "dimension": {
+          "x": 44,
+          "y": 40
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "props": {}
+      },
+      "e5": {
+        "id": "e5",
+        "widgetId": "com.usegdi.starter.github",
+        "title": "Github",
+        "position": {
+          "x": 52,
+          "y": 44
+        },
+        "dimension": {
+          "x": 1,
+          "y": 1
+        },
+        "boardId": "B-004",
+        "flags": {}
+      },
+      "e6": {
+        "id": "e6",
+        "widgetId": "com.usegdi.starter.playback",
+        "title": "Playback",
+        "position": {
+          "x": 57,
+          "y": 3
+        },
+        "dimension": {
+          "x": 25,
+          "y": 5
+        },
+        "boardId": "B-004",
+        "flags": {}
+      },
+      "e7": {
+        "id": "e7",
+        "widgetId": "com.usegdi.starter.mode",
+        "title": "Mode",
+        "position": {
+          "x": 110,
+          "y": 1
+        },
+        "dimension": {
+          "x": 16,
+          "y": 2
+        },
+        "boardId": "B-004",
+        "flags": {}
+      },
+      "e8": {
+        "id": "e8",
+        "widgetId": "com.usegdi.starter.logger",
+        "title": "Logger",
+        "position": {
+          "x": 56,
+          "y": 27
+        },
+        "dimension": {
+          "x": 63,
+          "y": 19
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "flavour": "prepare"
+      },
+      "e9": {
+        "id": "e9",
+        "widgetId": "com.usegdi.starter.start-play",
+        "title": "StartPlay",
+        "position": {
+          "x": 56,
+          "y": 27
+        },
+        "dimension": {
+          "x": 63,
+          "y": 19
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "flavour": "default"
+      },
+      "e10": {
+        "id": "e10",
+        "widgetId": "com.usegdi.starter.sound-player",
+        "title": "SoundPlayer",
+        "position": {
+          "x": 115,
+          "y": 24
+        },
+        "dimension": {
+          "x": 1,
+          "y": 1
+        },
+        "boardId": "B-004",
+        "flags": {}
+      }
+    }
+  }
+}

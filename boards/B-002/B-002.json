@@ -1,0 +1,124 @@
+{
+  "id": "B-002",
+  "identifier": "com.usegdi.chit-chat",
+  "version": "0.1.0",
+  "url": "/boards/b-002",
+  "boardInfo": {
+    "name": "ChitChat",
+    "index": 2,
+    "imageUrl": "/images/z_chitchat.jpg",
+    "boardType": "continues",
+    "description": "ChitChat is a simple and intuitive app that allows users to have conversations with an AI-powered chatbot. With a user-friendly interface resembling a chat window, ChitChat provides a seamless experience for engaging in natural and dynamic conversations.\n\nPowered by advanced ChatGPT technology, this app harnesses the power of natural language processing and machine learning to generate human-like responses. Whether you're looking for a chat companion, need assistance with a question, or simply want to have some fun, ChitChat is here to keep you company.\n\nGone are the days of dull and boring chatbots. ChitChat's AI algorithms ensure that every conversation is engaging, relevant, and tailored to your specific needs. Experience the future of chat interfaces with ChitChat and discover a world of interactive and intelligent conversations.",
+    "descriptionLong": "ChitChat is a revolutionary app that introduces a simple and intuitive chat interface powered by advanced ChatGPT technology. With its user-friendly chat window, ChitChat offers a seamless experience for engaging in natural and dynamic conversations.\n\nThrough the power of natural language processing and machine learning, ChitChat's AI algorithms generate human-like responses, making every conversation feel authentic and interactive. Whether you're seeking a chat companion, looking for quick answers, or simply want to have some fun, ChitChat is your go-to app.\n\nGone are the days of mundane and monotonous chatbots. ChitChat's intelligent algorithms ensure that every conversation is engaging, relevant, and personalized to your specific needs. Experience the future of chat interfaces with ChitChat and unlock a world of interactive and intelligent conversations.",
+    "oneLiner": "Engage in dynamic conversations with an AI-powered chatbot through ChitChat's user-friendly interface.",
+    "oneLinerShort": "Experience dynamic conversations with an AI chatbot through ChitChat.",
+    "header": "Chat with GPT",
+    "fields": [
+      {
+        "label": "input",
+        "content": "Prompt"
+      },
+      {
+        "label": "output",
+        "content": "3d conversation"
+      },
+      {
+        "label": "engines",
+        "content": "LLM #1, LLM #2, ElevenLabs"
+      }
+    ],
+    "tags": [
+      "chat",
+      "AI",
+      "chatbot",
+      "conversation",
+      "interactive",
+      "fun",
+      "user-friendly"
+    ],
+    "order": 2,
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x720"
+    ],
+    "tsVersion": 0
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^0.0.4",
+    "@gdi/ui": "^0.0.1",
+    "@gdi/widgets-starter": "^0.0.6"
+  },
+  "apis": [
+    "chatgpt-1.0"
+  ],
+  "defaults": {
+    "setupId": "default",
+    "playbackId": ""
+  },
+  "setupsUrl": "",
+  "playbacksUrl": "",
+  "flowUrl": "/B-002/B-002.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-003",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": false,
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "B-002",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.chat",
+        "title": "Chat",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-002",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "dimension": {
+          "x": 44,
+          "y": 40
+        },
+        "boardId": "B-002",
+        "flags": {},
+        "props": {}
+      }
+    }
+  }
+}

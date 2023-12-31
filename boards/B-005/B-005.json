@@ -1,0 +1,144 @@
+{
+  "id": "B-005",
+  "identifier": "com.usegdi.writers-team",
+  "version": "0.1.0",
+  "url": "/boards/B-005",
+  "boardInfo": {
+    "name": "Writers Team",
+    "index": 5,
+    "imageUrl": "/images/z_writer.jpg",
+    "boardType": "continues",
+    "description": "Writers Team is a powerful tool that enables users to create AI-generated documents with ease. This app provides a simple and intuitive interface, making it accessible to users of all skill levels. With Writers Team, you can effortlessly generate professional-quality documents using cutting-edge AI technology.\n\nGone are the days of struggling to find the perfect words for your project. Writers Team puts limitless creativity at your fingertips. Whether you're a beginner or an experienced writer, this app simplifies the document creation process, allowing you to produce high-quality content in minutes.\n\nBy harnessing the power of AI, Writers Team ensures that the documents generated are impressive, unique, and tailored to your specific needs. Whether you need documents for marketing materials, presentations, social media, or any other creative project, this app has got you covered.\n\nExperience the convenience and flexibility of AI-generated documents with Writers Team and take your content to the next level.",
+    "descriptionLong": "Writers Team is a groundbreaking app that revolutionizes the way we create documents. With its advanced AI technology, this tool empowers users to effortlessly generate professional-quality documents. The app provides a simple and intuitive interface, making it accessible to users of all skill levels.\n\nSay goodbye to the days of struggling to find the perfect words for your projects. Writers Team puts limitless creativity at your fingertips. Whether you're a beginner or an experienced writer, this app streamlines the document creation process, allowing you to produce high-quality content in minutes.\n\nBy harnessing the power of AI, Writers Team ensures that the documents generated are impressive, unique, and tailored to your specific needs. Whether you're creating marketing materials, presentations, social media content, or any other creative project, this app has got you covered.\n\nExperience the convenience and flexibility of AI-generated documents with Writers Team and take your content to new heights.",
+    "oneLiner": "Unlock limitless creativity with AI-generated documents using Writers Team.",
+    "oneLinerShort": "Unlock limitless creativity with AI-generated documents.",
+    "header": "Write about ${prompt}",
+    "fields": [
+      {
+        "label": "input",
+        "content": "Prompt"
+      },
+      {
+        "label": "output",
+        "content": "3d conversation"
+      },
+      {
+        "label": "engines",
+        "content": "LLM #1, LLM #2, ElevenLabs"
+      }
+    ],
+    "tags": [],
+    "order": 2,
+    "supportedResolutions": ["1920x1080", "1366x768", "1280x800"],
+    "tsVersion": 0
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^0.0.4",
+    "@gdi/ui": "^0.0.1",
+    "@gdi/widgets-starter": "^0.0.6"
+  },
+  "apis": [],
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "B-005",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.document",
+        "title": "Document",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-005",
+        "flags": {},
+        "props": {}
+      },
+      "e3a": {
+        "id": "e3a",
+        "widgetId": "com.usegdi.starter.document-bootstrap",
+        "title": "Document Bootstrap",
+        "position": {
+          "x": 5,
+          "y": 28
+        },
+        "dimension": {
+          "x": 48,
+          "y": 18
+        },
+        "boardId": "B-005",
+        "flags": {},
+        "props": {},
+        "flavour": "default"
+      },
+      "e3b": {
+        "id": "e3b",
+        "widgetId": "com.usegdi.starter.writer-panel",
+        "title": "Writer Panel",
+        "position": {
+          "x": 5,
+          "y": 28
+        },
+        "dimension": {
+          "x": 48,
+          "y": 18
+        },
+        "boardId": "B-005",
+        "flags": {},
+        "props": {},
+        "flavour": "adhoc"
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "dimension": {
+          "x": 44,
+          "y": 18
+        },
+        "boardId": "B-005",
+        "flags": {},
+        "props": {}
+      }
+    }
+  },
+  "defaults": {
+    "setupId": "default",
+    "playbackId": ""
+  },
+  "setupsUrl": "",
+  "playbacksUrl": "",
+  "flowUrl": "/B-005/B-005.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/B-005",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  }
+}

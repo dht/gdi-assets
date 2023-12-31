@@ -1,0 +1,51 @@
+{
+  "flowConfig": {
+    "flowId": "fb-003",
+    "name": "Simple image generator",
+    "flowType": "linear",
+    "variables": {},
+    "output": {
+      "imageUrl": "actions.appState.patch",
+      "promptRevised": "actions.appState.patch",
+      "promptOriginal": "actions.appState.patch"
+    },
+    "fileNameInstructions": "a jpg image generated with this prompt: ${prompt}"
+  },
+  "flowApis": {
+    "imageGenerator": {
+      "id": "imageGenerator",
+      "endpoint": "image.basic",
+      "vendor": "openAI"
+    }
+  },
+  "flowAssistants": {},
+  "flowNodes": {
+    "n-001": {
+      "id": "n-001",
+      "name": "Generate Image",
+      "nodeType": "api",
+      "apiId": "imageGenerator",
+      "input": {
+        "prompt": "${prompt}"
+      },
+      "variables": {
+        "imageUrl": "$imageSimple"
+      },
+      "parentId": "",
+      "completionParams": {
+        "maxTokens": 200
+      },
+      "position": { "x": 250, "y": 0 },
+      "connectors": ["n-002"],
+      "isStart": true
+    },
+    "n-002": {
+      "id": "n-002",
+      "name": "Respond",
+      "nodeType": "outcome",
+      "parentId": "n-001",
+      "position": { "x": 250, "y": 150 },
+      "isEnd": true
+    }
+  }
+}

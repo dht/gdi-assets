@@ -1,0 +1,1440 @@
+{
+  "playback": {
+    "startTime": "",
+    "playbackSpeed": 1,
+    "playbackStatus": "idle"
+  },
+  "playState": {
+    "startTime": 0,
+    "currentTime": 0,
+    "playbackSpeed": 1,
+    "playbackStatus": "playing"
+  },
+  "layers": [
+    {
+      "id": "dots",
+      "flowType": "multiple",
+      "order": 1,
+      "isActive": true
+    },
+    {
+      "id": "viz",
+      "flowType": "multiple",
+      "order": 2,
+      "isActive": true
+    },
+    {
+      "id": "sky",
+      "flowType": "multiple",
+      "order": 3,
+      "isActive": true
+    },
+    {
+      "id": "hud",
+      "flowType": "multiple",
+      "order": 4,
+      "isActive": true
+    },
+    {
+      "id": "sfx",
+      "flowType": "multiple",
+      "order": 5,
+      "isActive": true
+    },
+    {
+      "id": "vfx",
+      "flowType": "multiple",
+      "order": 6,
+      "isActive": true
+    }
+  ],
+  "_lastAction": {},
+  "camera": {
+    "radius": 25,
+    "alpha": 1,
+    "beta": 1,
+    "target": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "soundState": {},
+  "transcriptLines": [
+    {
+      "id": "1",
+      "speakerName": "Arnold",
+      "text": "Hey guys, have you heard about the new Yu-Gi-Oh set that just came out?"
+    }
+  ],
+  "logs": [],
+  "nodes": [
+    {
+      "id": "n1",
+      "nodeType": "llm",
+      "label": "Prompt template",
+      "promptTemplate": {
+        "content": "Generate a conversation between 3 students (sam, alex and rachel) about ${prompt}"
+      },
+      "model": {
+        "modelType": "openAI",
+        "modelName": "text-davinci-003",
+        "temperature": 0.7
+      },
+      "position": {
+        "x": 250,
+        "y": 0
+      },
+      "connectors": ["n2", "n3"],
+      "duration": 32,
+      "price": 10,
+      "tokensCount": 150
+    },
+    {
+      "id": "n2",
+      "nodeType": "llm",
+      "label": "Transcript",
+      "promptTemplate": {
+        "content": "can you turn the following paragraph into phonetics?\n${input}"
+      },
+      "model": {
+        "modelType": "openAI",
+        "modelName": "text-davinci-003",
+        "temperature": 0.7,
+        "maxTokens": 150
+      },
+      "position": {
+        "x": 150,
+        "y": 150
+      },
+      "connectors": ["n4"]
+    },
+    {
+      "id": "n3",
+      "nodeType": "api",
+      "label": "Voice",
+      "api": {
+        "apiType": "elevenLabs",
+        "formatInput": "conversation"
+      },
+      "position": {
+        "x": 350,
+        "y": 150
+      },
+      "connectors": ["n4"],
+      "tokensCount": 150
+    },
+    {
+      "id": "n4",
+      "label": "Play animation",
+      "nodeType": "api",
+      "position": {
+        "x": 250,
+        "y": 300
+      },
+      "connectors": []
+    }
+  ],
+  "messages": [
+    {
+      "id": "m1",
+      "content": "",
+      "role": "assistant",
+      "timestamp": 0
+    }
+  ],
+  "currentIds": {
+    "boardId": "b-001",
+    "requestId": ""
+  },
+  "sceneItems": [],
+  "groups": [
+    {
+      "id": "car",
+      "itemIds": [
+        "Object_2",
+        "Object_3",
+        "Object_4",
+        "Object_5",
+        "Object_6",
+        "Object_7",
+        "Object_8",
+        "Object_9",
+        "Object_10",
+        "Object_11",
+        "Object_12",
+        "Object_13"
+      ],
+      "isGroup": true,
+      "itemType": "group",
+      "params": {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "dots": [
+    {
+      "id": "1",
+      "itemId": "universal",
+      "dotType": "camera-universal",
+      "layerId": "dots",
+      "timestamp": 0,
+      "params": {
+        "x": -2,
+        "y": "1",
+        "z": -10
+      }
+    },
+    {
+      "id": "2",
+      "itemId": "car",
+      "timestamp": 0,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "3",
+      "timestamp": 20,
+      "itemId": "g2",
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "4",
+      "timestamp": 20,
+      "itemId": "g3",
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "5",
+      "itemId": "arc",
+      "dotType": "camera-arc",
+      "timestamp": 50,
+      "layerId": "dots",
+      "params": {
+        "alpha": -17,
+        "beta": 64,
+        "radius": 12,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "isAnimated": true
+      }
+    },
+    {
+      "id": "6",
+      "itemId": "g1",
+      "timestamp": 50,
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": -40,
+        "y": 0,
+        "z": -40,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true,
+        "l": 1
+      },
+      "isSelected": false
+    },
+    {
+      "id": "7",
+      "itemId": "universal",
+      "dotType": "camera-universal",
+      "layerId": "dots",
+      "timestamp": 50,
+      "params": {
+        "x": -2,
+        "y": "1",
+        "z": -10
+      }
+    },
+    {
+      "id": "8",
+      "itemId": "g1",
+      "timestamp": 50,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": true
+      }
+    },
+    {
+      "id": "9",
+      "timestamp": 50,
+      "itemId": "g1",
+      "shotId": "s1",
+      "isSetPiece": true,
+      "layerId": "dots",
+      "params": {
+        "x": -40,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "alpha": 0,
+        "beta": 0,
+        "radius": 0
+      }
+    },
+    {
+      "id": "10",
+      "itemId": "universal",
+      "dotType": "camera-universal",
+      "layerId": "dots",
+      "timestamp": 5268,
+      "params": {
+        "x": -2,
+        "y": "1",
+        "z": -10,
+        "rx": 3,
+        "ry": -173,
+        "rz": 0
+      }
+    },
+    {
+      "id": "11",
+      "itemId": "car",
+      "timestamp": 7000,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": true
+      }
+    },
+    {
+      "id": "12",
+      "itemId": "g1",
+      "layerId": "dots",
+      "dotType": "mesh",
+      "timestamp": 7800.000000000001,
+      "params": {
+        "x": -40,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "13",
+      "timestamp": 7870,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 0,
+        "y": 0.2,
+        "ry": 180,
+        "z": 50,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true
+      }
+    },
+    {
+      "id": "14",
+      "itemId": "g1",
+      "timestamp": 7870,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "15",
+      "itemId": "universal",
+      "dotType": "camera-universal",
+      "layerId": "dots",
+      "timestamp": 7880,
+      "params": {
+        "x": 63,
+        "y": 8,
+        "z": -4.6,
+        "rx": 3,
+        "ry": -84,
+        "rz": 0
+      }
+    },
+    {
+      "id": "16",
+      "timestamp": 10942,
+      "itemId": "universal",
+      "dotType": "camera-universal",
+      "layerId": "dots",
+      "params": {
+        "x": 63,
+        "y": 8,
+        "z": -4.6,
+        "rx": 3,
+        "ry": -84,
+        "rz": 0
+      }
+    },
+    {
+      "id": "17",
+      "timestamp": 11858,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 0,
+        "y": 0.2,
+        "z": 4,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "ry": 180,
+        "isAnimated": true
+      }
+    },
+    {
+      "id": "18",
+      "timestamp": 12000,
+      "itemId": "arc",
+      "dotType": "camera-arc",
+      "layerId": "dots",
+      "params": {
+        "x": 0,
+        "y": "1",
+        "z": 0,
+        "alpha": -179.34,
+        "beta": 86.43,
+        "radius": 24,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true
+      }
+    },
+    {
+      "id": "19",
+      "itemId": "g1",
+      "timestamp": 12000,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": true
+      }
+    },
+    {
+      "id": "20",
+      "timestamp": 12539,
+      "itemId": "car",
+      "shotId": "s3",
+      "isSetPiece": true,
+      "layerId": "dots",
+      "params": {
+        "x": 0,
+        "y": 0.2,
+        "z": 0,
+        "rx": 0,
+        "ry": 180,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "alpha": 0,
+        "beta": 0,
+        "radius": 0
+      }
+    },
+    {
+      "id": "21",
+      "timestamp": 15000,
+      "itemId": "arc",
+      "dotType": "camera-arc",
+      "layerId": "dots",
+      "params": {
+        "alpha": -179.34,
+        "beta": 86.43,
+        "radius": 19,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true
+      }
+    },
+    {
+      "id": "22",
+      "itemId": "g2",
+      "layerId": "dots",
+      "dotType": "mesh",
+      "timestamp": 18000,
+      "params": {
+        "x": 40,
+        "y": 0,
+        "z": -40,
+        "rx": 0,
+        "ry": 180,
+        "rz": 0,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true,
+        "l": 1
+      },
+      "isSelected": false
+    },
+    {
+      "id": "23",
+      "itemId": "g2",
+      "timestamp": 19000,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": true
+      }
+    },
+    {
+      "id": "24",
+      "timestamp": 19800,
+      "layerId": "sfx",
+      "itemId": "",
+      "params": {
+        "url": "https://raw.githubusercontent.com/dht/boards-starter/main/public/sounds/modelz/flyby.mp3",
+        "volume": 0
+      }
+    },
+    {
+      "id": "25",
+      "timestamp": 19800,
+      "layerId": "vfx",
+      "itemId": "",
+      "params": {
+        "url": "https://raw.githubusercontent.com/dht/boards-starter/main/public/sounds/modelz/flyby.mp4",
+        "volume": 0
+      }
+    },
+    {
+      "id": "26",
+      "timestamp": 21000,
+      "itemId": "arc",
+      "dotType": "camera-arc",
+      "layerId": "dots",
+      "params": {
+        "alpha": -179.34,
+        "beta": 86.43,
+        "radius": 12,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true
+      }
+    },
+    {
+      "id": "27",
+      "itemId": "g3",
+      "layerId": "dots",
+      "dotType": "mesh",
+      "timestamp": 21000,
+      "params": {
+        "x": -40,
+        "y": 0,
+        "z": -40,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true,
+        "l": 1
+      },
+      "isSelected": false
+    },
+    {
+      "id": "28",
+      "itemId": "g3",
+      "timestamp": 21200,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": true
+      }
+    },
+    {
+      "id": "29",
+      "timestamp": 21658,
+      "itemId": "arc",
+      "dotType": "camera-arc",
+      "layerId": "dots",
+      "params": {
+        "alpha": -2.34,
+        "beta": 86.43,
+        "radius": 22
+      }
+    },
+    {
+      "id": "30",
+      "itemId": "g2",
+      "timestamp": 21800,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "31",
+      "timestamp": 23300,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 0,
+        "y": 0.2,
+        "ry": 180,
+        "z": 0,
+        "b1": "",
+        "b2": "",
+        "b3": "",
+        "b4": "",
+        "isAnimated": true
+      }
+    },
+    {
+      "id": "32",
+      "itemId": "g2",
+      "layerId": "dots",
+      "dotType": "mesh",
+      "timestamp": 25000,
+      "params": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "33",
+      "timestamp": 25300,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 0,
+        "y": 0.2,
+        "ry": 180,
+        "z": -25,
+        "b1": "",
+        "b2": "",
+        "b3": "",
+        "b4": "",
+        "isAnimated": false
+      }
+    },
+    {
+      "id": "34",
+      "timestamp": 26170,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 0,
+        "y": 0.2,
+        "ry": 180,
+        "z": -70
+      }
+    },
+    {
+      "id": "35",
+      "itemId": "g1",
+      "timestamp": 27100,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "36",
+      "itemId": "g2",
+      "timestamp": 27100,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "37",
+      "itemId": "g3",
+      "timestamp": 27100,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "38",
+      "timestamp": 27300.364191729324,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 0,
+        "y": 0.2,
+        "z": 0,
+        "rx": 0,
+        "ry": 180,
+        "rz": 0
+      }
+    },
+    {
+      "id": "39",
+      "timestamp": 27303.677742869262,
+      "itemId": "arc",
+      "dotType": "camera-arc",
+      "layerId": "dots",
+      "params": {
+        "alpha": -67.77,
+        "beta": 37.1,
+        "radius": 14,
+        "b1": "",
+        "b2": "",
+        "b3": "",
+        "b4": "",
+        "isAnimated": false,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0
+      }
+    },
+    {
+      "id": "40",
+      "timestamp": 27399,
+      "layerId": "hud",
+      "itemId": "car",
+      "dotType": "mesh",
+      "params": {
+        "show": true
+      }
+    },
+    {
+      "id": "41",
+      "itemId": "g3",
+      "layerId": "dots",
+      "dotType": "mesh",
+      "timestamp": 29000,
+      "params": {
+        "x": -40,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "42",
+      "timestamp": 29709.260080173633,
+      "layerId": "dots",
+      "itemId": "arc",
+      "dotType": "camera-arc",
+      "params": {
+        "alpha": -67.77,
+        "beta": 37.1,
+        "radius": 14,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0
+      }
+    },
+    {
+      "id": "43",
+      "timestamp": 31330.43523391158,
+      "itemId": "arc",
+      "dotType": "camera-arc",
+      "layerId": "dots",
+      "params": {
+        "alpha": 95.88,
+        "beta": 85.1,
+        "radius": 14,
+        "b1": "",
+        "b2": "",
+        "b3": "",
+        "b4": "",
+        "isAnimated": false,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0
+      }
+    },
+    {
+      "id": "44",
+      "timestamp": 32998.458756838496,
+      "layerId": "dots",
+      "itemId": "arc",
+      "dotType": "camera-arc",
+      "params": {
+        "alpha": 95.88,
+        "beta": 85.1,
+        "radius": 14,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0
+      }
+    },
+    {
+      "id": "45",
+      "timestamp": 34123,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 90,
+        "rz": 0,
+        "alpha": 0,
+        "beta": 0,
+        "radius": 0,
+        "b1": "",
+        "b2": "",
+        "b3": "",
+        "b4": "",
+        "isAnimated": false
+      }
+    },
+    {
+      "id": "46",
+      "timestamp": 34748.45415418275,
+      "layerId": "dots",
+      "itemId": "arc",
+      "dotType": "camera-arc",
+      "params": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "alpha": -152.76,
+        "beta": 68.23,
+        "radius": 14
+      }
+    },
+    {
+      "id": "47",
+      "timestamp": 37399,
+      "layerId": "viz",
+      "dotType": "viz",
+      "itemId": "car",
+      "params": {
+        "show": true
+      }
+    },
+    {
+      "id": "48",
+      "timestamp": 38399,
+      "layerId": "hud",
+      "itemId": "car",
+      "dotType": "mesh",
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "49",
+      "timestamp": 38519,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 55.99,
+        "y": -18.1,
+        "z": -42.78,
+        "rx": -26.78,
+        "ry": 76.85,
+        "rz": 7.83,
+        "alpha": 0,
+        "beta": 0,
+        "radius": 0,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true,
+        "replace": true,
+        "sx": 0.46,
+        "sy": 0.46,
+        "sz": 0.46,
+        "isArc": false
+      }
+    },
+    {
+      "id": "50",
+      "timestamp": 38520.611702303504,
+      "layerId": "sky",
+      "dotType": "sky",
+      "itemId": "skyPlane",
+      "params": {
+        "url": "https://raw.githubusercontent.com/dht/boards-starter/main/public/scenes/s3.png"
+      }
+    },
+    {
+      "id": "51",
+      "itemId": "skyPlane",
+      "layerId": "viz",
+      "dotType": "viz",
+      "timestamp": 38821,
+      "params": {
+        "show": true
+      }
+    },
+    {
+      "id": "52",
+      "timestamp": 38862.86837957126,
+      "itemId": "universal",
+      "dotType": "camera-universal",
+      "layerId": "dots",
+      "params": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 90,
+        "rz": 0,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true
+      }
+    },
+    {
+      "id": "53",
+      "timestamp": 42162,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 67.57,
+        "y": 3.94,
+        "z": -24.75,
+        "rx": -28.05,
+        "ry": 80.39,
+        "rz": -0.63,
+        "alpha": 0,
+        "beta": 0,
+        "radius": 0,
+        "b1": "",
+        "b2": "",
+        "b3": "",
+        "b4": "",
+        "isAnimated": false,
+        "replace": true,
+        "sx": 0.37,
+        "sy": 0.37,
+        "sz": 0.37,
+        "isArc": false
+      }
+    },
+    {
+      "id": "54",
+      "timestamp": 42362,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 34.57,
+        "y": 6.79,
+        "z": -12.75,
+        "rx": 2.85,
+        "ry": 57.39,
+        "rz": -3.33,
+        "alpha": 0,
+        "beta": 0,
+        "radius": 0,
+        "b1": "",
+        "b2": "",
+        "b3": "",
+        "b4": "",
+        "isAnimated": true,
+        "replace": true,
+        "sx": 0.9,
+        "sy": 0.9,
+        "sz": 0.9,
+        "isArc": false
+      }
+    },
+    {
+      "id": "55",
+      "timestamp": 42452.618567885904,
+      "layerId": "sky",
+      "dotType": "sky",
+      "itemId": "skyPlane",
+      "params": {
+        "url": "https://raw.githubusercontent.com/dht/boards-starter/main/public/scenes/s4.png"
+      }
+    },
+    {
+      "id": "56",
+      "timestamp": 46080,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 56,
+        "y": 5.5,
+        "z": 1.5,
+        "rx": 2.83,
+        "ry": 57.57,
+        "rz": -3.31,
+        "alpha": 0,
+        "beta": 0,
+        "radius": 0,
+        "b1": "",
+        "b2": "",
+        "b3": "",
+        "b4": "",
+        "isAnimated": false,
+        "sx": 0.9,
+        "sy": 0.9,
+        "sz": 0.9
+      }
+    },
+    {
+      "id": "57",
+      "timestamp": 46093.6441246273,
+      "layerId": "sky",
+      "dotType": "sky",
+      "itemId": "skyPlane",
+      "params": {
+        "url": "https://raw.githubusercontent.com/dht/boards-starter/main/public/scenes/s2.png"
+      }
+    },
+    {
+      "id": "58",
+      "timestamp": 46094,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 60.5,
+        "y": -12.27,
+        "z": -3.09,
+        "rx": -5.74,
+        "ry": -84.76,
+        "rz": -2.17,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true,
+        "sx": 0.83,
+        "sy": 0.83,
+        "sz": 0.83
+      }
+    },
+    {
+      "id": "59",
+      "timestamp": 48355,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 1.59,
+        "y": -5.73,
+        "z": 7.83,
+        "rx": -5.29,
+        "ry": -79.34,
+        "rz": -2.69,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": false,
+        "sx": 0.99,
+        "sy": 0.99,
+        "sz": 0.99
+      }
+    },
+    {
+      "id": "60",
+      "timestamp": 50261,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 60.99,
+        "y": -16.66,
+        "z": -3.9,
+        "rx": -2.03,
+        "ry": -40.63,
+        "rz": -5.13,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "sx": 0.7,
+        "sy": 0.7,
+        "sz": 0.7,
+        "isAnimated": true
+      }
+    },
+    {
+      "id": "61",
+      "timestamp": 50263.49984082825,
+      "layerId": "sky",
+      "dotType": "sky",
+      "itemId": "skyPlane",
+      "params": {
+        "url": "https://raw.githubusercontent.com/dht/boards-starter/main/public/scenes/s1.png"
+      }
+    },
+    {
+      "id": "62",
+      "timestamp": 50284.138779154615,
+      "itemId": "universal",
+      "dotType": "camera-universal",
+      "layerId": "dots",
+      "params": {
+        "x": 15,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 90,
+        "rz": 0,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": false
+      }
+    },
+    {
+      "id": "63",
+      "timestamp": 52175.08427113182,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 62,
+        "y": -16,
+        "z": 1.5,
+        "rx": 0.5,
+        "ry": -11,
+        "rz": -6,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "sx": 0.7,
+        "sy": 0.7,
+        "sz": 0.7,
+        "isAnimated": false
+      }
+    },
+    {
+      "id": "64",
+      "timestamp": 52559,
+      "itemId": "g2",
+      "layerId": "dots",
+      "dotType": "mesh",
+      "params": {
+        "x": 4.55,
+        "y": 0,
+        "z": -4.55,
+        "rx": 0,
+        "ry": 180,
+        "rz": 0,
+        "alpha": 0,
+        "beta": 0,
+        "radius": 0,
+        "isAnimated": true,
+        "l": 0
+      }
+    },
+    {
+      "id": "65",
+      "timestamp": 52822.138779154615,
+      "itemId": "universal",
+      "dotType": "camera-universal",
+      "layerId": "dots",
+      "params": {
+        "x": 15,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 90,
+        "rz": 0,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true
+      }
+    },
+    {
+      "id": "66",
+      "itemId": "car",
+      "timestamp": 53722,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "67",
+      "itemId": "skyPlane",
+      "layerId": "viz",
+      "dotType": "viz",
+      "timestamp": 53821,
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "68",
+      "timestamp": 54052,
+      "itemId": "g2",
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": true
+      }
+    },
+    {
+      "id": "69",
+      "timestamp": 54303,
+      "itemId": "g1",
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": true
+      }
+    },
+    {
+      "id": "70",
+      "timestamp": 54429,
+      "itemId": "g3",
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": true
+      }
+    },
+    {
+      "id": "71",
+      "itemId": "car",
+      "timestamp": 54822,
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": true
+      }
+    },
+    {
+      "id": "72",
+      "timestamp": 54822.08427113182,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 20.2,
+        "y": -2.15,
+        "z": 10.7,
+        "rx": 2.4,
+        "ry": 147.63,
+        "rz": -10,
+        "alpha": 0,
+        "beta": 0,
+        "radius": 0,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": true,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      }
+    },
+    {
+      "id": "73",
+      "timestamp": 55022.138779154615,
+      "itemId": "universal",
+      "dotType": "camera-universal",
+      "layerId": "dots",
+      "params": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 90,
+        "rz": 0,
+        "b1": 0.5,
+        "b2": 0.5,
+        "b3": 0.5,
+        "b4": 0.5,
+        "isAnimated": false
+      }
+    },
+    {
+      "id": "74",
+      "timestamp": 55141,
+      "itemId": "g1",
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "75",
+      "timestamp": 55141,
+      "itemId": "g3",
+      "layerId": "viz",
+      "dotType": "viz",
+      "params": {
+        "show": false
+      }
+    },
+    {
+      "id": "76",
+      "timestamp": 56221,
+      "itemId": "g2",
+      "layerId": "dots",
+      "dotType": "mesh",
+      "params": {
+        "x": 24.86,
+        "y": 0,
+        "z": -24.86,
+        "rx": 0,
+        "ry": 180,
+        "rz": 0,
+        "alpha": 0,
+        "beta": 0,
+        "radius": 0,
+        "isAnimated": false,
+        "l": 0
+      }
+    },
+    {
+      "id": "77",
+      "timestamp": 56390,
+      "itemId": "car",
+      "dotType": "mesh",
+      "layerId": "dots",
+      "params": {
+        "x": 13.6,
+        "y": -2.6,
+        "z": 3.5,
+        "rx": 2.4,
+        "ry": 204.92,
+        "rz": -10,
+        "alpha": 0,
+        "beta": 0,
+        "radius": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      }
+    }
+  ],
+  "shots": [
+    {
+      "id": "s1",
+      "timestamp": 0,
+      "name": "s1"
+    },
+    {
+      "id": "s2",
+      "timestamp": 8217.314912795619,
+      "name": "s2"
+    },
+    {
+      "id": "s3",
+      "timestamp": 12539.133155583439,
+      "name": "s3"
+    },
+    {
+      "id": "s4",
+      "timestamp": 26286.355552070265,
+      "name": "s4"
+    },
+    {
+      "id": "s5",
+      "timestamp": 38492.22271016311,
+      "name": "s5"
+    },
+    {
+      "id": "s6",
+      "timestamp": 42449.75643036387,
+      "name": "s6"
+    },
+    {
+      "id": "s7",
+      "timestamp": 46157.34065244667,
+      "name": "s7"
+    },
+    {
+      "id": "d36f",
+      "timestamp": 50448.14037013802,
+      "name": "New shot"
+    },
+    {
+      "id": "c40b",
+      "timestamp": 54447.33234002509,
+      "name": "New shot"
+    }
+  ]
+}

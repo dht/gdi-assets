@@ -1,0 +1,108 @@
+{
+  "id": "B-008",
+  "identifier": "com.usegdi.voice-studio",
+  "version": "0.1.0",
+  "url": "/boards/B-008",
+  "boardInfo": {
+    "name": "Voice Studio",
+    "index": 8,
+    "imageUrl": "/images/z_soundboard.jpg",
+    "boardType": "adhoc",
+    "description": "VoiceStudio is a professional-quality voice-over creation application designed to cater to the needs of voice actors and content creators. This versatile tool empowers users to record, edit, and enhance voice recordings for a wide range of applications, including narration, podcasting, audio books, and more. With its intuitive interface and advanced features, VoiceStudio offers a seamless experience for anyone looking to create captivating voice overs with ease.",
+    "descriptionLong": "VoiceStudio is a professional-quality voice-over creation application designed to cater to the needs of voice actors and content creators. This versatile tool empowers users to record, edit, and enhance voice recordings for a wide range of applications, including narration, podcasting, audio books, and more. With its intuitive interface and advanced features, VoiceStudio offers a seamless experience for anyone looking to create captivating voice overs with ease. The app provides a comprehensive suite of tools such as multi-track recording, audio mixing, effects processing, and voice modulation, enabling users to achieve professional-grade results. VoiceStudio supports a variety of audio formats and allows for seamless integration with external microphones and audio interfaces, ensuring maximum flexibility for users. Whether you're a seasoned voice actor or a beginner exploring the world of voice-over creation, VoiceStudio promises to elevate your recording experience and deliver outstanding results. Unlock your creative potential and bring your voice projects to life with VoiceStudio!",
+    "oneLiner": "Empower your voice creations with professional-grade recording, editing, and enhancement tools in VoiceStudio - the ultimate voice-over app for content creators.",
+    "oneLinerShort": "\"Professional voice over creation simplified\"",
+    "header": "",
+    "fields": [],
+    "tags": ["voiceover", "recording", "audio", "creation"],
+    "order": 9,
+    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tsVersion": 0
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/widgets-starter": "0.6.3"
+  },
+  "apis": ["turbo-3.5"],
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "B-008",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.speech",
+        "title": "ImageViewer",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-008",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.speech-params",
+        "title": "Speech Params",
+        "position": {
+          "x": 5,
+          "y": 23
+        },
+        "dimension": {
+          "x": 48,
+          "y": 23
+        },
+        "boardId": "B-008",
+        "flags": {},
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "dimension": {
+          "x": 44,
+          "y": 14
+        },
+        "boardId": "B-008",
+        "flags": {},
+        "props": {}
+      }
+    }
+  },
+  "defaults": {
+    "setupId": "default",
+    "playbackId": ""
+  },
+  "setupsUrl": "",
+  "playbacksUrl": "",
+  "flowUrl": "/B-008/B-008.flow.json",
+  "isActive": true,
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  }
+}

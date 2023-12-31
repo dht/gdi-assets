@@ -1,0 +1,126 @@
+{
+  "id": "B-007",
+  "identifier": "com.usegdi.assistants",
+  "version": "0.1.0",
+  "url": "/boards/B-007",
+  "boardInfo": {
+    "name": "Assistants",
+    "index": 9,
+    "imageUrl": "/images/z_assistants.jpg",
+    "boardType": "continues",
+    "description": "Assistants is a revolutionary app that transforms the way we interact with virtual assistants. With its advanced AI technology, this app empowers users to create their own virtual assistants, allowing them to customize the experience to their specific needs.\n\nGone are the days of generic and impersonal assistants. With Assistants, you can create a virtual assistant that is tailored to your preferences. Whether you're looking for a personal assistant, a business assistant, or a virtual companion, this app has got you covered.\n\nAssistants combines the power of AI and 3D simulation to create a unique and interactive environment. Experience the future of virtual assistants with Assistants and discover a world of possibilities.",
+    "descriptionLong": "Use assistants similarly to tap into the power of AI. Generate JSONs or navigate the library of various IO assistants.",
+    "oneLiner": "Navigate the library of various IO assistants.",
+    "oneLinerShort": "Navigate the library of various IO assistants.",
+    "header": "show about ${prompt}",
+    "fields": [
+      {
+        "label": "input",
+        "content": "Prompt"
+      },
+      {
+        "label": "output",
+        "content": "3d conversation"
+      },
+      {
+        "label": "engines",
+        "content": "LLM #1, LLM #2, ElevenLabs"
+      }
+    ],
+    "tags": ["animation", "stop motion", "3D", "creativity", "young_artists"],
+    "order": 2,
+    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
+    "tsVersion": 0
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^0.0.4",
+    "@gdi/ui": "^0.0.1",
+    "@gdi/widgets-starter": "^0.0.6"
+  },
+  "apis": ["3D-engine-1.0", "camera-motion-2.1", "timeline-1.5"],
+  "defaults": {
+    "setupId": "default",
+    "playbackId": ""
+  },
+  "setupsUrl": "",
+  "playbacksUrl": "",
+  "flowUrl": "/B-007/B-007.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/B-007",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": false,
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "B-007",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.chat",
+        "title": "Chat",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-007",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.assistants-panel",
+        "title": "Assistants Panel",
+        "position": {
+          "x": 4,
+          "y": 33
+        },
+        "dimension": {
+          "x": 50,
+          "y": 13
+        },
+        "boardId": "B-007",
+        "flags": {},
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "dimension": {
+          "x": 44,
+          "y": 24
+        },
+        "boardId": "B-007",
+        "flags": {},
+        "props": {}
+      }
+    }
+  }
+}

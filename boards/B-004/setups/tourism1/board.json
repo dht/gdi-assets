@@ -1,0 +1,24 @@
+{
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.babylon",
+        "title": "babylon",
+        "position": {
+          "x": 56,
+          "y": 2
+        },
+        "dimension": {
+          "x": 63,
+          "y": 24
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "props": {
+          "sceneUrl": "/B-004/setups/tourism1/scene.tourism1.json"
+        }
+      }
+    }
+  }
+}

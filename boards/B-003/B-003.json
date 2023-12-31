@@ -1,0 +1,126 @@
+{
+  "id": "B-003",
+  "identifier": "com.usegdi.image-generator",
+  "version": "0.1.0",
+  "url": "/boards/b-003",
+  "boardInfo": {
+    "name": "Image Generator",
+    "index": 3,
+    "imageUrl": "/images/z_paint.jpg",
+    "boardType": "linear",
+    "description": "Image Generator is a powerful tool that enables users to create AI-generated images with ease. This app provides a simple and intuitive interface, making it accessible to users of all skill levels. With Image Generator, you can effortlessly generate stunning visuals using cutting-edge AI technology.\n\nGone are the days of struggling to find the perfect image for your project. Image Generator puts limitless creativity at your fingertips. Whether you're a beginner or an experienced designer, this app simplifies the image generation process, allowing you to produce professional-quality visuals in minutes.\n\nBy harnessing the power of AI, Image Generator ensures that the images generated are impressive, unique, and tailored to your specific needs. Whether you need images for marketing materials, presentations, social media, or any other creative project, this app has got you covered.\n\nExperience the convenience and flexibility of AI-generated images with Image Generator and take your visual content to the next level.",
+    "descriptionLong": "Image Generator is a groundbreaking app that revolutionizes the way we create images. With its advanced AI technology, this tool empowers users to effortlessly generate stunning visuals. The app provides a simple and intuitive interface, making it accessible to users of all skill levels.\n\nSay goodbye to the days of searching for hours to find the perfect image for your projects. Image Generator puts limitless creativity at your fingertips. Whether you're a beginner or an experienced designer, this app streamlines the image generation process, allowing you to produce professional-quality visuals in minutes.\n\nBy harnessing the power of AI, Image Generator ensures that the images generated are impressive, unique, and tailored to your specific needs. Whether you're creating marketing materials, presentations, social media content, or any other creative project, this app has got you covered.\n\nExperience the convenience and flexibility of AI-generated images with Image Generator and take your visual content to new heights.",
+    "oneLiner": "Unlock limitless creativity with AI-generated images using Image Generator.",
+    "oneLinerShort": "Unlock limitless creativity with AI-generated images.",
+    "header": "Generate images with GPT",
+    "fields": [
+      {
+        "label": "input",
+        "content": "Prompt"
+      },
+      {
+        "label": "output",
+        "content": "3d conversation"
+      },
+      {
+        "label": "engines",
+        "content": "LLM #1, LLM #2, ElevenLabs"
+      }
+    ],
+    "tags": ["image", "generator", "AI", "visuals", "top_installed", "editor_choice", "designers"],
+    "order": 2,
+    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
+    "tsVersion": 0
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^0.0.4",
+    "@gdi/ui": "^0.0.1",
+    "@gdi/widgets-starter": "^0.0.6"
+  },
+  "apis": [],
+  "defaults": {
+    "setupId": "default",
+    "playbackId": ""
+  },
+  "setupsUrl": "",
+  "playbacksUrl": "",
+  "flowUrl": "/B-003/B-003.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-004",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": false,
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "B-003",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.image-viewer",
+        "title": "ImageViewer",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-003",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.image-params",
+        "title": "Image Params",
+        "position": {
+          "x": 5,
+          "y": 32
+        },
+        "dimension": {
+          "x": 44,
+          "y": 14
+        },
+        "boardId": "B-003",
+        "flags": {},
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "dimension": {
+          "x": 44,
+          "y": 25
+        },
+        "boardId": "B-003",
+        "flags": {},
+        "props": {}
+      }
+    }
+  }
+}

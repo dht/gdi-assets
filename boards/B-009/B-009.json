@@ -1,0 +1,79 @@
+{
+  "id": "B-009",
+  "identifier": "com.usegdi.scene-builder",
+  "version": "0.1.0",
+  "url": "/boards/B-009",
+  "boardInfo": {
+    "name": "Scene Builder",
+    "index": 9,
+    "imageUrl": "/images/z_scene_builder.jpg",
+    "boardType": "adhoc",
+    "description": "Scene Builder is a cutting-edge application that empowers users to effortlessly create stunning 3D scenes. Whether you're an experienced 3D artist or just starting out, Scene Builder offers a versatile toolkit that enables you to bring your imagination to life. With an intuitive interface and an extensive library of assets, this app ensures seamless scene composition and design. From architectural visualizations to virtual environments, Scene Builder caters to a wide range of 3D scene creation needs. With over 10,000 installations and a stellar rating of 4.7, it has become the go-to choice for 3D enthusiasts seeking unparalleled creativity and flexibility.",
+    "descriptionLong": "Scene Builder is a cutting-edge application that empowers users to effortlessly create stunning 3D scenes. Whether you're an experienced 3D artist or just starting out, Scene Builder offers a versatile toolkit that enables you to bring your imagination to life. With an intuitive interface and an extensive library of assets, this app ensures seamless scene composition and design. From architectural visualizations to virtual environments, Scene Builder caters to a wide range of 3D scene creation needs. Boasting over 10,000 installations and a stellar rating of 4.7, it has become the go-to choice for 3D enthusiasts seeking unparalleled creativity and flexibility.",
+    "oneLiner": "Empower your imagination with Scene Builder, the ultimate tool for creating stunning 3D scenes.",
+    "oneLinerShort": "\"Empower your imagination: Scene Builder\"",
+    "header": "",
+    "fields": [],
+    "tags": ["3D", "scene", "visualization", "creation"],
+    "order": 8,
+    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tsVersion": 0
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/widgets-starter": "0.6.3"
+  },
+  "apis": ["turbo-3.5"],
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "B-009",
+        "flags": {},
+        "props": {
+          "darkMode": true
+        }
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.scene-builder",
+        "title": "Scene Builder",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 47
+        },
+        "boardId": "B-009",
+        "flags": {},
+        "props": {}
+      }
+    }
+  },
+  "defaults": {
+    "setupId": "default",
+    "playbackId": ""
+  },
+  "setupsUrl": "",
+  "playbacksUrl": "",
+  "flowUrl": "",
+  "isActive": true,
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  }
+}

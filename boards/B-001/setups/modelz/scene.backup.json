@@ -1,0 +1,110 @@
+{
+  "identifier": "ville",
+  "backgroundType": "color",
+  "useRightHandedSystem": true,
+  "backgroundValues": {
+    "color": [0.97, 0.97, 0.97, 1]
+  },
+  "id": "ville",
+  "name": "Ville",
+  "flyIn": {
+    "alpha": 0.5,
+    "radius": 33,
+    "target": [0, 0, 0],
+    "beta": 1
+  },
+  "index": 2,
+  "cameras": {},
+  "grounds": {
+    "g1": {
+      "height": 100,
+      "position": {
+        "x": -40,
+        "y": 0,
+        "z": -40
+      },
+      "values": {
+        "opacity": 0.4,
+        "lineColor": [0.8, 1, 0.8],
+        "mainColor": [0, 0.3, 0],
+        "majorUnitFrequency": 2,
+        "gridRatio": 0.5,
+        "heightMap": "http://localhost:3001/scenes/heightMap-blank.png",
+        "maxHeight": 50
+      },
+      "width": 100,
+      "subdivisions": 100,
+      "type": "grid",
+      "identifier": "ground-1",
+      "boardId": "ville",
+      "receiveShadows": true,
+      "id": "g1",
+      "index": 0
+    },
+    "g2": {
+      "height": 100,
+      "position": {
+        "x": -40,
+        "y": 0,
+        "z": -40
+      },
+      "values": {
+        "opacity": 0,
+        "lineColor": [0.8, 1, 0.8],
+        "mainColor": [0, 0.3, 0],
+        "majorUnitFrequency": 2,
+        "gridRatio": 0.5,
+        "heightMap": "http://localhost:3001/scenes/heightMap.png",
+        "maxHeight": 15
+      },
+      "width": 100,
+      "subdivisions": 100,
+      "type": "grid",
+      "identifier": "ground-2",
+      "boardId": "ville",
+      "receiveShadows": true,
+      "id": "g2",
+      "index": 0
+    },
+    "g3": {
+      "height": 100,
+      "position": {
+        "x": -40,
+        "y": 0,
+        "z": -40
+      },
+      "values": {
+        "opacity": 0,
+        "lineColor": [0.8, 1, 0.8],
+        "mainColor": [0, 0.3, 0],
+        "majorUnitFrequency": 2,
+        "gridRatio": 0.5,
+        "heightMap": "http://localhost:3001/scenes/heightMap-city.png",
+        "maxHeight": 50
+      },
+      "width": 100,
+      "subdivisions": 100,
+      "type": "grid",
+      "identifier": "ground-3",
+      "boardId": "ville",
+      "receiveShadows": true,
+      "id": "g3",
+      "index": 0
+    }
+  },
+  "externals": {
+    "x1": {
+      "id": "x1",
+      "url": "http://localhost:3001/scenes/car3.glb",
+      "identifier": "external-1",
+      "boardId": "ville",
+      "index": 0
+    }
+  },
+  "lights": {},
+  "packs": {},
+  "particles": {},
+  "sounds": {},
+  "sprites": {},
+  "videos": {}
+}
