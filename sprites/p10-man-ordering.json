@@ -1,0 +1,28 @@
+{"frames": {
+
+"b.svg":
+{
+	"frame": {"x":1,"y":1,"w":131,"h":435},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":435},
+	"sourceSize": {"w":131,"h":435}
+},
+"n.svg":
+{
+	"frame": {"x":1,"y":438,"w":131,"h":435},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":435},
+	"sourceSize": {"w":131,"h":435}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "p10-man-ordering.png",
+	"format": "RGBA8888",
+	"size": {"w":133,"h":874},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f84608b75b0c58fb73052d9b773b6cde:1210442de19df07d1278c7030497910f:e701d89a02dd1f75c89cfdc3bde7ffb6$"
+}
+}

@@ -1,0 +1,84 @@
+{"frames": {
+
+"a.svg":
+{
+	"frame": {"x":1,"y":1,"w":114,"h":401},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":401},
+	"sourceSize": {"w":114,"h":401}
+},
+"e.svg":
+{
+	"frame": {"x":117,"y":1,"w":114,"h":401},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":401},
+	"sourceSize": {"w":114,"h":401}
+},
+"fv.svg":
+{
+	"frame": {"x":1,"y":404,"w":114,"h":401},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":401},
+	"sourceSize": {"w":114,"h":401}
+},
+"ln.svg":
+{
+	"frame": {"x":117,"y":404,"w":114,"h":401},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":401},
+	"sourceSize": {"w":114,"h":401}
+},
+"mbp.svg":
+{
+	"frame": {"x":1,"y":807,"w":114,"h":401},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":401},
+	"sourceSize": {"w":114,"h":401}
+},
+"o.svg":
+{
+	"frame": {"x":117,"y":807,"w":114,"h":401},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":401},
+	"sourceSize": {"w":114,"h":401}
+},
+"st.svg":
+{
+	"frame": {"x":1,"y":1210,"w":114,"h":401},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":401},
+	"sourceSize": {"w":114,"h":401}
+},
+"uq.svg":
+{
+	"frame": {"x":117,"y":1210,"w":114,"h":401},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":401},
+	"sourceSize": {"w":114,"h":401}
+},
+"wr.svg":
+{
+	"frame": {"x":1,"y":1613,"w":114,"h":401},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":401},
+	"sourceSize": {"w":114,"h":401}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "p1-woman-red.png",
+	"format": "RGBA8888",
+	"size": {"w":232,"h":2015},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4125af217a7514b8ce832cd9c6ca3f86:cceeb2baf9ef3fba84988c095c96262d:7269e893d75d7b184c751e80e5da24fa$"
+}
+}

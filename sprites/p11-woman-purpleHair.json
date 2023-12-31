@@ -1,0 +1,84 @@
+{"frames": {
+
+"a.svg":
+{
+	"frame": {"x":1,"y":1,"w":237,"h":418},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":418},
+	"sourceSize": {"w":237,"h":418}
+},
+"e.svg":
+{
+	"frame": {"x":1,"y":421,"w":237,"h":418},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":418},
+	"sourceSize": {"w":237,"h":418}
+},
+"fv.svg":
+{
+	"frame": {"x":240,"y":1,"w":237,"h":418},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":418},
+	"sourceSize": {"w":237,"h":418}
+},
+"ln.svg":
+{
+	"frame": {"x":240,"y":421,"w":237,"h":418},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":237,"h":418},
+	"sourceSize": {"w":237,"h":419}
+},
+"mbp.svg":
+{
+	"frame": {"x":479,"y":1,"w":237,"h":418},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":418},
+	"sourceSize": {"w":237,"h":418}
+},
+"o.svg":
+{
+	"frame": {"x":479,"y":421,"w":237,"h":418},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":418},
+	"sourceSize": {"w":237,"h":418}
+},
+"st.svg":
+{
+	"frame": {"x":718,"y":1,"w":237,"h":418},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":418},
+	"sourceSize": {"w":237,"h":418}
+},
+"uq.svg":
+{
+	"frame": {"x":718,"y":421,"w":237,"h":418},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":418},
+	"sourceSize": {"w":237,"h":418}
+},
+"wr.svg":
+{
+	"frame": {"x":957,"y":1,"w":237,"h":417},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":417},
+	"sourceSize": {"w":237,"h":417}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "p11-woman-purpleHair.png",
+	"format": "RGBA8888",
+	"size": {"w":1195,"h":840},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:fab2b5035f2844f62209532cffd8ea03:2c07c7c57411ea4b8382ddea811196f2:9adf90aff0bc6bcdbe66152872d8f5eb$"
+}
+}

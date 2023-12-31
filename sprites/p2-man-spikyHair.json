@@ -1,0 +1,84 @@
+{"frames": {
+
+"a.svg":
+{
+	"frame": {"x":1,"y":1,"w":124,"h":439},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":439},
+	"sourceSize": {"w":124,"h":439}
+},
+"e.svg":
+{
+	"frame": {"x":127,"y":1,"w":124,"h":439},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":439},
+	"sourceSize": {"w":124,"h":439}
+},
+"fv.svg":
+{
+	"frame": {"x":253,"y":1,"w":124,"h":439},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":439},
+	"sourceSize": {"w":124,"h":439}
+},
+"ln.svg":
+{
+	"frame": {"x":379,"y":1,"w":124,"h":439},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":439},
+	"sourceSize": {"w":124,"h":439}
+},
+"mbp.svg":
+{
+	"frame": {"x":505,"y":1,"w":124,"h":439},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":439},
+	"sourceSize": {"w":124,"h":439}
+},
+"o.svg":
+{
+	"frame": {"x":631,"y":1,"w":124,"h":439},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":439},
+	"sourceSize": {"w":124,"h":439}
+},
+"st.svg":
+{
+	"frame": {"x":757,"y":1,"w":124,"h":439},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":439},
+	"sourceSize": {"w":124,"h":439}
+},
+"uq.svg":
+{
+	"frame": {"x":883,"y":1,"w":124,"h":439},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":439},
+	"sourceSize": {"w":124,"h":439}
+},
+"wr.svg":
+{
+	"frame": {"x":1009,"y":1,"w":124,"h":439},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":439},
+	"sourceSize": {"w":124,"h":439}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "p2-man-spikyHair.png",
+	"format": "RGBA8888",
+	"size": {"w":1134,"h":441},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8b25062927915d30f097f27d8dcb073e:40bd7ef8d4ea8cfcea6fdc359b440ea7:1c8dd506a8756c108d9813fe0f8ff18c$"
+}
+}

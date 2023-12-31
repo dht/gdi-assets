@@ -1,0 +1,28 @@
+{"frames": {
+
+"b.svg":
+{
+	"frame": {"x":1,"y":1,"w":362,"h":402},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":362,"h":402},
+	"sourceSize": {"w":362,"h":402}
+},
+"n.svg":
+{
+	"frame": {"x":365,"y":1,"w":362,"h":402},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":362,"h":402},
+	"sourceSize": {"w":362,"h":402}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "p8-woman-dog.png",
+	"format": "RGBA8888",
+	"size": {"w":728,"h":404},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c3c25bdf21a5f86d38eb290fb1b79d9f:8e8778ce6775836d1d1576dec62e8ffd:50414f8246ac50061ea73251ce8a3c66$"
+}
+}

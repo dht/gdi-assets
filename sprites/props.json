@@ -1,0 +1,28 @@
+{"frames": {
+
+"nest.png":
+{
+	"frame": {"x":1,"y":1,"w":306,"h":315},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":306,"h":315},
+	"sourceSize": {"w":306,"h":315}
+},
+"speakingDot.png":
+{
+	"frame": {"x":1,"y":318,"w":54,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":54},
+	"sourceSize": {"w":54,"h":54}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "props.png",
+	"format": "RGBA8888",
+	"size": {"w":308,"h":373},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a9860319d6dc1a0587c6997449f8a99a:9bbe61d95ce65ae27c02a7989ac248cc:f4c39b94f5b79b4c461da96ae5609d50$"
+}
+}
