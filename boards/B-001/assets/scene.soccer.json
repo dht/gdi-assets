@@ -75,7 +75,7 @@
   },
   "packs": {
     "p1": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/people-0.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/people-0.png",
       "id": "p1",
       "boardId": "ville",
       "capacity": 100,
@@ -86,7 +86,7 @@
       "capacity": 1,
       "boardId": "ville",
       "id": "p2",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/props.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/props.png",
       "identifier": "p2",
       "index": 1
     }

@@ -35,7 +35,7 @@
   "externals": {
     "x1": {
       "id": "x1",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/venice.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/venice.glb",
       "identifier": "external-1",
       "boardId": "ville",
       "index": 0
@@ -75,7 +75,7 @@
   },
   "packs": {
     "p1": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/people-0.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/people-0.png",
       "id": "p1",
       "boardId": "ville",
       "capacity": 100,
@@ -86,7 +86,7 @@
       "capacity": 1,
       "boardId": "ville",
       "id": "p2",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/props.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/props.png",
       "identifier": "p2",
       "index": 1
     }
@@ -96,7 +96,7 @@
       "boardId": "ville",
       "id": "s1",
       "identifier": "sound-1",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/ScottHolmesMusicCelebration.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/ScottHolmesMusicCelebration.mp3",
       "index": 0
     }
   },
