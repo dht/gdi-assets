@@ -38,10 +38,7 @@
       "interactive"
     ],
     "order": 2,
-    "supportedResolutions": [
-      "1920x1080",
-      "1280x720"
-    ],
+    "supportedResolutions": ["1920x1080", "1280x720"],
     "tsVersion": 0
   },
   "author": "gdi",
@@ -50,10 +47,7 @@
     "@gdi/ui": "^0.0.1",
     "@gdi/widgets-starter": "^0.0.6"
   },
-  "apis": [
-    "AI-3.0",
-    "turbo-3.5"
-  ],
+  "apis": ["AI-3.0", "turbo-3.5"],
   "defaults": {
     "setupId": "park",
     "playbackId": "space"
@@ -137,21 +131,6 @@
         "boardId": "B-004",
         "flags": {},
         "props": {}
-      },
-      "e5": {
-        "id": "e5",
-        "widgetId": "com.usegdi.starter.github",
-        "title": "Github",
-        "position": {
-          "x": 52,
-          "y": 44
-        },
-        "dimension": {
-          "x": 1,
-          "y": 1
-        },
-        "boardId": "B-004",
-        "flags": {}
       },
       "e6": {
         "id": "e6",
