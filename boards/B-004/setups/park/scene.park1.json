@@ -110,14 +110,24 @@
       "id": "x2",
       "identifier": "external-2",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/tree.glb",
-      "index": 1
+      "index": 1,
+      "position": {
+        "x": -10,
+        "y": 0,
+        "z": 0
+      }
     },
     "x3": {
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/fountain.glb",
       "id": "x3",
       "boardId": "ville",
       "identifier": "external-3",
-      "index": 2
+      "index": 2,
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      }
     }
   },
   "lights": {
