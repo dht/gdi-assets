@@ -15,7 +15,7 @@
         "upperRadiusLimit": 30,
         "alpha": 1,
         "radius": 25,
-        "lowerBetaLimit": 30,
+        "lowerBetaLimit": 0,
         "beta": 1,
         "lowerRadiusLimit": 5,
         "upperBetaLimit": 80
