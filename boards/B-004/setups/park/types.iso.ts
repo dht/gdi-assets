@@ -183,7 +183,7 @@ export type IVector4 = [number, number, number, number];
 export type IBezier = [number, number, number, number];
 export type IEasing = [number, number, number, number];
 
-export type MaterialType = 'color' | 'texture' | 'grid';
+export type MaterialType = 'color' | 'texture' | 'grid' | 'video';
 
 export type IMaterial = {
   id?: string;

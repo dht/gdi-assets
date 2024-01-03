@@ -80,6 +80,26 @@
           "textureUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/texture-grass-1c.png"
         }
       }
+    },
+    "fountain": {
+      "id": "fountain",
+      "type": "sphere",
+      "values": {
+        "diameterX": 9.3,
+        "diameterY": 9.3,
+        "diameterZ": 0
+      },
+      "material": {
+        "type": "video",
+        "colors": {
+          "specular": [0, 0, 0]
+        },
+        "values": {
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/water-2.mp4"
+        }
+      },
+      "position": [15.9, 0.5, -8.57],
+      "rotation": [90, 0, 0]
     }
   },
   "sceneExternals": {
@@ -500,26 +520,6 @@
       "id": "a1",
       "identifier": "bird-1",
       "index": 0
-    },
-    "v1": {
-      "id": "v1",
-      "vaspType": "video",
-      "identifier": "video-1",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/water-2.mp4",
-      "type": "sphere",
-      "values": {
-        "diameterX": 9.3,
-        "diameterY": 9.3,
-        "diameterZ": 0
-      },
-      "material": {
-        "type": "color",
-        "colors": {
-          "specular": [0, 0, 0]
-        }
-      },
-      "position": [15.9, 0.5, -8.57],
-      "rotation": [90, 0, 0]
     }
   }
 }

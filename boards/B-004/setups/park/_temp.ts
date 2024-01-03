@@ -1,3 +1,3 @@
 import { IIsoStore } from './types.iso';
 
-export const a: IIsoStore = {};
+export const a: Partial<IIsoStore> = {};
