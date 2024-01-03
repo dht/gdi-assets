@@ -1,0 +1,483 @@
+{
+  "id": "ppl",
+  "title": "People",
+  "packs": {
+    "p1-woman-red": {
+      "id": "p1-woman-red",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p1-woman-red.png",
+      "capacity": 1,
+      "identifier": "p1-woman-red",
+      "index": 0,
+      "values": {
+        "size": {
+          "width": 0.684,
+          "height": 2.394
+        },
+        "source": {
+          "width": 114,
+          "height": 399
+        },
+        "isOnGround": true
+      }
+    },
+    "p2-main-spikyHair": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p2-man-spikyHair.png",
+      "id": "p2-man-spikyHair",
+      "capacity": 1,
+      "identifier": "p2-man-spikyHair",
+      "index": 0,
+      "values": {
+        "source": {
+          "width": 115,
+          "height": 409
+        },
+        "size": {
+          "width": 0.69,
+          "height": 2.454
+        }
+      }
+    },
+    "p3-woman-blueHair": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p3-woman-blueHair.png",
+      "id": "p3-woman-blueHair",
+      "capacity": 1,
+      "identifier": "p3-woman-blueHair",
+      "index": 0,
+      "values": {
+        "size": {
+          "width": 0.624,
+          "height": 2.408
+        },
+        "source": {
+          "height": 408,
+          "width": 109
+        },
+        "isOnGround": true
+      }
+    },
+    "p4-woman-fourthWall": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p4-woman-fourthWall.png",
+      "id": "p4-woman-fourthWall",
+      "capacity": 1,
+      "identifier": "p4-woman-fourthWall",
+      "index": 0,
+      "values": {
+        "size": {
+          "height": 2.69,
+          "width": 0.9280000000000001
+        },
+        "source": {
+          "width": 138,
+          "height": 415
+        },
+        "isOnGround": true
+      }
+    },
+    "p5-woman-redHead": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p5-woman-redHead.png",
+      "id": "p5-woman-redHead",
+      "capacity": 1,
+      "identifier": "p5-woman-redHead",
+      "index": 0,
+      "values": {
+        "source": {
+          "height": 420,
+          "width": 136
+        },
+        "size": {
+          "width": 0.65,
+          "height": 2.52
+        },
+        "isOnGround": true
+      }
+    },
+    "p6-man-coffee": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p6-man-coffee.png",
+      "id": "p6-man-coffee",
+      "capacity": 1,
+      "identifier": "p6-man-coffee",
+      "index": 0,
+      "values": {
+        "source": {
+          "height": 422,
+          "width": 176
+        },
+        "size": {
+          "height": 2.532,
+          "width": 1.056
+        },
+        "isOnGround": true
+      }
+    },
+    "p7-man-phone": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p7-man-phone.png",
+      "id": "p7-man-phone",
+      "capacity": 1,
+      "identifier": "p7-man-phone",
+      "index": 0,
+      "values": {
+        "position": {
+          "x": -3.1,
+          "z": 12.2,
+          "y": 0
+        },
+        "size": {
+          "height": 2.4,
+          "width": 1.038
+        },
+        "isOnGround": true
+      }
+    },
+    "p8-woman-dog": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p8-woman-dog.png",
+      "id": "p8-woman-dog",
+      "capacity": 1,
+      "identifier": "p8-woman-dog",
+      "index": 0,
+      "values": {
+        "size": {
+          "height": 2.46,
+          "width": 2.22
+        },
+        "source": {
+          "width": 370,
+          "height": 410
+        },
+        "isOnGround": true
+      }
+    },
+    "p9-woman-brownHair": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p9-woman-brownHair.png",
+      "id": "p9-woman-brownHair",
+      "capacity": 1,
+      "identifier": "p9-woman-brownHair",
+      "index": 0,
+      "values": {
+        "source": {
+          "width": 169,
+          "height": 397
+        },
+        "size": {
+          "width": 1.014,
+          "height": 2.382
+        },
+        "isOnGround": true
+      }
+    },
+    "p10-man-ordering": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p10-man-ordering.png",
+      "id": "p10-man-ordering",
+      "capacity": 1,
+      "identifier": "p10-man-ordering",
+      "index": 0,
+      "values": {
+        "source": {
+          "height": 394,
+          "width": 118
+        },
+        "size": {
+          "height": 2.564,
+          "width": 0.908
+        },
+        "isOnGround": true
+      }
+    },
+    "p11-woman-purpleHair": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p11-woman-purpleHair.png",
+      "id": "p11-woman-purpleHair",
+      "capacity": 1,
+      "identifier": "p11-woman-purpleHair",
+      "index": 0,
+      "values": {
+        "size": {
+          "width": 1.4,
+          "height": 2.6
+        },
+        "source": {
+          "width": 233,
+          "height": 412
+        },
+        "isOnGround": true
+      }
+    },
+    "p12-man-book": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p12-man-book.png",
+      "id": "p12-man-book",
+      "capacity": 1,
+      "identifier": "p12-man-book",
+      "index": 0,
+      "values": {
+        "source": {
+          "height": 475,
+          "width": 273
+        },
+        "size": {
+          "width": 1.5,
+          "height": 2.45
+        }
+      }
+    },
+    "p1": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/people-0.png",
+      "id": "p1",
+      "capacity": 100,
+      "identifier": "p1",
+      "index": 0
+    },
+    "p2": {
+      "capacity": 1,
+      "id": "p2",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/props.png",
+      "identifier": "p2",
+      "index": 1
+    },
+    "p3": {
+      "capacity": 10,
+      "id": "p3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/faces.png",
+      "identifier": "p3",
+      "index": 2
+    },
+    "p4": {
+      "capacity": 10,
+      "id": "p4",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/mouthShapes.png",
+      "identifier": "p4",
+      "index": 2
+    }
+  },
+  "instances": {
+    "p1-woman-red": {
+      "identifier": "mbp.svg",
+      "size": {
+        "width": 0.684,
+        "height": 2.394
+      },
+      "source": {
+        "width": 114,
+        "height": 399
+      },
+      "isOnGround": true,
+      "packId": "p1-woman-red",
+      "id": "p1-woman-red",
+      "position": {
+        "z": 11,
+        "y": 0,
+        "x": -3.9
+      },
+      "index": 22
+    },
+    "p2-man-spikyHair": {
+      "id": "p2-man-spikyHair",
+      "identifier": "mbp.svg",
+      "position": {
+        "z": 12,
+        "x": -5,
+        "y": 0
+      },
+
+      "isOnGround": true,
+      "packId": "p2-man-spikyHair",
+      "index": 25
+    },
+    "p3-woman-blueHair": {
+      "identifier": "mbp.svg",
+      "size": {
+        "width": 0.624,
+        "height": 2.408
+      },
+      "source": {
+        "height": 408,
+        "width": 109
+      },
+      "packId": "p3-woman-blueHair",
+
+      "id": "p3-woman-blueHair",
+      "position": {
+        "x": 9.1,
+        "z": 4.1,
+        "y": 0
+      },
+      "isOnGround": true,
+      "index": 19
+    },
+    "p4-woman-fourthWall": {
+      "packId": "p4-woman-fourthWall",
+      "position": {
+        "x": -11,
+        "z": 3.5,
+        "y": 0
+      },
+      "id": "p4-woman-fourthWall",
+      "size": {
+        "height": 2.69,
+        "width": 0.9280000000000001
+      },
+
+      "isOnGround": true,
+      "source": {
+        "width": 138,
+        "height": 415
+      },
+      "identifier": "mbp.svg",
+      "index": 30
+    },
+    "p5-woman-redHead": {
+      "packId": "p5-woman-redHead",
+      "position": {
+        "z": -3.5,
+        "x": 5.6,
+        "y": 0
+      },
+      "id": "p5-woman-redHead",
+      "source": {
+        "height": 420,
+        "width": 136
+      },
+      "identifier": "mbp.svg",
+      "isOnGround": true,
+      "size": {
+        "width": 0.65,
+        "height": 2.52
+      },
+      "index": 31
+    },
+    "p6-man-coffee": {
+      "identifier": "n.svg",
+      "source": {
+        "height": 422,
+        "width": 176
+      },
+      "position": {
+        "y": 0,
+        "z": -2,
+        "x": 5
+      },
+      "packId": "p6-man-coffee",
+      "size": {
+        "height": 2.532,
+        "width": 1.056
+      },
+      "id": "p6-man-coffee",
+      "isOnGround": true,
+      "index": 24
+    },
+    "p7-man-phone": {
+      "id": "p7-man-phone",
+      "packId": "p7-man-phone",
+      "identifier": "n.svg",
+
+      "isOnGround": true,
+      "source": {
+        "width": 173,
+        "height": 400
+      },
+      "position": {
+        "x": -3.1,
+        "z": 12.2,
+        "y": 0
+      },
+      "size": {
+        "height": 2.4,
+        "width": 1.038
+      }
+    },
+    "p8-woman-dog": {
+      "id": "p8-woman-dog",
+      "packId": "p8-woman-dog",
+      "identifier": "n.svg",
+      "isOnGround": true,
+      "position": {
+        "z": 4.5,
+        "x": -9,
+        "y": 0
+      },
+      "size": {
+        "height": 2.46,
+        "width": 2.22
+      },
+      "source": {
+        "width": 370,
+        "height": 410
+      }
+    },
+    "p9-woman-brownHair": {
+      "id": "p9-woman-brownHair",
+      "packId": "p9-woman-brownHair",
+      "identifier": "n.svg",
+      "isOnGround": true,
+      "source": {
+        "width": 169,
+        "height": 397
+      },
+      "position": {
+        "x": 10.1,
+        "z": 4.3,
+        "y": 0
+      },
+      "size": {
+        "width": 1.014,
+        "height": 2.382
+      }
+    },
+    "p10-man-ordering": {
+      "id": "p10-man-ordering",
+      "packId": "p10-man-ordering",
+      "identifier": "n.svg",
+
+      "isOnGround": true,
+      "source": {
+        "height": 394,
+        "width": 118
+      },
+      "size": {
+        "height": 2.564,
+        "width": 0.908
+      },
+      "position": {
+        "y": 0,
+        "z": 0,
+        "x": -0.5
+      }
+    },
+    "p11-woman-purpleHair": {
+      "id": "p11-woman-purpleHair",
+      "packId": "p11-woman-purpleHair",
+      "identifier": "mbp.svg",
+
+      "isOnGround": true,
+      "size": {
+        "width": 1.4,
+        "height": 2.6
+      },
+      "source": {
+        "width": 233,
+        "height": 412
+      },
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": -4
+      }
+    },
+    "p12-man-book": {
+      "id": "p12-man-book",
+      "packId": "p12-man-book",
+      "identifier": "mbp.svg",
+      "isOnGround": true,
+      "position": {
+        "z": -4.6,
+        "x": 11.5,
+        "y": 0
+      },
+      "source": {
+        "height": 475,
+        "width": 273
+      },
+      "size": {
+        "width": 1.5,
+        "height": 2.45
+      }
+    }
+  }
+}
