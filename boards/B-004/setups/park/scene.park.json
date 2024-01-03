@@ -205,7 +205,7 @@
       "id": "i1",
       "identifier": "particle-1",
       "vaspType": "particle",
-      "position": [9, -3, 0],
+      "position": [0, 9, -3],
       "values": {
         "size": 1,
         "maxLifeTime": 16,
@@ -225,7 +225,7 @@
         "speed": 0.25,
         "size": 0.05
       },
-      "position": [-2.7, 2.1, 5.1],
+      "position": [5.1, 2.1, -2.7],
       "identifier": "particle-2",
       "index": 1
     },
