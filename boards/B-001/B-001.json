@@ -49,7 +49,7 @@
   },
   "apis": ["turbo-3.5"],
   "defaults": {
-    "setupId": "modelz",
+    "setupId": "default",
     "playbackId": ""
   },
   "setupsUrl": "/B-001/B-001.setups.json",
