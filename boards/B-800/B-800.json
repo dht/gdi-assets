@@ -1,8 +1,8 @@
 {
-  "id": "B-901",
+  "id": "B-800",
   "identifier": "com.usegdi.scene-player",
   "version": "0.1.0",
-  "url": "/boards/b-901",
+  "url": "/boards/b-800",
   "boardInfo": {
     "name": "3D Ad Creator",
     "index": 1,
@@ -52,9 +52,9 @@
     "setupId": "default",
     "playbackId": ""
   },
-  "setupsUrl": "/B-901/B-901.setups.json",
+  "setupsUrl": "/B-800/B-800.setups.json",
   "playbacksUrl": "",
-  "flowUrl": "/B-901/B-901.flow.json",
+  "flowUrl": "/B-800/B-800.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
@@ -79,7 +79,7 @@
           "x": 121,
           "y": 47
         },
-        "boardId": "B-901",
+        "boardId": "B-800",
         "flags": {},
         "props": {}
       }

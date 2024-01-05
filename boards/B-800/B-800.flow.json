@@ -1,6 +1,6 @@
 {
   "flowConfig": {
-    "flowId": "fb-901",
+    "flowId": "fb-800",
     "name": "Simple chat",
     "flowType": "continues",
     "variables": {},
@@ -13,8 +13,8 @@
   },
   "flowApis": {},
   "flowAssistants": {
-    "as-901-chat": {
-      "id": "as-901-chat",
+    "as-800-chat": {
+      "id": "as-800-chat",
       "name": "Chat",
       "description": "Helpful assistant that provides a conversation about a topic.",
       "instructions": "You are a helpful assistant",
@@ -23,11 +23,11 @@
     }
   },
   "flowNodes": {
-    "n-901": {
-      "id": "n-901",
+    "n-800": {
+      "id": "n-800",
       "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-901-chat",
+      "assistantId": "as-800-chat",
       "input": {
         "prompt": "${prompt}"
       },
@@ -40,14 +40,14 @@
         "maxTokens": 200
       },
       "position": { "x": 250, "y": 0 },
-      "connectors": ["n-901"],
+      "connectors": ["n-800"],
       "isStart": true
     },
     "n-002": {
       "id": "n-002",
       "name": "Respond",
       "nodeType": "outcome",
-      "parentId": "n-901",
+      "parentId": "n-800",
       "position": { "x": 250, "y": 150 },
       "isEnd": true
     }
