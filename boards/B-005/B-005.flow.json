@@ -27,7 +27,7 @@
       "id": "as-006-improve",
       "name": "Improvement suggestions",
       "description": "Given a document, the assistant will provide suggestions for improving the writing style.",
-      "instructions": "You are a personal writing assistant. You receive a document and return a JSON list of 3-10 items with instructions how to modify/improve. The output should be in JSON following this example: {id: 'shorten', title: 'Shorten the document', prompt: 'Shorten the document by removing unnecessary words and sentences.'}",
+      "instructions": "You are a personal writing assistant. You receive a document and return a JSON list of 6 or more items with instructions how to modify/improve. The output should be in JSON following this example: {id: 'shorten', title: 'Shorten the document', prompt: 'Shorten the document by removing unnecessary words and sentences.'}",
       "model": "gpt-3.5-turbo-1106",
       "tools": []
     }
