@@ -1,0 +1,327 @@
+{
+  "sceneBits": {
+    "1fa1": {
+      "elements": {
+        "topography-f33c": true,
+        "glb-e7b5": true,
+        "glb-abae": false
+      },
+      "name": "1fa1",
+      "id": "1fa1",
+      "type": "basic",
+      "timestamp": 27.441
+    },
+    "9c15": {
+      "elements": {
+        "topography-f33c": true,
+        "glb-e7b5": true,
+        "glb-abae": false
+      },
+      "name": "9c15",
+      "id": "9c15",
+      "type": "basic",
+      "timestamp": 39.208
+    },
+    "b1": {
+      "cameraId": "free",
+      "elements": {
+        "topography-f33c": true,
+        "glb-e7b5": true,
+        "glb-abae": false
+      },
+      "name": "First bit",
+      "id": "b1",
+      "type": "basic",
+      "timestamp": 0
+    },
+    "b2": {
+      "cameraId": "free",
+      "elements": {
+        "glb-e7b5": false,
+        "glb-abae": false
+      },
+      "name": "Second bit",
+      "id": "b2",
+      "type": "basic",
+      "timestamp": 4.411
+    },
+    "c215": {
+      "elements": {
+        "topography-f33c": true,
+        "glb-e7b5": true,
+        "glb-abae": false
+      },
+      "name": "c215",
+      "id": "c215",
+      "type": "basic",
+      "timestamp": 47.47
+    },
+    "e2e4": {
+      "cameraId": "free",
+      "elements": {
+        "topography-f33c": false,
+        "glb-e7b5": true,
+        "glb-abae": true
+      },
+      "name": "e2e4",
+      "id": "e2e4",
+      "type": "basic",
+      "timestamp": 7.883
+    },
+    "f857": {
+      "elements": {
+        "topography-f33c": true,
+        "glb-e7b5": true,
+        "glb-abae": false
+      },
+      "name": "f857",
+      "id": "f857",
+      "type": "basic",
+      "timestamp": 11.868
+    }
+  },
+  "sceneDots": {
+    "dot_b1_free_start": {
+      "virtualDotId": "start",
+      "cameraId": "free",
+      "values": {
+        "rotation": [15.41, 146.93, 0],
+        "position": [-29.62, 2.51, -1.88]
+      },
+      "id": "dot_b1_free_start",
+      "bitId": "b1"
+    },
+    "dot_b1_glb-abae_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0.69, 0, -14.61]
+      },
+      "id": "dot_b1_glb-abae_end",
+      "meshId": "glb-abae",
+      "bitId": "b1"
+    },
+    "dot_b1_glb-abae_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [-0.04, 0, 15.41]
+      },
+      "id": "dot_b1_glb-abae_start",
+      "meshId": "glb-abae",
+      "bitId": "b1"
+    },
+    "dot_b1_topography-f33c_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0, 0, -8.76]
+      },
+      "id": "dot_b1_topography-f33c_end",
+      "meshId": "topography-f33c",
+      "bitId": "b1"
+    },
+    "dot_b1_topography-f33c_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0, 0, 27.11]
+      },
+      "id": "dot_b1_topography-f33c_start",
+      "meshId": "topography-f33c",
+      "bitId": "b1"
+    },
+    "dot_b2_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "arc",
+      "values": {
+        "rotation": [11.12, 3.85, 0],
+        "position": [-29.62, 2.51, -1.88]
+      },
+      "id": "dot_b2_arc_start",
+      "bitId": "b2"
+    },
+    "dot_b2_free_start": {
+      "virtualDotId": "start",
+      "cameraId": "free",
+      "values": {
+        "rotation": [11.12, 3.85, 0],
+        "position": [-29.62, 2.51, -1.88]
+      },
+      "id": "dot_b2_free_start",
+      "bitId": "b2"
+    },
+    "dot_b2_topography-f33c_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0.72, 0, -13.14]
+      },
+      "id": "dot_b2_topography-f33c_end",
+      "meshId": "topography-f33c",
+      "bitId": "b2"
+    },
+    "dot_b2_topography-f33c_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0.82, 0, 44.3]
+      },
+      "id": "dot_b2_topography-f33c_start",
+      "meshId": "topography-f33c",
+      "bitId": "b2"
+    },
+    "dot_e2e4_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "free",
+      "values": {
+        "rotation": [1.03, 91.24, 0],
+        "position": [-71.79, 8.92, 0.47]
+      },
+      "id": "dot_e2e4_arc_start",
+      "bitId": "e2e4"
+    },
+    "dot_e2e4_free_start": {
+      "virtualDotId": "start",
+      "cameraId": "free",
+      "values": {
+        "rotation": [9.08, 90.98, 0],
+        "position": [-71.79, 8.92, 0.47]
+      },
+      "id": "dot_e2e4_free_start",
+      "bitId": "e2e4"
+    },
+    "dot_e2e4_glb-abae_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, -179.32, 0],
+        "position": [0.87, 0, 0.36]
+      },
+      "id": "dot_e2e4_glb-abae_end",
+      "meshId": "glb-abae",
+      "bitId": "e2e4"
+    },
+    "dot_e2e4_glb-abae_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, -179.32, 0],
+        "position": [0.4, 0, -39.08]
+      },
+      "id": "dot_e2e4_glb-abae_start",
+      "meshId": "glb-abae",
+      "bitId": "e2e4"
+    },
+    "dot_e2e4_topography-f33c_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [-1.66, 0, 0.09]
+      },
+      "id": "dot_e2e4_topography-f33c_end",
+      "meshId": "topography-f33c",
+      "bitId": "e2e4"
+    },
+    "dot_e2e4_topography-f33c_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [-1.66, 0, 0.09]
+      },
+      "id": "dot_e2e4_topography-f33c_start",
+      "meshId": "topography-f33c",
+      "bitId": "e2e4"
+    }
+  },
+  "sceneAudios": {
+    "2362": {
+      "duration": 0,
+      "id": "2362",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fd3cdee41.mp3",
+      "timestamp": 24.462072501632914
+    },
+    "0970": {
+      "duration": 0,
+      "id": "0970",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F18023865.mp3",
+      "timestamp": 42.85199934683213
+    },
+    "4e7b": {
+      "duration": 0,
+      "id": "4e7b",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fa5b950d6.mp3",
+      "timestamp": 46.2350519268452
+    },
+    "61e8": {
+      "duration": 0,
+      "id": "61e8",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F7e00efd6.mp3",
+      "timestamp": 8.761238732854345
+    },
+    "9c19": {
+      "duration": 0,
+      "id": "9c19",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F20f33b4e.mp3",
+      "timestamp": 28.71257446113651
+    },
+    "a29c": {
+      "duration": 0,
+      "id": "a29c",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fe5bdd0bb.mp3",
+      "timestamp": 39.3388293598955
+    },
+    "a980": {
+      "duration": 0,
+      "id": "a980",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fe468499c.mp3",
+      "timestamp": 54.389076094056165
+    },
+    "ad76": {
+      "duration": 0,
+      "id": "ad76",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F56fcd536.mp3",
+      "timestamp": 19.170631286740694
+    },
+    "b2d0": {
+      "duration": 0,
+      "id": "b2d0",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F5d745bf6.mp3",
+      "timestamp": 21.686234487263224
+    },
+    "ba30": {
+      "duration": 0,
+      "id": "ba30",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F59a90d55.mp3",
+      "timestamp": 12.751505878510775
+    },
+    "d7cb": {
+      "duration": 0,
+      "id": "d7cb",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F5964c35d.mp3",
+      "timestamp": 35.565424559111705
+    },
+    "e59e": {
+      "duration": 0,
+      "id": "e59e",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F097f2f8c.mp3",
+      "timestamp": 60.33110434356628
+    },
+    "main": {
+      "duration": 0,
+      "isMain": true,
+      "id": "main",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fb5c8fe95.mp3",
+      "timestamp": 0
+    }
+  },
+  "sceneEffects": {}
+}

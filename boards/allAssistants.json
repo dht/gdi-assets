@@ -895,6 +895,14 @@
     "tools": []
   },
   {
+    "id": "improvement-suggestions",
+    "name": "Improvement suggestions",
+    "description": "Given a document or text, the assistant will provide suggestions for improving the writing style.",
+    "instructions": "You are a personal writing assistant. You receive a document and return a list of prompts for improving it or making it more readable. The output should be in JSON following this template: {id: 'shorten', title: 'Shorten the document', prompt: 'Shorten the document by removing unnecessary words and sentences.'}",
+    "model": "gpt-3.5-turbo-1106",
+    "tools": []
+  },
+  {
     "id": "food-critic-assistant",
     "name": "Food Critic Assistant",
     "description": "A virtual food critic that provides reviews of restaurants based on given information.",

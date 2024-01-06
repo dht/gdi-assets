@@ -1,0 +1,94 @@
+{
+  "sceneLights": {},
+  "sceneMeshes": {
+    "topography-86dc": {
+      "values": {
+        "minHeight": 0,
+        "heightMap": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F178395db.png",
+        "maxHeight": 50,
+        "width": 100,
+        "height": 100,
+        "subdivisions": 100
+      },
+      "id": "topography-86dc",
+      "position": [0, 0, 0],
+      "label": "g3",
+      "type": "topography",
+      "enabled": false,
+      "material": {
+        "values": {
+          "mainColor": [0, 0.3, 0],
+          "alpha": 0.5,
+          "gridRatio": 0.5,
+          "majorUnitFrequency": 2,
+          "lineColor": [0.8, 1, 0.8]
+        },
+        "id": "topography-86dc-material",
+        "type": "grid",
+        "colors": {}
+      }
+    },
+    "topography-8ae2": {
+      "values": {
+        "minHeight": 0,
+        "heightMap": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F51f0e8c9.png",
+        "maxHeight": 15,
+        "width": 100,
+        "height": 100,
+        "subdivisions": 100
+      },
+      "id": "topography-8ae2",
+      "position": [0, 0, 0],
+      "label": "g2",
+      "type": "topography",
+      "enabled": false,
+      "material": {
+        "values": {
+          "mainColor": [0, 0.3, 0],
+          "alpha": 0.5,
+          "gridRatio": 0.5,
+          "majorUnitFrequency": 2,
+          "lineColor": [0.8, 1, 0.8]
+        },
+        "id": "topography-8ae2-material",
+        "type": "grid",
+        "colors": {}
+      }
+    },
+    "topography-f33c": {
+      "material": {
+        "alpha": 0.05,
+        "values": {
+          "mainColor": [0, 0.3, 0],
+          "gridRatio": 0.5,
+          "majorUnitFrequency": 2,
+          "lineColor": [0.8, 1, 0.8]
+        },
+        "id": "topography-f33c-material",
+        "type": "grid",
+        "colors": {}
+      },
+      "values": {
+        "minHeight": 0,
+        "heightMap": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fd851ff79.png",
+        "maxHeight": 0,
+        "width": 100,
+        "height": 100,
+        "subdivisions": 100
+      },
+      "id": "topography-f33c",
+      "position": [0, 0, 0],
+      "label": "g1",
+      "type": "topography",
+      "enabled": false
+    }
+  },
+  "sceneExternals": {
+    "glb-abae": {
+      "id": "glb-abae",
+      "label": "car",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/car.glb",
+      "enabled": false
+    }
+  }
+}
