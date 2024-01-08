@@ -209,6 +209,59 @@
         "boardId": "B-004",
         "flags": {}
       }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.babylon",
+        "title": "babylon",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 24
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        },
+        "flavour": "default"
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.transcript",
+        "title": "Transcript",
+        "position": {
+          "x": 1,
+          "y": 24
+        },
+        "dimension": {
+          "x": 121,
+          "y": 24
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "flavour": "outcome"
+      },
+      "e9": {
+        "id": "e9",
+        "widgetId": "com.usegdi.starter.start-play",
+        "title": "StartPlay",
+        "position": {
+          "x": 1,
+          "y": 24
+        },
+        "dimension": {
+          "x": 121,
+          "y": 24
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "flavour": "default"
+      }
     }
   }
 }

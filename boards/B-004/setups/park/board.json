@@ -19,6 +19,26 @@
           "sceneUrl": "/B-004/setups/park/scene.park.json"
         }
       }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.babylon",
+        "title": "babylon",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 24
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "props": {
+          "sceneUrl": "/B-004/setups/park/scene.park.json"
+        }
+      }
     }
   }
 }
