@@ -24,6 +24,9 @@
     "@gdi/widgets-starter": "0.6.3"
   },
   "apis": ["turbo-3.5"],
+  "mobile": {
+    "darkMode": true
+  },
   "elements": {
     "default": {
       "e1": {
@@ -84,6 +87,24 @@
         "dimension": {
           "x": 44,
           "y": 14
+        },
+        "boardId": "B-008",
+        "flags": {},
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.speech",
+        "title": "ImageViewer",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
         },
         "boardId": "B-008",
         "flags": {},

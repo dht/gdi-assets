@@ -113,6 +113,62 @@
           "listId": "left"
         }
       }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.asset-preview",
+        "title": "Chat",
+        "position": {
+          "x": 1,
+          "y": 24
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-010",
+        "flags": {},
+        "props": {},
+        "flavour": "viewer"
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.asset-list",
+        "title": "Asset List #2",
+        "position": {
+          "x": 1,
+          "y": 24
+        },
+        "dimension": {
+          "x": 121,
+          "y": 46
+        },
+        "boardId": "B-010",
+        "flags": {},
+        "props": {
+          "listId": "right"
+        },
+        "flavour": "default"
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.asset-list",
+        "title": "Asset List #1",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 24
+        },
+        "boardId": "B-010",
+        "flags": {},
+        "props": {
+          "listId": "left"
+        }
+      }
     }
   },
   "defaults": {
@@ -123,6 +179,10 @@
   "playbacksUrl": "",
   "flowUrl": "/B-010/B-010.flow.json",
   "isActive": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,

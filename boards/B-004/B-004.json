@@ -59,6 +59,9 @@
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": false,
+  "mobile": {
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,

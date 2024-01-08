@@ -63,6 +63,10 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
@@ -125,6 +129,9 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "mobile": {
+      "darkMode": true
+    },
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
@@ -195,6 +202,9 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "mobile": {
+      "darkMode": true
+    },
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
@@ -266,6 +276,9 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "mobile": {
+      "darkMode": true
+    },
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
@@ -400,6 +413,9 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "mobile": {
+      "darkMode": true
+    },
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
@@ -462,6 +478,9 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "mobile": {
+      "darkMode": true
+    },
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
@@ -505,6 +524,9 @@
     "setupsUrl": "",
     "playbacksUrl": "",
     "flowUrl": "",
+    "mobile": {
+      "darkMode": true
+    },
     "isActive": true,
     "reviewInfo": {
       "reviewsCount": 0,
@@ -549,6 +571,10 @@
     "setupsUrl": "",
     "playbacksUrl": "",
     "flowUrl": "",
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
     "isActive": true,
     "reviewInfo": {
       "reviewsCount": 0,
@@ -594,6 +620,10 @@
     "playbacksUrl": "",
     "flowUrl": "",
     "isActive": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
@@ -15010,6 +15040,10 @@
     "playbacksUrl": "",
     "flowUrl": "",
     "isActive": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,

@@ -58,6 +58,10 @@
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
   "isActive": false,
   "reviewInfo": {
     "reviewsCount": 0,

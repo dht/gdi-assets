@@ -27,21 +27,9 @@
         "content": "LLM #1, LLM #2, ElevenLabs"
       }
     ],
-    "tags": [
-      "chat",
-      "AI",
-      "chatbot",
-      "conversation",
-      "interactive",
-      "fun",
-      "user-friendly"
-    ],
+    "tags": ["chat", "AI", "chatbot", "conversation", "interactive", "fun", "user-friendly"],
     "order": 2,
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768",
-      "1280x720"
-    ],
+    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
     "tsVersion": 0
   },
   "author": "gdi",
@@ -50,9 +38,7 @@
     "@gdi/ui": "^0.0.1",
     "@gdi/widgets-starter": "^0.0.6"
   },
-  "apis": [
-    "chatgpt-1.0"
-  ],
+  "apis": ["chatgpt-1.0"],
   "defaults": {
     "setupId": "default",
     "playbackId": ""
@@ -64,6 +50,9 @@
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": false,
+  "mobile": {
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
@@ -114,6 +103,24 @@
         "dimension": {
           "x": 44,
           "y": 40
+        },
+        "boardId": "B-002",
+        "flags": {},
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.chat",
+        "title": "Chat",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
         },
         "boardId": "B-002",
         "flags": {},

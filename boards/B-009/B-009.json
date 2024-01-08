@@ -60,6 +60,24 @@
         "flags": {},
         "props": {}
       }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.scene-builder",
+        "title": "Scene Builder",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-009",
+        "flags": {},
+        "props": {}
+      }
     }
   },
   "defaults": {
@@ -70,6 +88,10 @@
   "playbacksUrl": "",
   "flowUrl": "",
   "isActive": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,

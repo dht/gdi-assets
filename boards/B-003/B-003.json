@@ -50,6 +50,9 @@
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": false,
+  "mobile": {
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
@@ -116,6 +119,24 @@
         "dimension": {
           "x": 44,
           "y": 25
+        },
+        "boardId": "B-003",
+        "flags": {},
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.image-viewer",
+        "title": "ImageViewer",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
         },
         "boardId": "B-003",
         "flags": {},

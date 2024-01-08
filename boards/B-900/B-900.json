@@ -34,6 +34,10 @@
   "playbacksUrl": "",
   "flowUrl": "",
   "isActive": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,

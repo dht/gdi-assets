@@ -50,6 +50,9 @@
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": false,
+  "mobile": {
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
@@ -115,6 +118,40 @@
         },
         "dimension": {
           "x": 44,
+          "y": 24
+        },
+        "boardId": "B-007",
+        "flags": {},
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.chat",
+        "title": "Chat",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 24
+        },
+        "boardId": "B-007",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.assistants-panel",
+        "title": "Assistants Panel",
+        "position": {
+          "x": 1,
+          "y": 24
+        },
+        "dimension": {
+          "x": 121,
           "y": 24
         },
         "boardId": "B-007",

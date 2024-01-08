@@ -65,6 +65,10 @@
     "rating": 0,
     "reviews": {}
   },
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
   "elements": {
     "default": {
       "e2": {

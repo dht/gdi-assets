@@ -122,6 +122,24 @@
         "flags": {},
         "props": {}
       }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.document",
+        "title": "Document",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 120,
+          "y": 48
+        },
+        "boardId": "B-005",
+        "flags": {},
+        "props": {}
+      }
     }
   },
   "defaults": {
@@ -135,6 +153,9 @@
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
+  "mobile": {
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
