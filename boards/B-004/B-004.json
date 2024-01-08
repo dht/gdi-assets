@@ -263,6 +263,21 @@
         "boardId": "B-004",
         "flags": {},
         "flavour": "default"
+      },
+      "e6": {
+        "id": "e6",
+        "widgetId": "com.usegdi.starter.playback",
+        "title": "Playback",
+        "position": {
+          "x": 57,
+          "y": 3
+        },
+        "dimension": {
+          "x": 25,
+          "y": 5
+        },
+        "boardId": "B-004",
+        "flags": {}
       }
     }
   }
