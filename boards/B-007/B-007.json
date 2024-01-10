@@ -49,9 +49,12 @@
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/B-007",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-  "isActive": false,
+  "isActive": true,
   "mobile": {
-    "darkMode": true
+    "darkMode": true,
+    "columns": 3,
+    "flowColumnIndex": 2,
+    "outputColumnIndex": 1
   },
   "reviewInfo": {
     "reviewsCount": 0,
@@ -136,8 +139,9 @@
         },
         "dimension": {
           "x": 121,
-          "y": 24
+          "y": 48
         },
+        "columnIndex": 1,
         "boardId": "B-007",
         "flags": {},
         "props": {}
@@ -148,15 +152,33 @@
         "title": "Assistants Panel",
         "position": {
           "x": 1,
-          "y": 24
+          "y": 1
         },
         "dimension": {
           "x": 121,
-          "y": 24
+          "y": 48
         },
+        "columnIndex": 0,
         "boardId": "B-007",
         "flags": {},
         "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-005",
+        "flags": {},
+        "props": {},
+        "columnIndex": 2
       }
     }
   }

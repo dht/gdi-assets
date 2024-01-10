@@ -24,8 +24,25 @@
     "@gdi/widgets-starter": "0.6.3"
   },
   "apis": ["turbo-3.5"],
+  "defaults": {
+    "setupId": "default",
+    "playbackId": ""
+  },
+  "setupsUrl": "",
+  "playbacksUrl": "",
+  "flowUrl": "/B-008/B-008.flow.json",
+  "isActive": true,
   "mobile": {
-    "darkMode": true
+    "darkMode": true,
+    "columns": 3,
+    "flowColumnIndex": 2,
+    "outputColumnIndex": 0
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
   },
   "elements": {
     "default": {
@@ -108,22 +125,43 @@
         },
         "boardId": "B-008",
         "flags": {},
-        "props": {}
+        "props": {},
+        "columnIndex": 0
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.speech-params",
+        "title": "Speech Params",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-008",
+        "flags": {},
+        "props": {},
+        "columnIndex": 1
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-008",
+        "flags": {},
+        "props": {},
+        "columnIndex": 2
       }
     }
-  },
-  "defaults": {
-    "setupId": "default",
-    "playbackId": ""
-  },
-  "setupsUrl": "",
-  "playbacksUrl": "",
-  "flowUrl": "/B-008/B-008.flow.json",
-  "isActive": true,
-  "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
   }
 }

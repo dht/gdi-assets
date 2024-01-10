@@ -39,6 +39,29 @@
     "@gdi/widgets-starter": "^0.0.6"
   },
   "apis": [],
+  "defaults": {
+    "setupId": "default",
+    "playbackId": ""
+  },
+  "setupsUrl": "",
+  "playbacksUrl": "",
+  "flowUrl": "/B-005/B-005.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/B-005",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "mobile": {
+    "darkMode": true,
+    "columns": 3,
+    "flowColumnIndex": 2,
+    "outputColumnIndex": 1
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
   "elements": {
     "default": {
       "e1": {
@@ -124,6 +147,24 @@
       }
     },
     "mobile": {
+      "e3a": {
+        "id": "e3a",
+        "widgetId": "com.usegdi.starter.document-bootstrap",
+        "title": "Document Bootstrap",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-005",
+        "flags": {},
+        "props": {},
+        "flavour": "default",
+        "columnIndex": 0
+      },
       "e2": {
         "id": "e2",
         "widgetId": "com.usegdi.starter.document",
@@ -133,33 +174,31 @@
           "y": 1
         },
         "dimension": {
-          "x": 120,
+          "x": 121,
           "y": 48
         },
         "boardId": "B-005",
         "flags": {},
-        "props": {}
+        "props": {},
+        "columnIndex": 1
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-005",
+        "flags": {},
+        "props": {},
+        "columnIndex": 2
       }
     }
-  },
-  "defaults": {
-    "setupId": "default",
-    "playbackId": ""
-  },
-  "setupsUrl": "",
-  "playbacksUrl": "",
-  "flowUrl": "/B-005/B-005.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/B-005",
-  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-  "isActive": true,
-  "mobile": {
-    "darkMode": true
-  },
-  "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
   }
 }

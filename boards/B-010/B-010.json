@@ -24,6 +24,25 @@
     "@gdi/widgets-starter": "0.6.3"
   },
   "apis": ["turbo-3.5"],
+  "defaults": {
+    "setupId": "default",
+    "playbackId": ""
+  },
+  "setupsUrl": "",
+  "playbacksUrl": "",
+  "flowUrl": "/B-010/B-010.flow.json",
+  "isActive": true,
+  "mobile": {
+    "darkMode": true,
+    "columns": 2,
+    "hidePrompt": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
   "elements": {
     "default": {
       "e1": {
@@ -121,7 +140,7 @@
         "title": "Chat",
         "position": {
           "x": 1,
-          "y": 24
+          "y": 1
         },
         "dimension": {
           "x": 121,
@@ -130,6 +149,7 @@
         "boardId": "B-010",
         "flags": {},
         "props": {},
+        "columnIndex": 1,
         "flavour": "viewer"
       },
       "e3": {
@@ -138,11 +158,11 @@
         "title": "Asset List #2",
         "position": {
           "x": 1,
-          "y": 24
+          "y": 1
         },
         "dimension": {
           "x": 121,
-          "y": 46
+          "y": 48
         },
         "boardId": "B-010",
         "flags": {},
@@ -161,32 +181,15 @@
         },
         "dimension": {
           "x": 121,
-          "y": 24
+          "y": 48
         },
         "boardId": "B-010",
         "flags": {},
         "props": {
           "listId": "left"
-        }
+        },
+        "columnIndex": 0
       }
     }
-  },
-  "defaults": {
-    "setupId": "default",
-    "playbackId": ""
-  },
-  "setupsUrl": "",
-  "playbacksUrl": "",
-  "flowUrl": "/B-010/B-010.flow.json",
-  "isActive": true,
-  "mobile": {
-    "hidePrompt": true,
-    "darkMode": true
-  },
-  "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
   }
 }

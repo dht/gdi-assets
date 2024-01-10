@@ -2,7 +2,7 @@
   "id": "B-006",
   "identifier": "com.usegdi.worhalic-debate",
   "version": "0.1.0",
-  "url": "/boards/b-006",
+  "url": "/boards/B-006",
   "boardInfo": {
     "name": "Worhalic Debate",
     "index": 6,
@@ -59,9 +59,12 @@
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-  "isActive": false,
+  "isActive": true,
   "mobile": {
-    "darkMode": true
+    "darkMode": true,
+    "columns": 2,
+    "flowColumnIndex": 1,
+    "outputColumnIndex": 0
   },
   "reviewInfo": {
     "reviewsCount": 0,
@@ -246,7 +249,8 @@
         "flags": {},
         "props": {
           "sceneUrl": ""
-        }
+        },
+        "columnIndex": 0
       },
       "e3": {
         "id": "e3",
@@ -262,7 +266,8 @@
         },
         "boardId": "B-004",
         "flags": {},
-        "flavour": "outcome"
+        "flavour": "outcome",
+        "columnIndex": 0
       },
       "e9": {
         "id": "e9",
@@ -278,7 +283,25 @@
         },
         "boardId": "B-004",
         "flags": {},
-        "flavour": "default"
+        "flavour": "default",
+        "columnIndex": 0
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "props": {},
+        "columnIndex": 1
       }
     }
   }

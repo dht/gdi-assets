@@ -58,11 +58,11 @@
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
   "mobile": {
     "hidePrompt": true,
     "darkMode": true
   },
-  "isActive": false,
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
@@ -100,6 +100,27 @@
         "dimension": {
           "x": 121,
           "y": 47
+        },
+        "boardId": "B-001",
+        "flags": {},
+        "props": {
+          "sceneUrl": "/B-001/setups/modelz/scene.json",
+          "hudUrl": "/B-001/setups/modelz/hud.json"
+        }
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.bit-builder",
+        "title": "sixty",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
         },
         "boardId": "B-001",
         "flags": {},
