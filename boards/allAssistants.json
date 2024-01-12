@@ -268,6 +268,14 @@
     "tools": []
   },
   {
+    "id": "as-metaphor-expert",
+    "name": "Metaphor Expert",
+    "description": "An expert in generating creative metaphors and analogies for various topics.",
+    "instructions": "You can ask the Metaphor Expert for metaphors or analogies related to a specific topic. Provide the topic, and the expert will generate creative comparisons.",
+    "model": "gpt-3.5-turbo-1106",
+    "tools": []
+  },
+  {
     "id": "as-tutor",
     "name": "Math Tutor",
     "description": "A personal math tutor that can answer questions about math.",
