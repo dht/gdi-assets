@@ -103,10 +103,7 @@
         },
         "boardId": "B-001",
         "flags": {},
-        "props": {
-          "sceneUrl": "/B-001/setups/modelz/scene.json",
-          "hudUrl": "/B-001/setups/modelz/hud.json"
-        }
+        "props": {}
       }
     },
     "mobile": {
@@ -124,10 +121,7 @@
         },
         "boardId": "B-001",
         "flags": {},
-        "props": {
-          "sceneUrl": "/B-001/setups/modelz/scene.json",
-          "hudUrl": "/B-001/setups/modelz/hud.json"
-        }
+        "props": {}
       }
     }
   }
