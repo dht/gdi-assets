@@ -1,49 +1,39 @@
 {
   "id": "B-008",
-  "identifier": "com.usegdi.voice-studio",
+  "identifier": "com.usegdi.scene-builder",
   "version": "0.1.0",
   "url": "/boards/B-008",
   "boardInfo": {
-    "name": "Voice Studio",
+    "name": "Scene Builder",
     "index": 8,
-    "imageUrl": "/images/z_soundboard.jpg",
+    "imageUrl": "/images/z_scene_builder.jpg",
     "boardType": "adhoc",
-    "description": "VoiceStudio is a professional-quality voice-over creation application designed to cater to the needs of voice actors and content creators. This versatile tool empowers users to record, edit, and enhance voice recordings for a wide range of applications, including narration, podcasting, audio books, and more. With its intuitive interface and advanced features, VoiceStudio offers a seamless experience for anyone looking to create captivating voice overs with ease.",
-    "descriptionLong": "VoiceStudio is a professional-quality voice-over creation application designed to cater to the needs of voice actors and content creators. This versatile tool empowers users to record, edit, and enhance voice recordings for a wide range of applications, including narration, podcasting, audio books, and more. With its intuitive interface and advanced features, VoiceStudio offers a seamless experience for anyone looking to create captivating voice overs with ease. The app provides a comprehensive suite of tools such as multi-track recording, audio mixing, effects processing, and voice modulation, enabling users to achieve professional-grade results. VoiceStudio supports a variety of audio formats and allows for seamless integration with external microphones and audio interfaces, ensuring maximum flexibility for users. Whether you're a seasoned voice actor or a beginner exploring the world of voice-over creation, VoiceStudio promises to elevate your recording experience and deliver outstanding results. Unlock your creative potential and bring your voice projects to life with VoiceStudio!",
-    "oneLiner": "Empower your voice creations with professional-grade recording, editing, and enhancement tools in VoiceStudio - the ultimate voice-over app for content creators.",
-    "oneLinerShort": "\"Professional voice over creation simplified\"",
+    "description": "Scene Builder is a cutting-edge application that empowers users to effortlessly create stunning 3D scenes. Whether you're an experienced 3D artist or just starting out, Scene Builder offers a versatile toolkit that enables you to bring your imagination to life. With an intuitive interface and an extensive library of assets, this app ensures seamless scene composition and design. From architectural visualizations to virtual environments, Scene Builder caters to a wide range of 3D scene creation needs. With over 10,000 installations and a stellar rating of 4.7, it has become the go-to choice for 3D enthusiasts seeking unparalleled creativity and flexibility.",
+    "descriptionLong": "Scene Builder is a cutting-edge application that empowers users to effortlessly create stunning 3D scenes. Whether you're an experienced 3D artist or just starting out, Scene Builder offers a versatile toolkit that enables you to bring your imagination to life. With an intuitive interface and an extensive library of assets, this app ensures seamless scene composition and design. From architectural visualizations to virtual environments, Scene Builder caters to a wide range of 3D scene creation needs. Boasting over 10,000 installations and a stellar rating of 4.7, it has become the go-to choice for 3D enthusiasts seeking unparalleled creativity and flexibility.",
+    "oneLiner": "Empower your imagination with Scene Builder, the ultimate tool for creating stunning 3D scenes.",
+    "oneLinerShort": "\"Empower your imagination: Scene Builder\"",
     "header": "",
     "fields": [],
-    "tags": ["voiceover", "recording", "audio", "creation"],
-    "order": 9,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tags": [
+      "3D",
+      "scene",
+      "visualization",
+      "creation"
+    ],
+    "order": 8,
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": 0
   },
   "author": "gdi",
   "dependencies": {
     "@gdi/widgets-starter": "0.6.3"
   },
-  "apis": ["turbo-3.5"],
-  "defaults": {
-    "setupId": "default",
-    "playbackId": ""
-  },
-  "setupsUrl": "",
-  "playbacksUrl": "",
-  "flowUrl": "/B-008/B-008.flow.json",
-  "isActive": true,
-  "mobile": {
-    "darkMode": true,
-    "columns": 3,
-    "flowColumnIndex": 2,
-    "outputColumnIndex": 0
-  },
-  "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
-  },
+  "apis": [
+    "turbo-3.5"
+  ],
   "elements": {
     "default": {
       "e1": {
@@ -59,51 +49,22 @@
           "y": 6
         },
         "boardId": "B-008",
-        "flags": {}
+        "flags": {},
+        "props": {
+          "darkMode": true
+        }
       },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.speech",
-        "title": "ImageViewer",
+        "widgetId": "com.usegdi.starter.scene-builder",
+        "title": "Scene Builder",
         "position": {
-          "x": 56,
-          "y": 4
+          "x": 1,
+          "y": 1
         },
         "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-008",
-        "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.speech-params",
-        "title": "Speech Params",
-        "position": {
-          "x": 5,
-          "y": 23
-        },
-        "dimension": {
-          "x": 48,
-          "y": 23
-        },
-        "boardId": "B-008",
-        "flags": {},
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.flow",
-        "title": "Flow",
-        "position": {
-          "x": 5,
-          "y": 7
-        },
-        "dimension": {
-          "x": 44,
-          "y": 14
+          "x": 121,
+          "y": 47
         },
         "boardId": "B-008",
         "flags": {},
@@ -113,8 +74,8 @@
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.speech",
-        "title": "ImageViewer",
+        "widgetId": "com.usegdi.starter.scene-builder",
+        "title": "Scene Builder",
         "position": {
           "x": 1,
           "y": 1
@@ -125,43 +86,26 @@
         },
         "boardId": "B-008",
         "flags": {},
-        "props": {},
-        "columnIndex": 0
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.speech-params",
-        "title": "Speech Params",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-008",
-        "flags": {},
-        "props": {},
-        "columnIndex": 1
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.flow",
-        "title": "Flow",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-008",
-        "flags": {},
-        "props": {},
-        "columnIndex": 2
+        "props": {}
       }
     }
+  },
+  "defaults": {
+    "setupId": "default",
+    "playbackId": ""
+  },
+  "setupsUrl": "",
+  "playbacksUrl": "",
+  "flowUrl": "",
+  "isActive": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
   }
 }

@@ -1,44 +1,39 @@
 {
   "id": "B-007",
-  "identifier": "com.usegdi.assistants",
+  "identifier": "com.usegdi.voice-studio",
   "version": "0.1.0",
   "url": "/boards/B-007",
   "boardInfo": {
-    "name": "Assistants",
-    "index": 9,
-    "imageUrl": "/images/z_assistants.jpg",
-    "boardType": "continues",
-    "description": "Assistants is a revolutionary app that transforms the way we interact with virtual assistants. With its advanced AI technology, this app empowers users to create their own virtual assistants, allowing them to customize the experience to their specific needs.\n\nGone are the days of generic and impersonal assistants. With Assistants, you can create a virtual assistant that is tailored to your preferences. Whether you're looking for a personal assistant, a business assistant, or a virtual companion, this app has got you covered.\n\nAssistants combines the power of AI and 3D simulation to create a unique and interactive environment. Experience the future of virtual assistants with Assistants and discover a world of possibilities.",
-    "descriptionLong": "Use assistants similarly to tap into the power of AI. Generate JSONs or navigate the library of various IO assistants.",
-    "oneLiner": "Navigate the library of various IO assistants.",
-    "oneLinerShort": "Navigate the library of various IO assistants.",
-    "header": "show about ${prompt}",
-    "fields": [
-      {
-        "label": "input",
-        "content": "Prompt"
-      },
-      {
-        "label": "output",
-        "content": "3d conversation"
-      },
-      {
-        "label": "engines",
-        "content": "LLM #1, LLM #2, ElevenLabs"
-      }
+    "name": "Voice Studio",
+    "index": 7,
+    "imageUrl": "/images/z_soundboard.jpg",
+    "boardType": "adhoc",
+    "description": "VoiceStudio is a professional-quality voice-over creation application designed to cater to the needs of voice actors and content creators. This versatile tool empowers users to record, edit, and enhance voice recordings for a wide range of applications, including narration, podcasting, audio books, and more. With its intuitive interface and advanced features, VoiceStudio offers a seamless experience for anyone looking to create captivating voice overs with ease.",
+    "descriptionLong": "VoiceStudio is a professional-quality voice-over creation application designed to cater to the needs of voice actors and content creators. This versatile tool empowers users to record, edit, and enhance voice recordings for a wide range of applications, including narration, podcasting, audio books, and more. With its intuitive interface and advanced features, VoiceStudio offers a seamless experience for anyone looking to create captivating voice overs with ease. The app provides a comprehensive suite of tools such as multi-track recording, audio mixing, effects processing, and voice modulation, enabling users to achieve professional-grade results. VoiceStudio supports a variety of audio formats and allows for seamless integration with external microphones and audio interfaces, ensuring maximum flexibility for users. Whether you're a seasoned voice actor or a beginner exploring the world of voice-over creation, VoiceStudio promises to elevate your recording experience and deliver outstanding results. Unlock your creative potential and bring your voice projects to life with VoiceStudio!",
+    "oneLiner": "Empower your voice creations with professional-grade recording, editing, and enhancement tools in VoiceStudio - the ultimate voice-over app for content creators.",
+    "oneLinerShort": "\"Professional voice over creation simplified\"",
+    "header": "",
+    "fields": [],
+    "tags": [
+      "voiceover",
+      "recording",
+      "audio",
+      "creation"
     ],
-    "tags": ["animation", "stop motion", "3D", "creativity", "young_artists"],
-    "order": 2,
-    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
+    "order": 9,
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": 0
   },
   "author": "gdi",
   "dependencies": {
-    "@gdi/store-base": "^0.0.4",
-    "@gdi/ui": "^0.0.1",
-    "@gdi/widgets-starter": "^0.0.6"
+    "@gdi/widgets-starter": "0.6.3"
   },
-  "apis": ["3D-engine-1.0", "camera-motion-2.1", "timeline-1.5"],
+  "apis": [
+    "turbo-3.5"
+  ],
   "defaults": {
     "setupId": "default",
     "playbackId": ""
@@ -46,15 +41,12 @@
   "setupsUrl": "",
   "playbacksUrl": "",
   "flowUrl": "/B-007/B-007.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/B-007",
-  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
   "mobile": {
     "darkMode": true,
     "columns": 3,
     "flowColumnIndex": 2,
-    "outputColumnIndex": 1
+    "outputColumnIndex": 0
   },
   "reviewInfo": {
     "reviewsCount": 0,
@@ -81,8 +73,8 @@
       },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.chat",
-        "title": "Chat",
+        "widgetId": "com.usegdi.starter.speech",
+        "title": "ImageViewer",
         "position": {
           "x": 56,
           "y": 4
@@ -97,15 +89,15 @@
       },
       "e3": {
         "id": "e3",
-        "widgetId": "com.usegdi.starter.assistants-panel",
-        "title": "Assistants Panel",
+        "widgetId": "com.usegdi.starter.speech-params",
+        "title": "Speech Params",
         "position": {
-          "x": 4,
-          "y": 33
+          "x": 5,
+          "y": 23
         },
         "dimension": {
-          "x": 50,
-          "y": 13
+          "x": 48,
+          "y": 23
         },
         "boardId": "B-007",
         "flags": {},
@@ -121,7 +113,7 @@
         },
         "dimension": {
           "x": 44,
-          "y": 24
+          "y": 14
         },
         "boardId": "B-007",
         "flags": {},
@@ -131,8 +123,8 @@
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.chat",
-        "title": "Chat",
+        "widgetId": "com.usegdi.starter.speech",
+        "title": "ImageViewer",
         "position": {
           "x": 1,
           "y": 1
@@ -141,15 +133,15 @@
           "x": 121,
           "y": 48
         },
-        "columnIndex": 1,
         "boardId": "B-007",
         "flags": {},
-        "props": {}
+        "props": {},
+        "columnIndex": 0
       },
       "e3": {
         "id": "e3",
-        "widgetId": "com.usegdi.starter.assistants-panel",
-        "title": "Assistants Panel",
+        "widgetId": "com.usegdi.starter.speech-params",
+        "title": "Speech Params",
         "position": {
           "x": 1,
           "y": 1
@@ -158,10 +150,10 @@
           "x": 121,
           "y": 48
         },
-        "columnIndex": 0,
         "boardId": "B-007",
         "flags": {},
-        "props": {}
+        "props": {},
+        "columnIndex": 1
       },
       "e4": {
         "id": "e4",
@@ -175,7 +167,7 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-005",
+        "boardId": "B-007",
         "flags": {},
         "props": {},
         "columnIndex": 2

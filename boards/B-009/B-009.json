@@ -1,29 +1,58 @@
 {
   "id": "B-009",
-  "identifier": "com.usegdi.scene-builder",
+  "identifier": "com.usegdi.asset-manager",
   "version": "0.1.0",
   "url": "/boards/B-009",
   "boardInfo": {
-    "name": "Scene Builder",
+    "name": "Asset Manager",
     "index": 9,
-    "imageUrl": "/images/z_scene_builder.jpg",
+    "imageUrl": "/images/10.jpg",
     "boardType": "adhoc",
-    "description": "Scene Builder is a cutting-edge application that empowers users to effortlessly create stunning 3D scenes. Whether you're an experienced 3D artist or just starting out, Scene Builder offers a versatile toolkit that enables you to bring your imagination to life. With an intuitive interface and an extensive library of assets, this app ensures seamless scene composition and design. From architectural visualizations to virtual environments, Scene Builder caters to a wide range of 3D scene creation needs. With over 10,000 installations and a stellar rating of 4.7, it has become the go-to choice for 3D enthusiasts seeking unparalleled creativity and flexibility.",
-    "descriptionLong": "Scene Builder is a cutting-edge application that empowers users to effortlessly create stunning 3D scenes. Whether you're an experienced 3D artist or just starting out, Scene Builder offers a versatile toolkit that enables you to bring your imagination to life. With an intuitive interface and an extensive library of assets, this app ensures seamless scene composition and design. From architectural visualizations to virtual environments, Scene Builder caters to a wide range of 3D scene creation needs. Boasting over 10,000 installations and a stellar rating of 4.7, it has become the go-to choice for 3D enthusiasts seeking unparalleled creativity and flexibility.",
-    "oneLiner": "Empower your imagination with Scene Builder, the ultimate tool for creating stunning 3D scenes.",
-    "oneLinerShort": "\"Empower your imagination: Scene Builder\"",
+    "description": "Asset Manager is a versatile application designed to streamline the management of various digital assets, including images, voice files, and 3D objects. This powerful tool caters to a wide range of users and provides seamless organization, categorization, and accessibility of digital assets. Whether you're a creative professional, a developer, or a content creator, Asset Manager offers intuitive functionalities to enhance your workflow and ensure easy management of your valuable assets.",
+    "descriptionLong": "Asset Manager is a versatile application designed to streamline the management of various digital assets, including images, voice files, and 3D objects. This powerful tool caters to a wide range of users and provides seamless organization, categorization, and accessibility of digital assets. Whether you're a creative professional, a developer, or a content creator, Asset Manager offers intuitive functionalities to enhance your workflow and ensure easy management of your valuable assets. With support for a wide range of file formats and comprehensive metadata capabilities, Asset Manager simplifies the task of tagging, searching, and retrieving specific assets, making it an indispensable tool for efficient asset management. Embrace the power of asset organization and accessibility with Asset Manager, and take control of your digital content like never before.",
+    "oneLiner": "Streamline the management of images, voice files, and 3D objects with Asset Manager, a versatile application catering to a wide range of users.",
+    "oneLinerShort": "Streamline asset management with Asset Manager",
     "header": "",
     "fields": [],
-    "tags": ["3D", "scene", "visualization", "creation"],
-    "order": 8,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tags": [
+      "asset management",
+      "images",
+      "voice files",
+      "3D objects"
+    ],
+    "order": 9,
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": 0
   },
   "author": "gdi",
   "dependencies": {
     "@gdi/widgets-starter": "0.6.3"
   },
-  "apis": ["turbo-3.5"],
+  "apis": [
+    "turbo-3.5"
+  ],
+  "defaults": {
+    "setupId": "default",
+    "playbackId": ""
+  },
+  "setupsUrl": "",
+  "playbacksUrl": "",
+  "flowUrl": "/B-009/B-009.flow.json",
+  "isActive": true,
+  "mobile": {
+    "darkMode": true,
+    "columns": 2,
+    "hidePrompt": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
   "elements": {
     "default": {
       "e1": {
@@ -39,33 +68,86 @@
           "y": 6
         },
         "boardId": "B-009",
-        "flags": {},
-        "props": {
-          "darkMode": true
-        }
+        "flags": {}
       },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.scene-builder",
-        "title": "Scene Builder",
+        "widgetId": "com.usegdi.starter.asset-preview",
+        "title": "Chat",
         "position": {
-          "x": 1,
-          "y": 1
+          "x": 62,
+          "y": 7
         },
         "dimension": {
-          "x": 121,
-          "y": 47
+          "x": 58,
+          "y": 39
         },
         "boardId": "B-009",
         "flags": {},
-        "props": {}
+        "props": {},
+        "flavour": "viewer"
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.asset-list",
+        "title": "Asset List #2",
+        "position": {
+          "x": 62,
+          "y": 7
+        },
+        "dimension": {
+          "x": 58,
+          "y": 39
+        },
+        "boardId": "B-009",
+        "flags": {},
+        "props": {
+          "listId": "right"
+        },
+        "flavour": "default"
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.asset-list",
+        "title": "Asset List #1",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 58,
+          "y": 39
+        },
+        "boardId": "B-009",
+        "flags": {},
+        "props": {
+          "listId": "left"
+        }
+      },
+      "e5": {
+        "id": "e5",
+        "widgetId": "com.usegdi.starter.asset-new",
+        "title": "Asset New",
+        "position": {
+          "x": 24,
+          "y": 2
+        },
+        "dimension": {
+          "x": 96,
+          "y": 4
+        },
+        "boardId": "B-009",
+        "flags": {},
+        "props": {
+          "listId": "left"
+        }
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.scene-builder",
-        "title": "Scene Builder",
+        "widgetId": "com.usegdi.starter.asset-preview",
+        "title": "Chat",
         "position": {
           "x": 1,
           "y": 1
@@ -76,26 +158,48 @@
         },
         "boardId": "B-009",
         "flags": {},
-        "props": {}
+        "props": {},
+        "columnIndex": 1,
+        "flavour": "viewer"
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.asset-list",
+        "title": "Asset List #2",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-009",
+        "flags": {},
+        "props": {
+          "listId": "right"
+        },
+        "flavour": "default"
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.asset-list",
+        "title": "Asset List #1",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-009",
+        "flags": {},
+        "props": {
+          "listId": "left"
+        },
+        "columnIndex": 0
       }
     }
-  },
-  "defaults": {
-    "setupId": "default",
-    "playbackId": ""
-  },
-  "setupsUrl": "",
-  "playbacksUrl": "",
-  "flowUrl": "",
-  "isActive": true,
-  "mobile": {
-    "hidePrompt": true,
-    "darkMode": true
-  },
-  "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
   }
 }

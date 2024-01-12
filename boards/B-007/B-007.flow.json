@@ -3,43 +3,45 @@
     "flowId": "fb-007",
     "name": "Simple chat",
     "flowType": "continues",
+    "variables": {},
     "output": {
-      "transcriptLines": "actions.transcriptLines.setAll"
+      "voiceUrl": "actions.appState.patch"
     },
     "cumulativeThread": true,
-    "clearVariables": false
+    "clearVariables": false,
+    "textToSpeech": false
   },
-  "flowApis": {},
-  "flowAssistants": {
-    "as-007-chat": {
-      "id": "as-007-chat",
-      "name": "Chat",
-      "description": "Helpful assistant that provides a conversation about a topic.",
-      "instructions": "You are a helpful assistant",
-      "model": "gpt-3.5-turbo-1106",
-      "tools": [],
-      "isDynamic": true
+  "flowApis": {
+    "voiceGenerator": {
+      "id": "voiceGenerator",
+      "endpoint": "speech.basic",
+      "vendor": "openAI"
     }
   },
+  "flowAssistants": {},
   "flowNodes": {
     "n-001": {
       "id": "n-001",
-      "name": "Prompt",
-      "nodeType": "llm",
-      "assistantId": "as-007-chat",
+      "name": "Generate Voice",
+      "nodeType": "api",
+      "apiId": "voiceGenerator",
       "input": {
         "prompt": "${prompt}"
       },
       "variables": {
-        "transcriptRaw": "[0].content[0].text.value",
-        "transcriptLines": "$chatSimple"
+        "voiceUrl": "$voiceSimple"
       },
       "parentId": "",
       "completionParams": {
         "maxTokens": 200
       },
-      "position": { "x": 250, "y": 0 },
-      "connectors": ["n-002"],
+      "position": {
+        "x": 250,
+        "y": 0
+      },
+      "connectors": [
+        "n-002"
+      ],
       "isStart": true
     },
     "n-002": {
@@ -47,7 +49,10 @@
       "name": "Respond",
       "nodeType": "outcome",
       "parentId": "n-001",
-      "position": { "x": 250, "y": 150 },
+      "position": {
+        "x": 250,
+        "y": 150
+      },
       "isEnd": true
     }
   }

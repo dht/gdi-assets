@@ -1,8 +1,8 @@
 const fs = require('fs-extra');
 const { get, set, mapValues } = require('lodash');
 
-const board1 = 6;
-const board2 = 850;
+const board1 = 850;
+const board2 = 10;
 
 const renameBoard = (source, dest) => {
   const sourceId = 'B-' + lz(source);
@@ -13,11 +13,20 @@ const renameBoard = (source, dest) => {
     fs.removeSync(`./${destId}`);
   }
 
-  fs.mkdirSync(`./${destId}`);
+  console.log('sourceId ->', sourceId);
+  console.log('destId ->', destId);
+
+  fs.mkdirSync(`./${destId}/`);
   fs.copySync(`./${sourceId}/`, `./${destId}/`);
 
   fs.renameSync(`./${destId}/${sourceId}.json`, `./${destId}/${destId}.json`);
-  fs.renameSync(`./${destId}/${sourceId}.flow.json`, `./${destId}/${destId}.flow.json`);
+
+  const flowPath = `./${destId}/${sourceId}.flow.json`;
+  const flowExists = fs.existsSync(flowPath);
+
+  if (flowExists) {
+    fs.renameSync(flowPath, `./${destId}/${destId}.flow.json`);
+  }
 
   let content;
 
@@ -26,6 +35,20 @@ const renameBoard = (source, dest) => {
   set(content, 'url', `/boards/${destId}`);
   set(content, 'boardInfo.index', dest);
 
+  const { flowUrl, setupsUrl, playbacksUrl } = content;
+
+  if (flowUrl) {
+    content.flowUrl = `/${destId}/${destId}.flow.json`;
+  }
+
+  if (setupsUrl) {
+    content.setupsUrl = `/${destId}/${destId}.setups.json`;
+  }
+
+  if (playbacksUrl) {
+    content.playbacksUrl = `/${destId}/${destId}.playbacks.json`;
+  }
+
   replaceJson(content, (key, value) => {
     if (key === 'boardId') {
       return destId;
@@ -33,53 +56,67 @@ const renameBoard = (source, dest) => {
   });
   fs.writeJsonSync(`./${destId}/${destId}.json`, content, { spaces: 2 });
   const contentForAllBoards = { ...content };
-  delete contentForAllBoards.elements;
+  contentForAllBoards.elements = {
+    default: {},
+  };
 
-  content = fs.readJsonSync(`./${destId}/${destId}.flow.json`);
+  if (flowExists) {
+    content = fs.readJsonSync(`./${destId}/${destId}.flow.json`);
 
-  set(content, 'flowConfig.flowId', flowId);
+    set(content, 'flowConfig.flowId', flowId);
 
-  const assistantIdsMap = {};
+    const assistantIdsMap = {};
 
-  content.flowAssistants = Object.keys(content.flowAssistants).reduce((acc, key) => {
-    const value = content.flowAssistants[key];
+    content.flowAssistants = Object.keys(content.flowAssistants).reduce((acc, key) => {
+      const value = content.flowAssistants[key];
 
-    delete value.id;
+      delete value.id;
 
-    const newKey = key.replace('as-' + lz(source), 'as-' + lz(dest));
+      const newKey = key.replace('as-' + lz(source), 'as-' + lz(dest));
 
-    assistantIdsMap[key] = newKey;
+      assistantIdsMap[key] = newKey;
 
-    acc[newKey] = {
-      id: newKey,
-      ...value,
-    };
+      acc[newKey] = {
+        id: newKey,
+        ...value,
+      };
 
-    return acc;
-  }, {});
+      return acc;
+    }, {});
 
-  replaceJson(content, (key, value) => {
-    if (assistantIdsMap[value]) {
-      return assistantIdsMap[value];
-    }
+    replaceJson(content, (key, value) => {
+      if (assistantIdsMap[value]) {
+        return assistantIdsMap[value];
+      }
+    });
+
+    fs.writeJsonSync(`./${destId}/${destId}.flow.json`, content, { spaces: 2 });
+  }
+
+  fs.removeSync(`./${sourceId}/`);
+
+  const allBoards = fs.readJsonSync('./allBoards.json');
+  const index = allBoards.findIndex((board) => board.id === sourceId);
+
+  allBoards[index] = contentForAllBoards;
+  fs.writeJsonSync('./allBoards.json', allBoards, { spaces: 2 });
+};
+
+const fixSources = () => {
+  const allBoards = fs.readJsonSync('./allBoards.json');
+
+  const output = allBoards.map((board) => {
+    const { id } = board;
+    set(board, 'sourceUrl', `https://github.com/dht/gdi-assets/tree/main/boards/${id}`);
+    return board;
   });
 
-  fs.writeJsonSync(`./${destId}/${destId}.flow.json`, content, { spaces: 2 });
-
-  return contentForAllBoards;
+  fs.writeJsonSync('./allBoards.json', output, { spaces: 2 });
 };
 
 const run = async () => {
-  renameBoard(board2, 999);
-  const destContent = renameBoard(board1, board2);
-  const sourceContent = renameBoard(999, board1);
-
-  console.log('sourceContent ->', sourceContent);
-  console.log('destContent ->', destContent);
-
-  console.log('sourceId ->', sourceId);
-  const allBoards = fs.readJsonSync('./allBoards.json');
-  const index = allBoards.findIndex((board) => board.id === sourceId);
+  // fixSources();
+  renameBoard(board1, board2);
 };
 
 const replaceJson = (json, predicate) => {
