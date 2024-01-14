@@ -14,26 +14,16 @@
     "oneLinerShort": "\"Empower your imagination: Scene Builder\"",
     "header": "",
     "fields": [],
-    "tags": [
-      "3D",
-      "scene",
-      "visualization",
-      "creation"
-    ],
+    "tags": ["3D", "scene", "visualization", "creation"],
     "order": 8,
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": 0
   },
   "author": "gdi",
   "dependencies": {
     "@gdi/widgets-starter": "0.6.3"
   },
-  "apis": [
-    "turbo-3.5"
-  ],
+  "apis": ["turbo-3.5"],
   "elements": {
     "default": {
       "e1": {
@@ -107,5 +97,15 @@
     "installationCount": 0,
     "rating": 0,
     "reviews": {}
-  }
+  },
+  "storeNodes": [
+    "assets",
+    "sceneConfig",
+    "sceneCameras",
+    "sceneLights",
+    "sceneMeshes",
+    "scenePacks",
+    "sceneVASPs",
+    "sceneExternals"
+  ]
 }

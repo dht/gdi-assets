@@ -50,7 +50,8 @@
   "apis": ["turbo-3.5"],
   "defaults": {
     "setupId": "default",
-    "playbackId": ""
+    "playbackId": "",
+    "previewId": "/db/modelz.json"
   },
   "setupsUrl": "/B-001/B-001.setups.json",
   "playbacksUrl": "",
@@ -124,5 +125,19 @@
         "props": {}
       }
     }
-  }
+  },
+  "storeNodes": [
+    "assets",
+    "sceneConfig",
+    "sceneCameras",
+    "sceneLights",
+    "sceneBits",
+    "sceneMeshes",
+    "scenePacks",
+    "sceneVASPs",
+    "sceneDots",
+    "sceneExternals",
+    "sceneAudios",
+    "sceneEffects"
+  ]
 }
