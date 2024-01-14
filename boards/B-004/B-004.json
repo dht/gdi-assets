@@ -49,7 +49,7 @@
   },
   "apis": ["AI-3.0", "turbo-3.5"],
   "defaults": {
-    "previewPath": "/db/park.json"
+    "previewPath": "/data/park.json"
   },
   "flowUrl": "/B-004/B-004.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-005",
@@ -129,7 +129,7 @@
         },
         "dimension": {
           "x": 44,
-          "y": 40
+          "y": 32
         },
         "boardId": "B-004",
         "flags": {},
@@ -199,11 +199,11 @@
       },
       "e10": {
         "id": "e10",
-        "widgetId": "com.usegdi.starter.sound-player",
-        "title": "SoundPlayer",
+        "widgetId": "com.usegdi.starter.save-board",
+        "title": "SaveBoard",
         "position": {
           "x": 115,
-          "y": 24
+          "y": 27
         },
         "dimension": {
           "x": 1,
@@ -303,7 +303,6 @@
     }
   },
   "storeNodes": [
-    "assets",
     "sceneConfig",
     "sceneCameras",
     "sceneLights",

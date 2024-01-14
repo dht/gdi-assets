@@ -94,7 +94,6 @@
     "reviews": {}
   },
   "storeNodes": [
-    "assets",
     "sceneConfig",
     "sceneCameras",
     "sceneLights",

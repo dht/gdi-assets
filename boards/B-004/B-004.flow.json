@@ -7,7 +7,8 @@
       "topic": "variables.prompt"
     },
     "output": {
-      "transcriptLines": "actions.transcriptLines.setAll"
+      "transcriptLines": "actions.transcriptLines.setAll",
+      "transcriptAudios": "actions.transcriptAudios.setAll"
     },
     "clearVariables": true,
     "cumulativeThread": false
