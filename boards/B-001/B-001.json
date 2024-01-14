@@ -49,12 +49,8 @@
   },
   "apis": ["turbo-3.5"],
   "defaults": {
-    "setupId": "default",
-    "playbackId": "",
-    "previewId": "/db/modelz.json"
+    "previewPath": "/data/modelz.json"
   },
-  "setupsUrl": "/B-001/B-001.setups.json",
-  "playbacksUrl": "",
   "flowUrl": "/B-001/B-001.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",

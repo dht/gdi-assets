@@ -10,8 +10,7 @@
       "transcriptLines": "actions.transcriptLines.setAll"
     },
     "clearVariables": true,
-    "cumulativeThread": false,
-    "replaceHash": true
+    "cumulativeThread": false
   },
   "flowApis": {
     "conversation": {

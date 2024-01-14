@@ -14,32 +14,17 @@
     "oneLinerShort": "\"Professional voice over creation simplified\"",
     "header": "",
     "fields": [],
-    "tags": [
-      "voiceover",
-      "recording",
-      "audio",
-      "creation"
-    ],
+    "tags": ["voiceover", "recording", "audio", "creation"],
     "order": 9,
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": 0
   },
   "author": "gdi",
   "dependencies": {
     "@gdi/widgets-starter": "0.6.3"
   },
-  "apis": [
-    "turbo-3.5"
-  ],
-  "defaults": {
-    "setupId": "default",
-    "playbackId": ""
-  },
-  "setupsUrl": "",
-  "playbacksUrl": "",
+  "apis": ["turbo-3.5"],
+  "defaults": {},
   "flowUrl": "/B-007/B-007.flow.json",
   "isActive": true,
   "mobile": {
@@ -173,5 +158,6 @@
         "columnIndex": 2
       }
     }
-  }
+  },
+  "storeNodes": ["appState"]
 }

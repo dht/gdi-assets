@@ -40,11 +40,8 @@
   },
   "apis": [],
   "defaults": {
-    "setupId": "default",
-    "playbackId": ""
+    "previewPath": ""
   },
-  "setupsUrl": "",
-  "playbacksUrl": "",
   "flowUrl": "/B-003/B-003.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-004",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -181,5 +178,6 @@
         "props": {}
       }
     }
-  }
+  },
+  "storeNodes": ["appState"]
 }

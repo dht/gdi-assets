@@ -39,11 +39,7 @@
       "professionals"
     ],
     "order": 2,
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768",
-      "1280x800"
-    ],
+    "supportedResolutions": ["1920x1080", "1366x768", "1280x800"],
     "tsVersion": 0
   },
   "author": "gdi",
@@ -53,12 +49,7 @@
     "@gdi/widgets-starter": "^0.0.6"
   },
   "apis": [],
-  "defaults": {
-    "setupId": "default",
-    "playbackId": ""
-  },
-  "setupsUrl": "",
-  "playbacksUrl": "",
+  "defaults": {},
   "flowUrl": "/B-010/B-010.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",

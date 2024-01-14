@@ -14,32 +14,17 @@
     "oneLinerShort": "Streamline asset management with Asset Manager",
     "header": "",
     "fields": [],
-    "tags": [
-      "asset management",
-      "images",
-      "voice files",
-      "3D objects"
-    ],
+    "tags": ["asset management", "images", "voice files", "3D objects"],
     "order": 9,
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": 0
   },
   "author": "gdi",
   "dependencies": {
     "@gdi/widgets-starter": "0.6.3"
   },
-  "apis": [
-    "turbo-3.5"
-  ],
-  "defaults": {
-    "setupId": "default",
-    "playbackId": ""
-  },
-  "setupsUrl": "",
-  "playbacksUrl": "",
+  "apis": ["turbo-3.5"],
+  "defaults": {},
   "flowUrl": "/B-009/B-009.flow.json",
   "isActive": true,
   "mobile": {
@@ -201,5 +186,6 @@
         "columnIndex": 0
       }
     }
-  }
+  },
+  "storeNodes": ["assets"]
 }

@@ -80,12 +80,7 @@
       }
     }
   },
-  "defaults": {
-    "setupId": "default",
-    "playbackId": ""
-  },
-  "setupsUrl": "",
-  "playbacksUrl": "",
+  "defaults": {},
   "flowUrl": "",
   "isActive": true,
   "mobile": {

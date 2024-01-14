@@ -1,0 +1,1434 @@
+{
+  "assets": {
+    "11247898": {
+      "fileName": "s7.png",
+      "tsAdded": 1705207395.314,
+      "size": 1902732,
+      "filePath": "uploads/a2233349.png",
+      "id": "11247898",
+      "contentType": "image",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fa2233349.png",
+      "tags": ["project-new"]
+    },
+    "83287978": {
+      "fileName": "heightMap-mars.png",
+      "tsAdded": 1705207438.573,
+      "size": 22271,
+      "filePath": "uploads/848a2d7f.png",
+      "id": "83287978",
+      "contentType": "image",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F848a2d7f.png",
+      "tags": ["project-new"]
+    },
+    "0a350489": {
+      "fileName": "v-02.mp3",
+      "tsAdded": 1705207424.077,
+      "size": 66343,
+      "filePath": "uploads/4490e5ec.mp3",
+      "id": "0a350489",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F4490e5ec.mp3",
+      "tags": ["project-new"]
+    },
+    "0c0f7ad7": {
+      "fileName": "v-09.mp3",
+      "tsAdded": 1705207411.233,
+      "size": 35682,
+      "filePath": "uploads/8f113fc4.mp3",
+      "id": "0c0f7ad7",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F8f113fc4.mp3",
+      "tags": ["project-new"]
+    },
+    "11db19c7": {
+      "fileName": "v-05.mp3",
+      "tsAdded": 1705207406.684,
+      "size": 58002,
+      "filePath": "uploads/593a78d0.mp3",
+      "id": "11db19c7",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F593a78d0.mp3",
+      "tags": ["project-new"]
+    },
+    "231de227": {
+      "fileName": "v-01.mp3",
+      "tsAdded": 1705207406.633,
+      "size": 29421,
+      "filePath": "uploads/5a599115.mp3",
+      "id": "231de227",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F5a599115.mp3",
+      "tags": ["project-new"]
+    },
+    "3d4533e3": {
+      "fileName": "v-10.mp3",
+      "tsAdded": 1705207411.325,
+      "size": 108435,
+      "filePath": "uploads/21af2bc1.mp3",
+      "id": "3d4533e3",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F21af2bc1.mp3",
+      "tags": ["project-new"]
+    },
+    "3fce5b01": {
+      "fileName": "modelZ.mp3",
+      "tsAdded": 1705207384.482,
+      "size": 1332161,
+      "filePath": "uploads/6178cbe3.mp3",
+      "id": "3fce5b01",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F6178cbe3.mp3",
+      "tags": ["project-new"]
+    },
+    "40de79cc": {
+      "fileName": "s4.png",
+      "tsAdded": 1705207391.207,
+      "size": 1677000,
+      "filePath": "uploads/f5177af3.png",
+      "id": "40de79cc",
+      "contentType": "image",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Ff5177af3.png",
+      "tags": ["project-new"]
+    },
+    "4bf636e1": {
+      "fileName": "heightMap-city.png",
+      "tsAdded": 1705207374.699,
+      "size": 13446,
+      "filePath": "uploads/2d76cad5.png",
+      "id": "4bf636e1",
+      "contentType": "image",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F2d76cad5.png",
+      "tags": ["project-new"]
+    },
+    "6f15fbf7": {
+      "fileName": "v-05.mp3",
+      "tsAdded": 1705207424.032,
+      "size": 58002,
+      "filePath": "uploads/10cd98f7.mp3",
+      "id": "6f15fbf7",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F10cd98f7.mp3",
+      "tags": ["project-new"]
+    },
+    "72492bc3": {
+      "fileName": "car.glb",
+      "tsAdded": 1705207745.554,
+      "filePath": "",
+      "id": "72492bc3",
+      "contentType": "3d",
+      "assetUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/car.glb",
+      "tags": ["project-new"]
+    },
+    "777a645b": {
+      "fileName": "v-01.mp3",
+      "tsAdded": 1705207424,
+      "size": 29421,
+      "filePath": "uploads/d73f4f47.mp3",
+      "id": "777a645b",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fd73f4f47.mp3",
+      "tags": ["project-new"]
+    },
+    "7ff08e80": {
+      "fileName": "v-02.mp3",
+      "tsAdded": 1705207406.707,
+      "size": 66343,
+      "filePath": "uploads/6c8f41ec.mp3",
+      "id": "7ff08e80",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F6c8f41ec.mp3",
+      "tags": ["project-new"]
+    },
+    "8845795d": {
+      "fileName": "s5.png",
+      "tsAdded": 1705207395.304,
+      "size": 1533646,
+      "filePath": "uploads/6cfabcfc.png",
+      "id": "8845795d",
+      "contentType": "image",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F6cfabcfc.png",
+      "tags": ["project-new"]
+    },
+    "89bfae68": {
+      "fileName": "s3.png",
+      "tsAdded": 1705207391.216,
+      "size": 2361157,
+      "filePath": "uploads/04e8d1b2.png",
+      "id": "89bfae68",
+      "contentType": "image",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F04e8d1b2.png",
+      "tags": ["project-new"]
+    },
+    "96d45f3d": {
+      "fileName": "v-03.mp3",
+      "tsAdded": 1705207424.005,
+      "size": 19929,
+      "filePath": "uploads/b6d640d8.mp3",
+      "id": "96d45f3d",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fb6d640d8.mp3",
+      "tags": ["project-new"]
+    },
+    "973d56e4": {
+      "fileName": "v-03.mp3",
+      "tsAdded": 1705207406.639,
+      "size": 19929,
+      "filePath": "uploads/65e3f982.mp3",
+      "id": "973d56e4",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F65e3f982.mp3",
+      "tags": ["project-new"]
+    },
+    "9f1927b1": {
+      "fileName": "txt.json",
+      "tsAdded": 1705207402.184,
+      "size": 610,
+      "filePath": "uploads/67712a50.json",
+      "id": "9f1927b1",
+      "contentType": "json",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F67712a50.json",
+      "tags": ["project-new"]
+    },
+    "9f737416": {
+      "fileName": "v-06.mp3",
+      "tsAdded": 1705207424.028,
+      "size": 98894,
+      "filePath": "uploads/9e74808d.mp3",
+      "id": "9f737416",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F9e74808d.mp3",
+      "tags": ["project-new"]
+    },
+    "a1beee17": {
+      "fileName": "v-11.mp3",
+      "tsAdded": 1705207416.638,
+      "size": 109070,
+      "filePath": "uploads/5e12c3a1.mp3",
+      "id": "a1beee17",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F5e12c3a1.mp3",
+      "tags": ["project-new"]
+    },
+    "ad613e9b": {
+      "fileName": "s2.png",
+      "tsAdded": 1705207391.11,
+      "size": 1623105,
+      "filePath": "uploads/d0cd9165.png",
+      "id": "ad613e9b",
+      "contentType": "image",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fd0cd9165.png",
+      "tags": ["project-new"]
+    },
+    "bb4061e1": {
+      "fileName": "heightMap-blank.png",
+      "tsAdded": 1705207374.662,
+      "size": 2096,
+      "filePath": "uploads/f20a1340.png",
+      "id": "bb4061e1",
+      "contentType": "image",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Ff20a1340.png",
+      "tags": ["project-new"]
+    },
+    "bc46607e": {
+      "fileName": "s6.png",
+      "tsAdded": 1705207395.346,
+      "size": 1430111,
+      "filePath": "uploads/5067795b.png",
+      "id": "bc46607e",
+      "contentType": "image",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F5067795b.png",
+      "tags": ["project-new"]
+    },
+    "c1671ef8": {
+      "fileName": "v-04.mp3",
+      "tsAdded": 1705207406.699,
+      "size": 14664,
+      "filePath": "uploads/7c9085bb.mp3",
+      "id": "c1671ef8",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F7c9085bb.mp3",
+      "tags": ["project-new"]
+    },
+    "cd65edb6": {
+      "fileName": "s1.png",
+      "tsAdded": 1705207391.143,
+      "size": 1858280,
+      "filePath": "uploads/fc2f7bca.png",
+      "id": "cd65edb6",
+      "contentType": "image",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Ffc2f7bca.png",
+      "tags": ["project-new"]
+    },
+    "cf433ebf": {
+      "fileName": "v-04.mp3",
+      "tsAdded": 1705207424.048,
+      "size": 14664,
+      "filePath": "uploads/7f2c2b69.mp3",
+      "id": "cf433ebf",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F7f2c2b69.mp3",
+      "tags": ["project-new"]
+    },
+    "d168925f": {
+      "fileName": "v-06.mp3",
+      "tsAdded": 1705207411.254,
+      "size": 98894,
+      "filePath": "uploads/d77a5aa4.mp3",
+      "id": "d168925f",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fd77a5aa4.mp3",
+      "tags": ["project-new"]
+    },
+    "d2390b59": {
+      "fileName": "hud.json",
+      "tsAdded": 1705207377.764,
+      "size": 1164,
+      "filePath": "uploads/61255814.json",
+      "id": "d2390b59",
+      "contentType": "json",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F61255814.json",
+      "tags": ["project-new"]
+    },
+    "d492aa01": {
+      "fileName": "scene-default.json",
+      "tsAdded": 1705207777.277,
+      "filePath": "/scenes/d492aa01.json",
+      "id": "d492aa01",
+      "contentType": "scene",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/%2Fscenes%2Fd492aa01.json",
+      "tags": ["project-new"],
+      "tsModified": 1705207873.122
+    },
+    "dc00024d": {
+      "fileName": "v-08.mp3",
+      "tsAdded": 1705207411.263,
+      "size": 33854,
+      "filePath": "uploads/9d4523ac.mp3",
+      "id": "dc00024d",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F9d4523ac.mp3",
+      "tags": ["project-new"]
+    },
+    "e047f05c": {
+      "fileName": "v-12.mp3",
+      "tsAdded": 1705207411.314,
+      "size": 117678,
+      "filePath": "uploads/f17f8fca.mp3",
+      "id": "e047f05c",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Ff17f8fca.mp3",
+      "tags": ["project-new"]
+    },
+    "e548425c": {
+      "fileName": "v-07.mp3",
+      "tsAdded": 1705207411.235,
+      "size": 35294,
+      "filePath": "uploads/58f52364.mp3",
+      "id": "e548425c",
+      "contentType": "audio",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F58f52364.mp3",
+      "tags": ["project-new"]
+    },
+    "f381182e": {
+      "fileName": "s10.png",
+      "tsAdded": 1705207395.4,
+      "size": 2645524,
+      "filePath": "uploads/4428eb16.png",
+      "id": "f381182e",
+      "contentType": "image",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F4428eb16.png",
+      "tags": ["project-new"]
+    },
+    "f4e32542": {
+      "fileName": "clip-default.json",
+      "tsAdded": 1705207903.465,
+      "size": 21468,
+      "filePath": "uploads/dc2142a8.json",
+      "id": "f4e32542",
+      "contentType": "clip",
+      "assetUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fdc2142a8.json",
+      "tags": ["project-new"]
+    }
+  },
+  "sceneConfig": {
+    "totalDuration": 0,
+    "backgroundColor": [0, 0, 0, 1],
+    "cameras": {
+      "arc": {},
+      "free": {}
+    },
+    "sun": {}
+  },
+  "sceneCameras": {
+    "free": {
+      "id": "free",
+      "position": [-32, 29, 24],
+      "target": [0, 0, 0],
+      "type": "free",
+      "isSticky": true
+    },
+    "arc": {
+      "id": "arc",
+      "type": "arc",
+      "position": [0, 0, 0],
+      "target": [0, 0, 0],
+      "values": {
+        "alpha": 130,
+        "beta": 60,
+        "radius": 50
+      },
+      "isSticky": true
+    }
+  },
+  "sceneLights": {},
+  "sceneBits": {
+    "b01": {
+      "cameraId": "arc",
+      "elements": {
+        "g1": true
+      },
+      "name": "Rear view",
+      "index": 1,
+      "id": "b01",
+      "type": "basic",
+      "timestamp": 0
+    },
+    "b02": {
+      "cameraId": "arc",
+      "elements": {
+        "g1": true
+      },
+      "name": "Road ahead",
+      "index": 1,
+      "id": "b02",
+      "type": "basic",
+      "timestamp": 3.985
+    },
+    "b03": {
+      "cameraId": "arc",
+      "elements": {
+        "car": true
+      },
+      "name": "Side view",
+      "index": 2,
+      "id": "b03",
+      "type": "basic",
+      "timestamp": 8.374
+    },
+    "b04": {
+      "cameraId": "arc",
+      "elements": {
+        "car": true,
+        "g1": true
+      },
+      "name": "Zoom in",
+      "index": 3,
+      "id": "b04",
+      "type": "basic",
+      "timestamp": 12.203
+    },
+    "b05": {
+      "cameraId": "arc",
+      "elements": {
+        "car": true,
+        "g1": false,
+        "g2": true,
+        "g3": true
+      },
+      "name": "Mars/city",
+      "index": 4,
+      "id": "b05",
+      "type": "basic",
+      "timestamp": 18.616
+    },
+    "b06": {
+      "cameraId": "arc",
+      "elements": {
+        "car": true,
+        "g2": true,
+        "g3": false
+      },
+      "name": "Landscapes",
+      "index": 5,
+      "id": "b06",
+      "type": "basic",
+      "timestamp": 23.741
+    },
+    "b07": {
+      "attachmentFilename": "hud.json",
+      "attachmentUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F61255814.json",
+      "cameraId": "arc",
+      "elements": {
+        "car": true,
+        "g1": false
+      },
+      "name": "Hud",
+      "index": 6,
+      "id": "b07",
+      "type": "layer",
+      "timestamp": 28.319
+    },
+    "b08": {
+      "attachmentFilename": "s6.png",
+      "attachmentUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F5067795b.png",
+      "cameraId": "free",
+      "elements": {
+        "car": true
+      },
+      "name": "Rise to sky",
+      "index": 7,
+      "id": "b08",
+      "type": "skybox",
+      "timestamp": 38.523
+    },
+    "b09": {
+      "attachmentFilename": "s5.png",
+      "attachmentUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F6cfabcfc.png",
+      "cameraId": "free",
+      "elements": {
+        "car": true,
+        "g1": false
+      },
+      "name": "Mars rail",
+      "index": 8,
+      "id": "b09",
+      "type": "skybox",
+      "timestamp": 42.595
+    },
+    "b10": {
+      "attachmentFilename": "s10.png",
+      "attachmentUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F4428eb16.png",
+      "cameraId": "free",
+      "elements": {
+        "car": true,
+        "g1": false
+      },
+      "name": "Beach highway",
+      "id": "b10",
+      "type": "skybox",
+      "timestamp": 46.279
+    },
+    "b11": {
+      "attachmentFilename": "s1.png",
+      "attachmentUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Ffc2f7bca.png",
+      "cameraId": "free",
+      "elements": {
+        "car": true,
+        "g1": false
+      },
+      "name": "Distant planet",
+      "id": "b11",
+      "type": "skybox",
+      "timestamp": 49.884
+    },
+    "b12": {
+      "attachmentFilename": "s1.png",
+      "attachmentUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Ffc2f7bca.png",
+      "elements": {
+        "car": true,
+        "g1": true
+      },
+      "name": "Distant planet B",
+      "id": "b12",
+      "type": "skybox",
+      "timestamp": 52.477
+    },
+    "b13": {
+      "attachmentFilename": "txt.json",
+      "attachmentUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F67712a50.json",
+      "cameraId": "arc",
+      "elements": {
+        "car": true,
+        "g1": false,
+        "g2": true
+      },
+      "name": "to outro",
+      "id": "b13",
+      "type": "basic",
+      "timestamp": 53.869
+    },
+    "b14": {
+      "attachmentFilename": "txt.json",
+      "attachmentUrl": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F67712a50.json",
+      "cameraId": "arc",
+      "elements": {
+        "car": true,
+        "g1": false,
+        "g2": true
+      },
+      "name": "Outro",
+      "id": "b14",
+      "type": "layer",
+      "timestamp": 55.523
+    }
+  },
+  "sceneMeshes": {
+    "g1": {
+      "material": {
+        "alpha": 0.5,
+        "values": {
+          "mainColor": [0, 0.3, 0],
+          "gridRatio": 0.5,
+          "majorUnitFrequency": 2,
+          "lineColor": [0.8, 1, 0.8]
+        },
+        "id": "g1-material",
+        "type": "grid",
+        "colors": {}
+      },
+      "values": {
+        "minHeight": 0,
+        "heightMap": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Ff20a1340.png",
+        "maxHeight": 50,
+        "width": 100,
+        "height": 100,
+        "subdivisions": 100
+      },
+      "id": "g1",
+      "position": [0, 0, 0],
+      "type": "topography",
+      "enabled": false
+    },
+    "g2": {
+      "material": {
+        "alpha": 0.5,
+        "values": {
+          "mainColor": [0, 0.3, 0],
+          "gridRatio": 0.5,
+          "majorUnitFrequency": 2,
+          "lineColor": [0.8, 1, 0.8]
+        },
+        "id": "g2-material",
+        "type": "grid",
+        "colors": {}
+      },
+      "values": {
+        "minHeight": 0,
+        "heightMap": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F848a2d7f.png",
+        "maxHeight": 15,
+        "width": 100,
+        "height": 100,
+        "subdivisions": 100
+      },
+      "id": "g2",
+      "position": [0, 0, 0],
+      "type": "topography",
+      "enabled": false
+    },
+    "g3": {
+      "material": {
+        "alpha": 0.5,
+        "values": {
+          "mainColor": [0, 0.3, 0],
+          "gridRatio": 0.5,
+          "majorUnitFrequency": 2,
+          "lineColor": [0.8, 1, 0.8]
+        },
+        "id": "g3-material",
+        "type": "grid",
+        "colors": {}
+      },
+      "values": {
+        "minHeight": 0,
+        "heightMap": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F2d76cad5.png",
+        "maxHeight": 50,
+        "width": 100,
+        "height": 100,
+        "subdivisions": 100
+      },
+      "id": "g3",
+      "position": [0, 0, 0],
+      "type": "topography",
+      "enabled": true
+    }
+  },
+  "scenePacks": {
+    "p1-woman-red": {
+      "id": "p1-woman-red",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p1-woman-red.png",
+      "capacity": 1,
+      "identifier": "p1-woman-red",
+      "index": 0
+    }
+  },
+  "sceneVASPs": {
+    "p1-woman-red": {
+      "id": "p1-woman-red",
+      "identifier": "mbp.svg",
+      "vaspType": "sprite",
+      "values": {
+        "size": {
+          "width": 0.684,
+          "height": 2.394
+        },
+        "source": {
+          "width": 114,
+          "height": 399
+        },
+        "isOnGround": true
+      },
+      "packId": "p1-woman-red",
+      "position": [11, 0, -3.9],
+      "index": 22
+    },
+    "ma": {
+      "id": "ma",
+      "identifier": "ma-bird",
+      "vaspType": "microAnimation",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/bird-1.png",
+      "values": {
+        "size": 2,
+        "toFrame": 3,
+        "cellSize": 289,
+        "fromFrame": 0,
+        "boardId": "ville",
+        "loop": true,
+        "capacity": 1,
+        "delay": 6000
+      },
+      "position": [5.7, 5.4, -10.3],
+      "index": 0
+    },
+    "v1": {
+      "id": "v1",
+      "vaspType": "video",
+      "identifier": "video-water",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/water-2.mp4",
+      "type": "sphere",
+      "values": {
+        "diameterX": 9.3,
+        "diameterY": 9.3,
+        "diameterZ": 0
+      },
+      "material": {
+        "type": "color",
+        "colors": {
+          "specular": [0, 0, 0]
+        }
+      },
+      "position": [15.9, 0.5, -8.57],
+      "rotation": [90, 0, 0],
+      "index": 1
+    },
+    "p1": {
+      "id": "p1",
+      "vaspType": "particle",
+      "identifier": "particle-1",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/smoke.png",
+      "position": [9, 0, -3.9],
+      "values": {
+        "size": 1,
+        "speed": 1,
+        "emitRate": 10,
+        "maxLifeTime": 16
+      },
+      "index": 0
+    }
+  },
+  "sceneDots": {
+    "dot_b01_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "arc",
+      "values": {
+        "alpha": 115,
+        "radius": 7,
+        "beta": 83
+      },
+      "id": "dot_b01_arc_start",
+      "bitId": "b01"
+    },
+    "dot_b01_g1_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0.03, 0, -5.65]
+      },
+      "id": "dot_b01_g1_end",
+      "meshId": "g1",
+      "bitId": "b01"
+    },
+    "dot_b01_g1_start": {
+      "virtualDotId": "start",
+      "values": {
+        "position": [0, 0, -42]
+      },
+      "id": "dot_b01_g1_start",
+      "meshId": "g1",
+      "bitId": "b01"
+    },
+    "dot_b02_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "arc",
+      "values": {
+        "alpha": -86,
+        "radius": 7,
+        "beta": 81
+      },
+      "id": "dot_b02_arc_start",
+      "bitId": "b02"
+    },
+    "dot_b02_g1_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0.03, 0, 8.47]
+      },
+      "id": "dot_b02_g1_end",
+      "meshId": "g1",
+      "bitId": "b02"
+    },
+    "dot_b02_g1_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0.03, 0, 39.44]
+      },
+      "id": "dot_b02_g1_start",
+      "meshId": "g1",
+      "bitId": "b02"
+    },
+    "dot_b03_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "arc",
+      "values": {
+        "alpha": -3,
+        "radius": 74,
+        "beta": 79
+      },
+      "id": "dot_b03_arc_start",
+      "bitId": "b03"
+    },
+    "dot_b03_car_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0, 0, -0.7]
+      },
+      "id": "dot_b03_car_end",
+      "meshId": "car",
+      "bitId": "b03"
+    },
+    "dot_b03_car_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0, 0, 48.04]
+      },
+      "id": "dot_b03_car_start",
+      "meshId": "car",
+      "bitId": "b03"
+    },
+    "dot_b04_arc_end": {
+      "virtualDotId": "end",
+      "cameraId": "arc",
+      "values": {
+        "alpha": -175,
+        "radius": 22,
+        "beta": 88
+      },
+      "id": "dot_b04_arc_end",
+      "bitId": "b04"
+    },
+    "dot_b04_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "arc",
+      "values": {
+        "alpha": -174,
+        "radius": 38,
+        "beta": 89
+      },
+      "id": "dot_b04_arc_start",
+      "bitId": "b04"
+    },
+    "dot_b04_car_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0, 0, -0.7]
+      },
+      "id": "dot_b04_car_end",
+      "meshId": "car",
+      "bitId": "b04"
+    },
+    "dot_b04_g1_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [-0.19, 0, 28.11]
+      },
+      "id": "dot_b04_g1_end",
+      "meshId": "g1",
+      "bitId": "b04"
+    },
+    "dot_b04_g1_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [-0.19, 0, -8.52]
+      },
+      "id": "dot_b04_g1_start",
+      "meshId": "g1",
+      "bitId": "b04"
+    },
+    "dot_b05_arc_end": {
+      "virtualDotId": "end",
+      "cameraId": "arc",
+      "values": {
+        "alpha": -2,
+        "radius": 22,
+        "beta": 85
+      },
+      "id": "dot_b05_arc_end",
+      "bitId": "b05"
+    },
+    "dot_b05_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "arc",
+      "values": {
+        "alpha": -176,
+        "radius": 22,
+        "beta": 85
+      },
+      "id": "dot_b05_arc_start",
+      "easing": [1, -0.0011458333333334014, 0.021171875000000007, 1.0095833333333333],
+      "bitId": "b05"
+    },
+    "dot_b05_g1_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0, 0, 0]
+      },
+      "id": "dot_b05_g1_start",
+      "meshId": "g1",
+      "bitId": "b05"
+    },
+    "dot_b05_g2_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, -179.81, 0],
+        "position": [59.16, 0, 25.85]
+      },
+      "id": "dot_b05_g2_end",
+      "meshId": "g2",
+      "bitId": "b05"
+    },
+    "dot_b05_g2_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, -179.6, 0],
+        "position": [58.53, 0, -30.71]
+      },
+      "id": "dot_b05_g2_start",
+      "meshId": "g2",
+      "bitId": "b05"
+    },
+    "dot_b05_g3_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [-41.2, 0, 26.32]
+      },
+      "id": "dot_b05_g3_end",
+      "meshId": "g3",
+      "bitId": "b05"
+    },
+    "dot_b05_g3_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [-41.2, 0, -30.1]
+      },
+      "id": "dot_b05_g3_start",
+      "meshId": "g3",
+      "bitId": "b05"
+    },
+    "dot_b06_arc_end": {
+      "virtualDotId": "end",
+      "cameraId": "arc",
+      "values": {
+        "alpha": 345,
+        "radius": 17,
+        "beta": 83
+      },
+      "id": "dot_b06_arc_end",
+      "bitId": "b06"
+    },
+    "dot_b06_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "arc",
+      "values": {
+        "alpha": 110,
+        "radius": 64,
+        "beta": 43
+      },
+      "id": "dot_b06_arc_start",
+      "bitId": "b06"
+    },
+    "dot_b06_g2_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, -124.64, 0],
+        "position": [3.99, 0, 38.13]
+      },
+      "id": "dot_b06_g2_end",
+      "meshId": "g2",
+      "bitId": "b06"
+    },
+    "dot_b06_g2_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, -179.6, 0],
+        "position": [-4.48, 0, -20.43]
+      },
+      "id": "dot_b06_g2_start",
+      "meshId": "g2",
+      "bitId": "b06"
+    },
+    "dot_b07_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "arc",
+      "values": {
+        "alpha": 130,
+        "radius": 50,
+        "beta": 60
+      },
+      "id": "dot_b07_arc_start",
+      "bitId": "b07"
+    },
+    "dot_b07_car_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 0, 0],
+        "position": [0, 0, 0]
+      },
+      "id": "dot_b07_car_start",
+      "meshId": "car",
+      "bitId": "b07"
+    },
+    "dot_b07_free_start": {
+      "virtualDotId": "start",
+      "cameraId": "free",
+      "values": {
+        "rotation": [0, 90, 0],
+        "position": [0, 0, 0]
+      },
+      "id": "dot_b07_free_start",
+      "bitId": "b07"
+    },
+    "dot_b08_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "arc",
+      "values": {
+        "alpha": 130,
+        "radius": 50,
+        "beta": 60
+      },
+      "id": "dot_b08_arc_start",
+      "bitId": "b08"
+    },
+    "dot_b08_car_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, -117.01, 0],
+        "position": [62.48, -3.75, -1.65]
+      },
+      "id": "dot_b08_car_end",
+      "meshId": "car",
+      "bitId": "b08"
+    },
+    "dot_b08_car_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, -108.81, 0],
+        "position": [35.45, -3.75, -10.86]
+      },
+      "id": "dot_b08_car_start",
+      "meshId": "car",
+      "bitId": "b08"
+    },
+    "dot_b08_free_start": {
+      "virtualDotId": "start",
+      "cameraId": "free",
+      "values": {
+        "rotation": [0, 90, 0],
+        "position": [0, 0, 0]
+      },
+      "id": "dot_b08_free_start",
+      "bitId": "b08"
+    },
+    "dot_b08_skybox_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 90, 0],
+        "position": [123.32, 0, 1.99]
+      },
+      "id": "dot_b08_skybox_start",
+      "meshId": "skybox",
+      "bitId": "b08"
+    },
+    "dot_b09_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "arc",
+      "values": {
+        "alpha": 130,
+        "radius": 50,
+        "beta": 60
+      },
+      "id": "dot_b09_arc_start",
+      "bitId": "b09"
+    },
+    "dot_b09_car_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 76.24, 0],
+        "position": [-21.57, -5.68, -7.61]
+      },
+      "id": "dot_b09_car_end",
+      "meshId": "car",
+      "bitId": "b09"
+    },
+    "dot_b09_car_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 75.77, 0],
+        "position": [114.65, -8.45, 24.28]
+      },
+      "id": "dot_b09_car_start",
+      "meshId": "car",
+      "easing": [0.05552083333333335, 0.9670052083333333, 0.4078515625, 0.24497395833333335],
+      "bitId": "b09"
+    },
+    "dot_b09_free_start": {
+      "virtualDotId": "start",
+      "cameraId": "free",
+      "values": {
+        "rotation": [0, 90, 0],
+        "position": [0, 0, 0]
+      },
+      "id": "dot_b09_free_start",
+      "bitId": "b09"
+    },
+    "dot_b10_car_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [0.36, 0.36, 0.36],
+        "rotation": [-4.71, 149.57, -7.54],
+        "position": [29.62, -8.28, 10.68]
+      },
+      "id": "dot_b10_car_end",
+      "meshId": "car",
+      "bitId": "b10"
+    },
+    "dot_b10_car_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [0.36, 0.36, 0.36],
+        "rotation": [-30.42, 153.39, -8.72],
+        "position": [42.81, -0.02, -13.34]
+      },
+      "id": "dot_b10_car_start",
+      "meshId": "car",
+      "easing": [0.5005598958333333, 0.9148958333333334, 0.6631640624999999, 0.9735807291666667],
+      "bitId": "b10"
+    },
+    "dot_b10_free_start": {
+      "virtualDotId": "start",
+      "cameraId": "free",
+      "values": {
+        "rotation": [0, 90, 0],
+        "position": [0, 0, 0]
+      },
+      "id": "dot_b10_free_start",
+      "bitId": "b10"
+    },
+    "dot_b11_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "arc",
+      "values": {
+        "alpha": 130,
+        "radius": 50,
+        "beta": 60
+      },
+      "id": "dot_b11_arc_start",
+      "bitId": "b11"
+    },
+    "dot_b11_car_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 57.23, 0],
+        "position": [64.31, -0.93, -1.14]
+      },
+      "id": "dot_b11_car_end",
+      "meshId": "car",
+      "bitId": "b11"
+    },
+    "dot_b11_car_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 110.49, 0],
+        "position": [89.74, -19.07, -11.66]
+      },
+      "id": "dot_b11_car_start",
+      "meshId": "car",
+      "bitId": "b11"
+    },
+    "dot_b11_free_start": {
+      "virtualDotId": "start",
+      "cameraId": "free",
+      "values": {
+        "rotation": [0, 90, 0],
+        "position": [0, 0, 0]
+      },
+      "id": "dot_b11_free_start",
+      "bitId": "b11"
+    },
+    "dot_b12_car_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 57.23, 0],
+        "position": [14.87, -0.93, -32.96]
+      },
+      "id": "dot_b12_car_end",
+      "meshId": "car",
+      "bitId": "b12"
+    },
+    "dot_b12_car_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 57.23, 0],
+        "position": [64.31, -0.93, -1.14]
+      },
+      "id": "dot_b12_car_start",
+      "meshId": "car",
+      "easing": [0.8870312499999999, -0.1751171875, 0.9416666666666668, 0.19800781249999994],
+      "bitId": "b12"
+    },
+    "dot_b12_free_start": {
+      "virtualDotId": "start",
+      "cameraId": "free",
+      "values": {
+        "rotation": [0, 90, 0],
+        "position": [0, 0, 0]
+      },
+      "id": "dot_b12_free_start",
+      "bitId": "b12"
+    },
+    "dot_b13_arc_end": {
+      "virtualDotId": "end",
+      "cameraId": "arc",
+      "values": {
+        "alpha": 114,
+        "radius": 33,
+        "beta": 79
+      },
+      "id": "dot_b13_arc_end",
+      "bitId": "b13"
+    },
+    "dot_b13_arc_start": {
+      "virtualDotId": "start",
+      "cameraId": "arc",
+      "values": {
+        "alpha": 102,
+        "radius": 47,
+        "beta": 81
+      },
+      "id": "dot_b13_arc_start",
+      "bitId": "b13"
+    },
+    "dot_b13_car_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 106.68, 0],
+        "position": [-6.54, 2.05, 21.83]
+      },
+      "id": "dot_b13_car_end",
+      "meshId": "car",
+      "bitId": "b13"
+    },
+    "dot_b13_car_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, 69.08, 0],
+        "position": [4.58, 0, 20.47]
+      },
+      "id": "dot_b13_car_start",
+      "meshId": "car",
+      "bitId": "b13"
+    },
+    "dot_b13_free_start": {
+      "virtualDotId": "start",
+      "cameraId": "free",
+      "values": {
+        "rotation": [0, 90, 0],
+        "position": [-32, 29, 24]
+      },
+      "id": "dot_b13_free_start",
+      "bitId": "b13"
+    },
+    "dot_b13_g2_end": {
+      "virtualDotId": "end",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, -141.2, 0],
+        "position": [1.33, 0, 1.66]
+      },
+      "id": "dot_b13_g2_end",
+      "meshId": "g2",
+      "bitId": "b13"
+    },
+    "dot_b13_g2_start": {
+      "virtualDotId": "start",
+      "values": {
+        "scaling": [1, 1, 1],
+        "rotation": [0, -141.2, 0],
+        "position": [1.33, 0, 1.66]
+      },
+      "id": "dot_b13_g2_start",
+      "meshId": "g2",
+      "bitId": "b13"
+    }
+  },
+  "sceneExternals": {
+    "car": {
+      "id": "car",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/car.glb",
+      "enabled": false
+    }
+  },
+  "sceneAudios": {
+    "audio-1": {
+      "duration": 0,
+      "fileName": "v-01.mp3",
+      "id": "audio-1",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fd73f4f47.mp3",
+      "timestamp": 8.877652727817749
+    },
+    "audio-10": {
+      "duration": 0,
+      "fileName": "v-10.mp3",
+      "id": "audio-10",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F21af2bc1.mp3",
+      "timestamp": 46.69724955035971
+    },
+    "audio-11": {
+      "duration": 0,
+      "fileName": "v-11.mp3",
+      "id": "audio-11",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F5e12c3a1.mp3",
+      "timestamp": 54.101928507194245
+    },
+    "audio-12": {
+      "duration": 0,
+      "fileName": "v-12.mp3",
+      "id": "audio-12",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Ff17f8fca.mp3",
+      "timestamp": 59.83458318345323
+    },
+    "audio-2": {
+      "duration": 0,
+      "fileName": "v-02.mp3",
+      "id": "audio-2",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F4490e5ec.mp3",
+      "timestamp": 12.818852817745803
+    },
+    "audio-3": {
+      "duration": 0,
+      "fileName": "v-03.mp3",
+      "id": "audio-3",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fb6d640d8.mp3",
+      "timestamp": 18.033976169064747
+    },
+    "audio-4": {
+      "duration": 0,
+      "fileName": "v-04.mp3",
+      "id": "audio-4",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F7f2c2b69.mp3",
+      "timestamp": 21.019733812949642
+    },
+    "audio-5": {
+      "duration": 0,
+      "fileName": "v-05.mp3",
+      "id": "audio-5",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F10cd98f7.mp3",
+      "timestamp": 23.925871252997606
+    },
+    "audio-6": {
+      "duration": 0,
+      "fileName": "v-06.mp3",
+      "id": "audio-6",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2Fd77a5aa4.mp3",
+      "timestamp": 28.504032973621104
+    },
+    "audio-7": {
+      "duration": 0,
+      "fileName": "v-07.mp3",
+      "id": "audio-7",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F58f52364.mp3",
+      "timestamp": 36.22719274580336
+    },
+    "audio-8": {
+      "duration": 0,
+      "fileName": "v-08.mp3",
+      "id": "audio-8",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F9d4523ac.mp3",
+      "timestamp": 39.33238069544364
+    },
+    "audio-9": {
+      "duration": 0,
+      "fileName": "v-09.mp3",
+      "id": "audio-9",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F8f113fc4.mp3",
+      "timestamp": 42.95509997002399
+    },
+    "audio-main": {
+      "duration": 0,
+      "fileName": "modelZ.mp3",
+      "isMain": true,
+      "id": "audio-main",
+      "url": "http://127.0.0.1:9199/usegdi-a56c4.appspot.com/uploads%2F6178cbe3.mp3",
+      "timestamp": 0
+    }
+  },
+  "sceneEffects": {
+    "fx-01": {
+      "duration": 0,
+      "effectId": "chromatic",
+      "id": "fx-01",
+      "timestamp": 7.683349670263788
+    },
+    "fx-02": {
+      "duration": 0,
+      "effectId": "chromatic",
+      "id": "fx-02",
+      "timestamp": 59.516102368105514
+    }
+  }
+}

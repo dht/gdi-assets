@@ -39,12 +39,7 @@
     "@gdi/widgets-starter": "^0.0.6"
   },
   "apis": ["3D-engine-1.0", "camera-motion-2.1", "timeline-1.5"],
-  "defaults": {
-    "setupId": "default",
-    "playbackId": ""
-  },
-  "setupsUrl": "",
-  "playbacksUrl": "",
+  "defaults": {},
   "flowUrl": "/B-006/B-006.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/B-006",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -181,5 +176,6 @@
         "columnIndex": 2
       }
     }
-  }
+  },
+  "storeNodes": ["messages"]
 }

@@ -39,12 +39,7 @@
     "@gdi/widgets-starter": "^0.0.6"
   },
   "apis": [],
-  "defaults": {
-    "setupId": "default",
-    "playbackId": ""
-  },
-  "setupsUrl": "",
-  "playbacksUrl": "",
+  "defaults": {},
   "flowUrl": "/B-005/B-005.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/B-005",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -200,5 +195,6 @@
         "columnIndex": 2
       }
     }
-  }
+  },
+  "storeNodes": ["document", "documentSuggestions"]
 }

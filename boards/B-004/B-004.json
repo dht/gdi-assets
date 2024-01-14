@@ -49,11 +49,8 @@
   },
   "apis": ["AI-3.0", "turbo-3.5"],
   "defaults": {
-    "setupId": "park",
-    "playbackId": "space"
+    "previewPath": "/db/park.json"
   },
-  "setupsUrl": "/B-004/B-004.setups.json",
-  "playbacksUrl": "",
   "flowUrl": "/B-004/B-004.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-005",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -304,5 +301,21 @@
         "columnIndex": 1
       }
     }
-  }
+  },
+  "storeNodes": [
+    "assets",
+    "sceneConfig",
+    "sceneCameras",
+    "sceneLights",
+    "sceneBits",
+    "sceneMeshes",
+    "scenePacks",
+    "sceneVASPs",
+    "sceneDots",
+    "sceneExternals",
+    "sceneAudios",
+    "sceneEffects",
+    "transcriptLines",
+    "transcriptAudios"
+  ]
 }

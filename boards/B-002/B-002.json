@@ -40,11 +40,8 @@
   },
   "apis": ["chatgpt-1.0"],
   "defaults": {
-    "setupId": "default",
-    "playbackId": ""
+    "previewPath": ""
   },
-  "setupsUrl": "",
-  "playbacksUrl": "",
   "flowUrl": "/B-002/B-002.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-003",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -148,5 +145,6 @@
         "columnIndex": 1
       }
     }
-  }
+  },
+  "storeNodes": ["messages"]
 }
