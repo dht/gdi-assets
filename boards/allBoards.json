@@ -299,7 +299,7 @@
       "turbo-3.5"
     ],
     "defaults": {
-      "previewPath": "/data/park.json"
+      "previewPath": "/data/park-expanse.json"
     },
     "flowUrl": "/B-004/B-004.flow.json",
     "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-005",
