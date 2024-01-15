@@ -8,10 +8,10 @@
     "index": 4,
     "imageUrl": "/images/z_park.jpg",
     "boardType": "linear",
-    "description": "Park Conversation is an innovative app that takes 3D simulation to the next level. Step into a virtual park where you can witness three teenagers engaging in a lifelike conversation about any topic you provide. Using state-of-the-art AI technology, this app generates realistic voice dialogue and mouth movements for a truly immersive experience.\n\nGone are the days of static simulations. With Park Conversation, you can watch and listen as the characters discuss and debate any subject of your choosing. Whether it's current events, movies, sports, or any other topic, the AI-generated conversation will feel authentic and engaging.\n\nPark Conversation brings together the power of AI and 3D simulation to create a unique and interactive environment. Be a part of the conversation and experience the future of virtual interactions.",
-    "descriptionLong": "Park Conversation is an innovative app that revolutionizes 3D simulation. Immerse yourself in a virtual park setting and witness three teenagers engaging in a captivating conversation about any topic you provide. Powered by state-of-the-art AI technology, this app generates realistic voice dialogue and mouth movements, creating an unprecedented level of immersion.\n\nGone are the days of static simulations. With Park Conversation, you can be a part of the conversation and witness lifelike interactions between the characters. Whether you want to explore current events, discuss movies, or engage in sports debates, the AI-generated conversation feels authentic and engaging.\n\nPark Conversation combines the power of AI and 3D simulation to create a unique and interactive environment. Step into the virtual park, listen to the conversation, and experience the future of virtual interactions.",
-    "oneLiner": "Experience lifelike conversations in a virtual park with 3D simulations and AI-generated voice dialogue and mouth movements.",
-    "oneLinerShort": "Engage in lifelike conversations in a virtual park with AI-generated voice dialogue.",
+    "description": "Park Conversation is a unique board that brings 3D conversation simulations to life. Set in a virtual park, it features three teenagers engaging in dynamic discussions on any given topic. Leveraging advanced AI, it synthesizes realistic voice dialogues, complete with accurate lip-syncing, to craft an immersive conversational experience. This board moves beyond traditional simulations, offering an interactive platform where characters debate and discuss a wide range of subjects, from current events to movies or sports, all in a lifelike manner.",
+    "descriptionLong": "Park Conversation board stands out in the realm of 3D conversation simulations. Enter a virtual park where you can prompt three teenagers to discuss any topic. With cutting-edge AI technology, this board generates not just dialogues but also synchronizes them with lifelike lip movements and expressive voice modulation. The result is a remarkably immersive experience, as the characters' discussions feel genuine and engaging. From casual chats to deep debates, Park Conversation covers a broad spectrum of discussions, offering users a front-row seat to the future of interactive 3D simulations.",
+    "oneLiner": "Dive into immersive 3D conversations with teenagers in a virtual park, featuring AI-driven voice and lip-syncing.",
+    "oneLinerShort": "Explore AI-enhanced 3D park conversations with realistic voice and lip-sync.",
     "header": "Conversation about ${prompt}",
     "fields": [
       {
@@ -52,7 +52,7 @@
     "previewPath": "/data/park-expanse.json"
   },
   "flowUrl": "/B-004/B-004.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-005",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-004",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

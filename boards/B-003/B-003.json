@@ -8,10 +8,10 @@
     "index": 3,
     "imageUrl": "/images/z_paint.jpg",
     "boardType": "linear",
-    "description": "Image Generator is a powerful tool that enables users to create AI-generated images with ease. This app provides a simple and intuitive interface, making it accessible to users of all skill levels. With Image Generator, you can effortlessly generate stunning visuals using cutting-edge AI technology.\n\nGone are the days of struggling to find the perfect image for your project. Image Generator puts limitless creativity at your fingertips. Whether you're a beginner or an experienced designer, this app simplifies the image generation process, allowing you to produce professional-quality visuals in minutes.\n\nBy harnessing the power of AI, Image Generator ensures that the images generated are impressive, unique, and tailored to your specific needs. Whether you need images for marketing materials, presentations, social media, or any other creative project, this app has got you covered.\n\nExperience the convenience and flexibility of AI-generated images with Image Generator and take your visual content to the next level.",
-    "descriptionLong": "Image Generator is a groundbreaking app that revolutionizes the way we create images. With its advanced AI technology, this tool empowers users to effortlessly generate stunning visuals. The app provides a simple and intuitive interface, making it accessible to users of all skill levels.\n\nSay goodbye to the days of searching for hours to find the perfect image for your projects. Image Generator puts limitless creativity at your fingertips. Whether you're a beginner or an experienced designer, this app streamlines the image generation process, allowing you to produce professional-quality visuals in minutes.\n\nBy harnessing the power of AI, Image Generator ensures that the images generated are impressive, unique, and tailored to your specific needs. Whether you're creating marketing materials, presentations, social media content, or any other creative project, this app has got you covered.\n\nExperience the convenience and flexibility of AI-generated images with Image Generator and take your visual content to new heights.",
-    "oneLiner": "Unlock limitless creativity with AI-generated images using Image Generator.",
-    "oneLinerShort": "Unlock limitless creativity with AI-generated images.",
+    "description": "Image Generator simplifies the task of creating AI-generated visuals. Designed for developers and users of all skill levels, it offers an intuitive interface for crafting high-quality images. Utilize state-of-the-art generative AI to produce visuals ranging from practical designs to creative explorations. This tool streamlines the process of transforming your ideas into stunning visuals, ideal for projects requiring unique, AI-generated imagery.",
+    "descriptionLong": "Image Generator is a developer-friendly board that elevates the process of creating AI-generated images. It combines ease of use with advanced generative AI technology, enabling both novice and experienced users to quickly produce high-quality visuals. The tool is tailored for efficiency in generating unique, customized images, making it a valuable asset for projects in marketing, social media, presentation design, and more. Embrace the power of AI to bring your creative visions to life with Image Generator, your go-to tool for innovative image creation.",
+    "oneLiner": "Effortlessly create custom AI-generated images with Image Generator.",
+    "oneLinerShort": "Efficient AI-driven image creation with Image Generator.",
     "header": "Generate images with GPT",
     "fields": [
       {
@@ -43,7 +43,7 @@
     "previewPath": ""
   },
   "flowUrl": "/B-003/B-003.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-004",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-003",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

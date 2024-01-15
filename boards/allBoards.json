@@ -10,11 +10,12 @@
       "imageUrl": "/images/z_3d.jpg",
       "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
       "boardType": "adhoc",
-      "description": "3D Ad Creator is a revolutionary tool that transforms the landscape of digital advertising. It empowers users to create visually stunning 3D video advertisements, pushing the boundaries of traditional ad creation. With the assistance of cutting-edge AI technology, this platform enables users to produce captivating content that truly engages audiences. Whether you're a beginner or an experienced designer, 3D Ad Creator simplifies the ad creation process, guaranteeing professional-quality results with minimal effort.\n\nIn the past, advertisements were often dull and failed to capture viewers' attention. However, with 3D Ad Creator's AI assistance and intuitive interface, users can now unleash their creativity and generate captivating 3D video ads. Its advanced technology ensures that the content resonates with the target audience, maximizing impact and success. Whether you're looking to promote a product, service, or brand, this tool offers a streamlined and efficient ad creation process, catering to designers of all skill levels. Experience the future of digital advertising with 3D Ad Creator and captivate your audience like never before.",
-      "descriptionLong": "3D Ad Creator is the ultimate game-changer in the realm of digital advertising. Through its cutting-edge technology, this platform empowers users to create visually stunning 3D video advertisements that push the boundaries of traditional ad creation. With the assistance of state-of-the-art AI, users can produce captivating content that truly engages audiences. Whether you are a beginner or an experienced designer, 3D Ad Creator simplifies the ad creation process, guaranteeing professional-quality results with minimal effort.\n\nIn the past, advertisements often failed to capture viewers' attention and were dull. However, 3D Ad Creator's AI assistance and intuitive interface have revolutionized ad creation. Users can now unleash their creativity and generate captivating 3D video ads that resonate with their target audience. With its advanced technology, this tool ensures maximum impact and success. It offers a streamlined and efficient ad creation process, catering to designers of all skill levels. Experience the future of digital advertising with 3D Ad Creator and captivate your audience like never before. Enjoy the simplicity, efficiency, and outstanding results that this powerful tool has to offer.",
-      "oneLiner": "Revolutionize digital advertising with visually stunning 3D video ads, powered by cutting-edge AI technology for maximum impact and minimal effort.",
-      "oneLinerShort": "Revolutionize digital ads with stunning 3D videos, powered by AI.",
+      "description": "3D Ad Creator redefines digital advertising by enabling the creation of immersive 3D video ads with ease. Leveraging advanced AI technology, it allows both novices and professionals to craft engaging content effortlessly. This tool transforms ad creation into an intuitive and rewarding experience, ensuring your message captivates and resonates with audiences.",
+      "descriptionLong": "The 3D Ad Creator stands as a cornerstone in digital advertising innovation. Its state-of-the-art AI technology facilitates the creation of mesmerizing 3D video advertisements. The platform is designed for creators at every skill level, simplifying the process while delivering high-quality, impactful results. The 3D Ad Creator is not just a tool; it's a gateway to creating ads that leave a lasting impression.",
+      "oneLiner": "Elevate digital advertising with 3D Ad Creator's AI-driven, immersive video ads.",
+      "oneLinerShort": "Elevate ads with AI-driven 3D videos.",
       "header": "commercial for a ${topic}",
+      "logoColor": "#565",
       "fields": [
         {
           "label": "input",
@@ -58,7 +59,7 @@
       "previewPath": "/data/modelz.json"
     },
     "flowUrl": "/B-001/B-001.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-001",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
@@ -96,10 +97,10 @@
       "index": 2,
       "imageUrl": "/images/z_chitchat.jpg",
       "boardType": "continues",
-      "description": "ChitChat is a simple and intuitive board that allows users to have conversations with an AI-powered chatbot. With a user-friendly interface resembling a chat window, ChitChat provides a seamless experience for engaging in natural and dynamic conversations.\n\nPowered by advanced ChatGPT technology, this board harnesses the power of natural language processing and machine learning to generate human-like responses. Whether you're looking for a chat companion, need assistance with a question, or simply want to have some fun, ChitChat is here to keep you company.\n\nGone are the days of dull and boring chatbots. ChitChat's AI algorithms ensure that every conversation is engaging, relevant, and tailored to your specific needs. Experience the future of chat interfaces with ChitChat and discover a world of interactive and intelligent conversations.",
-      "descriptionLong": "ChitChat is a revolutionary board that introduces a simple and intuitive chat interface powered by advanced ChatGPT technology. With its user-friendly chat window, ChitChat offers a seamless experience for engaging in natural and dynamic conversations.\n\nThrough the power of natural language processing and machine learning, ChitChat's AI algorithms generate human-like responses, making every conversation feel authentic and interactive. Whether you're seeking a chat companion, looking for quick answers, or simply want to have some fun, ChitChat is your go-to board.\n\nGone are the days of mundane and monotonous chatbots. ChitChat's intelligent algorithms ensure that every conversation is engaging, relevant, and personalized to your specific needs. Experience the future of chat interfaces with ChitChat and unlock a world of interactive and intelligent conversations.",
-      "oneLiner": "Engage in dynamic conversations with an AI-powered chatbot through ChitChat's user-friendly interface.",
-      "oneLinerShort": "Experience dynamic conversations with an AI chatbot through ChitChat.",
+      "description": "ChitChat offers a straightforward and easy-to-use platform for engaging with a basic AI-powered chatbot. Its interface is user-friendly, resembling a typical chat window, which makes for uncomplicated and straightforward conversations. Using a simplified version of ChatGPT technology, ChitChat is capable of generating responses that are coherent and relevant, perfect for casual chats or quick inquiries.",
+      "descriptionLong": "ChitChat is a no-frills, easy-to-navigate board that brings the essentials of AI chat technology to your fingertips. Its interface is clean and familiar, ensuring ease of use for all types of users. While it operates on a more basic version of ChatGPT technology, it proficiently handles everyday conversations and queries, providing responses that are to the point yet engaging. ChitChat is ideal for users who need a quick, efficient, and hassle-free chatbot experience.",
+      "oneLiner": "Engage in straightforward conversations with ChitChat's basic AI chatbot.",
+      "oneLinerShort": "Simple, efficient AI chats with ChitChat.",
       "header": "Chat with GPT",
       "fields": [
         {
@@ -145,7 +146,7 @@
       "previewPath": ""
     },
     "flowUrl": "/B-002/B-002.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-003",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-002",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
@@ -175,10 +176,10 @@
       "index": 3,
       "imageUrl": "/images/z_paint.jpg",
       "boardType": "linear",
-      "description": "Image Generator is a powerful tool that enables users to create AI-generated images with ease. This app provides a simple and intuitive interface, making it accessible to users of all skill levels. With Image Generator, you can effortlessly generate stunning visuals using cutting-edge AI technology.\n\nGone are the days of struggling to find the perfect image for your project. Image Generator puts limitless creativity at your fingertips. Whether you're a beginner or an experienced designer, this app simplifies the image generation process, allowing you to produce professional-quality visuals in minutes.\n\nBy harnessing the power of AI, Image Generator ensures that the images generated are impressive, unique, and tailored to your specific needs. Whether you need images for marketing materials, presentations, social media, or any other creative project, this app has got you covered.\n\nExperience the convenience and flexibility of AI-generated images with Image Generator and take your visual content to the next level.",
-      "descriptionLong": "Image Generator is a groundbreaking app that revolutionizes the way we create images. With its advanced AI technology, this tool empowers users to effortlessly generate stunning visuals. The app provides a simple and intuitive interface, making it accessible to users of all skill levels.\n\nSay goodbye to the days of searching for hours to find the perfect image for your projects. Image Generator puts limitless creativity at your fingertips. Whether you're a beginner or an experienced designer, this app streamlines the image generation process, allowing you to produce professional-quality visuals in minutes.\n\nBy harnessing the power of AI, Image Generator ensures that the images generated are impressive, unique, and tailored to your specific needs. Whether you're creating marketing materials, presentations, social media content, or any other creative project, this app has got you covered.\n\nExperience the convenience and flexibility of AI-generated images with Image Generator and take your visual content to new heights.",
-      "oneLiner": "Unlock limitless creativity with AI-generated images using Image Generator.",
-      "oneLinerShort": "Unlock limitless creativity with AI-generated images.",
+      "description": "Image Generator simplifies the task of creating AI-generated visuals. Designed for developers and users of all skill levels, it offers an intuitive interface for crafting high-quality images. Utilize state-of-the-art generative AI to produce visuals ranging from practical designs to creative explorations. This tool streamlines the process of transforming your ideas into stunning visuals, ideal for projects requiring unique, AI-generated imagery.",
+      "descriptionLong": "Image Generator is a developer-friendly board that elevates the process of creating AI-generated images. It combines ease of use with advanced generative AI technology, enabling both novice and experienced users to quickly produce high-quality visuals. The tool is tailored for efficiency in generating unique, customized images, making it a valuable asset for projects in marketing, social media, presentation design, and more. Embrace the power of AI to bring your creative visions to life with Image Generator, your go-to tool for innovative image creation.",
+      "oneLiner": "Effortlessly create custom AI-generated images with Image Generator.",
+      "oneLinerShort": "Efficient AI-driven image creation with Image Generator.",
       "header": "Generate images with GPT",
       "fields": [
         {
@@ -222,7 +223,7 @@
       "previewPath": ""
     },
     "flowUrl": "/B-003/B-003.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-004",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-003",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
@@ -252,10 +253,10 @@
       "index": 4,
       "imageUrl": "/images/z_park.jpg",
       "boardType": "linear",
-      "description": "Park Conversation is an innovative app that takes 3D simulation to the next level. Step into a virtual park where you can witness three teenagers engaging in a lifelike conversation about any topic you provide. Using state-of-the-art AI technology, this app generates realistic voice dialogue and mouth movements for a truly immersive experience.\n\nGone are the days of static simulations. With Park Conversation, you can watch and listen as the characters discuss and debate any subject of your choosing. Whether it's current events, movies, sports, or any other topic, the AI-generated conversation will feel authentic and engaging.\n\nPark Conversation brings together the power of AI and 3D simulation to create a unique and interactive environment. Be a part of the conversation and experience the future of virtual interactions.",
-      "descriptionLong": "Park Conversation is an innovative app that revolutionizes 3D simulation. Immerse yourself in a virtual park setting and witness three teenagers engaging in a captivating conversation about any topic you provide. Powered by state-of-the-art AI technology, this app generates realistic voice dialogue and mouth movements, creating an unprecedented level of immersion.\n\nGone are the days of static simulations. With Park Conversation, you can be a part of the conversation and witness lifelike interactions between the characters. Whether you want to explore current events, discuss movies, or engage in sports debates, the AI-generated conversation feels authentic and engaging.\n\nPark Conversation combines the power of AI and 3D simulation to create a unique and interactive environment. Step into the virtual park, listen to the conversation, and experience the future of virtual interactions.",
-      "oneLiner": "Experience lifelike conversations in a virtual park with 3D simulations and AI-generated voice dialogue and mouth movements.",
-      "oneLinerShort": "Engage in lifelike conversations in a virtual park with AI-generated voice dialogue.",
+      "description": "Park Conversation is a unique board that brings 3D conversation simulations to life. Set in a virtual park, it features three teenagers engaging in dynamic discussions on any given topic. Leveraging advanced AI, it synthesizes realistic voice dialogues, complete with accurate lip-syncing, to craft an immersive conversational experience. This board moves beyond traditional simulations, offering an interactive platform where characters debate and discuss a wide range of subjects, from current events to movies or sports, all in a lifelike manner.",
+      "descriptionLong": "Park Conversation board stands out in the realm of 3D conversation simulations. Enter a virtual park where you can prompt three teenagers to discuss any topic. With cutting-edge AI technology, this board generates not just dialogues but also synchronizes them with lifelike lip movements and expressive voice modulation. The result is a remarkably immersive experience, as the characters' discussions feel genuine and engaging. From casual chats to deep debates, Park Conversation covers a broad spectrum of discussions, offering users a front-row seat to the future of interactive 3D simulations.",
+      "oneLiner": "Dive into immersive 3D conversations with teenagers in a virtual park, featuring AI-driven voice and lip-syncing.",
+      "oneLinerShort": "Explore AI-enhanced 3D park conversations with realistic voice and lip-sync.",
       "header": "Conversation about ${prompt}",
       "fields": [
         {
@@ -302,7 +303,7 @@
       "previewPath": "/data/park-expanse.json"
     },
     "flowUrl": "/B-004/B-004.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-005",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-004",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
@@ -344,10 +345,10 @@
       "index": 5,
       "imageUrl": "/images/z_writer.jpg",
       "boardType": "continues",
-      "description": "Writers Team is a powerful tool that enables users to create AI-generated documents with ease. This app provides a simple and intuitive interface, making it accessible to users of all skill levels. With Writers Team, you can effortlessly generate professional-quality documents using cutting-edge AI technology.\n\nGone are the days of struggling to find the perfect words for your project. Writers Team puts limitless creativity at your fingertips. Whether you're a beginner or an experienced writer, this app simplifies the document creation process, allowing you to produce high-quality content in minutes.\n\nBy harnessing the power of AI, Writers Team ensures that the documents generated are impressive, unique, and tailored to your specific needs. Whether you need documents for marketing materials, presentations, social media, or any other creative project, this app has got you covered.\n\nExperience the convenience and flexibility of AI-generated documents with Writers Team and take your content to the next level.",
-      "descriptionLong": "Writers Team is a groundbreaking app that revolutionizes the way we create documents. With its advanced AI technology, this tool empowers users to effortlessly generate professional-quality documents. The app provides a simple and intuitive interface, making it accessible to users of all skill levels.\n\nSay goodbye to the days of struggling to find the perfect words for your projects. Writers Team puts limitless creativity at your fingertips. Whether you're a beginner or an experienced writer, this app streamlines the document creation process, allowing you to produce high-quality content in minutes.\n\nBy harnessing the power of AI, Writers Team ensures that the documents generated are impressive, unique, and tailored to your specific needs. Whether you're creating marketing materials, presentations, social media content, or any other creative project, this app has got you covered.\n\nExperience the convenience and flexibility of AI-generated documents with Writers Team and take your content to new heights.",
-      "oneLiner": "Unlock limitless creativity with AI-generated documents using Writers Team.",
-      "oneLinerShort": "Unlock limitless creativity with AI-generated documents.",
+      "description": "Writers Team is an essential starting point for many workflows in the GDI ecosystem, to generate script initial content. It offers a straightforward interface for generating AI-driven documents, serving as a foundational tool for further project development. From here, users can take their AI-scripted output to other boards, integrating and building upon it. Whether drafting initial scripts or creating detailed documentation, Writers Team provides a robust platform to produce high-quality, unique content tailored to your project needs.",
+      "descriptionLong": "Writers Team stands as a cornerstone in the GDI ecosystem. It simplifies the initial scripting process with its advanced AI technology, making it a go-to board for generating the foundational documents needed in various workflows. This board's intuitive interface welcomes users of all skill levels to create professional-quality scripts and documents. These AI-crafted outputs serve as the perfect starting point, which can be further developed and refined across the GDI platform. Writers Team is not just a document creator; it's a springboard for innovative project development, ensuring unique, tailored content for every use case.",
+      "oneLiner": "Start your GDI workflow with AI-scripted documents from Writers Team.",
+      "oneLinerShort": "Initiate GDI projects with AI-driven scripting on Writers Team.",
       "header": "Write about ${prompt}",
       "fields": [
         {
@@ -379,7 +380,9 @@
       "@gdi/widgets-starter": "^0.0.6"
     },
     "apis": [],
-    "defaults": {},
+    "defaults": {
+      "previewPath": ""
+    },
     "flowUrl": "/B-005/B-005.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-005",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -396,7 +399,11 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "storeNodes": [
+      "document",
+      "documentSuggestions"
+    ]
   },
   {
     "id": "B-006",
@@ -405,13 +412,13 @@
     "url": "/boards/B-006",
     "boardInfo": {
       "name": "Assistants",
-      "index": 6,
+      "index": 9,
       "imageUrl": "/images/z_assistants.jpg",
       "boardType": "continues",
-      "description": "Assistants is a revolutionary app that transforms the way we interact with virtual assistants. With its advanced AI technology, this app empowers users to create their own virtual assistants, allowing them to customize the experience to their specific needs.\n\nGone are the days of generic and impersonal assistants. With Assistants, you can create a virtual assistant that is tailored to your preferences. Whether you're looking for a personal assistant, a business assistant, or a virtual companion, this app has got you covered.\n\nAssistants combines the power of AI and 3D simulation to create a unique and interactive environment. Experience the future of virtual assistants with Assistants and discover a world of possibilities.",
-      "descriptionLong": "Use assistants similarly to tap into the power of AI. Generate JSONs or navigate the library of various IO assistants.",
-      "oneLiner": "Navigate the library of various IO assistants.",
-      "oneLinerShort": "Navigate the library of various IO assistants.",
+      "description": "Assistants serves as a gateway to the OpenAI Assistant API, redefining interactions with virtual assistants. This board facilitates the creation of bespoke virtual assistants, leveraging advanced AI akin to GPTs. It offers developers the flexibility to tailor assistants to specific use cases, ranging from personal to business applications. With Assistants, gone are the limitations of generic assistants; instead, users can build assistants that align perfectly with their unique requirements and preferences.",
+      "descriptionLong": "Assistants stands at the forefront of virtual assistant technology, mirroring the conceptual framework of GPTs and tapping into the capabilities of the OpenAI Assistant API. Developers can utilize this board to craft tailored assistant experiences, generating JSON configurations or exploring an extensive library of IO assistants. It's designed to facilitate a deeper level of customization and integration, offering a dynamic platform for creating assistants that truly understand and respond to user needs in a sophisticated, AI-driven manner.",
+      "oneLiner": "Craft tailored virtual assistants using GPT-like AI with Assistants.",
+      "oneLinerShort": "Create bespoke AI assistants akin to GPTs with Assistants.",
       "header": "show about ${prompt}",
       "fields": [
         {
@@ -453,7 +460,9 @@
       "camera-motion-2.1",
       "timeline-1.5"
     ],
-    "defaults": {},
+    "defaults": {
+      "previewPath": ""
+    },
     "flowUrl": "/B-006/B-006.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-006",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -471,9 +480,9 @@
       "rating": 0,
       "reviews": {}
     },
-    "elements": {
-      "default": {}
-    }
+    "storeNodes": [
+      "messages"
+    ]
   },
   {
     "id": "B-007",
@@ -485,10 +494,10 @@
       "index": 7,
       "imageUrl": "/images/z_soundboard.jpg",
       "boardType": "adhoc",
-      "description": "VoiceStudio is a professional-quality voice-over creation application designed to cater to the needs of voice actors and content creators. This versatile tool empowers users to record, edit, and enhance voice recordings for a wide range of applications, including narration, podcasting, audio books, and more. With its intuitive interface and advanced features, VoiceStudio offers a seamless experience for anyone looking to create captivating voice overs with ease.",
-      "descriptionLong": "VoiceStudio is a professional-quality voice-over creation application designed to cater to the needs of voice actors and content creators. This versatile tool empowers users to record, edit, and enhance voice recordings for a wide range of applications, including narration, podcasting, audio books, and more. With its intuitive interface and advanced features, VoiceStudio offers a seamless experience for anyone looking to create captivating voice overs with ease. The app provides a comprehensive suite of tools such as multi-track recording, audio mixing, effects processing, and voice modulation, enabling users to achieve professional-grade results. VoiceStudio supports a variety of audio formats and allows for seamless integration with external microphones and audio interfaces, ensuring maximum flexibility for users. Whether you're a seasoned voice actor or a beginner exploring the world of voice-over creation, VoiceStudio promises to elevate your recording experience and deliver outstanding results. Unlock your creative potential and bring your voice projects to life with VoiceStudio!",
-      "oneLiner": "Empower your voice creations with professional-grade recording, editing, and enhancement tools in VoiceStudio - the ultimate voice-over app for content creators.",
-      "oneLinerShort": "\"Professional voice over creation simplified\"",
+      "description": "VoiceStudio is a utility board designed to supply other boards with high-quality speech. It offers a straightforward and versatile toolset for recording and editing voiceovers, suitable for a variety of applications like narration, podcasting, and audio books. VoiceStudio's user-friendly interface makes it accessible for all skill levels, allowing for the creation of clear, engaging voiceovers without the complexity of professional audio software. It supports API-agnostic operations, seamlessly integrating with both OpenAI and ElevenLabs APIs.",
+      "descriptionLong": "VoiceStudio serves as a practical utility board within a broader ecosystem, providing essential voiceover capabilities to other boards. It allows users to efficiently record, edit, and enhance voice tracks, catering to content creators across various domains. The board features a suite of user-friendly tools for multi-track recording, audio mixing, and effects processing. Its compatibility with both OpenAI and ElevenLabs APIs ensures versatility in voice generation and manipulation, accommodating a wide range of project requirements. VoiceStudio is designed for users seeking a balance between simplicity and functionality in voiceover creation, making it an ideal tool for enhancing projects with high-quality audio.",
+      "oneLiner": "VoiceStudio: Streamline voiceover creation with versatile, API-agnostic tools.",
+      "oneLinerShort": "Simplified voiceover creation with VoiceStudio.",
       "header": "",
       "fields": [],
       "tags": [
@@ -511,8 +520,12 @@
     "apis": [
       "turbo-3.5"
     ],
-    "defaults": {},
+    "defaults": {
+      "previewPath": ""
+    },
     "flowUrl": "/B-007/B-007.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-007",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "isActive": true,
     "mobile": {
       "darkMode": true,
@@ -526,10 +539,9 @@
       "rating": 0,
       "reviews": {}
     },
-    "elements": {
-      "default": {}
-    },
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-007"
+    "storeNodes": [
+      "appState"
+    ]
   },
   {
     "id": "B-008",
@@ -541,10 +553,10 @@
       "index": 8,
       "imageUrl": "/images/z_scene_builder.jpg",
       "boardType": "adhoc",
-      "description": "Scene Builder is a cutting-edge application that empowers users to effortlessly create stunning 3D scenes. Whether you're an experienced 3D artist or just starting out, Scene Builder offers a versatile toolkit that enables you to bring your imagination to life. With an intuitive interface and an extensive library of assets, this app ensures seamless scene composition and design. From architectural visualizations to virtual environments, Scene Builder caters to a wide range of 3D scene creation needs. With over 10,000 installations and a stellar rating of 4.7, it has become the go-to choice for 3D enthusiasts seeking unparalleled creativity and flexibility.",
-      "descriptionLong": "Scene Builder is a cutting-edge application that empowers users to effortlessly create stunning 3D scenes. Whether you're an experienced 3D artist or just starting out, Scene Builder offers a versatile toolkit that enables you to bring your imagination to life. With an intuitive interface and an extensive library of assets, this app ensures seamless scene composition and design. From architectural visualizations to virtual environments, Scene Builder caters to a wide range of 3D scene creation needs. Boasting over 10,000 installations and a stellar rating of 4.7, it has become the go-to choice for 3D enthusiasts seeking unparalleled creativity and flexibility.",
-      "oneLiner": "Empower your imagination with Scene Builder, the ultimate tool for creating stunning 3D scenes.",
-      "oneLinerShort": "\"Empower your imagination: Scene Builder\"",
+      "description": "Scene Builder is a specialized board for creating and organizing 3D scenes, serving as a foundation for further animation or behavior additions in other boards. It offers an array of tools for users at all levels, from beginners to experienced 3D artists, to construct and customize 3D environments. The board features an intuitive interface and a comprehensive asset library, making the placement and arrangement of 3D elements straightforward. Scene Builder is essential for tasks ranging from architectural visualizations to the creation of virtual environments, facilitating the initial stage of 3D scene development.",
+      "descriptionLong": "Scene Builder is an efficient and user-friendly board dedicated to the generation and placement of 3D components, which can be further enhanced in other boards. It's designed to streamline the process of 3D scene creation, offering an accessible toolkit for both newcomers and professional 3D artists. This board simplifies the complexities of 3D design, providing an intuitive platform for assembling scenes using a variety of meshes, GLBs, and other 3D elements. Scene Builder is versatile enough to support a diverse range of projects, from detailed architectural models to dynamic virtual worlds, making it an ideal starting point for 3D scene creation within a larger workflow.",
+      "oneLiner": "Build and arrange 3D scenes effortlessly with Scene Builder, your starting point for 3D creativity.",
+      "oneLinerShort": "Simplify 3D scene creation with Scene Builder.",
       "header": "",
       "fields": [],
       "tags": [
@@ -564,10 +576,14 @@
     "dependencies": {
       "@gdi/widgets-starter": "0.6.3"
     },
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-008",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "apis": [
       "turbo-3.5"
     ],
-    "defaults": {},
+    "defaults": {
+      "previewPath": ""
+    },
     "flowUrl": "",
     "isActive": true,
     "mobile": {
@@ -600,10 +616,10 @@
       "index": 9,
       "imageUrl": "/images/10.jpg",
       "boardType": "adhoc",
-      "description": "Asset Manager is a versatile application designed to streamline the management of various digital assets, including images, voice files, and 3D objects. This powerful tool caters to a wide range of users and provides seamless organization, categorization, and accessibility of digital assets. Whether you're a creative professional, a developer, or a content creator, Asset Manager offers intuitive functionalities to enhance your workflow and ensure easy management of your valuable assets.",
-      "descriptionLong": "Asset Manager is a versatile application designed to streamline the management of various digital assets, including images, voice files, and 3D objects. This powerful tool caters to a wide range of users and provides seamless organization, categorization, and accessibility of digital assets. Whether you're a creative professional, a developer, or a content creator, Asset Manager offers intuitive functionalities to enhance your workflow and ensure easy management of your valuable assets. With support for a wide range of file formats and comprehensive metadata capabilities, Asset Manager simplifies the task of tagging, searching, and retrieving specific assets, making it an indispensable tool for efficient asset management. Embrace the power of asset organization and accessibility with Asset Manager, and take control of your digital content like never before.",
-      "oneLiner": "Streamline the management of images, voice files, and 3D objects with Asset Manager, a versatile application catering to a wide range of users.",
-      "oneLinerShort": "Streamline asset management with Asset Manager",
+      "description": "Asset Manager is a utility board essential for organizing and managing a diverse range of digital assets, from images and textual documents to background music, voice recordings, and even JSONs of 3D scenes. It offers an efficient way to import external assets and integrate them with those created in other boards. The board facilitates tagging, grouping by projects, and managing assets as easily as navigating a filesystem. Its versatility makes it ideal for users who need to maintain an organized repository of various digital elements for their projects.",
+      "descriptionLong": "Asset Manager is designed to be the backbone of asset organization within your project workflows, accommodating everything from images and textual content to audio files and 3D scene JSONs. This board simplifies the process of handling diverse digital assets, providing functionalities akin to a robust filesystem. Users can import assets from external sources, categorize them with multiple tags, and organize them into project-specific groups. Asset Manager’s interface is intuitive, allowing for easy navigation, copying, moving, and management of assets. It’s an indispensable utility for anyone dealing with a multitude of digital components, streamlining the asset management process and ensuring efficient access and organization.",
+      "oneLiner": "Efficiently manage a wide range of digital assets with Asset Manager, your go-to board for organized asset control.",
+      "oneLinerShort": "Centralize and streamline asset management with Asset Manager.",
       "header": "",
       "fields": [],
       "tags": [
@@ -626,9 +642,13 @@
     "apis": [
       "turbo-3.5"
     ],
-    "defaults": {},
+    "defaults": {
+      "previewPath": ""
+    },
     "flowUrl": "/B-009/B-009.flow.json",
     "isActive": true,
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-009",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "mobile": {
       "darkMode": true,
       "columns": 2,
@@ -640,10 +660,9 @@
       "rating": 0,
       "reviews": {}
     },
-    "elements": {
-      "default": {}
-    },
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-009"
+    "storeNodes": [
+      "assets"
+    ]
   },
   {
     "id": "B-010",

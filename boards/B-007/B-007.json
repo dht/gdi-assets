@@ -8,10 +8,10 @@
     "index": 7,
     "imageUrl": "/images/z_soundboard.jpg",
     "boardType": "adhoc",
-    "description": "VoiceStudio is a professional-quality voice-over creation application designed to cater to the needs of voice actors and content creators. This versatile tool empowers users to record, edit, and enhance voice recordings for a wide range of applications, including narration, podcasting, audio books, and more. With its intuitive interface and advanced features, VoiceStudio offers a seamless experience for anyone looking to create captivating voice overs with ease.",
-    "descriptionLong": "VoiceStudio is a professional-quality voice-over creation application designed to cater to the needs of voice actors and content creators. This versatile tool empowers users to record, edit, and enhance voice recordings for a wide range of applications, including narration, podcasting, audio books, and more. With its intuitive interface and advanced features, VoiceStudio offers a seamless experience for anyone looking to create captivating voice overs with ease. The app provides a comprehensive suite of tools such as multi-track recording, audio mixing, effects processing, and voice modulation, enabling users to achieve professional-grade results. VoiceStudio supports a variety of audio formats and allows for seamless integration with external microphones and audio interfaces, ensuring maximum flexibility for users. Whether you're a seasoned voice actor or a beginner exploring the world of voice-over creation, VoiceStudio promises to elevate your recording experience and deliver outstanding results. Unlock your creative potential and bring your voice projects to life with VoiceStudio!",
-    "oneLiner": "Empower your voice creations with professional-grade recording, editing, and enhancement tools in VoiceStudio - the ultimate voice-over app for content creators.",
-    "oneLinerShort": "\"Professional voice over creation simplified\"",
+    "description": "VoiceStudio is a utility board designed to supply other boards with high-quality speech. It offers a straightforward and versatile toolset for recording and editing voiceovers, suitable for a variety of applications like narration, podcasting, and audio books. VoiceStudio's user-friendly interface makes it accessible for all skill levels, allowing for the creation of clear, engaging voiceovers without the complexity of professional audio software. It supports API-agnostic operations, seamlessly integrating with both OpenAI and ElevenLabs APIs.",
+    "descriptionLong": "VoiceStudio serves as a practical utility board within a broader ecosystem, providing essential voiceover capabilities to other boards. It allows users to efficiently record, edit, and enhance voice tracks, catering to content creators across various domains. The board features a suite of user-friendly tools for multi-track recording, audio mixing, and effects processing. Its compatibility with both OpenAI and ElevenLabs APIs ensures versatility in voice generation and manipulation, accommodating a wide range of project requirements. VoiceStudio is designed for users seeking a balance between simplicity and functionality in voiceover creation, making it an ideal tool for enhancing projects with high-quality audio.",
+    "oneLiner": "VoiceStudio: Streamline voiceover creation with versatile, API-agnostic tools.",
+    "oneLinerShort": "Simplified voiceover creation with VoiceStudio.",
     "header": "",
     "fields": [],
     "tags": ["voiceover", "recording", "audio", "creation"],
@@ -24,8 +24,12 @@
     "@gdi/widgets-starter": "0.6.3"
   },
   "apis": ["turbo-3.5"],
-  "defaults": {},
+  "defaults": {
+    "previewPath": ""
+  },
   "flowUrl": "/B-007/B-007.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-007",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "isActive": true,
   "mobile": {
     "darkMode": true,

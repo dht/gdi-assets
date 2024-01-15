@@ -8,10 +8,10 @@
     "index": 9,
     "imageUrl": "/images/z_assistants.jpg",
     "boardType": "continues",
-    "description": "Assistants is a revolutionary app that transforms the way we interact with virtual assistants. With its advanced AI technology, this app empowers users to create their own virtual assistants, allowing them to customize the experience to their specific needs.\n\nGone are the days of generic and impersonal assistants. With Assistants, you can create a virtual assistant that is tailored to your preferences. Whether you're looking for a personal assistant, a business assistant, or a virtual companion, this app has got you covered.\n\nAssistants combines the power of AI and 3D simulation to create a unique and interactive environment. Experience the future of virtual assistants with Assistants and discover a world of possibilities.",
-    "descriptionLong": "Use assistants similarly to tap into the power of AI. Generate JSONs or navigate the library of various IO assistants.",
-    "oneLiner": "Navigate the library of various IO assistants.",
-    "oneLinerShort": "Navigate the library of various IO assistants.",
+    "description": "Assistants serves as a gateway to the OpenAI Assistant API, redefining interactions with virtual assistants. This board facilitates the creation of bespoke virtual assistants, leveraging advanced AI akin to GPTs. It offers developers the flexibility to tailor assistants to specific use cases, ranging from personal to business applications. With Assistants, gone are the limitations of generic assistants; instead, users can build assistants that align perfectly with their unique requirements and preferences.",
+    "descriptionLong": "Assistants stands at the forefront of virtual assistant technology, mirroring the conceptual framework of GPTs and tapping into the capabilities of the OpenAI Assistant API. Developers can utilize this board to craft tailored assistant experiences, generating JSON configurations or exploring an extensive library of IO assistants. It's designed to facilitate a deeper level of customization and integration, offering a dynamic platform for creating assistants that truly understand and respond to user needs in a sophisticated, AI-driven manner.",
+    "oneLiner": "Craft tailored virtual assistants using GPT-like AI with Assistants.",
+    "oneLinerShort": "Create bespoke AI assistants akin to GPTs with Assistants.",
     "header": "show about ${prompt}",
     "fields": [
       {
@@ -39,9 +39,11 @@
     "@gdi/widgets-starter": "^0.0.6"
   },
   "apis": ["3D-engine-1.0", "camera-motion-2.1", "timeline-1.5"],
-  "defaults": {},
+  "defaults": {
+    "previewPath": ""
+  },
   "flowUrl": "/B-006/B-006.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/B-006",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-006",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

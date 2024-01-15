@@ -8,10 +8,10 @@
     "index": 9,
     "imageUrl": "/images/10.jpg",
     "boardType": "adhoc",
-    "description": "Asset Manager is a versatile application designed to streamline the management of various digital assets, including images, voice files, and 3D objects. This powerful tool caters to a wide range of users and provides seamless organization, categorization, and accessibility of digital assets. Whether you're a creative professional, a developer, or a content creator, Asset Manager offers intuitive functionalities to enhance your workflow and ensure easy management of your valuable assets.",
-    "descriptionLong": "Asset Manager is a versatile application designed to streamline the management of various digital assets, including images, voice files, and 3D objects. This powerful tool caters to a wide range of users and provides seamless organization, categorization, and accessibility of digital assets. Whether you're a creative professional, a developer, or a content creator, Asset Manager offers intuitive functionalities to enhance your workflow and ensure easy management of your valuable assets. With support for a wide range of file formats and comprehensive metadata capabilities, Asset Manager simplifies the task of tagging, searching, and retrieving specific assets, making it an indispensable tool for efficient asset management. Embrace the power of asset organization and accessibility with Asset Manager, and take control of your digital content like never before.",
-    "oneLiner": "Streamline the management of images, voice files, and 3D objects with Asset Manager, a versatile application catering to a wide range of users.",
-    "oneLinerShort": "Streamline asset management with Asset Manager",
+    "description": "Asset Manager is a utility board essential for organizing and managing a diverse range of digital assets, from images and textual documents to background music, voice recordings, and even JSONs of 3D scenes. It offers an efficient way to import external assets and integrate them with those created in other boards. The board facilitates tagging, grouping by projects, and managing assets as easily as navigating a filesystem. Its versatility makes it ideal for users who need to maintain an organized repository of various digital elements for their projects.",
+    "descriptionLong": "Asset Manager is designed to be the backbone of asset organization within your project workflows, accommodating everything from images and textual content to audio files and 3D scene JSONs. This board simplifies the process of handling diverse digital assets, providing functionalities akin to a robust filesystem. Users can import assets from external sources, categorize them with multiple tags, and organize them into project-specific groups. Asset Manager’s interface is intuitive, allowing for easy navigation, copying, moving, and management of assets. It’s an indispensable utility for anyone dealing with a multitude of digital components, streamlining the asset management process and ensuring efficient access and organization.",
+    "oneLiner": "Efficiently manage a wide range of digital assets with Asset Manager, your go-to board for organized asset control.",
+    "oneLinerShort": "Centralize and streamline asset management with Asset Manager.",
     "header": "",
     "fields": [],
     "tags": ["asset management", "images", "voice files", "3D objects"],
@@ -24,9 +24,13 @@
     "@gdi/widgets-starter": "0.6.3"
   },
   "apis": ["turbo-3.5"],
-  "defaults": {},
+  "defaults": {
+    "previewPath": ""
+  },
   "flowUrl": "/B-009/B-009.flow.json",
   "isActive": true,
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-009",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "mobile": {
     "darkMode": true,
     "columns": 2,
