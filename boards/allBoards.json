@@ -56,7 +56,7 @@
       "turbo-3.5"
     ],
     "defaults": {
-      "previewPath": "/data/modelz.json"
+      "previewPath": "/static/modelz.json"
     },
     "flowUrl": "/B-001/B-001.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-001",
@@ -300,7 +300,9 @@
       "turbo-3.5"
     ],
     "defaults": {
-      "previewPath": "/data/park-expanse.json"
+      "previewPath": "/static/park-expanse.json",
+      "dbPath": "/static/park-expanse.json",
+      "dbTag": "park"
     },
     "flowUrl": "/B-004/B-004.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-004",

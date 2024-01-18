@@ -50,7 +50,7 @@
   },
   "apis": ["turbo-3.5"],
   "defaults": {
-    "previewPath": "/data/modelz.json"
+    "previewPath": "/static/modelz.json"
   },
   "flowUrl": "/B-001/B-001.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-001",
