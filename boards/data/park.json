@@ -41,7 +41,8 @@
           "gridRatio": 0.5,
           "subdivisions": 10
         }
-      }
+      },
+      "projectTag": "project-park"
     },
     "g2": {
       "id": "g2",
@@ -62,7 +63,8 @@
           "uScale": 24,
           "textureUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/texture-grass-1c.png"
         }
-      }
+      },
+      "projectTag": "project-park"
     },
     "fountain": {
       "id": "fountain",
@@ -82,24 +84,28 @@
         }
       },
       "position": [15.9, 0.5, -8.57],
-      "rotation": [90, 0, 0]
+      "rotation": [90, 0, 0],
+      "projectTag": "project-park"
     }
   },
   "sceneExternals": {
     "x1": {
       "id": "x1",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/ville.glb",
-      "enabled": true
+      "enabled": true,
+      "projectTag": "project-park"
     },
     "x2": {
       "id": "x2",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/tree.glb",
-      "position": [-8.74, 0, 5.388]
+      "position": [-8.74, 0, 5.388],
+      "projectTag": "project-park"
     },
     "x3": {
       "id": "x3",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/fountain.glb",
-      "position": [15.9, 0, -8.57]
+      "position": [15.9, 0, -8.57],
+      "projectTag": "project-park"
     }
   },
   "scenePacks": {
@@ -107,97 +113,113 @@
       "id": "p1-woman-red",
       "identifier": "p1-woman-red",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p1-woman-red.png",
-      "capacity": 1
+      "capacity": 1,
+      "projectTag": "project-park"
     },
     "p2-main-spikyHair": {
       "id": "p2-man-spikyHair",
       "identifier": "p2-man-spikyHair",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p2-man-spikyHair.png",
-      "capacity": 1
+      "capacity": 1,
+      "projectTag": "project-park"
     },
     "p3-woman-blueHair": {
       "id": "p3-woman-blueHair",
       "identifier": "p3-woman-blueHair",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p3-woman-blueHair.png",
-      "capacity": 1
+      "capacity": 1,
+      "projectTag": "project-park"
     },
     "p4-woman-fourthWall": {
       "id": "p4-woman-fourthWall",
       "identifier": "p4-woman-fourthWall",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p4-woman-fourthWall.png",
-      "capacity": 1
+      "capacity": 1,
+      "projectTag": "project-park"
     },
     "p5-woman-redHead": {
       "id": "p5-woman-redHead",
       "identifier": "p5-woman-redHead",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p5-woman-redHead.png",
-      "capacity": 1
+      "capacity": 1,
+      "projectTag": "project-park"
     },
     "p6-man-coffee": {
       "id": "p6-man-coffee",
       "identifier": "p6-man-coffee",
       "capacity": 1,
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p6-man-coffee.png"
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p6-man-coffee.png",
+      "projectTag": "project-park"
     },
     "p7-man-phone": {
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p7-man-phone.png",
       "id": "p7-man-phone",
       "capacity": 1,
-      "identifier": "p7-man-phone"
+      "identifier": "p7-man-phone",
+      "projectTag": "project-park"
     },
     "p8-woman-dog": {
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p8-woman-dog.png",
       "id": "p8-woman-dog",
       "capacity": 1,
-      "identifier": "p8-woman-dog"
+      "identifier": "p8-woman-dog",
+      "projectTag": "project-park"
     },
     "p9-woman-brownHair": {
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p9-woman-brownHair.png",
       "id": "p9-woman-brownHair",
       "capacity": 1,
-      "identifier": "p9-woman-brownHair"
+      "identifier": "p9-woman-brownHair",
+      "projectTag": "project-park"
     },
     "p10-man-ordering": {
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p10-man-ordering.png",
       "id": "p10-man-ordering",
       "capacity": 1,
-      "identifier": "p10-man-ordering"
+      "identifier": "p10-man-ordering",
+      "projectTag": "project-park"
     },
     "p11-woman-purpleHair": {
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p11-woman-purpleHair.png",
       "id": "p11-woman-purpleHair",
       "capacity": 1,
-      "identifier": "p11-woman-purpleHair"
+      "identifier": "p11-woman-purpleHair",
+      "projectTag": "project-park"
     },
     "p12-man-book": {
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p12-man-book.png",
       "id": "p12-man-book",
       "capacity": 1,
-      "identifier": "p12-man-book"
+      "identifier": "p12-man-book",
+      "projectTag": "project-park"
     },
     "p1": {
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/people-0.png",
       "id": "p1",
       "capacity": 100,
-      "identifier": "p1"
+      "identifier": "p1",
+      "projectTag": "project-park"
     },
     "p2": {
       "capacity": 1,
       "id": "p2",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/props.png",
-      "identifier": "p2"
+      "identifier": "p2",
+      "projectTag": "project-park"
     },
     "p3": {
       "capacity": 10,
       "id": "p3",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/faces.png",
-      "identifier": "p3"
+      "identifier": "p3",
+      "projectTag": "project-park"
     },
     "p4": {
       "capacity": 10,
       "id": "p4",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/mouthShapes.png",
-      "identifier": "p4"
+      "identifier": "p4",
+      "projectTag": "project-park"
     }
   },
   "sceneVASPs": {
@@ -213,7 +235,8 @@
         "emitRate": 10
       },
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/smoke.png",
-      "index": 0
+      "index": 0,
+      "projectTag": "project-park"
     },
     "i2": {
       "id": "i2",
@@ -227,7 +250,8 @@
       },
       "position": [5.1, 2.1, -2.7],
       "identifier": "particle-2",
-      "index": 1
+      "index": 1,
+      "projectTag": "project-park"
     },
     "speakingDot": {
       "vaspType": "sprite",
@@ -245,7 +269,8 @@
       "position": [-10, 4.8, 5.9],
       "identifier": "speakingDot.png",
       "id": "dot",
-      "index": 23
+      "index": 23,
+      "projectTag": "project-park"
     },
     "nest": {
       "packId": "p2",
@@ -263,7 +288,8 @@
       },
       "position": [-10, 4.8, 5.9],
       "id": "p15",
-      "index": 23
+      "index": 23,
+      "projectTag": "project-park"
     },
     "p1-woman-red": {
       "vaspType": "sprite",
@@ -282,7 +308,8 @@
       "packId": "p1-woman-red",
       "id": "p1-woman-red",
       "position": [-3.9, 0, 11],
-      "index": 22
+      "index": 22,
+      "projectTag": "project-park"
     },
     "p2-man-spikyHair": {
       "vaspType": "sprite",
@@ -301,7 +328,8 @@
         "isOnGround": true
       },
       "packId": "p2-man-spikyHair",
-      "index": 25
+      "index": 25,
+      "projectTag": "project-park"
     },
     "p3-woman-blueHair": {
       "vaspType": "sprite",
@@ -320,7 +348,8 @@
       "packId": "p3-woman-blueHair",
       "id": "p3-woman-blueHair",
       "position": [9.1, 0, 4.1],
-      "index": 19
+      "index": 19,
+      "projectTag": "project-park"
     },
     "p4-woman-fourthWall": {
       "vaspType": "sprite",
@@ -339,7 +368,8 @@
         }
       },
       "identifier": "mbp.svg",
-      "index": 30
+      "index": 30,
+      "projectTag": "project-park"
     },
     "p5-woman-redHead": {
       "vaspType": "sprite",
@@ -358,7 +388,8 @@
         }
       },
       "identifier": "mbp.svg",
-      "index": 31
+      "index": 31,
+      "projectTag": "project-park"
     },
     "p6-man-coffee": {
       "vaspType": "sprite",
@@ -377,7 +408,8 @@
       "position": [5, 0, -2],
       "packId": "p6-man-coffee",
       "id": "p6-man-coffee",
-      "index": 24
+      "index": 24,
+      "projectTag": "project-park"
     },
     "p7-man-phone": {
       "id": "p7-man-phone",
@@ -395,7 +427,8 @@
           "width": 1.038
         }
       },
-      "position": [-3.1, 0, 12.2]
+      "position": [-3.1, 0, 12.2],
+      "projectTag": "project-park"
     },
     "p8-woman-dog": {
       "vaspType": "sprite",
@@ -413,7 +446,8 @@
         },
         "isOnGround": true
       },
-      "position": [-9, 0, 4.5]
+      "position": [-9, 0, 4.5],
+      "projectTag": "project-park"
     },
     "p9-woman-brownHair": {
       "vaspType": "sprite",
@@ -431,7 +465,8 @@
           "height": 2.382
         }
       },
-      "position": [10.1, 0, 4.3]
+      "position": [10.1, 0, 4.3],
+      "projectTag": "project-park"
     },
     "p10-man-ordering": {
       "vaspType": "sprite",
@@ -449,7 +484,8 @@
           "width": 0.908
         }
       },
-      "position": [-0.5, 0, 0]
+      "position": [-0.5, 0, 0],
+      "projectTag": "project-park"
     },
     "p11-woman-purpleHair": {
       "vaspType": "sprite",
@@ -467,7 +503,8 @@
           "height": 412
         }
       },
-      "position": [10, 0, -4]
+      "position": [10, 0, -4],
+      "projectTag": "project-park"
     },
     "p12-man-book": {
       "vaspType": "sprite",
@@ -485,7 +522,8 @@
           "height": 2.45
         }
       },
-      "position": [11.5, 0, -4.6]
+      "position": [11.5, 0, -4.6],
+      "projectTag": "project-park"
     },
     "a1": {
       "vaspType": "microAnimation",
@@ -502,7 +540,14 @@
       "position": [-10.3, 5.4, 5.7],
       "id": "a1",
       "identifier": "bird-1",
-      "index": 0
+      "index": 0,
+      "projectTag": "project-park"
     }
-  }
+  },
+  "sceneCameras": {},
+  "sceneLights": {},
+  "sceneBits": {},
+  "sceneDots": {},
+  "sceneAudios": {},
+  "sceneEffects": {}
 }
