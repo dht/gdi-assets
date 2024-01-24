@@ -7,6 +7,7 @@
     "name": "ChitChat",
     "index": 2,
     "imageUrl": "/images/z_chitchat.jpg",
+    "videoUrl": "https://www.youtube.com/embed/gxwujpImFy8",
     "boardType": "continues",
     "description": "ChitChat offers a straightforward and easy-to-use platform for engaging with a basic AI-powered chatbot. Its interface is user-friendly, resembling a typical chat window, which makes for uncomplicated and straightforward conversations. Using a simplified version of ChatGPT technology, ChitChat is capable of generating responses that are coherent and relevant, perfect for casual chats or quick inquiries.",
     "descriptionLong": "ChitChat is a no-frills, easy-to-navigate board that brings the essentials of AI chat technology to your fingertips. Its interface is clean and familiar, ensuring ease of use for all types of users. While it operates on a more basic version of ChatGPT technology, it proficiently handles everyday conversations and queries, providing responses that are to the point yet engaging. ChitChat is ideal for users who need a quick, efficient, and hassle-free chatbot experience.",

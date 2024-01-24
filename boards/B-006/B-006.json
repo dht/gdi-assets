@@ -7,6 +7,7 @@
     "name": "Assistants",
     "index": 9,
     "imageUrl": "/images/z_assistants.jpg",
+    "videoUrl": "https://www.youtube.com/embed/JmdpS7bc9C4",
     "boardType": "continues",
     "description": "Assistants serves as a gateway to the OpenAI Assistant API, redefining interactions with virtual assistants. This board facilitates the creation of bespoke virtual assistants, leveraging advanced AI akin to GPTs. It offers developers the flexibility to tailor assistants to specific use cases, ranging from personal to business applications. With Assistants, gone are the limitations of generic assistants; instead, users can build assistants that align perfectly with their unique requirements and preferences.",
     "descriptionLong": "Assistants stands at the forefront of virtual assistant technology, mirroring the conceptual framework of GPTs and tapping into the capabilities of the OpenAI Assistant API. Developers can utilize this board to craft tailored assistant experiences, generating JSON configurations or exploring an extensive library of IO assistants. It's designed to facilitate a deeper level of customization and integration, offering a dynamic platform for creating assistants that truly understand and respond to user needs in a sophisticated, AI-driven manner.",

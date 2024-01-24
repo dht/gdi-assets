@@ -7,6 +7,7 @@
     "name": "Writers Team",
     "index": 5,
     "imageUrl": "/images/z_writer.jpg",
+    "videoUrl": "https://www.youtube.com/embed/yz5NuRxs39E",
     "boardType": "continues",
     "description": "Writers Team is an essential starting point for many workflows in the GDI ecosystem, to generate script initial content. It offers a straightforward interface for generating AI-driven documents, serving as a foundational tool for further project development. From here, users can take their AI-scripted output to other boards, integrating and building upon it. Whether drafting initial scripts or creating detailed documentation, Writers Team provides a robust platform to produce high-quality, unique content tailored to your project needs.",
     "descriptionLong": "Writers Team stands as a cornerstone in the GDI ecosystem. It simplifies the initial scripting process with its advanced AI technology, making it a go-to board for generating the foundational documents needed in various workflows. This board's intuitive interface welcomes users of all skill levels to create professional-quality scripts and documents. These AI-crafted outputs serve as the perfect starting point, which can be further developed and refined across the GDI platform. Writers Team is not just a document creator; it's a springboard for innovative project development, ensuring unique, tailored content for every use case.",
