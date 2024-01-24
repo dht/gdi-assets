@@ -8,7 +8,7 @@
       "name": "3D Ad Creator",
       "index": 1,
       "imageUrl": "/images/z_3d.jpg",
-      "videoUrl": "https://www.youtube.com/embed/Fu8xI_IXz4c",
+      "videoUrl": "https://www.youtube.com/embed/c7jAhBZgZuI",
       "boardType": "adhoc",
       "description": "3D Ad Creator redefines digital advertising by enabling the creation of immersive 3D video ads with ease. Leveraging advanced AI technology, it allows both novices and professionals to craft engaging content effortlessly. This tool transforms ad creation into an intuitive and rewarding experience, ensuring your message captivates and resonates with audiences.",
       "descriptionLong": "The 3D Ad Creator stands as a cornerstone in digital advertising innovation. Its state-of-the-art AI technology facilitates the creation of mesmerizing 3D video advertisements. The platform is designed for creators at every skill level, simplifying the process while delivering high-quality, impactful results. The 3D Ad Creator is not just a tool; it's a gateway to creating ads that leave a lasting impression.",
@@ -727,7 +727,9 @@
       "@gdi/widgets-starter": "^0.0.6"
     },
     "apis": [],
-    "defaults": {},
+    "defaults": {
+      "previewPath": ""
+    },
     "flowUrl": "/B-010/B-010.flow.json",
     "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",

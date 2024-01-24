@@ -47,7 +47,9 @@
     "@gdi/widgets-starter": "^0.0.6"
   },
   "apis": [],
-  "defaults": {},
+  "defaults": {
+    "previewPath": ""
+  },
   "flowUrl": "/B-010/B-010.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -68,222 +70,10 @@
 
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
-        "position": {
-          "x": 2,
-          "y": 2
-        },
-        "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "boardId": "B-010",
-        "flags": {}
-      },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.warhol",
-        "title": "babylon",
-        "position": {
-          "x": 56,
-          "y": 2
-        },
-        "dimension": {
-          "x": 63,
-          "y": 24
-        },
-        "boardId": "B-010",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.transcript",
-        "title": "Transcript",
-        "position": {
-          "x": 56,
-          "y": 27
-        },
-        "dimension": {
-          "x": 63,
-          "y": 19
-        },
-        "boardId": "B-010",
-        "flags": {},
-        "flavour": "outcome"
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.flow",
-        "title": "Flow",
-        "position": {
-          "x": 5,
-          "y": 7
-        },
-        "dimension": {
-          "x": 44,
-          "y": 40
-        },
-        "boardId": "B-010",
-        "flags": {},
-        "props": {}
-      },
-      "e5": {
-        "id": "e5",
-        "widgetId": "com.usegdi.starter.github",
-        "title": "Github",
-        "position": {
-          "x": 52,
-          "y": 44
-        },
-        "dimension": {
-          "x": 1,
-          "y": 1
-        },
-        "boardId": "B-010",
-        "flags": {}
-      },
-      "e6": {
-        "id": "e6",
-        "widgetId": "com.usegdi.starter.playback",
-        "title": "Playback",
-        "position": {
-          "x": 27,
-          "y": 3
-        },
-        "dimension": {
-          "x": 25,
-          "y": 5
-        },
-        "boardId": "B-010",
-        "flags": {}
-      },
-      "e7": {
-        "id": "e7",
-        "widgetId": "com.usegdi.starter.mode",
-        "title": "Mode",
-        "position": {
-          "x": 110,
-          "y": 1
-        },
-        "dimension": {
-          "x": 16,
-          "y": 2
-        },
-        "boardId": "B-010",
-        "flags": {}
-      },
-      "e8": {
-        "id": "e8",
-        "widgetId": "com.usegdi.starter.logger",
-        "title": "Logger",
-        "position": {
-          "x": 56,
-          "y": 27
-        },
-        "dimension": {
-          "x": 63,
-          "y": 19
-        },
-        "boardId": "B-010",
-        "flags": {},
-        "flavour": "prepare"
-      },
-      "e9": {
-        "id": "e9",
-        "widgetId": "com.usegdi.starter.start-play",
-        "title": "StartPlay",
-        "position": {
-          "x": 56,
-          "y": 27
-        },
-        "dimension": {
-          "x": 63,
-          "y": 19
-        },
-        "boardId": "B-010",
-        "flags": {},
-        "flavour": "default"
-      },
-      "e10": {
-        "id": "e10",
-        "widgetId": "com.usegdi.starter.sound-player",
-        "title": "SoundPlayer",
-        "position": {
-          "x": 115,
-          "y": 24
-        },
-        "dimension": {
-          "x": 1,
-          "y": 1
-        },
-        "boardId": "B-010",
-        "flags": {}
-      }
-    },
-    "mobile": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.warhol",
-        "title": "babylon",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 24
-        },
-        "boardId": "B-010",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        },
-        "columnIndex": 0
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.transcript",
-        "title": "Transcript",
-        "position": {
-          "x": 1,
-          "y": 24
-        },
-        "dimension": {
-          "x": 121,
-          "y": 24
-        },
-        "boardId": "B-010",
-        "flags": {},
-        "flavour": "outcome",
-        "columnIndex": 0
-      },
-      "e9": {
-        "id": "e9",
-        "widgetId": "com.usegdi.starter.start-play",
-        "title": "StartPlay",
-        "position": {
-          "x": 1,
-          "y": 24
-        },
-        "dimension": {
-          "x": 121,
-          "y": 24
-        },
-        "boardId": "B-010",
-        "flags": {},
-        "flavour": "default",
-        "columnIndex": 0
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.flow",
-        "title": "Flow",
+        "widgetId": "com.usegdi.starter.fourth-wall",
+        "title": "Fourth wall",
         "position": {
           "x": 1,
           "y": 1
@@ -294,8 +84,47 @@
         },
         "boardId": "B-010",
         "flags": {},
-        "props": {},
-        "columnIndex": 1
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "B-010",
+        "flags": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.fourth-wall",
+        "title": "Fourth wall",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-010",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
       }
     }
   }
