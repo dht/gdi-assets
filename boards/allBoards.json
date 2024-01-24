@@ -676,19 +676,19 @@
   },
   {
     "id": "B-010",
-    "identifier": "com.usegdi.worhalic-debate",
+    "identifier": "com.usegdi.fourth-wall",
     "version": "0.1.0",
     "url": "/boards/B-010",
     "boardInfo": {
-      "name": "Worhalic Debate",
+      "name": "Fourth Wall",
       "index": 10,
-      "imageUrl": "/images/z_warhol.jpg",
+      "imageUrl": "/images/z_fourth_wall.jpg",
       "boardType": "continues",
-      "description": "Warholic debate is a debate simulator between famous public figures, a moderator and a philosopher.",
-      "descriptionLong": "Warholic debate is a debate simulator between famous public figures, a moderator and a philosopher.",
-      "oneLiner": "Debate Andy Warhol style",
-      "oneLinerShort": "Debate Andy Warhol style",
-      "header": "Debate Andy Warhol style",
+      "description": "Fourth Wall is an app that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
+      "descriptionLong": "Fourth Wall is an app that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
+      "oneLiner": "Create 3D theater plays on a miniature stage",
+      "oneLinerShort": "3D Theater Play Generator",
+      "header": "Fourth Wall - 3D Theater Play Generator",
       "fields": [
         {
           "label": "input",
@@ -696,7 +696,7 @@
         },
         {
           "label": "output",
-          "content": "3d conversation"
+          "content": "3D theater play scene"
         },
         {
           "label": "engines",
@@ -704,15 +704,13 @@
         }
       ],
       "tags": [
-        "agenda",
-        "task management",
-        "productivity",
-        "goal setting",
-        "work-life balance",
-        "personal development",
-        "top_installed",
-        "editor_choice",
-        "professionals"
+        "theater",
+        "3D",
+        "play generation",
+        "voice syncing",
+        "lip syncing",
+        "creative",
+        "entertainment"
       ],
       "order": 2,
       "supportedResolutions": [
@@ -16731,6 +16729,80 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": false,
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  {
+    "id": "B-336",
+    "identifier": "com.usegdi.worhalic-debate",
+    "version": "0.1.0",
+    "url": "/boards/B-336",
+    "boardInfo": {
+      "name": "Worhalic Debate",
+      "index": 10,
+      "imageUrl": "/images/z_warhol.jpg",
+      "boardType": "continues",
+      "description": "Warholic debate is a debate simulator between famous public figures, a moderator and a philosopher.",
+      "descriptionLong": "Warholic debate is a debate simulator between famous public figures, a moderator and a philosopher.",
+      "oneLiner": "Debate Andy Warhol style",
+      "oneLinerShort": "Debate Andy Warhol style",
+      "header": "Debate Andy Warhol style",
+      "fields": [
+        {
+          "label": "input",
+          "content": "Prompt"
+        },
+        {
+          "label": "output",
+          "content": "3d conversation"
+        },
+        {
+          "label": "engines",
+          "content": "LLM #1, LLM #2, ElevenLabs"
+        }
+      ],
+      "tags": [
+        "agenda",
+        "task management",
+        "productivity",
+        "goal setting",
+        "work-life balance",
+        "personal development",
+        "top_installed",
+        "editor_choice",
+        "professionals"
+      ],
+      "order": 2,
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768",
+        "1280x800"
+      ],
+      "tsVersion": 0
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^0.0.4",
+      "@gdi/ui": "^0.0.1",
+      "@gdi/widgets-starter": "^0.0.6"
+    },
+    "apis": [],
+    "defaults": {},
+    "flowUrl": "/B-336/B-336.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/B-336",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "mobile": {
+      "darkMode": true,
+      "columns": 2,
+      "flowColumnIndex": 1,
+      "outputColumnIndex": 0
+    },
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
