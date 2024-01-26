@@ -6,7 +6,7 @@
   "boardInfo": {
     "name": "Fourth Wall",
     "index": 10,
-    "imageUrl": "/images/z_fourth_wall.jpg",
+    "imageUrl": "/images/z_warhol.jpg",
     "boardType": "continues",
     "description": "Fourth Wall is a board that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
     "descriptionLong": "Fourth Wall is a board that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
@@ -48,7 +48,7 @@
   },
   "apis": [],
   "defaults": {
-    "previewPath": ""
+    "previewPath": "/static/modelz.json"
   },
   "flowUrl": "/B-010/B-010.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",

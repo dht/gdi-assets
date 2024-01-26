@@ -91,19 +91,22 @@
   "sceneExternals": {
     "x1": {
       "id": "x1",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/ville.glb",
+      "rootUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/",
+      "fileName": "ville.glb",
       "enabled": true,
       "projectTag": "project-park"
     },
     "x2": {
       "id": "x2",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/tree.glb",
+      "rootUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/",
+      "fileName": "tree.glb",
       "position": [-8.74, 0, 5.388],
       "projectTag": "project-park"
     },
     "x3": {
       "id": "x3",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/fountain.glb",
+      "rootUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/",
+      "fileName": "fountain.glb",
       "position": [15.9, 0, -8.57],
       "projectTag": "project-park"
     }

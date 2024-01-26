@@ -3,7 +3,7 @@
     "id": "B-001",
     "identifier": "com.usegdi.3d-ad-creator",
     "version": "0.1.0",
-    "url": "/boards/b-001",
+    "url": "/boards/B-001",
     "boardInfo": {
       "name": "3D Ad Creator",
       "index": 1,
@@ -682,7 +682,7 @@
     "boardInfo": {
       "name": "Fourth Wall",
       "index": 10,
-      "imageUrl": "/images/z_fourth_wall.jpg",
+      "imageUrl": "/images/z_warhol.jpg",
       "boardType": "continues",
       "description": "Fourth Wall is a board that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
       "descriptionLong": "Fourth Wall is a board that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
@@ -728,7 +728,7 @@
     },
     "apis": [],
     "defaults": {
-      "previewPath": ""
+      "previewPath": "/static/modelz.json"
     },
     "flowUrl": "/B-010/B-010.flow.json",
     "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",

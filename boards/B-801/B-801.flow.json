@@ -1,0 +1,55 @@
+{
+  "flowConfig": {
+    "flowId": "fb-801",
+    "name": "Simple chat",
+    "flowType": "continues",
+    "variables": {},
+    "output": {
+      "transcriptLines": "actions.transcriptLines.setAll"
+    },
+    "cumulativeThread": true,
+    "clearVariables": false,
+    "textToSpeech": true
+  },
+  "flowApis": {},
+  "flowAssistants": {
+    "as-801-chat": {
+      "id": "as-801-chat",
+      "name": "Chat",
+      "description": "Helpful assistant that provides a conversation about a topic.",
+      "instructions": "You are a helpful assistant",
+      "model": "gpt-3.5-turbo-1106",
+      "tools": []
+    }
+  },
+  "flowNodes": {
+    "n-801": {
+      "id": "n-801",
+      "name": "Prompt",
+      "nodeType": "llm",
+      "assistantId": "as-801-chat",
+      "input": {
+        "prompt": "${prompt}"
+      },
+      "variables": {
+        "transcriptRaw": "[0].content[0].text.value",
+        "transcriptLines": "$chatSimple"
+      },
+      "parentId": "",
+      "completionParams": {
+        "maxTokens": 200
+      },
+      "position": { "x": 250, "y": 0 },
+      "connectors": ["n-801"],
+      "isStart": true
+    },
+    "n-002": {
+      "id": "n-002",
+      "name": "Respond",
+      "nodeType": "outcome",
+      "parentId": "n-801",
+      "position": { "x": 250, "y": 150 },
+      "isEnd": true
+    }
+  }
+}
