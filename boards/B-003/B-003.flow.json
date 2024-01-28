@@ -9,6 +9,7 @@
       "promptRevised": "actions.appState.patch",
       "promptOriginal": "actions.appState.patch"
     },
+    "postFlavour": "edit",
     "fileNameInstructions": "a jpg image generated with this prompt: ${prompt}"
   },
   "flowApis": {
