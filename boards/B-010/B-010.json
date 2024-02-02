@@ -58,9 +58,7 @@
   "isActive": true,
   "mobile": {
     "darkMode": true,
-    "columns": 2,
-    "flowColumnIndex": 1,
-    "outputColumnIndex": 0
+    "hidePrompt": true
   },
   "reviewInfo": {
     "reviewsCount": 0,
