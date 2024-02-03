@@ -11,9 +11,9 @@
     "activeCameras": ["free", "cornerCam1", "cornerCam2"]
   },
   "sceneStage": {
-    "bkUrl": "/boards/assets/bk.png2",
-    "stageUrl": "/boards/assets/stage.png2",
-    "stageMaskUrl": "/boards/assets/stage-mask.png2"
+    "bkUrl": "/boards/assets/bk.png",
+    "stageUrl": "/boards/assets/stage.png",
+    "stageMaskUrl": "/boards/assets/stage-mask.png"
   },
   "sceneCameras": {
     "cornerCam1": {
