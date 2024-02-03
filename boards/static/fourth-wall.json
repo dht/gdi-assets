@@ -393,7 +393,7 @@
     "man": {
       "id": "man",
       "meshNames": "",
-      "rootUrl": "/boards/assets/",
+      "rootUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/",
       "fileName": "main-1.glb",
       "animations": [],
       "meshId": "Ch36",
@@ -432,7 +432,7 @@
     "woman": {
       "id": "woman",
       "meshNames": "",
-      "rootUrl": "/boards/assets/",
+      "rootUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/",
       "fileName": "main-2.glb",
       "animations": [],
       "meshId": "Ch37",
