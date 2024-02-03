@@ -18,13 +18,17 @@
     "tags": ["voiceover", "recording", "audio", "creation"],
     "order": 9,
     "supportedResolutions": ["1920x1080", "1366x768"],
-    "tsVersion": 0
+    "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
   "dependencies": {
     "@gdi/widgets-starter": "0.6.3"
   },
-  "apis": ["turbo-3.5"],
+  "apis": {
+    "tts-1": "OpenAI",
+    "eleven_multilingual_v2": "ElevenLabs",
+    "eleven_turbo_v2": "ElevenLabs"
+  },
   "defaults": {
     "previewPath": ""
   },

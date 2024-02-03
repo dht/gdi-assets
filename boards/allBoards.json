@@ -44,17 +44,15 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/store-base": "^0.0.4",
-      "@gdi/ui": "^0.0.1",
-      "@gdi/widgets-starter": "^0.0.6"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [
-      "turbo-3.5"
-    ],
+    "apis": {},
     "defaults": {
       "previewPath": "/static/modelz.json"
     },
@@ -132,17 +130,17 @@
         "1366x768",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/store-base": "^0.0.4",
-      "@gdi/ui": "^0.0.1",
-      "@gdi/widgets-starter": "^0.0.6"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [
-      "chatgpt-1.0"
-    ],
+    "apis": {
+      "turbo-3.5": "OpenAI"
+    },
     "defaults": {
       "previewPath": ""
     },
@@ -212,15 +210,17 @@
         "1366x768",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/store-base": "^0.0.4",
-      "@gdi/ui": "^0.0.1",
-      "@gdi/widgets-starter": "^0.0.6"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [],
+    "apis": {
+      "dall-e-3": "OpenAI"
+    },
     "defaults": {
       "previewPath": ""
     },
@@ -290,18 +290,20 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/store-base": "^0.0.4",
-      "@gdi/ui": "^0.0.1",
-      "@gdi/widgets-starter": "^0.0.6"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [
-      "AI-3.0",
-      "turbo-3.5"
-    ],
+    "apis": {
+      "turbo-3.5": "OpenAI",
+      "tts-1": "OpenAI",
+      "eleven_multilingual_v2": "ElevenLabs",
+      "eleven_turbo_v2": "ElevenLabs"
+    },
     "defaults": {
       "previewPath": "/static/park-expanse.json",
       "dbPath": "/static/park-expanse.json",
@@ -377,15 +379,17 @@
         "1366x768",
         "1280x800"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/store-base": "^0.0.4",
-      "@gdi/ui": "^0.0.1",
-      "@gdi/widgets-starter": "^0.0.6"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [],
+    "apis": {
+      "turbo-3.5": "OpenAI"
+    },
     "defaults": {
       "previewPath": ""
     },
@@ -454,19 +458,17 @@
         "1366x768",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/store-base": "^0.0.4",
-      "@gdi/ui": "^0.0.1",
-      "@gdi/widgets-starter": "^0.0.6"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [
-      "3D-engine-1.0",
-      "camera-motion-2.1",
-      "timeline-1.5"
-    ],
+    "apis": {
+      "turbo-3.5": "OpenAI"
+    },
     "defaults": {
       "previewPath": ""
     },
@@ -519,15 +521,17 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
       "@gdi/widgets-starter": "0.6.3"
     },
-    "apis": [
-      "turbo-3.5"
-    ],
+    "apis": {
+      "tts-1": "OpenAI",
+      "eleven_multilingual_v2": "ElevenLabs",
+      "eleven_turbo_v2": "ElevenLabs"
+    },
     "defaults": {
       "previewPath": ""
     },
@@ -579,7 +583,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -587,9 +591,7 @@
     },
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-008",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "apis": [
-      "turbo-3.5"
-    ],
+    "apis": {},
     "defaults": {
       "previewPath": ""
     },
@@ -643,15 +645,13 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
       "@gdi/widgets-starter": "0.6.3"
     },
-    "apis": [
-      "turbo-3.5"
-    ],
+    "apis": {},
     "defaults": {
       "previewPath": ""
     },
@@ -719,15 +719,15 @@
         "1366x768",
         "1280x800"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/store-base": "^0.0.4",
-      "@gdi/ui": "^0.0.1",
-      "@gdi/widgets-starter": "^0.0.6"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [],
+    "apis": {},
     "defaults": {
       "previewPath": "/static/fourth-wall.json"
     },
@@ -789,13 +789,13 @@
         "1366x768",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/store-base": "^0.0.4",
-      "@gdi/ui": "^0.0.1",
-      "@gdi/widgets-starter": "^0.0.6"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
     "apis": [
       "3D-engine-1.0",
@@ -847,7 +847,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -898,7 +898,7 @@
         "1920x1080",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -948,7 +948,7 @@
         "1366x768",
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -999,7 +999,7 @@
         "2560x1440",
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1050,7 +1050,7 @@
         "2560x1440",
         "3840x2160"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1101,7 +1101,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1151,7 +1151,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1202,7 +1202,7 @@
         "1920x1080",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1252,7 +1252,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1303,7 +1303,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1353,7 +1353,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1404,7 +1404,7 @@
         "2560x1440",
         "3840x2160"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1454,7 +1454,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1505,7 +1505,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1555,7 +1555,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1606,7 +1606,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1656,7 +1656,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1706,7 +1706,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1756,7 +1756,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1808,7 +1808,7 @@
         "1920x1080",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1858,7 +1858,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1908,7 +1908,7 @@
         "2560x1440",
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -1958,7 +1958,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2008,7 +2008,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2059,7 +2059,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2109,7 +2109,7 @@
         "2560x1440",
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2159,7 +2159,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2210,7 +2210,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2260,7 +2260,7 @@
         "3840x2160",
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2311,7 +2311,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2362,7 +2362,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2412,7 +2412,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2463,7 +2463,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2514,7 +2514,7 @@
         "1920x1080",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2564,7 +2564,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2615,7 +2615,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2665,7 +2665,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2715,7 +2715,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2766,7 +2766,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2818,7 +2818,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2868,7 +2868,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2920,7 +2920,7 @@
         "1920x1080",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2972,7 +2972,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3022,7 +3022,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3072,7 +3072,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3122,7 +3122,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3172,7 +3172,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3223,7 +3223,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3275,7 +3275,7 @@
         "1920x1080",
         "1280x800"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3325,7 +3325,7 @@
         "1920x1080",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3377,7 +3377,7 @@
         "1920x1080",
         "1600x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3429,7 +3429,7 @@
         "1920x1080",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3480,7 +3480,7 @@
         "1920x1080",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3532,7 +3532,7 @@
         "2560x1440",
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3585,7 +3585,7 @@
         "2560x1440",
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3634,7 +3634,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3683,7 +3683,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3730,7 +3730,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3779,7 +3779,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3829,14 +3829,14 @@
         "2560x1440",
         "3840x2160"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
       "@gdi/widgets-starter": "0.6.3",
       "@gdi/boards-advanced": "0.0.9"
     },
-    "apis": [],
+    "apis": {},
     "elements": {
       "default": {}
     },
@@ -3879,7 +3879,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3929,7 +3929,7 @@
         "1280x720",
         "1024x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -3979,7 +3979,7 @@
         "1366x768",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4028,7 +4028,7 @@
         "1280x720",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4081,7 +4081,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4133,7 +4133,7 @@
         "1366x768",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4186,7 +4186,7 @@
         "1366x768",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4236,7 +4236,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4284,7 +4284,7 @@
         "1920x1080",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4338,7 +4338,7 @@
         "1366x768",
         "1680x1050"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4387,7 +4387,7 @@
         "1280x720",
         "3840x2160"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4435,7 +4435,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4486,7 +4486,7 @@
         "1366x768",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4535,7 +4535,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4584,7 +4584,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4633,7 +4633,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4683,7 +4683,7 @@
         "1366x768",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4732,7 +4732,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4781,7 +4781,7 @@
         "2560x1440",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4832,7 +4832,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4881,7 +4881,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4930,7 +4930,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -4981,7 +4981,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5029,7 +5029,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5081,7 +5081,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5131,7 +5131,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
@@ -5178,7 +5178,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5227,7 +5227,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5278,7 +5278,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5327,7 +5327,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5378,7 +5378,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5428,7 +5428,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5477,7 +5477,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5526,7 +5526,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5577,7 +5577,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5626,7 +5626,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5677,7 +5677,7 @@
         "1366x768",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5726,7 +5726,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5776,7 +5776,7 @@
         "1366x768",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5824,7 +5824,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5874,7 +5874,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5923,7 +5923,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -5971,7 +5971,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6020,7 +6020,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6068,7 +6068,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6118,7 +6118,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6163,7 +6163,7 @@
       ],
       "order": 108,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6213,7 +6213,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6261,7 +6261,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6309,7 +6309,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6360,7 +6360,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6409,7 +6409,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6457,7 +6457,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6503,11 +6503,11 @@
       ],
       "order": 115,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
-    "apis": [],
+    "apis": {},
     "elements": {
       "default": {}
     },
@@ -6550,7 +6550,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6599,7 +6599,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6649,7 +6649,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6698,7 +6698,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6746,7 +6746,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6795,7 +6795,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6843,7 +6843,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6892,7 +6892,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6941,7 +6941,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -6992,7 +6992,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7040,7 +7040,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7088,7 +7088,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7134,7 +7134,7 @@
       ],
       "order": 128,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7182,7 +7182,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7231,7 +7231,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7279,7 +7279,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7327,7 +7327,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7377,7 +7377,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7426,7 +7426,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7476,7 +7476,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7524,7 +7524,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7572,7 +7572,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7620,7 +7620,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7667,7 +7667,7 @@
       ],
       "order": 139,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7715,7 +7715,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7763,7 +7763,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7811,7 +7811,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7862,7 +7862,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7910,7 +7910,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -7956,7 +7956,7 @@
       ],
       "order": 145,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8004,7 +8004,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8054,7 +8054,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8101,7 +8101,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8150,7 +8150,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8199,7 +8199,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8248,7 +8248,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8296,7 +8296,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8344,7 +8344,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8392,7 +8392,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8442,7 +8442,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8490,7 +8490,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8538,7 +8538,7 @@
       ],
       "order": 157,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8586,7 +8586,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8635,7 +8635,7 @@
       ],
       "order": 159,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8685,7 +8685,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8733,7 +8733,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8781,7 +8781,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8831,7 +8831,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8880,7 +8880,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8928,7 +8928,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -8977,7 +8977,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9027,7 +9027,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9075,7 +9075,7 @@
       ],
       "order": 168,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9122,7 +9122,7 @@
       ],
       "order": 169,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9170,7 +9170,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9219,7 +9219,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9267,7 +9267,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9316,7 +9316,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9366,7 +9366,7 @@
         "1366x768",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9414,7 +9414,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9460,7 +9460,7 @@
       ],
       "order": 176,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9511,7 +9511,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9559,7 +9559,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9606,7 +9606,7 @@
       ],
       "order": 179,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9652,7 +9652,7 @@
       ],
       "order": 180,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9698,7 +9698,7 @@
       ],
       "order": 181,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9746,7 +9746,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9794,7 +9794,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9843,7 +9843,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9892,7 +9892,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9941,7 +9941,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -9989,7 +9989,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10037,7 +10037,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
@@ -10084,7 +10084,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10132,7 +10132,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10182,7 +10182,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10234,7 +10234,7 @@
         "2560x1440",
         "3840x2160"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10283,7 +10283,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10330,7 +10330,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10380,7 +10380,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10429,7 +10429,7 @@
         "1920x1080",
         "3840x2160"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10478,7 +10478,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10524,11 +10524,11 @@
       ],
       "order": 198,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
-    "apis": [],
+    "apis": {},
     "elements": {
       "default": {}
     },
@@ -10568,7 +10568,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10617,7 +10617,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10668,7 +10668,7 @@
         "2560x1440",
         "3840x2160"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10716,7 +10716,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10765,7 +10765,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10813,7 +10813,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10860,7 +10860,7 @@
       ],
       "order": 205,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10909,7 +10909,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -10957,7 +10957,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11005,7 +11005,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11054,7 +11054,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11102,7 +11102,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11148,7 +11148,7 @@
       ],
       "order": 211,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11196,7 +11196,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11246,7 +11246,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11292,11 +11292,11 @@
       ],
       "order": 214,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
-    "apis": [],
+    "apis": {},
     "elements": {
       "default": {}
     },
@@ -11338,7 +11338,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11387,7 +11387,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11437,7 +11437,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11487,7 +11487,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11533,11 +11533,11 @@
       ],
       "order": 219,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
-    "apis": [],
+    "apis": {},
     "elements": {
       "default": {}
     },
@@ -11579,7 +11579,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11629,7 +11629,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11678,7 +11678,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11724,11 +11724,11 @@
       ],
       "order": 223,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
-    "apis": [],
+    "apis": {},
     "elements": {
       "default": {}
     },
@@ -11769,7 +11769,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11818,7 +11818,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11864,7 +11864,7 @@
       ],
       "order": 226,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11913,7 +11913,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -11962,7 +11962,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12011,7 +12011,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12057,7 +12057,7 @@
       ],
       "order": 230,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12106,7 +12106,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12155,7 +12155,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12203,7 +12203,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12251,7 +12251,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12301,7 +12301,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12352,7 +12352,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12403,7 +12403,7 @@
       ],
       "order": 237,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12452,7 +12452,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12502,7 +12502,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12548,7 +12548,7 @@
       ],
       "order": 240,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12596,7 +12596,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
@@ -12644,7 +12644,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
@@ -12690,7 +12690,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12740,7 +12740,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12789,7 +12789,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12837,7 +12837,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12885,7 +12885,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12933,7 +12933,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -12981,7 +12981,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13030,7 +13030,7 @@
         "1366x768",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13080,11 +13080,11 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
-    "apis": [],
+    "apis": {},
     "elements": {
       "default": {}
     },
@@ -13125,7 +13125,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13173,7 +13173,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13222,7 +13222,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13270,7 +13270,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13320,7 +13320,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13369,7 +13369,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13419,7 +13419,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13470,7 +13470,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13520,7 +13520,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13569,11 +13569,11 @@
       ],
       "order": 261,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
-    "apis": [],
+    "apis": {},
     "elements": {
       "default": {}
     },
@@ -13616,7 +13616,7 @@
         "1366x768",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13667,7 +13667,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13716,7 +13716,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13767,7 +13767,7 @@
         "1366x768",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13815,7 +13815,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13863,7 +13863,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13914,7 +13914,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -13962,7 +13962,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14010,7 +14010,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14058,7 +14058,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14109,7 +14109,7 @@
         "1366x768",
         "1440x900"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14157,7 +14157,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14206,7 +14206,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14254,7 +14254,7 @@
       ],
       "order": 275,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14302,7 +14302,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14350,7 +14350,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14399,7 +14399,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14447,7 +14447,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14496,7 +14496,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14545,7 +14545,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14593,7 +14593,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14641,7 +14641,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14689,7 +14689,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14737,7 +14737,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14785,7 +14785,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14833,11 +14833,11 @@
       ],
       "order": 287,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
-    "apis": [],
+    "apis": {},
     "elements": {
       "default": {}
     },
@@ -14877,7 +14877,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14925,7 +14925,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -14970,11 +14970,11 @@
       ],
       "order": 290,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
-    "apis": [],
+    "apis": {},
     "elements": {
       "default": {}
     },
@@ -15014,7 +15014,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15063,7 +15063,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15112,7 +15112,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15160,7 +15160,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15208,7 +15208,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15256,7 +15256,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15302,7 +15302,7 @@
       ],
       "order": 297,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15351,7 +15351,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15400,7 +15400,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15448,7 +15448,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15497,7 +15497,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15546,7 +15546,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15595,7 +15595,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15643,7 +15643,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15693,7 +15693,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15741,7 +15741,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15791,7 +15791,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15839,7 +15839,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15888,7 +15888,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15936,7 +15936,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -15984,7 +15984,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16033,7 +16033,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16081,7 +16081,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16129,7 +16129,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16177,7 +16177,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16227,7 +16227,7 @@
       "supportedResolutions": [
         "1920x1080"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16276,7 +16276,7 @@
         "1920x1080",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16325,7 +16325,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16374,7 +16374,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16422,7 +16422,7 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16468,11 +16468,11 @@
       ],
       "order": 321,
       "supportedResolutions": [],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {},
-    "apis": [],
+    "apis": {},
     "elements": {
       "default": {}
     },
@@ -16518,7 +16518,7 @@
         "1366x768",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16571,7 +16571,7 @@
       "supportedResolutions": [
         "Varies with Apple Vision Pro AR headset"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16638,13 +16638,13 @@
         "1366x768",
         "2560x1440"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/store-base": "^0.0.4",
-      "@gdi/ui": "^0.0.1",
-      "@gdi/widgets-starter": "^0.0.6"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
     "apis": [
       "GDI SDK",
@@ -16710,13 +16710,13 @@
         "1366x768",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/store-base": "^0.0.4",
-      "@gdi/ui": "^0.0.1",
-      "@gdi/widgets-starter": "^0.0.6"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
     "apis": [
       "youtube-data-v3"
@@ -16783,15 +16783,15 @@
         "1366x768",
         "1280x800"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/store-base": "^0.0.4",
-      "@gdi/ui": "^0.0.1",
-      "@gdi/widgets-starter": "^0.0.6"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [],
+    "apis": {},
     "defaults": {},
     "flowUrl": "/B-336/B-336.flow.json",
     "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/B-336",
@@ -16839,7 +16839,7 @@
         "1366x768",
         "1280x720"
       ],
-      "tsVersion": 0
+      "tsVersion": "2024-02-03 14:44:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -16847,7 +16847,7 @@
       "User Interface": "Responsive",
       "Notifications": "Enabled"
     },
-    "apis": [],
+    "apis": {},
     "defaults": {},
     "flowUrl": "",
     "isActive": true,

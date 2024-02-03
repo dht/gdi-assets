@@ -31,15 +31,17 @@
     "tags": ["chat", "AI", "chatbot", "conversation", "interactive", "fun", "user-friendly"],
     "order": 2,
     "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
-    "tsVersion": 0
+    "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
   "dependencies": {
-    "@gdi/store-base": "^0.0.4",
-    "@gdi/ui": "^0.0.1",
-    "@gdi/widgets-starter": "^0.0.6"
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
   },
-  "apis": ["chatgpt-1.0"],
+  "apis": {
+    "turbo-3.5": "OpenAI"
+  },
   "defaults": {
     "previewPath": ""
   },
