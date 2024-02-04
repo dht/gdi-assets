@@ -1,11 +1,11 @@
 {
-  "id": "B-900",
+  "id": "B-804",
   "identifier": "com.usegdi.todo-app",
   "version": "1.0.0",
-  "url": "/boards/B-900",
+  "url": "/boards/B-804",
   "boardInfo": {
     "name": "Todo App",
-    "index": 900,
+    "index": 804,
     "imageUrl": "",
     "boardType": "adhoc",
     "description": "Todo App is a versatile task management application designed to help users organize their daily tasks efficiently. This app simplifies your life by providing an intuitive and user-friendly interface for creating, tracking, and completing tasks. Whether you're managing work projects, personal errands, or academic assignments, Todo App has you covered.\n\nWith Todo App, you can create, edit, and prioritize tasks effortlessly. The app allows you to set due dates, add notes, and categorize tasks into lists. Stay organized by viewing tasks in a list or kanban board layout. Never miss a deadline again with timely reminders and notifications.\n\nExperience the joy of productivity with Todo App. Whether you're a busy professional or a student juggling multiple responsibilities, this app helps you stay on top of your tasks and accomplish your goals.",
@@ -58,7 +58,7 @@
           "x": 20,
           "y": 6
         },
-        "boardId": "B-900",
+        "boardId": "B-804",
         "flags": {}
       },
       "e2": {
@@ -73,7 +73,7 @@
           "x": 63,
           "y": 21
         },
-        "boardId": "B-900",
+        "boardId": "B-804",
         "flags": {},
         "props": {}
       },
@@ -89,7 +89,7 @@
           "x": 63,
           "y": 21
         },
-        "boardId": "B-900",
+        "boardId": "B-804",
         "flags": {},
         "props": {}
       }
