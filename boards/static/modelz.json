@@ -1311,7 +1311,7 @@
   "sceneExternals": {
     "car": {
       "id": "car",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/car.glb",
       "fileName": "car.glb",
       "enabled": false,
       "projectTag": "project-tutorial"
