@@ -5,12 +5,12 @@
   "url": "/boards/B-021",
   "boardInfo": {
     "name": "Periscope",
-    "index": 1,
-    "imageUrl": "/images/periscope.jpg",
-    "videoUrl": "https://www.youtube.com/embed/ghi789",
+    "index": 21,
+    "imageUrl": "/images/d3.jpg",
+    "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Gain comprehensive insights into individuals or events with Periscope. Explore diverse perspectives, uncover information, and find varying opinions on a particular focus. Seamlessly shift through different angles and narratives to gain a multifaceted understanding of the subject, supported by varied sources, videos, and imagery.",
-    "descriptionLong": "Periscope is your tool for in-depth exploration of individuals or events, offering a holistic view of the subject matter. By placing the focus at the center, this board presents diverse perspectives from multiple sources, providing a rich narrative woven from various angles. Dive into comprehensive information, videos, imagery, and more to gain a nuanced understanding.",
+    "description": "Gain comprehensive insights with Periscope. Explore diverse perspectives, uncover information, and find varying opinions on a particular focus. Seamlessly shift through different angles and narratives to gain a multifaceted understanding of the subject, supported by varied sources, videos, and imagery.",
+    "descriptionLong": "Periscope is your tool for in-depth exploration of, well, anything, offering a holistic view of the subject matter. By placing the focus at the center, this board presents diverse perspectives from multiple sources, providing a rich narrative woven from various angles. Dive into comprehensive information, videos, imagery, and more to gain a nuanced understanding.",
     "oneLiner": "Explore multifaceted perspectives with Periscope.",
     "oneLinerShort": "Explore multifaceted perspectives.",
     "header": "comprehensive insights gathered around a focus from diverse sources",
@@ -55,6 +55,7 @@
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
+  "isWip": true,
   "mobile": {
     "hidePrompt": true,
     "darkMode": true

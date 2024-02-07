@@ -5,9 +5,9 @@
   "url": "/boards/B-017",
   "boardInfo": {
     "name": "Premier League Analytics",
-    "index": 1,
-    "imageUrl": "/images/premier-league-analytics.jpg",
-    "videoUrl": "https://www.youtube.com/embed/abc123",
+    "index": 17,
+    "imageUrl": "/images/d4.jpg",
+    "videoUrl": "",
     "boardType": "adhoc",
     "description": "Gain deeper insights into Premier League matches with advanced sports analytics. Analyze plays, strategies, and player performance to understand the intricacies of the game. Leverage comprehensive data and visualizations to enhance your understanding of Premier League action.",
     "descriptionLong": "The Premier League Sports Analytics board revolutionizes the way you analyze football matches. Dive into detailed breakdowns of plays, player movements, and game statistics. This board provides a comprehensive toolkit for coaches, analysts, and enthusiasts to uncover valuable insights and tactical trends within the Premier League.",
@@ -49,6 +49,7 @@
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
+  "isWip": true,
   "mobile": {
     "hidePrompt": true,
     "darkMode": true

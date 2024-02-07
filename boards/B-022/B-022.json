@@ -5,9 +5,9 @@
   "url": "/boards/B-022",
   "boardInfo": {
     "name": "Debater's Workshop",
-    "index": 1,
-    "imageUrl": "/images/critical-thinking.jpg",
-    "videoUrl": "https://www.youtube.com/embed/jkl012",
+    "index": 22,
+    "imageUrl": "/images/d0.jpg",
+    "videoUrl": "",
     "boardType": "adhoc",
     "description": "Develop your critical thinking skills with education centered on logical fallacies, rhetoric, and information analysis. Learn through practical examples and diverse methods that empower you to recognize, evaluate, and respond to different forms of reasoning and argumentation in an informed and analytical manner.",
     "descriptionLong": "The Debate's Workshop board is your gateway to mastering logical fallacies, rhetoric, and information analysis. Explore diverse methods and real-world examples to sharpen your skills in identifying faulty reasoning, analyzing rhetoric, and critically evaluating information. Gain the expertise to engage in informed, thoughtful, and analytical discourse.",
@@ -56,6 +56,7 @@
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
+  "isWip": true,
   "mobile": {
     "hidePrompt": true,
     "darkMode": true

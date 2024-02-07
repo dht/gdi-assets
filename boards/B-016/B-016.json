@@ -5,9 +5,9 @@
   "url": "/boards/B-016",
   "boardInfo": {
     "name": "World News",
-    "index": 1,
-    "imageUrl": "/images/world-news.jpg",
-    "videoUrl": "https://www.youtube.com/embed/4pu9otHBkMc",
+    "index": 16,
+    "imageUrl": "/images/d1.jpg",
+    "videoUrl": "",
     "boardType": "adhoc",
     "description": "Stay informed with the latest global events using the World News board. Access comprehensive coverage, breaking news, and in-depth analysis of international affairs. Explore diverse perspectives and deep insights to understand the world around you.",
     "descriptionLong": "The World News board is your gateway to global awareness. Whether it's political developments, economic trends, cultural movements, or environmental issues, this board brings together a wealth of information to keep you informed about the world. Dive into a comprehensive view of international affairs and stay up-to-date with all that unfolds.",
@@ -49,6 +49,7 @@
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
+  "isWip": true,
   "mobile": {
     "hidePrompt": true,
     "darkMode": true
