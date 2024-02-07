@@ -41,7 +41,7 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "defaults": {
-    "previewPath": "/static/ai-era-feeds.json"
+    "previewPath": ""
   },
   "flowUrl": "/B-019/B-019.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-019",

@@ -47,13 +47,10 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "apis": ["turbo-3.5"],
+  "apis": {},
   "defaults": {
-    "setupId": "default",
-    "playbackId": ""
+    "previewPath": ""
   },
-  "setupsUrl": "/B-800/B-800.setups.json",
-  "playbacksUrl": "",
   "flowUrl": "/B-800/B-800.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",

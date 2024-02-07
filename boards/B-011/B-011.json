@@ -25,14 +25,11 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "apis": ["turbo-3.5"],
+  "flowUrl": "/B-011/B-011.flow.json",
+  "apis": {},
   "defaults": {
-    "setupId": "default",
-    "playbackId": ""
+    "previewPath": ""
   },
-  "setupsUrl": "",
-  "playbacksUrl": "",
-  "flowUrl": "",
   "isWip": true,
   "isActive": true,
   "reviewInfo": {

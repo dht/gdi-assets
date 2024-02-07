@@ -49,7 +49,7 @@
   },
   "apis": {},
   "defaults": {
-    "previewPath": "/static/critical-thinking-education.json"
+    "previewPath": ""
   },
   "flowUrl": "/B-022/B-022.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-022",

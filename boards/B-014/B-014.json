@@ -21,16 +21,15 @@
   },
   "author": "gdi",
   "dependencies": {
-    "@gdi/widgets-starter": "0.6.3"
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
   },
-  "apis": ["turbo-3.5"],
+  "flowUrl": "/B-014/B-014.flow.json",
+  "apis": {},
   "defaults": {
-    "setupId": "default",
-    "playbackId": ""
+    "previewPath": ""
   },
-  "setupsUrl": "",
-  "playbacksUrl": "",
-  "flowUrl": "",
   "isActive": true,
   "isWip": true,
   "reviewInfo": {

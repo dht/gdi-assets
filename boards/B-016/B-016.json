@@ -42,7 +42,7 @@
   },
   "apis": {},
   "defaults": {
-    "previewPath": "/static/world-news.json"
+    "previewPath": ""
   },
   "flowUrl": "/B-016/B-016.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-016",

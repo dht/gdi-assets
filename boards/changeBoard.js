@@ -41,14 +41,6 @@ const renameBoard = (source, dest) => {
     content.flowUrl = `/${destId}/${destId}.flow.json`;
   }
 
-  if (setupsUrl) {
-    content.setupsUrl = `/${destId}/${destId}.setups.json`;
-  }
-
-  if (playbacksUrl) {
-    content.playbacksUrl = `/${destId}/${destId}.playbacks.json`;
-  }
-
   replaceJson(content, (key, value) => {
     if (key === 'boardId') {
       return destId;

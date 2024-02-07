@@ -49,7 +49,7 @@
   },
   "apis": {},
   "defaults": {
-    "previewPath": "/static/tdd-helper.json"
+    "previewPath": ""
   },
   "flowUrl": "/B-020/B-020.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-020",

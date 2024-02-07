@@ -788,16 +788,11 @@
       "@gdi/ui": "^1.0.0",
       "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [
-      "turbo-3.5"
-    ],
-    "defaults": {
-      "setupId": "default",
-      "playbackId": ""
-    },
-    "setupsUrl": "",
-    "playbacksUrl": "",
     "flowUrl": "/B-011/B-011.flow.json",
+    "apis": {},
+    "defaults": {
+      "previewPath": ""
+    },
     "isWip": true,
     "isActive": true,
     "reviewInfo": {
@@ -805,8 +800,7 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    },
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-011"
+    }
   },
   {
     "id": "B-012",
@@ -839,18 +833,15 @@
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/widgets-starter": "0.6.3"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [
-      "turbo-3.5"
-    ],
+    "flowUrl": "/B-012/B-012.flow.json",
+    "apis": {},
     "defaults": {
-      "setupId": "default",
-      "playbackId": ""
+      "previewPath": ""
     },
-    "setupsUrl": "",
-    "playbacksUrl": "",
-    "flowUrl": "",
     "isActive": true,
     "isWip": true,
     "reviewInfo": {
@@ -891,18 +882,15 @@
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/widgets-starter": "0.6.3"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [
-      "turbo-3.5"
-    ],
+    "flowUrl": "/B-013/B-013.flow.json",
+    "apis": {},
     "defaults": {
-      "setupId": "default",
-      "playbackId": ""
+      "previewPath": ""
     },
-    "setupsUrl": "",
-    "playbacksUrl": "",
-    "flowUrl": "",
     "isActive": true,
     "isWip": true,
     "reviewInfo": {
@@ -944,18 +932,15 @@
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/widgets-starter": "0.6.3"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [
-      "turbo-3.5"
-    ],
+    "flowUrl": "/B-014/B-014.flow.json",
+    "apis": {},
     "defaults": {
-      "setupId": "default",
-      "playbackId": ""
+      "previewPath": ""
     },
-    "setupsUrl": "",
-    "playbacksUrl": "",
-    "flowUrl": "",
     "isActive": true,
     "isWip": true,
     "reviewInfo": {
@@ -997,18 +982,15 @@
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/widgets-starter": "0.6.3"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [
-      "turbo-3.5"
-    ],
+    "apis": {},
     "defaults": {
-      "setupId": "default",
-      "playbackId": ""
+      "previewPath": ""
     },
-    "setupsUrl": "",
-    "playbacksUrl": "",
-    "flowUrl": "",
+    "flowUrl": "/B-015/B-015.flow.json",
     "isActive": true,
     "isWip": true,
     "reviewInfo": {
@@ -1071,7 +1053,7 @@
     },
     "apis": {},
     "defaults": {
-      "previewPath": "/static/world-news.json"
+      "previewPath": ""
     },
     "flowUrl": "/B-016/B-016.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-016",
@@ -1145,7 +1127,7 @@
     },
     "apis": {},
     "defaults": {
-      "previewPath": "/static/premier-league-analytics.json"
+      "previewPath": ""
     },
     "flowUrl": "/B-017/B-017.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-017",
@@ -1219,7 +1201,7 @@
     },
     "apis": {},
     "defaults": {
-      "previewPath": "/static/ai-era-feeds.json"
+      "previewPath": ""
     },
     "flowUrl": "/B-018/B-018.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-018",
@@ -1292,7 +1274,7 @@
       "@gdi/widgets-starter": "^1.0.0"
     },
     "defaults": {
-      "previewPath": "/static/ai-era-feeds.json"
+      "previewPath": ""
     },
     "flowUrl": "/B-019/B-019.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-019",
@@ -1366,7 +1348,7 @@
     },
     "apis": {},
     "defaults": {
-      "previewPath": "/static/tdd-helper.json"
+      "previewPath": ""
     },
     "flowUrl": "/B-020/B-020.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-020",
@@ -1439,7 +1421,7 @@
     },
     "apis": {},
     "defaults": {
-      "previewPath": "/static/periscope.json"
+      "previewPath": ""
     },
     "flowUrl": "/B-021/B-021.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-021",

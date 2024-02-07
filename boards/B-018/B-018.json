@@ -42,7 +42,7 @@
   },
   "apis": {},
   "defaults": {
-    "previewPath": "/static/ai-era-feeds.json"
+    "previewPath": ""
   },
   "flowUrl": "/B-018/B-018.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-018",
