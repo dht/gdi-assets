@@ -64,8 +64,8 @@
     "default": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.fourth-wall",
-        "title": "Fourth wall",
+        "widgetId": "com.usegdi.starter.premiere",
+        "title": "Premiere",
         "position": {
           "x": 1,
           "y": 1
@@ -74,7 +74,7 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-015",
+        "boardId": "B-016",
         "flags": {},
         "props": {
           "sceneUrl": ""
@@ -95,15 +95,15 @@
         "props": {
           "darkMode": false
         },
-        "boardId": "B-015",
+        "boardId": "B-016",
         "flags": {}
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.fourth-wall",
-        "title": "Fourth wall",
+        "widgetId": "com.usegdi.starter.premiere",
+        "title": "Premiere",
         "position": {
           "x": 1,
           "y": 1
@@ -112,7 +112,7 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-015",
+        "boardId": "B-016",
         "flags": {},
         "props": {
           "sceneUrl": ""

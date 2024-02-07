@@ -830,7 +830,7 @@
         "marketing",
         "AI"
       ],
-      "order": 12,
+      "order": 10,
       "supportedResolutions": [
         "1920x1080",
         "3840x2160"
@@ -850,7 +850,7 @@
     },
     "setupsUrl": "",
     "playbacksUrl": "",
-    "flowUrl": "/B-012/B-012.flow.json",
+    "flowUrl": "",
     "isActive": true,
     "isWip": true,
     "reviewInfo": {
@@ -858,8 +858,7 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    },
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-012"
+    }
   },
   {
     "id": "B-013",
@@ -883,7 +882,7 @@
         "content creation",
         "entertainment"
       ],
-      "order": 13,
+      "order": 8,
       "supportedResolutions": [
         "1920x1080",
         "1366x768"
@@ -903,7 +902,7 @@
     },
     "setupsUrl": "",
     "playbacksUrl": "",
-    "flowUrl": "/B-013/B-013.flow.json",
+    "flowUrl": "",
     "isActive": true,
     "isWip": true,
     "reviewInfo": {
@@ -911,8 +910,7 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    },
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-013"
+    }
   },
   {
     "id": "B-014",
@@ -937,7 +935,7 @@
         "virtual",
         "famous figures"
       ],
-      "order": 14,
+      "order": 8,
       "supportedResolutions": [
         "1920x1080",
         "1366x768"
@@ -957,7 +955,7 @@
     },
     "setupsUrl": "",
     "playbacksUrl": "",
-    "flowUrl": "/B-014/B-014.flow.json",
+    "flowUrl": "",
     "isActive": true,
     "isWip": true,
     "reviewInfo": {
@@ -965,8 +963,7 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    },
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-014"
+    }
   },
   {
     "id": "B-015",
@@ -991,7 +988,7 @@
         "apartment",
         "sensors"
       ],
-      "order": 15,
+      "order": 8,
       "supportedResolutions": [
         "1920x1080",
         "1366x768"
@@ -1011,7 +1008,7 @@
     },
     "setupsUrl": "",
     "playbacksUrl": "",
-    "flowUrl": "/B-015/B-015.flow.json",
+    "flowUrl": "",
     "isActive": true,
     "isWip": true,
     "reviewInfo": {
@@ -1019,8 +1016,7 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    },
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-015"
+    }
   },
   {
     "id": "B-016",
@@ -1246,7 +1242,7 @@
     "id": "B-019",
     "identifier": "com.usegdi.regex-wizard",
     "version": "0.1.0",
-    "url": "/boards/B-341",
+    "url": "/boards/B-019",
     "boardInfo": {
       "name": "Regex Wizard",
       "index": 19,
@@ -1523,7 +1519,7 @@
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-022",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
+    "isActive": false,
     "isWip": true,
     "mobile": {
       "hidePrompt": true,

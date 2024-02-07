@@ -55,7 +55,7 @@
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-022",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-  "isActive": true,
+  "isActive": false,
   "isWip": true,
   "mobile": {
     "hidePrompt": true,
@@ -69,26 +69,8 @@
   },
   "elements": {
     "default": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.fourth-wall",
-        "title": "Fourth wall",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-015",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
-      "e3": {
-        "id": "e3",
+      "e1": {
+        "id": "e1",
         "widgetId": "com.usegdi.starter.logo",
         "title": "Logo",
         "position": {
@@ -99,31 +81,73 @@
           "x": 20,
           "y": 6
         },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "B-015",
+        "boardId": "B-801",
         "flags": {}
-      }
-    },
-    "mobile": {
+      },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.fourth-wall",
-        "title": "Fourth wall",
+        "widgetId": "com.usegdi.starter.youtube",
+        "title": "Youtube",
         "position": {
-          "x": 1,
-          "y": 1
+          "x": 62,
+          "y": 4
         },
         "dimension": {
-          "x": 121,
-          "y": 48
+          "x": 57,
+          "y": 17
         },
-        "boardId": "B-015",
+        "boardId": "B-801",
         "flags": {},
         "props": {
-          "sceneUrl": ""
+          "autoSize": true,
+          "videoId": "s0dMTAQM4cw"
         }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.transcript",
+        "title": "Transcript",
+        "position": {
+          "x": 62,
+          "y": 21
+        },
+        "dimension": {
+          "x": 57,
+          "y": 25
+        },
+        "boardId": "B-004",
+        "flags": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.youtube-layers",
+        "title": "YoutubeLayers",
+        "position": {
+          "x": 2,
+          "y": 8
+        },
+        "dimension": {
+          "x": 57,
+          "y": 9
+        },
+        "boardId": "B-801",
+        "flags": {},
+        "props": {}
+      },
+      "e5": {
+        "id": "e5",
+        "widgetId": "com.usegdi.starter.youtube-layer",
+        "title": "YoutubeLayer",
+        "position": {
+          "x": 2,
+          "y": 17
+        },
+        "dimension": {
+          "x": 57,
+          "y": 29
+        },
+        "boardId": "B-801",
+        "flags": {}
       }
     }
   }

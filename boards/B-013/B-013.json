@@ -43,8 +43,8 @@
     "default": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.fourth-wall",
-        "title": "Fourth wall",
+        "widgetId": "com.usegdi.starter.tube",
+        "title": "Tube",
         "position": {
           "x": 1,
           "y": 1
@@ -81,8 +81,8 @@
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.fourth-wall",
-        "title": "Fourth wall",
+        "widgetId": "com.usegdi.starter.tube",
+        "title": "Tube",
         "position": {
           "x": 1,
           "y": 1
