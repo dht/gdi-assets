@@ -3,12 +3,13 @@ const json = require('./allBoards.json');
 
 const OpenAI = require('openai');
 const _ = require('lodash');
+const { set } = require('lodash');
 
 // dotenv
 const dotenv = require('dotenv');
 dotenv.config();
 
-const categories = fs.readFileSync('./categories.md', 'utf8').split('\n').join(',');
+// const categories = fs.readFileSync('./categories.md', 'utf8').split('\n').join(',');
 
 if (fs.existsSync('output')) {
   fs.rmdirSync('output', { recursive: true });
@@ -171,19 +172,26 @@ const run = async () => {
   runQueue();
 };
 
+const lz = (number, min = 3) => {
+  return `${number}`.padStart(min, '0');
+};
+
 const parse = () => {
   const output = [];
-  json.forEach((item) => {
-    output.push(_.pick(item, 'id', 'name', 'description', 'oneLiner'));
+
+  json.forEach((item, index) => {
+    const order = index + 1;
+    const id = `B-${lz(order)}`;
+
+    set(item, 'id', id);
+    set(item, 'boardInfo.order', order);
+    set(item, 'flowUrl', `/${id}/${id}.flow.json`);
+    set(item, 'sourceUrl', `https://github.com/dht/gdi-assets/tree/main/boards/${id}`);
+
+    output.push(item);
   });
 
-  output.forEach((item) => {
-    if (item.description.length > 100) {
-      item.description = item.description.slice(0, 100) + '...';
-    }
-  });
-
-  fs.writeFileSync('Gallery.data2.json', JSON.stringify(output, null, 2));
+  fs.writeFileSync('AllBoards.out.json', JSON.stringify(output, null, 2));
 };
-// parse();
-run();
+parse();
+// run();

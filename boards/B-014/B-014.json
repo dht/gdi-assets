@@ -1,0 +1,102 @@
+{
+  "id": "B-014",
+  "identifier": "com.usegdi.ppl",
+  "version": "0.1.0",
+  "url": "/boards/B-014",
+  "boardInfo": {
+    "name": "PPL",
+    "index": 14,
+    "imageUrl": "/images/ppl_thumb.png",
+    "boardType": "adhoc",
+    "description": "PPL is an innovative board that allows you to explore famous figures alive today and from history. Engage in thought-provoking conversations, ask questions, or chat with virtual representations of these renowned personalities. Whether you seek wisdom from historical icons or insights from contemporary influencers, PPL Explorer offers a unique opportunity to interact with iconic figures and gain valuable knowledge.\n\nWith its user-friendly interface and intuitive functionality, PPL Explorer ensures an immersive and seamless experience for users of all backgrounds. Whether you are a history enthusiast or eager to connect with living legends, PPL Explorer provides a dynamic platform for enriching interactions. Boasting a vast database of famous figures and receiving accolades for its educational value, PPL Explorer has emerged as a revered destination for virtual conversations and insightful exchanges.",
+    "descriptionLong": "PPL is an innovative board that allows you to explore famous figures alive today and from history. Engage in thought-provoking conversations, ask questions, or chat with virtual representations of these renowned personalities. Whether you seek wisdom from historical icons or insights from contemporary influencers, PPL Explorer offers a unique opportunity to interact with iconic figures and gain valuable knowledge.\n\nWith its user-friendly interface and intuitive functionality, PPL Explorer ensures an immersive and seamless experience for users of all backgrounds. Whether you are a history enthusiast or eager to connect with living legends, PPL Explorer provides a dynamic platform for enriching interactions. Boasting a vast database of famous figures and receiving accolades for its educational value, PPL Explorer has emerged as a revered destination for virtual conversations and insightful exchanges.",
+    "oneLiner": "Explore, chat, and engage with famous figures from history and present-day influencers on PPL Explorer, a dynamic platform for virtual interactions and insightful exchanges.",
+    "oneLinerShort": "\"Virtual Conversations with Famous Figures\"",
+    "header": "",
+    "fields": [],
+    "tags": ["history", "interaction", "education", "virtual", "famous figures"],
+    "order": 8,
+    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tsVersion": 0
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/widgets-starter": "0.6.3"
+  },
+  "apis": ["turbo-3.5"],
+  "defaults": {
+    "setupId": "default",
+    "playbackId": ""
+  },
+  "setupsUrl": "",
+  "playbacksUrl": "",
+  "flowUrl": "",
+  "isActive": true,
+  "isWip": true,
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.fourth-wall",
+        "title": "Fourth wall",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-014",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "B-014",
+        "flags": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.fourth-wall",
+        "title": "Fourth wall",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-014",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      }
+    }
+  }
+}

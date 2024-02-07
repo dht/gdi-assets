@@ -33,7 +33,8 @@
   "setupsUrl": "",
   "playbacksUrl": "",
   "flowUrl": "",
-  "isActive": false,
+  "isWip": true,
+  "isActive": true,
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,

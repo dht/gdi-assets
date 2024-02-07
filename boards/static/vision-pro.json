@@ -10,64 +10,6 @@
     "isCharacterScene": true,
     "activeCameras": ["free", "cornerCam1", "cornerCam2"]
   },
-  "sceneStage": {},
-  "sceneCameras": {
-    "cornerCam1": {
-      "id": "cornerCam1",
-      "type": "arc",
-      "values": {
-        "alpha": 0,
-        "beta": 88,
-        "radius": 1,
-        "fov": 0.05,
-        "layerMask": 2,
-        "viewport": [0, 0.01, 0.25, 0.25]
-      },
-      "isSticky": true
-    }
-  },
-  "sceneLights": {
-    "d1": {
-      "id": "d1",
-      "type": "directional",
-      "position": [0, 0, 0],
-      "target": [1, 0, -1],
-      "colors": {
-        "diffuse": [1, 0.7, 0.6],
-        "specular": [0, 0, 0]
-      },
-      "values": {
-        "intensity": 0.5
-      },
-      "isSticky": true
-    },
-    "d2": {
-      "id": "d2",
-      "type": "directional",
-      "target": [-1, 0, 0],
-      "colors": {
-        "diffuse": [1, 0.7, 0.8],
-        "specular": [1, 0, 0]
-      },
-      "values": {
-        "intensity": 0.8
-      },
-      "isSticky": true
-    },
-    "point": {
-      "id": "point",
-      "type": "point",
-      "position": [0, 1, 0],
-      "colors": {
-        "diffuse": [1, 1, 1],
-        "specular": [0, 0, 0]
-      },
-      "values": {
-        "intensity": 2
-      },
-      "isSticky": true
-    }
-  },
   "sceneBits": {
     "b01": {
       "cameraId": "arc",
@@ -265,137 +207,192 @@
       "projectTag": "project-tutorial"
     }
   },
+  "sceneStage": {},
   "scenePacks": {},
   "sceneDots": {},
-  "sceneExternals": {
-    "couch": {
-      "id": "man",
-      "meshNames": "",
-      "rootUrl": "/boards/assets/",
-      "fileName": "stool.glb",
-      "animations": [],
-      "meshId": "",
-      "rootId": "Couch",
-      "position": [10, -1.3, -0.5],
-      "rotation": [0, 3.14, 0],
-      "layerMask": 1
+  "sceneCameras": {
+    "cornerCam1": {
+      "id": "cornerCam1",
+      "type": "arc",
+      "values": {
+        "alpha": 0,
+        "beta": 88,
+        "radius": 1,
+        "fov": 0.05,
+        "layerMask": 2,
+        "viewport": [0, 0.01, 0.25, 0.25]
+      },
+      "isSticky": true
     }
   },
-  "sceneAudios": {
-    "voice-fred-01": {
-      "duration": 0,
-      "fileName": "voice-fred-01.mp3",
-      "id": "voice-fred-01",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-01.mp3",
-      "timestamp": 2,
-      "projectTag": "project-tutorial",
-      "balance": 0.3
+  "sceneLights": {
+    "d1": {
+      "id": "d1",
+      "type": "directional",
+      "position": [0, 0, 0],
+      "target": [1, 0, -1],
+      "colors": {
+        "diffuse": [1, 0.7, 0.6],
+        "specular": [0, 0, 0]
+      },
+      "values": {
+        "intensity": 0.5
+      },
+      "isSticky": true
     },
-    "voice-mary-01": {
-      "duration": 0,
-      "fileName": "voice-mary-01.mp3",
-      "id": "voice-mary-01",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-01.mp3",
-      "timestamp": 6,
-      "projectTag": "project-tutorial",
-      "balance": 0.7
+    "d2": {
+      "id": "d2",
+      "type": "directional",
+      "target": [-1, 0, 0],
+      "colors": {
+        "diffuse": [1, 0.7, 0.8],
+        "specular": [1, 0, 0]
+      },
+      "values": {
+        "intensity": 0.8
+      },
+      "isSticky": true
     },
-    "voice-fred-02": {
-      "duration": 0,
-      "fileName": "voice-fred-02.mp3",
-      "id": "voice-fred-02",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-02.mp3",
-      "timestamp": 9,
-      "projectTag": "project-tutorial",
-      "balance": 0.3
-    },
-    "voice-mary-02": {
-      "duration": 0,
-      "fileName": "voice-mary-02.mp3",
-      "id": "voice-mary-02",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-02.mp3",
-      "timestamp": 13.5,
-      "projectTag": "project-tutorial",
-      "balance": 0.7
-    },
-    "voice-fred-03": {
-      "duration": 0,
-      "fileName": "voice-fred-03.mp3",
-      "id": "voice-fred-03",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-03.mp3",
-      "timestamp": 16.5,
-      "projectTag": "project-tutorial",
-      "balance": 0.3
-    },
-    "voice-mary-03": {
-      "duration": 0,
-      "fileName": "voice-mary-03.mp3",
-      "id": "voice-mary-03",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-03.mp3",
-      "timestamp": 21,
-      "projectTag": "project-tutorial",
-      "balance": 0.7
-    },
-    "voice-fred-04": {
-      "duration": 0,
-      "fileName": "voice-fred-04.mp3",
-      "id": "voice-fred-04",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-04.mp3",
-      "timestamp": 27,
-      "projectTag": "project-tutorial",
-      "balance": 0.3
-    },
-    "voice-mary-04": {
-      "duration": 0,
-      "fileName": "voice-mary-04.mp3",
-      "id": "voice-mary-04",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-04.mp3",
-      "timestamp": 30,
-      "projectTag": "project-tutorial",
-      "balance": 0.7
-    },
-    "voice-fred-05": {
-      "duration": 0,
-      "fileName": "voice-fred-05.mp3",
-      "id": "voice-fred-05",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-05.mp3",
-      "timestamp": 33,
-      "projectTag": "project-tutorial",
-      "balance": 0.3
-    },
-    "voice-mary-05": {
-      "duration": 0,
-      "fileName": "voice-mary-05.mp3",
-      "id": "voice-mary-05",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-05.mp3",
-      "timestamp": 36,
-      "projectTag": "project-tutorial",
-      "balance": 0.7
-    },
-    "audio-main": {
-      "duration": 0,
-      "fileName": "rain-long.mp3",
-      "isMain": true,
-      "id": "audio-main",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/rain-long.mp3",
-      "timestamp": 0,
-      "projectTag": "project-tutorial",
-      "balance": 0.3,
-      "volume": 0.3
+    "point": {
+      "id": "point",
+      "type": "point",
+      "position": [0, 1, 0],
+      "colors": {
+        "diffuse": [1, 1, 1],
+        "specular": [0, 0, 0]
+      },
+      "values": {
+        "intensity": 2
+      },
+      "isSticky": true
     }
   },
-  "sceneEffects": {},
+  "sceneMeshes": {
+    "screen-1": {
+      "id": "screen-1",
+      "type": "plane",
+      "values": {
+        "width": 22,
+        "height": 18
+      },
+      "material": {
+        "type": "video",
+        "colors": {
+          "specular": [0, 0, 0]
+        },
+        "values": {
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/vision-pro-center.mp4"
+        }
+      },
+      "position": [-21.78, 13.96, 17.85],
+      "rotation": [0, 133.74, 0],
+      "scaling": [1, 1, 1]
+    },
+    "screen-2": {
+      "id": "screen-2",
+      "type": "plane",
+      "values": {
+        "width": 22,
+        "height": 18
+      },
+      "material": {
+        "type": "video",
+        "colors": {
+          "specular": [0, 0, 0]
+        },
+        "values": {
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/vision-pro-center.mp4"
+        }
+      },
+      "position": [2.02, 14.83, 28.54],
+      "rotation": [0, 2.6, 0],
+      "scaling": [1, 1, 1]
+    },
+    "screen-3": {
+      "id": "screen-3",
+      "type": "plane",
+      "values": {
+        "width": 22,
+        "height": 18
+      },
+      "material": {
+        "type": "video",
+        "colors": {
+          "specular": [0, 0, 0]
+        },
+        "values": {
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/vision-pro-center.mp4"
+        }
+      },
+      "position": [26.55, 14.01, 17.91],
+      "rotation": [0, 45.01, 0],
+      "scaling": [1, 1, 1]
+    },
+    "box-floor": {
+      "id": "box-floor",
+      "type": "box",
+      "position": [0.03, 0, 0.01],
+      "material": {
+        "type": "color",
+        "colors": {
+          "diffuse": [0.65, 0.45, 0.13],
+          "specular": [0, 0, 0],
+          "emissive": [1, 1, 1]
+        },
+        "id": "box-39a6-material"
+      },
+      "values": {
+        "width": 40,
+        "height": 0.5,
+        "depth": 40,
+        "sideOrientation": 0
+      },
+      "projectTag": "project-juno",
+      "rotation": [0, 45, 0],
+      "scaling": [1, 1, 1]
+    },
+    "box-seat": {
+      "id": "box-seat",
+      "type": "box",
+      "position": [0, 3, 0],
+      "material": {
+        "id": "box-seat-material",
+        "type": "PBR",
+        "values": {
+          "indexOfRefraction": 0.52,
+          "alpha": 0.5,
+          "directIntensity": 0,
+          "environmentIntensity": 1,
+          "cameraExposure": 0.66,
+          "cameraContrast": 1.66,
+          "microSurface": 1,
+          "reflectivityColor": [0.5, 0.5, 0.5],
+          "albedoColor": [0.95, 0.95, 0.95],
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/hdr/room.hdr"
+        }
+      },
+      "values": {
+        "width": 5,
+        "height": 5,
+        "depth": 5,
+        "sideOrientation": 0
+      },
+      "projectTag": "project-juno",
+      "rotation": [0, 0, 0],
+      "scaling": [1, 1, 1]
+    }
+  },
+  "sceneExternals": {},
   "sceneCharacters": {
     "man": {
       "id": "man",
       "meshNames": "",
-      "rootUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/",
-      "fileName": "main-1.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/main-big.glb",
       "animations": [],
       "meshId": "Ch36",
       "rootId": "__root__",
-      "position": [10, -1.3, -0.5],
-      "rotation": [0, 1.6, 0],
+      "position": [0, 0, 0],
+      "rotation": [0, 0, 0],
       "layerMask": 1,
       "cornerFocus": "left",
       "mouthDecal": {
@@ -426,95 +423,74 @@
       }
     }
   },
-  "sceneMeshes": {
-    "screen-1": {
-      "id": "screen-1",
-      "type": "plane",
-      "values": {
-        "width": 22,
-        "height": 18
-      },
-      "material": {
-        "type": "video",
-        "colors": {
-          "specular": [0, 0, 0]
-        },
-        "values": {
-          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/snow.mp4"
-        }
-      },
-      "position": [100, 4.5, -30],
-      "rotation": [0, -55, 0],
-      "projectTag": "project-tutorial"
+  "sceneAudios": {
+    "voice-juno-01": {
+      "duration": 0,
+      "fileName": "juno-01.mp3",
+      "id": "voice-juno-01",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-01.mp3",
+      "timestamp": 0.5,
+      "projectTag": "project-tutorial",
+      "balance": 0.3
     },
-    "screen-2": {
-      "id": "screen-2",
-      "type": "plane",
-      "values": {
-        "width": 22,
-        "height": 18
-      },
-      "material": {
-        "type": "video",
-        "colors": {
-          "specular": [0, 0, 0]
-        },
-        "values": {
-          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/snow.mp4"
-        }
-      },
-      "position": [100, 4.5, -5],
-      "rotation": [0, 90, 0],
-      "projectTag": "project-tutorial"
+    "voice-juno-02": {
+      "duration": 0,
+      "fileName": "juno-02.mp3",
+      "id": "voice-juno-02",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-02.mp3",
+      "timestamp": 10.5,
+      "projectTag": "project-tutorial",
+      "balance": 0.3
     },
-    "screen-3": {
-      "id": "screen-3",
-      "type": "plane",
-      "values": {
-        "width": 22,
-        "height": 18
-      },
-      "material": {
-        "type": "video",
-        "colors": {
-          "specular": [0, 0, 0]
-        },
-        "values": {
-          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/snow.mp4"
-        }
-      },
-      "position": [100, 4.5, 20],
-      "rotation": [0, 55, 0],
-      "projectTag": "project-tutorial"
+    "voice-juno-03": {
+      "duration": 0,
+      "fileName": "juno-03.mp3",
+      "id": "voice-juno-03",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-03.mp3",
+      "timestamp": 18.5,
+      "projectTag": "project-tutorial",
+      "balance": 0.3
     },
-    "g1": {
-      "material": {
-        "alpha": 0.5,
-        "values": {
-          "mainColor": [0, 0.3, 0],
-          "gridRatio": 0.5,
-          "majorUnitFrequency": 2,
-          "lineColor": [0.8, 1, 0.8]
-        },
-        "id": "g1-material",
-        "type": "grid",
-        "colors": {}
-      },
-      "values": {
-        "minHeight": 0,
-        "heightMap": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/heightMap-blank.png",
-        "maxHeight": 0,
-        "width": 20,
-        "height": 20,
-        "subdivisions": 100
-      },
-      "id": "g1",
-      "position": [30, -3, -1],
-      "rotation": [0, 45, 0],
-      "type": "topography",
-      "enabled": true
+    "voice-juno-04": {
+      "duration": 0,
+      "fileName": "juno-04.mp3",
+      "id": "voice-juno-04",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-04.mp3",
+      "timestamp": 21.5,
+      "projectTag": "project-tutorial",
+      "balance": 0.3
+    },
+    "voice-juno-05": {
+      "duration": 0,
+      "fileName": "juno-05.mp3",
+      "id": "voice-juno-05",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-05.mp3",
+      "timestamp": 27.5,
+      "projectTag": "project-tutorial",
+      "balance": 0.3
+    },
+    "voice-juno-06": {
+      "duration": 0,
+      "fileName": "juno-06.mp3",
+      "id": "voice-juno-06",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-06.mp3",
+      "timestamp": 34,
+      "projectTag": "project-tutorial",
+      "balance": 0.3
+    },
+    "audio-main": {
+      "duration": 0,
+      "fileName": "rain-long.mp3",
+      "isMain": true,
+      "id": "audio-main",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/light-funk.mp3",
+      "timestamp": 0,
+      "projectTag": "project-tutorial",
+      "balance": 0.3,
+      "volume": 0.3
     }
   },
+  "sceneEffects": {},
   "sceneVASPs": {},
   "transcriptLines": {
     "1": {

@@ -49,7 +49,9 @@
   },
   "apis": {},
   "defaults": {
-    "previewPath": "/static/fourth-wall.json"
+    "previewPath": "/static/fourth-wall.json",
+    "dbPath": "/static/fourth-wall.json",
+    "dbTag": "fourth-wall"
   },
   "flowUrl": "/B-010/B-010.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",

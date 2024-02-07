@@ -1,0 +1,129 @@
+{
+  "id": "B-022",
+  "identifier": "com.usegdi.debater-workshop",
+  "version": "0.1.0",
+  "url": "/boards/B-022",
+  "boardInfo": {
+    "name": "Debater's Workshop",
+    "index": 1,
+    "imageUrl": "/images/critical-thinking.jpg",
+    "videoUrl": "https://www.youtube.com/embed/jkl012",
+    "boardType": "adhoc",
+    "description": "Develop your critical thinking skills with education centered on logical fallacies, rhetoric, and information analysis. Learn through practical examples and diverse methods that empower you to recognize, evaluate, and respond to different forms of reasoning and argumentation in an informed and analytical manner.",
+    "descriptionLong": "The Debate's Workshop board is your gateway to mastering logical fallacies, rhetoric, and information analysis. Explore diverse methods and real-world examples to sharpen your skills in identifying faulty reasoning, analyzing rhetoric, and critically evaluating information. Gain the expertise to engage in informed, thoughtful, and analytical discourse.",
+    "oneLiner": "Empower critical thinking through practical education and real-world examples.",
+    "oneLinerShort": "Empower critical thinking through practical education.",
+    "header": "education on logical fallacies, rhetoric, and information analysis",
+    "logoColor": "#8A2BE2",
+    "fields": [
+      {
+        "label": "skills",
+        "content": "Logical Fallacies, Rhetoric, Information Analysis"
+      },
+      {
+        "label": "methods",
+        "content": "Practical Examples, Learning by Example, Diverse Methods"
+      },
+      {
+        "label": "focus",
+        "content": "Critical Thinking, Analytical Discourse"
+      }
+    ],
+    "tags": [
+      "critical-thinking",
+      "logical-fallacies",
+      "rhetoric",
+      "information-analysis",
+      "education",
+      "real-world-examples"
+    ],
+    "order": 1,
+    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
+    "tsVersion": "2024-03-01 14:00:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {
+    "previewPath": "/static/critical-thinking-education.json"
+  },
+  "flowUrl": "/B-022/B-022.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-022",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.fourth-wall",
+        "title": "Fourth wall",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-015",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "B-015",
+        "flags": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.fourth-wall",
+        "title": "Fourth wall",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-015",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      }
+    }
+  }
+}
