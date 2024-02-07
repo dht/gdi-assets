@@ -102,7 +102,7 @@
       "id": "b01",
       "type": "basic",
       "timestamp": 0,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     },
     "b02": {
       "cameraId": "free",
@@ -120,7 +120,7 @@
       "id": "b02",
       "type": "basic",
       "timestamp": 2,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     },
     "b03": {
       "cameraId": "free",
@@ -138,7 +138,7 @@
       "id": "b03",
       "type": "basic",
       "timestamp": 6,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     },
     "b04": {
       "cameraId": "free",
@@ -156,7 +156,7 @@
       "id": "b04",
       "type": "basic",
       "timestamp": 9,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     },
     "b05": {
       "cameraId": "free",
@@ -174,7 +174,7 @@
       "id": "b05",
       "type": "basic",
       "timestamp": 13.5,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     },
     "b06": {
       "cameraId": "free",
@@ -192,7 +192,7 @@
       "id": "b06",
       "type": "basic",
       "timestamp": 16.5,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     },
     "b07": {
       "cameraId": "free",
@@ -210,7 +210,7 @@
       "id": "b07",
       "type": "basic",
       "timestamp": 19,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     },
     "b08": {
       "cameraId": "free",
@@ -228,7 +228,7 @@
       "id": "b08",
       "type": "basic",
       "timestamp": 25,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     },
     "b09": {
       "cameraId": "free",
@@ -246,7 +246,7 @@
       "id": "b09",
       "type": "basic",
       "timestamp": 27,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     },
     "b10": {
       "cameraId": "free",
@@ -262,7 +262,7 @@
       "id": "b10",
       "type": "basic",
       "timestamp": 30,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     },
     "b11": {
       "cameraId": "free",
@@ -279,7 +279,7 @@
       "id": "b11",
       "type": "basic",
       "timestamp": 33,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     }
   },
   "scenePacks": {},
@@ -292,7 +292,7 @@
       "id": "voice-fred-01",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-01.mp3",
       "timestamp": 2,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-fourth-wall",
       "balance": 0.3
     },
     "voice-mary-01": {
@@ -301,7 +301,7 @@
       "id": "voice-mary-01",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-01.mp3",
       "timestamp": 6,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-fourth-wall",
       "balance": 0.7
     },
     "voice-fred-02": {
@@ -310,7 +310,7 @@
       "id": "voice-fred-02",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-02.mp3",
       "timestamp": 9,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-fourth-wall",
       "balance": 0.3
     },
     "voice-mary-02": {
@@ -319,7 +319,7 @@
       "id": "voice-mary-02",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-02.mp3",
       "timestamp": 13.5,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-fourth-wall",
       "balance": 0.7
     },
     "voice-fred-03": {
@@ -328,7 +328,7 @@
       "id": "voice-fred-03",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-03.mp3",
       "timestamp": 16.5,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-fourth-wall",
       "balance": 0.3
     },
     "voice-mary-03": {
@@ -337,7 +337,7 @@
       "id": "voice-mary-03",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-03.mp3",
       "timestamp": 21,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-fourth-wall",
       "balance": 0.7
     },
     "voice-fred-04": {
@@ -346,7 +346,7 @@
       "id": "voice-fred-04",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-04.mp3",
       "timestamp": 27,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-fourth-wall",
       "balance": 0.3
     },
     "voice-mary-04": {
@@ -355,7 +355,7 @@
       "id": "voice-mary-04",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-04.mp3",
       "timestamp": 30,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-fourth-wall",
       "balance": 0.7
     },
     "voice-fred-05": {
@@ -364,7 +364,7 @@
       "id": "voice-fred-05",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-05.mp3",
       "timestamp": 33,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-fourth-wall",
       "balance": 0.3
     },
     "voice-mary-05": {
@@ -373,7 +373,7 @@
       "id": "voice-mary-05",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-05.mp3",
       "timestamp": 36,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-fourth-wall",
       "balance": 0.7
     },
     "audio-main": {
@@ -383,7 +383,7 @@
       "id": "audio-main",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/rain-long.mp3",
       "timestamp": 0,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-fourth-wall",
       "balance": 0.3,
       "volume": 0.3
     }
@@ -401,6 +401,7 @@
       "rotation": [0, -0.785, 0],
       "layerMask": 1,
       "cornerFocus": "left",
+      "projectTag": "project-fourth-wall",
       "mouthDecal": {
         "id": "mouth-man",
         "position": [9.835, -0.2, -0.39],
@@ -439,6 +440,7 @@
       "rotation": [0, 3.1415, 0],
       "layerMask": 1,
       "cornerFocus": "right",
+      "projectTag": "project-fourth-wall",
       "mouthDecal": {
         "id": "mouth-woman",
         "position": [10.02, -0.63, 1.44],
@@ -469,24 +471,6 @@
   },
 
   "sceneMeshes": {
-    "box": {
-      "id": "box",
-      "type": "box",
-      "position": [100, 4.5, -15],
-      "rotation": [0, -55, 0],
-      "values": {
-        "width": 13,
-        "height": 18,
-        "depth": 13
-      },
-      "material": {
-        "type": "standard",
-        "colors": {
-          "diffuse": [0.5, 0.5, 0.5],
-          "specular": [0.5, 0.5, 0.5]
-        }
-      }
-    },
     "weather": {
       "id": "weather",
       "type": "plane",
@@ -505,7 +489,7 @@
       },
       "position": [100, 4.5, -15],
       "rotation": [0, -55, 0],
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     }
   },
   "sceneVASPs": {
@@ -523,7 +507,7 @@
       "position": [5.1, -0.5, 0.05],
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/smoke.png",
       "index": 0,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     },
     "tea2": {
       "id": "tea2",
@@ -539,7 +523,7 @@
       "position": [5.1, -0.6, 0.38],
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/smoke.png",
       "index": 0,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     },
     "pot": {
       "id": "pot",
@@ -555,7 +539,7 @@
       "position": [5.1, -0.02, 1],
       "identifier": "pot-2",
       "index": 1,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-fourth-wall"
     }
   },
   "transcriptLines": {
