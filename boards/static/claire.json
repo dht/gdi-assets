@@ -1,0 +1,545 @@
+{
+  "assets": {},
+  "sceneConfig": {
+    "totalDuration": 44,
+    "backgroundColor": [0, 0, 0, 0],
+    "sun": {},
+    "cameras": {
+      "free": {}
+    },
+    "isCharacterScene": true,
+    "activeCameras": ["free", "cornerCam1", "cornerCam2"]
+  },
+  "sceneBits": {
+    "b01": {
+      "cameraId": "arc",
+      "elements": {
+        "Ch36": true,
+        "__root__": true,
+        "Vision_pro_primitive0": true,
+        "Vision_pro_primitive1": true,
+        "Vision_pro_primitive2": true,
+        "Vision_pro_primitive3": true,
+        "weather": true
+      },
+      "name": "Prelude",
+      "index": 1,
+      "id": "b01",
+      "type": "basic",
+      "timestamp": 0
+    },
+    "b02": {
+      "cameraId": "arc",
+      "elements": {
+        "Ch36": true,
+        "__root__": true,
+        "Vision_pro_primitive0": true,
+        "Vision_pro_primitive1": true,
+        "Vision_pro_primitive2": true,
+        "Vision_pro_primitive3": true,
+        "weather": true
+      },
+      "name": "Click here",
+      "index": 1,
+      "id": "b02",
+      "type": "basic",
+      "timestamp": 2
+    },
+    "b03": {
+      "cameraId": "arc",
+      "elements": {
+        "Ch36": true,
+        "__root__": true,
+        "Vision_pro_primitive0": true,
+        "Vision_pro_primitive1": true,
+        "Vision_pro_primitive2": true,
+        "Vision_pro_primitive3": true,
+        "weather": true
+      },
+      "name": "Buffoon",
+      "index": 2,
+      "id": "b03",
+      "type": "basic",
+      "timestamp": 6
+    },
+    "b04": {
+      "cameraId": "arc",
+      "elements": {
+        "Ch36": true,
+        "__root__": true,
+        "Vision_pro_primitive0": true,
+        "Vision_pro_primitive1": true,
+        "Vision_pro_primitive2": true,
+        "Vision_pro_primitive3": true,
+        "weather": true
+      },
+      "name": "Proud buffoon",
+      "index": 3,
+      "id": "b04",
+      "type": "basic",
+      "timestamp": 9
+    },
+    "b05": {
+      "cameraId": "arc",
+      "elements": {
+        "Ch36": true,
+        "__root__": true,
+        "Vision_pro_primitive0": true,
+        "Vision_pro_primitive1": true,
+        "Vision_pro_primitive2": true,
+        "Vision_pro_primitive3": true,
+        "weather": true
+      },
+      "name": "Clueless",
+      "index": 4,
+      "id": "b05",
+      "type": "basic",
+      "timestamp": 13.5
+    },
+    "b06": {
+      "cameraId": "arc",
+      "elements": {
+        "Ch36": true,
+        "__root__": true,
+        "Vision_pro_primitive0": true,
+        "Vision_pro_primitive1": true,
+        "Vision_pro_primitive2": true,
+        "Vision_pro_primitive3": true,
+        "weather": true
+      },
+      "name": "Getting used to it",
+      "index": 5,
+      "id": "b06",
+      "type": "basic",
+      "timestamp": 16.5
+    },
+    "b07": {
+      "cameraId": "arc",
+      "elements": {
+        "Ch36": true,
+        "__root__": true,
+        "Vision_pro_primitive0": true,
+        "Vision_pro_primitive1": true,
+        "Vision_pro_primitive2": true,
+        "Vision_pro_primitive3": true,
+        "weather": true
+      },
+      "name": "Pricey",
+      "index": 6,
+      "id": "b07",
+      "type": "basic",
+      "timestamp": 19
+    },
+    "b08": {
+      "cameraId": "arc",
+      "elements": {
+        "Ch36": true,
+        "__root__": true,
+        "Vision_pro_primitive0": true,
+        "Vision_pro_primitive1": true,
+        "Vision_pro_primitive2": true,
+        "Vision_pro_primitive3": true,
+        "weather": true
+      },
+      "name": "Investment",
+      "index": 7,
+      "id": "b08",
+      "type": "basic",
+      "timestamp": 25
+    },
+    "b09": {
+      "cameraId": "arc",
+      "elements": {
+        "Ch36": true,
+        "__root__": true,
+        "Vision_pro_primitive0": true,
+        "Vision_pro_primitive1": true,
+        "Vision_pro_primitive2": true,
+        "Vision_pro_primitive3": true,
+        "weather": true
+      },
+      "name": "Young people",
+      "index": 8,
+      "id": "b09",
+      "type": "basic",
+      "timestamp": 27
+    },
+    "b10": {
+      "cameraId": "arc",
+      "elements": {
+        "__root__": true,
+        "Vision_pro_primitive0": true,
+        "Vision_pro_primitive1": true,
+        "Vision_pro_primitive2": true,
+        "Vision_pro_primitive3": true,
+        "Ch36": true
+      },
+      "name": "Living the future",
+      "id": "b10",
+      "type": "basic",
+      "timestamp": 30
+    },
+    "b11": {
+      "cameraId": "arc",
+      "elements": {
+        "Ch36": true,
+        "__root__": true,
+        "Vision_pro_primitive0": true,
+        "Vision_pro_primitive1": true,
+        "Vision_pro_primitive2": true,
+        "Vision_pro_primitive3": true,
+        "weather": true
+      },
+      "name": "Ground controller",
+      "id": "b11",
+      "type": "basic",
+      "timestamp": 33
+    }
+  },
+  "sceneStage": {},
+  "scenePacks": {},
+  "sceneDots": {},
+  "sceneCameras": {
+    "cornerCam1": {
+      "id": "cornerCam1",
+      "type": "arc",
+      "values": {
+        "alpha": 0,
+        "beta": 88,
+        "radius": 1,
+        "fov": 0.05,
+        "layerMask": 2,
+        "viewport": [0, 0.01, 0.25, 0.25]
+      },
+      "isSticky": true
+    }
+  },
+  "sceneLights": {
+    "d1": {
+      "id": "d1",
+      "type": "directional",
+      "position": [0, 0, 0],
+      "target": [1, 0, -1],
+      "colors": {
+        "diffuse": [1, 0.7, 0.6],
+        "specular": [0, 0, 0]
+      },
+      "values": {
+        "intensity": 0.5
+      },
+      "isSticky": true
+    },
+    "d2": {
+      "id": "d2",
+      "type": "directional",
+      "target": [-1, 0, 0],
+      "colors": {
+        "diffuse": [1, 0.7, 0.8],
+        "specular": [1, 0, 0]
+      },
+      "values": {
+        "intensity": 0.8
+      },
+      "isSticky": true
+    },
+    "point": {
+      "id": "point",
+      "type": "point",
+      "position": [0, 1, 0],
+      "colors": {
+        "diffuse": [1, 1, 1],
+        "specular": [0, 0, 0]
+      },
+      "values": {
+        "intensity": 2
+      },
+      "isSticky": true
+    }
+  },
+  "sceneMeshes": {
+    "screen-1": {
+      "id": "screen-1",
+      "type": "plane",
+      "values": {
+        "width": 22,
+        "height": 18
+      },
+      "material": {
+        "type": "video",
+        "colors": {
+          "specular": [0, 0, 0]
+        },
+        "values": {
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/vision-pro-right.mp4"
+        }
+      },
+      "position": [-20.77, 16.96, 20.61],
+      "rotation": [0, 313.74, 0],
+      "scaling": [1, 1, 1]
+    },
+    "screen-2": {
+      "id": "screen-2",
+      "type": "plane",
+      "values": {
+        "width": 30,
+        "height": 25
+      },
+      "material": {
+        "type": "video",
+        "colors": {
+          "specular": [1, 1, 1]
+        },
+        "values": {
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/vision-pro-center.mp4"
+        }
+      },
+      "position": [2.02, 16.83, 28.54],
+      "rotation": [0, 182.6, 0],
+      "scaling": [1, 1, 1]
+    },
+    "screen-3": {
+      "id": "screen-3",
+      "type": "plane",
+      "values": {
+        "width": 27,
+        "height": 18
+      },
+      "material": {
+        "type": "video",
+        "colors": {
+          "specular": [0, 0, 0]
+        },
+        "values": {
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/vision-pro-left.mp4"
+        }
+      },
+      "position": [26.55, 16.01, 17.91],
+      "rotation": [0, 225.01, 0],
+      "scaling": [1, 1, 1]
+    },
+    "box-seat": {
+      "id": "box-seat",
+      "type": "box",
+      "position": [0, 3, 0],
+      "material": {
+        "id": "box-seat-material",
+        "type": "PBR",
+        "values": {
+          "indexOfRefraction": 0.52,
+          "alpha": 0.5,
+          "directIntensity": 0,
+          "environmentIntensity": 1,
+          "cameraExposure": 0.66,
+          "cameraContrast": 1.66,
+          "microSurface": 1,
+          "reflectivityColor": [0.5, 0.5, 0.5],
+          "albedoColor": [0.95, 0.95, 0.95],
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/hdr/forest.hdr"
+        }
+      },
+      "values": {
+        "width": 5,
+        "height": 5,
+        "depth": 5,
+        "sideOrientation": 0
+      },
+      "rotation": [0, 0, 0],
+      "scaling": [1, 1, 1]
+    }
+  },
+  "sceneExternals": {},
+  "sceneCharacters": {
+    "man": {
+      "id": "man",
+      "meshNames": "",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/main-big.glb",
+      "animations": [],
+      "meshId": "Ch36",
+      "rootId": "__root__",
+      "position": [0, 0, 0],
+      "rotation": [0, 0, 0],
+      "layerMask": 1,
+      "cornerFocus": "left",
+      "mouthDecal": {
+        "id": "mouth-man",
+        "position": [9.835, -0.2, -0.39],
+        "scaling": [0.0625, 0.0625, 0.25],
+        "values": {
+          "normal": [-57.21, 0.75, 2.99],
+          "destinationMeshId": "Ch36",
+          "cullBackFaces": true,
+          "localMode": true,
+          "angle": 0
+        }
+      },
+      "mouthShapeUrls": {
+        "aei": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_aei.png",
+        "bmp": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_bmp.png",
+        "cdgknstxyz": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_cdgknstxyz.png",
+        "chshj": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_chshj.png",
+        "Ee": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_Ee.png",
+        "fv": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_fv.png",
+        "l": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_l.png",
+        "o": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_o.png",
+        "qw": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_qw.png",
+        "r": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_r.png",
+        "th": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_th.png",
+        "u": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_u.png"
+      }
+    }
+  },
+  "sceneAudios": {
+    "voice-juno-01": {
+      "duration": 0,
+      "fileName": "juno-01.mp3",
+      "id": "voice-juno-01",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-01.mp3",
+      "timestamp": 0.5,
+      "balance": 0.3
+    },
+    "voice-juno-02": {
+      "duration": 0,
+      "fileName": "juno-02.mp3",
+      "id": "voice-juno-02",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-02.mp3",
+      "timestamp": 10.5,
+      "balance": 0.3
+    },
+    "voice-juno-03": {
+      "duration": 0,
+      "fileName": "juno-03.mp3",
+      "id": "voice-juno-03",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-03.mp3",
+      "timestamp": 18.5,
+      "balance": 0.3
+    },
+    "voice-juno-04": {
+      "duration": 0,
+      "fileName": "juno-04.mp3",
+      "id": "voice-juno-04",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-04.mp3",
+      "timestamp": 21.5,
+      "balance": 0.3
+    },
+    "voice-juno-05": {
+      "duration": 0,
+      "fileName": "juno-05.mp3",
+      "id": "voice-juno-05",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-05.mp3",
+      "timestamp": 27.5,
+      "balance": 0.3
+    },
+    "voice-juno-06": {
+      "duration": 0,
+      "fileName": "juno-06.mp3",
+      "id": "voice-juno-06",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-06.mp3",
+      "timestamp": 34,
+      "balance": 0.3
+    },
+    "audio-main": {
+      "duration": 0,
+      "fileName": "rain-long.mp3",
+      "isMain": true,
+      "id": "audio-main",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/light-funk.mp3",
+      "timestamp": 0,
+      "balance": 0.3,
+      "volume": 0.3
+    }
+  },
+  "sceneEffects": {},
+  "sceneVASPs": {},
+  "transcriptLines": {
+    "1": {
+      "id": "1",
+      "index": 1,
+      "speakerName": "Fred",
+      "text": "and now I'll just click over here...",
+      "textPhonetics": "ænd naʊ aɪl dʒʌst klɪk ˈoʊvər hɪər...",
+      "timestamp": 2,
+      "duration": 3030
+    },
+    "2": {
+      "id": "2",
+      "index": 2,
+      "speakerName": "Mary",
+      "text": "You look like a complete buffoon",
+      "textPhonetics": "ju lʊk laɪk ə kəmˈpliːt bəˈfuːn",
+      "timestamp": 6,
+      "duration": 2377
+    },
+    "3": {
+      "id": "3",
+      "index": 3,
+      "speakerName": "Fred",
+      "text": "This buffoon has a brand new VR headset!",
+      "textPhonetics": "ðɪs bəˈfuːn hæz ə brænd njuː VR ˈhɛdsɛt!",
+      "timestamp": 9,
+      "duration": 2298
+    },
+    "4": {
+      "id": "4",
+      "index": 4,
+      "speakerName": "Mary",
+      "text": "You don't know what you're doing, do you?",
+      "textPhonetics": "ju doʊnt noʊ wɑt jʊər ˈduːɪŋ, du ju?",
+      "timestamp": 13.5,
+      "duration": 2115
+    },
+    "5": {
+      "id": "5",
+      "index": 5,
+      "speakerName": "Fred",
+      "text": "It just takes a little bit of getting used to",
+      "textPhonetics": "ɪt dʒʌst teɪks ə ˈlɪtl bɪt əv ˈgɛtɪŋ juzd tu",
+      "timestamp": 16.5,
+      "duration": 2194
+    },
+    "6": {
+      "id": "6",
+      "index": 6,
+      "speakerName": "Mary",
+      "text": "Why on earth would you spend a fortune on this mask if you don't know how to use it?",
+      "textPhonetics": "waɪ ɒn ɜrθ wʊd ju spɛnd ə ˈfɔrʧʊn ɒn ðɪs mæsk ɪf ju doʊnt noʊ haʊ tu juz ɪt?",
+      "timestamp": 21,
+      "duration": 4780
+    },
+    "7": {
+      "id": "7",
+      "index": 7,
+      "speakerName": "Fred",
+      "text": "It's an investment love",
+      "textPhonetics": "ɪts ən ˈɪnvɛstmənt lʌv",
+      "timestamp": 27,
+      "duration": 1280
+    },
+    "8": {
+      "id": "8",
+      "index": 8,
+      "speakerName": "Mary",
+      "text": "This is for young people Fred",
+      "textPhonetics": "ðɪs ɪz fɔr jʌŋ ˈpiːpl frɛd",
+      "timestamp": 30,
+      "duration": 2507
+    },
+    "9": {
+      "id": "9",
+      "index": 9,
+      "speakerName": "Fred",
+      "text": "I am living the future!",
+      "textPhonetics": "aɪ æm ˈlɪvɪŋ ðə ˈfjuːtʃər!",
+      "timestamp": 33,
+      "duration": 1671
+    },
+    "10": {
+      "id": "10",
+      "index": 10,
+      "speakerName": "Mary",
+      "text": "You look like a ground controller in distress",
+      "textPhonetics": "ju lʊk laɪk ə graʊnd kənˈtroʊlər ɪn dɪˈstrɛs",
+      "timestamp": 36,
+      "duration": 2899
+    }
+  }
+}

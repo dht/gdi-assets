@@ -973,8 +973,10 @@
     },
     "apis": {},
     "defaults": {
-      "previewPath": ""
+      "exampleId": "claire",
+      "setupId": "claire"
     },
+    "examplesUrl": "/B-015/B-015.examples.json",
     "flowUrl": "/B-015/B-015.flow.json",
     "isActive": true,
     "isWip": true,
