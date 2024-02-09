@@ -49,10 +49,9 @@
   },
   "apis": {},
   "defaults": {
-    "previewPath": "/static/fourth-wall.json",
-    "dbPath": "/static/fourth-wall.json",
-    "dbTag": "fourth-wall"
+    "exampleId": "vision-couple"
   },
+  "examplesUrl": "/B-010/B-010.examples.json",
   "flowUrl": "/B-010/B-010.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",

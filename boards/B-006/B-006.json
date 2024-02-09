@@ -42,9 +42,7 @@
   "apis": {
     "turbo-3.5": "OpenAI"
   },
-  "defaults": {
-    "previewPath": ""
-  },
+  "defaults": {},
   "flowUrl": "/B-006/B-006.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-006",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",

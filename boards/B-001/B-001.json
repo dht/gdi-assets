@@ -51,8 +51,9 @@
   },
   "apis": {},
   "defaults": {
-    "previewPath": "/static/modelz.json"
+    "exampleId": "modelz"
   },
+  "examplesUrl": "/B-001/B-001.examples.json",
   "flowUrl": "/B-001/B-001.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-001",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",

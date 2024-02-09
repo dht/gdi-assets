@@ -48,9 +48,7 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {
-    "previewPath": ""
-  },
+  "defaults": {},
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",

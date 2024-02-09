@@ -41,9 +41,7 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {
-    "previewPath": ""
-  },
+  "defaults": {},
   "flowUrl": "/B-017/B-017.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-017",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",

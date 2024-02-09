@@ -54,8 +54,9 @@
     },
     "apis": {},
     "defaults": {
-      "previewPath": "/static/modelz.json"
+      "exampleId": "modelz"
     },
+    "examplesUrl": "/B-001/B-001.examples.json",
     "flowUrl": "/B-001/B-001.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-001",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -141,9 +142,7 @@
     "apis": {
       "turbo-3.5": "OpenAI"
     },
-    "defaults": {
-      "previewPath": ""
-    },
+    "defaults": {},
     "flowUrl": "/B-002/B-002.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-002",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -204,7 +203,7 @@
         "editor_choice",
         "designers"
       ],
-      "order": 3,
+      "order": 2,
       "supportedResolutions": [
         "1920x1080",
         "1366x768",
@@ -221,9 +220,7 @@
     "apis": {
       "dall-e-3": "OpenAI"
     },
-    "defaults": {
-      "previewPath": ""
-    },
+    "defaults": {},
     "flowUrl": "/B-003/B-003.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-003",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -285,7 +282,7 @@
         "virtual",
         "interactive"
       ],
-      "order": 4,
+      "order": 2,
       "supportedResolutions": [
         "1920x1080",
         "1280x720"
@@ -305,10 +302,9 @@
       "eleven_turbo_v2": "ElevenLabs"
     },
     "defaults": {
-      "previewPath": "/static/park-expanse.json",
-      "dbPath": "/static/park-expanse.json",
-      "dbTag": "park"
+      "exampleId": "expanse"
     },
+    "examplesUrl": "/B-004/B-004.examples.json",
     "flowUrl": "/B-004/B-004.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-004",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -373,7 +369,7 @@
         }
       ],
       "tags": [],
-      "order": 5,
+      "order": 2,
       "supportedResolutions": [
         "1920x1080",
         "1366x768",
@@ -390,9 +386,7 @@
     "apis": {
       "turbo-3.5": "OpenAI"
     },
-    "defaults": {
-      "previewPath": ""
-    },
+    "defaults": {},
     "flowUrl": "/B-005/B-005.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-005",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -452,7 +446,7 @@
         "creativity",
         "young_artists"
       ],
-      "order": 6,
+      "order": 2,
       "supportedResolutions": [
         "1920x1080",
         "1366x768",
@@ -469,9 +463,7 @@
     "apis": {
       "turbo-3.5": "OpenAI"
     },
-    "defaults": {
-      "previewPath": ""
-    },
+    "defaults": {},
     "flowUrl": "/B-006/B-006.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-006",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -516,7 +508,7 @@
         "audio",
         "creation"
       ],
-      "order": 7,
+      "order": 9,
       "supportedResolutions": [
         "1920x1080",
         "1366x768"
@@ -525,16 +517,16 @@
     },
     "author": "gdi",
     "dependencies": {
-      "@gdi/widgets-starter": "0.6.3"
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
     },
     "apis": {
       "tts-1": "OpenAI",
       "eleven_multilingual_v2": "ElevenLabs",
       "eleven_turbo_v2": "ElevenLabs"
     },
-    "defaults": {
-      "previewPath": ""
-    },
+    "defaults": {},
     "flowUrl": "/B-007/B-007.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-007",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -594,9 +586,7 @@
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-008",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "apis": {},
-    "defaults": {
-      "previewPath": ""
-    },
+    "defaults": {},
     "flowUrl": "",
     "isActive": true,
     "mobile": {
@@ -656,9 +646,7 @@
       "@gdi/widgets-starter": "^1.0.0"
     },
     "apis": {},
-    "defaults": {
-      "previewPath": ""
-    },
+    "defaults": {},
     "flowUrl": "/B-009/B-009.flow.json",
     "isActive": true,
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-009",
@@ -733,10 +721,9 @@
     },
     "apis": {},
     "defaults": {
-      "previewPath": "/static/fourth-wall.json",
-      "dbPath": "/static/fourth-wall.json",
-      "dbTag": "fourth-wall"
+      "exampleId": "vision-couple"
     },
+    "examplesUrl": "/B-010/B-010.examples.json",
     "flowUrl": "/B-010/B-010.flow.json",
     "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -789,9 +776,10 @@
       "@gdi/widgets-starter": "^1.0.0"
     },
     "flowUrl": "/B-011/B-011.flow.json",
+    "examplesUrl": "/B-011/B-011.examples.json",
     "apis": {},
     "defaults": {
-      "previewPath": ""
+      "exampleId": "vision-pro"
     },
     "isWip": true,
     "isActive": true,
@@ -839,9 +827,7 @@
     },
     "flowUrl": "/B-012/B-012.flow.json",
     "apis": {},
-    "defaults": {
-      "previewPath": ""
-    },
+    "defaults": {},
     "isActive": true,
     "isWip": true,
     "reviewInfo": {
@@ -888,9 +874,7 @@
     },
     "flowUrl": "/B-013/B-013.flow.json",
     "apis": {},
-    "defaults": {
-      "previewPath": ""
-    },
+    "defaults": {},
     "isActive": true,
     "isWip": true,
     "reviewInfo": {
@@ -938,9 +922,7 @@
     },
     "flowUrl": "/B-014/B-014.flow.json",
     "apis": {},
-    "defaults": {
-      "previewPath": ""
-    },
+    "defaults": {},
     "isActive": true,
     "isWip": true,
     "reviewInfo": {

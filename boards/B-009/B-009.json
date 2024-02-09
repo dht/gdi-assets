@@ -27,9 +27,7 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {
-    "previewPath": ""
-  },
+  "defaults": {},
   "flowUrl": "/B-009/B-009.flow.json",
   "isActive": true,
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-009",

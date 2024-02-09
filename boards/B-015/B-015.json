@@ -26,9 +26,7 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {
-    "previewPath": ""
-  },
+  "defaults": {},
   "flowUrl": "/B-015/B-015.flow.json",
   "isActive": true,
   "isWip": true,

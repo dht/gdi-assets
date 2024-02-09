@@ -85,9 +85,7 @@
       }
     }
   },
-  "defaults": {
-    "previewPath": ""
-  },
+  "defaults": {},
   "flowUrl": "",
   "isActive": true,
   "mobile": {

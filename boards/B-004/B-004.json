@@ -55,10 +55,9 @@
     "eleven_turbo_v2": "ElevenLabs"
   },
   "defaults": {
-    "previewPath": "/static/park-expanse.json",
-    "dbPath": "/static/park-expanse.json",
-    "dbTag": "park"
+    "exampleId": "expanse"
   },
+  "examplesUrl": "/B-004/B-004.examples.json",
   "flowUrl": "/B-004/B-004.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-004",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",

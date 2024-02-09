@@ -1,4 +1,5 @@
 {
+  "_projectTag": "project-vision-pro",
   "assets": {},
   "sceneConfig": {
     "totalDuration": 44,
@@ -27,7 +28,7 @@
       "id": "b01",
       "type": "basic",
       "timestamp": 0,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-vision-pro"
     },
     "b02": {
       "cameraId": "arc",
@@ -45,7 +46,7 @@
       "id": "b02",
       "type": "basic",
       "timestamp": 2,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-vision-pro"
     },
     "b03": {
       "cameraId": "arc",
@@ -63,7 +64,7 @@
       "id": "b03",
       "type": "basic",
       "timestamp": 6,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-vision-pro"
     },
     "b04": {
       "cameraId": "arc",
@@ -81,7 +82,7 @@
       "id": "b04",
       "type": "basic",
       "timestamp": 9,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-vision-pro"
     },
     "b05": {
       "cameraId": "arc",
@@ -99,7 +100,7 @@
       "id": "b05",
       "type": "basic",
       "timestamp": 13.5,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-vision-pro"
     },
     "b06": {
       "cameraId": "arc",
@@ -117,7 +118,7 @@
       "id": "b06",
       "type": "basic",
       "timestamp": 16.5,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-vision-pro"
     },
     "b07": {
       "cameraId": "arc",
@@ -135,7 +136,7 @@
       "id": "b07",
       "type": "basic",
       "timestamp": 19,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-vision-pro"
     },
     "b08": {
       "cameraId": "arc",
@@ -153,7 +154,7 @@
       "id": "b08",
       "type": "basic",
       "timestamp": 25,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-vision-pro"
     },
     "b09": {
       "cameraId": "arc",
@@ -171,7 +172,7 @@
       "id": "b09",
       "type": "basic",
       "timestamp": 27,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-vision-pro"
     },
     "b10": {
       "cameraId": "arc",
@@ -187,7 +188,7 @@
       "id": "b10",
       "type": "basic",
       "timestamp": 30,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-vision-pro"
     },
     "b11": {
       "cameraId": "arc",
@@ -204,7 +205,7 @@
       "id": "b11",
       "type": "basic",
       "timestamp": 33,
-      "projectTag": "project-tutorial"
+      "projectTag": "project-vision-pro"
     }
   },
   "sceneStage": {},
@@ -222,7 +223,8 @@
         "layerMask": 2,
         "viewport": [0, 0.01, 0.25, 0.25]
       },
-      "isSticky": true
+      "isSticky": true,
+      "projectTag": "project-vision-pro"
     }
   },
   "sceneLights": {
@@ -238,7 +240,8 @@
       "values": {
         "intensity": 0.5
       },
-      "isSticky": true
+      "isSticky": true,
+      "projectTag": "project-vision-pro"
     },
     "d2": {
       "id": "d2",
@@ -251,7 +254,8 @@
       "values": {
         "intensity": 0.8
       },
-      "isSticky": true
+      "isSticky": true,
+      "projectTag": "project-vision-pro"
     },
     "point": {
       "id": "point",
@@ -264,7 +268,8 @@
       "values": {
         "intensity": 2
       },
-      "isSticky": true
+      "isSticky": true,
+      "projectTag": "project-vision-pro"
     }
   },
   "sceneMeshes": {
@@ -281,38 +286,38 @@
           "specular": [0, 0, 0]
         },
         "values": {
-          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/vision-pro-center.mp4"
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/vision-pro-right.mp4"
         }
       },
-      "position": [-21.78, 13.96, 17.85],
-      "rotation": [0, 133.74, 0],
+      "position": [-20.77, 16.96, 20.61],
+      "rotation": [0, 313.74, 0],
       "scaling": [1, 1, 1]
     },
     "screen-2": {
       "id": "screen-2",
       "type": "plane",
       "values": {
-        "width": 22,
-        "height": 18
+        "width": 30,
+        "height": 25
       },
       "material": {
         "type": "video",
         "colors": {
-          "specular": [0, 0, 0]
+          "specular": [1, 1, 1]
         },
         "values": {
           "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/vision-pro-center.mp4"
         }
       },
-      "position": [2.02, 14.83, 28.54],
-      "rotation": [0, 2.6, 0],
+      "position": [2.02, 16.83, 28.54],
+      "rotation": [0, 182.6, 0],
       "scaling": [1, 1, 1]
     },
     "screen-3": {
       "id": "screen-3",
       "type": "plane",
       "values": {
-        "width": 22,
+        "width": 27,
         "height": 18
       },
       "material": {
@@ -321,34 +326,11 @@
           "specular": [0, 0, 0]
         },
         "values": {
-          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/vision-pro-center.mp4"
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/vision-pro-left.mp4"
         }
       },
-      "position": [26.55, 14.01, 17.91],
-      "rotation": [0, 45.01, 0],
-      "scaling": [1, 1, 1]
-    },
-    "box-floor": {
-      "id": "box-floor",
-      "type": "box",
-      "position": [0.03, 0, 0.01],
-      "material": {
-        "type": "color",
-        "colors": {
-          "diffuse": [0.65, 0.45, 0.13],
-          "specular": [0, 0, 0],
-          "emissive": [1, 1, 1]
-        },
-        "id": "box-39a6-material"
-      },
-      "values": {
-        "width": 40,
-        "height": 0.5,
-        "depth": 40,
-        "sideOrientation": 0
-      },
-      "projectTag": "project-juno",
-      "rotation": [0, 45, 0],
+      "position": [26.55, 16.01, 17.91],
+      "rotation": [0, 225.01, 0],
       "scaling": [1, 1, 1]
     },
     "box-seat": {
@@ -368,7 +350,7 @@
           "microSurface": 1,
           "reflectivityColor": [0.5, 0.5, 0.5],
           "albedoColor": [0.95, 0.95, 0.95],
-          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/hdr/room.hdr"
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/hdr/forest.hdr"
         }
       },
       "values": {
@@ -430,7 +412,7 @@
       "id": "voice-juno-01",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-01.mp3",
       "timestamp": 0.5,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-vision-pro",
       "balance": 0.3
     },
     "voice-juno-02": {
@@ -439,7 +421,7 @@
       "id": "voice-juno-02",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-02.mp3",
       "timestamp": 10.5,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-vision-pro",
       "balance": 0.3
     },
     "voice-juno-03": {
@@ -448,7 +430,7 @@
       "id": "voice-juno-03",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-03.mp3",
       "timestamp": 18.5,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-vision-pro",
       "balance": 0.3
     },
     "voice-juno-04": {
@@ -457,7 +439,7 @@
       "id": "voice-juno-04",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-04.mp3",
       "timestamp": 21.5,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-vision-pro",
       "balance": 0.3
     },
     "voice-juno-05": {
@@ -466,7 +448,7 @@
       "id": "voice-juno-05",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-05.mp3",
       "timestamp": 27.5,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-vision-pro",
       "balance": 0.3
     },
     "voice-juno-06": {
@@ -475,7 +457,7 @@
       "id": "voice-juno-06",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-06.mp3",
       "timestamp": 34,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-vision-pro",
       "balance": 0.3
     },
     "audio-main": {
@@ -485,7 +467,7 @@
       "id": "audio-main",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/light-funk.mp3",
       "timestamp": 0,
-      "projectTag": "project-tutorial",
+      "projectTag": "project-vision-pro",
       "balance": 0.3,
       "volume": 0.3
     }

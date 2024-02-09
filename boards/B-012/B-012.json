@@ -27,9 +27,7 @@
   },
   "flowUrl": "/B-012/B-012.flow.json",
   "apis": {},
-  "defaults": {
-    "previewPath": ""
-  },
+  "defaults": {},
   "isActive": true,
   "isWip": true,
   "reviewInfo": {
