@@ -29,7 +29,8 @@
   "examplesUrl": "/B-011/B-011.examples.json",
   "apis": {},
   "defaults": {
-    "exampleId": "vision-pro"
+    "exampleId": "vision-pro",
+    "setupId": "vision-pro"
   },
   "isWip": true,
   "isActive": true,

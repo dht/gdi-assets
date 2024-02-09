@@ -302,6 +302,7 @@
       "eleven_turbo_v2": "ElevenLabs"
     },
     "defaults": {
+      "setupId": "expanse",
       "exampleId": "expanse"
     },
     "examplesUrl": "/B-004/B-004.examples.json",
@@ -721,7 +722,8 @@
     },
     "apis": {},
     "defaults": {
-      "exampleId": "vision-couple"
+      "exampleId": "vision-couple",
+      "setupId": "vision-couple"
     },
     "examplesUrl": "/B-010/B-010.examples.json",
     "flowUrl": "/B-010/B-010.flow.json",
@@ -779,7 +781,8 @@
     "examplesUrl": "/B-011/B-011.examples.json",
     "apis": {},
     "defaults": {
-      "exampleId": "vision-pro"
+      "exampleId": "vision-pro",
+      "setupId": "vision-pro"
     },
     "isWip": true,
     "isActive": true,

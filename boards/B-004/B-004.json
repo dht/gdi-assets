@@ -55,6 +55,7 @@
     "eleven_turbo_v2": "ElevenLabs"
   },
   "defaults": {
+    "setupId": "expanse",
     "exampleId": "expanse"
   },
   "examplesUrl": "/B-004/B-004.examples.json",

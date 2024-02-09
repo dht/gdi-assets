@@ -1,5 +1,4 @@
 {
-  "_projectTag": "project-vision-pro",
   "assets": {},
   "sceneConfig": {
     "totalDuration": 44,
@@ -27,8 +26,7 @@
       "index": 1,
       "id": "b01",
       "type": "basic",
-      "timestamp": 0,
-      "projectTag": "project-vision-pro"
+      "timestamp": 0
     },
     "b02": {
       "cameraId": "arc",
@@ -45,8 +43,7 @@
       "index": 1,
       "id": "b02",
       "type": "basic",
-      "timestamp": 2,
-      "projectTag": "project-vision-pro"
+      "timestamp": 2
     },
     "b03": {
       "cameraId": "arc",
@@ -63,8 +60,7 @@
       "index": 2,
       "id": "b03",
       "type": "basic",
-      "timestamp": 6,
-      "projectTag": "project-vision-pro"
+      "timestamp": 6
     },
     "b04": {
       "cameraId": "arc",
@@ -81,8 +77,7 @@
       "index": 3,
       "id": "b04",
       "type": "basic",
-      "timestamp": 9,
-      "projectTag": "project-vision-pro"
+      "timestamp": 9
     },
     "b05": {
       "cameraId": "arc",
@@ -99,8 +94,7 @@
       "index": 4,
       "id": "b05",
       "type": "basic",
-      "timestamp": 13.5,
-      "projectTag": "project-vision-pro"
+      "timestamp": 13.5
     },
     "b06": {
       "cameraId": "arc",
@@ -117,8 +111,7 @@
       "index": 5,
       "id": "b06",
       "type": "basic",
-      "timestamp": 16.5,
-      "projectTag": "project-vision-pro"
+      "timestamp": 16.5
     },
     "b07": {
       "cameraId": "arc",
@@ -135,8 +128,7 @@
       "index": 6,
       "id": "b07",
       "type": "basic",
-      "timestamp": 19,
-      "projectTag": "project-vision-pro"
+      "timestamp": 19
     },
     "b08": {
       "cameraId": "arc",
@@ -153,8 +145,7 @@
       "index": 7,
       "id": "b08",
       "type": "basic",
-      "timestamp": 25,
-      "projectTag": "project-vision-pro"
+      "timestamp": 25
     },
     "b09": {
       "cameraId": "arc",
@@ -171,8 +162,7 @@
       "index": 8,
       "id": "b09",
       "type": "basic",
-      "timestamp": 27,
-      "projectTag": "project-vision-pro"
+      "timestamp": 27
     },
     "b10": {
       "cameraId": "arc",
@@ -187,8 +177,7 @@
       "name": "Living the future",
       "id": "b10",
       "type": "basic",
-      "timestamp": 30,
-      "projectTag": "project-vision-pro"
+      "timestamp": 30
     },
     "b11": {
       "cameraId": "arc",
@@ -204,8 +193,7 @@
       "name": "Ground controller",
       "id": "b11",
       "type": "basic",
-      "timestamp": 33,
-      "projectTag": "project-vision-pro"
+      "timestamp": 33
     }
   },
   "sceneStage": {},
@@ -223,8 +211,7 @@
         "layerMask": 2,
         "viewport": [0, 0.01, 0.25, 0.25]
       },
-      "isSticky": true,
-      "projectTag": "project-vision-pro"
+      "isSticky": true
     }
   },
   "sceneLights": {
@@ -240,8 +227,7 @@
       "values": {
         "intensity": 0.5
       },
-      "isSticky": true,
-      "projectTag": "project-vision-pro"
+      "isSticky": true
     },
     "d2": {
       "id": "d2",
@@ -254,8 +240,7 @@
       "values": {
         "intensity": 0.8
       },
-      "isSticky": true,
-      "projectTag": "project-vision-pro"
+      "isSticky": true
     },
     "point": {
       "id": "point",
@@ -268,8 +253,7 @@
       "values": {
         "intensity": 2
       },
-      "isSticky": true,
-      "projectTag": "project-vision-pro"
+      "isSticky": true
     }
   },
   "sceneMeshes": {
@@ -359,7 +343,6 @@
         "depth": 5,
         "sideOrientation": 0
       },
-      "projectTag": "project-juno",
       "rotation": [0, 0, 0],
       "scaling": [1, 1, 1]
     }
@@ -412,7 +395,6 @@
       "id": "voice-juno-01",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-01.mp3",
       "timestamp": 0.5,
-      "projectTag": "project-vision-pro",
       "balance": 0.3
     },
     "voice-juno-02": {
@@ -421,7 +403,6 @@
       "id": "voice-juno-02",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-02.mp3",
       "timestamp": 10.5,
-      "projectTag": "project-vision-pro",
       "balance": 0.3
     },
     "voice-juno-03": {
@@ -430,7 +411,6 @@
       "id": "voice-juno-03",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-03.mp3",
       "timestamp": 18.5,
-      "projectTag": "project-vision-pro",
       "balance": 0.3
     },
     "voice-juno-04": {
@@ -439,7 +419,6 @@
       "id": "voice-juno-04",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-04.mp3",
       "timestamp": 21.5,
-      "projectTag": "project-vision-pro",
       "balance": 0.3
     },
     "voice-juno-05": {
@@ -448,7 +427,6 @@
       "id": "voice-juno-05",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-05.mp3",
       "timestamp": 27.5,
-      "projectTag": "project-vision-pro",
       "balance": 0.3
     },
     "voice-juno-06": {
@@ -457,7 +435,6 @@
       "id": "voice-juno-06",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-06.mp3",
       "timestamp": 34,
-      "projectTag": "project-vision-pro",
       "balance": 0.3
     },
     "audio-main": {
@@ -467,7 +444,6 @@
       "id": "audio-main",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/light-funk.mp3",
       "timestamp": 0,
-      "projectTag": "project-vision-pro",
       "balance": 0.3,
       "volume": 0.3
     }

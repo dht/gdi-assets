@@ -1,5 +1,4 @@
 {
-  "_projectTag": "project-tutorial",
   "assets": {
     "11247898": {
       "fileName": "s7.png",
@@ -366,8 +365,7 @@
       "position": [-32, 29, 24],
       "target": [0, 0, 0],
       "type": "free",
-      "isSticky": true,
-      "projectTag": "project-tutorial"
+      "isSticky": true
     },
     "arc": {
       "id": "arc",
@@ -379,8 +377,7 @@
         "beta": 60,
         "radius": 50
       },
-      "isSticky": true,
-      "projectTag": "project-tutorial"
+      "isSticky": true
     }
   },
   "sceneLights": {},
@@ -394,8 +391,7 @@
       "index": 1,
       "id": "b01",
       "type": "basic",
-      "timestamp": 0,
-      "projectTag": "project-tutorial"
+      "timestamp": 0
     },
     "b02": {
       "cameraId": "arc",
@@ -406,8 +402,7 @@
       "index": 1,
       "id": "b02",
       "type": "basic",
-      "timestamp": 3.985,
-      "projectTag": "project-tutorial"
+      "timestamp": 3.985
     },
     "b03": {
       "cameraId": "arc",
@@ -418,8 +413,7 @@
       "index": 2,
       "id": "b03",
       "type": "basic",
-      "timestamp": 8.374,
-      "projectTag": "project-tutorial"
+      "timestamp": 8.374
     },
     "b04": {
       "cameraId": "arc",
@@ -431,8 +425,7 @@
       "index": 3,
       "id": "b04",
       "type": "basic",
-      "timestamp": 12.203,
-      "projectTag": "project-tutorial"
+      "timestamp": 12.203
     },
     "b05": {
       "cameraId": "arc",
@@ -446,8 +439,7 @@
       "index": 4,
       "id": "b05",
       "type": "basic",
-      "timestamp": 18.616,
-      "projectTag": "project-tutorial"
+      "timestamp": 18.616
     },
     "b06": {
       "cameraId": "arc",
@@ -460,8 +452,7 @@
       "index": 5,
       "id": "b06",
       "type": "basic",
-      "timestamp": 23.741,
-      "projectTag": "project-tutorial"
+      "timestamp": 23.741
     },
     "b07": {
       "attachmentFilename": "hud.json",
@@ -475,8 +466,7 @@
       "index": 6,
       "id": "b07",
       "type": "layer",
-      "timestamp": 28.319,
-      "projectTag": "project-tutorial"
+      "timestamp": 28.319
     },
     "b08": {
       "attachmentFilename": "s6.png",
@@ -489,8 +479,7 @@
       "index": 7,
       "id": "b08",
       "type": "skybox",
-      "timestamp": 38.523,
-      "projectTag": "project-tutorial"
+      "timestamp": 38.523
     },
     "b09": {
       "attachmentFilename": "s5.png",
@@ -504,8 +493,7 @@
       "index": 8,
       "id": "b09",
       "type": "skybox",
-      "timestamp": 42.595,
-      "projectTag": "project-tutorial"
+      "timestamp": 42.595
     },
     "b10": {
       "attachmentFilename": "s10.png",
@@ -518,8 +506,7 @@
       "name": "Beach highway",
       "id": "b10",
       "type": "skybox",
-      "timestamp": 46.279,
-      "projectTag": "project-tutorial"
+      "timestamp": 46.279
     },
     "b11": {
       "attachmentFilename": "s1.png",
@@ -532,8 +519,7 @@
       "name": "Distant planet",
       "id": "b11",
       "type": "skybox",
-      "timestamp": 49.884,
-      "projectTag": "project-tutorial"
+      "timestamp": 49.884
     },
     "b12": {
       "attachmentFilename": "s1.png",
@@ -545,8 +531,7 @@
       "name": "Distant planet B",
       "id": "b12",
       "type": "skybox",
-      "timestamp": 52.477,
-      "projectTag": "project-tutorial"
+      "timestamp": 52.477
     },
     "b13": {
       "attachmentFilename": "txt.json",
@@ -560,8 +545,7 @@
       "name": "to outro",
       "id": "b13",
       "type": "basic",
-      "timestamp": 53.869,
-      "projectTag": "project-tutorial"
+      "timestamp": 53.869
     },
     "b14": {
       "attachmentFilename": "txt.json",
@@ -575,8 +559,7 @@
       "name": "Outro",
       "id": "b14",
       "type": "layer",
-      "timestamp": 55.523,
-      "projectTag": "project-tutorial"
+      "timestamp": 55.523
     }
   },
   "sceneMeshes": {
@@ -604,8 +587,7 @@
       "id": "g1",
       "position": [0, 0, 0],
       "type": "topography",
-      "enabled": false,
-      "projectTag": "project-tutorial"
+      "enabled": false
     },
     "g2": {
       "material": {
@@ -631,8 +613,7 @@
       "id": "g2",
       "position": [0, 0, 0],
       "type": "topography",
-      "enabled": false,
-      "projectTag": "project-tutorial"
+      "enabled": false
     },
     "g3": {
       "material": {
@@ -658,8 +639,7 @@
       "id": "g3",
       "position": [0, 0, 0],
       "type": "topography",
-      "enabled": true,
-      "projectTag": "project-tutorial"
+      "enabled": true
     }
   },
   "scenePacks": {},
@@ -674,8 +654,7 @@
         "beta": 83
       },
       "id": "dot_b01_arc_start",
-      "bitId": "b01",
-      "projectTag": "project-tutorial"
+      "bitId": "b01"
     },
     "dot_b01_g1_end": {
       "virtualDotId": "end",
@@ -686,8 +665,7 @@
       },
       "id": "dot_b01_g1_end",
       "meshId": "g1",
-      "bitId": "b01",
-      "projectTag": "project-tutorial"
+      "bitId": "b01"
     },
     "dot_b01_g1_start": {
       "virtualDotId": "start",
@@ -696,8 +674,7 @@
       },
       "id": "dot_b01_g1_start",
       "meshId": "g1",
-      "bitId": "b01",
-      "projectTag": "project-tutorial"
+      "bitId": "b01"
     },
     "dot_b02_arc_start": {
       "virtualDotId": "start",
@@ -708,8 +685,7 @@
         "beta": 81
       },
       "id": "dot_b02_arc_start",
-      "bitId": "b02",
-      "projectTag": "project-tutorial"
+      "bitId": "b02"
     },
     "dot_b02_g1_end": {
       "virtualDotId": "end",
@@ -720,8 +696,7 @@
       },
       "id": "dot_b02_g1_end",
       "meshId": "g1",
-      "bitId": "b02",
-      "projectTag": "project-tutorial"
+      "bitId": "b02"
     },
     "dot_b02_g1_start": {
       "virtualDotId": "start",
@@ -732,8 +707,7 @@
       },
       "id": "dot_b02_g1_start",
       "meshId": "g1",
-      "bitId": "b02",
-      "projectTag": "project-tutorial"
+      "bitId": "b02"
     },
     "dot_b03_arc_start": {
       "virtualDotId": "start",
@@ -744,8 +718,7 @@
         "beta": 79
       },
       "id": "dot_b03_arc_start",
-      "bitId": "b03",
-      "projectTag": "project-tutorial"
+      "bitId": "b03"
     },
     "dot_b03_car_end": {
       "virtualDotId": "end",
@@ -756,8 +729,7 @@
       },
       "id": "dot_b03_car_end",
       "meshId": "car",
-      "bitId": "b03",
-      "projectTag": "project-tutorial"
+      "bitId": "b03"
     },
     "dot_b03_car_start": {
       "virtualDotId": "start",
@@ -768,8 +740,7 @@
       },
       "id": "dot_b03_car_start",
       "meshId": "car",
-      "bitId": "b03",
-      "projectTag": "project-tutorial"
+      "bitId": "b03"
     },
     "dot_b04_arc_end": {
       "virtualDotId": "end",
@@ -780,8 +751,7 @@
         "beta": 88
       },
       "id": "dot_b04_arc_end",
-      "bitId": "b04",
-      "projectTag": "project-tutorial"
+      "bitId": "b04"
     },
     "dot_b04_arc_start": {
       "virtualDotId": "start",
@@ -792,8 +762,7 @@
         "beta": 89
       },
       "id": "dot_b04_arc_start",
-      "bitId": "b04",
-      "projectTag": "project-tutorial"
+      "bitId": "b04"
     },
     "dot_b04_car_end": {
       "virtualDotId": "end",
@@ -804,8 +773,7 @@
       },
       "id": "dot_b04_car_end",
       "meshId": "car",
-      "bitId": "b04",
-      "projectTag": "project-tutorial"
+      "bitId": "b04"
     },
     "dot_b04_g1_end": {
       "virtualDotId": "end",
@@ -816,8 +784,7 @@
       },
       "id": "dot_b04_g1_end",
       "meshId": "g1",
-      "bitId": "b04",
-      "projectTag": "project-tutorial"
+      "bitId": "b04"
     },
     "dot_b04_g1_start": {
       "virtualDotId": "start",
@@ -828,8 +795,7 @@
       },
       "id": "dot_b04_g1_start",
       "meshId": "g1",
-      "bitId": "b04",
-      "projectTag": "project-tutorial"
+      "bitId": "b04"
     },
     "dot_b05_arc_end": {
       "virtualDotId": "end",
@@ -840,8 +806,7 @@
         "beta": 85
       },
       "id": "dot_b05_arc_end",
-      "bitId": "b05",
-      "projectTag": "project-tutorial"
+      "bitId": "b05"
     },
     "dot_b05_arc_start": {
       "virtualDotId": "start",
@@ -853,8 +818,7 @@
       },
       "id": "dot_b05_arc_start",
       "easing": [1, -0.0011458333333334014, 0.021171875000000007, 1.0095833333333333],
-      "bitId": "b05",
-      "projectTag": "project-tutorial"
+      "bitId": "b05"
     },
     "dot_b05_g1_start": {
       "virtualDotId": "start",
@@ -865,8 +829,7 @@
       },
       "id": "dot_b05_g1_start",
       "meshId": "g1",
-      "bitId": "b05",
-      "projectTag": "project-tutorial"
+      "bitId": "b05"
     },
     "dot_b05_g2_end": {
       "virtualDotId": "end",
@@ -877,8 +840,7 @@
       },
       "id": "dot_b05_g2_end",
       "meshId": "g2",
-      "bitId": "b05",
-      "projectTag": "project-tutorial"
+      "bitId": "b05"
     },
     "dot_b05_g2_start": {
       "virtualDotId": "start",
@@ -889,8 +851,7 @@
       },
       "id": "dot_b05_g2_start",
       "meshId": "g2",
-      "bitId": "b05",
-      "projectTag": "project-tutorial"
+      "bitId": "b05"
     },
     "dot_b05_g3_end": {
       "virtualDotId": "end",
@@ -901,8 +862,7 @@
       },
       "id": "dot_b05_g3_end",
       "meshId": "g3",
-      "bitId": "b05",
-      "projectTag": "project-tutorial"
+      "bitId": "b05"
     },
     "dot_b05_g3_start": {
       "virtualDotId": "start",
@@ -913,8 +873,7 @@
       },
       "id": "dot_b05_g3_start",
       "meshId": "g3",
-      "bitId": "b05",
-      "projectTag": "project-tutorial"
+      "bitId": "b05"
     },
     "dot_b06_arc_end": {
       "virtualDotId": "end",
@@ -925,8 +884,7 @@
         "beta": 83
       },
       "id": "dot_b06_arc_end",
-      "bitId": "b06",
-      "projectTag": "project-tutorial"
+      "bitId": "b06"
     },
     "dot_b06_arc_start": {
       "virtualDotId": "start",
@@ -937,8 +895,7 @@
         "beta": 43
       },
       "id": "dot_b06_arc_start",
-      "bitId": "b06",
-      "projectTag": "project-tutorial"
+      "bitId": "b06"
     },
     "dot_b06_g2_end": {
       "virtualDotId": "end",
@@ -949,8 +906,7 @@
       },
       "id": "dot_b06_g2_end",
       "meshId": "g2",
-      "bitId": "b06",
-      "projectTag": "project-tutorial"
+      "bitId": "b06"
     },
     "dot_b06_g2_start": {
       "virtualDotId": "start",
@@ -961,8 +917,7 @@
       },
       "id": "dot_b06_g2_start",
       "meshId": "g2",
-      "bitId": "b06",
-      "projectTag": "project-tutorial"
+      "bitId": "b06"
     },
     "dot_b07_arc_start": {
       "virtualDotId": "start",
@@ -973,8 +928,7 @@
         "beta": 60
       },
       "id": "dot_b07_arc_start",
-      "bitId": "b07",
-      "projectTag": "project-tutorial"
+      "bitId": "b07"
     },
     "dot_b07_car_start": {
       "virtualDotId": "start",
@@ -985,8 +939,7 @@
       },
       "id": "dot_b07_car_start",
       "meshId": "car",
-      "bitId": "b07",
-      "projectTag": "project-tutorial"
+      "bitId": "b07"
     },
     "dot_b07_free_start": {
       "virtualDotId": "start",
@@ -996,8 +949,7 @@
         "position": [0, 0, 0]
       },
       "id": "dot_b07_free_start",
-      "bitId": "b07",
-      "projectTag": "project-tutorial"
+      "bitId": "b07"
     },
     "dot_b08_arc_start": {
       "virtualDotId": "start",
@@ -1008,8 +960,7 @@
         "beta": 60
       },
       "id": "dot_b08_arc_start",
-      "bitId": "b08",
-      "projectTag": "project-tutorial"
+      "bitId": "b08"
     },
     "dot_b08_car_end": {
       "virtualDotId": "end",
@@ -1020,8 +971,7 @@
       },
       "id": "dot_b08_car_end",
       "meshId": "car",
-      "bitId": "b08",
-      "projectTag": "project-tutorial"
+      "bitId": "b08"
     },
     "dot_b08_car_start": {
       "virtualDotId": "start",
@@ -1032,8 +982,7 @@
       },
       "id": "dot_b08_car_start",
       "meshId": "car",
-      "bitId": "b08",
-      "projectTag": "project-tutorial"
+      "bitId": "b08"
     },
     "dot_b08_free_start": {
       "virtualDotId": "start",
@@ -1043,8 +992,7 @@
         "position": [0, 0, 0]
       },
       "id": "dot_b08_free_start",
-      "bitId": "b08",
-      "projectTag": "project-tutorial"
+      "bitId": "b08"
     },
     "dot_b08_skybox_start": {
       "virtualDotId": "start",
@@ -1055,8 +1003,7 @@
       },
       "id": "dot_b08_skybox_start",
       "meshId": "skybox",
-      "bitId": "b08",
-      "projectTag": "project-tutorial"
+      "bitId": "b08"
     },
     "dot_b09_arc_start": {
       "virtualDotId": "start",
@@ -1067,8 +1014,7 @@
         "beta": 60
       },
       "id": "dot_b09_arc_start",
-      "bitId": "b09",
-      "projectTag": "project-tutorial"
+      "bitId": "b09"
     },
     "dot_b09_car_end": {
       "virtualDotId": "end",
@@ -1079,8 +1025,7 @@
       },
       "id": "dot_b09_car_end",
       "meshId": "car",
-      "bitId": "b09",
-      "projectTag": "project-tutorial"
+      "bitId": "b09"
     },
     "dot_b09_car_start": {
       "virtualDotId": "start",
@@ -1092,8 +1037,7 @@
       "id": "dot_b09_car_start",
       "meshId": "car",
       "easing": [0.05552083333333335, 0.9670052083333333, 0.4078515625, 0.24497395833333335],
-      "bitId": "b09",
-      "projectTag": "project-tutorial"
+      "bitId": "b09"
     },
     "dot_b09_free_start": {
       "virtualDotId": "start",
@@ -1103,8 +1047,7 @@
         "position": [0, 0, 0]
       },
       "id": "dot_b09_free_start",
-      "bitId": "b09",
-      "projectTag": "project-tutorial"
+      "bitId": "b09"
     },
     "dot_b10_car_end": {
       "virtualDotId": "end",
@@ -1115,8 +1058,7 @@
       },
       "id": "dot_b10_car_end",
       "meshId": "car",
-      "bitId": "b10",
-      "projectTag": "project-tutorial"
+      "bitId": "b10"
     },
     "dot_b10_car_start": {
       "virtualDotId": "start",
@@ -1128,8 +1070,7 @@
       "id": "dot_b10_car_start",
       "meshId": "car",
       "easing": [0.5005598958333333, 0.9148958333333334, 0.6631640624999999, 0.9735807291666667],
-      "bitId": "b10",
-      "projectTag": "project-tutorial"
+      "bitId": "b10"
     },
     "dot_b10_free_start": {
       "virtualDotId": "start",
@@ -1139,8 +1080,7 @@
         "position": [0, 0, 0]
       },
       "id": "dot_b10_free_start",
-      "bitId": "b10",
-      "projectTag": "project-tutorial"
+      "bitId": "b10"
     },
     "dot_b11_arc_start": {
       "virtualDotId": "start",
@@ -1151,8 +1091,7 @@
         "beta": 60
       },
       "id": "dot_b11_arc_start",
-      "bitId": "b11",
-      "projectTag": "project-tutorial"
+      "bitId": "b11"
     },
     "dot_b11_car_end": {
       "virtualDotId": "end",
@@ -1163,8 +1102,7 @@
       },
       "id": "dot_b11_car_end",
       "meshId": "car",
-      "bitId": "b11",
-      "projectTag": "project-tutorial"
+      "bitId": "b11"
     },
     "dot_b11_car_start": {
       "virtualDotId": "start",
@@ -1175,8 +1113,7 @@
       },
       "id": "dot_b11_car_start",
       "meshId": "car",
-      "bitId": "b11",
-      "projectTag": "project-tutorial"
+      "bitId": "b11"
     },
     "dot_b11_free_start": {
       "virtualDotId": "start",
@@ -1186,8 +1123,7 @@
         "position": [0, 0, 0]
       },
       "id": "dot_b11_free_start",
-      "bitId": "b11",
-      "projectTag": "project-tutorial"
+      "bitId": "b11"
     },
     "dot_b12_car_end": {
       "virtualDotId": "end",
@@ -1198,8 +1134,7 @@
       },
       "id": "dot_b12_car_end",
       "meshId": "car",
-      "bitId": "b12",
-      "projectTag": "project-tutorial"
+      "bitId": "b12"
     },
     "dot_b12_car_start": {
       "virtualDotId": "start",
@@ -1211,8 +1146,7 @@
       "id": "dot_b12_car_start",
       "meshId": "car",
       "easing": [0.8870312499999999, -0.1751171875, 0.9416666666666668, 0.19800781249999994],
-      "bitId": "b12",
-      "projectTag": "project-tutorial"
+      "bitId": "b12"
     },
     "dot_b12_free_start": {
       "virtualDotId": "start",
@@ -1222,8 +1156,7 @@
         "position": [0, 0, 0]
       },
       "id": "dot_b12_free_start",
-      "bitId": "b12",
-      "projectTag": "project-tutorial"
+      "bitId": "b12"
     },
     "dot_b13_arc_end": {
       "virtualDotId": "end",
@@ -1234,8 +1167,7 @@
         "beta": 79
       },
       "id": "dot_b13_arc_end",
-      "bitId": "b13",
-      "projectTag": "project-tutorial"
+      "bitId": "b13"
     },
     "dot_b13_arc_start": {
       "virtualDotId": "start",
@@ -1246,8 +1178,7 @@
         "beta": 81
       },
       "id": "dot_b13_arc_start",
-      "bitId": "b13",
-      "projectTag": "project-tutorial"
+      "bitId": "b13"
     },
     "dot_b13_car_end": {
       "virtualDotId": "end",
@@ -1258,8 +1189,7 @@
       },
       "id": "dot_b13_car_end",
       "meshId": "car",
-      "bitId": "b13",
-      "projectTag": "project-tutorial"
+      "bitId": "b13"
     },
     "dot_b13_car_start": {
       "virtualDotId": "start",
@@ -1270,8 +1200,7 @@
       },
       "id": "dot_b13_car_start",
       "meshId": "car",
-      "bitId": "b13",
-      "projectTag": "project-tutorial"
+      "bitId": "b13"
     },
     "dot_b13_free_start": {
       "virtualDotId": "start",
@@ -1281,8 +1210,7 @@
         "position": [-32, 29, 24]
       },
       "id": "dot_b13_free_start",
-      "bitId": "b13",
-      "projectTag": "project-tutorial"
+      "bitId": "b13"
     },
     "dot_b13_g2_end": {
       "virtualDotId": "end",
@@ -1293,8 +1221,7 @@
       },
       "id": "dot_b13_g2_end",
       "meshId": "g2",
-      "bitId": "b13",
-      "projectTag": "project-tutorial"
+      "bitId": "b13"
     },
     "dot_b13_g2_start": {
       "virtualDotId": "start",
@@ -1305,16 +1232,14 @@
       },
       "id": "dot_b13_g2_start",
       "meshId": "g2",
-      "bitId": "b13",
-      "projectTag": "project-tutorial"
+      "bitId": "b13"
     }
   },
   "sceneExternals": {
     "car": {
       "id": "car",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/car.glb",
-      "enabled": false,
-      "projectTag": "project-tutorial"
+      "enabled": false
     }
   },
   "sceneAudios": {
@@ -1323,96 +1248,84 @@
       "fileName": "v-01.mp3",
       "id": "audio-1",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/v-01.mp3",
-      "timestamp": 8.877652727817749,
-      "projectTag": "project-tutorial"
+      "timestamp": 8.877652727817749
     },
     "audio-10": {
       "duration": 0,
       "fileName": "v-10.mp3",
       "id": "audio-10",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/v-10.mp3",
-      "timestamp": 46.69724955035971,
-      "projectTag": "project-tutorial"
+      "timestamp": 46.69724955035971
     },
     "audio-11": {
       "duration": 0,
       "fileName": "v-11.mp3",
       "id": "audio-11",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/v-11.mp3",
-      "timestamp": 54.101928507194245,
-      "projectTag": "project-tutorial"
+      "timestamp": 54.101928507194245
     },
     "audio-12": {
       "duration": 0,
       "fileName": "v-12.mp3",
       "id": "audio-12",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/v-12.mp3",
-      "timestamp": 59.83458318345323,
-      "projectTag": "project-tutorial"
+      "timestamp": 59.83458318345323
     },
     "audio-2": {
       "duration": 0,
       "fileName": "v-02.mp3",
       "id": "audio-2",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/v-02.mp3",
-      "timestamp": 12.818852817745803,
-      "projectTag": "project-tutorial"
+      "timestamp": 12.818852817745803
     },
     "audio-3": {
       "duration": 0,
       "fileName": "v-03.mp3",
       "id": "audio-3",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/v-03.mp3",
-      "timestamp": 18.033976169064747,
-      "projectTag": "project-tutorial"
+      "timestamp": 18.033976169064747
     },
     "audio-4": {
       "duration": 0,
       "fileName": "v-04.mp3",
       "id": "audio-4",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/v-04.mp3",
-      "timestamp": 21.019733812949642,
-      "projectTag": "project-tutorial"
+      "timestamp": 21.019733812949642
     },
     "audio-5": {
       "duration": 0,
       "fileName": "v-05.mp3",
       "id": "audio-5",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/v-05.mp3",
-      "timestamp": 23.925871252997606,
-      "projectTag": "project-tutorial"
+      "timestamp": 23.925871252997606
     },
     "audio-6": {
       "duration": 0,
       "fileName": "v-06.mp3",
       "id": "audio-6",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/v-06.mp3",
-      "timestamp": 28.504032973621104,
-      "projectTag": "project-tutorial"
+      "timestamp": 28.504032973621104
     },
     "audio-7": {
       "duration": 0,
       "fileName": "v-07.mp3",
       "id": "audio-7",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/v-07.mp3",
-      "timestamp": 36.22719274580336,
-      "projectTag": "project-tutorial"
+      "timestamp": 36.22719274580336
     },
     "audio-8": {
       "duration": 0,
       "fileName": "v-08.mp3",
       "id": "audio-8",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/v-08.mp3",
-      "timestamp": 39.33238069544364,
-      "projectTag": "project-tutorial"
+      "timestamp": 39.33238069544364
     },
     "audio-9": {
       "duration": 0,
       "fileName": "v-09.mp3",
       "id": "audio-9",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/v-09.mp3",
-      "timestamp": 42.95509997002399,
-      "projectTag": "project-tutorial"
+      "timestamp": 42.95509997002399
     },
     "audio-main": {
       "duration": 0,
@@ -1420,8 +1333,7 @@
       "isMain": true,
       "id": "audio-main",
       "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/tutorial/modelZ.mp3",
-      "timestamp": 0,
-      "projectTag": "project-tutorial"
+      "timestamp": 0
     }
   },
   "sceneEffects": {
@@ -1429,15 +1341,13 @@
       "duration": 0,
       "effectId": "chromatic",
       "id": "fx-01",
-      "timestamp": 7.683349670263788,
-      "projectTag": "project-tutorial"
+      "timestamp": 7.683349670263788
     },
     "fx-02": {
       "duration": 0,
       "effectId": "chromatic",
       "id": "fx-02",
-      "timestamp": 59.516102368105514,
-      "projectTag": "project-tutorial"
+      "timestamp": 59.516102368105514
     }
   }
 }
