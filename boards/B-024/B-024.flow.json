@@ -1,6 +1,6 @@
 {
   "flowConfig": {
-    "flowId": "fb-006",
+    "flowId": "fb-024",
     "name": "Simple chat",
     "flowType": "continues",
     "output": {
@@ -11,8 +11,8 @@
   },
   "flowApis": {},
   "flowAssistants": {
-    "as-006-chat": {
-      "id": "as-006-chat",
+    "as-024-chat": {
+      "id": "as-024-chat",
       "name": "Chat",
       "description": "Helpful assistant that provides a conversation about a topic.",
       "instructions": "You are a helpful assistant",
@@ -26,7 +26,7 @@
       "id": "n-001",
       "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-006-chat",
+      "assistantId": "as-024-chat",
       "input": {
         "prompt": "${prompt}"
       },
