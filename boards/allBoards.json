@@ -1562,6 +1562,7 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "isWip": true,
     "mobile": {
       "hidePrompt": true,
       "darkMode": true
@@ -1634,6 +1635,7 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "isWip": true,
     "mobile": {
       "hidePrompt": true,
       "darkMode": true
@@ -1761,6 +1763,7 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "isWip": true,
     "mobile": {
       "hidePrompt": true,
       "darkMode": true
@@ -1835,6 +1838,7 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "isWip": true,
     "mobile": {
       "hidePrompt": true,
       "darkMode": true
@@ -1906,6 +1910,7 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "isWip": true,
     "mobile": {
       "hidePrompt": true,
       "darkMode": true
@@ -1985,6 +1990,7 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "isWip": true,
     "mobile": {
       "hidePrompt": true,
       "darkMode": true
@@ -2060,6 +2066,7 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "isWip": true,
     "mobile": {
       "hidePrompt": true,
       "darkMode": true
@@ -2212,6 +2219,7 @@
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "isWip": true,
     "mobile": {
       "hidePrompt": true,
       "darkMode": true
