@@ -56,17 +56,36 @@
         "boardId": "B-014",
         "flags": {}
       },
+      "e2a": {
+        "id": "e2a",
+        "widgetId": "com.usegdi.starter.ppl-switch",
+        "title": "Ppl Switch",
+        "position": {
+          "x": 56,
+          "y": 5
+        },
+        "dimension": {
+          "x": 63,
+          "y": 2
+        },
+        "boardId": "B-014",
+        "flags": {},
+        "flavour": "default",
+        "props": {
+          "sceneUrl": ""
+        }
+      },
       "e2": {
         "id": "e2",
         "widgetId": "com.usegdi.starter.chat",
         "title": "Chat",
         "position": {
           "x": 56,
-          "y": 4
+          "y": 7
         },
         "dimension": {
           "x": 63,
-          "y": 42
+          "y": 39
         },
         "boardId": "B-014",
         "flags": {},
@@ -81,7 +100,7 @@
           "y": 7
         },
         "dimension": {
-          "x": 63,
+          "x": 50,
           "y": 39
         },
         "boardId": "B-014",
@@ -97,11 +116,11 @@
         "title": "Ppl details",
         "position": {
           "x": 2,
-          "y": 4
+          "y": 7
         },
         "dimension": {
-          "x": 63,
-          "y": 42
+          "x": 50,
+          "y": 39
         },
         "boardId": "B-014",
         "flags": {},
