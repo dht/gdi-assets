@@ -1,7 +1,7 @@
 [
   {
     "id": "video1",
-    "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/mq2.webp",
+    "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/v-001.png",
     "iconUrl": "/logo.svg",
     "title": "ModelZ Hovercraft",
     "author": "gdi",
@@ -13,7 +13,7 @@
   },
   {
     "id": "video2",
-    "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/mq2.webp",
+    "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/v-002.png",
     "iconUrl": "/logo.svg",
     "title": "Vision Pro Conversation",
     "author": "gdi",
@@ -25,7 +25,7 @@
   },
   {
     "id": "video3",
-    "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/mq2.webp",
+    "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/v-003.png",
     "iconUrl": "/logo.svg",
     "title": "Park Conversation",
     "author": "gdi",
@@ -37,7 +37,7 @@
   },
   {
     "id": "video4",
-    "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/mq2.webp",
+    "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/v-004.png",
     "iconUrl": "/logo.svg",
     "title": "Juno Ad",
     "author": "gdi",
