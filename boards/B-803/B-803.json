@@ -17,7 +17,7 @@
     "tags": ["mockup", "simulation", "recording", "demonstration", "VR"],
     "order": 9,
     "supportedResolutions": ["1920x1080", "1280x720"],
-    "tsVersion": 0
+    "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
   "dependencies": {
