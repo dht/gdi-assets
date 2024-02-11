@@ -9,7 +9,7 @@
     "duration": 140,
     "creationDate": "2024-02-09 10:00:00",
     "version": "1",
-    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/park-expanse.json"
+    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/modelz.json"
   },
   {
     "id": "video2",
@@ -21,7 +21,7 @@
     "duration": 140,
     "creationDate": "2024-02-10 10:00:00",
     "version": "1",
-    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/park-expanse.json"
+    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/fourth-wall.json"
   },
   {
     "id": "video3",
@@ -45,6 +45,6 @@
     "duration": 140,
     "creationDate": "2024-02-11 10:00:00",
     "version": "1",
-    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/park-expanse.json"
+    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/vision-pro.json"
   }
 ]
