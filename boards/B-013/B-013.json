@@ -53,7 +53,7 @@
         "boardId": "B-013",
         "flags": {},
         "props": {
-          "sceneUrl": ""
+          "flavour": "tube"
         }
       },
       "e3": {
@@ -91,7 +91,7 @@
         "boardId": "B-013",
         "flags": {},
         "props": {
-          "sceneUrl": ""
+          "flavour": "tube"
         }
       }
     }
