@@ -8,7 +8,7 @@
     "views": 0,
     "duration": 140,
     "description": "The video is described by [this JSON]($url). Schema-based videos could become a powerful medium in the near future. Unlike regular binary, pre-baked YouTube videos, they can integrate with AI and respond to user input. For instance, in the middle of the video, the character can address the viewer with a question or react to the user's facial expression through Vision Pro. The possibilities are truly limitless.",
-    "creationDate": "2024-02-09 10:00:00",
+    "creationDate": "2024-02-12 12:00:00",
     "version": "1",
     "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/modelz.json"
   },
@@ -21,7 +21,7 @@
     "author": "gdi",
     "views": 0,
     "duration": 140,
-    "creationDate": "2024-02-10 10:00:00",
+    "creationDate": "2024-02-12 12:00:00",
     "version": "1",
     "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/fourth-wall.json"
   },
@@ -34,7 +34,7 @@
     "author": "gdi",
     "views": 0,
     "duration": 140,
-    "creationDate": "2024-02-11 10:00:00",
+    "creationDate": "2024-02-12 12:00:00",
     "version": "1",
     "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/park-expanse.json"
   },
@@ -47,7 +47,7 @@
     "author": "gdi",
     "views": 0,
     "duration": 140,
-    "creationDate": "2024-02-11 10:00:00",
+    "creationDate": "2024-02-12 12:00:00",
     "version": "1",
     "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/vision-pro.json"
   }
