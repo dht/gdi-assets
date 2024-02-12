@@ -4,111 +4,127 @@
     "title": "Ripple",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/2DA8L6-17.thumb.webp",
-    "url": "https://playground.babylonjs.com/#2DA8L6#17"
+    "url": "https://playground.babylonjs.com/#2DA8L6#17",
+    "isActive": true
   },
   {
     "id": "2FPT1A#56",
     "title": "Buildings",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/2FPT1A-56.thumb.webp",
-    "url": "https://playground.babylonjs.com/#2FPT1A#56"
+    "url": "https://playground.babylonjs.com/#2FPT1A#56",
+    "isActive": true
   },
   {
     "id": "0PH7MY#1",
     "title": "Card",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/0PH7MY-1.thumb.webp",
-    "url": "https://playground.babylonjs.com/#0PH7MY#1"
+    "url": "https://playground.babylonjs.com/#0PH7MY#1",
+    "isActive": true
   },
   {
     "id": "1LXNS9#2",
     "title": "Tree",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/1LXNS9-2.thumb.webp",
-    "url": "https://playground.babylonjs.com/#1LXNS9#2"
+    "url": "https://playground.babylonjs.com/#1LXNS9#2",
+    "isActive": true
   },
   {
     "id": "GJ5B9U#1",
     "title": "Sunrise",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/GJ5B9U-1.thumb.webp",
-    "url": "https://playground.babylonjs.com/#GJ5B9U#1"
+    "url": "https://playground.babylonjs.com/#GJ5B9U#1",
+    "isActive": true
   },
   {
     "id": "6FF8JD#4",
     "title": "Disco lights",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/6FF8JD-4.thumb.webp",
-    "url": "https://playground.babylonjs.com/#6FF8JD#4"
+    "url": "https://playground.babylonjs.com/#6FF8JD#4",
+    "isActive": true
   },
   {
     "id": "6FF8JD#2",
     "title": "Lava",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/6FF8JD-2.thumb.webp",
-    "url": "https://playground.babylonjs.com/#6FF8JD#2"
+    "url": "https://playground.babylonjs.com/#6FF8JD#2",
+    "isActive": true
   },
   {
     "id": "6FF8JD",
     "title": "Moving balls",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/6FF8JD.thumb.webp",
-    "url": "https://playground.babylonjs.com/#6FF8JD"
+    "url": "https://playground.babylonjs.com/#6FF8JD",
+    "isActive": true
   },
   {
     "id": "T9L904#1",
     "title": "Skirt",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/T9L904-1.thumb.webp",
-    "url": "https://playground.babylonjs.com/#T9L904#1"
+    "url": "https://playground.babylonjs.com/#T9L904#1",
+    "isActive": true
   },
   {
     "id": "1FGPCN#7",
     "title": "Cubes",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/1FGPCN-7.thumb.webp",
-    "url": "https://playground.babylonjs.com/#1FGPCN#7"
+    "url": "https://playground.babylonjs.com/#1FGPCN#7",
+    "isActive": true
   },
   {
     "id": "1FGPCN#2",
     "title": "Forest",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/1FGPCN-2.thumb.webp",
-    "url": "https://playground.babylonjs.com/#1FGPCN#2"
+    "url": "https://playground.babylonjs.com/#1FGPCN#2",
+    "isActive": true
   },
   {
     "id": "1FGPCN#3",
     "title": "Sphere",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/1FGPCN-3.thumb.webp",
-    "url": "https://playground.babylonjs.com/#1FGPCN#3"
+    "url": "https://playground.babylonjs.com/#1FGPCN#3",
+    "isActive": true
   },
   {
     "id": "1FGPCN#4",
     "title": "Sphere #2",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/1FGPCN-4.thumb.webp",
-    "url": "https://playground.babylonjs.com/#1FGPCN#4"
+    "url": "https://playground.babylonjs.com/#1FGPCN#4",
+    "isActive": true
   },
   {
     "id": "1FGPCN#5",
     "title": "Morph",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/1FGPCN-5.thumb.webp",
-    "url": "https://playground.babylonjs.com/#1FGPCN#5"
+    "url": "https://playground.babylonjs.com/#1FGPCN#5",
+    "isActive": true
   },
   {
     "id": "1FGPCN#6",
     "title": "Morph #2",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/1FGPCN-6.thumb.webp",
-    "url": "https://playground.babylonjs.com/#1FGPCN#6"
+    "url": "https://playground.babylonjs.com/#1FGPCN#6",
+    "isActive": true
   },
   {
     "id": "79R5IJ#1",
     "title": "Ring of Fire",
     "author": "CodingCrusader",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/_babylon/79R5IJ-1.thumb.webp",
-    "url": "https://playground.babylonjs.com/#79R5IJ#1"
+    "url": "https://playground.babylonjs.com/#79R5IJ#1",
+    "isActive": true
   }
 ]
