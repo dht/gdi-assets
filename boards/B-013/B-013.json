@@ -27,7 +27,9 @@
   },
   "mobile": {
     "hidePrompt": true,
-    "darkMode": true
+    "hideArrows": true,
+    "darkMode": true,
+    "columns": 2
   },
   "flowUrl": "/B-013/B-013.flow.json",
   "apis": {},
@@ -42,8 +44,8 @@
   },
   "elements": {
     "default": {
-      "e2": {
-        "id": "e2",
+      "e2a": {
+        "id": "e2a",
         "widgetId": "com.usegdi.starter.tube",
         "title": "Tube",
         "position": {
@@ -56,6 +58,26 @@
         },
         "boardId": "B-013",
         "flags": {},
+        "flavour": "default",
+        "props": {
+          "flavour": "tube"
+        }
+      },
+      "e2b": {
+        "id": "e2b",
+        "widgetId": "com.usegdi.starter.tube-details",
+        "title": "Tube",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-013",
+        "flags": {},
+        "flavour": "item",
         "props": {
           "flavour": "tube"
         }
@@ -80,8 +102,8 @@
       }
     },
     "mobile": {
-      "e2": {
-        "id": "e2",
+      "e2a": {
+        "id": "e2a",
         "widgetId": "com.usegdi.starter.tube",
         "title": "Tube",
         "position": {
@@ -96,7 +118,27 @@
         "flags": {},
         "props": {
           "flavour": "tube"
-        }
+        },
+        "columnIndex": 0
+      },
+      "e2b": {
+        "id": "e2b",
+        "widgetId": "com.usegdi.starter.tube-details",
+        "title": "Tube",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-013",
+        "flags": {},
+        "props": {
+          "flavour": "tube"
+        },
+        "columnIndex": 1
       }
     }
   }
