@@ -15,9 +15,17 @@
     "oneLinerShort": "Simplified voiceover creation with VoiceStudio.",
     "header": "",
     "fields": [],
-    "tags": ["voiceover", "recording", "audio", "creation"],
+    "tags": [
+      "voiceover",
+      "recording",
+      "audio",
+      "creation"
+    ],
     "order": 9,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -43,10 +51,9 @@
     "outputColumnIndex": 0
   },
   "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "reviewsCount": 12,
+    "installationCount": 40,
+    "rating": 4.6
   },
   "elements": {
     "default": {
@@ -168,5 +175,7 @@
       }
     }
   },
-  "storeNodes": ["appState"]
+  "storeNodes": [
+    "appState"
+  ]
 }

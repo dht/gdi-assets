@@ -16,6 +16,14 @@
     "tools": []
   },
   {
+    "id": "as-subreddit-finder",
+    "name": "Subreddit Finder",
+    "description": "An assistant that helps you find suitable subreddits to post a topic and description.",
+    "instructions": "Provide a post topic and description, and I will generate a list of 20 subreddits that could be suited for your post.",
+    "model": "gpt-3.5-turbo",
+    "tools": []
+  },
+  {
     "id": "as-find-assistant",
     "name": "Find Assistant",
     "description": "An assistant that helps the user find a relevant assistant for their query.",

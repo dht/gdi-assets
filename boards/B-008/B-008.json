@@ -15,9 +15,17 @@
     "oneLinerShort": "Simplify 3D scene creation with Scene Builder.",
     "header": "",
     "fields": [],
-    "tags": ["3D", "scene", "visualization", "creation"],
+    "tags": [
+      "3D",
+      "scene",
+      "visualization",
+      "creation"
+    ],
     "order": 8,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -93,10 +101,9 @@
     "darkMode": true
   },
   "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "reviewsCount": 5,
+    "installationCount": 35,
+    "rating": 4.5
   },
   "storeNodes": [
     "sceneConfig",

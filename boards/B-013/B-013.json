@@ -35,9 +35,9 @@
   "isActive": true,
   "isWip": true,
   "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
+    "reviewsCount": 5,
+    "installationCount": 10,
+    "rating": 4.5,
     "reviews": {}
   },
   "elements": {

@@ -28,9 +28,21 @@
         "content": "LLM #1, LLM #2, ElevenLabs"
       }
     ],
-    "tags": ["chat", "AI", "chatbot", "conversation", "interactive", "fun", "user-friendly"],
+    "tags": [
+      "chat",
+      "AI",
+      "chatbot",
+      "conversation",
+      "interactive",
+      "fun",
+      "user-friendly"
+    ],
     "order": 2,
-    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x720"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -55,10 +67,9 @@
     "outputColumnIndex": 0
   },
   "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "reviewsCount": 3,
+    "installationCount": 22,
+    "rating": 3.2
   },
   "elements": {
     "default": {
@@ -147,5 +158,7 @@
       }
     }
   },
-  "storeNodes": ["messages"]
+  "storeNodes": [
+    "messages"
+  ]
 }

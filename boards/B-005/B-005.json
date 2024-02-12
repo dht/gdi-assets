@@ -30,7 +30,11 @@
     ],
     "tags": [],
     "order": 2,
-    "supportedResolutions": ["1920x1080", "1366x768", "1280x800"],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x800"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -55,10 +59,9 @@
     "outputColumnIndex": 1
   },
   "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "reviewsCount": 6,
+    "installationCount": 40,
+    "rating": 4
   },
   "elements": {
     "default": {
@@ -199,5 +202,8 @@
       }
     }
   },
-  "storeNodes": ["document", "documentSuggestions"]
+  "storeNodes": [
+    "document",
+    "documentSuggestions"
+  ]
 }

@@ -39,7 +39,10 @@
       "interactive"
     ],
     "order": 2,
-    "supportedResolutions": ["1920x1080", "1280x720"],
+    "supportedResolutions": [
+      "1920x1080",
+      "1280x720"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -71,10 +74,9 @@
     "outputColumnIndex": 0
   },
   "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "reviewsCount": 2,
+    "installationCount": 15,
+    "rating": 4.2
   },
   "elements": {
     "default": {

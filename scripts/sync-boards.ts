@@ -2,7 +2,7 @@ import * as chokidar from 'chokidar';
 import * as fs from 'fs-extra';
 import { globSync } from 'glob';
 import * as kleur from 'kleur';
-import { debounce } from 'lodash';
+import { debounce, set } from 'lodash';
 import * as path from 'path';
 
 const DEBOUNCE_DELAY = 100;
@@ -35,6 +35,15 @@ function updateAllBoardsInSource(boardId: string, filename: string) {
   fs.writeJsonSync(`${sourceDir}/allboards.json`, allBoards, { spaces: 2 });
 }
 
+function updateReviewsForBoard(boardId: string, filename: string) {
+  const board = fs.readJsonSync(`${sourceDir}/${filename}`);
+  const reviews = fs.readJsonSync(`${sourceDir}/${filename.replace('.json', '.reviews.json')}`);
+
+  set(board, 'reviewInfo', reviews.reviewInfo);
+
+  fs.writeJsonSync(`${sourceDir}/${filename}`, board, { spaces: 2 });
+}
+
 function getBoardId(filepath: string) {
   const regex = /B-[0-9]{3}\/(B-[0-9]{3})\.json/;
   const match = regex.exec(filepath);
@@ -46,6 +55,7 @@ function copy(filename: string) {
 
   if (boardId) {
     console.log(kleur.green(`copied ${filename} & updated allboards.json`));
+    updateReviewsForBoard(boardId, filename);
     updateAllBoardsInSource(boardId, filename);
   }
 }
@@ -59,6 +69,9 @@ const watcher = chokidar.watch(filenames, {
 });
 
 watcher.on('change', (filename) => {
+  console.log('ignoreWrites ->', ignoreWrites);
+
+  if (ignoreWrites) return;
   copyDebounced(filename);
 });
 

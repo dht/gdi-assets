@@ -15,7 +15,6 @@
     "oneLinerShort": "Elevate ads with AI-driven 3D videos.",
     "header": "commercial for a ${topic}",
     "logoColor": "#565",
-
     "fields": [
       {
         "label": "input",
@@ -40,7 +39,10 @@
       "young_professionals"
     ],
     "order": 1,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -64,10 +66,9 @@
     "darkMode": true
   },
   "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "reviewsCount": 5,
+    "installationCount": 35,
+    "rating": 4.5
   },
   "elements": {
     "default": {

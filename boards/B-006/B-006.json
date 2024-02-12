@@ -28,9 +28,19 @@
         "content": "LLM #1, LLM #2, ElevenLabs"
       }
     ],
-    "tags": ["animation", "stop motion", "3D", "creativity", "young_artists"],
+    "tags": [
+      "animation",
+      "stop motion",
+      "3D",
+      "creativity",
+      "young_artists"
+    ],
     "order": 2,
-    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x720"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -55,10 +65,9 @@
     "outputColumnIndex": 1
   },
   "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "reviewsCount": 6,
+    "installationCount": 18,
+    "rating": 4.4
   },
   "elements": {
     "default": {
@@ -180,5 +189,7 @@
       }
     }
   },
-  "storeNodes": ["messages"]
+  "storeNodes": [
+    "messages"
+  ]
 }

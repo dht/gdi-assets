@@ -15,9 +15,17 @@
     "oneLinerShort": "Centralize and streamline asset management with Asset Manager.",
     "header": "",
     "fields": [],
-    "tags": ["asset management", "images", "voice files", "3D objects"],
+    "tags": [
+      "asset management",
+      "images",
+      "voice files",
+      "3D objects"
+    ],
     "order": 9,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -38,10 +46,9 @@
     "hidePrompt": true
   },
   "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "reviewsCount": 2,
+    "installationCount": 30,
+    "rating": 4
   },
   "elements": {
     "default": {
@@ -192,5 +199,7 @@
       }
     }
   },
-  "storeNodes": ["assets"]
+  "storeNodes": [
+    "assets"
+  ]
 }

@@ -67,10 +67,9 @@
       "darkMode": true
     },
     "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
+      "reviewsCount": 5,
+      "installationCount": 35,
+      "rating": 4.5
     },
     "storeNodes": [
       "sceneConfig",
@@ -155,10 +154,9 @@
       "outputColumnIndex": 0
     },
     "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
+      "reviewsCount": 3,
+      "installationCount": 22,
+      "rating": 3.2
     },
     "storeNodes": [
       "messages"
@@ -233,10 +231,9 @@
       "outputColumnIndex": 1
     },
     "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
+      "reviewsCount": 7,
+      "installationCount": 25,
+      "rating": 4
     },
     "storeNodes": [
       "appState"
@@ -318,10 +315,9 @@
       "outputColumnIndex": 0
     },
     "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
+      "reviewsCount": 2,
+      "installationCount": 15,
+      "rating": 4.2
     },
     "storeNodes": [
       "sceneConfig",
@@ -400,10 +396,9 @@
       "outputColumnIndex": 1
     },
     "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
+      "reviewsCount": 6,
+      "installationCount": 40,
+      "rating": 4
     },
     "storeNodes": [
       "document",
@@ -477,10 +472,9 @@
       "outputColumnIndex": 1
     },
     "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
+      "reviewsCount": 6,
+      "installationCount": 18,
+      "rating": 4.4
     },
     "storeNodes": [
       "messages"
@@ -539,10 +533,9 @@
       "outputColumnIndex": 0
     },
     "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
+      "reviewsCount": 12,
+      "installationCount": 40,
+      "rating": 4.6
     },
     "storeNodes": [
       "appState"
@@ -595,10 +588,9 @@
       "darkMode": true
     },
     "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
+      "reviewsCount": 5,
+      "installationCount": 35,
+      "rating": 4.5
     },
     "storeNodes": [
       "sceneConfig",
@@ -658,10 +650,9 @@
       "hidePrompt": true
     },
     "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
+      "reviewsCount": 2,
+      "installationCount": 30,
+      "rating": 4
     },
     "storeNodes": [
       "assets"
@@ -736,10 +727,9 @@
       "hidePrompt": true
     },
     "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
+      "reviewsCount": 4,
+      "installationCount": 3,
+      "rating": 4.2
     }
   },
   {
@@ -885,9 +875,9 @@
     "isActive": true,
     "isWip": true,
     "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
+      "reviewsCount": 5,
+      "installationCount": 10,
+      "rating": 4.5,
       "reviews": {}
     }
   },
