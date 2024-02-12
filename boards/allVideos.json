@@ -23,7 +23,8 @@
     "duration": 140,
     "creationDate": "2024-02-12 12:00:00",
     "version": "1",
-    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/fourth-wall.json"
+    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/fourth-wall.json",
+    "isActive": false
   },
   {
     "id": "park",
@@ -36,7 +37,8 @@
     "duration": 140,
     "creationDate": "2024-02-12 12:00:00",
     "version": "1",
-    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/park-expanse.json"
+    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/park-expanse.json",
+    "isActive": false
   },
   {
     "id": "vision-pro",
@@ -49,6 +51,7 @@
     "duration": 140,
     "creationDate": "2024-02-12 12:00:00",
     "version": "1",
-    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/vision-pro.json"
+    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/vision-pro.json",
+    "isActive": false
   }
 ]
