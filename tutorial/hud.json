@@ -20,7 +20,7 @@
       "tsStart": 0,
       "tsEnd": 2600,
       "origin": [0, -250],
-      "textTop": 0,
+      "textTop": 60,
       "isLeft": true,
       "cameraValues": {
         "alpha": -67.77,
