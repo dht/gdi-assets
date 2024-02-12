@@ -1,6 +1,6 @@
 [
   {
-    "id": "video1",
+    "id": "modelz",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/v_001.png",
     "iconUrl": "/logo.svg",
     "title": "ModelZ Hovercraft",
@@ -13,7 +13,7 @@
     "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/modelz.json"
   },
   {
-    "id": "video2",
+    "id": "living-room",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/v_002.png",
     "iconUrl": "/logo.svg",
     "title": "Vision Pro Conversation",
@@ -26,7 +26,7 @@
     "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/fourth-wall.json"
   },
   {
-    "id": "video3",
+    "id": "park",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/v_003.png",
     "iconUrl": "/logo.svg",
     "title": "Park Conversation",
@@ -39,7 +39,7 @@
     "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/park-expanse.json"
   },
   {
-    "id": "video4",
+    "id": "vision-pro",
     "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/v_004.png",
     "iconUrl": "/logo.svg",
     "title": "Juno Ad",
