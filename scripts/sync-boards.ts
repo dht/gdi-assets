@@ -69,9 +69,6 @@ const watcher = chokidar.watch(filenames, {
 });
 
 watcher.on('change', (filename) => {
-  console.log('ignoreWrites ->', ignoreWrites);
-
-  if (ignoreWrites) return;
   copyDebounced(filename);
 });
 

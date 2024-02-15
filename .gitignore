@@ -3,3 +3,5 @@ package-lock.json
 boards/AllBoards.out.json
 boards/_new
 boards/_processed
+scripts/*.js
+scripts/output

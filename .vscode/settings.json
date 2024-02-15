@@ -1,3 +1,8 @@
 {
-  "cSpell.words": ["IVASP", "vasp"]
+  "cSpell.words": ["IVASP", "vasp"],
+  "search.useParentIgnoreFiles": false,
+  "files.exclude": {
+    "**/B-*.jpg": true,
+    "**/B-*.mp4": true
+  }
 }

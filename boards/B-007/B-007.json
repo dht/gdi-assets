@@ -7,6 +7,7 @@
     "name": "Voice Studio",
     "index": 7,
     "imageUrl": "/images/z_soundboard.jpg",
+    "videoThumbUrl": "/images/B-007.mp4",
     "videoUrl": "https://www.youtube.com/embed/B2IChuPGMok",
     "boardType": "adhoc",
     "description": "VoiceStudio is a utility board designed to supply other boards with high-quality speech. It offers a straightforward and versatile toolset for recording and editing voiceovers, suitable for a variety of applications like narration, podcasting, and audio books. VoiceStudio's user-friendly interface makes it accessible for all skill levels, allowing for the creation of clear, engaging voiceovers without the complexity of professional audio software. It supports API-agnostic operations, seamlessly integrating with both OpenAI and ElevenLabs APIs.",

@@ -7,6 +7,7 @@
     "name": "Scene Builder",
     "index": 8,
     "imageUrl": "/images/e0.jpg",
+    "videoThumbUrl": "/images/B-008.mp4",
     "videoUrl": "https://www.youtube.com/embed/I6syvfYrLSg",
     "boardType": "adhoc",
     "description": "Scene Builder is a specialized board for creating and organizing 3D scenes, serving as a foundation for further animation or behavior additions in other boards. It offers an array of tools for users at all levels, from beginners to experienced 3D artists, to construct and customize 3D environments. The board features an intuitive interface and a comprehensive asset library, making the placement and arrangement of 3D elements straightforward. Scene Builder is essential for tasks ranging from architectural visualizations to the creation of virtual environments, facilitating the initial stage of 3D scene development.",
@@ -101,9 +102,9 @@
     "darkMode": true
   },
   "reviewInfo": {
-    "reviewsCount": 5,
-    "installationCount": 35,
-    "rating": 4.5
+    "reviewsCount": 2,
+    "installationCount": 14,
+    "rating": 4.1
   },
   "storeNodes": [
     "sceneConfig",
