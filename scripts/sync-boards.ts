@@ -36,12 +36,14 @@ function updateAllBoardsInSource(boardId: string, filename: string) {
 }
 
 function updateReviewsForBoard(boardId: string, filename: string) {
-  const board = fs.readJsonSync(`${sourceDir}/${filename}`);
-  const reviews = fs.readJsonSync(`${sourceDir}/${filename.replace('.json', '.reviews.json')}`);
+  try {
+    const board = fs.readJsonSync(`${sourceDir}/${filename}`);
+    const reviews = fs.readJsonSync(`${sourceDir}/${filename.replace('.json', '.reviews.json')}`);
 
-  set(board, 'reviewInfo', reviews.reviewInfo);
+    set(board, 'reviewInfo', reviews.reviewInfo);
 
-  fs.writeJsonSync(`${sourceDir}/${filename}`, board, { spaces: 2 });
+    fs.writeJsonSync(`${sourceDir}/${filename}`, board, { spaces: 2 });
+  } catch (err) {}
 }
 
 function getBoardId(filepath: string) {

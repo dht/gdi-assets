@@ -15,9 +15,17 @@
     "oneLinerShort": "\"The future of AI-generated videos\"",
     "header": "",
     "fields": [],
-    "tags": ["video", "AI", "content creation", "entertainment"],
+    "tags": [
+      "video",
+      "AI",
+      "content creation",
+      "entertainment"
+    ],
     "order": 8,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -40,8 +48,7 @@
   "reviewInfo": {
     "reviewsCount": 2,
     "installationCount": 5,
-    "rating": 4.5,
-    "reviews": {}
+    "rating": 4.2
   },
   "elements": {
     "default": {
