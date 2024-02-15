@@ -7,7 +7,6 @@
     "name": "Image Generator",
     "index": 3,
     "imageUrl": "/images/z_paint.jpg",
-    "videoThumbUrl": "/images/B-003.mp4",
     "videoUrl": "https://www.youtube.com/embed/W2fnrmo0MOM",
     "boardType": "linear",
     "description": "Image Generator simplifies the task of creating AI-generated visuals. Designed for developers and users of all skill levels, it offers an intuitive interface for crafting high-quality images. Utilize state-of-the-art generative AI to produce visuals ranging from practical designs to creative explorations. This tool streamlines the process of transforming your ideas into stunning visuals, ideal for projects requiring unique, AI-generated imagery.",
