@@ -61,19 +61,23 @@
     },
     "n-002": {
       "id": "n-002",
-      "name": "Phonetics",
+      "name": "Hud Animation",
       "nodeType": "llm",
-      "assistantId": "as-012-phonetics",
+      "assistantId": "as-012-hud",
       "input": {
-        "prompt": "generate a phonetic representation of ${transcriptRaw}"
+        "prompt": "generate a conversation about ${topic}"
       },
       "variables": {
-        "transcriptPhonetics": "[0].content[0].text.value",
-        "transcriptLines": "$conversationAddPhonetics"
+        "transcriptRaw": "[0].content[0].text.value",
+        "transcriptLines": "$conversationSplitTranscript"
+      },
+      "completionParams": {
+        "maxTokens": 200
       },
       "position": { "x": 150, "y": 150 },
-      "parentId": "n-001",
-      "connectors": ["n-004"]
+      "parentId": ["n-001"],
+      "connectors": ["n-012"],
+      "isStart": true
     },
     "n-003": {
       "id": "n-003",
@@ -88,35 +92,15 @@
         "transcriptLines": "$conversationAddAudio"
       },
       "position": { "x": 350, "y": 150 },
-      "connectors": ["n-004"],
-      "parentId": "n-001"
-    },
-    "n-004": {
-      "id": "n-004",
-      "name": "Hud Animation",
-      "nodeType": "llm",
-      "assistantId": "as-012-hud",
-      "input": {
-        "prompt": "generate a conversation about ${topic}"
-      },
-      "variables": {
-        "transcriptRaw": "[0].content[0].text.value",
-        "transcriptLines": "$conversationSplitTranscript"
-      },
-      "completionParams": {
-        "maxTokens": 200
-      },
-      "position": { "x": 250, "y": 300 },
-      "parentId": ["n-002", "n-003"],
       "connectors": ["n-012"],
-      "isStart": true
+      "parentId": "n-001"
     },
     "n-012": {
       "id": "n-012",
       "name": "Play",
       "nodeType": "outcome",
       "parentId": ["n-002", "n-003"],
-      "position": { "x": 250, "y": 380 },
+      "position": { "x": 250, "y": 300 },
       "isEnd": true
     }
   }

@@ -28,8 +28,8 @@
   "flowUrl": "/B-012/B-012.flow.json",
   "apis": {},
   "defaults": {
-    "setupId": "expanse",
-    "exampleId": "expanse"
+    "setupId": "helmet",
+    "exampleId": "helmet"
   },
   "examplesUrl": "/B-012/B-012.examples.json",
   "isActive": true,

@@ -1,0 +1,313 @@
+{
+  "sceneConfig": {
+    "backgroundColor": [0.0, 0.0, 0.0, 1],
+    "totalDuration": 0,
+    "sun": {
+      "intensity": 1,
+      "colors": {
+        "diffuse": [1, 1, 1],
+        "specular": [1, 1, 0]
+      }
+    },
+    "cameras": {
+      "arc": {
+        "target": [0, 0, 0],
+        "upperRadiusLimit": 30,
+        "alpha": 1,
+        "radius": 25,
+        "lowerBetaLimit": 0,
+        "beta": 1,
+        "lowerRadiusLimit": 5,
+        "upperBetaLimit": 80
+      },
+      "free": {}
+    }
+  },
+  "sceneCameras": {
+    "free": {
+      "id": "free",
+      "position": [-32, 29, 24],
+      "target": [0, 0, 0],
+      "type": "free",
+      "isSticky": true
+    },
+    "arc": {
+      "id": "arc",
+      "type": "arc",
+      "position": [0, 0, 0],
+      "target": [0, 0, 0],
+      "values": {
+        "alpha": 130,
+        "beta": 60,
+        "radius": 50
+      },
+      "isSticky": true
+    }
+  },
+  "sceneLights": {
+    "spotlight": {
+      "id": "spotlight",
+      "type": "spotlight",
+      "position": [0, 15, 0],
+      "target": [0.4, -1, 0],
+      "colors": {
+        "diffuse": [1, 1, 1],
+        "specular": [0, 1, 1]
+      },
+      "values": {
+        "intensity": 1,
+        "exponent": 50,
+        "angle": 30
+      },
+      "isSticky": true,
+      "enabled": false
+    }
+  },
+  "sceneBits": {
+    "b1": {
+      "id": "b1",
+      "name": "First bit",
+      "type": "basic",
+      "timestamp": 0,
+      "cameraId": "free",
+      "elements": {
+        "box": false,
+        "g1": true,
+        "g2": false,
+        "g3": false
+      }
+    }
+  },
+  "sceneMeshes": {},
+  "scenePacks": {},
+  "sceneVASPs": {},
+  "sceneDots": {
+    "dot_b1_free_start": {
+      "id": "dot_b1_free_start",
+      "bitId": "b1",
+      "virtualDotId": "start",
+      "cameraId": "free",
+      "values": {
+        "position": [-2, 1, -10],
+        "rotation": [4, -38, 0]
+      }
+    }
+  },
+  "sceneExternals": {
+    "x1": {
+      "id": "x1",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/helmet.glb",
+      "fileName": "helmet.glb",
+      "enabled": true
+    }
+  },
+  "sceneAudios": {
+    "audio-01": {
+      "id": "audio-01",
+      "timestamp": 8.75,
+      "duration": 0,
+      "url": "/voices/scene/v-01.mp3",
+      "fileName": ""
+    }
+  },
+  "sceneEffects": {
+    "effect-01": {
+      "id": "effect-01",
+      "timestamp": 8.75,
+      "duration": 0,
+      "effectId": "chrome",
+      "values": {}
+    }
+  },
+  "transcriptLines": {
+    "1": {
+      "id": "1",
+      "index": 0,
+      "speakerName": "Voice over",
+      "text": "Step confidently onto Mars with the MarsGuard XL"
+    },
+    "2": {
+      "id": "2",
+      "index": 1,
+      "speakerName": "Voice over",
+      "text": "...equipped with advanced nanotechnology for adaptability and safety."
+    },
+    "3": {
+      "id": "3",
+      "index": 2,
+      "speakerName": "Voice over",
+      "text": "Its Heads-Up Display technology offers real-time data on vital metrics like oxygen levels and temperature,"
+    },
+    "4": {
+      "id": "4",
+      "index": 3,
+      "speakerName": "Voice over",
+      "text": "ensuring your safety and empowering your journey."
+    },
+    "5": {
+      "id": "5",
+      "index": 4,
+      "speakerName": "Voice over",
+      "text": "Trust in MarsGuard for a secure voyage into uncharted territories."
+    }
+  },
+  "transcriptAudios": {
+    "1": {
+      "id": "1",
+      "audioId": "5288",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/5288.mp3",
+      "cost": 0.00084,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256730064,
+        "tsEnd": 1705256731446,
+        "duration": 1382
+      }
+    },
+    "2": {
+      "id": "2",
+      "audioId": "305f",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/305f.mp3",
+      "cost": 0.0007199999999999999,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256731454,
+        "tsEnd": 1705256732657,
+        "duration": 1203
+      }
+    },
+    "3": {
+      "id": "3",
+      "audioId": "f1f3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/f1f3.mp3",
+      "cost": 0.001125,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256730064,
+        "tsEnd": 1705256732492,
+        "duration": 2428
+      }
+    },
+    "4": {
+      "id": "4",
+      "audioId": "4483",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/4483.mp3",
+      "cost": 0.0035399999999999997,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256731492,
+        "tsEnd": 1705256734843,
+        "duration": 3351
+      }
+    },
+    "5": {
+      "id": "5",
+      "audioId": "ea49",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/ea49.mp3",
+      "cost": 0.0018299999999999998,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256730064,
+        "tsEnd": 1705256732450,
+        "duration": 2386
+      }
+    },
+    "6": {
+      "id": "6",
+      "audioId": "4488",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/4488.mp3",
+      "cost": 0.00087,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256731812,
+        "tsEnd": 1705256734170,
+        "duration": 2358
+      }
+    },
+    "7": {
+      "id": "7",
+      "audioId": "c0ec",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/c0ec.mp3",
+      "cost": 0.0011099999999999999,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256730064,
+        "tsEnd": 1705256731810,
+        "duration": 1746
+      }
+    },
+    "8": {
+      "id": "8",
+      "audioId": "ea6d",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/ea6d.mp3",
+      "cost": 0.001275,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256732452,
+        "tsEnd": 1705256734230,
+        "duration": 1778
+      }
+    },
+    "9": {
+      "id": "9",
+      "audioId": "3275",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/3275.mp3",
+      "cost": 0.00096,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256730064,
+        "tsEnd": 1705256731492,
+        "duration": 1428
+      }
+    },
+    "10": {
+      "id": "10",
+      "audioId": "953f",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/953f.mp3",
+      "cost": 0.00138,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256732493,
+        "tsEnd": 1705256734109,
+        "duration": 1616
+      }
+    },
+    "11": {
+      "id": "11",
+      "audioId": "45b7",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/45b7.mp3",
+      "cost": 0.001125,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256732658,
+        "tsEnd": 1705256734245,
+        "duration": 1587
+      }
+    },
+    "12": {
+      "id": "12",
+      "audioId": "45f8",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/45f8.mp3",
+      "cost": 0.0010949999999999998,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256734110,
+        "tsEnd": 1705256735527,
+        "duration": 1417
+      }
+    },
+    "13": {
+      "id": "13",
+      "audioId": "37cc",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/37cc.mp3",
+      "cost": 0.0005250000000000001,
+      "isSuccess": true,
+      "meta": {
+        "tsStart": 1705256734171,
+        "tsEnd": 1705256737189,
+        "duration": 3018
+      }
+    }
+  },
+  "assets": {}
+}
