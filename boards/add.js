@@ -57,12 +57,12 @@ const createBoard = (index, json) => {
 const changeId = (seq, index) => {
   const item = allBoards[seq];
 
-  console.log('item.id ->', item.id);
+  console.log('item.id =>', item.id);
 
   const content = JSON.stringify(item, null, 2);
   const regex = new RegExp(item.id, 'g');
   const newId = `B-${lz(index + 1)}`;
-  console.log('newId ->', newId);
+  console.log('newId =>', newId);
 
   const newContent = content.replace(regex, newId);
   allBoards[seq] = JSON.parse(newContent);

@@ -13,8 +13,8 @@ const renameBoard = (source, dest) => {
     fs.removeSync(`./${destId}`);
   }
 
-  console.log('sourceId ->', sourceId);
-  console.log('destId ->', destId);
+  console.log('sourceId =>', sourceId);
+  console.log('destId =>', destId);
 
   fs.mkdirSync(`./${destId}/`);
   fs.copySync(`./${sourceId}/`, `./${destId}/`);
