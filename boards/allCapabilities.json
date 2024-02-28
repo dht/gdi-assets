@@ -1,7 +1,7 @@
 {
-  "animation_3d": {
-    "id": "animation_3d",
-    "identifier": "com.usegdi.animation_3d",
+  "animation-3d": {
+    "id": "animation-3d",
+    "identifier": "com.usegdi.animation-3d",
     "name": "Create a 3D Animation",
     "description": "Create a 3D animation using various AI-powered sources",
     "iconName": "",
@@ -24,35 +24,35 @@
     ],
     "instructions": [
       {
-        "id": "generate_script",
+        "id": "generate-script",
         "name": "Generate a script",
         "boardId": "B-007"
       },
       {
-        "id": "upload_3D_assets",
+        "id": "upload-3D-assets",
         "name": "Upload 3D assets",
         "boardId": "B-001"
       },
       {
-        "id": "generate_voiceover",
+        "id": "generate-voiceover",
         "name": "Generate voiceover",
         "boardId": "B-002"
       },
       {
-        "id": "create_scene",
+        "id": "create-scene",
         "name": "Create a scene",
         "boardId": "B-001"
       },
       {
-        "id": "animate_scene",
+        "id": "animate-scene",
         "name": "Animate scene",
         "boardId": "B-001"
       }
     ]
   },
-  "prepare_meeting": {
-    "id": "prepare_meeting",
-    "identifier": "com.usegdi.prepare_meeting",
+  "prepare-meeting": {
+    "id": "prepare-meeting",
+    "identifier": "com.usegdi.prepare-meeting",
     "name": "Prepare for a Meeting",
     "description": "Prepare for a meeting using AI-powered tools",
     "imageUrl": "/docs/2.png",
@@ -62,9 +62,9 @@
     "ingredients": [],
     "instructions": []
   },
-  "build_a_website": {
-    "id": "build_a_website",
-    "identifier": "com.usegdi.build_a_website",
+  "build-a-website": {
+    "id": "build-a-website",
+    "identifier": "com.usegdi.build-a-website",
     "name": "Build a website",
     "imageUrl": "/docs/3.png",
     "description": "Build a website using AI-powered tools",
@@ -74,9 +74,9 @@
     "ingredients": [],
     "instructions": []
   },
-  "write_a_post": {
-    "id": "write_a_post",
-    "identifier": "com.usegdi.write_a_post",
+  "write-a-post": {
+    "id": "write-a-post",
+    "identifier": "com.usegdi.write-a-post",
     "name": "Write a post",
     "imageUrl": "/docs/4.png",
     "description": "Write a post using AI-powered tools",
@@ -86,9 +86,9 @@
     "ingredients": [],
     "instructions": []
   },
-  "manage_finances": {
-    "id": "manage_finances",
-    "identifier": "com.usegdi.manage_finances",
+  "manage-finances": {
+    "id": "manage-finances",
+    "identifier": "com.usegdi.manage-finances",
     "name": "Manage Finances",
     "imageUrl": "/docs/5.png",
     "pilar": "productivity",
@@ -110,9 +110,9 @@
     "ingredients": [],
     "instructions": []
   },
-  "debug_express": {
-    "id": "debug_express",
-    "identifier": "com.usegdi.debug_express",
+  "debug-express": {
+    "id": "debug-express",
+    "identifier": "com.usegdi.debug-express",
     "name": "Debug an Express App",
     "imageUrl": "/docs/7.png",
     "description": "Debug an Express app using AI-powered tools",
