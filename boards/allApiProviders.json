@@ -4,6 +4,7 @@
     "name": "OpenAI",
     "description": "OpenAI is a leading provider of AI models and APIs.",
     "providerType": "AI",
+    "imageUrl": "/docs/18.png",
     "models": [
       "text-generation",
       "text-to-speech",
@@ -18,6 +19,7 @@
     "name": "ElevenLabs",
     "description": "ElevenLabs  specializes in Speech and Audio AI models and APIs.",
     "providerType": "AI",
+    "imageUrl": "/docs/19.png",
     "models": ["text-to-speech", "text-to-audio", "speech-to-text", "speech-to-speech"]
   }
 }
