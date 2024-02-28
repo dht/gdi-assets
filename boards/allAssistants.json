@@ -1071,6 +1071,14 @@
     "tools": []
   },
   {
+    "id": "as-openai-tools",
+    "name": "OpenAI Tools Assistant",
+    "description": "An assistant that helps create tools arguments for the OpenAI API.",
+    "instructions": "You can ask me to help create tools arguments for the OpenAI API by providing information such as function name, description, parameters, and their descriptions and types.",
+    "model": "gpt-3.5-turbo-1106",
+    "tools": []
+  },
+  {
     "id": "gdi-board-creator",
     "name": "GDI Board Creator",
     "description": "A personal assistant to help you create new GDI board.",
