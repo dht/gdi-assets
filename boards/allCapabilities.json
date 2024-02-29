@@ -24,27 +24,28 @@
     ],
     "instructions": [
       {
-        "id": "generate-script",
+        "id": "generate_script",
         "name": "Generate a script",
+        "boardId": "B-005"
+      },
+      {
+        "id": "upload_3D_assets",
+        "name": "Upload 3D assets",
+        "boardId": "B-009",
+        "isSilent": true
+      },
+      {
+        "id": "generate_voiceover",
+        "name": "Generate voiceover",
         "boardId": "B-007"
       },
       {
-        "id": "upload-3D-assets",
-        "name": "Upload 3D assets",
-        "boardId": "B-001"
-      },
-      {
-        "id": "generate-voiceover",
-        "name": "Generate voiceover",
-        "boardId": "B-002"
-      },
-      {
-        "id": "create-scene",
+        "id": "create_scene",
         "name": "Create a scene",
-        "boardId": "B-001"
+        "boardId": "B-008"
       },
       {
-        "id": "animate-scene",
+        "id": "animate_scene",
         "name": "Animate scene",
         "boardId": "B-001"
       }
