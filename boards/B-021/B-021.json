@@ -1,49 +1,48 @@
 {
   "id": "B-021",
-  "identifier": "com.usegdi.debater-workshop",
+  "identifier": "com.usegdi.git-evolution",
   "version": "0.1.0",
   "url": "/boards/B-021",
   "boardInfo": {
-    "name": "Debater's Workshop",
+    "name": "Git Evolution",
     "index": 21,
-    "imageUrl": "/images/d0.jpg",
+    "imageUrl": "/images/i_git.jpg",
     "videoThumbUrl": "/images/B-021.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Develop your critical thinking skills with education centered on logical fallacies, rhetoric, and information analysis. Learn through practical examples and diverse methods that empower you to recognize, evaluate, and respond to different forms of reasoning and argumentation in an informed and analytical manner.",
-    "descriptionLong": "The Debate's Workshop board is your gateway to mastering logical fallacies, rhetoric, and information analysis. Explore diverse methods and real-world examples to sharpen your skills in identifying faulty reasoning, analyzing rhetoric, and critically evaluating information. Gain the expertise to engage in informed, thoughtful, and analytical discourse.",
-    "oneLiner": "Empower critical thinking through practical education and real-world examples.",
-    "oneLinerShort": "Empower critical thinking through practical education.",
-    "header": "education on logical fallacies, rhetoric, and information analysis",
-    "logoColor": "#8A2BE2",
+    "description": "Step into the captivating visual world of your Git project's evolution with the Git Evolution. This immersive tool transforms your codebase history into an animated visual journey, illustrating code contributions, branch activities, and collaborative development. Witness the evolution of your project in an engaging and dynamic presentation reminiscent of Gource's visual storytelling.",
+    "descriptionLong": "The Git Evolution offers a unique perspective on your Git project's evolution. Through dynamic visual animations and interactive displays, it provides a compelling narrative of code contributions, branch activities, and collaborative efforts over time. Experience the power of visual storytelling as your project's history comes to life in an enthralling and captivating presentation.",
+    "oneLiner": "Experience the animated evolution of your Git project's codebase.",
+    "oneLinerShort": "Engage with your project's history through captivating visual storytelling.",
+    "header": "Git Evolution for captivating codebase storytelling",
+    "logoColor": "#FF7043",
     "fields": [
       {
-        "label": "skills",
-        "content": "Logical Fallacies, Rhetoric, Information Analysis"
+        "label": "codeContributions",
+        "content": "Animation"
       },
       {
-        "label": "methods",
-        "content": "Practical Examples, Learning by Example, Diverse Methods"
+        "label": "branchActivities",
+        "content": "Animation"
       },
       {
-        "label": "focus",
-        "content": "Critical Thinking, Analytical Discourse"
+        "label": "collaborativeDevelopment",
+        "content": "Animation"
       }
     ],
     "tags": [
-      "critical-thinking",
-      "logical-fallacies",
-      "rhetoric",
-      "information-analysis",
-      "education",
-      "real-world-examples"
+      "git",
+      "project_evolution",
+      "visualizer",
+      "code_contributions",
+      "collaborative_development",
+      "storytelling"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768",
-      "1280x720"
+      "1366x768"
     ],
-    "tsVersion": "2024-03-01 14:00:00"
+    "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
   "dependencies": {
@@ -52,7 +51,9 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {},
+  "defaults": {
+    "previewPath": "/static/git-evolution-visualizer-model.json"
+  },
   "flowUrl": "/B-021/B-021.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-021",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -66,8 +67,7 @@
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "rating": 0
   },
   "elements": {
     "default": {
@@ -83,73 +83,118 @@
           "x": 20,
           "y": 6
         },
-        "boardId": "B-801",
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "B-023",
         "flags": {}
       },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.youtube",
-        "title": "Youtube",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
-          "x": 62,
+          "x": 56,
           "y": 4
         },
         "dimension": {
-          "x": 57,
-          "y": 17
+          "x": 63,
+          "y": 42
         },
-        "boardId": "B-801",
+        "boardId": "B-023",
         "flags": {},
         "props": {
-          "autoSize": true,
-          "videoId": "s0dMTAQM4cw"
+          "showBigWip": true
         }
       },
       "e3": {
         "id": "e3",
-        "widgetId": "com.usegdi.starter.transcript",
-        "title": "Transcript",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
-          "x": 62,
-          "y": 21
+          "x": 2,
+          "y": 7
         },
         "dimension": {
-          "x": 57,
-          "y": 25
+          "x": 63,
+          "y": 39
         },
-        "boardId": "B-004",
-        "flags": {}
+        "boardId": "B-023",
+        "flags": {},
+        "flavour": "default",
+        "props": {}
       },
       "e4": {
         "id": "e4",
-        "widgetId": "com.usegdi.starter.youtube-layers",
-        "title": "YoutubeLayers",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 2,
-          "y": 8
+          "y": 4
         },
         "dimension": {
-          "x": 57,
-          "y": 9
+          "x": 63,
+          "y": 42
         },
-        "boardId": "B-801",
+        "boardId": "B-023",
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 1,
+        "boardId": "B-023",
         "flags": {},
         "props": {}
       },
-      "e5": {
-        "id": "e5",
-        "widgetId": "com.usegdi.starter.youtube-layer",
-        "title": "YoutubeLayer",
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 2,
-          "y": 17
+          "y": 4
         },
         "dimension": {
-          "x": 57,
-          "y": 29
+          "x": 121,
+          "y": 48
         },
-        "boardId": "B-801",
-        "flags": {}
+        "boardId": "B-023",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-023",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
       }
     }
   }

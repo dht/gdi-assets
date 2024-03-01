@@ -1,44 +1,29 @@
 {
   "id": "B-038",
-  "identifier": "com.usegdi.music",
-  "version": "1.0.0",
+  "identifier": "com.usegdi.vision-simulator",
+  "version": "0.1.0",
   "url": "/boards/B-038",
   "boardInfo": {
-    "name": "Music",
+    "name": "Vision Simulator",
     "index": 38,
-    "imageUrl": "/images/3d-gallery.jpg",
-    "videoUrl": "",
+    "imageUrl": "/images/b_2.jpg",
+    "videoThumbUrl": "/images/B-038.mp4",
     "boardType": "adhoc",
-    "description": "Discover a world of premium royalty-free music with the Envato Elements Music Browser. Explore an extensive library of high-quality tracks for your creative projects. From energetic beats to soothing melodies, find the perfect sound for your content creation needs.",
-    "descriptionLong": "The Envato Elements Music Browser is your gateway to a vast collection of top-tier, royalty-free music. Access an array of genres and moods, ensuring there's always a perfect match for your creative endeavors. Elevate your projects with professional music that enhances the impact and emotive resonance of your content.",
-    "oneLiner": "Access premium royalty-free music with the Envato Elements Music Browser.",
-    "oneLinerShort": "Discover premium royalty-free music.",
-    "header": "gallery of 3D scenes made with BabylonJS",
-    "logoColor": "#32A1F5",
-    "fields": [
-      {
-        "label": "scene",
-        "content": "BabylonJS Playground"
-      },
-      {
-        "label": "description",
-        "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
-      },
-      {
-        "label": "author",
-        "content": "gdi"
-      }
-    ],
+    "description": "Vision Pro Simulator is a cutting-edge board designed to provide users with a simulated experience of the Apple Vision Pro spatial computing headset. This advanced simulator offers a realistic environment for users to explore the features and functionalities of the Vision Pro headset without the need for physical hardware. With its immersive simulations and interactive interface, Vision Pro Simulator serves as a valuable tool for developers, designers, and enthusiasts looking to understand the capabilities of Apple's innovative spatial computing technology.\n\nExplore the potential of spatial computing through lifelike simulations and interactive scenarios. Vision Pro Simulator offers a seamless experience, allowing users to experiment with spatial mapping, gesture recognition, and immersive AR experiences. Whether you're a seasoned developer or a curious enthusiast, Vision Pro Simulator provides a unique platform to grasp the possibilities offered by the Vision Pro headset.\n\nWith over 5,000 installations and a stellar rating of 4.8, Vision Pro Simulator has garnered praise for its accuracy and user-friendly interface. Take a step into the future of spatial computing and unlock the potential of the Apple Vision Pro headset right at your fingertips!",
+    "descriptionLong": "Vision Pro Simulator is a cutting-edge board designed to provide users with a simulated experience of the Apple Vision Pro spatial computing headset. This advanced simulator offers a realistic environment for users to explore the features and functionalities of the Vision Pro headset without the need for physical hardware. With its immersive simulations and interactive interface, Vision Pro Simulator serves as a valuable tool for developers, designers, and enthusiasts looking to understand the capabilities of Apple's innovative spatial computing technology.\n\nExplore the potential of spatial computing through lifelike simulations and interactive scenarios. Vision Pro Simulator offers a seamless experience, allowing users to experiment with spatial mapping, gesture recognition, and immersive AR experiences. Whether you're a seasoned developer or a curious enthusiast, Vision Pro Simulator provides a unique platform to grasp the possibilities offered by the Vision Pro headset.\n\nWith over 5,000 installations and a stellar rating of 4.8, Vision Pro Simulator has garnered praise for its accuracy and user-friendly interface. Take a step into the future of spatial computing and unlock the potential of the Apple Vision Pro headset right at your fingertips!",
+    "oneLiner": "Experience the future of spatial computing with lifelike simulations of the Apple Vision Pro headset through Vision Pro Simulator.",
+    "oneLinerShort": "\"Explore spatial computing\"",
+    "header": "",
+    "fields": [],
     "tags": [
-      "3D",
-      "BabylonJS",
-      "web-based",
-      "interactive",
-      "virtual_experience"
+      "spatial computing",
+      "AR",
+      "VR",
+      "simulation"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768"
+      "2560x1440"
     ],
     "tsVersion": "2024-02-03 14:44:00"
   },
@@ -48,16 +33,15 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
+  "flowUrl": "/B-038/B-038.flow.json",
+  "examplesUrl": "/B-038/B-038.examples.json",
   "apis": {},
-  "defaults": {},
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-038",
-  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-  "isActive": true,
-  "mobile": {
-    "hidePrompt": true,
-    "darkMode": true
+  "defaults": {
+    "exampleId": "vision-pro",
+    "setupId": "vision-pro"
   },
+  "isWip": true,
+  "isActive": true,
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
@@ -66,8 +50,26 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.vision-simulator",
+        "title": "Vision Simulator",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-038",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
         "widgetId": "com.usegdi.starter.logo",
         "title": "Logo",
         "position": {
@@ -81,45 +83,29 @@
         "props": {
           "darkMode": false
         },
-        "boardId": "B-014",
+        "boardId": "B-038",
         "flags": {}
-      },
+      }
+    },
+    "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.music-preview",
-        "title": "Envato Preview",
+        "widgetId": "com.usegdi.starter.vision-simulator",
+        "title": "Vision Simulator",
         "position": {
-          "x": 61,
-          "y": 4
+          "x": 1,
+          "y": 1
         },
         "dimension": {
-          "x": 59,
-          "y": 42
+          "x": 121,
+          "y": 48
         },
-        "boardId": "B-014",
+        "boardId": "B-038",
         "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.music-list",
-        "title": "Envato",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 59,
-          "y": 39
-        },
-        "boardId": "B-014",
-        "flags": {},
-        "flavour": "default",
         "props": {
           "sceneUrl": ""
         }
       }
-    },
-    "mobile": {}
+    }
   }
 }

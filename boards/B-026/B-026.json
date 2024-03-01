@@ -1,51 +1,48 @@
 {
   "id": "B-026",
-  "identifier": "com.usegdi.finances",
+  "identifier": "com.usegdi.periscope",
   "version": "0.1.0",
   "url": "/boards/B-026",
   "boardInfo": {
-    "name": "Finances",
+    "name": "Periscope",
     "index": 26,
-    "imageUrl": "/images/i_finances.jpg",
+    "imageUrl": "/images/d3.jpg",
     "videoThumbUrl": "/images/B-026.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Take control of your finances with Finances. This all-in-one platform enables users to track expenses, manage budgets, set financial goals, and gain valuable insights into their financial health. From expense categorization to investment tracking, Finances offers a comprehensive toolkit to promote financial well-being and informed decision-making.",
-    "descriptionLong": "Finances is designed to empower individuals to make informed financial decisions and achieve their monetary objectives. With intuitive visualizations and robust analysis tools, users can gain a clear understanding of their spending habits, savings progress, and investment performance. Whether managing day-to-day expenses or planning for the future, this platform is your trusted financial companion.",
-    "oneLiner": "Empower yourself with personalized financial management and insightful analytics.",
-    "oneLinerShort": "Track expenses, manage budgets, and achieve financial goals effortlessly.",
-    "header": "Finances for holistic financial well-being",
-    "logoColor": "#4CAF50",
+    "description": "Gain comprehensive insights with Periscope. Explore diverse perspectives, uncover information, and find varying opinions on a particular focus. Seamlessly shift through different angles and narratives to gain a multifaceted understanding of the subject, supported by varied sources, videos, and imagery.",
+    "descriptionLong": "Periscope is your tool for in-depth exploration of, well, anything, offering a holistic view of the subject matter. By placing the focus at the center, this board presents diverse perspectives from multiple sources, providing a rich narrative woven from various angles. Dive into comprehensive information, videos, imagery, and more to gain a nuanced understanding.",
+    "oneLiner": "Explore multifaceted perspectives with Periscope.",
+    "oneLinerShort": "Explore multifaceted perspectives.",
+    "header": "comprehensive insights gathered around a focus from diverse sources",
+    "logoColor": "#FF5733",
     "fields": [
       {
-        "label": "expenseCategory",
-        "content": "String"
+        "label": "focus",
+        "content": "Individuals, Events"
       },
       {
-        "label": "budgetAllocation",
-        "content": "Object"
+        "label": "information",
+        "content": "Multiple Angles, Varied Sources"
       },
       {
-        "label": "investmentPerformance",
-        "content": "Array"
-      },
-      {
-        "label": "financialGoals",
-        "content": "Object"
+        "label": "media",
+        "content": "Videos, Imagery, Text"
       }
     ],
     "tags": [
-      "personal_finance",
-      "expense_tracking",
-      "budget_management",
-      "investment_tracking",
-      "financial_goals"
+      "Periscope",
+      "multi-perspective",
+      "comprehensive-insights",
+      "focused-exploration",
+      "varied-sources"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768"
+      "1366x768",
+      "1280x720"
     ],
-    "tsVersion": "2024-02-03 14:44:00"
+    "tsVersion": "2024-02-25 11:00:00"
   },
   "author": "gdi",
   "dependencies": {
@@ -54,9 +51,7 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {
-    "previewPath": "/static/personal-finances-model.json"
-  },
+  "defaults": {},
   "flowUrl": "/B-026/B-026.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-026",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -70,12 +65,31 @@
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
-    "rating": 0
+    "rating": 0,
+    "reviews": {}
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.periscope",
+        "title": "Periscope",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-026",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
         "widgetId": "com.usegdi.starter.logo",
         "title": "Logo",
         "position": {
@@ -89,67 +103,15 @@
         "props": {
           "darkMode": false
         },
-        "boardId": "B-023",
+        "boardId": "B-026",
         "flags": {}
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 56,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "props": {
-          "showBigWip": true
-        }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 63,
-          "y": 39
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
+        "widgetId": "com.usegdi.starter.periscope",
+        "title": "Periscope",
         "position": {
           "x": 1,
           "y": 1
@@ -158,46 +120,11 @@
           "x": 121,
           "y": 48
         },
-        "columnIndex": 1,
-        "boardId": "B-023",
+        "boardId": "B-026",
         "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
+        "props": {
+          "sceneUrl": ""
+        }
       }
     }
   }

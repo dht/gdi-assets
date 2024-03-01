@@ -1,44 +1,27 @@
 {
   "B-001": {
     "id": "B-001",
-    "identifier": "com.usegdi.3d-animations",
+    "identifier": "com.usegdi.asset-manager",
     "version": "0.1.0",
     "url": "/boards/B-001",
     "boardInfo": {
-      "name": "3D Ad Creator",
+      "name": "Asset Manager",
       "index": 1,
-      "imageUrl": "/images/z_3d.jpg",
+      "imageUrl": "/images/10.jpg",
       "videoThumbUrl": "/images/B-001.mp4",
-      "videoUrl": "https://www.youtube.com/embed/c7jAhBZgZuI",
+      "videoUrl": "https://www.youtube.com/embed/PJkWAnKCdyQ",
       "boardType": "adhoc",
-      "description": "3D Ad Creator redefines digital advertising by enabling the creation of immersive 3D video ads with ease. Leveraging advanced AI technology, it allows both novices and professionals to craft engaging content effortlessly. This tool transforms ad creation into an intuitive and rewarding experience, ensuring your message captivates and resonates with audiences.",
-      "descriptionLong": "The 3D Ad Creator stands as a cornerstone in digital advertising innovation. Its state-of-the-art AI technology facilitates the creation of mesmerizing 3D video advertisements. The platform is designed for creators at every skill level, simplifying the process while delivering high-quality, impactful results. The 3D Ad Creator is not just a tool; it's a gateway to creating ads that leave a lasting impression.",
-      "oneLiner": "Elevate digital advertising with 3D Ad Creator's AI-driven, immersive video ads.",
-      "oneLinerShort": "Elevate ads with AI-driven 3D videos.",
-      "header": "commercial for a ${topic}",
-      "logoColor": "#565",
-      "fields": [
-        {
-          "label": "input",
-          "content": "Prompt"
-        },
-        {
-          "label": "output",
-          "content": "3d ad"
-        },
-        {
-          "label": "engines",
-          "content": "LLM #1, LLM #2, ElevenLabs"
-        }
-      ],
+      "description": "Asset Manager is a utility board essential for organizing and managing a diverse range of digital assets, from images and textual documents to background music, voice recordings, and even JSONs of 3D scenes. It offers an efficient way to import external assets and integrate them with those created in other boards. The board facilitates tagging, grouping by projects, and managing assets as easily as navigating a filesystem. Its versatility makes it ideal for users who need to maintain an organized repository of various digital elements for their projects.",
+      "descriptionLong": "Asset Manager is designed to be the backbone of asset organization within your project workflows, accommodating everything from images and textual content to audio files and 3D scene JSONs. This board simplifies the process of handling diverse digital assets, providing functionalities akin to a robust filesystem. Users can import assets from external sources, categorize them with multiple tags, and organize them into project-specific groups. Asset Manager’s interface is intuitive, allowing for easy navigation, copying, moving, and management of assets. It’s an indispensable utility for anyone dealing with a multitude of digital components, streamlining the asset management process and ensuring efficient access and organization.",
+      "oneLiner": "Efficiently manage a wide range of digital assets with Asset Manager, your go-to board for organized asset control.",
+      "oneLinerShort": "Centralize and streamline asset management with Asset Manager.",
+      "header": "",
+      "fields": [],
       "tags": [
-        "video",
-        "ads",
-        "3D",
-        "media",
-        "top_installed",
-        "editor_choice",
-        "young_professionals"
+        "asset management",
+        "images",
+        "voice files",
+        "3D objects"
       ],
       "supportedResolutions": [
         "1920x1080",
@@ -53,55 +36,42 @@
       "@gdi/widgets-starter": "^1.0.0"
     },
     "apis": {},
-    "defaults": {
-      "exampleId": "modelz"
-    },
-    "examplesUrl": "/B-001/B-001.examples.json",
+    "defaults": {},
     "flowUrl": "/B-001/B-001.flow.json",
+    "isActive": true,
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-001",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
     "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
+      "darkMode": true,
+      "columns": 2,
+      "hidePrompt": true
     },
     "reviewInfo": {
-      "reviewsCount": 5,
-      "installationCount": 35,
-      "rating": 4.5
+      "reviewsCount": 2,
+      "installationCount": 30,
+      "rating": 4
     },
     "storeNodes": [
-      "sceneConfig",
-      "sceneCameras",
-      "sceneLights",
-      "sceneBits",
-      "sceneMeshes",
-      "scenePacks",
-      "sceneVASPs",
-      "sceneDots",
-      "sceneExternals",
-      "sceneAudios",
-      "sceneEffects"
+      "assets"
     ]
   },
   "B-002": {
     "id": "B-002",
-    "identifier": "com.usegdi.chit-chat",
+    "identifier": "com.usegdi.writers-team",
     "version": "0.1.0",
     "url": "/boards/B-002",
     "boardInfo": {
-      "name": "ChitChat",
+      "name": "Writers Team",
       "index": 2,
-      "imageUrl": "/images/z_chitchat.jpg",
+      "imageUrl": "/images/z_writer.jpg",
       "videoThumbUrl": "/images/B-002.mp4",
-      "videoUrl": "https://www.youtube.com/embed/gxwujpImFy8",
+      "videoUrl": "https://www.youtube.com/embed/yz5NuRxs39E",
       "boardType": "continues",
-      "description": "ChitChat offers a straightforward and easy-to-use platform for engaging with a basic AI-powered chatbot. Its interface is user-friendly, resembling a typical chat window, which makes for uncomplicated and straightforward conversations. Using a simplified version of ChatGPT technology, ChitChat is capable of generating responses that are coherent and relevant, perfect for casual chats or quick inquiries.",
-      "descriptionLong": "ChitChat is a no-frills, easy-to-navigate board that brings the essentials of AI chat technology to your fingertips. Its interface is clean and familiar, ensuring ease of use for all types of users. While it operates on a more basic version of ChatGPT technology, it proficiently handles everyday conversations and queries, providing responses that are to the point yet engaging. ChitChat is ideal for users who need a quick, efficient, and hassle-free chatbot experience.",
-      "oneLiner": "Engage in straightforward conversations with ChitChat's basic AI chatbot.",
-      "oneLinerShort": "Simple, efficient AI chats with ChitChat.",
-      "header": "Chat with GPT",
+      "description": "Writers Team is an essential starting point for many workflows in the GDI ecosystem, to generate script initial content. It offers a straightforward interface for generating AI-driven documents, serving as a foundational tool for further project development. From here, users can take their AI-scripted output to other boards, integrating and building upon it. Whether drafting initial scripts or creating detailed documentation, Writers Team provides a robust platform to produce high-quality, unique content tailored to your project needs.",
+      "descriptionLong": "Writers Team stands as a cornerstone in the GDI ecosystem. It simplifies the initial scripting process with its advanced AI technology, making it a go-to board for generating the foundational documents needed in various workflows. This board's intuitive interface welcomes users of all skill levels to create professional-quality scripts and documents. These AI-crafted outputs serve as the perfect starting point, which can be further developed and refined across the GDI platform. Writers Team is not just a document creator; it's a springboard for innovative project development, ensuring unique, tailored content for every use case.",
+      "oneLiner": "Start your GDI workflow with AI-scripted documents from Writers Team.",
+      "oneLinerShort": "Initiate GDI projects with AI-driven scripting on Writers Team.",
+      "header": "Write about ${prompt}",
       "fields": [
         {
           "label": "input",
@@ -116,19 +86,11 @@
           "content": "LLM #1, LLM #2, ElevenLabs"
         }
       ],
-      "tags": [
-        "chat",
-        "AI",
-        "chatbot",
-        "conversation",
-        "interactive",
-        "fun",
-        "user-friendly"
-      ],
+      "tags": [],
       "supportedResolutions": [
         "1920x1080",
         "1366x768",
-        "1280x720"
+        "1280x800"
       ],
       "tsVersion": "2024-02-03 14:44:00"
     },
@@ -149,17 +111,18 @@
     "isActive": true,
     "mobile": {
       "darkMode": true,
-      "columns": 2,
-      "flowColumnIndex": 1,
-      "outputColumnIndex": 0
+      "columns": 3,
+      "flowColumnIndex": 2,
+      "outputColumnIndex": 1
     },
     "reviewInfo": {
-      "reviewsCount": 3,
-      "installationCount": 22,
-      "rating": 3.2
+      "reviewsCount": 6,
+      "installationCount": 40,
+      "rating": 4
     },
     "storeNodes": [
-      "messages"
+      "document",
+      "documentSuggestions"
     ]
   },
   "B-003": {
@@ -240,48 +203,31 @@
   },
   "B-004": {
     "id": "B-004",
-    "identifier": "com.usegdi.park-conversation",
+    "identifier": "com.usegdi.voice-studio",
     "version": "0.1.0",
     "url": "/boards/B-004",
     "boardInfo": {
-      "name": "Park Conversation",
+      "name": "Voice Studio",
       "index": 4,
-      "imageUrl": "/images/z_park.jpg",
+      "imageUrl": "/images/z_soundboard.jpg",
       "videoThumbUrl": "/images/B-004.mp4",
-      "videoUrl": "https://www.youtube.com/embed/hHcgTR7SAos",
-      "boardType": "linear",
-      "description": "Park Conversation is a unique board that brings 3D conversation simulations to life. Set in a virtual park, it features three teenagers engaging in dynamic discussions on any given topic. Leveraging advanced AI, it synthesizes realistic voice dialogues, complete with accurate lip-syncing, to craft an immersive conversational experience. This board moves beyond traditional simulations, offering an interactive platform where characters debate and discuss a wide range of subjects, from current events to movies or sports, all in a lifelike manner.",
-      "descriptionLong": "Park Conversation board stands out in the realm of 3D conversation simulations. Enter a virtual park where you can prompt three teenagers to discuss any topic. With cutting-edge AI technology, this board generates not just dialogues but also synchronizes them with lifelike lip movements and expressive voice modulation. The result is a remarkably immersive experience, as the characters' discussions feel genuine and engaging. From casual chats to deep debates, Park Conversation covers a broad spectrum of discussions, offering users a front-row seat to the future of interactive 3D simulations.",
-      "oneLiner": "Dive into immersive 3D conversations with teenagers in a virtual park, featuring AI-driven voice and lip-syncing.",
-      "oneLinerShort": "Explore AI-enhanced 3D park conversations with realistic voice and lip-sync.",
-      "header": "Conversation about ${prompt}",
-      "fields": [
-        {
-          "label": "input",
-          "content": "Prompt"
-        },
-        {
-          "label": "output",
-          "content": "3d conversation"
-        },
-        {
-          "label": "engines",
-          "content": "LLM #1, LLM #2, ElevenLabs"
-        }
-      ],
+      "videoUrl": "https://www.youtube.com/embed/B2IChuPGMok",
+      "boardType": "adhoc",
+      "description": "VoiceStudio is a utility board designed to supply other boards with high-quality speech. It offers a straightforward and versatile toolset for recording and editing voiceovers, suitable for a variety of applications like narration, podcasting, and audio books. VoiceStudio's user-friendly interface makes it accessible for all skill levels, allowing for the creation of clear, engaging voiceovers without the complexity of professional audio software. It supports API-agnostic operations, seamlessly integrating with both OpenAI and ElevenLabs APIs.",
+      "descriptionLong": "VoiceStudio serves as a practical utility board within a broader ecosystem, providing essential voiceover capabilities to other boards. It allows users to efficiently record, edit, and enhance voice tracks, catering to content creators across various domains. The board features a suite of user-friendly tools for multi-track recording, audio mixing, and effects processing. Its compatibility with both OpenAI and ElevenLabs APIs ensures versatility in voice generation and manipulation, accommodating a wide range of project requirements. VoiceStudio is designed for users seeking a balance between simplicity and functionality in voiceover creation, making it an ideal tool for enhancing projects with high-quality audio.",
+      "oneLiner": "VoiceStudio: Streamline voiceover creation with versatile, API-agnostic tools.",
+      "oneLinerShort": "Simplified voiceover creation with VoiceStudio.",
+      "header": "",
+      "fields": [],
       "tags": [
-        "simulation",
-        "3D",
-        "AI",
-        "conversation",
-        "voice",
-        "immersive",
-        "virtual",
-        "interactive"
+        "voiceover",
+        "recording",
+        "audio",
+        "creation"
       ],
       "supportedResolutions": [
         "1920x1080",
-        "1280x720"
+        "1366x768"
       ],
       "tsVersion": "2024-02-03 14:44:00"
     },
@@ -292,31 +238,162 @@
       "@gdi/widgets-starter": "^1.0.0"
     },
     "apis": {
-      "turbo-3.5": "OpenAI",
       "tts-1": "OpenAI",
       "eleven_multilingual_v2": "ElevenLabs",
       "eleven_turbo_v2": "ElevenLabs"
     },
-    "defaults": {
-      "setupId": "expanse",
-      "exampleId": "expanse"
-    },
-    "examplesUrl": "/B-004/B-004.examples.json",
+    "defaults": {},
     "flowUrl": "/B-004/B-004.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-004",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "isActive": true,
+    "mobile": {
+      "darkMode": true,
+      "columns": 3,
+      "flowColumnIndex": 2,
+      "outputColumnIndex": 0
+    },
+    "reviewInfo": {
+      "reviewsCount": 12,
+      "installationCount": 40,
+      "rating": 4.6
+    },
+    "storeNodes": [
+      "appState"
+    ]
+  },
+  "B-005": {
+    "id": "B-005",
+    "identifier": "com.usegdi.scene-builder",
+    "version": "0.1.0",
+    "url": "/boards/B-005",
+    "boardInfo": {
+      "name": "Scene Builder",
+      "index": 5,
+      "imageUrl": "/images/e0.jpg",
+      "videoThumbUrl": "/images/B-005.mp4",
+      "videoUrl": "https://www.youtube.com/embed/I6syvfYrLSg",
+      "boardType": "adhoc",
+      "description": "Scene Builder is a specialized board for creating and organizing 3D scenes, serving as a foundation for further animation or behavior additions in other boards. It offers an array of tools for users at all levels, from beginners to experienced 3D artists, to construct and customize 3D environments. The board features an intuitive interface and a comprehensive asset library, making the placement and arrangement of 3D elements straightforward. Scene Builder is essential for tasks ranging from architectural visualizations to the creation of virtual environments, facilitating the initial stage of 3D scene development.",
+      "descriptionLong": "Scene Builder is an efficient and user-friendly board dedicated to the generation and placement of 3D components, which can be further enhanced in other boards. It's designed to streamline the process of 3D scene creation, offering an accessible toolkit for both newcomers and professional 3D artists. This board simplifies the complexities of 3D design, providing an intuitive platform for assembling scenes using a variety of meshes, GLBs, and other 3D elements. Scene Builder is versatile enough to support a diverse range of projects, from detailed architectural models to dynamic virtual worlds, making it an ideal starting point for 3D scene creation within a larger workflow.",
+      "oneLiner": "Build and arrange 3D scenes effortlessly with Scene Builder, your starting point for 3D creativity.",
+      "oneLinerShort": "Simplify 3D scene creation with Scene Builder.",
+      "header": "",
+      "fields": [],
+      "tags": [
+        "3D",
+        "scene",
+        "visualization",
+        "creation"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-005",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "apis": {},
+    "defaults": {},
+    "flowUrl": "/B-005/B-005.flow.json",
+    "isActive": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 2,
+      "installationCount": 14,
+      "rating": 4.1
+    },
+    "storeNodes": [
+      "sceneConfig",
+      "sceneCameras",
+      "sceneLights",
+      "sceneMeshes",
+      "scenePacks",
+      "sceneVASPs",
+      "sceneExternals"
+    ]
+  },
+  "B-006": {
+    "id": "B-006",
+    "identifier": "com.usegdi.3d-animations",
+    "version": "0.1.0",
+    "url": "/boards/B-006",
+    "boardInfo": {
+      "name": "3D Ad Creator",
+      "index": 6,
+      "imageUrl": "/images/z_3d.jpg",
+      "videoThumbUrl": "/images/B-006.mp4",
+      "videoUrl": "https://www.youtube.com/embed/c7jAhBZgZuI",
+      "boardType": "adhoc",
+      "description": "3D Ad Creator redefines digital advertising by enabling the creation of immersive 3D video ads with ease. Leveraging advanced AI technology, it allows both novices and professionals to craft engaging content effortlessly. This tool transforms ad creation into an intuitive and rewarding experience, ensuring your message captivates and resonates with audiences.",
+      "descriptionLong": "The 3D Ad Creator stands as a cornerstone in digital advertising innovation. Its state-of-the-art AI technology facilitates the creation of mesmerizing 3D video advertisements. The platform is designed for creators at every skill level, simplifying the process while delivering high-quality, impactful results. The 3D Ad Creator is not just a tool; it's a gateway to creating ads that leave a lasting impression.",
+      "oneLiner": "Elevate digital advertising with 3D Ad Creator's AI-driven, immersive video ads.",
+      "oneLinerShort": "Elevate ads with AI-driven 3D videos.",
+      "header": "commercial for a ${topic}",
+      "logoColor": "#565",
+      "fields": [
+        {
+          "label": "input",
+          "content": "Prompt"
+        },
+        {
+          "label": "output",
+          "content": "3d ad"
+        },
+        {
+          "label": "engines",
+          "content": "LLM #1, LLM #2, ElevenLabs"
+        }
+      ],
+      "tags": [
+        "video",
+        "ads",
+        "3D",
+        "media",
+        "top_installed",
+        "editor_choice",
+        "young_professionals"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {},
+    "defaults": {
+      "exampleId": "modelz"
+    },
+    "examplesUrl": "/B-006/B-006.examples.json",
+    "flowUrl": "/B-006/B-006.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-006",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
     "mobile": {
-      "darkMode": true,
-      "columns": 2,
-      "flowColumnIndex": 1,
-      "outputColumnIndex": 0
+      "hidePrompt": true,
+      "darkMode": true
     },
     "reviewInfo": {
-      "reviewsCount": 2,
-      "installationCount": 15,
-      "rating": 4.2
+      "reviewsCount": 5,
+      "installationCount": 35,
+      "rating": 4.5
     },
     "storeNodes": [
       "sceneConfig",
@@ -329,47 +406,55 @@
       "sceneDots",
       "sceneExternals",
       "sceneAudios",
-      "sceneEffects",
-      "transcriptLines",
-      "transcriptAudios"
+      "sceneEffects"
     ]
   },
-  "B-005": {
-    "id": "B-005",
-    "identifier": "com.usegdi.writers-team",
+  "B-007": {
+    "id": "B-007",
+    "identifier": "com.usegdi.finances",
     "version": "0.1.0",
-    "url": "/boards/B-005",
+    "url": "/boards/B-007",
     "boardInfo": {
-      "name": "Writers Team",
-      "index": 5,
-      "imageUrl": "/images/z_writer.jpg",
-      "videoThumbUrl": "/images/B-005.mp4",
-      "videoUrl": "https://www.youtube.com/embed/yz5NuRxs39E",
-      "boardType": "continues",
-      "description": "Writers Team is an essential starting point for many workflows in the GDI ecosystem, to generate script initial content. It offers a straightforward interface for generating AI-driven documents, serving as a foundational tool for further project development. From here, users can take their AI-scripted output to other boards, integrating and building upon it. Whether drafting initial scripts or creating detailed documentation, Writers Team provides a robust platform to produce high-quality, unique content tailored to your project needs.",
-      "descriptionLong": "Writers Team stands as a cornerstone in the GDI ecosystem. It simplifies the initial scripting process with its advanced AI technology, making it a go-to board for generating the foundational documents needed in various workflows. This board's intuitive interface welcomes users of all skill levels to create professional-quality scripts and documents. These AI-crafted outputs serve as the perfect starting point, which can be further developed and refined across the GDI platform. Writers Team is not just a document creator; it's a springboard for innovative project development, ensuring unique, tailored content for every use case.",
-      "oneLiner": "Start your GDI workflow with AI-scripted documents from Writers Team.",
-      "oneLinerShort": "Initiate GDI projects with AI-driven scripting on Writers Team.",
-      "header": "Write about ${prompt}",
+      "name": "Finances",
+      "index": 7,
+      "imageUrl": "/images/i_finances.jpg",
+      "videoThumbUrl": "/images/B-007.mp4",
+      "videoUrl": "",
+      "boardType": "adhoc",
+      "description": "Take control of your finances with Finances. This all-in-one platform enables users to track expenses, manage budgets, set financial goals, and gain valuable insights into their financial health. From expense categorization to investment tracking, Finances offers a comprehensive toolkit to promote financial well-being and informed decision-making.",
+      "descriptionLong": "Finances is designed to empower individuals to make informed financial decisions and achieve their monetary objectives. With intuitive visualizations and robust analysis tools, users can gain a clear understanding of their spending habits, savings progress, and investment performance. Whether managing day-to-day expenses or planning for the future, this platform is your trusted financial companion.",
+      "oneLiner": "Empower yourself with personalized financial management and insightful analytics.",
+      "oneLinerShort": "Track expenses, manage budgets, and achieve financial goals effortlessly.",
+      "header": "Finances for holistic financial well-being",
+      "logoColor": "#4CAF50",
       "fields": [
         {
-          "label": "input",
-          "content": "Prompt"
+          "label": "expenseCategory",
+          "content": "String"
         },
         {
-          "label": "output",
-          "content": "3d conversation"
+          "label": "budgetAllocation",
+          "content": "Object"
         },
         {
-          "label": "engines",
-          "content": "LLM #1, LLM #2, ElevenLabs"
+          "label": "investmentPerformance",
+          "content": "Array"
+        },
+        {
+          "label": "financialGoals",
+          "content": "Object"
         }
       ],
-      "tags": [],
+      "tags": [
+        "personal_finance",
+        "expense_tracking",
+        "budget_management",
+        "investment_tracking",
+        "financial_goals"
+      ],
       "supportedResolutions": [
         "1920x1080",
-        "1366x768",
-        "1280x800"
+        "1366x768"
       ],
       "tsVersion": "2024-02-03 14:44:00"
     },
@@ -379,41 +464,187 @@
       "@gdi/ui": "^1.0.0",
       "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": {
-      "turbo-3.5": "OpenAI"
+    "apis": {},
+    "defaults": {
+      "previewPath": "/static/personal-finances-model.json"
     },
-    "defaults": {},
-    "flowUrl": "/B-005/B-005.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-005",
+    "flowUrl": "/B-007/B-007.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-007",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "isWip": true,
     "mobile": {
-      "darkMode": true,
-      "columns": 3,
-      "flowColumnIndex": 2,
-      "outputColumnIndex": 1
+      "hidePrompt": true,
+      "darkMode": true
     },
     "reviewInfo": {
-      "reviewsCount": 6,
-      "installationCount": 40,
-      "rating": 4
-    },
-    "storeNodes": [
-      "document",
-      "documentSuggestions"
-    ]
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0
+    }
   },
-  "B-006": {
-    "id": "B-006",
+  "B-008": {
+    "id": "B-008",
+    "identifier": "com.usegdi.contacts",
+    "version": "0.1.0",
+    "url": "/boards/B-008",
+    "boardInfo": {
+      "name": "Contacts",
+      "index": 8,
+      "imageUrl": "/images/i_contacts.jpg",
+      "videoThumbUrl": "/images/B-008.mp4",
+      "videoUrl": "",
+      "boardType": "adhoc",
+      "description": "Efficiently organize and manage your contacts with Contacts. This versatile tool is designed to streamline the process of storing, accessing, and updating contact information. From personal connections to professional networks, Contacts simplifies contact management for enhanced productivity and connectivity.",
+      "descriptionLong": "Contacts is the ultimate solution for individuals and businesses seeking to effectively manage their contacts. With its user-friendly interface and robust features, it empowers users to maintain comprehensive contact databases effortlessly. Seamlessly organize, update, and access critical contact information, fostering better communication and relationship management.",
+      "oneLiner": "Simplify contact management with Contacts's intuitive tools.",
+      "oneLinerShort": "Streamline contact management with ease.",
+      "header": "Contacts for efficient contact organization",
+      "logoColor": "#4A90E2",
+      "fields": [
+        {
+          "label": "name",
+          "content": "String"
+        },
+        {
+          "label": "email",
+          "content": "String"
+        },
+        {
+          "label": "phone",
+          "content": "String"
+        },
+        {
+          "label": "company",
+          "content": "String"
+        }
+      ],
+      "tags": [
+        "contacts",
+        "management",
+        "organization",
+        "productivity",
+        "business"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {},
+    "defaults": {},
+    "flowUrl": "/B-008/B-008.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-002",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "isWip": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  "B-009": {
+    "id": "B-009",
+    "identifier": "com.usegdi.sales",
+    "version": "0.1.0",
+    "url": "/boards/B-009",
+    "boardInfo": {
+      "name": "Sales",
+      "index": 9,
+      "imageUrl": "/images/i_sales.jpg",
+      "videoThumbUrl": "/images/B-009.mp4",
+      "videoUrl": "https://www.youtube.com/embed/SALES_PIPELINE_MANAGER_VIDEO_ID",
+      "boardType": "adhoc",
+      "description": "Efficiently track, manage, and optimize sales pipelines with Sales. This comprehensive tool empowers sales teams to visualize, organize, and progress deals through customizable pipelines. From lead acquisition to deal closure, Sales streamlines the sales process, driving productivity and revenue growth.",
+      "descriptionLong": "Sales is designed to be the ultimate ally for sales professionals, offering intuitive features to monitor and advance deals through every stage of the pipeline. With its visual interface and robust functionality, users can gain valuable insights, prioritize tasks, and nurture leads effectively. Elevate your sales performance with Sales.",
+      "oneLiner": "Optimize sales pipelines with Sales's intuitive interface.",
+      "oneLinerShort": "Track, organize, and close deals with ease.",
+      "header": "Sales for enhanced sales performance",
+      "logoColor": "#FF5733",
+      "fields": [
+        {
+          "label": "dealName",
+          "content": "String"
+        },
+        {
+          "label": "dealValue",
+          "content": "Number"
+        },
+        {
+          "label": "dealStage",
+          "content": "String"
+        },
+        {
+          "label": "contactName",
+          "content": "String"
+        }
+      ],
+      "tags": [
+        "sales",
+        "pipelines",
+        "CRM",
+        "deals",
+        "productivity",
+        "business"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {},
+    "defaults": {
+      "previewPath": "/static/sales-pipeline-model.json"
+    },
+    "flowUrl": "/B-009/B-009.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-009",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "isWip": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  "B-010": {
+    "id": "B-010",
     "identifier": "com.usegdi.assistants",
     "version": "0.1.0",
-    "url": "/boards/B-006",
+    "url": "/boards/B-010",
     "boardInfo": {
       "name": "Assistants",
-      "index": 6,
+      "index": 10,
       "imageUrl": "/images/z_assistants.jpg",
-      "videoThumbUrl": "/images/B-006.mp4",
+      "videoThumbUrl": "/images/B-010.mp4",
       "videoUrl": "https://www.youtube.com/embed/JmdpS7bc9C4",
       "boardType": "continues",
       "description": "Assistants serves as a gateway to the OpenAI Assistant API, redefining interactions with virtual assistants. This board facilitates the creation of bespoke virtual assistants, leveraging advanced AI akin to GPTs. It offers developers the flexibility to tailor assistants to specific use cases, ranging from personal to business applications. With Assistants, gone are the limitations of generic assistants; instead, users can build assistants that align perfectly with their unique requirements and preferences.",
@@ -459,8 +690,8 @@
       "turbo-3.5": "OpenAI"
     },
     "defaults": {},
-    "flowUrl": "/B-006/B-006.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-006",
+    "flowUrl": "/B-010/B-010.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-010",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
@@ -479,138 +710,16 @@
       "messages"
     ]
   },
-  "B-007": {
-    "id": "B-007",
-    "identifier": "com.usegdi.voice-studio",
-    "version": "0.1.0",
-    "url": "/boards/B-007",
-    "boardInfo": {
-      "name": "Voice Studio",
-      "index": 7,
-      "imageUrl": "/images/z_soundboard.jpg",
-      "videoThumbUrl": "/images/B-007.mp4",
-      "videoUrl": "https://www.youtube.com/embed/B2IChuPGMok",
-      "boardType": "adhoc",
-      "description": "VoiceStudio is a utility board designed to supply other boards with high-quality speech. It offers a straightforward and versatile toolset for recording and editing voiceovers, suitable for a variety of applications like narration, podcasting, and audio books. VoiceStudio's user-friendly interface makes it accessible for all skill levels, allowing for the creation of clear, engaging voiceovers without the complexity of professional audio software. It supports API-agnostic operations, seamlessly integrating with both OpenAI and ElevenLabs APIs.",
-      "descriptionLong": "VoiceStudio serves as a practical utility board within a broader ecosystem, providing essential voiceover capabilities to other boards. It allows users to efficiently record, edit, and enhance voice tracks, catering to content creators across various domains. The board features a suite of user-friendly tools for multi-track recording, audio mixing, and effects processing. Its compatibility with both OpenAI and ElevenLabs APIs ensures versatility in voice generation and manipulation, accommodating a wide range of project requirements. VoiceStudio is designed for users seeking a balance between simplicity and functionality in voiceover creation, making it an ideal tool for enhancing projects with high-quality audio.",
-      "oneLiner": "VoiceStudio: Streamline voiceover creation with versatile, API-agnostic tools.",
-      "oneLinerShort": "Simplified voiceover creation with VoiceStudio.",
-      "header": "",
-      "fields": [],
-      "tags": [
-        "voiceover",
-        "recording",
-        "audio",
-        "creation"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768"
-      ],
-      "tsVersion": "2024-02-03 14:44:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": {
-      "tts-1": "OpenAI",
-      "eleven_multilingual_v2": "ElevenLabs",
-      "eleven_turbo_v2": "ElevenLabs"
-    },
-    "defaults": {},
-    "flowUrl": "/B-007/B-007.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-007",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "isActive": true,
-    "mobile": {
-      "darkMode": true,
-      "columns": 3,
-      "flowColumnIndex": 2,
-      "outputColumnIndex": 0
-    },
-    "reviewInfo": {
-      "reviewsCount": 12,
-      "installationCount": 40,
-      "rating": 4.6
-    },
-    "storeNodes": [
-      "appState"
-    ]
-  },
-  "B-008": {
-    "id": "B-008",
-    "identifier": "com.usegdi.scene-builder",
-    "version": "0.1.0",
-    "url": "/boards/B-008",
-    "boardInfo": {
-      "name": "Scene Builder",
-      "index": 8,
-      "imageUrl": "/images/e0.jpg",
-      "videoThumbUrl": "/images/B-008.mp4",
-      "videoUrl": "https://www.youtube.com/embed/I6syvfYrLSg",
-      "boardType": "adhoc",
-      "description": "Scene Builder is a specialized board for creating and organizing 3D scenes, serving as a foundation for further animation or behavior additions in other boards. It offers an array of tools for users at all levels, from beginners to experienced 3D artists, to construct and customize 3D environments. The board features an intuitive interface and a comprehensive asset library, making the placement and arrangement of 3D elements straightforward. Scene Builder is essential for tasks ranging from architectural visualizations to the creation of virtual environments, facilitating the initial stage of 3D scene development.",
-      "descriptionLong": "Scene Builder is an efficient and user-friendly board dedicated to the generation and placement of 3D components, which can be further enhanced in other boards. It's designed to streamline the process of 3D scene creation, offering an accessible toolkit for both newcomers and professional 3D artists. This board simplifies the complexities of 3D design, providing an intuitive platform for assembling scenes using a variety of meshes, GLBs, and other 3D elements. Scene Builder is versatile enough to support a diverse range of projects, from detailed architectural models to dynamic virtual worlds, making it an ideal starting point for 3D scene creation within a larger workflow.",
-      "oneLiner": "Build and arrange 3D scenes effortlessly with Scene Builder, your starting point for 3D creativity.",
-      "oneLinerShort": "Simplify 3D scene creation with Scene Builder.",
-      "header": "",
-      "fields": [],
-      "tags": [
-        "3D",
-        "scene",
-        "visualization",
-        "creation"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768"
-      ],
-      "tsVersion": "2024-02-03 14:44:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-008",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "apis": {},
-    "defaults": {},
-    "flowUrl": "/B-008/B-008.flow.json",
-    "isActive": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 2,
-      "installationCount": 14,
-      "rating": 4.1
-    },
-    "storeNodes": [
-      "sceneConfig",
-      "sceneCameras",
-      "sceneLights",
-      "sceneMeshes",
-      "scenePacks",
-      "sceneVASPs",
-      "sceneExternals"
-    ]
-  },
-  "B-009": {
-    "id": "B-009",
+  "B-011": {
+    "id": "B-011",
     "identifier": "com.usegdi.fourth-wall",
     "version": "0.1.0",
-    "url": "/boards/B-009",
+    "url": "/boards/B-011",
     "boardInfo": {
       "name": "Fourth Wall",
-      "index": 9,
+      "index": 11,
       "imageUrl": "/images/z_scene_builder.jpg",
-      "videoThumbUrl": "/images/B-009.mp4",
+      "videoThumbUrl": "/images/B-011.mp4",
       "videoUrl": "https://www.youtube.com/embed/d8_OIj8L77s",
       "boardType": "continues",
       "description": "Fourth Wall is a board that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
@@ -659,8 +768,8 @@
       "exampleId": "vision-couple",
       "setupId": "vision-couple"
     },
-    "examplesUrl": "/B-009/B-009.examples.json",
-    "flowUrl": "/B-009/B-009.flow.json",
+    "examplesUrl": "/B-011/B-011.examples.json",
+    "flowUrl": "/B-011/B-011.flow.json",
     "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
@@ -673,108 +782,6 @@
       "reviewsCount": 4,
       "installationCount": 3,
       "rating": 4.2
-    }
-  },
-  "B-010": {
-    "id": "B-010",
-    "identifier": "com.usegdi.vision-simulator",
-    "version": "0.1.0",
-    "url": "/boards/B-010",
-    "boardInfo": {
-      "name": "Vision Simulator",
-      "index": 10,
-      "imageUrl": "/images/b_2.jpg",
-      "videoThumbUrl": "/images/B-010.mp4",
-      "boardType": "adhoc",
-      "description": "Vision Pro Simulator is a cutting-edge board designed to provide users with a simulated experience of the Apple Vision Pro spatial computing headset. This advanced simulator offers a realistic environment for users to explore the features and functionalities of the Vision Pro headset without the need for physical hardware. With its immersive simulations and interactive interface, Vision Pro Simulator serves as a valuable tool for developers, designers, and enthusiasts looking to understand the capabilities of Apple's innovative spatial computing technology.\n\nExplore the potential of spatial computing through lifelike simulations and interactive scenarios. Vision Pro Simulator offers a seamless experience, allowing users to experiment with spatial mapping, gesture recognition, and immersive AR experiences. Whether you're a seasoned developer or a curious enthusiast, Vision Pro Simulator provides a unique platform to grasp the possibilities offered by the Vision Pro headset.\n\nWith over 5,000 installations and a stellar rating of 4.8, Vision Pro Simulator has garnered praise for its accuracy and user-friendly interface. Take a step into the future of spatial computing and unlock the potential of the Apple Vision Pro headset right at your fingertips!",
-      "descriptionLong": "Vision Pro Simulator is a cutting-edge board designed to provide users with a simulated experience of the Apple Vision Pro spatial computing headset. This advanced simulator offers a realistic environment for users to explore the features and functionalities of the Vision Pro headset without the need for physical hardware. With its immersive simulations and interactive interface, Vision Pro Simulator serves as a valuable tool for developers, designers, and enthusiasts looking to understand the capabilities of Apple's innovative spatial computing technology.\n\nExplore the potential of spatial computing through lifelike simulations and interactive scenarios. Vision Pro Simulator offers a seamless experience, allowing users to experiment with spatial mapping, gesture recognition, and immersive AR experiences. Whether you're a seasoned developer or a curious enthusiast, Vision Pro Simulator provides a unique platform to grasp the possibilities offered by the Vision Pro headset.\n\nWith over 5,000 installations and a stellar rating of 4.8, Vision Pro Simulator has garnered praise for its accuracy and user-friendly interface. Take a step into the future of spatial computing and unlock the potential of the Apple Vision Pro headset right at your fingertips!",
-      "oneLiner": "Experience the future of spatial computing with lifelike simulations of the Apple Vision Pro headset through Vision Pro Simulator.",
-      "oneLinerShort": "\"Explore spatial computing\"",
-      "header": "",
-      "fields": [],
-      "tags": [
-        "spatial computing",
-        "AR",
-        "VR",
-        "simulation"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "2560x1440"
-      ],
-      "tsVersion": "2024-02-03 14:44:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "flowUrl": "/B-010/B-010.flow.json",
-    "examplesUrl": "/B-010/B-010.examples.json",
-    "apis": {},
-    "defaults": {
-      "exampleId": "vision-pro",
-      "setupId": "vision-pro"
-    },
-    "isWip": true,
-    "isActive": true,
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-011": {
-    "id": "B-011",
-    "identifier": "com.usegdi.spotlight",
-    "version": "0.1.0",
-    "url": "/boards/B-011",
-    "boardInfo": {
-      "name": "Spotlight",
-      "index": 11,
-      "imageUrl": "/images/b_0.jpg",
-      "videoThumbUrl": "/images/B-011.mp4",
-      "boardType": "adhoc",
-      "description": "Spotlight is a powerful board that generates a 30-second 3D advertisement based on user-provided prompts. With its advanced AI-driven engine, Spotlight is capable of crafting captivating promotional content with dynamic camera movements, scripted voiceovers, and immersive visuals. This innovative tool opens up a world of creative possibilities for businesses and individuals seeking high-quality promotional material.\n\nLeverage the creative potential of Spotlight to bring your ideas to life. Whether it's for product launches, marketing campaigns, or social media promotions, Spotlight offers a seamless solution for generating engaging 3D advertisements. From vibrant visuals to compelling narratives, the 30-second ad produced by Spotlight is tailor-made to captivate audiences and drive engagement.\n\nEmpower your promotional efforts with Spotlight's intuitive interface and customizable options. Witness your vision come to life as Spotlight crafts a stunning 3D advertisement that reflects your unique brand identity and messaging. Release the power of compelling 3D ads and elevate your promotional strategies with the unparalleled capabilities of Spotlight!",
-      "descriptionLong": "Spotlight is a powerful board that generates a 30-second 3D advertisement based on user-provided prompts. With its advanced AI-driven engine, Spotlight is capable of crafting captivating promotional content with dynamic camera movements, scripted voiceovers, and immersive visuals. This innovative tool opens up a world of creative possibilities for businesses and individuals seeking high-quality promotional material.\n\nLeverage the creative potential of Spotlight to bring your ideas to life. Whether it's for product launches, marketing campaigns, or social media promotions, Spotlight offers a seamless solution for generating engaging 3D advertisements. From vibrant visuals to compelling narratives, the 30-second ad produced by Spotlight is tailor-made to captivate audiences and drive engagement.\n\nEmpower your promotional efforts with Spotlight's intuitive interface and customizable options. Witness your vision come to life as Spotlight crafts a stunning 3D advertisement that reflects your unique brand identity and messaging. Release the power of compelling 3D ads and elevate your promotional strategies with the unparalleled capabilities of Spotlight!",
-      "oneLiner": "Unleash the power of 3D advertisement generation with Spotlight's AI-driven engine and captivating visuals.",
-      "oneLinerShort": "\"AI 3D ad generation\"",
-      "header": "",
-      "fields": [],
-      "tags": [
-        "advertising",
-        "3D",
-        "marketing",
-        "AI"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "3840x2160"
-      ],
-      "tsVersion": "2024-02-03 14:44:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "flowUrl": "/B-011/B-011.flow.json",
-    "apis": {},
-    "defaults": {
-      "setupId": "helmet",
-      "exampleId": "helmet"
-    },
-    "examplesUrl": "/B-011/B-011.examples.json",
-    "isActive": true,
-    "isWip": true,
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
     }
   },
   "B-012": {
@@ -831,75 +838,47 @@
   },
   "B-013": {
     "id": "B-013",
-    "identifier": "com.usegdi.ppl",
+    "identifier": "com.usegdi.multi",
     "version": "0.1.0",
     "url": "/boards/B-013",
     "boardInfo": {
-      "name": "PPL",
+      "name": "Multi",
       "index": 13,
-      "imageUrl": "/images/ppl_thumb.png",
+      "imageUrl": "/images/i_multi.jpg",
       "videoThumbUrl": "/images/B-013.mp4",
+      "videoUrl": "https://www.youtube.com/embed/MULTI_PRODUCTIVITY_VIDEO_ID",
       "boardType": "adhoc",
-      "description": "PPL is an innovative board that allows you to explore famous figures alive today and from history. Engage in thought-provoking conversations, ask questions, or chat with virtual representations of these renowned personalities. Whether you seek wisdom from historical icons or insights from contemporary influencers, PPL Explorer offers a unique opportunity to interact with iconic figures and gain valuable knowledge.\n\nWith its user-friendly interface and intuitive functionality, PPL Explorer ensures an immersive and seamless experience for users of all backgrounds. Whether you are a history enthusiast or eager to connect with living legends, PPL Explorer provides a dynamic platform for enriching interactions. Boasting a vast database of famous figures and receiving accolades for its educational value, PPL Explorer has emerged as a revered destination for virtual conversations and insightful exchanges.",
-      "descriptionLong": "PPL is an innovative board that allows you to explore famous figures alive today and from history. Engage in thought-provoking conversations, ask questions, or chat with virtual representations of these renowned personalities. Whether you seek wisdom from historical icons or insights from contemporary influencers, PPL Explorer offers a unique opportunity to interact with iconic figures and gain valuable knowledge.\n\nWith its user-friendly interface and intuitive functionality, PPL Explorer ensures an immersive and seamless experience for users of all backgrounds. Whether you are a history enthusiast or eager to connect with living legends, PPL Explorer provides a dynamic platform for enriching interactions. Boasting a vast database of famous figures and receiving accolades for its educational value, PPL Explorer has emerged as a revered destination for virtual conversations and insightful exchanges.",
-      "oneLiner": "Explore, chat, and engage with famous figures from history and present-day influencers on PPL Explorer, a dynamic platform for virtual interactions and insightful exchanges.",
-      "oneLinerShort": "\"Virtual Conversations with Famous Figures\"",
-      "header": "",
-      "fields": [],
-      "tags": [
-        "history",
-        "interaction",
-        "education",
-        "virtual",
-        "famous figures"
+      "description": "Unlock your productivity potential with Multi. This all-in-one solution empowers individuals and teams to capture ideas, manage tasks, track projects, organize to-do lists, and bookmark important resources. With a flexible and collaborative interface, Multi optimizes workflow efficiency and knowledge management.",
+      "descriptionLong": "Multi reimagines productivity and organization by blending note-taking, task management, project tracking, to-do lists, and bookmarking into a seamless experience. Whether you're planning projects, creating knowledge databases, or managing personal tasks, this suite empowers you to structure and access your information with ease.",
+      "oneLiner": "Elevate productivity with a unified suite for note-taking, task management, and more.",
+      "oneLinerShort": "Streamline productivity with one suite for all your organization needs.",
+      "header": "Multi for comprehensive organization and productivity",
+      "logoColor": "#FF6D00",
+      "fields": [
+        {
+          "label": "itemType",
+          "content": "String"
+        },
+        {
+          "label": "dueDate",
+          "content": "Date"
+        },
+        {
+          "label": "projectStatus",
+          "content": "String"
+        },
+        {
+          "label": "bookmarkUrl",
+          "content": "String"
+        }
       ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768"
-      ],
-      "tsVersion": "2024-02-03 14:44:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "flowUrl": "/B-013/B-013.flow.json",
-    "apis": {},
-    "defaults": {},
-    "isActive": true,
-    "isWip": true,
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-014": {
-    "id": "B-014",
-    "identifier": "com.usegdi.claire",
-    "version": "0.1.0",
-    "url": "/boards/B-014",
-    "boardInfo": {
-      "name": "Claire",
-      "index": 14,
-      "imageUrl": "/images/c1.jpg",
-      "videoThumbUrl": "/images/B-014.mp4",
-      "boardType": "adhoc",
-      "description": "Claire is your personal AI assistant designed to control IoT devices in your apartment and provide real-time sensor information from IoT sensors located throughout the living space. Whether you want to adjust the smart thermostat, dim the lights, or receive updates on environmental conditions, Claire offers a convenient and efficient solution for managing your home environment.\n\nWith its user-friendly interface and intuitive functionality, Claire ensures seamless control and access to sensor data, empowering you to create a comfortable and personalized living space. Interact with Claire to monitor and optimize your home environment for sustainability, comfort, and security. With support for a wide range of IoT devices and sensors, Claire is the ultimate assistant for modern, connected living.",
-      "descriptionLong": "Claire is your personal AI assistant designed to control IoT devices in your apartment and provide real-time sensor information from IoT sensors located throughout the living space. Whether you want to adjust the smart thermostat, dim the lights, or receive updates on environmental conditions, Claire offers a convenient and efficient solution for managing your home environment.\n\nWith its user-friendly interface and intuitive functionality, Claire ensures seamless control and access to sensor data, empowering you to create a comfortable and personalized living space. Interact with Claire to monitor and optimize your home environment for sustainability, comfort, and security. With support for a wide range of IoT devices and sensors, Claire is the ultimate assistant for modern, connected living.",
-      "oneLiner": "Meet Claire, Your Personal AI Assistant for IoT Control and Sensor Information in Your Apartment",
-      "oneLinerShort": "\"Your AI Apartment Assistant\"",
-      "header": "",
-      "fields": [],
       "tags": [
-        "IoT",
-        "smart home",
-        "personal assistant",
-        "apartment",
-        "sensors"
+        "productivity",
+        "note-taking",
+        "task_management",
+        "project_tracking",
+        "to-do_lists",
+        "bookmarking"
       ],
       "supportedResolutions": [
         "1920x1080",
@@ -915,580 +894,10 @@
     },
     "apis": {},
     "defaults": {
-      "exampleId": "claire",
-      "setupId": "claire"
+      "previewPath": "/static/multi-productivity-model.json"
     },
-    "examplesUrl": "/B-014/B-014.examples.json",
-    "flowUrl": "/B-014/B-014.flow.json",
-    "isActive": true,
-    "isWip": true,
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-015": {
-    "id": "B-015",
-    "identifier": "com.usegdi.world-news",
-    "version": "0.1.0",
-    "url": "/boards/B-015",
-    "boardInfo": {
-      "name": "World News",
-      "index": 15,
-      "imageUrl": "/images/d1.jpg",
-      "videoThumbUrl": "/images/B-015.mp4",
-      "videoUrl": "",
-      "boardType": "adhoc",
-      "description": "Stay informed with the latest global events using the World News board. Access comprehensive coverage, breaking news, and in-depth analysis of international affairs. Explore diverse perspectives and deep insights to understand the world around you.",
-      "descriptionLong": "The World News board is your gateway to global awareness. Whether it's political developments, economic trends, cultural movements, or environmental issues, this board brings together a wealth of information to keep you informed about the world. Dive into a comprehensive view of international affairs and stay up-to-date with all that unfolds.",
-      "oneLiner": "Stay on top of global events with the World News board.",
-      "oneLinerShort": "Stay on top of global events.",
-      "header": "latest news from around the world",
-      "logoColor": "#3366CC",
-      "fields": [
-        {
-          "label": "region",
-          "content": "Global"
-        },
-        {
-          "label": "topic",
-          "content": "World News"
-        },
-        {
-          "label": "languages",
-          "content": "English, Spanish, French, Chinese, Arabic"
-        }
-      ],
-      "tags": [
-        "news",
-        "global",
-        "updates",
-        "information"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768",
-        "1280x720"
-      ],
-      "tsVersion": "2024-02-07 10:30:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": {},
-    "defaults": {},
-    "flowUrl": "/B-015/B-015.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-015",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "isWip": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-016": {
-    "id": "B-016",
-    "identifier": "com.usegdi.premier-league",
-    "version": "0.1.0",
-    "url": "/boards/B-016",
-    "boardInfo": {
-      "name": "Premier League Analytics",
-      "index": 16,
-      "imageUrl": "/images/d4.jpg",
-      "videoThumbUrl": "/images/B-016.mp4",
-      "videoUrl": "",
-      "boardType": "adhoc",
-      "description": "Gain deeper insights into Premier League matches with advanced sports analytics. Analyze plays, strategies, and player performance to understand the intricacies of the game. Leverage comprehensive data and visualizations to enhance your understanding of Premier League action.",
-      "descriptionLong": "The Premier League Sports Analytics board revolutionizes the way you analyze football matches. Dive into detailed breakdowns of plays, player movements, and game statistics. This board provides a comprehensive toolkit for coaches, analysts, and enthusiasts to uncover valuable insights and tactical trends within the Premier League.",
-      "oneLiner": "Uncover game-changing insights with Premier League Sports Analytics.",
-      "oneLinerShort": "Uncover game-changing insights.",
-      "header": "analysis of sports plays in the Premier League",
-      "logoColor": "#894785",
-      "fields": [
-        {
-          "label": "league",
-          "content": "Premier League"
-        },
-        {
-          "label": "topic",
-          "content": "Sports Analytics"
-        },
-        {
-          "label": "tools",
-          "content": "Playmaker Pro, Opta, Stats Perform"
-        }
-      ],
-      "tags": [
-        "sports",
-        "analytics",
-        "football",
-        "Premier League",
-        "data",
-        "visualizations"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768",
-        "1280x720"
-      ],
-      "tsVersion": "2024-02-10 15:30:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": {},
-    "defaults": {},
-    "flowUrl": "/B-016/B-016.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-016",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "isWip": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-017": {
-    "id": "B-017",
-    "identifier": "com.usegdi.kayak",
-    "version": "0.1.0",
-    "url": "/boards/B-017",
-    "boardInfo": {
-      "name": "Kayak",
-      "index": 17,
-      "imageUrl": "/images/d2.jpg",
-      "videoThumbUrl": "/images/B-017.mp4",
-      "videoUrl": "",
-      "boardType": "adhoc",
-      "description": "Experience an evolution in content discovery with AI-Era feeds. Uncover personalized, relevant, and reliable information tailored to your interests. Leverage the power of AI to curate feeds that enhance your online experience and keep you engaged with the latest and most meaningful content.",
-      "descriptionLong": "Kayak redefines content consumption by harnessing the capabilities of artificial intelligence. Seamlessly integrate the latest advancements in AI to curate feeds that align with your preferences and priorities. Say goodbye to generic content and embrace a personalized, informative, and enriching feed experience tailored to the AI era.",
-      "oneLiner": "Transform content discovery with Kayak feeds for the AI era.",
-      "oneLinerShort": "Transform content discovery with AI.",
-      "header": "a new take on feeds for the AI era",
-      "logoColor": "#FF5733",
-      "fields": [
-        {
-          "label": "feeds",
-          "content": "X, Reddit, Facebook"
-        },
-        {
-          "label": "era",
-          "content": "AI"
-        },
-        {
-          "label": "focus",
-          "content": "Personalization, Relevance, Reliability"
-        }
-      ],
-      "tags": [
-        "feeds",
-        "AI",
-        "content discovery",
-        "personalization",
-        "relevance",
-        "information"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768",
-        "1280x720"
-      ],
-      "tsVersion": "2024-02-15 09:00:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": {},
-    "defaults": {},
-    "flowUrl": "/B-017/B-017.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-017",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "isWip": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-018": {
-    "id": "B-018",
-    "identifier": "com.usegdi.regex-wizard",
-    "version": "0.1.0",
-    "url": "/boards/B-018",
-    "boardInfo": {
-      "name": "Regex Wizard",
-      "index": 18,
-      "imageUrl": "/images/6.jpg",
-      "videoThumbUrl": "/images/B-018.mp4",
-      "videoUrl": "",
-      "boardType": "adhoc",
-      "description": "\"RegexWizard\" is an innovative tool designed to simplify the process of writing and debugging regular expressions. Programming tasks often involve intricate details, and regex can be particularly challenging. With the help of AI technology, this tool streamlines the creation of regex expressions, enabling users to craft accurate and effective patterns. Additionally, RegexWizard aids in identifying errors and inconsistencies, eliminating the need for lengthy and frustrating debugging sessions. Embrace the magic of seamless regex writing with RegexWizard and bid farewell to the complexities associated with this essential programming task.\n\nFeaturing an intuitive interface and powered by AI, RegexWizard revolutionizes the way regular expressions are handled. Its capabilities extend beyond traditional regex tools by offering not only assistance in writing expressions, but also in identifying potential issues. With its vast library of predefined patterns, RegexWizard helps programmers save time and effort by suggesting appropriate syntax and highlighting errors in real-time. Whether you are a novice or an experienced developer, RegexWizard is a game-changing tool that enables you to boost productivity and achieve more accurate results. With over 4000 installations and a solid rating of 4.5, RegexWizard is trusted and endorsed by the programming community. Supported resolutions include 2560x1440 and 3840x2160, ensuring compatibility across various devices and screen sizes.",
-      "descriptionLong": "\"RegexWizard\" is an innovative tool that simplifies the process of writing and debugging regular expressions. Programming tasks often involve intricate details, and regex can be particularly challenging. With the help of AI technology, RegexWizard streamlines the creation of regex expressions, enabling users to craft accurate and effective patterns. This tool also aids in identifying errors and inconsistencies, eliminating the need for lengthy and frustrating debugging sessions. By embracing the magic of seamless regex writing, programmers can bid farewell to the complexities associated with this essential programming task.\n\nFeaturing an intuitive interface and powered by AI, RegexWizard revolutionizes the way regular expressions are handled. It goes beyond traditional regex tools by offering assistance in writing expressions and identifying potential issues. With its vast library of predefined patterns, RegexWizard helps programmers save time and effort by suggesting appropriate syntax and highlighting errors in real-time. Regardless of whether you are a novice or an experienced developer, RegexWizard is a game-changing tool that enhances productivity and delivers more accurate results. With over 4000 installations and a solid rating of 4.5, RegexWizard is trusted and endorsed by the programming community. It is compatible across various devices and screen sizes, supporting resolutions such as 2560x1440 and 3840x2160.",
-      "oneLiner": "Simplify regex writing and debugging with AI-powered assistance, saving time and effort for accurate and effective patterns.",
-      "oneLinerShort": "Simplify regex with AI assistance",
-      "header": "a new take on feeds for the AI era",
-      "logoColor": "#FF5733",
-      "fields": [
-        {
-          "label": "feeds",
-          "content": "X, Reddit, Facebook"
-        },
-        {
-          "label": "era",
-          "content": "AI"
-        },
-        {
-          "label": "focus",
-          "content": "Personalization, Relevance, Reliability"
-        }
-      ],
-      "tags": [
-        "feeds",
-        "AI",
-        "content discovery",
-        "personalization",
-        "relevance",
-        "information"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768",
-        "1280x720"
-      ],
-      "tsVersion": "2024-02-15 09:00:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "defaults": {},
-    "flowUrl": "/B-018/B-018.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-018",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "isWip": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-019": {
-    "id": "B-019",
-    "identifier": "com.usegdi.tdd-studio",
-    "version": "0.1.0",
-    "url": "/boards/B-019",
-    "boardInfo": {
-      "name": "TDD Studio",
-      "index": 19,
-      "imageUrl": "/images/d_tdd.jpg",
-      "videoThumbUrl": "/images/B-019.mp4",
-      "videoUrl": "",
-      "boardType": "adhoc",
-      "description": "Improve your Test-Driven Development (TDD) skills with the TDD Studio board. Streamline the process of writing simple input-output algorithms by constructing pure functions and validating their accuracy through test-case evaluation. Master TDD by efficiently composing tests, providing input-output pairs, and iteratively refining implementations for optimal outcomes.",
-      "descriptionLong": "The TDD Studio board serves as a valuable aid for honing Test-Driven Development proficiency. Enhance your ability to create pure functions and craft effective tests for input-output algorithms. With the ability to efficiently validate input-output pairs and iteratively refine implementations, this board empowers users to achieve robust, reliable, and optimized solutions through TDD.",
-      "oneLiner": "Refine TDD skills with efficient test-case verification and iterative implementation.",
-      "oneLinerShort": "Refine TDD skills with efficient test-case verification.",
-      "header": "streamline TDD process for input-output algorithms and pure functions",
-      "logoColor": "#FF1493",
-      "fields": [
-        {
-          "label": "skills",
-          "content": "TDD, Test Composition, Input-Output Algorithms, Pure Functions"
-        },
-        {
-          "label": "validation",
-          "content": "Test Efficiency, Implementation Refinement"
-        },
-        {
-          "label": "iterative",
-          "content": "Validate, Refine, Optimize"
-        }
-      ],
-      "tags": [
-        "TDD",
-        "test-driven-development",
-        "algorithms",
-        "pure-functions",
-        "test-composition",
-        "efficiency"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768",
-        "1280x720"
-      ],
-      "tsVersion": "2024-03-07 10:00:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": {},
-    "defaults": {},
-    "flowUrl": "/B-019/B-019.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-019",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "isWip": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-020": {
-    "id": "B-020",
-    "identifier": "com.usegdi.periscope",
-    "version": "0.1.0",
-    "url": "/boards/B-020",
-    "boardInfo": {
-      "name": "Periscope",
-      "index": 20,
-      "imageUrl": "/images/d3.jpg",
-      "videoThumbUrl": "/images/B-020.mp4",
-      "videoUrl": "",
-      "boardType": "adhoc",
-      "description": "Gain comprehensive insights with Periscope. Explore diverse perspectives, uncover information, and find varying opinions on a particular focus. Seamlessly shift through different angles and narratives to gain a multifaceted understanding of the subject, supported by varied sources, videos, and imagery.",
-      "descriptionLong": "Periscope is your tool for in-depth exploration of, well, anything, offering a holistic view of the subject matter. By placing the focus at the center, this board presents diverse perspectives from multiple sources, providing a rich narrative woven from various angles. Dive into comprehensive information, videos, imagery, and more to gain a nuanced understanding.",
-      "oneLiner": "Explore multifaceted perspectives with Periscope.",
-      "oneLinerShort": "Explore multifaceted perspectives.",
-      "header": "comprehensive insights gathered around a focus from diverse sources",
-      "logoColor": "#FF5733",
-      "fields": [
-        {
-          "label": "focus",
-          "content": "Individuals, Events"
-        },
-        {
-          "label": "information",
-          "content": "Multiple Angles, Varied Sources"
-        },
-        {
-          "label": "media",
-          "content": "Videos, Imagery, Text"
-        }
-      ],
-      "tags": [
-        "Periscope",
-        "multi-perspective",
-        "comprehensive-insights",
-        "focused-exploration",
-        "varied-sources"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768",
-        "1280x720"
-      ],
-      "tsVersion": "2024-02-25 11:00:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": {},
-    "defaults": {},
-    "flowUrl": "/B-020/B-020.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-020",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "isWip": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-021": {
-    "id": "B-021",
-    "identifier": "com.usegdi.debater-workshop",
-    "version": "0.1.0",
-    "url": "/boards/B-021",
-    "boardInfo": {
-      "name": "Debater's Workshop",
-      "index": 21,
-      "imageUrl": "/images/d0.jpg",
-      "videoThumbUrl": "/images/B-021.mp4",
-      "videoUrl": "",
-      "boardType": "adhoc",
-      "description": "Develop your critical thinking skills with education centered on logical fallacies, rhetoric, and information analysis. Learn through practical examples and diverse methods that empower you to recognize, evaluate, and respond to different forms of reasoning and argumentation in an informed and analytical manner.",
-      "descriptionLong": "The Debate's Workshop board is your gateway to mastering logical fallacies, rhetoric, and information analysis. Explore diverse methods and real-world examples to sharpen your skills in identifying faulty reasoning, analyzing rhetoric, and critically evaluating information. Gain the expertise to engage in informed, thoughtful, and analytical discourse.",
-      "oneLiner": "Empower critical thinking through practical education and real-world examples.",
-      "oneLinerShort": "Empower critical thinking through practical education.",
-      "header": "education on logical fallacies, rhetoric, and information analysis",
-      "logoColor": "#8A2BE2",
-      "fields": [
-        {
-          "label": "skills",
-          "content": "Logical Fallacies, Rhetoric, Information Analysis"
-        },
-        {
-          "label": "methods",
-          "content": "Practical Examples, Learning by Example, Diverse Methods"
-        },
-        {
-          "label": "focus",
-          "content": "Critical Thinking, Analytical Discourse"
-        }
-      ],
-      "tags": [
-        "critical-thinking",
-        "logical-fallacies",
-        "rhetoric",
-        "information-analysis",
-        "education",
-        "real-world-examples"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768",
-        "1280x720"
-      ],
-      "tsVersion": "2024-03-01 14:00:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": {},
-    "defaults": {},
-    "flowUrl": "/B-021/B-021.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-021",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "isWip": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-022": {
-    "id": "B-022",
-    "identifier": "com.usegdi.books",
-    "version": "0.1.0",
-    "url": "/boards/B-022",
-    "boardInfo": {
-      "name": "Books",
-      "index": 22,
-      "imageUrl": "/images/i_books.jpg",
-      "videoThumbUrl": "/images/B-022.mp4",
-      "videoUrl": "",
-      "boardType": "adhoc",
-      "description": "Discover, track, and recommend books with the Books. This platform offers personalized book tracking, reading progress monitoring, and intelligent book recommendations based on your preferences. Whether you're an avid reader or looking for your next great read, Books enriches your reading experience and fosters a vibrant community of book enthusiasts.",
-      "descriptionLong": "Books is your ultimate companion for literary exploration. By seamlessly tracking your reading journey and providing tailored recommendations, it ensures that you stay engaged and inspired. The platform's algorithm learns your reading habits and preferences to offer compelling book suggestions, creating a space where book lovers connect and share their literary discoveries.",
-      "oneLiner": "Enhance your reading experience with personalized book tracking and recommendations.",
-      "oneLinerShort": "Track, discover, and recommend books tailored just for you.",
-      "header": "Books for an enriched literary adventure",
-      "logoColor": "#7E57C2",
-      "fields": [
-        {
-          "label": "bookTitle",
-          "content": "String"
-        },
-        {
-          "label": "author",
-          "content": "String"
-        },
-        {
-          "label": "readingProgress",
-          "content": "Number"
-        },
-        {
-          "label": "recommendations",
-          "content": "Array"
-        }
-      ],
-      "tags": [
-        "book_tracker",
-        "reading_progress",
-        "literary_discoveries",
-        "book_recommendations",
-        "community",
-        "book_enthusiasts"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768"
-      ],
-      "tsVersion": "2024-02-03 14:44:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": {},
-    "defaults": {},
-    "flowUrl": "/B-022/B-022.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-022",
+    "flowUrl": "/B-013/B-013.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-013",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
@@ -1503,143 +912,16 @@
       "rating": 0
     }
   },
-  "B-023": {
-    "id": "B-023",
-    "identifier": "com.usegdi.contacts",
-    "version": "0.1.0",
-    "url": "/boards/B-023",
-    "boardInfo": {
-      "name": "Contacts",
-      "index": 23,
-      "imageUrl": "/images/i_contacts.jpg",
-      "videoThumbUrl": "/images/B-023.mp4",
-      "videoUrl": "",
-      "boardType": "adhoc",
-      "description": "Efficiently organize and manage your contacts with Contacts. This versatile tool is designed to streamline the process of storing, accessing, and updating contact information. From personal connections to professional networks, Contacts simplifies contact management for enhanced productivity and connectivity.",
-      "descriptionLong": "Contacts is the ultimate solution for individuals and businesses seeking to effectively manage their contacts. With its user-friendly interface and robust features, it empowers users to maintain comprehensive contact databases effortlessly. Seamlessly organize, update, and access critical contact information, fostering better communication and relationship management.",
-      "oneLiner": "Simplify contact management with Contacts's intuitive tools.",
-      "oneLinerShort": "Streamline contact management with ease.",
-      "header": "Contacts for efficient contact organization",
-      "logoColor": "#4A90E2",
-      "fields": [
-        {
-          "label": "name",
-          "content": "String"
-        },
-        {
-          "label": "email",
-          "content": "String"
-        },
-        {
-          "label": "phone",
-          "content": "String"
-        },
-        {
-          "label": "company",
-          "content": "String"
-        }
-      ],
-      "tags": [
-        "contacts",
-        "management",
-        "organization",
-        "productivity",
-        "business"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768"
-      ],
-      "tsVersion": "2024-02-03 14:44:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": {},
-    "defaults": {},
-    "flowUrl": "/B-023/B-023.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-002",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "isWip": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-024": {
-    "id": "B-024",
-    "identifier": "com.usegdi.express-debugger",
-    "version": "0.1.0",
-    "url": "/boards/B-024",
-    "boardInfo": {
-      "name": "Express Debugger",
-      "index": 24,
-      "imageUrl": "/images/i_debugger.jpg",
-      "videoThumbUrl": "/images/B-024.mp4",
-      "videoUrl": "",
-      "boardType": "adhoc",
-      "description": "Visualize the architecture and request flow of your Express.js application. Gain insights into the application's structure and request handling process.",
-      "descriptionLong": "The Express Debugger offers visual representation of your Express.js application's architecture and request flow. While not real-time debugging, it provides insights into the application's structure and the process of handling requests.",
-      "oneLiner": "Visualize Express.js application architecture and request flow.",
-      "oneLinerShort": "Gain insights into Express.js application structure and request flow.",
-      "header": "Express Debugger for architectural insights",
-      "logoColor": "#9C27B0",
-      "tags": [
-        "express.js",
-        "debugging",
-        "visualization",
-        "architecture"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768"
-      ],
-      "tsVersion": "2024-02-03 14:44:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "defaults": {},
-    "flowUrl": "/B-024/B-024.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-024",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "isWip": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0
-    }
-  },
-  "B-025": {
-    "id": "B-025",
+  "B-014": {
+    "id": "B-014",
     "identifier": "com.usegdi.documents",
     "version": "0.1.0",
-    "url": "/boards/B-025",
+    "url": "/boards/B-014",
     "boardInfo": {
       "name": "Documents",
-      "index": 25,
+      "index": 14,
       "imageUrl": "/images/i_docs.jpg",
-      "videoThumbUrl": "/images/B-025.mp4",
+      "videoThumbUrl": "/images/B-014.mp4",
       "videoUrl": "",
       "boardType": "adhoc",
       "description": "Empower collaboration and productivity with Documents. This versatile tool revolutionizes document creation and editing, offering a user-friendly interface, real-time collaborative features, and seamless integration with cloud storage. Whether it's drafting reports, creating presentations, or editing spreadsheets, Documents enhances workflow efficiency for individuals and teams.",
@@ -1689,8 +971,8 @@
     "defaults": {
       "previewPath": "/static/document-editor-model.json"
     },
-    "flowUrl": "/B-025/B-025.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-025",
+    "flowUrl": "/B-014/B-014.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-014",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
@@ -1705,48 +987,144 @@
       "rating": 0
     }
   },
-  "B-026": {
-    "id": "B-026",
-    "identifier": "com.usegdi.finances",
+  "B-015": {
+    "id": "B-015",
+    "identifier": "com.usegdi.ppl",
     "version": "0.1.0",
-    "url": "/boards/B-026",
+    "url": "/boards/B-015",
     "boardInfo": {
-      "name": "Finances",
-      "index": 26,
-      "imageUrl": "/images/i_finances.jpg",
-      "videoThumbUrl": "/images/B-026.mp4",
+      "name": "PPL",
+      "index": 15,
+      "imageUrl": "/images/ppl_thumb.png",
+      "videoThumbUrl": "/images/B-015.mp4",
+      "boardType": "adhoc",
+      "description": "PPL is an innovative board that allows you to explore famous figures alive today and from history. Engage in thought-provoking conversations, ask questions, or chat with virtual representations of these renowned personalities. Whether you seek wisdom from historical icons or insights from contemporary influencers, PPL Explorer offers a unique opportunity to interact with iconic figures and gain valuable knowledge.\n\nWith its user-friendly interface and intuitive functionality, PPL Explorer ensures an immersive and seamless experience for users of all backgrounds. Whether you are a history enthusiast or eager to connect with living legends, PPL Explorer provides a dynamic platform for enriching interactions. Boasting a vast database of famous figures and receiving accolades for its educational value, PPL Explorer has emerged as a revered destination for virtual conversations and insightful exchanges.",
+      "descriptionLong": "PPL is an innovative board that allows you to explore famous figures alive today and from history. Engage in thought-provoking conversations, ask questions, or chat with virtual representations of these renowned personalities. Whether you seek wisdom from historical icons or insights from contemporary influencers, PPL Explorer offers a unique opportunity to interact with iconic figures and gain valuable knowledge.\n\nWith its user-friendly interface and intuitive functionality, PPL Explorer ensures an immersive and seamless experience for users of all backgrounds. Whether you are a history enthusiast or eager to connect with living legends, PPL Explorer provides a dynamic platform for enriching interactions. Boasting a vast database of famous figures and receiving accolades for its educational value, PPL Explorer has emerged as a revered destination for virtual conversations and insightful exchanges.",
+      "oneLiner": "Explore, chat, and engage with famous figures from history and present-day influencers on PPL Explorer, a dynamic platform for virtual interactions and insightful exchanges.",
+      "oneLinerShort": "\"Virtual Conversations with Famous Figures\"",
+      "header": "",
+      "fields": [],
+      "tags": [
+        "history",
+        "interaction",
+        "education",
+        "virtual",
+        "famous figures"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "flowUrl": "/B-015/B-015.flow.json",
+    "apis": {},
+    "defaults": {},
+    "isActive": true,
+    "isWip": true,
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  "B-016": {
+    "id": "B-016",
+    "identifier": "com.usegdi.express-debugger",
+    "version": "0.1.0",
+    "url": "/boards/B-016",
+    "boardInfo": {
+      "name": "Express Debugger",
+      "index": 16,
+      "imageUrl": "/images/i_debugger.jpg",
+      "videoThumbUrl": "/images/B-016.mp4",
       "videoUrl": "",
       "boardType": "adhoc",
-      "description": "Take control of your finances with Finances. This all-in-one platform enables users to track expenses, manage budgets, set financial goals, and gain valuable insights into their financial health. From expense categorization to investment tracking, Finances offers a comprehensive toolkit to promote financial well-being and informed decision-making.",
-      "descriptionLong": "Finances is designed to empower individuals to make informed financial decisions and achieve their monetary objectives. With intuitive visualizations and robust analysis tools, users can gain a clear understanding of their spending habits, savings progress, and investment performance. Whether managing day-to-day expenses or planning for the future, this platform is your trusted financial companion.",
-      "oneLiner": "Empower yourself with personalized financial management and insightful analytics.",
-      "oneLinerShort": "Track expenses, manage budgets, and achieve financial goals effortlessly.",
-      "header": "Finances for holistic financial well-being",
-      "logoColor": "#4CAF50",
+      "description": "Visualize the architecture and request flow of your Express.js application. Gain insights into the application's structure and request handling process.",
+      "descriptionLong": "The Express Debugger offers visual representation of your Express.js application's architecture and request flow. While not real-time debugging, it provides insights into the application's structure and the process of handling requests.",
+      "oneLiner": "Visualize Express.js application architecture and request flow.",
+      "oneLinerShort": "Gain insights into Express.js application structure and request flow.",
+      "header": "Express Debugger for architectural insights",
+      "logoColor": "#9C27B0",
+      "tags": [
+        "express.js",
+        "debugging",
+        "visualization",
+        "architecture"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "defaults": {},
+    "flowUrl": "/B-016/B-016.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-016",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "isWip": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0
+    }
+  },
+  "B-017": {
+    "id": "B-017",
+    "identifier": "com.usegdi.babylon-gallery",
+    "version": "1.0.0",
+    "url": "/boards/B-017",
+    "boardInfo": {
+      "name": "3D Scene Gallery",
+      "index": 17,
+      "imageUrl": "/images/3d-gallery.jpg",
+      "videoUrl": "",
+      "boardType": "adhoc",
+      "description": "Explore a captivating gallery of immersive 3D scenes created with BabylonJS. Experience the power of web-based 3D rendering and unleash your creativity with these interactive environments.",
+      "descriptionLong": "Step into the world of breathtaking 3D scenes crafted with BabylonJS. This gallery showcases the remarkable potential of web-based 3D rendering, offering a glimpse into the future of interactive, virtual experiences. Whether you're a developer or an enthusiast, these scenes will ignite your imagination and inspire you to push the boundaries of what's possible.",
+      "oneLiner": "Embark on an immersive journey with the 3D Scene Gallery powered by BabylonJS.",
+      "oneLinerShort": "Discover immersive 3D scenes with BabylonJS.",
+      "header": "gallery of 3D scenes made with BabylonJS",
+      "logoColor": "#32A1F5",
       "fields": [
         {
-          "label": "expenseCategory",
-          "content": "String"
+          "label": "scene",
+          "content": "BabylonJS Playground"
         },
         {
-          "label": "budgetAllocation",
-          "content": "Object"
+          "label": "description",
+          "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
         },
         {
-          "label": "investmentPerformance",
-          "content": "Array"
-        },
-        {
-          "label": "financialGoals",
-          "content": "Object"
+          "label": "author",
+          "content": "gdi"
         }
       ],
       "tags": [
-        "personal_finance",
-        "expense_tracking",
-        "budget_management",
-        "investment_tracking",
-        "financial_goals"
+        "3D",
+        "BabylonJS",
+        "web-based",
+        "interactive",
+        "virtual_experience"
       ],
       "supportedResolutions": [
         "1920x1080",
@@ -1762,10 +1140,84 @@
     },
     "apis": {},
     "defaults": {
-      "previewPath": "/static/personal-finances-model.json"
+      "previewPath": "/static/modelz.json"
     },
-    "flowUrl": "/B-026/B-026.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-026",
+    "flowUrl": "/B-017/B-017.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-017",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  "B-018": {
+    "id": "B-018",
+    "identifier": "com.usegdi.books",
+    "version": "0.1.0",
+    "url": "/boards/B-018",
+    "boardInfo": {
+      "name": "Books",
+      "index": 18,
+      "imageUrl": "/images/i_books.jpg",
+      "videoThumbUrl": "/images/B-018.mp4",
+      "videoUrl": "",
+      "boardType": "adhoc",
+      "description": "Discover, track, and recommend books with the Books. This platform offers personalized book tracking, reading progress monitoring, and intelligent book recommendations based on your preferences. Whether you're an avid reader or looking for your next great read, Books enriches your reading experience and fosters a vibrant community of book enthusiasts.",
+      "descriptionLong": "Books is your ultimate companion for literary exploration. By seamlessly tracking your reading journey and providing tailored recommendations, it ensures that you stay engaged and inspired. The platform's algorithm learns your reading habits and preferences to offer compelling book suggestions, creating a space where book lovers connect and share their literary discoveries.",
+      "oneLiner": "Enhance your reading experience with personalized book tracking and recommendations.",
+      "oneLinerShort": "Track, discover, and recommend books tailored just for you.",
+      "header": "Books for an enriched literary adventure",
+      "logoColor": "#7E57C2",
+      "fields": [
+        {
+          "label": "bookTitle",
+          "content": "String"
+        },
+        {
+          "label": "author",
+          "content": "String"
+        },
+        {
+          "label": "readingProgress",
+          "content": "Number"
+        },
+        {
+          "label": "recommendations",
+          "content": "Array"
+        }
+      ],
+      "tags": [
+        "book_tracker",
+        "reading_progress",
+        "literary_discoveries",
+        "book_recommendations",
+        "community",
+        "book_enthusiasts"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {},
+    "defaults": {},
+    "flowUrl": "/B-018/B-018.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-018",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
@@ -1780,16 +1232,135 @@
       "rating": 0
     }
   },
-  "B-027": {
-    "id": "B-027",
+  "B-019": {
+    "id": "B-019",
+    "identifier": "com.usegdi.claire",
+    "version": "0.1.0",
+    "url": "/boards/B-019",
+    "boardInfo": {
+      "name": "Claire",
+      "index": 19,
+      "imageUrl": "/images/c1.jpg",
+      "videoThumbUrl": "/images/B-019.mp4",
+      "boardType": "adhoc",
+      "description": "Claire is your personal AI assistant designed to control IoT devices in your apartment and provide real-time sensor information from IoT sensors located throughout the living space. Whether you want to adjust the smart thermostat, dim the lights, or receive updates on environmental conditions, Claire offers a convenient and efficient solution for managing your home environment.\n\nWith its user-friendly interface and intuitive functionality, Claire ensures seamless control and access to sensor data, empowering you to create a comfortable and personalized living space. Interact with Claire to monitor and optimize your home environment for sustainability, comfort, and security. With support for a wide range of IoT devices and sensors, Claire is the ultimate assistant for modern, connected living.",
+      "descriptionLong": "Claire is your personal AI assistant designed to control IoT devices in your apartment and provide real-time sensor information from IoT sensors located throughout the living space. Whether you want to adjust the smart thermostat, dim the lights, or receive updates on environmental conditions, Claire offers a convenient and efficient solution for managing your home environment.\n\nWith its user-friendly interface and intuitive functionality, Claire ensures seamless control and access to sensor data, empowering you to create a comfortable and personalized living space. Interact with Claire to monitor and optimize your home environment for sustainability, comfort, and security. With support for a wide range of IoT devices and sensors, Claire is the ultimate assistant for modern, connected living.",
+      "oneLiner": "Meet Claire, Your Personal AI Assistant for IoT Control and Sensor Information in Your Apartment",
+      "oneLinerShort": "\"Your AI Apartment Assistant\"",
+      "header": "",
+      "fields": [],
+      "tags": [
+        "IoT",
+        "smart home",
+        "personal assistant",
+        "apartment",
+        "sensors"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {},
+    "defaults": {
+      "exampleId": "claire",
+      "setupId": "claire"
+    },
+    "examplesUrl": "/B-019/B-019.examples.json",
+    "flowUrl": "/B-019/B-019.flow.json",
+    "isActive": true,
+    "isWip": true,
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  "B-020": {
+    "id": "B-020",
+    "identifier": "com.usegdi.flow",
+    "version": "1.0.0",
+    "url": "/boards/B-020",
+    "boardInfo": {
+      "name": "Flow",
+      "index": 20,
+      "imageUrl": "/images/3d-gallery.jpg",
+      "videoUrl": "",
+      "boardType": "adhoc",
+      "description": "Discover a world of premium royalty-free music with the Envato Elements Music Browser. Explore an extensive library of high-quality tracks for your creative projects. From energetic beats to soothing melodies, find the perfect sound for your content creation needs.",
+      "descriptionLong": "The Envato Elements Music Browser is your gateway to a vast collection of top-tier, royalty-free music. Access an array of genres and moods, ensuring there's always a perfect match for your creative endeavors. Elevate your projects with professional music that enhances the impact and emotive resonance of your content.",
+      "oneLiner": "Access premium royalty-free music with the Envato Elements Music Browser.",
+      "oneLinerShort": "Discover premium royalty-free music.",
+      "header": "gallery of 3D scenes made with BabylonJS",
+      "logoColor": "#32A1F5",
+      "fields": [
+        {
+          "label": "scene",
+          "content": "BabylonJS Playground"
+        },
+        {
+          "label": "description",
+          "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
+        },
+        {
+          "label": "author",
+          "content": "gdi"
+        }
+      ],
+      "tags": [
+        "3D",
+        "BabylonJS",
+        "web-based",
+        "interactive",
+        "virtual_experience"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {},
+    "defaults": {},
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-020",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  "B-021": {
+    "id": "B-021",
     "identifier": "com.usegdi.git-evolution",
     "version": "0.1.0",
-    "url": "/boards/B-027",
+    "url": "/boards/B-021",
     "boardInfo": {
       "name": "Git Evolution",
-      "index": 27,
+      "index": 21,
       "imageUrl": "/images/i_git.jpg",
-      "videoThumbUrl": "/images/B-027.mp4",
+      "videoThumbUrl": "/images/B-021.mp4",
       "videoUrl": "",
       "boardType": "adhoc",
       "description": "Step into the captivating visual world of your Git project's evolution with the Git Evolution. This immersive tool transforms your codebase history into an animated visual journey, illustrating code contributions, branch activities, and collaborative development. Witness the evolution of your project in an engaging and dynamic presentation reminiscent of Gource's visual storytelling.",
@@ -1836,8 +1407,8 @@
     "defaults": {
       "previewPath": "/static/git-evolution-visualizer-model.json"
     },
-    "flowUrl": "/B-027/B-027.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-027",
+    "flowUrl": "/B-021/B-021.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-021",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
@@ -1852,16 +1423,88 @@
       "rating": 0
     }
   },
-  "B-028": {
-    "id": "B-028",
+  "B-022": {
+    "id": "B-022",
+    "identifier": "com.usegdi.kayak",
+    "version": "0.1.0",
+    "url": "/boards/B-022",
+    "boardInfo": {
+      "name": "Kayak",
+      "index": 22,
+      "imageUrl": "/images/d2.jpg",
+      "videoThumbUrl": "/images/B-022.mp4",
+      "videoUrl": "",
+      "boardType": "adhoc",
+      "description": "Experience an evolution in content discovery with AI-Era feeds. Uncover personalized, relevant, and reliable information tailored to your interests. Leverage the power of AI to curate feeds that enhance your online experience and keep you engaged with the latest and most meaningful content.",
+      "descriptionLong": "Kayak redefines content consumption by harnessing the capabilities of artificial intelligence. Seamlessly integrate the latest advancements in AI to curate feeds that align with your preferences and priorities. Say goodbye to generic content and embrace a personalized, informative, and enriching feed experience tailored to the AI era.",
+      "oneLiner": "Transform content discovery with Kayak feeds for the AI era.",
+      "oneLinerShort": "Transform content discovery with AI.",
+      "header": "a new take on feeds for the AI era",
+      "logoColor": "#FF5733",
+      "fields": [
+        {
+          "label": "feeds",
+          "content": "X, Reddit, Facebook"
+        },
+        {
+          "label": "era",
+          "content": "AI"
+        },
+        {
+          "label": "focus",
+          "content": "Personalization, Relevance, Reliability"
+        }
+      ],
+      "tags": [
+        "feeds",
+        "AI",
+        "content discovery",
+        "personalization",
+        "relevance",
+        "information"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768",
+        "1280x720"
+      ],
+      "tsVersion": "2024-02-15 09:00:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {},
+    "defaults": {},
+    "flowUrl": "/B-022/B-022.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-022",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "isWip": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  "B-023": {
+    "id": "B-023",
     "identifier": "com.usegdi.mood-alchemy",
     "version": "0.1.0",
-    "url": "/boards/B-028",
+    "url": "/boards/B-023",
     "boardInfo": {
       "name": "Mood Alchemy",
-      "index": 28,
+      "index": 23,
       "imageUrl": "/images/i_mood.jpg",
-      "videoThumbUrl": "/images/B-028.mp4",
+      "videoThumbUrl": "/images/B-023.mp4",
       "videoUrl": "https://www.youtube.com/embed/BIBLIO_THERAPY_VIDEO_ID",
       "boardType": "adhoc",
       "description": "Embark on a transformative literary journey tailored to your emotional needs with MoodAlchemy. Experience the power of curated literary works, passages, poems, and multimedia content that uplift and inspire, aligning with your current and desired emotional states. Whether seeking solace, joy, or reflection, MoodAlchemy is your personalized guide to emotional well-being through literature and multimedia art forms.",
@@ -1916,6 +1559,382 @@
     "defaults": {
       "previewPath": "/static/MoodAlchemy-model.json"
     },
+    "flowUrl": "/B-023/B-023.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-023",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "isWip": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0
+    }
+  },
+  "B-024": {
+    "id": "B-024",
+    "identifier": "com.usegdi.music",
+    "version": "1.0.0",
+    "url": "/boards/B-024",
+    "boardInfo": {
+      "name": "Music",
+      "index": 24,
+      "imageUrl": "/images/3d-gallery.jpg",
+      "videoUrl": "",
+      "boardType": "adhoc",
+      "description": "Discover a world of premium royalty-free music with the Envato Elements Music Browser. Explore an extensive library of high-quality tracks for your creative projects. From energetic beats to soothing melodies, find the perfect sound for your content creation needs.",
+      "descriptionLong": "The Envato Elements Music Browser is your gateway to a vast collection of top-tier, royalty-free music. Access an array of genres and moods, ensuring there's always a perfect match for your creative endeavors. Elevate your projects with professional music that enhances the impact and emotive resonance of your content.",
+      "oneLiner": "Access premium royalty-free music with the Envato Elements Music Browser.",
+      "oneLinerShort": "Discover premium royalty-free music.",
+      "header": "gallery of 3D scenes made with BabylonJS",
+      "logoColor": "#32A1F5",
+      "fields": [
+        {
+          "label": "scene",
+          "content": "BabylonJS Playground"
+        },
+        {
+          "label": "description",
+          "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
+        },
+        {
+          "label": "author",
+          "content": "gdi"
+        }
+      ],
+      "tags": [
+        "3D",
+        "BabylonJS",
+        "web-based",
+        "interactive",
+        "virtual_experience"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {},
+    "defaults": {},
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-024",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  "B-025": {
+    "id": "B-025",
+    "identifier": "com.usegdi.park-conversation",
+    "version": "0.1.0",
+    "url": "/boards/B-025",
+    "boardInfo": {
+      "name": "Park Conversation",
+      "index": 25,
+      "imageUrl": "/images/z_park.jpg",
+      "videoThumbUrl": "/images/B-025.mp4",
+      "videoUrl": "https://www.youtube.com/embed/hHcgTR7SAos",
+      "boardType": "linear",
+      "description": "Park Conversation is a unique board that brings 3D conversation simulations to life. Set in a virtual park, it features three teenagers engaging in dynamic discussions on any given topic. Leveraging advanced AI, it synthesizes realistic voice dialogues, complete with accurate lip-syncing, to craft an immersive conversational experience. This board moves beyond traditional simulations, offering an interactive platform where characters debate and discuss a wide range of subjects, from current events to movies or sports, all in a lifelike manner.",
+      "descriptionLong": "Park Conversation board stands out in the realm of 3D conversation simulations. Enter a virtual park where you can prompt three teenagers to discuss any topic. With cutting-edge AI technology, this board generates not just dialogues but also synchronizes them with lifelike lip movements and expressive voice modulation. The result is a remarkably immersive experience, as the characters' discussions feel genuine and engaging. From casual chats to deep debates, Park Conversation covers a broad spectrum of discussions, offering users a front-row seat to the future of interactive 3D simulations.",
+      "oneLiner": "Dive into immersive 3D conversations with teenagers in a virtual park, featuring AI-driven voice and lip-syncing.",
+      "oneLinerShort": "Explore AI-enhanced 3D park conversations with realistic voice and lip-sync.",
+      "header": "Conversation about ${prompt}",
+      "fields": [
+        {
+          "label": "input",
+          "content": "Prompt"
+        },
+        {
+          "label": "output",
+          "content": "3d conversation"
+        },
+        {
+          "label": "engines",
+          "content": "LLM #1, LLM #2, ElevenLabs"
+        }
+      ],
+      "tags": [
+        "simulation",
+        "3D",
+        "AI",
+        "conversation",
+        "voice",
+        "immersive",
+        "virtual",
+        "interactive"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1280x720"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {
+      "turbo-3.5": "OpenAI",
+      "tts-1": "OpenAI",
+      "eleven_multilingual_v2": "ElevenLabs",
+      "eleven_turbo_v2": "ElevenLabs"
+    },
+    "defaults": {
+      "setupId": "expanse",
+      "exampleId": "expanse"
+    },
+    "examplesUrl": "/B-025/B-025.examples.json",
+    "flowUrl": "/B-025/B-025.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-025",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "mobile": {
+      "darkMode": true,
+      "columns": 2,
+      "flowColumnIndex": 1,
+      "outputColumnIndex": 0
+    },
+    "reviewInfo": {
+      "reviewsCount": 2,
+      "installationCount": 15,
+      "rating": 4.2
+    },
+    "storeNodes": [
+      "sceneConfig",
+      "sceneCameras",
+      "sceneLights",
+      "sceneBits",
+      "sceneMeshes",
+      "scenePacks",
+      "sceneVASPs",
+      "sceneDots",
+      "sceneExternals",
+      "sceneAudios",
+      "sceneEffects",
+      "transcriptLines",
+      "transcriptAudios"
+    ]
+  },
+  "B-026": {
+    "id": "B-026",
+    "identifier": "com.usegdi.periscope",
+    "version": "0.1.0",
+    "url": "/boards/B-026",
+    "boardInfo": {
+      "name": "Periscope",
+      "index": 26,
+      "imageUrl": "/images/d3.jpg",
+      "videoThumbUrl": "/images/B-026.mp4",
+      "videoUrl": "",
+      "boardType": "adhoc",
+      "description": "Gain comprehensive insights with Periscope. Explore diverse perspectives, uncover information, and find varying opinions on a particular focus. Seamlessly shift through different angles and narratives to gain a multifaceted understanding of the subject, supported by varied sources, videos, and imagery.",
+      "descriptionLong": "Periscope is your tool for in-depth exploration of, well, anything, offering a holistic view of the subject matter. By placing the focus at the center, this board presents diverse perspectives from multiple sources, providing a rich narrative woven from various angles. Dive into comprehensive information, videos, imagery, and more to gain a nuanced understanding.",
+      "oneLiner": "Explore multifaceted perspectives with Periscope.",
+      "oneLinerShort": "Explore multifaceted perspectives.",
+      "header": "comprehensive insights gathered around a focus from diverse sources",
+      "logoColor": "#FF5733",
+      "fields": [
+        {
+          "label": "focus",
+          "content": "Individuals, Events"
+        },
+        {
+          "label": "information",
+          "content": "Multiple Angles, Varied Sources"
+        },
+        {
+          "label": "media",
+          "content": "Videos, Imagery, Text"
+        }
+      ],
+      "tags": [
+        "Periscope",
+        "multi-perspective",
+        "comprehensive-insights",
+        "focused-exploration",
+        "varied-sources"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768",
+        "1280x720"
+      ],
+      "tsVersion": "2024-02-25 11:00:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {},
+    "defaults": {},
+    "flowUrl": "/B-026/B-026.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-026",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "isWip": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  "B-027": {
+    "id": "B-027",
+    "identifier": "com.usegdi.premier-league",
+    "version": "0.1.0",
+    "url": "/boards/B-027",
+    "boardInfo": {
+      "name": "Premier League Analytics",
+      "index": 27,
+      "imageUrl": "/images/d4.jpg",
+      "videoThumbUrl": "/images/B-027.mp4",
+      "videoUrl": "",
+      "boardType": "adhoc",
+      "description": "Gain deeper insights into Premier League matches with advanced sports analytics. Analyze plays, strategies, and player performance to understand the intricacies of the game. Leverage comprehensive data and visualizations to enhance your understanding of Premier League action.",
+      "descriptionLong": "The Premier League Sports Analytics board revolutionizes the way you analyze football matches. Dive into detailed breakdowns of plays, player movements, and game statistics. This board provides a comprehensive toolkit for coaches, analysts, and enthusiasts to uncover valuable insights and tactical trends within the Premier League.",
+      "oneLiner": "Uncover game-changing insights with Premier League Sports Analytics.",
+      "oneLinerShort": "Uncover game-changing insights.",
+      "header": "analysis of sports plays in the Premier League",
+      "logoColor": "#894785",
+      "fields": [
+        {
+          "label": "league",
+          "content": "Premier League"
+        },
+        {
+          "label": "topic",
+          "content": "Sports Analytics"
+        },
+        {
+          "label": "tools",
+          "content": "Playmaker Pro, Opta, Stats Perform"
+        }
+      ],
+      "tags": [
+        "sports",
+        "analytics",
+        "football",
+        "Premier League",
+        "data",
+        "visualizations"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768",
+        "1280x720"
+      ],
+      "tsVersion": "2024-02-10 15:30:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {},
+    "defaults": {},
+    "flowUrl": "/B-027/B-027.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-027",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "isWip": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  "B-028": {
+    "id": "B-028",
+    "identifier": "com.usegdi.regex-wizard",
+    "version": "0.1.0",
+    "url": "/boards/B-028",
+    "boardInfo": {
+      "name": "Regex Wizard",
+      "index": 28,
+      "imageUrl": "/images/6.jpg",
+      "videoThumbUrl": "/images/B-028.mp4",
+      "videoUrl": "",
+      "boardType": "adhoc",
+      "description": "\"RegexWizard\" is an innovative tool designed to simplify the process of writing and debugging regular expressions. Programming tasks often involve intricate details, and regex can be particularly challenging. With the help of AI technology, this tool streamlines the creation of regex expressions, enabling users to craft accurate and effective patterns. Additionally, RegexWizard aids in identifying errors and inconsistencies, eliminating the need for lengthy and frustrating debugging sessions. Embrace the magic of seamless regex writing with RegexWizard and bid farewell to the complexities associated with this essential programming task.\n\nFeaturing an intuitive interface and powered by AI, RegexWizard revolutionizes the way regular expressions are handled. Its capabilities extend beyond traditional regex tools by offering not only assistance in writing expressions, but also in identifying potential issues. With its vast library of predefined patterns, RegexWizard helps programmers save time and effort by suggesting appropriate syntax and highlighting errors in real-time. Whether you are a novice or an experienced developer, RegexWizard is a game-changing tool that enables you to boost productivity and achieve more accurate results. With over 4000 installations and a solid rating of 4.5, RegexWizard is trusted and endorsed by the programming community. Supported resolutions include 2560x1440 and 3840x2160, ensuring compatibility across various devices and screen sizes.",
+      "descriptionLong": "\"RegexWizard\" is an innovative tool that simplifies the process of writing and debugging regular expressions. Programming tasks often involve intricate details, and regex can be particularly challenging. With the help of AI technology, RegexWizard streamlines the creation of regex expressions, enabling users to craft accurate and effective patterns. This tool also aids in identifying errors and inconsistencies, eliminating the need for lengthy and frustrating debugging sessions. By embracing the magic of seamless regex writing, programmers can bid farewell to the complexities associated with this essential programming task.\n\nFeaturing an intuitive interface and powered by AI, RegexWizard revolutionizes the way regular expressions are handled. It goes beyond traditional regex tools by offering assistance in writing expressions and identifying potential issues. With its vast library of predefined patterns, RegexWizard helps programmers save time and effort by suggesting appropriate syntax and highlighting errors in real-time. Regardless of whether you are a novice or an experienced developer, RegexWizard is a game-changing tool that enhances productivity and delivers more accurate results. With over 4000 installations and a solid rating of 4.5, RegexWizard is trusted and endorsed by the programming community. It is compatible across various devices and screen sizes, supporting resolutions such as 2560x1440 and 3840x2160.",
+      "oneLiner": "Simplify regex writing and debugging with AI-powered assistance, saving time and effort for accurate and effective patterns.",
+      "oneLinerShort": "Simplify regex with AI assistance",
+      "header": "a new take on feeds for the AI era",
+      "logoColor": "#FF5733",
+      "fields": [
+        {
+          "label": "feeds",
+          "content": "X, Reddit, Facebook"
+        },
+        {
+          "label": "era",
+          "content": "AI"
+        },
+        {
+          "label": "focus",
+          "content": "Personalization, Relevance, Reliability"
+        }
+      ],
+      "tags": [
+        "feeds",
+        "AI",
+        "content discovery",
+        "personalization",
+        "relevance",
+        "information"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768",
+        "1280x720"
+      ],
+      "tsVersion": "2024-02-15 09:00:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "defaults": {},
     "flowUrl": "/B-028/B-028.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-028",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
@@ -1929,52 +1948,32 @@
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
-      "rating": 0
+      "rating": 0,
+      "reviews": {}
     }
   },
   "B-029": {
     "id": "B-029",
-    "identifier": "com.usegdi.multi",
+    "identifier": "com.usegdi.rhetoric-radar",
     "version": "0.1.0",
-    "url": "/boards/B-029",
+    "url": "/boards/B-018",
     "boardInfo": {
-      "name": "Multi",
+      "name": "RhetoricRadar",
       "index": 29,
-      "imageUrl": "/images/i_multi.jpg",
-      "videoThumbUrl": "/images/B-029.mp4",
-      "videoUrl": "https://www.youtube.com/embed/MULTI_PRODUCTIVITY_VIDEO_ID",
+      "imageUrl": "/images/8.jpg",
       "boardType": "adhoc",
-      "description": "Unlock your productivity potential with Multi. This all-in-one solution empowers individuals and teams to capture ideas, manage tasks, track projects, organize to-do lists, and bookmark important resources. With a flexible and collaborative interface, Multi optimizes workflow efficiency and knowledge management.",
-      "descriptionLong": "Multi reimagines productivity and organization by blending note-taking, task management, project tracking, to-do lists, and bookmarking into a seamless experience. Whether you're planning projects, creating knowledge databases, or managing personal tasks, this suite empowers you to structure and access your information with ease.",
-      "oneLiner": "Elevate productivity with a unified suite for note-taking, task management, and more.",
-      "oneLinerShort": "Streamline productivity with one suite for all your organization needs.",
-      "header": "Multi for comprehensive organization and productivity",
-      "logoColor": "#FF6D00",
-      "fields": [
-        {
-          "label": "itemType",
-          "content": "String"
-        },
-        {
-          "label": "dueDate",
-          "content": "Date"
-        },
-        {
-          "label": "projectStatus",
-          "content": "String"
-        },
-        {
-          "label": "bookmarkUrl",
-          "content": "String"
-        }
-      ],
+      "description": "RhetoricRadar is an innovative tool designed to analyze YouTube video clips and identify logical fallacies and manipulations. This revolutionary application aims to empower users to critically evaluate the content they consume, particularly in the digital sphere. By leveraging advanced linguistic and rhetorical analysis, RhetoricRadar provides insightful assessments of persuasive techniques and argumentative strategies employed in online videos. Equipped with a comprehensive database of logical fallacies and manipulative tactics, this app serves as a vigilant watchdog, enabling users to detect and comprehend the intricacies of persuasive communication.\n\nWith its user-friendly interface and intuitive functionality, RhetoricRadar offers a seamless experience for individuals seeking to uncover the underlying strategies used in persuasive media. From identifying ad hominem attacks to recognizing appeals to emotion, the app facilitates a deeper understanding of rhetoric in the digital landscape. Boasting over 5,000 installations and a stellar rating of 4.8, RhetoricRadar has become an indispensable tool for critical thinkers and media analysts. It supports multiple resolutions and ensures a smooth user experience, fostering informed and discerning consumption of online content.\n\nNote: The long description provided above was not available in the initial prompt and has been included for reference purposes.",
+      "descriptionLong": "RhetoricRadar is an innovative tool designed to analyze YouTube video clips and identify logical fallacies and manipulations. This revolutionary application aims to empower users to critically evaluate the content they consume, particularly in the digital sphere. By leveraging advanced linguistic and rhetorical analysis, RhetoricRadar provides insightful assessments of persuasive techniques and argumentative strategies employed in online videos. Equipped with a comprehensive database of logical fallacies and manipulative tactics, this app serves as a vigilant watchdog, enabling users to detect and comprehend the intricacies of persuasive communication.\n\nWith its user-friendly interface and intuitive functionality, RhetoricRadar offers a seamless experience for individuals seeking to uncover the underlying strategies used in persuasive media. From identifying ad hominem attacks to recognizing appeals to emotion, the app facilitates a deeper understanding of rhetoric in the digital landscape. Boasting over 5,000 installations and a stellar rating of 4.8, RhetoricRadar has become an indispensable tool for critical thinkers and media analysts. It supports multiple resolutions and ensures a smooth user experience, fostering informed and discerning consumption of online content.",
+      "oneLiner": "Empower yourself to critically assess YouTube content with RhetoricRadar, the ultimate tool for identifying logical fallacies and manipulative rhetoric in online videos.",
+      "oneLinerShort": "\"Empower critical analysis of YouTube content\"",
+      "header": "",
+      "fields": [],
       "tags": [
-        "productivity",
-        "note-taking",
-        "task_management",
-        "project_tracking",
-        "to-do_lists",
-        "bookmarking"
+        "YouTube",
+        "rhetoric",
+        "logical fallacies",
+        "manipulation",
+        "digital literacy"
       ],
       "supportedResolutions": [
         "1920x1080",
@@ -1988,16 +1987,15 @@
       "@gdi/ui": "^1.0.0",
       "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": {},
-    "defaults": {
-      "previewPath": "/static/multi-productivity-model.json"
-    },
+    "apis": [
+      "turbo-3.5"
+    ],
+    "defaults": {},
     "flowUrl": "/B-029/B-029.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-029",
+    "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
-    "isWip": true,
     "mobile": {
       "hidePrompt": true,
       "darkMode": true
@@ -2005,52 +2003,48 @@
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
-      "rating": 0
+      "rating": 0,
+      "reviews": {}
     }
   },
   "B-030": {
     "id": "B-030",
-    "identifier": "com.usegdi.sales",
+    "identifier": "com.usegdi.scene-player",
     "version": "0.1.0",
-    "url": "/boards/B-030",
+    "url": "/boards/b-800",
     "boardInfo": {
-      "name": "Sales",
+      "name": "Scene player",
       "index": 30,
-      "imageUrl": "/images/i_sales.jpg",
-      "videoThumbUrl": "/images/B-030.mp4",
-      "videoUrl": "https://www.youtube.com/embed/SALES_PIPELINE_MANAGER_VIDEO_ID",
+      "imageUrl": "/images/z_3d.jpg",
+      "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
       "boardType": "adhoc",
-      "description": "Efficiently track, manage, and optimize sales pipelines with Sales. This comprehensive tool empowers sales teams to visualize, organize, and progress deals through customizable pipelines. From lead acquisition to deal closure, Sales streamlines the sales process, driving productivity and revenue growth.",
-      "descriptionLong": "Sales is designed to be the ultimate ally for sales professionals, offering intuitive features to monitor and advance deals through every stage of the pipeline. With its visual interface and robust functionality, users can gain valuable insights, prioritize tasks, and nurture leads effectively. Elevate your sales performance with Sales.",
-      "oneLiner": "Optimize sales pipelines with Sales's intuitive interface.",
-      "oneLinerShort": "Track, organize, and close deals with ease.",
-      "header": "Sales for enhanced sales performance",
-      "logoColor": "#FF5733",
+      "description": "Experience immersive 3D scenes created with GDI in real-time with the 3D Scene Player. Explore interactive environments and stunning visuals crafted using cutting-edge technology. This tool brings your creations to life, allowing seamless navigation and interaction within the 3D space.",
+      "descriptionLong": "The 3D Scene Player offers a seamless way to showcase and navigate through captivating 3D environments developed with GDI. Whether it's architectural visualizations, game levels, or product designs, this platform enables effortless exploration and interaction within the scenes. From detailed textures to dynamic lighting, experience the depth and creativity of GDI's 3D scenes in real-time.",
+      "oneLiner": "Immerse yourself in interactive 3D scenes crafted with GDI in real-time.",
+      "oneLinerShort": "Explore interactive 3D scenes made with GDI.",
+      "header": "experience immersive 3D scenes",
       "fields": [
         {
-          "label": "dealName",
-          "content": "String"
+          "label": "input",
+          "content": "Prompt"
         },
         {
-          "label": "dealValue",
-          "content": "Number"
+          "label": "output",
+          "content": "3d ad"
         },
         {
-          "label": "dealStage",
-          "content": "String"
-        },
-        {
-          "label": "contactName",
-          "content": "String"
+          "label": "engines",
+          "content": "LLM #1, LLM #2, ElevenLabs"
         }
       ],
       "tags": [
-        "sales",
-        "pipelines",
-        "CRM",
-        "deals",
-        "productivity",
-        "business"
+        "video",
+        "ads",
+        "3D",
+        "media",
+        "top_installed",
+        "editor_choice",
+        "young_professionals"
       ],
       "supportedResolutions": [
         "1920x1080",
@@ -2065,15 +2059,12 @@
       "@gdi/widgets-starter": "^1.0.0"
     },
     "apis": {},
-    "defaults": {
-      "previewPath": "/static/sales-pipeline-model.json"
-    },
+    "defaults": {},
     "flowUrl": "/B-030/B-030.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-030",
+    "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
-    "isWip": true,
     "mobile": {
       "hidePrompt": true,
       "darkMode": true
@@ -2163,46 +2154,30 @@
   },
   "B-032": {
     "id": "B-032",
-    "identifier": "com.usegdi.scene-player",
+    "identifier": "com.usegdi.spotlight",
     "version": "0.1.0",
-    "url": "/boards/b-800",
+    "url": "/boards/B-032",
     "boardInfo": {
-      "name": "Scene player",
+      "name": "Spotlight",
       "index": 32,
-      "imageUrl": "/images/z_3d.jpg",
-      "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
+      "imageUrl": "/images/b_0.jpg",
+      "videoThumbUrl": "/images/B-032.mp4",
       "boardType": "adhoc",
-      "description": "Experience immersive 3D scenes created with GDI in real-time with the 3D Scene Player. Explore interactive environments and stunning visuals crafted using cutting-edge technology. This tool brings your creations to life, allowing seamless navigation and interaction within the 3D space.",
-      "descriptionLong": "The 3D Scene Player offers a seamless way to showcase and navigate through captivating 3D environments developed with GDI. Whether it's architectural visualizations, game levels, or product designs, this platform enables effortless exploration and interaction within the scenes. From detailed textures to dynamic lighting, experience the depth and creativity of GDI's 3D scenes in real-time.",
-      "oneLiner": "Immerse yourself in interactive 3D scenes crafted with GDI in real-time.",
-      "oneLinerShort": "Explore interactive 3D scenes made with GDI.",
-      "header": "experience immersive 3D scenes",
-      "fields": [
-        {
-          "label": "input",
-          "content": "Prompt"
-        },
-        {
-          "label": "output",
-          "content": "3d ad"
-        },
-        {
-          "label": "engines",
-          "content": "LLM #1, LLM #2, ElevenLabs"
-        }
-      ],
+      "description": "Spotlight is a powerful board that generates a 30-second 3D advertisement based on user-provided prompts. With its advanced AI-driven engine, Spotlight is capable of crafting captivating promotional content with dynamic camera movements, scripted voiceovers, and immersive visuals. This innovative tool opens up a world of creative possibilities for businesses and individuals seeking high-quality promotional material.\n\nLeverage the creative potential of Spotlight to bring your ideas to life. Whether it's for product launches, marketing campaigns, or social media promotions, Spotlight offers a seamless solution for generating engaging 3D advertisements. From vibrant visuals to compelling narratives, the 30-second ad produced by Spotlight is tailor-made to captivate audiences and drive engagement.\n\nEmpower your promotional efforts with Spotlight's intuitive interface and customizable options. Witness your vision come to life as Spotlight crafts a stunning 3D advertisement that reflects your unique brand identity and messaging. Release the power of compelling 3D ads and elevate your promotional strategies with the unparalleled capabilities of Spotlight!",
+      "descriptionLong": "Spotlight is a powerful board that generates a 30-second 3D advertisement based on user-provided prompts. With its advanced AI-driven engine, Spotlight is capable of crafting captivating promotional content with dynamic camera movements, scripted voiceovers, and immersive visuals. This innovative tool opens up a world of creative possibilities for businesses and individuals seeking high-quality promotional material.\n\nLeverage the creative potential of Spotlight to bring your ideas to life. Whether it's for product launches, marketing campaigns, or social media promotions, Spotlight offers a seamless solution for generating engaging 3D advertisements. From vibrant visuals to compelling narratives, the 30-second ad produced by Spotlight is tailor-made to captivate audiences and drive engagement.\n\nEmpower your promotional efforts with Spotlight's intuitive interface and customizable options. Witness your vision come to life as Spotlight crafts a stunning 3D advertisement that reflects your unique brand identity and messaging. Release the power of compelling 3D ads and elevate your promotional strategies with the unparalleled capabilities of Spotlight!",
+      "oneLiner": "Unleash the power of 3D advertisement generation with Spotlight's AI-driven engine and captivating visuals.",
+      "oneLinerShort": "\"AI 3D ad generation\"",
+      "header": "",
+      "fields": [],
       "tags": [
-        "video",
-        "ads",
+        "advertising",
         "3D",
-        "media",
-        "top_installed",
-        "editor_choice",
-        "young_professionals"
+        "marketing",
+        "AI"
       ],
       "supportedResolutions": [
         "1920x1080",
-        "1366x768"
+        "3840x2160"
       ],
       "tsVersion": "2024-02-03 14:44:00"
     },
@@ -2212,17 +2187,15 @@
       "@gdi/ui": "^1.0.0",
       "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": {},
-    "defaults": {},
     "flowUrl": "/B-032/B-032.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
+    "apis": {},
+    "defaults": {
+      "setupId": "helmet",
+      "exampleId": "helmet"
     },
+    "examplesUrl": "/B-032/B-032.examples.json",
+    "isActive": true,
+    "isWip": true,
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
@@ -2232,32 +2205,50 @@
   },
   "B-033": {
     "id": "B-033",
-    "identifier": "com.usegdi.rhetoric-radar",
+    "identifier": "com.usegdi.tdd-studio",
     "version": "0.1.0",
-    "url": "/boards/B-018",
+    "url": "/boards/B-033",
     "boardInfo": {
-      "name": "RhetoricRadar",
+      "name": "TDD Studio",
       "index": 33,
-      "imageUrl": "/images/8.jpg",
+      "imageUrl": "/images/d_tdd.jpg",
+      "videoThumbUrl": "/images/B-033.mp4",
+      "videoUrl": "",
       "boardType": "adhoc",
-      "description": "RhetoricRadar is an innovative tool designed to analyze YouTube video clips and identify logical fallacies and manipulations. This revolutionary application aims to empower users to critically evaluate the content they consume, particularly in the digital sphere. By leveraging advanced linguistic and rhetorical analysis, RhetoricRadar provides insightful assessments of persuasive techniques and argumentative strategies employed in online videos. Equipped with a comprehensive database of logical fallacies and manipulative tactics, this app serves as a vigilant watchdog, enabling users to detect and comprehend the intricacies of persuasive communication.\n\nWith its user-friendly interface and intuitive functionality, RhetoricRadar offers a seamless experience for individuals seeking to uncover the underlying strategies used in persuasive media. From identifying ad hominem attacks to recognizing appeals to emotion, the app facilitates a deeper understanding of rhetoric in the digital landscape. Boasting over 5,000 installations and a stellar rating of 4.8, RhetoricRadar has become an indispensable tool for critical thinkers and media analysts. It supports multiple resolutions and ensures a smooth user experience, fostering informed and discerning consumption of online content.\n\nNote: The long description provided above was not available in the initial prompt and has been included for reference purposes.",
-      "descriptionLong": "RhetoricRadar is an innovative tool designed to analyze YouTube video clips and identify logical fallacies and manipulations. This revolutionary application aims to empower users to critically evaluate the content they consume, particularly in the digital sphere. By leveraging advanced linguistic and rhetorical analysis, RhetoricRadar provides insightful assessments of persuasive techniques and argumentative strategies employed in online videos. Equipped with a comprehensive database of logical fallacies and manipulative tactics, this app serves as a vigilant watchdog, enabling users to detect and comprehend the intricacies of persuasive communication.\n\nWith its user-friendly interface and intuitive functionality, RhetoricRadar offers a seamless experience for individuals seeking to uncover the underlying strategies used in persuasive media. From identifying ad hominem attacks to recognizing appeals to emotion, the app facilitates a deeper understanding of rhetoric in the digital landscape. Boasting over 5,000 installations and a stellar rating of 4.8, RhetoricRadar has become an indispensable tool for critical thinkers and media analysts. It supports multiple resolutions and ensures a smooth user experience, fostering informed and discerning consumption of online content.",
-      "oneLiner": "Empower yourself to critically assess YouTube content with RhetoricRadar, the ultimate tool for identifying logical fallacies and manipulative rhetoric in online videos.",
-      "oneLinerShort": "\"Empower critical analysis of YouTube content\"",
-      "header": "",
-      "fields": [],
+      "description": "Improve your Test-Driven Development (TDD) skills with the TDD Studio board. Streamline the process of writing simple input-output algorithms by constructing pure functions and validating their accuracy through test-case evaluation. Master TDD by efficiently composing tests, providing input-output pairs, and iteratively refining implementations for optimal outcomes.",
+      "descriptionLong": "The TDD Studio board serves as a valuable aid for honing Test-Driven Development proficiency. Enhance your ability to create pure functions and craft effective tests for input-output algorithms. With the ability to efficiently validate input-output pairs and iteratively refine implementations, this board empowers users to achieve robust, reliable, and optimized solutions through TDD.",
+      "oneLiner": "Refine TDD skills with efficient test-case verification and iterative implementation.",
+      "oneLinerShort": "Refine TDD skills with efficient test-case verification.",
+      "header": "streamline TDD process for input-output algorithms and pure functions",
+      "logoColor": "#FF1493",
+      "fields": [
+        {
+          "label": "skills",
+          "content": "TDD, Test Composition, Input-Output Algorithms, Pure Functions"
+        },
+        {
+          "label": "validation",
+          "content": "Test Efficiency, Implementation Refinement"
+        },
+        {
+          "label": "iterative",
+          "content": "Validate, Refine, Optimize"
+        }
+      ],
       "tags": [
-        "YouTube",
-        "rhetoric",
-        "logical fallacies",
-        "manipulation",
-        "digital literacy"
+        "TDD",
+        "test-driven-development",
+        "algorithms",
+        "pure-functions",
+        "test-composition",
+        "efficiency"
       ],
       "supportedResolutions": [
         "1920x1080",
-        "1366x768"
+        "1366x768",
+        "1280x720"
       ],
-      "tsVersion": "2024-02-03 14:44:00"
+      "tsVersion": "2024-03-07 10:00:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2265,15 +2256,14 @@
       "@gdi/ui": "^1.0.0",
       "@gdi/widgets-starter": "^1.0.0"
     },
-    "apis": [
-      "turbo-3.5"
-    ],
+    "apis": {},
     "defaults": {},
     "flowUrl": "/B-033/B-033.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-033",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "isWip": true,
     "mobile": {
       "hidePrompt": true,
       "darkMode": true
@@ -2287,12 +2277,134 @@
   },
   "B-034": {
     "id": "B-034",
+    "identifier": "com.usegdi.todo-app",
+    "version": "1.0.0",
+    "url": "/boards/B-034",
+    "boardInfo": {
+      "name": "Todo App",
+      "index": 34,
+      "imageUrl": "",
+      "boardType": "adhoc",
+      "description": "Todo App is a versatile task management application designed to help users organize their daily tasks efficiently. This app simplifies your life by providing an intuitive and user-friendly interface for creating, tracking, and completing tasks. Whether you're managing work projects, personal errands, or academic assignments, Todo App has you covered.\n\nWith Todo App, you can create, edit, and prioritize tasks effortlessly. The app allows you to set due dates, add notes, and categorize tasks into lists. Stay organized by viewing tasks in a list or kanban board layout. Never miss a deadline again with timely reminders and notifications.\n\nExperience the joy of productivity with Todo App. Whether you're a busy professional or a student juggling multiple responsibilities, this app helps you stay on top of your tasks and accomplish your goals.",
+      "descriptionLong": "Todo App is the ultimate task management solution for individuals seeking to streamline their daily lives. This powerful application offers an array of features designed to enhance productivity and organization. From work-related projects to personal chores and academic assignments, Todo App is your trusted companion.\n\nCreate tasks with ease, customize them with due dates and notes, and categorize them into lists. Visualize your tasks using either a list or a kanban board layout, providing flexibility for different workflow preferences. Say goodbye to missed deadlines, thanks to reminders and notifications.\n\nRediscover the pleasure of productivity with Todo App. Whether you're a professional with a busy schedule or a student managing various commitments, this app empowers you to stay in control and achieve your objectives.",
+      "oneLiner": "Simplify your life with efficient task management and organization.",
+      "oneLinerShort": "Efficient task management and organization.",
+      "header": "",
+      "fields": [],
+      "tags": [
+        "todo",
+        "task management",
+        "productivity",
+        "organization"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768",
+        "1280x720"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {},
+    "defaults": {},
+    "flowUrl": "/B-034/B-034.flow.json",
+    "isActive": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  "B-035": {
+    "id": "B-035",
+    "identifier": "com.usegdi.debater-workshop",
+    "version": "0.1.0",
+    "url": "/boards/B-035",
+    "boardInfo": {
+      "name": "Debater's Workshop",
+      "index": 35,
+      "imageUrl": "/images/d0.jpg",
+      "videoThumbUrl": "/images/B-035.mp4",
+      "videoUrl": "",
+      "boardType": "adhoc",
+      "description": "Develop your critical thinking skills with education centered on logical fallacies, rhetoric, and information analysis. Learn through practical examples and diverse methods that empower you to recognize, evaluate, and respond to different forms of reasoning and argumentation in an informed and analytical manner.",
+      "descriptionLong": "The Debate's Workshop board is your gateway to mastering logical fallacies, rhetoric, and information analysis. Explore diverse methods and real-world examples to sharpen your skills in identifying faulty reasoning, analyzing rhetoric, and critically evaluating information. Gain the expertise to engage in informed, thoughtful, and analytical discourse.",
+      "oneLiner": "Empower critical thinking through practical education and real-world examples.",
+      "oneLinerShort": "Empower critical thinking through practical education.",
+      "header": "education on logical fallacies, rhetoric, and information analysis",
+      "logoColor": "#8A2BE2",
+      "fields": [
+        {
+          "label": "skills",
+          "content": "Logical Fallacies, Rhetoric, Information Analysis"
+        },
+        {
+          "label": "methods",
+          "content": "Practical Examples, Learning by Example, Diverse Methods"
+        },
+        {
+          "label": "focus",
+          "content": "Critical Thinking, Analytical Discourse"
+        }
+      ],
+      "tags": [
+        "critical-thinking",
+        "logical-fallacies",
+        "rhetoric",
+        "information-analysis",
+        "education",
+        "real-world-examples"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1366x768",
+        "1280x720"
+      ],
+      "tsVersion": "2024-03-01 14:00:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {},
+    "defaults": {},
+    "flowUrl": "/B-035/B-035.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-035",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "isWip": true,
+    "mobile": {
+      "hidePrompt": true,
+      "darkMode": true
+    },
+    "reviewInfo": {
+      "reviewsCount": 0,
+      "installationCount": 0,
+      "rating": 0,
+      "reviews": {}
+    }
+  },
+  "B-036": {
+    "id": "B-036",
     "identifier": "com.usegdi.tutorial-maker",
     "version": "0.1.0",
     "url": "/boards/b-802",
     "boardInfo": {
       "name": "3D Ad Creator",
-      "index": 34,
+      "index": 36,
       "imageUrl": "/images/z_3d.jpg",
       "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
       "boardType": "adhoc",
@@ -2353,14 +2465,14 @@
       "reviews": {}
     }
   },
-  "B-035": {
-    "id": "B-035",
+  "B-037": {
+    "id": "B-037",
     "identifier": "com.usegdi.vision-pro-mockups",
     "version": "0.1.0",
-    "url": "/boards/B-035",
+    "url": "/boards/B-037",
     "boardInfo": {
       "name": "Mockup",
-      "index": 35,
+      "index": 37,
       "imageUrl": "/images/mockup.jpg",
       "boardType": "adhoc",
       "description": "Mockup is an innovative application designed to simulate screens from various devices, such as mobile phones and VR headsets, allowing users to record the screen for demonstrations or presentations. Whether you need to showcase your app's functionality on different devices or create engaging tutorials, Mockup offers a seamless solution for recording and simulating device screens with ease.",
@@ -2390,128 +2502,8 @@
     },
     "apis": {},
     "defaults": {},
-    "flowUrl": "/B-035/B-035.flow.json",
-    "isActive": false,
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-036": {
-    "id": "B-036",
-    "identifier": "com.usegdi.todo-app",
-    "version": "1.0.0",
-    "url": "/boards/B-036",
-    "boardInfo": {
-      "name": "Todo App",
-      "index": 36,
-      "imageUrl": "",
-      "boardType": "adhoc",
-      "description": "Todo App is a versatile task management application designed to help users organize their daily tasks efficiently. This app simplifies your life by providing an intuitive and user-friendly interface for creating, tracking, and completing tasks. Whether you're managing work projects, personal errands, or academic assignments, Todo App has you covered.\n\nWith Todo App, you can create, edit, and prioritize tasks effortlessly. The app allows you to set due dates, add notes, and categorize tasks into lists. Stay organized by viewing tasks in a list or kanban board layout. Never miss a deadline again with timely reminders and notifications.\n\nExperience the joy of productivity with Todo App. Whether you're a busy professional or a student juggling multiple responsibilities, this app helps you stay on top of your tasks and accomplish your goals.",
-      "descriptionLong": "Todo App is the ultimate task management solution for individuals seeking to streamline their daily lives. This powerful application offers an array of features designed to enhance productivity and organization. From work-related projects to personal chores and academic assignments, Todo App is your trusted companion.\n\nCreate tasks with ease, customize them with due dates and notes, and categorize them into lists. Visualize your tasks using either a list or a kanban board layout, providing flexibility for different workflow preferences. Say goodbye to missed deadlines, thanks to reminders and notifications.\n\nRediscover the pleasure of productivity with Todo App. Whether you're a professional with a busy schedule or a student managing various commitments, this app empowers you to stay in control and achieve your objectives.",
-      "oneLiner": "Simplify your life with efficient task management and organization.",
-      "oneLinerShort": "Efficient task management and organization.",
-      "header": "",
-      "fields": [],
-      "tags": [
-        "todo",
-        "task management",
-        "productivity",
-        "organization"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768",
-        "1280x720"
-      ],
-      "tsVersion": "2024-02-03 14:44:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": {},
-    "defaults": {},
-    "flowUrl": "/B-036/B-036.flow.json",
-    "isActive": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
-  "B-037": {
-    "id": "B-037",
-    "identifier": "com.usegdi.babylon-gallery",
-    "version": "1.0.0",
-    "url": "/boards/B-037",
-    "boardInfo": {
-      "name": "3D Scene Gallery",
-      "index": 37,
-      "imageUrl": "/images/3d-gallery.jpg",
-      "videoUrl": "",
-      "boardType": "adhoc",
-      "description": "Explore a captivating gallery of immersive 3D scenes created with BabylonJS. Experience the power of web-based 3D rendering and unleash your creativity with these interactive environments.",
-      "descriptionLong": "Step into the world of breathtaking 3D scenes crafted with BabylonJS. This gallery showcases the remarkable potential of web-based 3D rendering, offering a glimpse into the future of interactive, virtual experiences. Whether you're a developer or an enthusiast, these scenes will ignite your imagination and inspire you to push the boundaries of what's possible.",
-      "oneLiner": "Embark on an immersive journey with the 3D Scene Gallery powered by BabylonJS.",
-      "oneLinerShort": "Discover immersive 3D scenes with BabylonJS.",
-      "header": "gallery of 3D scenes made with BabylonJS",
-      "logoColor": "#32A1F5",
-      "fields": [
-        {
-          "label": "scene",
-          "content": "BabylonJS Playground"
-        },
-        {
-          "label": "description",
-          "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
-        },
-        {
-          "label": "author",
-          "content": "gdi"
-        }
-      ],
-      "tags": [
-        "3D",
-        "BabylonJS",
-        "web-based",
-        "interactive",
-        "virtual_experience"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768"
-      ],
-      "tsVersion": "2024-02-03 14:44:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": {},
-    "defaults": {
-      "previewPath": "/static/modelz.json"
-    },
     "flowUrl": "/B-037/B-037.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-037",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
+    "isActive": false,
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
@@ -2521,45 +2513,30 @@
   },
   "B-038": {
     "id": "B-038",
-    "identifier": "com.usegdi.music",
-    "version": "1.0.0",
+    "identifier": "com.usegdi.vision-simulator",
+    "version": "0.1.0",
     "url": "/boards/B-038",
     "boardInfo": {
-      "name": "Music",
+      "name": "Vision Simulator",
       "index": 38,
-      "imageUrl": "/images/3d-gallery.jpg",
-      "videoUrl": "",
+      "imageUrl": "/images/b_2.jpg",
+      "videoThumbUrl": "/images/B-038.mp4",
       "boardType": "adhoc",
-      "description": "Discover a world of premium royalty-free music with the Envato Elements Music Browser. Explore an extensive library of high-quality tracks for your creative projects. From energetic beats to soothing melodies, find the perfect sound for your content creation needs.",
-      "descriptionLong": "The Envato Elements Music Browser is your gateway to a vast collection of top-tier, royalty-free music. Access an array of genres and moods, ensuring there's always a perfect match for your creative endeavors. Elevate your projects with professional music that enhances the impact and emotive resonance of your content.",
-      "oneLiner": "Access premium royalty-free music with the Envato Elements Music Browser.",
-      "oneLinerShort": "Discover premium royalty-free music.",
-      "header": "gallery of 3D scenes made with BabylonJS",
-      "logoColor": "#32A1F5",
-      "fields": [
-        {
-          "label": "scene",
-          "content": "BabylonJS Playground"
-        },
-        {
-          "label": "description",
-          "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
-        },
-        {
-          "label": "author",
-          "content": "gdi"
-        }
-      ],
+      "description": "Vision Pro Simulator is a cutting-edge board designed to provide users with a simulated experience of the Apple Vision Pro spatial computing headset. This advanced simulator offers a realistic environment for users to explore the features and functionalities of the Vision Pro headset without the need for physical hardware. With its immersive simulations and interactive interface, Vision Pro Simulator serves as a valuable tool for developers, designers, and enthusiasts looking to understand the capabilities of Apple's innovative spatial computing technology.\n\nExplore the potential of spatial computing through lifelike simulations and interactive scenarios. Vision Pro Simulator offers a seamless experience, allowing users to experiment with spatial mapping, gesture recognition, and immersive AR experiences. Whether you're a seasoned developer or a curious enthusiast, Vision Pro Simulator provides a unique platform to grasp the possibilities offered by the Vision Pro headset.\n\nWith over 5,000 installations and a stellar rating of 4.8, Vision Pro Simulator has garnered praise for its accuracy and user-friendly interface. Take a step into the future of spatial computing and unlock the potential of the Apple Vision Pro headset right at your fingertips!",
+      "descriptionLong": "Vision Pro Simulator is a cutting-edge board designed to provide users with a simulated experience of the Apple Vision Pro spatial computing headset. This advanced simulator offers a realistic environment for users to explore the features and functionalities of the Vision Pro headset without the need for physical hardware. With its immersive simulations and interactive interface, Vision Pro Simulator serves as a valuable tool for developers, designers, and enthusiasts looking to understand the capabilities of Apple's innovative spatial computing technology.\n\nExplore the potential of spatial computing through lifelike simulations and interactive scenarios. Vision Pro Simulator offers a seamless experience, allowing users to experiment with spatial mapping, gesture recognition, and immersive AR experiences. Whether you're a seasoned developer or a curious enthusiast, Vision Pro Simulator provides a unique platform to grasp the possibilities offered by the Vision Pro headset.\n\nWith over 5,000 installations and a stellar rating of 4.8, Vision Pro Simulator has garnered praise for its accuracy and user-friendly interface. Take a step into the future of spatial computing and unlock the potential of the Apple Vision Pro headset right at your fingertips!",
+      "oneLiner": "Experience the future of spatial computing with lifelike simulations of the Apple Vision Pro headset through Vision Pro Simulator.",
+      "oneLinerShort": "\"Explore spatial computing\"",
+      "header": "",
+      "fields": [],
       "tags": [
-        "3D",
-        "BabylonJS",
-        "web-based",
-        "interactive",
-        "virtual_experience"
+        "spatial computing",
+        "AR",
+        "VR",
+        "simulation"
       ],
       "supportedResolutions": [
         "1920x1080",
-        "1366x768"
+        "2560x1440"
       ],
       "tsVersion": "2024-02-03 14:44:00"
     },
@@ -2569,16 +2546,15 @@
       "@gdi/ui": "^1.0.0",
       "@gdi/widgets-starter": "^1.0.0"
     },
+    "flowUrl": "/B-038/B-038.flow.json",
+    "examplesUrl": "/B-038/B-038.examples.json",
     "apis": {},
-    "defaults": {},
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-038",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
+    "defaults": {
+      "exampleId": "vision-pro",
+      "setupId": "vision-pro"
     },
+    "isWip": true,
+    "isActive": true,
     "reviewInfo": {
       "reviewsCount": 0,
       "installationCount": 0,
@@ -2588,47 +2564,48 @@
   },
   "B-039": {
     "id": "B-039",
-    "identifier": "com.usegdi.flow",
-    "version": "1.0.0",
+    "identifier": "com.usegdi.world-news",
+    "version": "0.1.0",
     "url": "/boards/B-039",
     "boardInfo": {
-      "name": "Flow",
+      "name": "World News",
       "index": 39,
-      "imageUrl": "/images/3d-gallery.jpg",
+      "imageUrl": "/images/d1.jpg",
+      "videoThumbUrl": "/images/B-039.mp4",
       "videoUrl": "",
       "boardType": "adhoc",
-      "description": "Discover a world of premium royalty-free music with the Envato Elements Music Browser. Explore an extensive library of high-quality tracks for your creative projects. From energetic beats to soothing melodies, find the perfect sound for your content creation needs.",
-      "descriptionLong": "The Envato Elements Music Browser is your gateway to a vast collection of top-tier, royalty-free music. Access an array of genres and moods, ensuring there's always a perfect match for your creative endeavors. Elevate your projects with professional music that enhances the impact and emotive resonance of your content.",
-      "oneLiner": "Access premium royalty-free music with the Envato Elements Music Browser.",
-      "oneLinerShort": "Discover premium royalty-free music.",
-      "header": "gallery of 3D scenes made with BabylonJS",
-      "logoColor": "#32A1F5",
+      "description": "Stay informed with the latest global events using the World News board. Access comprehensive coverage, breaking news, and in-depth analysis of international affairs. Explore diverse perspectives and deep insights to understand the world around you.",
+      "descriptionLong": "The World News board is your gateway to global awareness. Whether it's political developments, economic trends, cultural movements, or environmental issues, this board brings together a wealth of information to keep you informed about the world. Dive into a comprehensive view of international affairs and stay up-to-date with all that unfolds.",
+      "oneLiner": "Stay on top of global events with the World News board.",
+      "oneLinerShort": "Stay on top of global events.",
+      "header": "latest news from around the world",
+      "logoColor": "#3366CC",
       "fields": [
         {
-          "label": "scene",
-          "content": "BabylonJS Playground"
+          "label": "region",
+          "content": "Global"
         },
         {
-          "label": "description",
-          "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
+          "label": "topic",
+          "content": "World News"
         },
         {
-          "label": "author",
-          "content": "gdi"
+          "label": "languages",
+          "content": "English, Spanish, French, Chinese, Arabic"
         }
       ],
       "tags": [
-        "3D",
-        "BabylonJS",
-        "web-based",
-        "interactive",
-        "virtual_experience"
+        "news",
+        "global",
+        "updates",
+        "information"
       ],
       "supportedResolutions": [
         "1920x1080",
-        "1366x768"
+        "1366x768",
+        "1280x720"
       ],
-      "tsVersion": "2024-02-03 14:44:00"
+      "tsVersion": "2024-02-07 10:30:00"
     },
     "author": "gdi",
     "dependencies": {
@@ -2638,10 +2615,12 @@
     },
     "apis": {},
     "defaults": {},
+    "flowUrl": "/B-039/B-039.flow.json",
     "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-039",
     "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
     "vscodeUrl": "https://vscode.dev/github/dht/gdi",
     "isActive": true,
+    "isWip": true,
     "mobile": {
       "hidePrompt": true,
       "darkMode": true

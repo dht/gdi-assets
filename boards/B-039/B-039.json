@@ -1,46 +1,47 @@
 {
   "id": "B-039",
-  "identifier": "com.usegdi.flow",
-  "version": "1.0.0",
+  "identifier": "com.usegdi.world-news",
+  "version": "0.1.0",
   "url": "/boards/B-039",
   "boardInfo": {
-    "name": "Flow",
+    "name": "World News",
     "index": 39,
-    "imageUrl": "/images/3d-gallery.jpg",
+    "imageUrl": "/images/d1.jpg",
+    "videoThumbUrl": "/images/B-039.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Discover a world of premium royalty-free music with the Envato Elements Music Browser. Explore an extensive library of high-quality tracks for your creative projects. From energetic beats to soothing melodies, find the perfect sound for your content creation needs.",
-    "descriptionLong": "The Envato Elements Music Browser is your gateway to a vast collection of top-tier, royalty-free music. Access an array of genres and moods, ensuring there's always a perfect match for your creative endeavors. Elevate your projects with professional music that enhances the impact and emotive resonance of your content.",
-    "oneLiner": "Access premium royalty-free music with the Envato Elements Music Browser.",
-    "oneLinerShort": "Discover premium royalty-free music.",
-    "header": "gallery of 3D scenes made with BabylonJS",
-    "logoColor": "#32A1F5",
+    "description": "Stay informed with the latest global events using the World News board. Access comprehensive coverage, breaking news, and in-depth analysis of international affairs. Explore diverse perspectives and deep insights to understand the world around you.",
+    "descriptionLong": "The World News board is your gateway to global awareness. Whether it's political developments, economic trends, cultural movements, or environmental issues, this board brings together a wealth of information to keep you informed about the world. Dive into a comprehensive view of international affairs and stay up-to-date with all that unfolds.",
+    "oneLiner": "Stay on top of global events with the World News board.",
+    "oneLinerShort": "Stay on top of global events.",
+    "header": "latest news from around the world",
+    "logoColor": "#3366CC",
     "fields": [
       {
-        "label": "scene",
-        "content": "BabylonJS Playground"
+        "label": "region",
+        "content": "Global"
       },
       {
-        "label": "description",
-        "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
+        "label": "topic",
+        "content": "World News"
       },
       {
-        "label": "author",
-        "content": "gdi"
+        "label": "languages",
+        "content": "English, Spanish, French, Chinese, Arabic"
       }
     ],
     "tags": [
-      "3D",
-      "BabylonJS",
-      "web-based",
-      "interactive",
-      "virtual_experience"
+      "news",
+      "global",
+      "updates",
+      "information"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768"
+      "1366x768",
+      "1280x720"
     ],
-    "tsVersion": "2024-02-03 14:44:00"
+    "tsVersion": "2024-02-07 10:30:00"
   },
   "author": "gdi",
   "dependencies": {
@@ -50,10 +51,12 @@
   },
   "apis": {},
   "defaults": {},
+  "flowUrl": "/B-039/B-039.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-039",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
+  "isWip": true,
   "mobile": {
     "hidePrompt": true,
     "darkMode": true
@@ -66,23 +69,62 @@
   },
   "elements": {
     "default": {
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.flow",
-        "title": "Flow",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.earth",
+        "title": "Earth",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-015",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
         "position": {
           "x": 2,
           "y": 2
         },
         "dimension": {
-          "x": 120,
-          "y": 48
+          "x": 20,
+          "y": 6
         },
-        "boardId": "B-003",
-        "flags": {},
-        "props": {}
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "B-015",
+        "flags": {}
       }
     },
-    "mobile": {}
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.earth",
+        "title": "Earth",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-015",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      }
+    }
   }
 }

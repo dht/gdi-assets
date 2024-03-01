@@ -1,45 +1,29 @@
 {
   "id": "B-034",
-  "identifier": "com.usegdi.tutorial-maker",
-  "version": "0.1.0",
-  "url": "/boards/b-802",
+  "identifier": "com.usegdi.todo-app",
+  "version": "1.0.0",
+  "url": "/boards/B-034",
   "boardInfo": {
-    "name": "3D Ad Creator",
+    "name": "Todo App",
     "index": 34,
-    "imageUrl": "/images/z_3d.jpg",
-    "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
+    "imageUrl": "",
     "boardType": "adhoc",
-    "description": "3D Ad Creator is a revolutionary tool that transforms the landscape of digital advertising. It empowers users to create visually stunning 3D video advertisements, pushing the boundaries of traditional ad creation. With the assistance of cutting-edge AI technology, this platform enables users to produce captivating content that truly engages audiences. Whether you're a beginner or an experienced designer, 3D Ad Creator simplifies the ad creation process, guaranteeing professional-quality results with minimal effort.\n\nIn the past, advertisements were often dull and failed to capture viewers' attention. However, with 3D Ad Creator's AI assistance and intuitive interface, users can now unleash their creativity and generate captivating 3D video ads. Its advanced technology ensures that the content resonates with the target audience, maximizing impact and success. Whether you're looking to promote a product, service, or brand, this tool offers a streamlined and efficient ad creation process, catering to designers of all skill levels. Experience the future of digital advertising with 3D Ad Creator and captivate your audience like never before.",
-    "descriptionLong": "3D Ad Creator is the ultimate game-changer in the realm of digital advertising. Through its cutting-edge technology, this platform empowers users to create visually stunning 3D video advertisements that push the boundaries of traditional ad creation. With the assistance of state-of-the-art AI, users can produce captivating content that truly engages audiences. Whether you are a beginner or an experienced designer, 3D Ad Creator simplifies the ad creation process, guaranteeing professional-quality results with minimal effort.\n\nIn the past, advertisements often failed to capture viewers' attention and were dull. However, 3D Ad Creator's AI assistance and intuitive interface have revolutionized ad creation. Users can now unleash their creativity and generate captivating 3D video ads that resonate with their target audience. With its advanced technology, this tool ensures maximum impact and success. It offers a streamlined and efficient ad creation process, catering to designers of all skill levels. Experience the future of digital advertising with 3D Ad Creator and captivate your audience like never before. Enjoy the simplicity, efficiency, and outstanding results that this powerful tool has to offer.",
-    "oneLiner": "Revolutionize digital advertising with visually stunning 3D video ads, powered by cutting-edge AI technology for maximum impact and minimal effort.",
-    "oneLinerShort": "Revolutionize digital ads with stunning 3D videos, powered by AI.",
-    "header": "commercial for a ${topic}",
-    "fields": [
-      {
-        "label": "input",
-        "content": "Prompt"
-      },
-      {
-        "label": "output",
-        "content": "3d ad"
-      },
-      {
-        "label": "engines",
-        "content": "LLM #1, LLM #2, ElevenLabs"
-      }
-    ],
+    "description": "Todo App is a versatile task management application designed to help users organize their daily tasks efficiently. This app simplifies your life by providing an intuitive and user-friendly interface for creating, tracking, and completing tasks. Whether you're managing work projects, personal errands, or academic assignments, Todo App has you covered.\n\nWith Todo App, you can create, edit, and prioritize tasks effortlessly. The app allows you to set due dates, add notes, and categorize tasks into lists. Stay organized by viewing tasks in a list or kanban board layout. Never miss a deadline again with timely reminders and notifications.\n\nExperience the joy of productivity with Todo App. Whether you're a busy professional or a student juggling multiple responsibilities, this app helps you stay on top of your tasks and accomplish your goals.",
+    "descriptionLong": "Todo App is the ultimate task management solution for individuals seeking to streamline their daily lives. This powerful application offers an array of features designed to enhance productivity and organization. From work-related projects to personal chores and academic assignments, Todo App is your trusted companion.\n\nCreate tasks with ease, customize them with due dates and notes, and categorize them into lists. Visualize your tasks using either a list or a kanban board layout, providing flexibility for different workflow preferences. Say goodbye to missed deadlines, thanks to reminders and notifications.\n\nRediscover the pleasure of productivity with Todo App. Whether you're a professional with a busy schedule or a student managing various commitments, this app empowers you to stay in control and achieve your objectives.",
+    "oneLiner": "Simplify your life with efficient task management and organization.",
+    "oneLinerShort": "Efficient task management and organization.",
+    "header": "",
+    "fields": [],
     "tags": [
-      "video",
-      "ads",
-      "3D",
-      "media",
-      "top_installed",
-      "editor_choice",
-      "young_professionals"
+      "todo",
+      "task management",
+      "productivity",
+      "organization"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768"
+      "1366x768",
+      "1280x720"
     ],
     "tsVersion": "2024-02-03 14:44:00"
   },
@@ -51,9 +35,7 @@
   },
   "apis": {},
   "defaults": {},
-  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
-  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "flowUrl": "/B-034/B-034.flow.json",
   "isActive": true,
   "mobile": {
     "hidePrompt": true,
@@ -79,54 +61,38 @@
           "x": 20,
           "y": 6
         },
-        "boardId": "B-007",
+        "boardId": "B-034",
         "flags": {}
       },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.guidance-editor",
-        "title": "Guidance Editor",
+        "widgetId": "com.usegdi.starter.calendar",
+        "title": "Calendar",
         "position": {
-          "x": 56,
+          "x": 36,
           "y": 4
         },
         "dimension": {
           "x": 63,
-          "y": 42
+          "y": 21
         },
-        "boardId": "B-007",
+        "boardId": "B-034",
         "flags": {},
         "props": {}
       },
       "e3": {
         "id": "e3",
-        "widgetId": "com.usegdi.starter.speech-params",
-        "title": "Speech Params",
+        "widgetId": "com.usegdi.starter.todos",
+        "title": "Todos",
         "position": {
-          "x": 5,
-          "y": 23
+          "x": 36,
+          "y": 25
         },
         "dimension": {
-          "x": 48,
-          "y": 23
+          "x": 63,
+          "y": 21
         },
-        "boardId": "B-007",
-        "flags": {},
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.video-effects",
-        "title": "Video Effects",
-        "position": {
-          "x": 5,
-          "y": 7
-        },
-        "dimension": {
-          "x": 48,
-          "y": 14
-        },
-        "boardId": "B-007",
+        "boardId": "B-034",
         "flags": {},
         "props": {}
       }

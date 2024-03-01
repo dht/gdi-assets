@@ -1,47 +1,50 @@
 {
   "id": "B-009",
-  "identifier": "com.usegdi.fourth-wall",
+  "identifier": "com.usegdi.sales",
   "version": "0.1.0",
   "url": "/boards/B-009",
   "boardInfo": {
-    "name": "Fourth Wall",
+    "name": "Sales",
     "index": 9,
-    "imageUrl": "/images/z_scene_builder.jpg",
+    "imageUrl": "/images/i_sales.jpg",
     "videoThumbUrl": "/images/B-009.mp4",
-    "videoUrl": "https://www.youtube.com/embed/d8_OIj8L77s",
-    "boardType": "continues",
-    "description": "Fourth Wall is a board that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
-    "descriptionLong": "Fourth Wall is a board that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
-    "oneLiner": "Create 3D theater plays on a miniature stage",
-    "oneLinerShort": "3D Theater Play Generator",
-    "header": "Fourth Wall - 3D Theater Play Generator",
+    "videoUrl": "https://www.youtube.com/embed/SALES_PIPELINE_MANAGER_VIDEO_ID",
+    "boardType": "adhoc",
+    "description": "Efficiently track, manage, and optimize sales pipelines with Sales. This comprehensive tool empowers sales teams to visualize, organize, and progress deals through customizable pipelines. From lead acquisition to deal closure, Sales streamlines the sales process, driving productivity and revenue growth.",
+    "descriptionLong": "Sales is designed to be the ultimate ally for sales professionals, offering intuitive features to monitor and advance deals through every stage of the pipeline. With its visual interface and robust functionality, users can gain valuable insights, prioritize tasks, and nurture leads effectively. Elevate your sales performance with Sales.",
+    "oneLiner": "Optimize sales pipelines with Sales's intuitive interface.",
+    "oneLinerShort": "Track, organize, and close deals with ease.",
+    "header": "Sales for enhanced sales performance",
+    "logoColor": "#FF5733",
     "fields": [
       {
-        "label": "input",
-        "content": "Prompt"
+        "label": "dealName",
+        "content": "String"
       },
       {
-        "label": "output",
-        "content": "3D theater play scene"
+        "label": "dealValue",
+        "content": "Number"
       },
       {
-        "label": "engines",
-        "content": "LLM #1, LLM #2, ElevenLabs"
+        "label": "dealStage",
+        "content": "String"
+      },
+      {
+        "label": "contactName",
+        "content": "String"
       }
     ],
     "tags": [
-      "theater",
-      "3D",
-      "play generation",
-      "voice syncing",
-      "lip syncing",
-      "creative",
-      "entertainment"
+      "sales",
+      "pipelines",
+      "CRM",
+      "deals",
+      "productivity",
+      "business"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768",
-      "1280x800"
+      "1366x768"
     ],
     "tsVersion": "2024-02-03 14:44:00"
   },
@@ -53,46 +56,28 @@
   },
   "apis": {},
   "defaults": {
-    "exampleId": "vision-couple",
-    "setupId": "vision-couple"
+    "previewPath": "/static/sales-pipeline-model.json"
   },
-  "examplesUrl": "/B-009/B-009.examples.json",
   "flowUrl": "/B-009/B-009.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-009",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
+  "isWip": true,
   "mobile": {
-    "darkMode": true,
-    "hidePrompt": true
+    "hidePrompt": true,
+    "darkMode": true
   },
   "reviewInfo": {
-    "reviewsCount": 4,
-    "installationCount": 3,
-    "rating": 4.2
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
   },
   "elements": {
     "default": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.fourth-wall",
-        "title": "Fourth wall",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-009",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
-      "e3": {
-        "id": "e3",
+      "e1": {
+        "id": "e1",
         "widgetId": "com.usegdi.starter.logo",
         "title": "Logo",
         "position": {
@@ -106,15 +91,67 @@
         "props": {
           "darkMode": false
         },
-        "boardId": "B-009",
+        "boardId": "B-023",
         "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-023",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 63,
+          "y": 39
+        },
+        "boardId": "B-023",
+        "flags": {},
+        "flavour": "default",
+        "props": {
+          "showBigWip": true
+        }
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-023",
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.fourth-wall",
-        "title": "Fourth wall",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 1,
           "y": 1
@@ -123,11 +160,46 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-009",
+        "columnIndex": 1,
+        "boardId": "B-023",
         "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-023",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-023",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
       }
     }
   }

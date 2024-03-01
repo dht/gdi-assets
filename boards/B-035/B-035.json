@@ -1,31 +1,49 @@
 {
   "id": "B-035",
-  "identifier": "com.usegdi.vision-pro-mockups",
+  "identifier": "com.usegdi.debater-workshop",
   "version": "0.1.0",
   "url": "/boards/B-035",
   "boardInfo": {
-    "name": "Mockup",
+    "name": "Debater's Workshop",
     "index": 35,
-    "imageUrl": "/images/mockup.jpg",
+    "imageUrl": "/images/d0.jpg",
+    "videoThumbUrl": "/images/B-035.mp4",
+    "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Mockup is an innovative application designed to simulate screens from various devices, such as mobile phones and VR headsets, allowing users to record the screen for demonstrations or presentations. Whether you need to showcase your app's functionality on different devices or create engaging tutorials, Mockup offers a seamless solution for recording and simulating device screens with ease.",
-    "descriptionLong": "Mockup is an innovative application designed to simulate screens from various devices, such as mobile phones and VR headsets, allowing users to record the screen for demonstrations or presentations. Whether you need to showcase your app's functionality on different devices or create engaging tutorials, Mockup offers a seamless solution for recording and simulating device screens with ease. With its user-friendly interface and intuitive controls, Mockup ensures that users can effortlessly interact with the simulated screens and capture high-quality recordings for their specific use cases. From mobile app developers to VR content creators, Mockup caters to a wide range of audiences, offering unmatched versatility and convenience.",
-    "oneLiner": "Simulate screens from different devices and effortlessly record the screen for demonstrations or tutorials with Mockup.",
-    "oneLinerShort": "\"Simulate and record screens\"",
-    "header": "",
-    "fields": [],
+    "description": "Develop your critical thinking skills with education centered on logical fallacies, rhetoric, and information analysis. Learn through practical examples and diverse methods that empower you to recognize, evaluate, and respond to different forms of reasoning and argumentation in an informed and analytical manner.",
+    "descriptionLong": "The Debate's Workshop board is your gateway to mastering logical fallacies, rhetoric, and information analysis. Explore diverse methods and real-world examples to sharpen your skills in identifying faulty reasoning, analyzing rhetoric, and critically evaluating information. Gain the expertise to engage in informed, thoughtful, and analytical discourse.",
+    "oneLiner": "Empower critical thinking through practical education and real-world examples.",
+    "oneLinerShort": "Empower critical thinking through practical education.",
+    "header": "education on logical fallacies, rhetoric, and information analysis",
+    "logoColor": "#8A2BE2",
+    "fields": [
+      {
+        "label": "skills",
+        "content": "Logical Fallacies, Rhetoric, Information Analysis"
+      },
+      {
+        "label": "methods",
+        "content": "Practical Examples, Learning by Example, Diverse Methods"
+      },
+      {
+        "label": "focus",
+        "content": "Critical Thinking, Analytical Discourse"
+      }
+    ],
     "tags": [
-      "mockup",
-      "simulation",
-      "recording",
-      "demonstration",
-      "VR"
+      "critical-thinking",
+      "logical-fallacies",
+      "rhetoric",
+      "information-analysis",
+      "education",
+      "real-world-examples"
     ],
     "supportedResolutions": [
       "1920x1080",
+      "1366x768",
       "1280x720"
     ],
-    "tsVersion": "2024-02-03 14:44:00"
+    "tsVersion": "2024-03-01 14:00:00"
   },
   "author": "gdi",
   "dependencies": {
@@ -36,7 +54,15 @@
   "apis": {},
   "defaults": {},
   "flowUrl": "/B-035/B-035.flow.json",
-  "isActive": false,
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-035",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
@@ -45,21 +71,85 @@
   },
   "elements": {
     "default": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.mock",
-        "title": "Mock",
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
         "position": {
-          "x": 1,
-          "y": 1
+          "x": 2,
+          "y": 2
         },
         "dimension": {
-          "x": 121,
-          "y": 48
+          "x": 20,
+          "y": 6
         },
-        "boardId": "B-035",
+        "boardId": "B-801",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.youtube",
+        "title": "Youtube",
+        "position": {
+          "x": 62,
+          "y": 4
+        },
+        "dimension": {
+          "x": 57,
+          "y": 17
+        },
+        "boardId": "B-801",
+        "flags": {},
+        "props": {
+          "autoSize": true,
+          "videoId": "s0dMTAQM4cw"
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.transcript",
+        "title": "Transcript",
+        "position": {
+          "x": 62,
+          "y": 21
+        },
+        "dimension": {
+          "x": 57,
+          "y": 25
+        },
+        "boardId": "B-004",
+        "flags": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.youtube-layers",
+        "title": "YoutubeLayers",
+        "position": {
+          "x": 2,
+          "y": 8
+        },
+        "dimension": {
+          "x": 57,
+          "y": 9
+        },
+        "boardId": "B-801",
         "flags": {},
         "props": {}
+      },
+      "e5": {
+        "id": "e5",
+        "widgetId": "com.usegdi.starter.youtube-layer",
+        "title": "YoutubeLayer",
+        "position": {
+          "x": 2,
+          "y": 17
+        },
+        "dimension": {
+          "x": 57,
+          "y": 29
+        },
+        "boardId": "B-801",
+        "flags": {}
       }
     }
   }

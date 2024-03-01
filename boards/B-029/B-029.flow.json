@@ -1,32 +1,33 @@
 {
   "flowConfig": {
-    "flowId": "fb-multi",
+    "flowId": "fb-rhetoric-radar",
     "name": "Simple chat",
     "flowType": "continues",
+    "variables": {},
     "output": {
       "transcriptLines": "actions.transcriptLines.setAll"
     },
     "cumulativeThread": true,
-    "clearVariables": false
+    "clearVariables": false,
+    "textToSpeech": true
   },
   "flowApis": {},
   "flowAssistants": {
-    "as-multi-chat": {
-      "id": "as-multi-chat",
+    "as-rhetoric-radar-chat": {
+      "id": "as-rhetoric-radar-chat",
       "name": "Chat",
       "description": "Helpful assistant that provides a conversation about a topic.",
       "instructions": "You are a helpful assistant",
       "model": "gpt-3.5-turbo-1106",
-      "tools": [],
-      "isDynamic": true
+      "tools": []
     }
   },
   "flowNodes": {
-    "n-001": {
-      "id": "n-001",
+    "n-801": {
+      "id": "n-801",
       "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-multi-chat",
+      "assistantId": "as-rhetoric-radar-chat",
       "input": {
         "prompt": "${prompt}"
       },
@@ -43,7 +44,7 @@
         "y": 0
       },
       "connectors": [
-        "n-002"
+        "n-801"
       ],
       "isStart": true
     },
@@ -51,7 +52,7 @@
       "id": "n-002",
       "name": "Respond",
       "nodeType": "outcome",
-      "parentId": "n-001",
+      "parentId": "n-801",
       "position": {
         "x": 250,
         "y": 150

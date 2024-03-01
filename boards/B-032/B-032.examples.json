@@ -1,0 +1,10 @@
+{
+  "helmet": {
+    "id": "helmet",
+    "title": "Helmet",
+    "description": "A futuristic helmet",
+    "dbPath": "/static/spotlight-helmet.json",
+    "screenshotUrl": "/static/spotlight-helmet.png",
+    "dateAdded": "2023-02-14"
+  }
+}

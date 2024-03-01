@@ -1,45 +1,50 @@
 {
   "id": "B-023",
-  "identifier": "com.usegdi.contacts",
+  "identifier": "com.usegdi.mood-alchemy",
   "version": "0.1.0",
   "url": "/boards/B-023",
   "boardInfo": {
-    "name": "Contacts",
+    "name": "Mood Alchemy",
     "index": 23,
-    "imageUrl": "/images/i_contacts.jpg",
+    "imageUrl": "/images/i_mood.jpg",
     "videoThumbUrl": "/images/B-023.mp4",
-    "videoUrl": "",
+    "videoUrl": "https://www.youtube.com/embed/BIBLIO_THERAPY_VIDEO_ID",
     "boardType": "adhoc",
-    "description": "Efficiently organize and manage your contacts with Contacts. This versatile tool is designed to streamline the process of storing, accessing, and updating contact information. From personal connections to professional networks, Contacts simplifies contact management for enhanced productivity and connectivity.",
-    "descriptionLong": "Contacts is the ultimate solution for individuals and businesses seeking to effectively manage their contacts. With its user-friendly interface and robust features, it empowers users to maintain comprehensive contact databases effortlessly. Seamlessly organize, update, and access critical contact information, fostering better communication and relationship management.",
-    "oneLiner": "Simplify contact management with Contacts's intuitive tools.",
-    "oneLinerShort": "Streamline contact management with ease.",
-    "header": "Contacts for efficient contact organization",
-    "logoColor": "#4A90E2",
+    "description": "Embark on a transformative literary journey tailored to your emotional needs with MoodAlchemy. Experience the power of curated literary works, passages, poems, and multimedia content that uplift and inspire, aligning with your current and desired emotional states. Whether seeking solace, joy, or reflection, MoodAlchemy is your personalized guide to emotional well-being through literature and multimedia art forms.",
+    "descriptionLong": "MoodAlchemy harnesses the potential of literature, poetry, and multimedia to nurture emotional well-being. Using advanced algorithms, it offers carefully selected short reads, book excerpts, poetry, and multimedia content that resonate with your current mood and desired emotional state. By immersing yourself in this transformative experience, you can find solace, motivation, and healing through the power of words and creative expression.",
+    "oneLiner": "Discover emotional well-being through curated literature, poetry, and multimedia art.",
+    "oneLinerShort": "Find solace and inspiration through curated literary and multimedia works.",
+    "header": "MoodAlchemy for personalized emotional well-being",
+    "logoColor": "#9C27B0",
     "fields": [
       {
-        "label": "name",
+        "label": "currentMood",
         "content": "String"
       },
       {
-        "label": "email",
+        "label": "desiredMood",
         "content": "String"
       },
       {
-        "label": "phone",
-        "content": "String"
+        "label": "readingMaterial",
+        "content": "Array"
       },
       {
-        "label": "company",
-        "content": "String"
+        "label": "poems",
+        "content": "Array"
+      },
+      {
+        "label": "shortClips",
+        "content": "Array"
       }
     ],
     "tags": [
-      "contacts",
-      "management",
-      "organization",
-      "productivity",
-      "business"
+      "MoodAlchemy",
+      "emotional_well-being",
+      "literature",
+      "poetry",
+      "multimedia",
+      "personal_growth"
     ],
     "supportedResolutions": [
       "1920x1080",
@@ -54,9 +59,11 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {},
+  "defaults": {
+    "previewPath": "/static/MoodAlchemy-model.json"
+  },
   "flowUrl": "/B-023/B-023.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-002",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-023",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
@@ -68,8 +75,7 @@
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "rating": 0
   },
   "elements": {
     "default": {
@@ -105,9 +111,7 @@
         },
         "boardId": "B-023",
         "flags": {},
-        "props": {
-          "showBigWip": true
-        }
+        "props": {}
       },
       "e3": {
         "id": "e3",
@@ -124,7 +128,9 @@
         "boardId": "B-023",
         "flags": {},
         "flavour": "default",
-        "props": {}
+        "props": {
+          "showBigWip": true
+        }
       },
       "e4": {
         "id": "e4",

@@ -1,44 +1,29 @@
 {
   "id": "B-037",
-  "identifier": "com.usegdi.babylon-gallery",
-  "version": "1.0.0",
+  "identifier": "com.usegdi.vision-pro-mockups",
+  "version": "0.1.0",
   "url": "/boards/B-037",
   "boardInfo": {
-    "name": "3D Scene Gallery",
+    "name": "Mockup",
     "index": 37,
-    "imageUrl": "/images/3d-gallery.jpg",
-    "videoUrl": "",
+    "imageUrl": "/images/mockup.jpg",
     "boardType": "adhoc",
-    "description": "Explore a captivating gallery of immersive 3D scenes created with BabylonJS. Experience the power of web-based 3D rendering and unleash your creativity with these interactive environments.",
-    "descriptionLong": "Step into the world of breathtaking 3D scenes crafted with BabylonJS. This gallery showcases the remarkable potential of web-based 3D rendering, offering a glimpse into the future of interactive, virtual experiences. Whether you're a developer or an enthusiast, these scenes will ignite your imagination and inspire you to push the boundaries of what's possible.",
-    "oneLiner": "Embark on an immersive journey with the 3D Scene Gallery powered by BabylonJS.",
-    "oneLinerShort": "Discover immersive 3D scenes with BabylonJS.",
-    "header": "gallery of 3D scenes made with BabylonJS",
-    "logoColor": "#32A1F5",
-    "fields": [
-      {
-        "label": "scene",
-        "content": "BabylonJS Playground"
-      },
-      {
-        "label": "description",
-        "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
-      },
-      {
-        "label": "author",
-        "content": "gdi"
-      }
-    ],
+    "description": "Mockup is an innovative application designed to simulate screens from various devices, such as mobile phones and VR headsets, allowing users to record the screen for demonstrations or presentations. Whether you need to showcase your app's functionality on different devices or create engaging tutorials, Mockup offers a seamless solution for recording and simulating device screens with ease.",
+    "descriptionLong": "Mockup is an innovative application designed to simulate screens from various devices, such as mobile phones and VR headsets, allowing users to record the screen for demonstrations or presentations. Whether you need to showcase your app's functionality on different devices or create engaging tutorials, Mockup offers a seamless solution for recording and simulating device screens with ease. With its user-friendly interface and intuitive controls, Mockup ensures that users can effortlessly interact with the simulated screens and capture high-quality recordings for their specific use cases. From mobile app developers to VR content creators, Mockup caters to a wide range of audiences, offering unmatched versatility and convenience.",
+    "oneLiner": "Simulate screens from different devices and effortlessly record the screen for demonstrations or tutorials with Mockup.",
+    "oneLinerShort": "\"Simulate and record screens\"",
+    "header": "",
+    "fields": [],
     "tags": [
-      "3D",
-      "BabylonJS",
-      "web-based",
-      "interactive",
-      "virtual_experience"
+      "mockup",
+      "simulation",
+      "recording",
+      "demonstration",
+      "VR"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768"
+      "1280x720"
     ],
     "tsVersion": "2024-02-03 14:44:00"
   },
@@ -49,18 +34,9 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {
-    "previewPath": "/static/modelz.json"
-  },
+  "defaults": {},
   "flowUrl": "/B-037/B-037.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-037",
-  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-  "isActive": true,
-  "mobile": {
-    "hidePrompt": true,
-    "darkMode": true
-  },
+  "isActive": false,
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
@@ -71,8 +47,8 @@
     "default": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.tube",
-        "title": "Tube",
+        "widgetId": "com.usegdi.starter.mock",
+        "title": "Mock",
         "position": {
           "x": 1,
           "y": 1
@@ -81,49 +57,9 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-013",
+        "boardId": "B-037",
         "flags": {},
-        "props": {
-          "flavour": "babylon"
-        }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
-        "position": {
-          "x": 2,
-          "y": 2
-        },
-        "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "B-013",
-        "flags": {}
-      }
-    },
-    "mobile": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.tube",
-        "title": "Tube",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-013",
-        "flags": {},
-        "props": {
-          "flavour": "babylon"
-        }
+        "props": {}
       }
     }
   }

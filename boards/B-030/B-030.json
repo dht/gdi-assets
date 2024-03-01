@@ -1,46 +1,41 @@
 {
   "id": "B-030",
-  "identifier": "com.usegdi.sales",
+  "identifier": "com.usegdi.scene-player",
   "version": "0.1.0",
-  "url": "/boards/B-030",
+  "url": "/boards/b-800",
   "boardInfo": {
-    "name": "Sales",
+    "name": "Scene player",
     "index": 30,
-    "imageUrl": "/images/i_sales.jpg",
-    "videoThumbUrl": "/images/B-030.mp4",
-    "videoUrl": "https://www.youtube.com/embed/SALES_PIPELINE_MANAGER_VIDEO_ID",
+    "imageUrl": "/images/z_3d.jpg",
+    "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
     "boardType": "adhoc",
-    "description": "Efficiently track, manage, and optimize sales pipelines with Sales. This comprehensive tool empowers sales teams to visualize, organize, and progress deals through customizable pipelines. From lead acquisition to deal closure, Sales streamlines the sales process, driving productivity and revenue growth.",
-    "descriptionLong": "Sales is designed to be the ultimate ally for sales professionals, offering intuitive features to monitor and advance deals through every stage of the pipeline. With its visual interface and robust functionality, users can gain valuable insights, prioritize tasks, and nurture leads effectively. Elevate your sales performance with Sales.",
-    "oneLiner": "Optimize sales pipelines with Sales's intuitive interface.",
-    "oneLinerShort": "Track, organize, and close deals with ease.",
-    "header": "Sales for enhanced sales performance",
-    "logoColor": "#FF5733",
+    "description": "Experience immersive 3D scenes created with GDI in real-time with the 3D Scene Player. Explore interactive environments and stunning visuals crafted using cutting-edge technology. This tool brings your creations to life, allowing seamless navigation and interaction within the 3D space.",
+    "descriptionLong": "The 3D Scene Player offers a seamless way to showcase and navigate through captivating 3D environments developed with GDI. Whether it's architectural visualizations, game levels, or product designs, this platform enables effortless exploration and interaction within the scenes. From detailed textures to dynamic lighting, experience the depth and creativity of GDI's 3D scenes in real-time.",
+    "oneLiner": "Immerse yourself in interactive 3D scenes crafted with GDI in real-time.",
+    "oneLinerShort": "Explore interactive 3D scenes made with GDI.",
+    "header": "experience immersive 3D scenes",
     "fields": [
       {
-        "label": "dealName",
-        "content": "String"
+        "label": "input",
+        "content": "Prompt"
       },
       {
-        "label": "dealValue",
-        "content": "Number"
+        "label": "output",
+        "content": "3d ad"
       },
       {
-        "label": "dealStage",
-        "content": "String"
-      },
-      {
-        "label": "contactName",
-        "content": "String"
+        "label": "engines",
+        "content": "LLM #1, LLM #2, ElevenLabs"
       }
     ],
     "tags": [
-      "sales",
-      "pipelines",
-      "CRM",
-      "deals",
-      "productivity",
-      "business"
+      "video",
+      "ads",
+      "3D",
+      "media",
+      "top_installed",
+      "editor_choice",
+      "young_professionals"
     ],
     "supportedResolutions": [
       "1920x1080",
@@ -55,15 +50,12 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {
-    "previewPath": "/static/sales-pipeline-model.json"
-  },
+  "defaults": {},
   "flowUrl": "/B-030/B-030.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-030",
+  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
-  "isWip": true,
   "mobile": {
     "hidePrompt": true,
     "darkMode": true
@@ -76,129 +68,20 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
-        "position": {
-          "x": 2,
-          "y": 2
-        },
-        "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "B-023",
-        "flags": {}
-      },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 56,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 63,
-          "y": 39
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "default",
-        "props": {
-          "showBigWip": true
-        }
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
-      }
-    },
-    "mobile": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
+        "widgetId": "com.usegdi.starter.scene-player",
+        "title": "Scene Player",
         "position": {
           "x": 1,
           "y": 1
         },
         "dimension": {
           "x": 121,
-          "y": 48
+          "y": 47
         },
-        "columnIndex": 1,
-        "boardId": "B-023",
+        "boardId": "B-030",
         "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "focus",
         "props": {}
       }
     }

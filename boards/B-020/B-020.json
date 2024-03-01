@@ -1,48 +1,46 @@
 {
   "id": "B-020",
-  "identifier": "com.usegdi.periscope",
-  "version": "0.1.0",
+  "identifier": "com.usegdi.flow",
+  "version": "1.0.0",
   "url": "/boards/B-020",
   "boardInfo": {
-    "name": "Periscope",
+    "name": "Flow",
     "index": 20,
-    "imageUrl": "/images/d3.jpg",
-    "videoThumbUrl": "/images/B-020.mp4",
+    "imageUrl": "/images/3d-gallery.jpg",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Gain comprehensive insights with Periscope. Explore diverse perspectives, uncover information, and find varying opinions on a particular focus. Seamlessly shift through different angles and narratives to gain a multifaceted understanding of the subject, supported by varied sources, videos, and imagery.",
-    "descriptionLong": "Periscope is your tool for in-depth exploration of, well, anything, offering a holistic view of the subject matter. By placing the focus at the center, this board presents diverse perspectives from multiple sources, providing a rich narrative woven from various angles. Dive into comprehensive information, videos, imagery, and more to gain a nuanced understanding.",
-    "oneLiner": "Explore multifaceted perspectives with Periscope.",
-    "oneLinerShort": "Explore multifaceted perspectives.",
-    "header": "comprehensive insights gathered around a focus from diverse sources",
-    "logoColor": "#FF5733",
+    "description": "Discover a world of premium royalty-free music with the Envato Elements Music Browser. Explore an extensive library of high-quality tracks for your creative projects. From energetic beats to soothing melodies, find the perfect sound for your content creation needs.",
+    "descriptionLong": "The Envato Elements Music Browser is your gateway to a vast collection of top-tier, royalty-free music. Access an array of genres and moods, ensuring there's always a perfect match for your creative endeavors. Elevate your projects with professional music that enhances the impact and emotive resonance of your content.",
+    "oneLiner": "Access premium royalty-free music with the Envato Elements Music Browser.",
+    "oneLinerShort": "Discover premium royalty-free music.",
+    "header": "gallery of 3D scenes made with BabylonJS",
+    "logoColor": "#32A1F5",
     "fields": [
       {
-        "label": "focus",
-        "content": "Individuals, Events"
+        "label": "scene",
+        "content": "BabylonJS Playground"
       },
       {
-        "label": "information",
-        "content": "Multiple Angles, Varied Sources"
+        "label": "description",
+        "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
       },
       {
-        "label": "media",
-        "content": "Videos, Imagery, Text"
+        "label": "author",
+        "content": "gdi"
       }
     ],
     "tags": [
-      "Periscope",
-      "multi-perspective",
-      "comprehensive-insights",
-      "focused-exploration",
-      "varied-sources"
+      "3D",
+      "BabylonJS",
+      "web-based",
+      "interactive",
+      "virtual_experience"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768",
-      "1280x720"
+      "1366x768"
     ],
-    "tsVersion": "2024-02-25 11:00:00"
+    "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
   "dependencies": {
@@ -52,12 +50,10 @@
   },
   "apis": {},
   "defaults": {},
-  "flowUrl": "/B-020/B-020.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-020",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
-  "isWip": true,
   "mobile": {
     "hidePrompt": true,
     "darkMode": true
@@ -70,62 +66,23 @@
   },
   "elements": {
     "default": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.periscope",
-        "title": "Periscope",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-020",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
         "position": {
           "x": 2,
           "y": 2
         },
         "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "B-020",
-        "flags": {}
-      }
-    },
-    "mobile": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.periscope",
-        "title": "Periscope",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
+          "x": 120,
           "y": 48
         },
-        "boardId": "B-020",
+        "boardId": "B-003",
         "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
+        "props": {}
       }
-    }
+    },
+    "mobile": {}
   }
 }

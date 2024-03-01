@@ -1,32 +1,31 @@
 {
   "flowConfig": {
-    "flowId": "fb-finances",
-    "name": "Simple chat",
-    "flowType": "continues",
+    "flowId": "fb-periscope",
+    "name": "Park Conversation",
+    "flowType": "linear",
+    "variables": {
+      "topic": "variables.prompt"
+    },
     "output": {
       "transcriptLines": "actions.transcriptLines.setAll"
     },
-    "cumulativeThread": true,
-    "clearVariables": false
+    "clearVariables": true,
+    "cumulativeThread": false
   },
-  "flowApis": {},
-  "flowAssistants": {
-    "as-finances-chat": {
-      "id": "as-finances-chat",
-      "name": "Chat",
-      "description": "Helpful assistant that provides a conversation about a topic.",
-      "instructions": "You are a helpful assistant",
-      "model": "gpt-3.5-turbo-1106",
-      "tools": [],
-      "isDynamic": true
+  "flowApis": {
+    "conversation": {
+      "id": "conversation",
+      "endpoint": "speech.conversation",
+      "vendor": "openAI"
     }
   },
+  "flowAssistants": {},
   "flowNodes": {
     "n-001": {
       "id": "n-001",
       "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-finances-chat",
+      "assistantId": "as-002-chat",
       "input": {
         "prompt": "${prompt}"
       },

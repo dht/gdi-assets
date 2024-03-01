@@ -1,47 +1,32 @@
 {
   "id": "B-015",
-  "identifier": "com.usegdi.world-news",
+  "identifier": "com.usegdi.ppl",
   "version": "0.1.0",
   "url": "/boards/B-015",
   "boardInfo": {
-    "name": "World News",
+    "name": "PPL",
     "index": 15,
-    "imageUrl": "/images/d1.jpg",
+    "imageUrl": "/images/ppl_thumb.png",
     "videoThumbUrl": "/images/B-015.mp4",
-    "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Stay informed with the latest global events using the World News board. Access comprehensive coverage, breaking news, and in-depth analysis of international affairs. Explore diverse perspectives and deep insights to understand the world around you.",
-    "descriptionLong": "The World News board is your gateway to global awareness. Whether it's political developments, economic trends, cultural movements, or environmental issues, this board brings together a wealth of information to keep you informed about the world. Dive into a comprehensive view of international affairs and stay up-to-date with all that unfolds.",
-    "oneLiner": "Stay on top of global events with the World News board.",
-    "oneLinerShort": "Stay on top of global events.",
-    "header": "latest news from around the world",
-    "logoColor": "#3366CC",
-    "fields": [
-      {
-        "label": "region",
-        "content": "Global"
-      },
-      {
-        "label": "topic",
-        "content": "World News"
-      },
-      {
-        "label": "languages",
-        "content": "English, Spanish, French, Chinese, Arabic"
-      }
-    ],
+    "description": "PPL is an innovative board that allows you to explore famous figures alive today and from history. Engage in thought-provoking conversations, ask questions, or chat with virtual representations of these renowned personalities. Whether you seek wisdom from historical icons or insights from contemporary influencers, PPL Explorer offers a unique opportunity to interact with iconic figures and gain valuable knowledge.\n\nWith its user-friendly interface and intuitive functionality, PPL Explorer ensures an immersive and seamless experience for users of all backgrounds. Whether you are a history enthusiast or eager to connect with living legends, PPL Explorer provides a dynamic platform for enriching interactions. Boasting a vast database of famous figures and receiving accolades for its educational value, PPL Explorer has emerged as a revered destination for virtual conversations and insightful exchanges.",
+    "descriptionLong": "PPL is an innovative board that allows you to explore famous figures alive today and from history. Engage in thought-provoking conversations, ask questions, or chat with virtual representations of these renowned personalities. Whether you seek wisdom from historical icons or insights from contemporary influencers, PPL Explorer offers a unique opportunity to interact with iconic figures and gain valuable knowledge.\n\nWith its user-friendly interface and intuitive functionality, PPL Explorer ensures an immersive and seamless experience for users of all backgrounds. Whether you are a history enthusiast or eager to connect with living legends, PPL Explorer provides a dynamic platform for enriching interactions. Boasting a vast database of famous figures and receiving accolades for its educational value, PPL Explorer has emerged as a revered destination for virtual conversations and insightful exchanges.",
+    "oneLiner": "Explore, chat, and engage with famous figures from history and present-day influencers on PPL Explorer, a dynamic platform for virtual interactions and insightful exchanges.",
+    "oneLinerShort": "\"Virtual Conversations with Famous Figures\"",
+    "header": "",
+    "fields": [],
     "tags": [
-      "news",
-      "global",
-      "updates",
-      "information"
+      "history",
+      "interaction",
+      "education",
+      "virtual",
+      "famous figures"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768",
-      "1280x720"
+      "1366x768"
     ],
-    "tsVersion": "2024-02-07 10:30:00"
+    "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
   "dependencies": {
@@ -49,18 +34,11 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
+  "flowUrl": "/B-015/B-015.flow.json",
   "apis": {},
   "defaults": {},
-  "flowUrl": "/B-015/B-015.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-015",
-  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
   "isWip": true,
-  "mobile": {
-    "hidePrompt": true,
-    "darkMode": true
-  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
@@ -69,26 +47,8 @@
   },
   "elements": {
     "default": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.earth",
-        "title": "Earth",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-015",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
-      "e3": {
-        "id": "e3",
+      "e1": {
+        "id": "e1",
         "widgetId": "com.usegdi.starter.logo",
         "title": "Logo",
         "position": {
@@ -104,13 +64,86 @@
         },
         "boardId": "B-015",
         "flags": {}
+      },
+      "e2a": {
+        "id": "e2a",
+        "widgetId": "com.usegdi.starter.ppl-switch",
+        "title": "Ppl Switch",
+        "position": {
+          "x": 56,
+          "y": 5
+        },
+        "dimension": {
+          "x": 63,
+          "y": 2
+        },
+        "boardId": "B-015",
+        "flags": {},
+        "flavour": "default",
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.chat",
+        "title": "Chat",
+        "position": {
+          "x": 56,
+          "y": 7
+        },
+        "dimension": {
+          "x": 63,
+          "y": 39
+        },
+        "boardId": "B-015",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.ppl-grid",
+        "title": "Ppl grid",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 50,
+          "y": 39
+        },
+        "boardId": "B-015",
+        "flags": {},
+        "flavour": "default",
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.ppl-details",
+        "title": "Ppl details",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 50,
+          "y": 39
+        },
+        "boardId": "B-015",
+        "flags": {},
+        "flavour": "focus",
+        "props": {
+          "sceneUrl": ""
+        }
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.earth",
-        "title": "Earth",
+        "widgetId": "com.usegdi.starter.chat",
+        "title": "Chat",
         "position": {
           "x": 1,
           "y": 1
@@ -119,11 +152,46 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-015",
+        "columnIndex": 1,
+        "boardId": "B-006",
         "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.ppl-grid",
+        "title": "Ppl grid",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-015",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.ppl-details",
+        "title": "Ppl details",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-015",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
       }
     }
   }

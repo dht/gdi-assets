@@ -84,7 +84,7 @@
           "x": 20,
           "y": 6
         },
-        "boardId": "B-009",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {
           "darkMode": true

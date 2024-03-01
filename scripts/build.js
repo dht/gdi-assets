@@ -12,6 +12,8 @@ const copyFiles = {
   'videos.json': 'allVideos.json',
 };
 
+const order = fs.readJsonSync(`${SOURCE}/order.json`);
+
 const run = async () => {
   const dirs = fs.readdirSync(SOURCE).filter((i) => i.startsWith('com.'));
 
@@ -92,7 +94,6 @@ const loadBoard = (dir) => {
   output.examplesData = output.exists.examples ? fs.readJsonSync(paths.examples) : null;
   output.flowData = output.exists.flow ? fs.readJsonSync(paths.flow) : null;
   output.reviewsData = output.exists.reviews ? fs.readJsonSync(paths.reviews) : null;
-  output.indexData = fs.readJsonSync(paths.index);
 
   setIf(output.mainData, 'examplesUrl', '/{boardId}/{boardId}.examples.json');
   setIf(output.mainData, 'flowUrl', '/{boardId}/{boardId}.flow.json');
@@ -109,7 +110,7 @@ const parseBoard = (boardData) => {
   const output = { ...boardData };
 
   const identifierFull = get(boardData, 'mainData.identifier', null);
-  const index = get(boardData, 'indexData.index', null);
+  const index = order.findIndex((i) => i === identifierFull) + 1;
   const id = `B-${lz(index, 3)}`;
 
   if (!identifierFull) {
@@ -170,12 +171,13 @@ const transformBoard = (dir) => {
   const boardDataRaw = loadBoard(dir);
 
   const boardData = parseBoard(boardDataRaw);
-  const { id, seq, index, identifier, identifierFull, exists, pathsOutput } = boardData;
+  const { id, index, exists, pathsOutput, identifier } = boardData;
 
   traverseBoard(boardData.mainData, '{boardId}', id);
   set(boardData.mainData, 'boardInfo.index', index);
   const { root, main, flow, examples } = pathsOutput;
 
+  fs.removeSync(root);
   fs.ensureDirSync(root);
 
   if (exists.main) {
@@ -189,6 +191,9 @@ const transformBoard = (dir) => {
   if (exists.flow) {
     fs.writeJsonSync(flow, boardData.flowData, { spaces: 2 });
   }
+
+  const mdPath = `${DEST}/${id}/z_${identifier}.md`;
+  fs.writeFileSync(mdPath, '');
 
   fs.writeJsonSync('./log.json', boardData, { spaces: 2 });
 };

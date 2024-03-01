@@ -1,7 +1,7 @@
 {
   "flowConfig": {
-    "flowId": "fb-3d-animations",
-    "name": "Simple chat",
+    "flowId": "fb-asset-manager",
+    "name": "Asset Manager",
     "flowType": "continues",
     "variables": {},
     "output": {
@@ -9,12 +9,20 @@
     },
     "cumulativeThread": true,
     "clearVariables": false,
-    "textToSpeech": true
+    "textToSpeech": false
   },
   "flowApis": {},
   "flowAssistants": {
-    "as-3d-animations-chat": {
-      "id": "as-3d-animations-chat",
+    "as-002-chat": {
+      "id": "as-002-chat",
+      "name": "Chat",
+      "description": "Helpful assistant that provides a conversation about a topic.",
+      "instructions": "You are a helpful assistant",
+      "model": "gpt-3.5-turbo-1106",
+      "tools": []
+    },
+    "as-asset-manager-chat": {
+      "id": "as-asset-manager-chat",
       "name": "Chat",
       "description": "Helpful assistant that provides a conversation about a topic.",
       "instructions": "You are a helpful assistant",
@@ -27,7 +35,7 @@
       "id": "n-001",
       "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-3d-animations-chat",
+      "assistantId": "as-asset-manager-chat",
       "input": {
         "prompt": "${prompt}"
       },
@@ -44,7 +52,7 @@
         "y": 0
       },
       "connectors": [
-        "n-001"
+        "n-002"
       ],
       "isStart": true
     },

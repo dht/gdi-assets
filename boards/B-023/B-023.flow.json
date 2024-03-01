@@ -1,6 +1,6 @@
 {
   "flowConfig": {
-    "flowId": "fb-contacts",
+    "flowId": "fb-mood-alchemy",
     "name": "Simple chat",
     "flowType": "continues",
     "output": {
@@ -11,8 +11,8 @@
   },
   "flowApis": {},
   "flowAssistants": {
-    "as-contacts-chat": {
-      "id": "as-contacts-chat",
+    "as-mood-alchemy-chat": {
+      "id": "as-mood-alchemy-chat",
       "name": "Chat",
       "description": "Helpful assistant that provides a conversation about a topic.",
       "instructions": "You are a helpful assistant",
@@ -26,7 +26,7 @@
       "id": "n-001",
       "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-contacts-chat",
+      "assistantId": "as-mood-alchemy-chat",
       "input": {
         "prompt": "${prompt}"
       },

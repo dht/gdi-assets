@@ -1,52 +1,49 @@
 {
   "id": "B-022",
-  "identifier": "com.usegdi.books",
+  "identifier": "com.usegdi.kayak",
   "version": "0.1.0",
   "url": "/boards/B-022",
   "boardInfo": {
-    "name": "Books",
+    "name": "Kayak",
     "index": 22,
-    "imageUrl": "/images/i_books.jpg",
+    "imageUrl": "/images/d2.jpg",
     "videoThumbUrl": "/images/B-022.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Discover, track, and recommend books with the Books. This platform offers personalized book tracking, reading progress monitoring, and intelligent book recommendations based on your preferences. Whether you're an avid reader or looking for your next great read, Books enriches your reading experience and fosters a vibrant community of book enthusiasts.",
-    "descriptionLong": "Books is your ultimate companion for literary exploration. By seamlessly tracking your reading journey and providing tailored recommendations, it ensures that you stay engaged and inspired. The platform's algorithm learns your reading habits and preferences to offer compelling book suggestions, creating a space where book lovers connect and share their literary discoveries.",
-    "oneLiner": "Enhance your reading experience with personalized book tracking and recommendations.",
-    "oneLinerShort": "Track, discover, and recommend books tailored just for you.",
-    "header": "Books for an enriched literary adventure",
-    "logoColor": "#7E57C2",
+    "description": "Experience an evolution in content discovery with AI-Era feeds. Uncover personalized, relevant, and reliable information tailored to your interests. Leverage the power of AI to curate feeds that enhance your online experience and keep you engaged with the latest and most meaningful content.",
+    "descriptionLong": "Kayak redefines content consumption by harnessing the capabilities of artificial intelligence. Seamlessly integrate the latest advancements in AI to curate feeds that align with your preferences and priorities. Say goodbye to generic content and embrace a personalized, informative, and enriching feed experience tailored to the AI era.",
+    "oneLiner": "Transform content discovery with Kayak feeds for the AI era.",
+    "oneLinerShort": "Transform content discovery with AI.",
+    "header": "a new take on feeds for the AI era",
+    "logoColor": "#FF5733",
     "fields": [
       {
-        "label": "bookTitle",
-        "content": "String"
+        "label": "feeds",
+        "content": "X, Reddit, Facebook"
       },
       {
-        "label": "author",
-        "content": "String"
+        "label": "era",
+        "content": "AI"
       },
       {
-        "label": "readingProgress",
-        "content": "Number"
-      },
-      {
-        "label": "recommendations",
-        "content": "Array"
+        "label": "focus",
+        "content": "Personalization, Relevance, Reliability"
       }
     ],
     "tags": [
-      "book_tracker",
-      "reading_progress",
-      "literary_discoveries",
-      "book_recommendations",
-      "community",
-      "book_enthusiasts"
+      "feeds",
+      "AI",
+      "content discovery",
+      "personalization",
+      "relevance",
+      "information"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768"
+      "1366x768",
+      "1280x720"
     ],
-    "tsVersion": "2024-02-03 14:44:00"
+    "tsVersion": "2024-02-15 09:00:00"
   },
   "author": "gdi",
   "dependencies": {
@@ -69,12 +66,31 @@
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
-    "rating": 0
+    "rating": 0,
+    "reviews": {}
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.kayak",
+        "title": "Kayak",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-022",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
         "widgetId": "com.usegdi.starter.logo",
         "title": "Logo",
         "position": {
@@ -90,65 +106,13 @@
         },
         "boardId": "B-022",
         "flags": {}
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 56,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-022",
-        "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 63,
-          "y": 39
-        },
-        "boardId": "B-022",
-        "flags": {},
-        "flavour": "default",
-        "props": {
-          "showBigWip": true
-        }
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-022",
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
+        "widgetId": "com.usegdi.starter.kayak",
+        "title": "Kayak",
         "position": {
           "x": 1,
           "y": 1
@@ -157,46 +121,11 @@
           "x": 121,
           "y": 48
         },
-        "columnIndex": 1,
         "boardId": "B-022",
         "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-022",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-022",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
+        "props": {
+          "sceneUrl": ""
+        }
       }
     }
   }

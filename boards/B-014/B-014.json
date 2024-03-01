@@ -1,26 +1,45 @@
 {
   "id": "B-014",
-  "identifier": "com.usegdi.claire",
+  "identifier": "com.usegdi.documents",
   "version": "0.1.0",
   "url": "/boards/B-014",
   "boardInfo": {
-    "name": "Claire",
+    "name": "Documents",
     "index": 14,
-    "imageUrl": "/images/c1.jpg",
+    "imageUrl": "/images/i_docs.jpg",
     "videoThumbUrl": "/images/B-014.mp4",
+    "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Claire is your personal AI assistant designed to control IoT devices in your apartment and provide real-time sensor information from IoT sensors located throughout the living space. Whether you want to adjust the smart thermostat, dim the lights, or receive updates on environmental conditions, Claire offers a convenient and efficient solution for managing your home environment.\n\nWith its user-friendly interface and intuitive functionality, Claire ensures seamless control and access to sensor data, empowering you to create a comfortable and personalized living space. Interact with Claire to monitor and optimize your home environment for sustainability, comfort, and security. With support for a wide range of IoT devices and sensors, Claire is the ultimate assistant for modern, connected living.",
-    "descriptionLong": "Claire is your personal AI assistant designed to control IoT devices in your apartment and provide real-time sensor information from IoT sensors located throughout the living space. Whether you want to adjust the smart thermostat, dim the lights, or receive updates on environmental conditions, Claire offers a convenient and efficient solution for managing your home environment.\n\nWith its user-friendly interface and intuitive functionality, Claire ensures seamless control and access to sensor data, empowering you to create a comfortable and personalized living space. Interact with Claire to monitor and optimize your home environment for sustainability, comfort, and security. With support for a wide range of IoT devices and sensors, Claire is the ultimate assistant for modern, connected living.",
-    "oneLiner": "Meet Claire, Your Personal AI Assistant for IoT Control and Sensor Information in Your Apartment",
-    "oneLinerShort": "\"Your AI Apartment Assistant\"",
-    "header": "",
-    "fields": [],
+    "description": "Empower collaboration and productivity with Documents. This versatile tool revolutionizes document creation and editing, offering a user-friendly interface, real-time collaborative features, and seamless integration with cloud storage. Whether it's drafting reports, creating presentations, or editing spreadsheets, Documents enhances workflow efficiency for individuals and teams.",
+    "descriptionLong": "Documents is a simple Documents. It combines advanced editing capabilities with cloud-based collaboration, enabling users to work together in real time on a variety of document formats. From basic text editing to complex formatting, Documents delivers an intuitive and robust platform for creative and practical document management.",
+    "oneLiner": "Transform document editing with real-time collaboration and intuitive features.",
+    "oneLinerShort": "Enhance collaboration and productivity in document editing.",
+    "header": "Documents for seamless document collaboration",
+    "logoColor": "#4285F4",
+    "fields": [
+      {
+        "label": "documentType",
+        "content": "String"
+      },
+      {
+        "label": "collaborators",
+        "content": "Array"
+      },
+      {
+        "label": "lastEditedBy",
+        "content": "String"
+      },
+      {
+        "label": "formattingOptions",
+        "content": "Object"
+      }
+    ],
     "tags": [
-      "IoT",
-      "smart home",
-      "personal assistant",
-      "apartment",
-      "sensors"
+      "document_editing",
+      "collaboration",
+      "productivity",
+      "cloud_integration",
+      "workflow_efficiency"
     ],
     "supportedResolutions": [
       "1920x1080",
@@ -36,41 +55,27 @@
   },
   "apis": {},
   "defaults": {
-    "exampleId": "claire",
-    "setupId": "claire"
+    "previewPath": "/static/document-editor-model.json"
   },
-  "examplesUrl": "/B-014/B-014.examples.json",
   "flowUrl": "/B-014/B-014.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-014",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
   "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "rating": 0
   },
   "elements": {
     "default": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.claire",
-        "title": "Claire",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-014",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
-      "e3": {
-        "id": "e3",
+      "e1": {
+        "id": "e1",
         "widgetId": "com.usegdi.starter.logo",
         "title": "Logo",
         "position": {
@@ -84,15 +89,67 @@
         "props": {
           "darkMode": false
         },
-        "boardId": "B-014",
+        "boardId": "B-023",
         "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-023",
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 63,
+          "y": 39
+        },
+        "boardId": "B-023",
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-023",
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.claire",
-        "title": "Claire",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 1,
           "y": 1
@@ -101,11 +158,46 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-014",
+        "columnIndex": 1,
+        "boardId": "B-023",
         "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-023",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-023",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
       }
     }
   }

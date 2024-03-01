@@ -1,35 +1,38 @@
 {
   "flowConfig": {
-    "flowId": "fb-voice-studio",
+    "flowId": "fb-finances",
     "name": "Simple chat",
     "flowType": "continues",
-    "variables": {},
     "output": {
-      "voiceUrl": "actions.appState.patch"
+      "transcriptLines": "actions.transcriptLines.setAll"
     },
     "cumulativeThread": true,
-    "clearVariables": false,
-    "textToSpeech": false
+    "clearVariables": false
   },
-  "flowApis": {
-    "voiceGenerator": {
-      "id": "voiceGenerator",
-      "endpoint": "speech.basic",
-      "vendor": "openAI"
+  "flowApis": {},
+  "flowAssistants": {
+    "as-finances-chat": {
+      "id": "as-finances-chat",
+      "name": "Chat",
+      "description": "Helpful assistant that provides a conversation about a topic.",
+      "instructions": "You are a helpful assistant",
+      "model": "gpt-3.5-turbo-1106",
+      "tools": [],
+      "isDynamic": true
     }
   },
-  "flowAssistants": {},
   "flowNodes": {
     "n-001": {
       "id": "n-001",
-      "name": "Generate Voice",
-      "nodeType": "api",
-      "apiId": "voiceGenerator",
+      "name": "Prompt",
+      "nodeType": "llm",
+      "assistantId": "as-finances-chat",
       "input": {
         "prompt": "${prompt}"
       },
       "variables": {
-        "voiceUrl": "$voiceSimple"
+        "transcriptRaw": "[0].content[0].text.value",
+        "transcriptLines": "$chatSimple"
       },
       "parentId": "",
       "completionParams": {
