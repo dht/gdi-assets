@@ -4,7 +4,7 @@
   "packs": {
     "p1-woman-red": {
       "id": "p1-woman-red",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p1-woman-red.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/p1-woman-red.png",
       "capacity": 1,
       "identifier": "p1-woman-red",
       "index": 0,
@@ -21,7 +21,7 @@
       }
     },
     "p2-main-spikyHair": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p2-man-spikyHair.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/p2-man-spikyHair.png",
       "id": "p2-man-spikyHair",
       "capacity": 1,
       "identifier": "p2-man-spikyHair",
@@ -38,7 +38,7 @@
       }
     },
     "p3-woman-blueHair": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p3-woman-blueHair.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/p3-woman-blueHair.png",
       "id": "p3-woman-blueHair",
       "capacity": 1,
       "identifier": "p3-woman-blueHair",
@@ -56,7 +56,7 @@
       }
     },
     "p4-woman-fourthWall": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p4-woman-fourthWall.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/p4-woman-fourthWall.png",
       "id": "p4-woman-fourthWall",
       "capacity": 1,
       "identifier": "p4-woman-fourthWall",
@@ -74,7 +74,7 @@
       }
     },
     "p5-woman-redHead": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p5-woman-redHead.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/p5-woman-redHead.png",
       "id": "p5-woman-redHead",
       "capacity": 1,
       "identifier": "p5-woman-redHead",
@@ -92,7 +92,7 @@
       }
     },
     "p6-man-coffee": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p6-man-coffee.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/p6-man-coffee.png",
       "id": "p6-man-coffee",
       "capacity": 1,
       "identifier": "p6-man-coffee",
@@ -110,7 +110,7 @@
       }
     },
     "p7-man-phone": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p7-man-phone.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/p7-man-phone.png",
       "id": "p7-man-phone",
       "capacity": 1,
       "identifier": "p7-man-phone",
@@ -129,7 +129,7 @@
       }
     },
     "p8-woman-dog": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p8-woman-dog.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/p8-woman-dog.png",
       "id": "p8-woman-dog",
       "capacity": 1,
       "identifier": "p8-woman-dog",
@@ -147,7 +147,7 @@
       }
     },
     "p9-woman-brownHair": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p9-woman-brownHair.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/p9-woman-brownHair.png",
       "id": "p9-woman-brownHair",
       "capacity": 1,
       "identifier": "p9-woman-brownHair",
@@ -165,7 +165,7 @@
       }
     },
     "p10-man-ordering": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p10-man-ordering.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/p10-man-ordering.png",
       "id": "p10-man-ordering",
       "capacity": 1,
       "identifier": "p10-man-ordering",
@@ -183,7 +183,7 @@
       }
     },
     "p11-woman-purpleHair": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p11-woman-purpleHair.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/p11-woman-purpleHair.png",
       "id": "p11-woman-purpleHair",
       "capacity": 1,
       "identifier": "p11-woman-purpleHair",
@@ -201,7 +201,7 @@
       }
     },
     "p12-man-book": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p12-man-book.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/p12-man-book.png",
       "id": "p12-man-book",
       "capacity": 1,
       "identifier": "p12-man-book",
@@ -218,7 +218,7 @@
       }
     },
     "p1": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/people-0.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/people-0.png",
       "id": "p1",
       "capacity": 100,
       "identifier": "p1",
@@ -227,21 +227,21 @@
     "p2": {
       "capacity": 1,
       "id": "p2",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/props.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/props.png",
       "identifier": "p2",
       "index": 1
     },
     "p3": {
       "capacity": 10,
       "id": "p3",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/faces.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/faces.png",
       "identifier": "p3",
       "index": 2
     },
     "p4": {
       "capacity": 10,
       "id": "p4",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/mouthShapes.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/public/sprites/mouthShapes.png",
       "identifier": "p4",
       "index": 2
     }

@@ -10,15 +10,15 @@ const copyFiles = {
 };
 
 const run = async () => {
-  const dirs = fs.readdirSync('../boards').filter((i) => i.startsWith('com.'));
+  const dirs = fs.readdirSync('./boards').filter((i) => i.startsWith('com.'));
 
   dirs.forEach((dir) => {
     tranformBoard(dir);
   });
 
   Object.keys(copyFiles).forEach((file) => {
-    const sourcePath = `../boards/${file}`;
-    const destPath = `../public/${copyFiles[file]}`;
+    const sourcePath = `./boards/${file}`;
+    const destPath = `./public/${copyFiles[file]}`;
 
     fs.copyFileSync(sourcePath, destPath);
   });
@@ -28,13 +28,13 @@ const run = async () => {
 
 const createAllBoards = () => {
   const output = {};
-  const dirs = fs.readdirSync('../public/boards').filter((i) => i.startsWith('B-'));
-  const future = fs.readJsonSync('../boards/future.json');
+  const dirs = fs.readdirSync('./public/boards').filter((i) => i.startsWith('B-'));
+  const future = fs.readJsonSync('./boards/future.json');
 
   let lastId;
 
   dirs.forEach((dir) => {
-    const boardData = fs.readJsonSync(`../public/boards/${dir}/${dir}.json`);
+    const boardData = fs.readJsonSync(`./public/boards/${dir}/${dir}.json`);
     delete boardData['elements'];
     const id = boardData.id;
     output[id] = boardData;
@@ -58,18 +58,18 @@ const createAllBoards = () => {
     output[id] = item;
   });
 
-  fs.writeJsonSync('../public/allBoards.json', output, { spaces: 2 });
+  fs.writeJsonSync('./public/allBoards.json', output, { spaces: 2 });
 };
 
 const loadBoard = (dir) => {
   const identifier = dir.split('.').pop();
 
   const paths = {
-    main: `../boards/${dir}/${identifier}.json`,
-    examples: `../boards/${dir}/${identifier}.examples.json`,
-    flow: `../boards/${dir}/${identifier}.flow.json`,
-    reviews: `../boards/${dir}/${identifier}.reviews.json`,
-    index: `../boards/${dir}/index.json`,
+    main: `./boards/${dir}/${identifier}.json`,
+    examples: `./boards/${dir}/${identifier}.examples.json`,
+    flow: `./boards/${dir}/${identifier}.flow.json`,
+    reviews: `./boards/${dir}/${identifier}.reviews.json`,
+    index: `./boards/${dir}/index.json`,
   };
 
   const output = {
@@ -121,11 +121,11 @@ const parseBoard = (boardData) => {
   output.identifier = identifier;
 
   output.pathsOutput = {
-    root: `../public/boards/${id}`,
-    main: `../public/boards/${id}/${id}.json`,
-    examples: `../public/boards/${id}/${id}.examples.json`,
-    flow: `../public/boards/${id}/${id}.flow.json`,
-    reviews: `../public/boards/${id}/${id}.reviews.json`,
+    root: `./public/boards/${id}`,
+    main: `./public/boards/${id}/${id}.json`,
+    examples: `./public/boards/${id}/${id}.examples.json`,
+    flow: `./public/boards/${id}/${id}.flow.json`,
+    reviews: `./public/boards/${id}/${id}.reviews.json`,
   };
 
   return output;
