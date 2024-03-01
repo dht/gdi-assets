@@ -1,13 +1,13 @@
 {
-  "id": "B-001",
-  "identifier": "com.usegdi.3d-ad-creator",
+  "id": "{boardId}",
+  "identifier": "com.usegdi.3d-animation",
   "version": "0.1.0",
-  "url": "/boards/B-001",
+  "url": "/boards/{boardId}",
   "boardInfo": {
-    "name": "3D Ad Creator",
-    "index": 1,
+    "name": "3D Animation Creator",
+    "index": "{index}",
     "imageUrl": "/images/z_3d.jpg",
-    "videoThumbUrl": "/images/B-001.mp4",
+    "videoThumbUrl": "/images/{boardId}.mp4",
     "videoUrl": "https://www.youtube.com/embed/c7jAhBZgZuI",
     "boardType": "adhoc",
     "description": "3D Ad Creator redefines digital advertising by enabling the creation of immersive 3D video ads with ease. Leveraging advanced AI technology, it allows both novices and professionals to craft engaging content effortlessly. This tool transforms ad creation into an intuitive and rewarding experience, ensuring your message captivates and resonates with audiences.",
@@ -39,11 +39,7 @@
       "editor_choice",
       "young_professionals"
     ],
-    "order": 1,
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -56,9 +52,9 @@
   "defaults": {
     "exampleId": "modelz"
   },
-  "examplesUrl": "/B-001/B-001.examples.json",
-  "flowUrl": "/B-001/B-001.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-001",
+  "examplesUrl": "/{boardId}/{boardId}.examples.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
@@ -73,24 +69,6 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
-        "position": {
-          "x": 2,
-          "y": 2
-        },
-        "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "boardId": "B-009",
-        "flags": {},
-        "props": {
-          "darkMode": true
-        }
-      },
       "e2": {
         "id": "e2",
         "widgetId": "com.usegdi.starter.bit-builder",
@@ -103,7 +81,7 @@
           "x": 121,
           "y": 47
         },
-        "boardId": "B-001",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {}
       }
@@ -121,7 +99,7 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-001",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {}
       }

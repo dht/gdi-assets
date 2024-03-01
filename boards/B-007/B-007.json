@@ -58,32 +58,17 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
-        "position": {
-          "x": 2,
-          "y": 2
-        },
-        "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "boardId": "B-007",
-        "flags": {}
-      },
       "e2": {
         "id": "e2",
         "widgetId": "com.usegdi.starter.speech",
         "title": "ImageViewer",
         "position": {
           "x": 56,
-          "y": 4
+          "y": 2
         },
         "dimension": {
           "x": 63,
-          "y": 42
+          "y": 44
         },
         "boardId": "B-007",
         "flags": {},
@@ -95,27 +80,11 @@
         "title": "Speech Params",
         "position": {
           "x": 5,
-          "y": 23
+          "y": 2
         },
         "dimension": {
           "x": 48,
           "y": 23
-        },
-        "boardId": "B-007",
-        "flags": {},
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.flow",
-        "title": "Flow",
-        "position": {
-          "x": 5,
-          "y": 7
-        },
-        "dimension": {
-          "x": 44,
-          "y": 14
         },
         "boardId": "B-007",
         "flags": {},

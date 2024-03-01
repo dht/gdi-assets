@@ -1,0 +1,499 @@
+{
+  "id": "B-004",
+  "paths": {
+    "main": "../boards/B-004/B-004.json",
+    "examples": "../boards/B-004/B-004.examples.json",
+    "flow": "../boards/B-004/B-004.flow.json",
+    "reviews": "../boards/B-004/B-004.reviews.json",
+    "log": "../boards/B-004.log.json"
+  },
+  "pathsOutput": {
+    "root": "../boards/com.usegdi.park-conversation",
+    "main": "../boards/com.usegdi.park-conversation/park-conversation.json",
+    "examples": "../boards/com.usegdi.park-conversation/park-conversation.examples.json",
+    "flow": "../boards/com.usegdi.park-conversation/park-conversation.flow.json",
+    "reviews": "../boards/com.usegdi.park-conversation/park-conversation.reviews.json"
+  },
+  "exists": {
+    "main": true,
+    "examples": true,
+    "flow": true,
+    "reviews": true
+  },
+  "mainData": {
+    "id": "{boardId}",
+    "identifier": "com.usegdi.park-conversation",
+    "version": "0.1.0",
+    "url": "/boards/{boardId}",
+    "boardInfo": {
+      "name": "Park Conversation",
+      "index": "{index}",
+      "imageUrl": "/images/z_park.jpg",
+      "videoThumbUrl": "/images/{boardId}.mp4",
+      "videoUrl": "https://www.youtube.com/embed/hHcgTR7SAos",
+      "boardType": "linear",
+      "description": "Park Conversation is a unique board that brings 3D conversation simulations to life. Set in a virtual park, it features three teenagers engaging in dynamic discussions on any given topic. Leveraging advanced AI, it synthesizes realistic voice dialogues, complete with accurate lip-syncing, to craft an immersive conversational experience. This board moves beyond traditional simulations, offering an interactive platform where characters debate and discuss a wide range of subjects, from current events to movies or sports, all in a lifelike manner.",
+      "descriptionLong": "Park Conversation board stands out in the realm of 3D conversation simulations. Enter a virtual park where you can prompt three teenagers to discuss any topic. With cutting-edge AI technology, this board generates not just dialogues but also synchronizes them with lifelike lip movements and expressive voice modulation. The result is a remarkably immersive experience, as the characters' discussions feel genuine and engaging. From casual chats to deep debates, Park Conversation covers a broad spectrum of discussions, offering users a front-row seat to the future of interactive 3D simulations.",
+      "oneLiner": "Dive into immersive 3D conversations with teenagers in a virtual park, featuring AI-driven voice and lip-syncing.",
+      "oneLinerShort": "Explore AI-enhanced 3D park conversations with realistic voice and lip-sync.",
+      "header": "Conversation about ${prompt}",
+      "fields": [
+        {
+          "label": "input",
+          "content": "Prompt"
+        },
+        {
+          "label": "output",
+          "content": "3d conversation"
+        },
+        {
+          "label": "engines",
+          "content": "LLM #1, LLM #2, ElevenLabs"
+        }
+      ],
+      "tags": [
+        "simulation",
+        "3D",
+        "AI",
+        "conversation",
+        "voice",
+        "immersive",
+        "virtual",
+        "interactive"
+      ],
+      "supportedResolutions": [
+        "1920x1080",
+        "1280x720"
+      ],
+      "tsVersion": "2024-02-03 14:44:00"
+    },
+    "author": "gdi",
+    "dependencies": {
+      "@gdi/store-base": "^1.0.0",
+      "@gdi/ui": "^1.0.0",
+      "@gdi/widgets-starter": "^1.0.0"
+    },
+    "apis": {
+      "turbo-3.5": "OpenAI",
+      "tts-1": "OpenAI",
+      "eleven_multilingual_v2": "ElevenLabs",
+      "eleven_turbo_v2": "ElevenLabs"
+    },
+    "defaults": {
+      "setupId": "expanse",
+      "exampleId": "expanse"
+    },
+    "examplesUrl": "/com.usegdi.park-conversation/park-conversation.examples.json",
+    "flowUrl": "/com.usegdi.park-conversation/park-conversation.flow.json",
+    "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
+    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+    "isActive": true,
+    "mobile": {
+      "darkMode": true,
+      "columns": 2,
+      "flowColumnIndex": 1,
+      "outputColumnIndex": 0
+    },
+    "reviewInfo": {
+      "reviewsCount": 2,
+      "installationCount": 15,
+      "rating": 4.2
+    },
+    "elements": {
+      "default": {
+        "e1": {
+          "id": "e1",
+          "widgetId": "com.usegdi.starter.logo",
+          "title": "Logo",
+          "position": {
+            "x": 2,
+            "y": 2
+          },
+          "dimension": {
+            "x": 20,
+            "y": 6
+          },
+          "boardId": "{boardId}",
+          "flags": {}
+        },
+        "e2": {
+          "id": "e2",
+          "widgetId": "com.usegdi.starter.babylon",
+          "title": "babylon",
+          "position": {
+            "x": 56,
+            "y": 2
+          },
+          "dimension": {
+            "x": 63,
+            "y": 24
+          },
+          "boardId": "{boardId}",
+          "flags": {},
+          "props": {
+            "sceneUrl": ""
+          }
+        },
+        "e3": {
+          "id": "e3",
+          "widgetId": "com.usegdi.starter.transcript",
+          "title": "Transcript",
+          "position": {
+            "x": 56,
+            "y": 27
+          },
+          "dimension": {
+            "x": 63,
+            "y": 19
+          },
+          "boardId": "{boardId}",
+          "flags": {},
+          "flavour": "outcome"
+        },
+        "e4": {
+          "id": "e4",
+          "widgetId": "com.usegdi.starter.flow",
+          "title": "Flow",
+          "position": {
+            "x": 5,
+            "y": 7
+          },
+          "dimension": {
+            "x": 44,
+            "y": 32
+          },
+          "boardId": "{boardId}",
+          "flags": {},
+          "props": {}
+        },
+        "e6": {
+          "id": "e6",
+          "widgetId": "com.usegdi.starter.playback",
+          "title": "Playback",
+          "position": {
+            "x": 57,
+            "y": 3
+          },
+          "dimension": {
+            "x": 25,
+            "y": 5
+          },
+          "boardId": "{boardId}",
+          "flags": {}
+        },
+        "e7": {
+          "id": "e7",
+          "widgetId": "com.usegdi.starter.mode",
+          "title": "Mode",
+          "position": {
+            "x": 110,
+            "y": 1
+          },
+          "dimension": {
+            "x": 16,
+            "y": 2
+          },
+          "boardId": "{boardId}",
+          "flags": {}
+        },
+        "e8": {
+          "id": "e8",
+          "widgetId": "com.usegdi.starter.logger",
+          "title": "Logger",
+          "position": {
+            "x": 56,
+            "y": 27
+          },
+          "dimension": {
+            "x": 63,
+            "y": 19
+          },
+          "boardId": "{boardId}",
+          "flags": {},
+          "flavour": "prepare"
+        },
+        "e9": {
+          "id": "e9",
+          "widgetId": "com.usegdi.starter.start-play",
+          "title": "StartPlay",
+          "position": {
+            "x": 56,
+            "y": 27
+          },
+          "dimension": {
+            "x": 63,
+            "y": 19
+          },
+          "boardId": "{boardId}",
+          "flags": {},
+          "flavour": "default"
+        },
+        "e10": {
+          "id": "e10",
+          "widgetId": "com.usegdi.starter.save-board",
+          "title": "SaveBoard",
+          "position": {
+            "x": 115,
+            "y": 27
+          },
+          "dimension": {
+            "x": 1,
+            "y": 1
+          },
+          "boardId": "{boardId}",
+          "flags": {}
+        }
+      },
+      "mobile": {
+        "e2": {
+          "id": "e2",
+          "widgetId": "com.usegdi.starter.babylon",
+          "title": "babylon",
+          "position": {
+            "x": 1,
+            "y": 1
+          },
+          "dimension": {
+            "x": 121,
+            "y": 24
+          },
+          "boardId": "{boardId}",
+          "flags": {},
+          "props": {
+            "sceneUrl": ""
+          },
+          "columnIndex": 0
+        },
+        "e3": {
+          "id": "e3",
+          "widgetId": "com.usegdi.starter.transcript",
+          "title": "Transcript",
+          "position": {
+            "x": 1,
+            "y": 24
+          },
+          "dimension": {
+            "x": 121,
+            "y": 24
+          },
+          "boardId": "{boardId}",
+          "flags": {},
+          "flavour": "outcome",
+          "columnIndex": 0
+        },
+        "e9": {
+          "id": "e9",
+          "widgetId": "com.usegdi.starter.start-play",
+          "title": "StartPlay",
+          "position": {
+            "x": 1,
+            "y": 24
+          },
+          "dimension": {
+            "x": 121,
+            "y": 24
+          },
+          "boardId": "{boardId}",
+          "flags": {},
+          "flavour": "default",
+          "columnIndex": 0
+        },
+        "e6": {
+          "id": "e6",
+          "widgetId": "com.usegdi.starter.playback",
+          "title": "Playback",
+          "position": {
+            "x": 62,
+            "y": 3
+          },
+          "dimension": {
+            "x": 25,
+            "y": 5
+          },
+          "boardId": "{boardId}",
+          "flags": {},
+          "columnIndex": 0
+        },
+        "e4": {
+          "id": "e4",
+          "widgetId": "com.usegdi.starter.flow",
+          "title": "Flow",
+          "position": {
+            "x": 1,
+            "y": 1
+          },
+          "dimension": {
+            "x": 121,
+            "y": 48
+          },
+          "boardId": "{boardId}",
+          "flags": {},
+          "props": {},
+          "columnIndex": 1
+        }
+      }
+    },
+    "storeNodes": [
+      "sceneConfig",
+      "sceneCameras",
+      "sceneLights",
+      "sceneBits",
+      "sceneMeshes",
+      "scenePacks",
+      "sceneVASPs",
+      "sceneDots",
+      "sceneExternals",
+      "sceneAudios",
+      "sceneEffects",
+      "transcriptLines",
+      "transcriptAudios"
+    ]
+  },
+  "examplesData": {
+    "expanse": {
+      "id": "expanse",
+      "title": "The Expanse",
+      "description": "3 students discussing the sci-fi show",
+      "dbPath": "/static/park-expanse.json",
+      "screenshotUrl": "/static/park-expanse.png",
+      "dateAdded": "2023-02-08"
+    }
+  },
+  "flowData": {
+    "flowConfig": {
+      "flowId": "fb-park-conversation",
+      "name": "Park Conversation",
+      "flowType": "linear",
+      "variables": {
+        "topic": "variables.prompt"
+      },
+      "output": {
+        "transcriptLines": "actions.transcriptLines.setAll",
+        "transcriptAudios": "actions.transcriptAudios.setAll"
+      },
+      "clearVariables": true,
+      "cumulativeThread": false
+    },
+    "flowApis": {
+      "conversation": {
+        "id": "conversation",
+        "endpoint": "speech.conversation",
+        "vendor": "openAI"
+      }
+    },
+    "flowAssistants": {
+      "as-park-conversation-transcript": {
+        "id": "as-park-conversation-transcript",
+        "name": "Park chat",
+        "description": "A conversational assistant that generates a conversation between three teenagers.",
+        "instructions": "You are a conversational assistant that generates a conversation between three teenagers. Given a topic, try to simulate a realistic conversation between Sam, Rachel, and Arnold.",
+        "model": "gpt-3.5-turbo-1106",
+        "tools": []
+      },
+      "as-park-conversation-phonetics": {
+        "id": "as-park-conversation-phonetics",
+        "name": "Phonetics Tutor",
+        "description": "A phonetics expert that provides phonetic representation of sentences.",
+        "instructions": "You are an expert in phonetics. Given a conversation between 3 teenagers, provide the phonetic representation of each sentence. Return only the conversation with phonetics instead of english.",
+        "model": "gpt-3.5-turbo-1106",
+        "tools": []
+      }
+    },
+    "flowNodes": {
+      "n-001": {
+        "id": "n-001",
+        "name": "Transcript",
+        "nodeType": "llm",
+        "assistantId": "as-park-conversation-transcript",
+        "input": {
+          "prompt": "generate a conversation about ${topic}"
+        },
+        "variables": {
+          "transcriptRaw": "[0].content[0].text.value",
+          "transcriptLines": "$conversationSplitTranscript"
+        },
+        "parentId": "",
+        "completionParams": {
+          "maxTokens": 200
+        },
+        "position": {
+          "x": 250,
+          "y": 0
+        },
+        "connectors": [
+          "n-002",
+          "n-003"
+        ],
+        "isStart": true
+      },
+      "n-002": {
+        "id": "n-002",
+        "name": "Phonetics",
+        "nodeType": "llm",
+        "assistantId": "as-park-conversation-phonetics",
+        "input": {
+          "prompt": "generate a phonetic representation of ${transcriptRaw}"
+        },
+        "variables": {
+          "transcriptPhonetics": "[0].content[0].text.value",
+          "transcriptLines": "$conversationAddPhonetics"
+        },
+        "position": {
+          "x": 150,
+          "y": 150
+        },
+        "parentId": "n-001",
+        "connectors": [
+          "n-004"
+        ]
+      },
+      "n-003": {
+        "id": "n-003",
+        "name": "Speech",
+        "nodeType": "api",
+        "apiId": "conversation",
+        "input": {
+          "transcript": "${transcriptLines}"
+        },
+        "variables": {
+          "transcriptAudios": "files",
+          "transcriptLines": "$conversationAddAudio"
+        },
+        "position": {
+          "x": 350,
+          "y": 150
+        },
+        "connectors": [
+          "n-004"
+        ],
+        "parentId": "n-001"
+      },
+      "n-004": {
+        "id": "n-004",
+        "name": "Play",
+        "nodeType": "outcome",
+        "parentId": [
+          "n-002",
+          "n-003"
+        ],
+        "position": {
+          "x": 250,
+          "y": 300
+        },
+        "isEnd": true
+      }
+    }
+  },
+  "reviewsData": {
+    "dbDumpDate": "2024-02-12 10:14:30",
+    "reviewInfo": {
+      "reviewsCount": 2,
+      "installationCount": 15,
+      "rating": 4.2
+    }
+  },
+  "identifierFull": "com.usegdi.park-conversation",
+  "identifier": "park-conversation",
+  "seq": "004"
+}

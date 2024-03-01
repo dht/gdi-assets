@@ -1,6 +1,6 @@
 {
   "flowConfig": {
-    "flowId": "fb-002",
+    "flowId": "fb-{boardSeq}",
     "name": "Simple chat",
     "flowType": "continues",
     "variables": {},
@@ -13,8 +13,16 @@
   },
   "flowApis": {},
   "flowAssistants": {
-    "as-002-chat": {
-      "id": "as-002-chat",
+    "as-{boardSeq}-chat": {
+      "id": "as-{boardSeq}-chat",
+      "name": "Chat",
+      "description": "Helpful assistant that provides a conversation about a topic.",
+      "instructions": "You are a helpful assistant",
+      "model": "gpt-3.5-turbo-1106",
+      "tools": []
+    },
+    "as-{boardSeq}-chat": {
+      "id": "as-{boardSeq}-chat",
       "name": "Chat",
       "description": "Helpful assistant that provides a conversation about a topic.",
       "instructions": "You are a helpful assistant",
@@ -27,7 +35,7 @@
       "id": "n-001",
       "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-002-chat",
+      "assistantId": "as-{boardSeq}-chat",
       "input": {
         "prompt": "${prompt}"
       },
@@ -39,7 +47,10 @@
       "completionParams": {
         "maxTokens": 200
       },
-      "position": { "x": 250, "y": 0 },
+      "position": {
+        "x": 250,
+        "y": 0
+      },
       "connectors": ["n-002"],
       "isStart": true
     },
@@ -48,7 +59,10 @@
       "name": "Respond",
       "nodeType": "outcome",
       "parentId": "n-001",
-      "position": { "x": 250, "y": 150 },
+      "position": {
+        "x": 250,
+        "y": 150
+      },
       "isEnd": true
     }
   }

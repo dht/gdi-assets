@@ -40,24 +40,6 @@
   "apis": {},
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
-        "position": {
-          "x": 2,
-          "y": 2
-        },
-        "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "boardId": "B-008",
-        "flags": {},
-        "props": {
-          "darkMode": true
-        }
-      },
       "e2": {
         "id": "e2",
         "widgetId": "com.usegdi.starter.scene-builder",

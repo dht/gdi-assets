@@ -1,13 +1,13 @@
 {
-  "id": "B-009",
+  "id": "{boardId}",
   "identifier": "com.usegdi.asset-manager",
   "version": "0.1.0",
-  "url": "/boards/B-009",
+  "url": "/boards/{boardId}",
   "boardInfo": {
     "name": "Asset Manager",
-    "index": 9,
+    "index": "{index}",
     "imageUrl": "/images/10.jpg",
-    "videoThumbUrl": "/images/B-009.mp4",
+    "videoThumbUrl": "/images/{boardId}.mp4",
     "videoUrl": "https://www.youtube.com/embed/PJkWAnKCdyQ",
     "boardType": "adhoc",
     "description": "Asset Manager is a utility board essential for organizing and managing a diverse range of digital assets, from images and textual documents to background music, voice recordings, and even JSONs of 3D scenes. It offers an efficient way to import external assets and integrate them with those created in other boards. The board facilitates tagging, grouping by projects, and managing assets as easily as navigating a filesystem. Its versatility makes it ideal for users who need to maintain an organized repository of various digital elements for their projects.",
@@ -16,17 +16,8 @@
     "oneLinerShort": "Centralize and streamline asset management with Asset Manager.",
     "header": "",
     "fields": [],
-    "tags": [
-      "asset management",
-      "images",
-      "voice files",
-      "3D objects"
-    ],
-    "order": 9,
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "tags": ["asset management", "images", "voice files", "3D objects"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -37,9 +28,9 @@
   },
   "apis": {},
   "defaults": {},
-  "flowUrl": "/B-009/B-009.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "isActive": true,
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-009",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "mobile": {
     "darkMode": true,
@@ -53,34 +44,19 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
-        "position": {
-          "x": 2,
-          "y": 2
-        },
-        "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "boardId": "B-009",
-        "flags": {}
-      },
       "e2": {
         "id": "e2",
         "widgetId": "com.usegdi.starter.asset-preview",
         "title": "Chat",
         "position": {
           "x": 62,
-          "y": 7
+          "y": 6
         },
         "dimension": {
           "x": 58,
-          "y": 39
+          "y": 40
         },
-        "boardId": "B-009",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {},
         "flavour": "viewer"
@@ -91,13 +67,13 @@
         "title": "Asset List #2",
         "position": {
           "x": 62,
-          "y": 7
+          "y": 6
         },
         "dimension": {
           "x": 58,
-          "y": 39
+          "y": 40
         },
-        "boardId": "B-009",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {
           "listId": "right"
@@ -110,13 +86,13 @@
         "title": "Asset List #1",
         "position": {
           "x": 2,
-          "y": 7
+          "y": 6
         },
         "dimension": {
           "x": 58,
-          "y": 39
+          "y": 40
         },
-        "boardId": "B-009",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {
           "listId": "left"
@@ -127,14 +103,14 @@
         "widgetId": "com.usegdi.starter.asset-new",
         "title": "Asset New",
         "position": {
-          "x": 24,
+          "x": 26,
           "y": 2
         },
         "dimension": {
-          "x": 96,
-          "y": 4
+          "x": 94,
+          "y": 3
         },
-        "boardId": "B-009",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {
           "listId": "left"
@@ -154,7 +130,7 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-009",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {},
         "columnIndex": 1,
@@ -172,7 +148,7 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-009",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {
           "listId": "right"
@@ -191,7 +167,7 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-009",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {
           "listId": "left"
@@ -200,7 +176,5 @@
       }
     }
   },
-  "storeNodes": [
-    "assets"
-  ]
+  "storeNodes": ["assets"]
 }

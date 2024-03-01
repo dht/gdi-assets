@@ -1,11 +1,11 @@
 {
-  "id": "B-003",
+  "id": "{boardId}",
   "identifier": "com.usegdi.image-generator",
   "version": "0.1.0",
-  "url": "/boards/B-003",
+  "url": "/boards/{boardId}",
   "boardInfo": {
     "name": "Image Generator",
-    "index": 3,
+    "index": "{index}",
     "imageUrl": "/images/z_paint.jpg",
     "videoUrl": "https://www.youtube.com/embed/W2fnrmo0MOM",
     "boardType": "linear",
@@ -28,21 +28,8 @@
         "content": "LLM #1, LLM #2, ElevenLabs"
       }
     ],
-    "tags": [
-      "image",
-      "generator",
-      "AI",
-      "visuals",
-      "top_installed",
-      "editor_choice",
-      "designers"
-    ],
-    "order": 2,
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768",
-      "1280x720"
-    ],
+    "tags": ["image", "generator", "AI", "visuals", "top_installed", "editor_choice", "designers"],
+    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -55,8 +42,8 @@
     "dall-e-3": "OpenAI"
   },
   "defaults": {},
-  "flowUrl": "/B-003/B-003.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-003",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
@@ -85,7 +72,7 @@
           "x": 20,
           "y": 6
         },
-        "boardId": "B-003",
+        "boardId": "{boardId}",
         "flags": {}
       },
       "e2": {
@@ -100,7 +87,7 @@
           "x": 63,
           "y": 42
         },
-        "boardId": "B-003",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {}
       },
@@ -116,7 +103,7 @@
           "x": 44,
           "y": 14
         },
-        "boardId": "B-003",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {},
         "flavour": "default"
@@ -133,7 +120,7 @@
           "x": 44,
           "y": 14
         },
-        "boardId": "B-003",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {},
         "flavour": "edit"
@@ -150,7 +137,7 @@
           "x": 44,
           "y": 25
         },
-        "boardId": "B-003",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {}
       }
@@ -169,7 +156,7 @@
           "y": 48
         },
         "columnIndex": 0,
-        "boardId": "B-003",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {},
         "flavour": "default"
@@ -187,7 +174,7 @@
           "y": 48
         },
         "columnIndex": 0,
-        "boardId": "B-003",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {},
         "flavour": "edit"
@@ -205,7 +192,7 @@
           "y": 48
         },
         "columnIndex": 1,
-        "boardId": "B-003",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {}
       },
@@ -222,13 +209,11 @@
           "y": 48
         },
         "columnIndex": 2,
-        "boardId": "B-003",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {}
       }
     }
   },
-  "storeNodes": [
-    "appState"
-  ]
+  "storeNodes": ["appState"]
 }
