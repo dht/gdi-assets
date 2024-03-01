@@ -1,0 +1,150 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.voice-studio",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Voice Studio",
+    "index": "{index}",
+    "imageUrl": "/images/z_soundboard.jpg",
+    "videoThumbUrl": "/images/{boardId}.mp4",
+    "videoUrl": "https://www.youtube.com/embed/B2IChuPGMok",
+    "boardType": "adhoc",
+    "description": "VoiceStudio is a utility board designed to supply other boards with high-quality speech. It offers a straightforward and versatile toolset for recording and editing voiceovers, suitable for a variety of applications like narration, podcasting, and audio books. VoiceStudio's user-friendly interface makes it accessible for all skill levels, allowing for the creation of clear, engaging voiceovers without the complexity of professional audio software. It supports API-agnostic operations, seamlessly integrating with both OpenAI and ElevenLabs APIs.",
+    "descriptionLong": "VoiceStudio serves as a practical utility board within a broader ecosystem, providing essential voiceover capabilities to other boards. It allows users to efficiently record, edit, and enhance voice tracks, catering to content creators across various domains. The board features a suite of user-friendly tools for multi-track recording, audio mixing, and effects processing. Its compatibility with both OpenAI and ElevenLabs APIs ensures versatility in voice generation and manipulation, accommodating a wide range of project requirements. VoiceStudio is designed for users seeking a balance between simplicity and functionality in voiceover creation, making it an ideal tool for enhancing projects with high-quality audio.",
+    "oneLiner": "VoiceStudio: Streamline voiceover creation with versatile, API-agnostic tools.",
+    "oneLinerShort": "Simplified voiceover creation with VoiceStudio.",
+    "header": "",
+    "fields": [],
+    "tags": [
+      "voiceover",
+      "recording",
+      "audio",
+      "creation"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {
+    "tts-1": "OpenAI",
+    "eleven_multilingual_v2": "ElevenLabs",
+    "eleven_turbo_v2": "ElevenLabs"
+  },
+  "defaults": {},
+  "flowUrl": "/com.usegdi.voice-studio/voice-studio.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "isActive": true,
+  "mobile": {
+    "darkMode": true,
+    "columns": 3,
+    "flowColumnIndex": 2,
+    "outputColumnIndex": 0
+  },
+  "reviewInfo": {
+    "reviewsCount": 12,
+    "installationCount": 40,
+    "rating": 4.6
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.speech",
+        "title": "ImageViewer",
+        "position": {
+          "x": 56,
+          "y": 2
+        },
+        "dimension": {
+          "x": 63,
+          "y": 44
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.speech-params",
+        "title": "Speech Params",
+        "position": {
+          "x": 5,
+          "y": 2
+        },
+        "dimension": {
+          "x": 48,
+          "y": 23
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.speech",
+        "title": "ImageViewer",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {},
+        "columnIndex": 0
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.speech-params",
+        "title": "Speech Params",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {},
+        "columnIndex": 1
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {},
+        "columnIndex": 2
+      }
+    }
+  },
+  "storeNodes": [
+    "appState"
+  ]
+}

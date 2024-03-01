@@ -1,0 +1,99 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.scene-builder",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Scene Builder",
+    "index": "{index}",
+    "imageUrl": "/images/e0.jpg",
+    "videoThumbUrl": "/images/{boardId}.mp4",
+    "videoUrl": "https://www.youtube.com/embed/I6syvfYrLSg",
+    "boardType": "adhoc",
+    "description": "Scene Builder is a specialized board for creating and organizing 3D scenes, serving as a foundation for further animation or behavior additions in other boards. It offers an array of tools for users at all levels, from beginners to experienced 3D artists, to construct and customize 3D environments. The board features an intuitive interface and a comprehensive asset library, making the placement and arrangement of 3D elements straightforward. Scene Builder is essential for tasks ranging from architectural visualizations to the creation of virtual environments, facilitating the initial stage of 3D scene development.",
+    "descriptionLong": "Scene Builder is an efficient and user-friendly board dedicated to the generation and placement of 3D components, which can be further enhanced in other boards. It's designed to streamline the process of 3D scene creation, offering an accessible toolkit for both newcomers and professional 3D artists. This board simplifies the complexities of 3D design, providing an intuitive platform for assembling scenes using a variety of meshes, GLBs, and other 3D elements. Scene Builder is versatile enough to support a diverse range of projects, from detailed architectural models to dynamic virtual worlds, making it an ideal starting point for 3D scene creation within a larger workflow.",
+    "oneLiner": "Build and arrange 3D scenes effortlessly with Scene Builder, your starting point for 3D creativity.",
+    "oneLinerShort": "Simplify 3D scene creation with Scene Builder.",
+    "header": "",
+    "fields": [],
+    "tags": [
+      "3D",
+      "scene",
+      "visualization",
+      "creation"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "apis": {},
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.scene-builder",
+        "title": "Scene Builder",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 47
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.scene-builder",
+        "title": "Scene Builder",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      }
+    }
+  },
+  "defaults": {},
+  "flowUrl": "/com.usegdi.scene-builder/scene-builder.flow.json",
+  "isActive": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 2,
+    "installationCount": 14,
+    "rating": 4.1
+  },
+  "storeNodes": [
+    "sceneConfig",
+    "sceneCameras",
+    "sceneLights",
+    "sceneMeshes",
+    "scenePacks",
+    "sceneVASPs",
+    "sceneExternals"
+  ]
+}

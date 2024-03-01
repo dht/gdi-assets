@@ -1,0 +1,61 @@
+{
+  "name": "Earth",
+  "backgroundValues": {
+    "paletteIndex": 0
+  },
+  "backgroundType": "triangles",
+  "useRightHandedSystem": true,
+  "identifier": "earth",
+  "id": "earth",
+  "index": 0,
+  "cameras": {
+    "c2": {
+      "boardId": "earth",
+      "id": "c2",
+      "values": {
+        "beta": 1,
+        "upperRadiusLimit": 20,
+        "alpha": 0.5,
+        "radius": 5,
+        "target": [0, 0, 0],
+        "lowerRadiusLimit": 5
+      },
+      "identifier": "arc-2",
+      "type": "arc",
+      "index": 1
+    }
+  },
+  "grounds": {},
+  "externals": {
+    "x4": {
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/earth.glb",
+      "identifier": "external-4",
+      "id": "x4",
+      "boardId": "earth",
+      "index": 3
+    }
+  },
+  "lights": {
+    "l2": {
+      "identifier": "sun-2",
+      "id": "l2",
+      "specular": [1, 1, 0],
+      "diffuse": [1, 1, 1],
+      "boardId": "earth",
+      "intensity": 1,
+      "position": {
+        "z": 0,
+        "y": 50,
+        "x": 0
+      },
+      "type": "hemispheric",
+      "index": 1
+    }
+  },
+  "packs": {},
+  "particles": {},
+  "sounds": {},
+  "sprites": {},
+  "microAnimations": {},
+  "videos": {}
+}

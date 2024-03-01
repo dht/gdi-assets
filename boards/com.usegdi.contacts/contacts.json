@@ -1,0 +1,203 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.contacts",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Contacts",
+    "index": "{index}",
+    "imageUrl": "/images/i_contacts.jpg",
+    "videoThumbUrl": "/images/{boardId}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Efficiently organize and manage your contacts with Contacts. This versatile tool is designed to streamline the process of storing, accessing, and updating contact information. From personal connections to professional networks, Contacts simplifies contact management for enhanced productivity and connectivity.",
+    "descriptionLong": "Contacts is the ultimate solution for individuals and businesses seeking to effectively manage their contacts. With its user-friendly interface and robust features, it empowers users to maintain comprehensive contact databases effortlessly. Seamlessly organize, update, and access critical contact information, fostering better communication and relationship management.",
+    "oneLiner": "Simplify contact management with Contacts's intuitive tools.",
+    "oneLinerShort": "Streamline contact management with ease.",
+    "header": "Contacts for efficient contact organization",
+    "logoColor": "#4A90E2",
+    "fields": [
+      {
+        "label": "name",
+        "content": "String"
+      },
+      {
+        "label": "email",
+        "content": "String"
+      },
+      {
+        "label": "phone",
+        "content": "String"
+      },
+      {
+        "label": "company",
+        "content": "String"
+      }
+    ],
+    "tags": [
+      "contacts",
+      "management",
+      "organization",
+      "productivity",
+      "business"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "flowUrl": "/com.usegdi.contacts/contacts.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-002",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "B-023",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-023",
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 63,
+          "y": 39
+        },
+        "boardId": "B-023",
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-023",
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 1,
+        "boardId": "B-023",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-023",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-023",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    }
+  }
+}

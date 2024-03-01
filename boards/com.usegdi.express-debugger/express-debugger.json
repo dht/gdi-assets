@@ -1,0 +1,182 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.express-debugger",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Express Debugger",
+    "index": "{index}",
+    "imageUrl": "/images/i_debugger.jpg",
+    "videoThumbUrl": "/images/{boardId}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Visualize the architecture and request flow of your Express.js application. Gain insights into the application's structure and request handling process.",
+    "descriptionLong": "The Express Debugger offers visual representation of your Express.js application's architecture and request flow. While not real-time debugging, it provides insights into the application's structure and the process of handling requests.",
+    "oneLiner": "Visualize Express.js application architecture and request flow.",
+    "oneLinerShort": "Gain insights into Express.js application structure and request flow.",
+    "header": "Express Debugger for architectural insights",
+    "logoColor": "#9C27B0",
+    "tags": [
+      "express.js",
+      "debugging",
+      "visualization",
+      "architecture"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "defaults": {},
+  "flowUrl": "/com.usegdi.express-debugger/express-debugger.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "B-023",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-023",
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 63,
+          "y": 39
+        },
+        "boardId": "B-023",
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-023",
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 1,
+        "boardId": "B-023",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-023",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-023",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    }
+  }
+}

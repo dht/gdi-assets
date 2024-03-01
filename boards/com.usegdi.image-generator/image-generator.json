@@ -28,8 +28,20 @@
         "content": "LLM #1, LLM #2, ElevenLabs"
       }
     ],
-    "tags": ["image", "generator", "AI", "visuals", "top_installed", "editor_choice", "designers"],
-    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
+    "tags": [
+      "image",
+      "generator",
+      "AI",
+      "visuals",
+      "top_installed",
+      "editor_choice",
+      "designers"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x720"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -42,7 +54,7 @@
     "dall-e-3": "OpenAI"
   },
   "defaults": {},
-  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "flowUrl": "/com.usegdi.image-generator/image-generator.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
@@ -215,5 +227,7 @@
       }
     }
   },
-  "storeNodes": ["appState"]
+  "storeNodes": [
+    "appState"
+  ]
 }

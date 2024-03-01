@@ -1,6 +1,6 @@
 {
   "flowConfig": {
-    "flowId": "fb-003",
+    "flowId": "fb-image-generator",
     "name": "Simple image generator",
     "flowType": "linear",
     "variables": {},
@@ -36,8 +36,13 @@
       "completionParams": {
         "maxTokens": 200
       },
-      "position": { "x": 250, "y": 0 },
-      "connectors": ["n-002"],
+      "position": {
+        "x": 250,
+        "y": 0
+      },
+      "connectors": [
+        "n-002"
+      ],
       "isStart": true
     },
     "n-002": {
@@ -45,7 +50,10 @@
       "name": "Respond",
       "nodeType": "outcome",
       "parentId": "n-001",
-      "position": { "x": 250, "y": 150 },
+      "position": {
+        "x": 250,
+        "y": 150
+      },
       "isEnd": true
     }
   }

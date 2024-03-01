@@ -4,16 +4,16 @@
   "version": "0.1.0",
   "url": "/boards/b-800",
   "boardInfo": {
-    "name": "3D Ad Creator",
+    "name": "Scene player",
     "index": 1,
     "imageUrl": "/images/z_3d.jpg",
     "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
     "boardType": "adhoc",
-    "description": "3D Ad Creator is a revolutionary tool that transforms the landscape of digital advertising. It empowers users to create visually stunning 3D video advertisements, pushing the boundaries of traditional ad creation. With the assistance of cutting-edge AI technology, this platform enables users to produce captivating content that truly engages audiences. Whether you're a beginner or an experienced designer, 3D Ad Creator simplifies the ad creation process, guaranteeing professional-quality results with minimal effort.\n\nIn the past, advertisements were often dull and failed to capture viewers' attention. However, with 3D Ad Creator's AI assistance and intuitive interface, users can now unleash their creativity and generate captivating 3D video ads. Its advanced technology ensures that the content resonates with the target audience, maximizing impact and success. Whether you're looking to promote a product, service, or brand, this tool offers a streamlined and efficient ad creation process, catering to designers of all skill levels. Experience the future of digital advertising with 3D Ad Creator and captivate your audience like never before.",
-    "descriptionLong": "3D Ad Creator is the ultimate game-changer in the realm of digital advertising. Through its cutting-edge technology, this platform empowers users to create visually stunning 3D video advertisements that push the boundaries of traditional ad creation. With the assistance of state-of-the-art AI, users can produce captivating content that truly engages audiences. Whether you are a beginner or an experienced designer, 3D Ad Creator simplifies the ad creation process, guaranteeing professional-quality results with minimal effort.\n\nIn the past, advertisements often failed to capture viewers' attention and were dull. However, 3D Ad Creator's AI assistance and intuitive interface have revolutionized ad creation. Users can now unleash their creativity and generate captivating 3D video ads that resonate with their target audience. With its advanced technology, this tool ensures maximum impact and success. It offers a streamlined and efficient ad creation process, catering to designers of all skill levels. Experience the future of digital advertising with 3D Ad Creator and captivate your audience like never before. Enjoy the simplicity, efficiency, and outstanding results that this powerful tool has to offer.",
-    "oneLiner": "Revolutionize digital advertising with visually stunning 3D video ads, powered by cutting-edge AI technology for maximum impact and minimal effort.",
-    "oneLinerShort": "Revolutionize digital ads with stunning 3D videos, powered by AI.",
-    "header": "commercial for a ${topic}",
+    "description": "Experience immersive 3D scenes created with GDI in real-time with the 3D Scene Player. Explore interactive environments and stunning visuals crafted using cutting-edge technology. This tool brings your creations to life, allowing seamless navigation and interaction within the 3D space.",
+    "descriptionLong": "The 3D Scene Player offers a seamless way to showcase and navigate through captivating 3D environments developed with GDI. Whether it's architectural visualizations, game levels, or product designs, this platform enables effortless exploration and interaction within the scenes. From detailed textures to dynamic lighting, experience the depth and creativity of GDI's 3D scenes in real-time.",
+    "oneLiner": "Immerse yourself in interactive 3D scenes crafted with GDI in real-time.",
+    "oneLinerShort": "Explore interactive 3D scenes made with GDI.",
+    "header": "experience immersive 3D scenes",
     "fields": [
       {
         "label": "input",

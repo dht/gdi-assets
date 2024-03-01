@@ -1,0 +1,139 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.rhetoric-radar",
+  "version": "0.1.0",
+  "url": "/boards/B-018",
+  "boardInfo": {
+    "name": "RhetoricRadar",
+    "index": "{index}",
+    "imageUrl": "/images/8.jpg",
+    "boardType": "adhoc",
+    "description": "RhetoricRadar is an innovative tool designed to analyze YouTube video clips and identify logical fallacies and manipulations. This revolutionary application aims to empower users to critically evaluate the content they consume, particularly in the digital sphere. By leveraging advanced linguistic and rhetorical analysis, RhetoricRadar provides insightful assessments of persuasive techniques and argumentative strategies employed in online videos. Equipped with a comprehensive database of logical fallacies and manipulative tactics, this app serves as a vigilant watchdog, enabling users to detect and comprehend the intricacies of persuasive communication.\n\nWith its user-friendly interface and intuitive functionality, RhetoricRadar offers a seamless experience for individuals seeking to uncover the underlying strategies used in persuasive media. From identifying ad hominem attacks to recognizing appeals to emotion, the app facilitates a deeper understanding of rhetoric in the digital landscape. Boasting over 5,000 installations and a stellar rating of 4.8, RhetoricRadar has become an indispensable tool for critical thinkers and media analysts. It supports multiple resolutions and ensures a smooth user experience, fostering informed and discerning consumption of online content.\n\nNote: The long description provided above was not available in the initial prompt and has been included for reference purposes.",
+    "descriptionLong": "RhetoricRadar is an innovative tool designed to analyze YouTube video clips and identify logical fallacies and manipulations. This revolutionary application aims to empower users to critically evaluate the content they consume, particularly in the digital sphere. By leveraging advanced linguistic and rhetorical analysis, RhetoricRadar provides insightful assessments of persuasive techniques and argumentative strategies employed in online videos. Equipped with a comprehensive database of logical fallacies and manipulative tactics, this app serves as a vigilant watchdog, enabling users to detect and comprehend the intricacies of persuasive communication.\n\nWith its user-friendly interface and intuitive functionality, RhetoricRadar offers a seamless experience for individuals seeking to uncover the underlying strategies used in persuasive media. From identifying ad hominem attacks to recognizing appeals to emotion, the app facilitates a deeper understanding of rhetoric in the digital landscape. Boasting over 5,000 installations and a stellar rating of 4.8, RhetoricRadar has become an indispensable tool for critical thinkers and media analysts. It supports multiple resolutions and ensures a smooth user experience, fostering informed and discerning consumption of online content.",
+    "oneLiner": "Empower yourself to critically assess YouTube content with RhetoricRadar, the ultimate tool for identifying logical fallacies and manipulative rhetoric in online videos.",
+    "oneLinerShort": "\"Empower critical analysis of YouTube content\"",
+    "header": "",
+    "fields": [],
+    "tags": [
+      "YouTube",
+      "rhetoric",
+      "logical fallacies",
+      "manipulation",
+      "digital literacy"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": [
+    "turbo-3.5"
+  ],
+  "defaults": {},
+  "flowUrl": "/com.usegdi.rhetoric-radar/rhetoric-radar.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "{boardId}",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.youtube",
+        "title": "Youtube",
+        "position": {
+          "x": 62,
+          "y": 4
+        },
+        "dimension": {
+          "x": 57,
+          "y": 17
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "autoSize": true,
+          "videoId": "s0dMTAQM4cw"
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.transcript",
+        "title": "Transcript",
+        "position": {
+          "x": 62,
+          "y": 21
+        },
+        "dimension": {
+          "x": 57,
+          "y": 25
+        },
+        "boardId": "B-004",
+        "flags": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.youtube-layers",
+        "title": "YoutubeLayers",
+        "position": {
+          "x": 2,
+          "y": 8
+        },
+        "dimension": {
+          "x": 57,
+          "y": 9
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      },
+      "e5": {
+        "id": "e5",
+        "widgetId": "com.usegdi.starter.youtube-layer",
+        "title": "YoutubeLayer",
+        "position": {
+          "x": 2,
+          "y": 17
+        },
+        "dimension": {
+          "x": 57,
+          "y": 29
+        },
+        "boardId": "{boardId}",
+        "flags": {}
+      }
+    }
+  }
+}
