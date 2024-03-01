@@ -7,7 +7,7 @@
     "name": "Contacts",
     "index": "{index}",
     "imageUrl": "/images/boards/i_contacts.jpg",
-    "videoThumbUrl": "/images/boards/{boardId}.mp4",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Efficiently organize and manage your contacts with Contacts. This versatile tool is designed to streamline the process of storing, accessing, and updating contact information. From personal connections to professional networks, Contacts simplifies contact management for enhanced productivity and connectivity.",

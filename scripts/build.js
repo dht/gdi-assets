@@ -95,8 +95,7 @@ const loadBoard = (dir) => {
   output.flowData = output.exists.flow ? fs.readJsonSync(paths.flow) : null;
   output.reviewsData = output.exists.reviews ? fs.readJsonSync(paths.reviews) : null;
 
-  setIf(output.mainData, 'examplesUrl', '/{boardId}/{boardId}.examples.json');
-  setIf(output.mainData, 'flowUrl', '/{boardId}/{boardId}.flow.json');
+  setIf(output.mainData, 'boardInfo.videoThumbUrl', '/images/boards/{identifier}.mp4');
   fs.writeJsonSync(paths.main, output.mainData, { spaces: 2 });
 
   return output;
@@ -174,6 +173,7 @@ const transformBoard = (dir) => {
   const { id, index, exists, pathsOutput, identifier } = boardData;
 
   traverseBoard(boardData.mainData, '{boardId}', id);
+  traverseBoard(boardData.mainData, '{identifier}', identifier);
   set(boardData.mainData, 'boardInfo.index', index);
   const { root, main, flow, examples } = pathsOutput;
 

@@ -7,7 +7,7 @@
     "name": "Premier League Analytics",
     "index": "{index}",
     "imageUrl": "/images/boards/d4.jpg",
-    "videoThumbUrl": "/images/boards/{boardId}.mp4",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Gain deeper insights into Premier League matches with advanced sports analytics. Analyze plays, strategies, and player performance to understand the intricacies of the game. Leverage comprehensive data and visualizations to enhance your understanding of Premier League action.",

@@ -7,7 +7,7 @@
     "name": "TDD Studio",
     "index": "{index}",
     "imageUrl": "/images/boards/d_tdd.jpg",
-    "videoThumbUrl": "/images/boards/{boardId}.mp4",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Improve your Test-Driven Development (TDD) skills with the TDD Studio board. Streamline the process of writing simple input-output algorithms by constructing pure functions and validating their accuracy through test-case evaluation. Master TDD by efficiently composing tests, providing input-output pairs, and iteratively refining implementations for optimal outcomes.",
