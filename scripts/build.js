@@ -1,5 +1,8 @@
 const fs = require('fs-extra');
-const { get, set, clone } = require('lodash');
+const { get, set } = require('lodash');
+
+const SOURCE = './src';
+const DEST = './boards';
 
 const copyFiles = {
   'assistants.json': 'allAssistants.json',
@@ -10,15 +13,15 @@ const copyFiles = {
 };
 
 const run = async () => {
-  const dirs = fs.readdirSync('./boards').filter((i) => i.startsWith('com.'));
+  const dirs = fs.readdirSync(SOURCE).filter((i) => i.startsWith('com.'));
 
   dirs.forEach((dir) => {
-    tranformBoard(dir);
+    transformBoard(dir);
   });
 
   Object.keys(copyFiles).forEach((file) => {
-    const sourcePath = `./boards/${file}`;
-    const destPath = `./public/${copyFiles[file]}`;
+    const sourcePath = `${SOURCE}/${file}`;
+    const destPath = `${DEST}/${copyFiles[file]}`;
 
     fs.copyFileSync(sourcePath, destPath);
   });
@@ -28,13 +31,13 @@ const run = async () => {
 
 const createAllBoards = () => {
   const output = {};
-  const dirs = fs.readdirSync('./public/boards').filter((i) => i.startsWith('B-'));
-  const future = fs.readJsonSync('./boards/future.json');
+  const dirs = fs.readdirSync(`${DEST}`).filter((i) => i.startsWith('B-'));
+  const future = fs.readJsonSync(`${SOURCE}/future.json`);
 
   let lastId;
 
   dirs.forEach((dir) => {
-    const boardData = fs.readJsonSync(`./public/boards/${dir}/${dir}.json`);
+    const boardData = fs.readJsonSync(`${DEST}/${dir}/${dir}.json`);
     delete boardData['elements'];
     const id = boardData.id;
     output[id] = boardData;
@@ -58,18 +61,18 @@ const createAllBoards = () => {
     output[id] = item;
   });
 
-  fs.writeJsonSync('./public/allBoards.json', output, { spaces: 2 });
+  fs.writeJsonSync(`${DEST}/allBoards.json`, output, { spaces: 2 });
 };
 
 const loadBoard = (dir) => {
   const identifier = dir.split('.').pop();
 
   const paths = {
-    main: `./boards/${dir}/${identifier}.json`,
-    examples: `./boards/${dir}/${identifier}.examples.json`,
-    flow: `./boards/${dir}/${identifier}.flow.json`,
-    reviews: `./boards/${dir}/${identifier}.reviews.json`,
-    index: `./boards/${dir}/index.json`,
+    main: `${SOURCE}/${dir}/${identifier}.json`,
+    examples: `${SOURCE}/${dir}/${identifier}.examples.json`,
+    flow: `${SOURCE}/${dir}/${identifier}.flow.json`,
+    reviews: `${SOURCE}/${dir}/${identifier}.reviews.json`,
+    index: `${SOURCE}/${dir}/index.json`,
   };
 
   const output = {
@@ -121,11 +124,11 @@ const parseBoard = (boardData) => {
   output.identifier = identifier;
 
   output.pathsOutput = {
-    root: `./public/boards/${id}`,
-    main: `./public/boards/${id}/${id}.json`,
-    examples: `./public/boards/${id}/${id}.examples.json`,
-    flow: `./public/boards/${id}/${id}.flow.json`,
-    reviews: `./public/boards/${id}/${id}.reviews.json`,
+    root: `${DEST}/${id}`,
+    main: `${DEST}/${id}/${id}.json`,
+    examples: `${DEST}/${id}/${id}.examples.json`,
+    flow: `${DEST}/${id}/${id}.flow.json`,
+    reviews: `${DEST}/${id}/${id}.reviews.json`,
   };
 
   return output;
@@ -163,7 +166,7 @@ const setIf = (json, key, value) => {
   }
 };
 
-const tranformBoard = (dir) => {
+const transformBoard = (dir) => {
   const boardDataRaw = loadBoard(dir);
 
   const boardData = parseBoard(boardDataRaw);
