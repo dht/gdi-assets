@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "Asset Manager",
     "index": "{index}",
-    "imageUrl": "/images/10.jpg",
-    "videoThumbUrl": "/images/{boardId}.mp4",
+    "imageUrl": "/images/boards/10.jpg",
+    "videoThumbUrl": "/images/boards/{boardId}.mp4",
     "videoUrl": "https://www.youtube.com/embed/PJkWAnKCdyQ",
     "boardType": "adhoc",
     "description": "Asset Manager is a utility board essential for organizing and managing a diverse range of digital assets, from images and textual documents to background music, voice recordings, and even JSONs of 3D scenes. It offers an efficient way to import external assets and integrate them with those created in other boards. The board facilitates tagging, grouping by projects, and managing assets as easily as navigating a filesystem. Its versatility makes it ideal for users who need to maintain an organized repository of various digital elements for their projects.",

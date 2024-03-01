@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "3D Ad Creator",
     "index": 6,
-    "imageUrl": "/images/z_3d.jpg",
-    "videoThumbUrl": "/images/B-006.mp4",
+    "imageUrl": "/images/boards/z_3d.jpg",
+    "videoThumbUrl": "/images/boards/B-006.mp4",
     "videoUrl": "https://www.youtube.com/embed/c7jAhBZgZuI",
     "boardType": "adhoc",
     "description": "3D Ad Creator redefines digital advertising by enabling the creation of immersive 3D video ads with ease. Leveraging advanced AI technology, it allows both novices and professionals to craft engaging content effortlessly. This tool transforms ad creation into an intuitive and rewarding experience, ensuring your message captivates and resonates with audiences.",

@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "Debater's Workshop",
     "index": "{index}",
-    "imageUrl": "/images/d0.jpg",
-    "videoThumbUrl": "/images/{boardId}.mp4",
+    "imageUrl": "/images/boards/d0.jpg",
+    "videoThumbUrl": "/images/boards/{boardId}.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Develop your critical thinking skills with education centered on logical fallacies, rhetoric, and information analysis. Learn through practical examples and diverse methods that empower you to recognize, evaluate, and respond to different forms of reasoning and argumentation in an informed and analytical manner.",

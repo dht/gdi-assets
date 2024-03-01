@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "Fourth Wall",
     "index": 11,
-    "imageUrl": "/images/z_scene_builder.jpg",
-    "videoThumbUrl": "/images/B-011.mp4",
+    "imageUrl": "/images/boards/z_scene_builder.jpg",
+    "videoThumbUrl": "/images/boards/B-011.mp4",
     "videoUrl": "https://www.youtube.com/embed/d8_OIj8L77s",
     "boardType": "continues",
     "description": "Fourth Wall is a board that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",

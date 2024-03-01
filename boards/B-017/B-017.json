@@ -6,7 +6,7 @@
   "boardInfo": {
     "name": "3D Scene Gallery",
     "index": 17,
-    "imageUrl": "/images/3d-gallery.jpg",
+    "imageUrl": "/images/boards/3d-gallery.jpg",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Explore a captivating gallery of immersive 3D scenes created with BabylonJS. Experience the power of web-based 3D rendering and unleash your creativity with these interactive environments.",

@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "Books",
     "index": "{index}",
-    "imageUrl": "/images/i_books.jpg",
-    "videoThumbUrl": "/images/{boardId}.mp4",
+    "imageUrl": "/images/boards/i_books.jpg",
+    "videoThumbUrl": "/images/boards/{boardId}.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Discover, track, and recommend books with the Books. This platform offers personalized book tracking, reading progress monitoring, and intelligent book recommendations based on your preferences. Whether you're an avid reader or looking for your next great read, Books enriches your reading experience and fosters a vibrant community of book enthusiasts.",

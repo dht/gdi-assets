@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "Express Debugger",
     "index": "{index}",
-    "imageUrl": "/images/i_debugger.jpg",
-    "videoThumbUrl": "/images/{boardId}.mp4",
+    "imageUrl": "/images/boards/i_debugger.jpg",
+    "videoThumbUrl": "/images/boards/{boardId}.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Visualize the architecture and request flow of your Express.js application. Gain insights into the application's structure and request handling process.",

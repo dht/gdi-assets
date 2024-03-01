@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "Git Evolution",
     "index": "{index}",
-    "imageUrl": "/images/i_git.jpg",
-    "videoThumbUrl": "/images/{boardId}.mp4",
+    "imageUrl": "/images/boards/i_git.jpg",
+    "videoThumbUrl": "/images/boards/{boardId}.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Step into the captivating visual world of your Git project's evolution with the Git Evolution. This immersive tool transforms your codebase history into an animated visual journey, illustrating code contributions, branch activities, and collaborative development. Witness the evolution of your project in an engaging and dynamic presentation reminiscent of Gource's visual storytelling.",

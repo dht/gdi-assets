@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "SMB",
     "index": 31,
-    "imageUrl": "/images/i_smb.jpg",
-    "videoThumbUrl": "/images/B-031.mp4",
+    "imageUrl": "/images/boards/i_smb.jpg",
+    "videoThumbUrl": "/images/boards/B-031.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Empower your small business with a versatile CRM that centralizes customer interactions and enhances relationship management. SMB is designed to optimize customer retention, streamline communication, and track sales opportunities. Tailored for small businesses, it offers a user-friendly interface and scalable features to foster growth and customer satisfaction.",

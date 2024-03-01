@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "Periscope",
     "index": "{index}",
-    "imageUrl": "/images/d3.jpg",
-    "videoThumbUrl": "/images/{boardId}.mp4",
+    "imageUrl": "/images/boards/d3.jpg",
+    "videoThumbUrl": "/images/boards/{boardId}.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Gain comprehensive insights with Periscope. Explore diverse perspectives, uncover information, and find varying opinions on a particular focus. Seamlessly shift through different angles and narratives to gain a multifaceted understanding of the subject, supported by varied sources, videos, and imagery.",

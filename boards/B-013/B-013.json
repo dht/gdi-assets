@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "Multi",
     "index": 13,
-    "imageUrl": "/images/i_multi.jpg",
-    "videoThumbUrl": "/images/B-013.mp4",
+    "imageUrl": "/images/boards/i_multi.jpg",
+    "videoThumbUrl": "/images/boards/B-013.mp4",
     "videoUrl": "https://www.youtube.com/embed/MULTI_PRODUCTIVITY_VIDEO_ID",
     "boardType": "adhoc",
     "description": "Unlock your productivity potential with Multi. This all-in-one solution empowers individuals and teams to capture ideas, manage tasks, track projects, organize to-do lists, and bookmark important resources. With a flexible and collaborative interface, Multi optimizes workflow efficiency and knowledge management.",

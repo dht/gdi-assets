@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "Sales",
     "index": 9,
-    "imageUrl": "/images/i_sales.jpg",
-    "videoThumbUrl": "/images/B-009.mp4",
+    "imageUrl": "/images/boards/i_sales.jpg",
+    "videoThumbUrl": "/images/boards/B-009.mp4",
     "videoUrl": "https://www.youtube.com/embed/SALES_PIPELINE_MANAGER_VIDEO_ID",
     "boardType": "adhoc",
     "description": "Efficiently track, manage, and optimize sales pipelines with Sales. This comprehensive tool empowers sales teams to visualize, organize, and progress deals through customizable pipelines. From lead acquisition to deal closure, Sales streamlines the sales process, driving productivity and revenue growth.",

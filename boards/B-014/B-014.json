@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "Documents",
     "index": 14,
-    "imageUrl": "/images/i_docs.jpg",
-    "videoThumbUrl": "/images/B-014.mp4",
+    "imageUrl": "/images/boards/i_docs.jpg",
+    "videoThumbUrl": "/images/boards/B-014.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Empower collaboration and productivity with Documents. This versatile tool revolutionizes document creation and editing, offering a user-friendly interface, real-time collaborative features, and seamless integration with cloud storage. Whether it's drafting reports, creating presentations, or editing spreadsheets, Documents enhances workflow efficiency for individuals and teams.",

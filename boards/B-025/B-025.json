@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "Park Conversation",
     "index": 25,
-    "imageUrl": "/images/z_park.jpg",
-    "videoThumbUrl": "/images/B-025.mp4",
+    "imageUrl": "/images/boards/z_park.jpg",
+    "videoThumbUrl": "/images/boards/B-025.mp4",
     "videoUrl": "https://www.youtube.com/embed/hHcgTR7SAos",
     "boardType": "linear",
     "description": "Park Conversation is a unique board that brings 3D conversation simulations to life. Set in a virtual park, it features three teenagers engaging in dynamic discussions on any given topic. Leveraging advanced AI, it synthesizes realistic voice dialogues, complete with accurate lip-syncing, to craft an immersive conversational experience. This board moves beyond traditional simulations, offering an interactive platform where characters debate and discuss a wide range of subjects, from current events to movies or sports, all in a lifelike manner.",

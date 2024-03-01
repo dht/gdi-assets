@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "Claire",
     "index": "{index}",
-    "imageUrl": "/images/c1.jpg",
-    "videoThumbUrl": "/images/{boardId}.mp4",
+    "imageUrl": "/images/boards/c1.jpg",
+    "videoThumbUrl": "/images/boards/{boardId}.mp4",
     "boardType": "adhoc",
     "description": "Claire is your personal AI assistant designed to control IoT devices in your apartment and provide real-time sensor information from IoT sensors located throughout the living space. Whether you want to adjust the smart thermostat, dim the lights, or receive updates on environmental conditions, Claire offers a convenient and efficient solution for managing your home environment.\n\nWith its user-friendly interface and intuitive functionality, Claire ensures seamless control and access to sensor data, empowering you to create a comfortable and personalized living space. Interact with Claire to monitor and optimize your home environment for sustainability, comfort, and security. With support for a wide range of IoT devices and sensors, Claire is the ultimate assistant for modern, connected living.",
     "descriptionLong": "Claire is your personal AI assistant designed to control IoT devices in your apartment and provide real-time sensor information from IoT sensors located throughout the living space. Whether you want to adjust the smart thermostat, dim the lights, or receive updates on environmental conditions, Claire offers a convenient and efficient solution for managing your home environment.\n\nWith its user-friendly interface and intuitive functionality, Claire ensures seamless control and access to sensor data, empowering you to create a comfortable and personalized living space. Interact with Claire to monitor and optimize your home environment for sustainability, comfort, and security. With support for a wide range of IoT devices and sensors, Claire is the ultimate assistant for modern, connected living.",

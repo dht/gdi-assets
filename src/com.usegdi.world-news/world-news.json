@@ -6,8 +6,8 @@
   "boardInfo": {
     "name": "World News",
     "index": "{index}",
-    "imageUrl": "/images/d1.jpg",
-    "videoThumbUrl": "/images/{boardId}.mp4",
+    "imageUrl": "/images/boards/d1.jpg",
+    "videoThumbUrl": "/images/boards/{boardId}.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Stay informed with the latest global events using the World News board. Access comprehensive coverage, breaking news, and in-depth analysis of international affairs. Explore diverse perspectives and deep insights to understand the world around you.",
