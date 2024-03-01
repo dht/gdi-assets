@@ -1,0 +1,58 @@
+[
+  {
+    "id": "modelz",
+    "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/v_001.png",
+    "iconUrl": "/logo.svg",
+    "title": "ModelZ Hovercraft",
+    "author": "gdi",
+    "views": 0,
+    "duration": 140,
+    "description": "The video is described by [this JSON]($url). Schema-based videos could become a powerful medium in the near future. Unlike regular binary, pre-baked YouTube videos, they can integrate with AI and respond to user input. For instance, in the middle of the video, the character can address the viewer with a question or react to the user's facial expression through Vision Pro. The possibilities are truly limitless.",
+    "creationDate": "2024-02-12 12:00:00",
+    "version": "1",
+    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/modelz.json",
+    "isActive": true
+  },
+  {
+    "id": "living-room",
+    "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/v_002.png",
+    "iconUrl": "/logo.svg",
+    "title": "Vision Pro Conversation",
+    "description": "The video is described by [this JSON]($url). Schema-based videos could become a powerful medium in the near future. Unlike regular binary, pre-baked YouTube videos, they can integrate with AI and respond to user input. For instance, in the middle of the video, the character can address the viewer with a question or react to the user's facial expression through Vision Pro. The possibilities are truly limitless.",
+    "author": "gdi",
+    "views": 0,
+    "duration": 140,
+    "creationDate": "2024-02-12 12:00:00",
+    "version": "1",
+    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/fourth-wall.json",
+    "isActive": false
+  },
+  {
+    "id": "park",
+    "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/v_003.png",
+    "iconUrl": "/logo.svg",
+    "title": "Park Conversation",
+    "description": "The video is described by [this JSON]($url). Schema-based videos could become a powerful medium in the near future. Unlike regular binary, pre-baked YouTube videos, they can integrate with AI and respond to user input. For instance, in the middle of the video, the character can address the viewer with a question or react to the user's facial expression through Vision Pro. The possibilities are truly limitless.",
+    "author": "gdi",
+    "views": 0,
+    "duration": 140,
+    "creationDate": "2024-02-12 12:00:00",
+    "version": "1",
+    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/park-expanse.json",
+    "isActive": false
+  },
+  {
+    "id": "vision-pro",
+    "imageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/images/v_004.png",
+    "iconUrl": "/logo.svg",
+    "title": "Juno Ad",
+    "description": "The video is described by [this JSON]($url). Schema-based videos could become a powerful medium in the near future. Unlike regular binary, pre-baked YouTube videos, they can integrate with AI and respond to user input. For instance, in the middle of the video, the character can address the viewer with a question or react to the user's facial expression through Vision Pro. The possibilities are truly limitless.",
+    "author": "gdi",
+    "views": 0,
+    "duration": 140,
+    "creationDate": "2024-02-12 12:00:00",
+    "version": "1",
+    "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/vision-pro.json",
+    "isActive": false
+  }
+]

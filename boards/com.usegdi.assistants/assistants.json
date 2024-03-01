@@ -53,7 +53,7 @@
     "turbo-3.5": "OpenAI"
   },
   "defaults": {},
-  "flowUrl": "/com.usegdi.assistants/assistants.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",

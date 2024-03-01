@@ -54,7 +54,7 @@
     "dall-e-3": "OpenAI"
   },
   "defaults": {},
-  "flowUrl": "/com.usegdi.image-generator/image-generator.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",

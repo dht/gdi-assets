@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "playwright": "^1.41.2",
-    "playwright-chromium": "^1.41.2",
-    "playwright-firefox": "^1.41.2"
-  }
-}

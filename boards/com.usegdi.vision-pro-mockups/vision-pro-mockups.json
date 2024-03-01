@@ -35,7 +35,7 @@
   },
   "apis": {},
   "defaults": {},
-  "flowUrl": "/com.usegdi.vision-pro-mockups/vision-pro-mockups.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "isActive": false,
   "reviewInfo": {
     "reviewsCount": 0,

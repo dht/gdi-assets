@@ -33,13 +33,13 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "flowUrl": "/com.usegdi.spotlight/spotlight.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "apis": {},
   "defaults": {
     "setupId": "helmet",
     "exampleId": "helmet"
   },
-  "examplesUrl": "/com.usegdi.spotlight/spotlight.examples.json",
+  "examplesUrl": "/{boardId}/{boardId}.examples.json",
   "isActive": true,
   "isWip": true,
   "reviewInfo": {

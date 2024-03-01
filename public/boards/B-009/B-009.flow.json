@@ -1,0 +1,61 @@
+{
+  "flowConfig": {
+    "flowId": "fb-fourth-wall",
+    "name": "Park Conversation",
+    "flowType": "linear",
+    "variables": {
+      "topic": "variables.prompt"
+    },
+    "output": {
+      "transcriptLines": "actions.transcriptLines.setAll"
+    },
+    "clearVariables": true,
+    "cumulativeThread": false
+  },
+  "flowApis": {
+    "conversation": {
+      "id": "conversation",
+      "endpoint": "speech.conversation",
+      "vendor": "openAI"
+    }
+  },
+  "flowAssistants": {},
+  "flowNodes": {
+    "n-001": {
+      "id": "n-001",
+      "name": "Prompt",
+      "nodeType": "llm",
+      "assistantId": "as-002-chat",
+      "input": {
+        "prompt": "${prompt}"
+      },
+      "variables": {
+        "transcriptRaw": "[0].content[0].text.value",
+        "transcriptLines": "$chatSimple"
+      },
+      "parentId": "",
+      "completionParams": {
+        "maxTokens": 200
+      },
+      "position": {
+        "x": 250,
+        "y": 0
+      },
+      "connectors": [
+        "n-002"
+      ],
+      "isStart": true
+    },
+    "n-002": {
+      "id": "n-002",
+      "name": "Respond",
+      "nodeType": "outcome",
+      "parentId": "n-001",
+      "position": {
+        "x": 250,
+        "y": 150
+      },
+      "isEnd": true
+    }
+  }
+}

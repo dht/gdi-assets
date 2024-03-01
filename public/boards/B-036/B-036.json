@@ -1,0 +1,101 @@
+{
+  "id": "B-036",
+  "identifier": "com.usegdi.todo-app",
+  "version": "1.0.0",
+  "url": "/boards/B-036",
+  "boardInfo": {
+    "name": "Todo App",
+    "index": 36,
+    "imageUrl": "",
+    "boardType": "adhoc",
+    "description": "Todo App is a versatile task management application designed to help users organize their daily tasks efficiently. This app simplifies your life by providing an intuitive and user-friendly interface for creating, tracking, and completing tasks. Whether you're managing work projects, personal errands, or academic assignments, Todo App has you covered.\n\nWith Todo App, you can create, edit, and prioritize tasks effortlessly. The app allows you to set due dates, add notes, and categorize tasks into lists. Stay organized by viewing tasks in a list or kanban board layout. Never miss a deadline again with timely reminders and notifications.\n\nExperience the joy of productivity with Todo App. Whether you're a busy professional or a student juggling multiple responsibilities, this app helps you stay on top of your tasks and accomplish your goals.",
+    "descriptionLong": "Todo App is the ultimate task management solution for individuals seeking to streamline their daily lives. This powerful application offers an array of features designed to enhance productivity and organization. From work-related projects to personal chores and academic assignments, Todo App is your trusted companion.\n\nCreate tasks with ease, customize them with due dates and notes, and categorize them into lists. Visualize your tasks using either a list or a kanban board layout, providing flexibility for different workflow preferences. Say goodbye to missed deadlines, thanks to reminders and notifications.\n\nRediscover the pleasure of productivity with Todo App. Whether you're a professional with a busy schedule or a student managing various commitments, this app empowers you to stay in control and achieve your objectives.",
+    "oneLiner": "Simplify your life with efficient task management and organization.",
+    "oneLinerShort": "Efficient task management and organization.",
+    "header": "",
+    "fields": [],
+    "tags": [
+      "todo",
+      "task management",
+      "productivity",
+      "organization"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x720"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "flowUrl": "/B-036/B-036.flow.json",
+  "isActive": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "B-036",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.calendar",
+        "title": "Calendar",
+        "position": {
+          "x": 36,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 21
+        },
+        "boardId": "B-036",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.todos",
+        "title": "Todos",
+        "position": {
+          "x": 36,
+          "y": 25
+        },
+        "dimension": {
+          "x": 63,
+          "y": 21
+        },
+        "boardId": "B-036",
+        "flags": {},
+        "props": {}
+      }
+    }
+  }
+}

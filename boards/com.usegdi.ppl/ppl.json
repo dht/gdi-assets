@@ -34,7 +34,7 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "flowUrl": "/com.usegdi.ppl/ppl.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "apis": {},
   "defaults": {},
   "isActive": true,

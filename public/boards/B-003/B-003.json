@@ -1,0 +1,233 @@
+{
+  "id": "B-003",
+  "identifier": "com.usegdi.image-generator",
+  "version": "0.1.0",
+  "url": "/boards/B-003",
+  "boardInfo": {
+    "name": "Image Generator",
+    "index": 3,
+    "imageUrl": "/images/z_paint.jpg",
+    "videoUrl": "https://www.youtube.com/embed/W2fnrmo0MOM",
+    "boardType": "linear",
+    "description": "Image Generator simplifies the task of creating AI-generated visuals. Designed for developers and users of all skill levels, it offers an intuitive interface for crafting high-quality images. Utilize state-of-the-art generative AI to produce visuals ranging from practical designs to creative explorations. This tool streamlines the process of transforming your ideas into stunning visuals, ideal for projects requiring unique, AI-generated imagery.",
+    "descriptionLong": "Image Generator is a developer-friendly board that elevates the process of creating AI-generated images. It combines ease of use with advanced generative AI technology, enabling both novice and experienced users to quickly produce high-quality visuals. The tool is tailored for efficiency in generating unique, customized images, making it a valuable asset for projects in marketing, social media, presentation design, and more. Embrace the power of AI to bring your creative visions to life with Image Generator, your go-to tool for innovative image creation.",
+    "oneLiner": "Effortlessly create custom AI-generated images with Image Generator.",
+    "oneLinerShort": "Efficient AI-driven image creation with Image Generator.",
+    "header": "Generate images with GPT",
+    "fields": [
+      {
+        "label": "input",
+        "content": "Prompt"
+      },
+      {
+        "label": "output",
+        "content": "3d conversation"
+      },
+      {
+        "label": "engines",
+        "content": "LLM #1, LLM #2, ElevenLabs"
+      }
+    ],
+    "tags": [
+      "image",
+      "generator",
+      "AI",
+      "visuals",
+      "top_installed",
+      "editor_choice",
+      "designers"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x720"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {
+    "dall-e-3": "OpenAI"
+  },
+  "defaults": {},
+  "flowUrl": "/B-003/B-003.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-003",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "mobile": {
+    "darkMode": true,
+    "columns": 3,
+    "flowColumnIndex": 2,
+    "outputColumnIndex": 1
+  },
+  "reviewInfo": {
+    "reviewsCount": 7,
+    "installationCount": 25,
+    "rating": 4
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "B-003",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.image-viewer",
+        "title": "ImageViewer",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-003",
+        "flags": {},
+        "props": {}
+      },
+      "e3a": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.image-params",
+        "title": "Image Params",
+        "position": {
+          "x": 5,
+          "y": 32
+        },
+        "dimension": {
+          "x": 44,
+          "y": 14
+        },
+        "boardId": "B-003",
+        "flags": {},
+        "props": {},
+        "flavour": "default"
+      },
+      "e3b": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.image-suggestion",
+        "title": "Image Suggestion",
+        "position": {
+          "x": 5,
+          "y": 32
+        },
+        "dimension": {
+          "x": 44,
+          "y": 14
+        },
+        "boardId": "B-003",
+        "flags": {},
+        "props": {},
+        "flavour": "edit"
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "dimension": {
+          "x": 44,
+          "y": 25
+        },
+        "boardId": "B-003",
+        "flags": {},
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e3a": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.image-params",
+        "title": "Image Params",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 0,
+        "boardId": "B-003",
+        "flags": {},
+        "props": {},
+        "flavour": "default"
+      },
+      "e3b": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.image-suggestion",
+        "title": "Image Params",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 0,
+        "boardId": "B-003",
+        "flags": {},
+        "props": {},
+        "flavour": "edit"
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.image-viewer",
+        "title": "ImageViewer",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 1,
+        "boardId": "B-003",
+        "flags": {},
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 2,
+        "boardId": "B-003",
+        "flags": {},
+        "props": {}
+      }
+    }
+  },
+  "storeNodes": [
+    "appState"
+  ]
+}

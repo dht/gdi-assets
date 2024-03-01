@@ -57,7 +57,7 @@
   "defaults": {
     "previewPath": "/static/document-editor-model.json"
   },
-  "flowUrl": "/com.usegdi.documents/documents.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",

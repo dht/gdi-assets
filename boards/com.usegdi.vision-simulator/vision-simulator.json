@@ -33,8 +33,8 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "flowUrl": "/com.usegdi.vision-simulator/vision-simulator.flow.json",
-  "examplesUrl": "/com.usegdi.vision-simulator/vision-simulator.examples.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "examplesUrl": "/{boardId}/{boardId}.examples.json",
   "apis": {},
   "defaults": {
     "exampleId": "vision-pro",

@@ -39,8 +39,8 @@
     "exampleId": "claire",
     "setupId": "claire"
   },
-  "examplesUrl": "/com.usegdi.claire/claire.examples.json",
-  "flowUrl": "/com.usegdi.claire/claire.flow.json",
+  "examplesUrl": "/{boardId}/{boardId}.examples.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "isActive": true,
   "isWip": true,
   "reviewInfo": {

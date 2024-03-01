@@ -39,7 +39,7 @@
     "darkMode": true,
     "columns": 2
   },
-  "flowUrl": "/com.usegdi.tube/tube.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "apis": {},
   "defaults": {},
   "isActive": true,

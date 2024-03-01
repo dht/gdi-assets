@@ -40,7 +40,7 @@
     "eleven_turbo_v2": "ElevenLabs"
   },
   "defaults": {},
-  "flowUrl": "/com.usegdi.voice-studio/voice-studio.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "isActive": true,

@@ -56,8 +56,8 @@
     "exampleId": "vision-couple",
     "setupId": "vision-couple"
   },
-  "examplesUrl": "/com.usegdi.fourth-wall/fourth-wall.examples.json",
-  "flowUrl": "/com.usegdi.fourth-wall/fourth-wall.flow.json",
+  "examplesUrl": "/{boardId}/{boardId}.examples.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",

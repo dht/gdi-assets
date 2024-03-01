@@ -51,7 +51,7 @@
   },
   "apis": {},
   "defaults": {},
-  "flowUrl": "/com.usegdi.scene-player/scene-player.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-022",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",

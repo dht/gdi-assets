@@ -76,7 +76,7 @@
     }
   },
   "defaults": {},
-  "flowUrl": "/com.usegdi.scene-builder/scene-builder.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "isActive": true,
   "mobile": {
     "hidePrompt": true,

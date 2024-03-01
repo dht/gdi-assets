@@ -35,7 +35,7 @@
   },
   "apis": {},
   "defaults": {},
-  "flowUrl": "/com.usegdi.todo-app/todo-app.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "isActive": true,
   "mobile": {
     "hidePrompt": true,

@@ -54,7 +54,7 @@
   "defaults": {
     "previewPath": "/static/git-evolution-visualizer-model.json"
   },
-  "flowUrl": "/com.usegdi.git-evolution/git-evolution.flow.json",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
   "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
