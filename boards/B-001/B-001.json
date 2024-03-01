@@ -38,7 +38,7 @@
   "defaults": {},
   "flowUrl": "/B-001/B-001.flow.json",
   "isActive": true,
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-001",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/reorg/boards/B-001",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "mobile": {
     "darkMode": true,

@@ -58,7 +58,7 @@
   },
   "examplesUrl": "/B-011/B-011.examples.json",
   "flowUrl": "/B-011/B-011.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",
+  "sourceUrl": "https://github.com/dht/gdi/tree/reorg/web/public/boards/C-010",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

@@ -58,7 +58,7 @@ const createAllBoards = () => {
     delete item.boardInfo.order;
     setIf(item, 'flowUrl', `/boards/${id}/${id}.flow.json`);
     setIf(item, 'examplesUrl', `/boards/${id}/${id}.examples.json`);
-    set(item, 'sourceUrl', 'https://github.com/dht/gdi-assets/tree/main/boards');
+    set(item, 'sourceUrl', 'https://github.com/dht/gdi-assets/tree/reorg/boards');
 
     output[id] = item;
   });
