@@ -1153,76 +1153,6 @@
       "reviews": {}
     }
   },
-  "B-017": {
-    "id": "B-017",
-    "identifier": "com.usegdi.babylon-gallery",
-    "version": "1.0.0",
-    "url": "/boards/B-017",
-    "boardInfo": {
-      "name": "3D Scene Gallery",
-      "index": 17,
-      "imageUrl": "/images/boards/3d-gallery.jpg",
-      "videoUrl": "",
-      "boardType": "adhoc",
-      "description": "Explore a captivating gallery of immersive 3D scenes created with BabylonJS. Experience the power of web-based 3D rendering and unleash your creativity with these interactive environments.",
-      "descriptionLong": "Step into the world of breathtaking 3D scenes crafted with BabylonJS. This gallery showcases the remarkable potential of web-based 3D rendering, offering a glimpse into the future of interactive, virtual experiences. Whether you're a developer or an enthusiast, these scenes will ignite your imagination and inspire you to push the boundaries of what's possible.",
-      "oneLiner": "Embark on an immersive journey with the 3D Scene Gallery powered by BabylonJS.",
-      "oneLinerShort": "Discover immersive 3D scenes with BabylonJS.",
-      "header": "gallery of 3D scenes made with BabylonJS",
-      "logoColor": "#32A1F5",
-      "fields": [
-        {
-          "label": "scene",
-          "content": "BabylonJS Playground"
-        },
-        {
-          "label": "description",
-          "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
-        },
-        {
-          "label": "author",
-          "content": "gdi"
-        }
-      ],
-      "tags": [
-        "3D",
-        "BabylonJS",
-        "web-based",
-        "interactive",
-        "virtual_experience"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768"
-      ],
-      "tsVersion": "2024-02-03 14:44:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": {},
-    "defaults": {
-      "previewPath": "/static/modelz.json"
-    },
-    "flowUrl": "/B-017/B-017.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-017",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
-    }
-  },
   "B-018": {
     "id": "B-018",
     "identifier": "com.usegdi.express-debugger",
@@ -1969,61 +1899,6 @@
       "reviewsCount": 2,
       "installationCount": 5,
       "rating": 4.2
-    }
-  },
-  "B-029": {
-    "id": "B-029",
-    "identifier": "com.usegdi.rhetoric-radar",
-    "version": "0.1.0",
-    "url": "/boards/B-018",
-    "boardInfo": {
-      "name": "RhetoricRadar",
-      "index": 29,
-      "imageUrl": "/images/boards/8.jpg",
-      "boardType": "adhoc",
-      "description": "RhetoricRadar is an innovative tool designed to analyze YouTube video clips and identify logical fallacies and manipulations. This revolutionary application aims to empower users to critically evaluate the content they consume, particularly in the digital sphere. By leveraging advanced linguistic and rhetorical analysis, RhetoricRadar provides insightful assessments of persuasive techniques and argumentative strategies employed in online videos. Equipped with a comprehensive database of logical fallacies and manipulative tactics, this app serves as a vigilant watchdog, enabling users to detect and comprehend the intricacies of persuasive communication.\n\nWith its user-friendly interface and intuitive functionality, RhetoricRadar offers a seamless experience for individuals seeking to uncover the underlying strategies used in persuasive media. From identifying ad hominem attacks to recognizing appeals to emotion, the app facilitates a deeper understanding of rhetoric in the digital landscape. Boasting over 5,000 installations and a stellar rating of 4.8, RhetoricRadar has become an indispensable tool for critical thinkers and media analysts. It supports multiple resolutions and ensures a smooth user experience, fostering informed and discerning consumption of online content.\n\nNote: The long description provided above was not available in the initial prompt and has been included for reference purposes.",
-      "descriptionLong": "RhetoricRadar is an innovative tool designed to analyze YouTube video clips and identify logical fallacies and manipulations. This revolutionary application aims to empower users to critically evaluate the content they consume, particularly in the digital sphere. By leveraging advanced linguistic and rhetorical analysis, RhetoricRadar provides insightful assessments of persuasive techniques and argumentative strategies employed in online videos. Equipped with a comprehensive database of logical fallacies and manipulative tactics, this app serves as a vigilant watchdog, enabling users to detect and comprehend the intricacies of persuasive communication.\n\nWith its user-friendly interface and intuitive functionality, RhetoricRadar offers a seamless experience for individuals seeking to uncover the underlying strategies used in persuasive media. From identifying ad hominem attacks to recognizing appeals to emotion, the app facilitates a deeper understanding of rhetoric in the digital landscape. Boasting over 5,000 installations and a stellar rating of 4.8, RhetoricRadar has become an indispensable tool for critical thinkers and media analysts. It supports multiple resolutions and ensures a smooth user experience, fostering informed and discerning consumption of online content.",
-      "oneLiner": "Empower yourself to critically assess YouTube content with RhetoricRadar, the ultimate tool for identifying logical fallacies and manipulative rhetoric in online videos.",
-      "oneLinerShort": "\"Empower critical analysis of YouTube content\"",
-      "header": "",
-      "fields": [],
-      "tags": [
-        "YouTube",
-        "rhetoric",
-        "logical fallacies",
-        "manipulation",
-        "digital literacy"
-      ],
-      "supportedResolutions": [
-        "1920x1080",
-        "1366x768"
-      ],
-      "tsVersion": "2024-02-03 14:44:00"
-    },
-    "author": "gdi",
-    "dependencies": {
-      "@gdi/store-base": "^1.0.0",
-      "@gdi/ui": "^1.0.0",
-      "@gdi/widgets-starter": "^1.0.0"
-    },
-    "apis": [
-      "turbo-3.5"
-    ],
-    "defaults": {},
-    "flowUrl": "/B-029/B-029.flow.json",
-    "sourceUrl": "https://github.com/dht/gdi/tree/staging/web/public/boards/C-022",
-    "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-    "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-    "isActive": true,
-    "mobile": {
-      "hidePrompt": true,
-      "darkMode": true
-    },
-    "reviewInfo": {
-      "reviewsCount": 0,
-      "installationCount": 0,
-      "rating": 0,
-      "reviews": {}
     }
   },
   "B-030": {
@@ -2927,14 +2802,14 @@
     "boardInfo": {
       "name": "Scene player",
       "index": 43,
-      "imageUrl": "/images/boards/z_3d.jpg",
+      "imageUrl": "/images/boards/z_scene-player.jpg",
       "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
       "boardType": "adhoc",
-      "description": "Experience immersive 3D scenes created with GDI in real-time with the 3D Scene Player. Explore interactive environments and stunning visuals crafted using cutting-edge technology. This tool brings your creations to life, allowing seamless navigation and interaction within the 3D space.",
-      "descriptionLong": "The 3D Scene Player offers a seamless way to showcase and navigate through captivating 3D environments developed with GDI. Whether it's architectural visualizations, game levels, or product designs, this platform enables effortless exploration and interaction within the scenes. From detailed textures to dynamic lighting, experience the depth and creativity of GDI's 3D scenes in real-time.",
-      "oneLiner": "Immerse yourself in interactive 3D scenes crafted with GDI in real-time.",
-      "oneLinerShort": "Explore interactive 3D scenes made with GDI.",
-      "header": "experience immersive 3D scenes",
+      "description": "TutorialMaster is a cutting-edge platform designed for educators, enthusiasts, and creators who are passionate about sharing knowledge through video tutorials. With TutorialMaster, users can effortlessly create, organize, and share their tutorials across a wide range of subjects. From step-by-step cooking guides to complex programming lessons, TutorialMaster is equipped with intuitive tools that simplify video production, enhance viewer engagement, and facilitate content management.",
+      "descriptionLong": "TutorialMaster revolutionizes the way knowledge is shared and consumed through video tutorials. It offers a comprehensive suite of tools that cater to the needs of both novice and experienced creators. Key features include an easy-to-use video editor, customizable templates for various tutorial genres, and advanced analytics to track viewer engagement and feedback. TutorialMaster also integrates seamlessly with other boards, allowing users to aggregate content, collaborate with others, and schedule their tutorial releases for maximum impact. Whether you're looking to share a unique skill, educate on a specific topic, or connect with a global audience, TutorialMaster provides a robust platform for all your video tutorial needs.",
+      "oneLiner": "Empower your passion for teaching and sharing knowledge with TutorialMaster, the ultimate platform for creating, organizing, and sharing video tutorials.",
+      "oneLinerShort": "\"Unleash the Power of Knowledge Sharing\"",
+      "header": "Create, Organize, and Share Engaging Video Tutorials with Ease",
       "fields": [
         {
           "label": "input",
@@ -3265,16 +3140,16 @@
     "version": "0.1.0",
     "url": "/boards/b-802",
     "boardInfo": {
-      "name": "3D Ad Creator",
+      "name": "Tutorial Maker",
       "index": 48,
-      "imageUrl": "/images/boards/z_3d.jpg",
+      "imageUrl": "/images/boards/tutorials.jpg",
       "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
       "boardType": "adhoc",
-      "description": "3D Ad Creator is a revolutionary tool that transforms the landscape of digital advertising. It empowers users to create visually stunning 3D video advertisements, pushing the boundaries of traditional ad creation. With the assistance of cutting-edge AI technology, this platform enables users to produce captivating content that truly engages audiences. Whether you're a beginner or an experienced designer, 3D Ad Creator simplifies the ad creation process, guaranteeing professional-quality results with minimal effort.\n\nIn the past, advertisements were often dull and failed to capture viewers' attention. However, with 3D Ad Creator's AI assistance and intuitive interface, users can now unleash their creativity and generate captivating 3D video ads. Its advanced technology ensures that the content resonates with the target audience, maximizing impact and success. Whether you're looking to promote a product, service, or brand, this tool offers a streamlined and efficient ad creation process, catering to designers of all skill levels. Experience the future of digital advertising with 3D Ad Creator and captivate your audience like never before.",
-      "descriptionLong": "3D Ad Creator is the ultimate game-changer in the realm of digital advertising. Through its cutting-edge technology, this platform empowers users to create visually stunning 3D video advertisements that push the boundaries of traditional ad creation. With the assistance of state-of-the-art AI, users can produce captivating content that truly engages audiences. Whether you are a beginner or an experienced designer, 3D Ad Creator simplifies the ad creation process, guaranteeing professional-quality results with minimal effort.\n\nIn the past, advertisements often failed to capture viewers' attention and were dull. However, 3D Ad Creator's AI assistance and intuitive interface have revolutionized ad creation. Users can now unleash their creativity and generate captivating 3D video ads that resonate with their target audience. With its advanced technology, this tool ensures maximum impact and success. It offers a streamlined and efficient ad creation process, catering to designers of all skill levels. Experience the future of digital advertising with 3D Ad Creator and captivate your audience like never before. Enjoy the simplicity, efficiency, and outstanding results that this powerful tool has to offer.",
-      "oneLiner": "Revolutionize digital advertising with visually stunning 3D video ads, powered by cutting-edge AI technology for maximum impact and minimal effort.",
-      "oneLinerShort": "Revolutionize digital ads with stunning 3D videos, powered by AI.",
-      "header": "commercial for a ${topic}",
+      "description": "TutorialMaster is a cutting-edge platform designed for educators, enthusiasts, and creators who are passionate about sharing knowledge through video tutorials. With TutorialMaster, users can effortlessly create, organize, and share their tutorials across a wide range of subjects. From step-by-step cooking guides to complex programming lessons, TutorialMaster is equipped with intuitive tools that simplify video production, enhance viewer engagement, and facilitate content management.",
+      "descriptionLong": "TutorialMaster revolutionizes the way knowledge is shared and consumed through video tutorials. It offers a comprehensive suite of tools that cater to the needs of both novice and experienced creators. Key features include an easy-to-use video editor, customizable templates for various tutorial genres, and advanced analytics to track viewer engagement and feedback. TutorialMaster also integrates seamlessly with other boards, allowing users to aggregate content, collaborate with others, and schedule their tutorial releases for maximum impact. Whether you're looking to share a unique skill, educate on a specific topic, or connect with a global audience, TutorialMaster provides a robust platform for all your video tutorial needs.",
+      "oneLiner": "Empower your passion for teaching and sharing knowledge with TutorialMaster, the ultimate platform for creating, organizing, and sharing video tutorials.",
+      "oneLinerShort": "\"Unleash the Power of Knowledge Sharing\"",
+      "header": "Create, Organize, and Share Engaging Video Tutorials with Ease",
       "fields": [
         {
           "label": "input",
@@ -3335,7 +3210,7 @@
     "boardInfo": {
       "name": "Mockup",
       "index": 49,
-      "imageUrl": "/images/boards/mockup.jpg",
+      "imageUrl": "/images/boards/z_mockups.jpg",
       "boardType": "adhoc",
       "description": "Mockup is an innovative application designed to simulate screens from various devices, such as mobile phones and VR headsets, allowing users to record the screen for demonstrations or presentations. Whether you need to showcase your app's functionality on different devices or create engaging tutorials, Mockup offers a seamless solution for recording and simulating device screens with ease.",
       "descriptionLong": "Mockup is an innovative application designed to simulate screens from various devices, such as mobile phones and VR headsets, allowing users to record the screen for demonstrations or presentations. Whether you need to showcase your app's functionality on different devices or create engaging tutorials, Mockup offers a seamless solution for recording and simulating device screens with ease. With its user-friendly interface and intuitive controls, Mockup ensures that users can effortlessly interact with the simulated screens and capture high-quality recordings for their specific use cases. From mobile app developers to VR content creators, Mockup caters to a wide range of audiences, offering unmatched versatility and convenience.",
