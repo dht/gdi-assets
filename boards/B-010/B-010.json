@@ -75,7 +75,7 @@
     "default": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.calendar",
+        "widgetId": "com.usegdi.starter.balance",
         "title": "Calendar",
         "position": {
           "x": 2,

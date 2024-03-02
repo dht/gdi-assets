@@ -74,24 +74,6 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
-        "position": {
-          "x": 2,
-          "y": 2
-        },
-        "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "B-013",
-        "flags": {}
-      },
       "e2": {
         "id": "e2",
         "widgetId": "com.usegdi.starter.blank",
@@ -106,9 +88,7 @@
         },
         "boardId": "B-013",
         "flags": {},
-        "props": {
-          "showBigWip": true
-        }
+        "props": {}
       },
       "e3": {
         "id": "e3",

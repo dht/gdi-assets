@@ -16,16 +16,8 @@
     "oneLinerShort": "Gain insights into Express.js application structure and request flow.",
     "header": "Express Debugger for architectural insights",
     "logoColor": "#9C27B0",
-    "tags": [
-      "express.js",
-      "debugging",
-      "visualization",
-      "architecture"
-    ],
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "tags": ["express.js", "debugging", "visualization", "architecture"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -52,75 +44,23 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.express-debugger",
+        "title": "Express Debugger",
         "position": {
           "x": 2,
           "y": 2
         },
         "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "{boardId}",
-        "flags": {}
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 56,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
+          "x": 119,
+          "y": 47
         },
         "boardId": "{boardId}",
         "flags": {},
         "props": {
           "showBigWip": true
         }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 63,
-          "y": 39
-        },
-        "boardId": "{boardId}",
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "{boardId}",
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
       }
     },
     "mobile": {

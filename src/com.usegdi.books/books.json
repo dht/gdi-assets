@@ -42,10 +42,7 @@
       "community",
       "book_enthusiasts"
     ],
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -73,24 +70,6 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
-        "position": {
-          "x": 2,
-          "y": 2
-        },
-        "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "{boardId}",
-        "flags": {}
-      },
       "e2": {
         "id": "e2",
         "widgetId": "com.usegdi.starter.blank",
@@ -122,9 +101,7 @@
         "boardId": "{boardId}",
         "flags": {},
         "flavour": "default",
-        "props": {
-          "showBigWip": true
-        }
+        "props": {}
       },
       "e4": {
         "id": "e4",

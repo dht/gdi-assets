@@ -38,152 +38,25 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
-        "position": {
-          "x": 2,
-          "y": 2
-        },
-        "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "{boardId}",
-        "flags": {}
-      },
-      "e2a": {
-        "id": "e2a",
-        "widgetId": "com.usegdi.starter.ppl-switch",
-        "title": "Ppl Switch",
-        "position": {
-          "x": 56,
-          "y": 5
-        },
-        "dimension": {
-          "x": 63,
-          "y": 2
-        },
-        "boardId": "{boardId}",
-        "flags": {},
-        "flavour": "default",
-        "props": {
-          "sceneUrl": ""
-        }
-      },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.chat",
-        "title": "Chat",
-        "position": {
-          "x": 56,
-          "y": 7
-        },
-        "dimension": {
-          "x": 63,
-          "y": 39
-        },
-        "boardId": "{boardId}",
-        "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.ppl-grid",
-        "title": "Ppl grid",
+        "widgetId": "com.usegdi.starter.locations",
+        "title": "Locations",
         "position": {
           "x": 2,
-          "y": 7
+          "y": 2
         },
         "dimension": {
-          "x": 50,
-          "y": 39
+          "x": 119,
+          "y": 47
         },
         "boardId": "{boardId}",
         "flags": {},
-        "flavour": "default",
         "props": {
-          "sceneUrl": ""
-        }
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.ppl-details",
-        "title": "Ppl details",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 50,
-          "y": 39
-        },
-        "boardId": "{boardId}",
-        "flags": {},
-        "flavour": "focus",
-        "props": {
-          "sceneUrl": ""
+          "showBigWip": true
         }
       }
     },
-    "mobile": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.chat",
-        "title": "Chat",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "columnIndex": 1,
-        "boardId": "B-006",
-        "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.ppl-grid",
-        "title": "Ppl grid",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "{boardId}",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.ppl-details",
-        "title": "Ppl details",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "{boardId}",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
-      }
-    }
+    "mobile": {}
   }
 }

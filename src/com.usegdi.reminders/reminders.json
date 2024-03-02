@@ -1,20 +1,20 @@
 {
   "id": "{boardId}",
-  "identifier": "com.usegdi.things",
+  "identifier": "com.usegdi.reminders",
   "version": "0.1.0",
   "url": "/boards/{boardId}",
   "boardInfo": {
-    "name": "Things",
+    "name": "Reminders",
     "index": "{index}",
-    "imageUrl": "/images/boards/z_things.jpg",
+    "imageUrl": "/images/boards/z_reminders.jpg",
     "videoThumbUrl": "/images/boards/{identifier}.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Curate and celebrate your favorite activities and moments with the Favourite Things Collector. From timeless experiences to unique idiosyncrasies, this platform empowers you to collect and cherish an array of cherished memories and delights, fostering a sense of gratitude and joy in your everyday life.",
-    "descriptionLong": "Unleash a sense of joy and gratitude by curating your array of cherished memories and delights with the Favourite Things Collector. Whether they're timeless experiences or unique idiosyncrasies, this platform is designed to celebrate and preserve the beautiful moments that enrich your life, cultivating a greater appreciation for the world around you.",
-    "oneLiner": "Celebrate life's joys with the Favourite Things Collector by curating your cherished memories and delights.",
-    "oneLinerShort": "Curate your cherished memories and delights with the Favourite Things Collector.",
-    "header": "Embrace moments of joy and appreciation through the Favourite Things Collector’s celebration of life's cherished experiences and delights.",
+    "description": "ReminderHub is a versatile and user-friendly app designed to help you manage your daily tasks, appointments, and important dates with ease. Whether you need to remember a doctor's appointment, a friend's birthday, or a crucial deadline, ReminderHub has you covered. With its intuitive interface, you can quickly set up reminders, categorize them for easy organization, and even set priority levels to ensure you never miss what's most important.",
+    "descriptionLong": "In today's fast-paced world, staying on top of everything can be challenging. ReminderHub is here to simplify your life by keeping all your important reminders in one place. Features include customizable reminder settings, such as one-time alerts or recurring notifications, categorization for personal, work, and other activities, and the ability to attach notes or subtasks to each reminder. Additionally, ReminderHub offers integration with popular calendar apps and services, ensuring you have a comprehensive view of your schedule at all times. With push notifications and email reminders, you'll always be one step ahead, making forgotten tasks and missed appointments a thing of the past.",
+    "oneLiner": "Never miss a beat with ReminderHub, your go-to app for managing tasks, appointments, and important dates efficiently.",
+    "oneLinerShort": "Your Ultimate Reminder Assistant",
+    "header": "Stay Organized and On Time with ReminderHub",
     "logoColor": "#4A90E2",
     "fields": [
       {
@@ -66,8 +66,8 @@
     "default": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.things",
-        "title": "Things",
+        "widgetId": "com.usegdi.starter.reminders",
+        "title": "Reminders",
         "position": {
           "x": 2,
           "y": 2

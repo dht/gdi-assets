@@ -75,8 +75,8 @@
     "default": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.calendar",
-        "title": "Calendar",
+        "widgetId": "com.usegdi.starter.diy",
+        "title": "DIY",
         "position": {
           "x": 2,
           "y": 2
