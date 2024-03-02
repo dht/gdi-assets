@@ -36,7 +36,7 @@
   "apis": {},
   "defaults": {},
   "flowUrl": "/B-049/B-049.flow.json",
-  "isActive": false,
+  "isActive": true,
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
