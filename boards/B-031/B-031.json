@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "url": "/boards/B-031",
   "boardInfo": {
-    "name": "3D Scene Gallery",
+    "name": "Babylon Gallery",
     "index": 31,
     "imageUrl": "/images/boards/z_babylon.jpg",
-    "videoUrl": "",
+    "videoThumbUrl": "/images/boards/babylon-gallery.mp4",
+    "videoUrl": "/images/boards/babylon-gallery.mp4",
     "boardType": "adhoc",
     "description": "Explore a captivating gallery of immersive 3D scenes created with BabylonJS. Experience the power of web-based 3D rendering and unleash your creativity with these interactive environments.",
     "descriptionLong": "Step into the world of breathtaking 3D scenes crafted with BabylonJS. This gallery showcases the remarkable potential of web-based 3D rendering, offering a glimpse into the future of interactive, virtual experiences. Whether you're a developer or an enthusiast, these scenes will ignite your imagination and inspire you to push the boundaries of what's possible.",

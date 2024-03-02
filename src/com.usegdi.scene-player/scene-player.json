@@ -7,6 +7,7 @@
     "name": "Scene player",
     "index": "{index}",
     "imageUrl": "/images/boards/z_scene-player.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
     "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
     "boardType": "adhoc",
     "description": "Experience immersive 3D scenes created with GDI in real-time with the 3D Scene Player. Explore interactive environments and stunning visuals crafted using cutting-edge technology. This tool brings your creations to life, allowing seamless navigation and interaction within the 3D space.",
