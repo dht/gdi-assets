@@ -1,46 +1,26 @@
 {
   "id": "B-018",
-  "identifier": "com.usegdi.books",
+  "identifier": "com.usegdi.express-debugger",
   "version": "0.1.0",
   "url": "/boards/B-018",
   "boardInfo": {
-    "name": "Books",
+    "name": "Express Debugger",
     "index": 18,
-    "imageUrl": "/images/boards/i_books.jpg",
-    "videoThumbUrl": "/images/boards/books.mp4",
+    "imageUrl": "/images/boards/i_debugger.jpg",
+    "videoThumbUrl": "/images/boards/express-debugger.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Discover, track, and recommend books with the Books. This platform offers personalized book tracking, reading progress monitoring, and intelligent book recommendations based on your preferences. Whether you're an avid reader or looking for your next great read, Books enriches your reading experience and fosters a vibrant community of book enthusiasts.",
-    "descriptionLong": "Books is your ultimate companion for literary exploration. By seamlessly tracking your reading journey and providing tailored recommendations, it ensures that you stay engaged and inspired. The platform's algorithm learns your reading habits and preferences to offer compelling book suggestions, creating a space where book lovers connect and share their literary discoveries.",
-    "oneLiner": "Enhance your reading experience with personalized book tracking and recommendations.",
-    "oneLinerShort": "Track, discover, and recommend books tailored just for you.",
-    "header": "Books for an enriched literary adventure",
-    "logoColor": "#7E57C2",
-    "fields": [
-      {
-        "label": "bookTitle",
-        "content": "String"
-      },
-      {
-        "label": "author",
-        "content": "String"
-      },
-      {
-        "label": "readingProgress",
-        "content": "Number"
-      },
-      {
-        "label": "recommendations",
-        "content": "Array"
-      }
-    ],
+    "description": "Visualize the architecture and request flow of your Express.js application. Gain insights into the application's structure and request handling process.",
+    "descriptionLong": "The Express Debugger offers visual representation of your Express.js application's architecture and request flow. While not real-time debugging, it provides insights into the application's structure and the process of handling requests.",
+    "oneLiner": "Visualize Express.js application architecture and request flow.",
+    "oneLinerShort": "Gain insights into Express.js application structure and request flow.",
+    "header": "Express Debugger for architectural insights",
+    "logoColor": "#9C27B0",
     "tags": [
-      "book_tracker",
-      "reading_progress",
-      "literary_discoveries",
-      "book_recommendations",
-      "community",
-      "book_enthusiasts"
+      "express.js",
+      "debugging",
+      "visualization",
+      "architecture"
     ],
     "supportedResolutions": [
       "1920x1080",
@@ -54,10 +34,9 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "apis": {},
   "defaults": {},
   "flowUrl": "/B-018/B-018.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/reorg/boards/B-018",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-018",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
@@ -105,7 +84,9 @@
         },
         "boardId": "B-018",
         "flags": {},
-        "props": {}
+        "props": {
+          "showBigWip": true
+        }
       },
       "e3": {
         "id": "e3",
@@ -122,9 +103,7 @@
         "boardId": "B-018",
         "flags": {},
         "flavour": "default",
-        "props": {
-          "showBigWip": true
-        }
+        "props": {}
       },
       "e4": {
         "id": "e4",

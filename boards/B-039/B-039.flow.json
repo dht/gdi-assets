@@ -1,6 +1,6 @@
 {
   "flowConfig": {
-    "flowId": "fb-world-news",
+    "flowId": "fb-periscope",
     "name": "Park Conversation",
     "flowType": "linear",
     "variables": {

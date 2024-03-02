@@ -6,7 +6,7 @@
   "boardInfo": {
     "name": "Sales",
     "index": "{index}",
-    "imageUrl": "/images/boards/i_sales.jpg",
+    "imageUrl": "/images/boards/z_sales.jpg",
     "videoThumbUrl": "/images/boards/{identifier}.mp4",
     "videoUrl": "https://www.youtube.com/embed/SALES_PIPELINE_MANAGER_VIDEO_ID",
     "boardType": "adhoc",
@@ -34,18 +34,8 @@
         "content": "String"
       }
     ],
-    "tags": [
-      "sales",
-      "pipelines",
-      "CRM",
-      "deals",
-      "productivity",
-      "business"
-    ],
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "tags": ["sales", "pipelines", "CRM", "deals", "productivity", "business"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -59,7 +49,7 @@
     "previewPath": "/static/sales-pipeline-model.json"
   },
   "flowUrl": "/{boardId}/{boardId}.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/reorg/boards/{boardId}",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
@@ -91,7 +81,7 @@
         "props": {
           "darkMode": false
         },
-        "boardId": "B-023",
+        "boardId": "{boardId}",
         "flags": {}
       },
       "e2": {
@@ -106,7 +96,7 @@
           "x": 63,
           "y": 42
         },
-        "boardId": "B-023",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {}
       },
@@ -122,7 +112,7 @@
           "x": 63,
           "y": 39
         },
-        "boardId": "B-023",
+        "boardId": "{boardId}",
         "flags": {},
         "flavour": "default",
         "props": {
@@ -141,7 +131,7 @@
           "x": 63,
           "y": 42
         },
-        "boardId": "B-023",
+        "boardId": "{boardId}",
         "flags": {},
         "flavour": "focus",
         "props": {}
@@ -161,7 +151,7 @@
           "y": 48
         },
         "columnIndex": 1,
-        "boardId": "B-023",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {}
       },
@@ -177,7 +167,7 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-023",
+        "boardId": "{boardId}",
         "columnIndex": 0,
         "flags": {},
         "flavour": "default",
@@ -195,7 +185,7 @@
           "x": 121,
           "y": 48
         },
-        "boardId": "B-023",
+        "boardId": "{boardId}",
         "columnIndex": 0,
         "flags": {},
         "flavour": "focus",

@@ -41,7 +41,7 @@
   },
   "defaults": {},
   "flowUrl": "/B-004/B-004.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/reorg/boards/B-004",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-004",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "isActive": true,
   "mobile": {

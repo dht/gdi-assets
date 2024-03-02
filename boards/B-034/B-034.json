@@ -1,29 +1,46 @@
 {
   "id": "B-034",
-  "identifier": "com.usegdi.todo-app",
-  "version": "1.0.0",
+  "identifier": "com.usegdi.git-evolution",
+  "version": "0.1.0",
   "url": "/boards/B-034",
   "boardInfo": {
-    "name": "Todo App",
+    "name": "Git Evolution",
     "index": 34,
-    "imageUrl": "",
+    "imageUrl": "/images/boards/i_git.jpg",
+    "videoThumbUrl": "/images/boards/git-evolution.mp4",
+    "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Todo App is a versatile task management application designed to help users organize their daily tasks efficiently. This app simplifies your life by providing an intuitive and user-friendly interface for creating, tracking, and completing tasks. Whether you're managing work projects, personal errands, or academic assignments, Todo App has you covered.\n\nWith Todo App, you can create, edit, and prioritize tasks effortlessly. The app allows you to set due dates, add notes, and categorize tasks into lists. Stay organized by viewing tasks in a list or kanban board layout. Never miss a deadline again with timely reminders and notifications.\n\nExperience the joy of productivity with Todo App. Whether you're a busy professional or a student juggling multiple responsibilities, this app helps you stay on top of your tasks and accomplish your goals.",
-    "descriptionLong": "Todo App is the ultimate task management solution for individuals seeking to streamline their daily lives. This powerful application offers an array of features designed to enhance productivity and organization. From work-related projects to personal chores and academic assignments, Todo App is your trusted companion.\n\nCreate tasks with ease, customize them with due dates and notes, and categorize them into lists. Visualize your tasks using either a list or a kanban board layout, providing flexibility for different workflow preferences. Say goodbye to missed deadlines, thanks to reminders and notifications.\n\nRediscover the pleasure of productivity with Todo App. Whether you're a professional with a busy schedule or a student managing various commitments, this app empowers you to stay in control and achieve your objectives.",
-    "oneLiner": "Simplify your life with efficient task management and organization.",
-    "oneLinerShort": "Efficient task management and organization.",
-    "header": "",
-    "fields": [],
+    "description": "Step into the captivating visual world of your Git project's evolution with the Git Evolution. This immersive tool transforms your codebase history into an animated visual journey, illustrating code contributions, branch activities, and collaborative development. Witness the evolution of your project in an engaging and dynamic presentation reminiscent of Gource's visual storytelling.",
+    "descriptionLong": "The Git Evolution offers a unique perspective on your Git project's evolution. Through dynamic visual animations and interactive displays, it provides a compelling narrative of code contributions, branch activities, and collaborative efforts over time. Experience the power of visual storytelling as your project's history comes to life in an enthralling and captivating presentation.",
+    "oneLiner": "Experience the animated evolution of your Git project's codebase.",
+    "oneLinerShort": "Engage with your project's history through captivating visual storytelling.",
+    "header": "Git Evolution for captivating codebase storytelling",
+    "logoColor": "#FF7043",
+    "fields": [
+      {
+        "label": "codeContributions",
+        "content": "Animation"
+      },
+      {
+        "label": "branchActivities",
+        "content": "Animation"
+      },
+      {
+        "label": "collaborativeDevelopment",
+        "content": "Animation"
+      }
+    ],
     "tags": [
-      "todo",
-      "task management",
-      "productivity",
-      "organization"
+      "git",
+      "project_evolution",
+      "visualizer",
+      "code_contributions",
+      "collaborative_development",
+      "storytelling"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768",
-      "1280x720"
+      "1366x768"
     ],
     "tsVersion": "2024-02-03 14:44:00"
   },
@@ -34,9 +51,15 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {},
+  "defaults": {
+    "previewPath": "/static/git-evolution-visualizer-model.json"
+  },
   "flowUrl": "/B-034/B-034.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-034",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
+  "isWip": true,
   "mobile": {
     "hidePrompt": true,
     "darkMode": true
@@ -44,8 +67,7 @@
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "rating": 0
   },
   "elements": {
     "default": {
@@ -61,39 +83,117 @@
           "x": 20,
           "y": 6
         },
+        "props": {
+          "darkMode": false
+        },
         "boardId": "B-034",
         "flags": {}
       },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.calendar",
-        "title": "Calendar",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
-          "x": 36,
+          "x": 56,
           "y": 4
         },
         "dimension": {
           "x": 63,
-          "y": 21
+          "y": 42
         },
+        "boardId": "B-034",
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 63,
+          "y": 39
+        },
+        "boardId": "B-034",
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-034",
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 1,
         "boardId": "B-034",
         "flags": {},
         "props": {}
       },
       "e3": {
         "id": "e3",
-        "widgetId": "com.usegdi.starter.todos",
-        "title": "Todos",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
-          "x": 36,
-          "y": 25
+          "x": 2,
+          "y": 4
         },
         "dimension": {
-          "x": 63,
-          "y": 21
+          "x": 121,
+          "y": 48
         },
         "boardId": "B-034",
+        "columnIndex": 0,
         "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-034",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
         "props": {}
       }
     }

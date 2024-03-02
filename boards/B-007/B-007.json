@@ -1,49 +1,47 @@
 {
   "id": "B-007",
-  "identifier": "com.usegdi.finances",
+  "identifier": "com.usegdi.fourth-wall",
   "version": "0.1.0",
   "url": "/boards/B-007",
   "boardInfo": {
-    "name": "Finances",
+    "name": "Fourth Wall",
     "index": 7,
-    "imageUrl": "/images/boards/i_finances.jpg",
-    "videoThumbUrl": "/images/boards/finances.mp4",
-    "videoUrl": "",
-    "boardType": "adhoc",
-    "description": "Take control of your finances with Finances. This all-in-one platform enables users to track expenses, manage budgets, set financial goals, and gain valuable insights into their financial health. From expense categorization to investment tracking, Finances offers a comprehensive toolkit to promote financial well-being and informed decision-making.",
-    "descriptionLong": "Finances is designed to empower individuals to make informed financial decisions and achieve their monetary objectives. With intuitive visualizations and robust analysis tools, users can gain a clear understanding of their spending habits, savings progress, and investment performance. Whether managing day-to-day expenses or planning for the future, this platform is your trusted financial companion.",
-    "oneLiner": "Empower yourself with personalized financial management and insightful analytics.",
-    "oneLinerShort": "Track expenses, manage budgets, and achieve financial goals effortlessly.",
-    "header": "Finances for holistic financial well-being",
-    "logoColor": "#4CAF50",
+    "imageUrl": "/images/boards/z_scene_builder.jpg",
+    "videoThumbUrl": "/images/boards/fourth-wall.mp4",
+    "videoUrl": "https://www.youtube.com/embed/d8_OIj8L77s",
+    "boardType": "continues",
+    "description": "Fourth Wall is a board that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
+    "descriptionLong": "Fourth Wall is a board that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
+    "oneLiner": "Create 3D theater plays on a miniature stage",
+    "oneLinerShort": "3D Theater Play Generator",
+    "header": "Fourth Wall - 3D Theater Play Generator",
     "fields": [
       {
-        "label": "expenseCategory",
-        "content": "String"
+        "label": "input",
+        "content": "Prompt"
       },
       {
-        "label": "budgetAllocation",
-        "content": "Object"
+        "label": "output",
+        "content": "3D theater play scene"
       },
       {
-        "label": "investmentPerformance",
-        "content": "Array"
-      },
-      {
-        "label": "financialGoals",
-        "content": "Object"
+        "label": "engines",
+        "content": "LLM #1, LLM #2, ElevenLabs"
       }
     ],
     "tags": [
-      "personal_finance",
-      "expense_tracking",
-      "budget_management",
-      "investment_tracking",
-      "financial_goals"
+      "theater",
+      "3D",
+      "play generation",
+      "voice syncing",
+      "lip syncing",
+      "creative",
+      "entertainment"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768"
+      "1366x768",
+      "1280x800"
     ],
     "tsVersion": "2024-02-03 14:44:00"
   },
@@ -55,27 +53,46 @@
   },
   "apis": {},
   "defaults": {
-    "previewPath": "/static/personal-finances-model.json"
+    "exampleId": "vision-couple",
+    "setupId": "vision-couple"
   },
+  "examplesUrl": "/B-007/B-007.examples.json",
   "flowUrl": "/B-007/B-007.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/reorg/boards/B-007",
+  "sourceUrl": "https://github.com/dht/gdi/tree/staging/web/public/boards/C-010",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
-  "isWip": true,
   "mobile": {
-    "hidePrompt": true,
-    "darkMode": true
+    "darkMode": true,
+    "hidePrompt": true
   },
   "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0
+    "reviewsCount": 4,
+    "installationCount": 3,
+    "rating": 4.2
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.fourth-wall",
+        "title": "Fourth wall",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-007",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
         "widgetId": "com.usegdi.starter.logo",
         "title": "Logo",
         "position": {
@@ -89,67 +106,15 @@
         "props": {
           "darkMode": false
         },
-        "boardId": "B-023",
+        "boardId": "B-007",
         "flags": {}
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 56,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "props": {
-          "showBigWip": true
-        }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 63,
-          "y": 39
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
+        "widgetId": "com.usegdi.starter.fourth-wall",
+        "title": "Fourth wall",
         "position": {
           "x": 1,
           "y": 1
@@ -158,46 +123,11 @@
           "x": 121,
           "y": 48
         },
-        "columnIndex": 1,
-        "boardId": "B-023",
+        "boardId": "B-007",
         "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
+        "props": {
+          "sceneUrl": ""
+        }
       }
     }
   }

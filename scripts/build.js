@@ -58,7 +58,7 @@ const createAllBoards = () => {
     delete item.boardInfo.order;
     setIf(item, 'flowUrl', `/boards/${id}/${id}.flow.json`);
     setIf(item, 'examplesUrl', `/boards/${id}/${id}.examples.json`);
-    set(item, 'sourceUrl', 'https://github.com/dht/gdi-assets/tree/reorg/boards');
+    set(item, 'sourceUrl', 'https://github.com/dht/gdi-assets/tree/staging/boards');
 
     output[id] = item;
   });
@@ -94,9 +94,6 @@ const loadBoard = (dir) => {
   output.examplesData = output.exists.examples ? fs.readJsonSync(paths.examples) : null;
   output.flowData = output.exists.flow ? fs.readJsonSync(paths.flow) : null;
   output.reviewsData = output.exists.reviews ? fs.readJsonSync(paths.reviews) : null;
-
-  setIf(output.mainData, 'boardInfo.videoThumbUrl', '/images/boards/{identifier}.mp4');
-  fs.writeJsonSync(paths.main, output.mainData, { spaces: 2 });
 
   return output;
 };

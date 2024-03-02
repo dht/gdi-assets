@@ -1,0 +1,88 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.fun",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Fun",
+    "index": "{index}",
+    "imageUrl": "/images/boards/z_fun.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Fun is an innovative board within our app that aggregates events, activities, and preferences from other boards to inject excitement and enjoyment into your weekly routine. It intelligently compiles suggestions based on your interests, past activities, and even upcoming local events to ensure there's always something engaging on your horizon. Whether you're looking to break the monotony of daily life or just seeking new experiences, Fun is your go-to source for making every week memorable.",
+    "descriptionLong": "In today's fast-paced world, finding time for fun and relaxation can often fall by the wayside. That's where Fun comes in – a dynamic board designed to seamlessly integrate enjoyment into your weekly schedule. By gathering data from other boards in the app, including your likes, hobbies, and even places you've marked as wanting to visit, Fun offers personalized recommendations to brighten your days. From local concerts and art exhibitions to hobby classes and outdoor adventures, Fun ensures you're never out of options. It even considers your availability and preferences to suggest activities at the perfect time, making it easier than ever to plan your leisure time effectively.",
+    "oneLiner": "Elevate your weeks with Fun, your personalized board for discovering and scheduling enjoyable activities tailored to your interests.",
+    "oneLinerShort": "Inject Fun into Every Week",
+    "header": "Make Every Week Unforgettable with Personalized Fun Activities",
+    "logoColor": "#4A90E2",
+    "fields": [
+      {
+        "label": "name",
+        "content": "String"
+      },
+      {
+        "label": "email",
+        "content": "String"
+      },
+      {
+        "label": "phone",
+        "content": "String"
+      },
+      {
+        "label": "company",
+        "content": "String"
+      }
+    ],
+    "tags": ["contacts", "management", "organization", "productivity", "business"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.calendar",
+        "title": "Calendar",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 119,
+          "y": 47
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
+      }
+    },
+    "mobile": {}
+  }
+}

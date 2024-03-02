@@ -1,40 +1,46 @@
 {
   "id": "B-020",
-  "identifier": "com.usegdi.flow",
-  "version": "1.0.0",
+  "identifier": "com.usegdi.books",
+  "version": "0.1.0",
   "url": "/boards/B-020",
   "boardInfo": {
-    "name": "Flow",
+    "name": "Books",
     "index": 20,
-    "imageUrl": "/images/docs/20.png",
+    "imageUrl": "/images/boards/i_books.jpg",
+    "videoThumbUrl": "/images/boards/books.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Discover a world of premium royalty-free music with the Envato Elements Music Browser. Explore an extensive library of high-quality tracks for your creative projects. From energetic beats to soothing melodies, find the perfect sound for your content creation needs.",
-    "descriptionLong": "The Envato Elements Music Browser is your gateway to a vast collection of top-tier, royalty-free music. Access an array of genres and moods, ensuring there's always a perfect match for your creative endeavors. Elevate your projects with professional music that enhances the impact and emotive resonance of your content.",
-    "oneLiner": "Access premium royalty-free music with the Envato Elements Music Browser.",
-    "oneLinerShort": "Discover premium royalty-free music.",
-    "header": "gallery of 3D scenes made with BabylonJS",
-    "logoColor": "#32A1F5",
+    "description": "Discover, track, and recommend books with the Books. This platform offers personalized book tracking, reading progress monitoring, and intelligent book recommendations based on your preferences. Whether you're an avid reader or looking for your next great read, Books enriches your reading experience and fosters a vibrant community of book enthusiasts.",
+    "descriptionLong": "Books is your ultimate companion for literary exploration. By seamlessly tracking your reading journey and providing tailored recommendations, it ensures that you stay engaged and inspired. The platform's algorithm learns your reading habits and preferences to offer compelling book suggestions, creating a space where book lovers connect and share their literary discoveries.",
+    "oneLiner": "Enhance your reading experience with personalized book tracking and recommendations.",
+    "oneLinerShort": "Track, discover, and recommend books tailored just for you.",
+    "header": "Books for an enriched literary adventure",
+    "logoColor": "#7E57C2",
     "fields": [
       {
-        "label": "scene",
-        "content": "BabylonJS Playground"
-      },
-      {
-        "label": "description",
-        "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
+        "label": "bookTitle",
+        "content": "String"
       },
       {
         "label": "author",
-        "content": "gdi"
+        "content": "String"
+      },
+      {
+        "label": "readingProgress",
+        "content": "Number"
+      },
+      {
+        "label": "recommendations",
+        "content": "Array"
       }
     ],
     "tags": [
-      "3D",
-      "BabylonJS",
-      "web-based",
-      "interactive",
-      "virtual_experience"
+      "book_tracker",
+      "reading_progress",
+      "literary_discoveries",
+      "book_recommendations",
+      "community",
+      "book_enthusiasts"
     ],
     "supportedResolutions": [
       "1920x1080",
@@ -50,10 +56,12 @@
   },
   "apis": {},
   "defaults": {},
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/reorg/boards/B-020",
+  "flowUrl": "/B-020/B-020.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-020",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
+  "isWip": true,
   "mobile": {
     "hidePrompt": true,
     "darkMode": true
@@ -61,28 +69,135 @@
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "rating": 0
   },
   "elements": {
     "default": {
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.flow",
-        "title": "Flow",
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
         "position": {
           "x": 2,
           "y": 2
         },
         "dimension": {
-          "x": 120,
-          "y": 48
+          "x": 20,
+          "y": 6
         },
-        "boardId": "B-003",
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "B-020",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-020",
         "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 63,
+          "y": 39
+        },
+        "boardId": "B-020",
+        "flags": {},
+        "flavour": "default",
+        "props": {
+          "showBigWip": true
+        }
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-020",
+        "flags": {},
+        "flavour": "focus",
         "props": {}
       }
     },
-    "mobile": {}
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 1,
+        "boardId": "B-020",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-020",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-020",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    }
   }
 }

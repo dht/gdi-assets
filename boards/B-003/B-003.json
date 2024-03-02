@@ -55,7 +55,7 @@
   },
   "defaults": {},
   "flowUrl": "/B-003/B-003.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/reorg/boards/B-003",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-003",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

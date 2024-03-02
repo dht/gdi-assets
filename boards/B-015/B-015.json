@@ -1,26 +1,46 @@
 {
   "id": "B-015",
-  "identifier": "com.usegdi.ppl",
+  "identifier": "com.usegdi.lists",
   "version": "0.1.0",
   "url": "/boards/B-015",
   "boardInfo": {
-    "name": "PPL",
+    "name": "Lists",
     "index": 15,
-    "imageUrl": "/images/boards/ppl_thumb.png",
-    "videoThumbUrl": "/images/boards/ppl.mp4",
+    "imageUrl": "/images/boards/z_multi.jpg",
+    "videoThumbUrl": "/images/boards/lists.mp4",
+    "videoUrl": "https://www.youtube.com/embed/MULTI_PRODUCTIVITY_VIDEO_ID",
     "boardType": "adhoc",
-    "description": "PPL is an innovative board that allows you to explore famous figures alive today and from history. Engage in thought-provoking conversations, ask questions, or chat with virtual representations of these renowned personalities. Whether you seek wisdom from historical icons or insights from contemporary influencers, PPL Explorer offers a unique opportunity to interact with iconic figures and gain valuable knowledge.\n\nWith its user-friendly interface and intuitive functionality, PPL Explorer ensures an immersive and seamless experience for users of all backgrounds. Whether you are a history enthusiast or eager to connect with living legends, PPL Explorer provides a dynamic platform for enriching interactions. Boasting a vast database of famous figures and receiving accolades for its educational value, PPL Explorer has emerged as a revered destination for virtual conversations and insightful exchanges.",
-    "descriptionLong": "PPL is an innovative board that allows you to explore famous figures alive today and from history. Engage in thought-provoking conversations, ask questions, or chat with virtual representations of these renowned personalities. Whether you seek wisdom from historical icons or insights from contemporary influencers, PPL Explorer offers a unique opportunity to interact with iconic figures and gain valuable knowledge.\n\nWith its user-friendly interface and intuitive functionality, PPL Explorer ensures an immersive and seamless experience for users of all backgrounds. Whether you are a history enthusiast or eager to connect with living legends, PPL Explorer provides a dynamic platform for enriching interactions. Boasting a vast database of famous figures and receiving accolades for its educational value, PPL Explorer has emerged as a revered destination for virtual conversations and insightful exchanges.",
-    "oneLiner": "Explore, chat, and engage with famous figures from history and present-day influencers on PPL Explorer, a dynamic platform for virtual interactions and insightful exchanges.",
-    "oneLinerShort": "\"Virtual Conversations with Famous Figures\"",
-    "header": "",
-    "fields": [],
+    "description": "Unlock your productivity potential with Multi. This all-in-one solution empowers individuals and teams to capture ideas, manage tasks, track projects, organize to-do lists, and bookmark important resources. With a flexible and collaborative interface, Multi optimizes workflow efficiency and knowledge management.",
+    "descriptionLong": "Multi reimagines productivity and organization by blending note-taking, task management, project tracking, to-do lists, and bookmarking into a seamless experience. Whether you're planning projects, creating knowledge databases, or managing personal tasks, this suite empowers you to structure and access your information with ease.",
+    "oneLiner": "Elevate productivity with a unified suite for note-taking, task management, and more.",
+    "oneLinerShort": "Streamline productivity with one suite for all your organization needs.",
+    "header": "Multi for comprehensive organization and productivity",
+    "logoColor": "#FF6D00",
+    "fields": [
+      {
+        "label": "itemType",
+        "content": "String"
+      },
+      {
+        "label": "dueDate",
+        "content": "Date"
+      },
+      {
+        "label": "projectStatus",
+        "content": "String"
+      },
+      {
+        "label": "bookmarkUrl",
+        "content": "String"
+      }
+    ],
     "tags": [
-      "history",
-      "interaction",
-      "education",
-      "virtual",
-      "famous figures"
+      "productivity",
+      "note-taking",
+      "task_management",
+      "project_tracking",
+      "to-do_lists",
+      "bookmarking"
     ],
     "supportedResolutions": [
       "1920x1080",
@@ -34,16 +54,24 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "flowUrl": "/B-015/B-015.flow.json",
   "apis": {},
-  "defaults": {},
+  "defaults": {
+    "previewPath": "/static/lists-productivity-model.json"
+  },
+  "flowUrl": "/B-015/B-015.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-015",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
   "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "rating": 0
   },
   "elements": {
     "default": {
@@ -65,36 +93,17 @@
         "boardId": "B-015",
         "flags": {}
       },
-      "e2a": {
-        "id": "e2a",
-        "widgetId": "com.usegdi.starter.ppl-switch",
-        "title": "Ppl Switch",
-        "position": {
-          "x": 56,
-          "y": 5
-        },
-        "dimension": {
-          "x": 63,
-          "y": 2
-        },
-        "boardId": "B-015",
-        "flags": {},
-        "flavour": "default",
-        "props": {
-          "sceneUrl": ""
-        }
-      },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.chat",
-        "title": "Chat",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 56,
-          "y": 7
+          "y": 4
         },
         "dimension": {
           "x": 63,
-          "y": 39
+          "y": 42
         },
         "boardId": "B-015",
         "flags": {},
@@ -102,48 +111,46 @@
       },
       "e3": {
         "id": "e3",
-        "widgetId": "com.usegdi.starter.ppl-grid",
-        "title": "Ppl grid",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 2,
           "y": 7
         },
         "dimension": {
-          "x": 50,
+          "x": 63,
           "y": 39
         },
         "boardId": "B-015",
         "flags": {},
         "flavour": "default",
         "props": {
-          "sceneUrl": ""
+          "showBigWip": true
         }
       },
       "e4": {
         "id": "e4",
-        "widgetId": "com.usegdi.starter.ppl-details",
-        "title": "Ppl details",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 2,
-          "y": 7
+          "y": 4
         },
         "dimension": {
-          "x": 50,
-          "y": 39
+          "x": 63,
+          "y": 42
         },
         "boardId": "B-015",
         "flags": {},
         "flavour": "focus",
-        "props": {
-          "sceneUrl": ""
-        }
+        "props": {}
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.chat",
-        "title": "Chat",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 1,
           "y": 1
@@ -153,14 +160,14 @@
           "y": 48
         },
         "columnIndex": 1,
-        "boardId": "B-006",
+        "boardId": "B-015",
         "flags": {},
         "props": {}
       },
       "e3": {
         "id": "e3",
-        "widgetId": "com.usegdi.starter.ppl-grid",
-        "title": "Ppl grid",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 2,
           "y": 4
@@ -177,8 +184,8 @@
       },
       "e4": {
         "id": "e4",
-        "widgetId": "com.usegdi.starter.ppl-details",
-        "title": "Ppl details",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 2,
           "y": 4

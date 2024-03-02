@@ -1,0 +1,88 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.movement",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Movement",
+    "index": "{index}",
+    "imageUrl": "/images/boards/z_movement.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Stay organized and motivated with Movement Organizer, your go-to platform for planning and managing weekly sport sessions, yoga, hikes, and future activity ideas. Utilize intuitive features to schedule activities, track progress, and collaborate with others as you embark on an active and enriching lifestyle.",
+    "descriptionLong": "Embrace an active and enriching lifestyle with Movement Organizer, designed to empower you in planning and managing your weekly sport sessions, yoga practices, hikes, and future activity ideas. Leverage intuitive tools to schedule activities, track your progress, and engage with others, ensuring that your journey towards a healthy and balanced routine is both organized and motivational.",
+    "oneLiner": "Plan, track, and stay motivated with Movement Organizer's platform for organizing weekly sports, yoga, hikes, and future activities.",
+    "oneLinerShort": "Organize your active lifestyle with Movement Organizer.",
+    "header": "Empower your journey to an active lifestyle with Movement Organizer's comprehensive activity planning platform.",
+    "logoColor": "#4A90E2",
+    "fields": [
+      {
+        "label": "name",
+        "content": "String"
+      },
+      {
+        "label": "email",
+        "content": "String"
+      },
+      {
+        "label": "phone",
+        "content": "String"
+      },
+      {
+        "label": "company",
+        "content": "String"
+      }
+    ],
+    "tags": ["contacts", "management", "organization", "productivity", "business"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.calendar",
+        "title": "Calendar",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 119,
+          "y": 47
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
+      }
+    },
+    "mobile": {}
+  }
+}

@@ -1,55 +1,38 @@
 {
   "flowConfig": {
-    "flowId": "fb-park-conversation",
-    "name": "Park Conversation",
-    "flowType": "linear",
-    "variables": {
-      "topic": "variables.prompt"
-    },
+    "flowId": "fb-mindfulness",
+    "name": "Events",
+    "flowType": "continues",
     "output": {
-      "transcriptLines": "actions.transcriptLines.setAll",
-      "transcriptAudios": "actions.transcriptAudios.setAll"
+      "transcriptLines": "actions.transcriptLines.setAll"
     },
-    "clearVariables": true,
-    "cumulativeThread": false
+    "cumulativeThread": true,
+    "clearVariables": false
   },
-  "flowApis": {
-    "conversation": {
-      "id": "conversation",
-      "endpoint": "speech.conversation",
-      "vendor": "openAI"
-    }
-  },
+  "flowApis": {},
   "flowAssistants": {
-    "as-park-conversation-transcript": {
-      "id": "as-park-conversation-transcript",
-      "name": "Park chat",
-      "description": "A conversational assistant that generates a conversation between three teenagers.",
-      "instructions": "You are a conversational assistant that generates a conversation between three teenagers. Given a topic, try to simulate a realistic conversation between Sam, Rachel, and Arnold.",
+    "as-mindfulness-chat": {
+      "id": "as-mindfulness-chat",
+      "name": "Chat",
+      "description": "Helpful assistant that provides a conversation about a topic.",
+      "instructions": "You are a helpful assistant",
       "model": "gpt-3.5-turbo-1106",
-      "tools": []
-    },
-    "as-park-conversation-phonetics": {
-      "id": "as-park-conversation-phonetics",
-      "name": "Phonetics Tutor",
-      "description": "A phonetics expert that provides phonetic representation of sentences.",
-      "instructions": "You are an expert in phonetics. Given a conversation between 3 teenagers, provide the phonetic representation of each sentence. Return only the conversation with phonetics instead of english.",
-      "model": "gpt-3.5-turbo-1106",
-      "tools": []
+      "tools": [],
+      "isDynamic": true
     }
   },
   "flowNodes": {
     "n-001": {
       "id": "n-001",
-      "name": "Transcript",
+      "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-park-conversation-transcript",
+      "assistantId": "as-mindfulness-chat",
       "input": {
-        "prompt": "generate a conversation about ${topic}"
+        "prompt": "${prompt}"
       },
       "variables": {
         "transcriptRaw": "[0].content[0].text.value",
-        "transcriptLines": "$conversationSplitTranscript"
+        "transcriptLines": "$chatSimple"
       },
       "parentId": "",
       "completionParams": {
@@ -60,64 +43,18 @@
         "y": 0
       },
       "connectors": [
-        "n-002",
-        "n-003"
+        "n-002"
       ],
       "isStart": true
     },
     "n-002": {
       "id": "n-002",
-      "name": "Phonetics",
-      "nodeType": "llm",
-      "assistantId": "as-park-conversation-phonetics",
-      "input": {
-        "prompt": "generate a phonetic representation of ${transcriptRaw}"
-      },
-      "variables": {
-        "transcriptPhonetics": "[0].content[0].text.value",
-        "transcriptLines": "$conversationAddPhonetics"
-      },
-      "position": {
-        "x": 150,
-        "y": 150
-      },
-      "parentId": "n-001",
-      "connectors": [
-        "n-004"
-      ]
-    },
-    "n-003": {
-      "id": "n-003",
-      "name": "Speech",
-      "nodeType": "api",
-      "apiId": "conversation",
-      "input": {
-        "transcript": "${transcriptLines}"
-      },
-      "variables": {
-        "transcriptAudios": "files",
-        "transcriptLines": "$conversationAddAudio"
-      },
-      "position": {
-        "x": 350,
-        "y": 150
-      },
-      "connectors": [
-        "n-004"
-      ],
-      "parentId": "n-001"
-    },
-    "n-004": {
-      "id": "n-004",
-      "name": "Play",
+      "name": "Respond",
       "nodeType": "outcome",
-      "parentId": [
-        "n-002",
-        "n-003"
-      ],
+      "parentId": "n-001",
       "position": {
         "x": 250,
-        "y": 300
+        "y": 150
       },
       "isEnd": true
     }

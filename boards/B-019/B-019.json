@@ -1,26 +1,46 @@
 {
   "id": "B-019",
-  "identifier": "com.usegdi.claire",
+  "identifier": "com.usegdi.sales",
   "version": "0.1.0",
   "url": "/boards/B-019",
   "boardInfo": {
-    "name": "Claire",
+    "name": "Sales",
     "index": 19,
-    "imageUrl": "/images/boards/c1.jpg",
-    "videoThumbUrl": "/images/boards/claire.mp4",
+    "imageUrl": "/images/boards/z_sales.jpg",
+    "videoThumbUrl": "/images/boards/sales.mp4",
+    "videoUrl": "https://www.youtube.com/embed/SALES_PIPELINE_MANAGER_VIDEO_ID",
     "boardType": "adhoc",
-    "description": "Claire is your personal AI assistant designed to control IoT devices in your apartment and provide real-time sensor information from IoT sensors located throughout the living space. Whether you want to adjust the smart thermostat, dim the lights, or receive updates on environmental conditions, Claire offers a convenient and efficient solution for managing your home environment.\n\nWith its user-friendly interface and intuitive functionality, Claire ensures seamless control and access to sensor data, empowering you to create a comfortable and personalized living space. Interact with Claire to monitor and optimize your home environment for sustainability, comfort, and security. With support for a wide range of IoT devices and sensors, Claire is the ultimate assistant for modern, connected living.",
-    "descriptionLong": "Claire is your personal AI assistant designed to control IoT devices in your apartment and provide real-time sensor information from IoT sensors located throughout the living space. Whether you want to adjust the smart thermostat, dim the lights, or receive updates on environmental conditions, Claire offers a convenient and efficient solution for managing your home environment.\n\nWith its user-friendly interface and intuitive functionality, Claire ensures seamless control and access to sensor data, empowering you to create a comfortable and personalized living space. Interact with Claire to monitor and optimize your home environment for sustainability, comfort, and security. With support for a wide range of IoT devices and sensors, Claire is the ultimate assistant for modern, connected living.",
-    "oneLiner": "Meet Claire, Your Personal AI Assistant for IoT Control and Sensor Information in Your Apartment",
-    "oneLinerShort": "\"Your AI Apartment Assistant\"",
-    "header": "",
-    "fields": [],
+    "description": "Efficiently track, manage, and optimize sales pipelines with Sales. This comprehensive tool empowers sales teams to visualize, organize, and progress deals through customizable pipelines. From lead acquisition to deal closure, Sales streamlines the sales process, driving productivity and revenue growth.",
+    "descriptionLong": "Sales is designed to be the ultimate ally for sales professionals, offering intuitive features to monitor and advance deals through every stage of the pipeline. With its visual interface and robust functionality, users can gain valuable insights, prioritize tasks, and nurture leads effectively. Elevate your sales performance with Sales.",
+    "oneLiner": "Optimize sales pipelines with Sales's intuitive interface.",
+    "oneLinerShort": "Track, organize, and close deals with ease.",
+    "header": "Sales for enhanced sales performance",
+    "logoColor": "#FF5733",
+    "fields": [
+      {
+        "label": "dealName",
+        "content": "String"
+      },
+      {
+        "label": "dealValue",
+        "content": "Number"
+      },
+      {
+        "label": "dealStage",
+        "content": "String"
+      },
+      {
+        "label": "contactName",
+        "content": "String"
+      }
+    ],
     "tags": [
-      "IoT",
-      "smart home",
-      "personal assistant",
-      "apartment",
-      "sensors"
+      "sales",
+      "pipelines",
+      "CRM",
+      "deals",
+      "productivity",
+      "business"
     ],
     "supportedResolutions": [
       "1920x1080",
@@ -36,13 +56,18 @@
   },
   "apis": {},
   "defaults": {
-    "exampleId": "claire",
-    "setupId": "claire"
+    "previewPath": "/static/sales-pipeline-model.json"
   },
-  "examplesUrl": "/B-019/B-019.examples.json",
   "flowUrl": "/B-019/B-019.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-019",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
   "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
@@ -51,26 +76,8 @@
   },
   "elements": {
     "default": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.claire",
-        "title": "Claire",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-019",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
-      "e3": {
-        "id": "e3",
+      "e1": {
+        "id": "e1",
         "widgetId": "com.usegdi.starter.logo",
         "title": "Logo",
         "position": {
@@ -86,13 +93,65 @@
         },
         "boardId": "B-019",
         "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-019",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 63,
+          "y": 39
+        },
+        "boardId": "B-019",
+        "flags": {},
+        "flavour": "default",
+        "props": {
+          "showBigWip": true
+        }
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-019",
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.claire",
-        "title": "Claire",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 1,
           "y": 1
@@ -101,11 +160,46 @@
           "x": 121,
           "y": 48
         },
+        "columnIndex": 1,
         "boardId": "B-019",
         "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-019",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-019",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
       }
     }
   }

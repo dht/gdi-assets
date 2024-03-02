@@ -34,17 +34,8 @@
         "content": "String"
       }
     ],
-    "tags": [
-      "contacts",
-      "management",
-      "organization",
-      "productivity",
-      "business"
-    ],
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "tags": ["contacts", "management", "organization", "productivity", "business"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -56,7 +47,7 @@
   "apis": {},
   "defaults": {},
   "flowUrl": "/{boardId}/{boardId}.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/reorg/boards/B-002",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
@@ -73,131 +64,25 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.contacts",
+        "title": "Contacts",
         "position": {
           "x": 2,
           "y": 2
         },
         "dimension": {
-          "x": 20,
-          "y": 6
+          "x": 119,
+          "y": 47
         },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "B-023",
-        "flags": {}
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 56,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {
           "showBigWip": true
         }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 63,
-          "y": 39
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
       }
     },
-    "mobile": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "columnIndex": 1,
-        "boardId": "B-023",
-        "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
-      }
-    }
+    "mobile": {}
   }
 }

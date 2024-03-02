@@ -1,33 +1,32 @@
 {
   "flowConfig": {
-    "flowId": "fb-tutorial-maker",
+    "flowId": "fb-mood-alchemy",
     "name": "Simple chat",
     "flowType": "continues",
-    "variables": {},
     "output": {
       "transcriptLines": "actions.transcriptLines.setAll"
     },
     "cumulativeThread": true,
-    "clearVariables": false,
-    "textToSpeech": true
+    "clearVariables": false
   },
   "flowApis": {},
   "flowAssistants": {
-    "as-tutorial-maker-chat": {
-      "id": "as-tutorial-maker-chat",
+    "as-mood-alchemy-chat": {
+      "id": "as-mood-alchemy-chat",
       "name": "Chat",
       "description": "Helpful assistant that provides a conversation about a topic.",
       "instructions": "You are a helpful assistant",
       "model": "gpt-3.5-turbo-1106",
-      "tools": []
+      "tools": [],
+      "isDynamic": true
     }
   },
   "flowNodes": {
-    "n-802": {
-      "id": "n-802",
+    "n-001": {
+      "id": "n-001",
       "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-tutorial-maker-chat",
+      "assistantId": "as-mood-alchemy-chat",
       "input": {
         "prompt": "${prompt}"
       },
@@ -44,7 +43,7 @@
         "y": 0
       },
       "connectors": [
-        "n-802"
+        "n-002"
       ],
       "isStart": true
     },
@@ -52,7 +51,7 @@
       "id": "n-002",
       "name": "Respond",
       "nodeType": "outcome",
-      "parentId": "n-802",
+      "parentId": "n-001",
       "position": {
         "x": 250,
         "y": 150

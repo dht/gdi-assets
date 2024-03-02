@@ -1,25 +1,45 @@
 {
   "id": "B-012",
-  "identifier": "com.usegdi.tube",
+  "identifier": "com.usegdi.todos",
   "version": "0.1.0",
   "url": "/boards/B-012",
   "boardInfo": {
-    "name": "GDI Tube",
+    "name": "Todos",
     "index": 12,
-    "imageUrl": "/images/boards/c0.jpg",
-    "videoThumbUrl": "/images/boards/tube.mp4",
+    "imageUrl": "/images/boards/z_todos.jpg",
+    "videoThumbUrl": "/images/boards/todos.mp4",
+    "videoUrl": "",
     "boardType": "adhoc",
-    "description": "GDI Tube is a board where you can experience real-time generated videos crafted with AI-powered assets. Explore a diverse range of videos powered by the BabylonJS 3d Engine, offering captivating and engaging content for viewers of all interests. From educational animations to visually stunning art pieces, GDITube offers an unparalleled viewing experience like never before.\n\nWith its user-friendly interface and intuitive functionality, GDITube ensures an immersive and seamless experience for both content creators and viewers. Whether you are looking for educational content or entertainment, GDITube has something for everyone. Boasting over 100,000 video uploads and a stellar rating of 4.8, GDITube has become a trusted platform for AI-generated content, providing flawless support for multiple resolutions. Experience the future of video content creation and consumption with GDITube!",
-    "descriptionLong": "GDI Tube is a board where you can experience real-time generated videos crafted with AI-powered assets. Explore a diverse range of videos powered by the BabylonJS 3d Engine, offering captivating and engaging content for viewers of all interests. From educational animations to visually stunning art pieces, GDITube offers an unparalleled viewing experience like never before.\n\nWith its user-friendly interface and intuitive functionality, GDITube ensures an immersive and seamless experience for both content creators and viewers. Whether you are looking for educational content or entertainment, GDITube has something for everyone. Boasting over 100,000 video uploads and a stellar rating of 4.8, GDITube has become a trusted platform for AI-generated content, providing flawless support for multiple resolutions. Experience the future of video content creation and consumption with GDITube!",
-    "oneLiner": "Experience the future of video content creation and consumption with GDITube, a platform showcasing real-time generated videos crafted with AI-powered assets.",
-    "oneLinerShort": "\"The future of AI-generated videos\"",
-    "header": "",
-    "fields": [],
+    "description": "Todos Manager is an efficient application designed to help users organize and manage their tasks seamlessly. With intuitive task creation, prioritization, and progress tracking features, users can stay productive while enjoying a stress-free task management experience. Whether for personal or professional use, Todos Manager is the go-to tool for effective task organization.",
+    "descriptionLong": "Todos Manager is your ultimate solution for streamlined task management. This intuitive application offers essential features such as task creation, prioritization, deadline setting, and progress tracking, empowering users to stay organized and productive. Whether managing personal errands or professional projects, Todos Manager simplifies task handling for a stress-free experience.",
+    "oneLiner": "Stay organized and productive with Todos Manager's intuitive task management features.",
+    "oneLinerShort": "Organize tasks with Todos Manager.",
+    "header": "Efficiently manage tasks with Todos Manager's intuitive task organization features.",
+    "logoColor": "#4A90E2",
+    "fields": [
+      {
+        "label": "name",
+        "content": "String"
+      },
+      {
+        "label": "email",
+        "content": "String"
+      },
+      {
+        "label": "phone",
+        "content": "String"
+      },
+      {
+        "label": "company",
+        "content": "String"
+      }
+    ],
     "tags": [
-      "video",
-      "AI",
-      "content creation",
-      "entertainment"
+      "contacts",
+      "management",
+      "organization",
+      "productivity",
+      "business"
     ],
     "supportedResolutions": [
       "1920x1080",
@@ -33,120 +53,45 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "mobile": {
-    "hidePrompt": true,
-    "hideArrows": true,
-    "darkMode": true,
-    "columns": 2
-  },
-  "flowUrl": "/B-012/B-012.flow.json",
   "apis": {},
   "defaults": {},
+  "flowUrl": "/B-012/B-012.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
   "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
   "reviewInfo": {
-    "reviewsCount": 2,
-    "installationCount": 5,
-    "rating": 4.2
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
   },
   "elements": {
     "default": {
-      "e2a": {
-        "id": "e2a",
-        "widgetId": "com.usegdi.starter.tube",
-        "title": "Tube",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-012",
-        "flags": {},
-        "flavour": "default",
-        "props": {
-          "flavour": "tube"
-        }
-      },
-      "e2b": {
-        "id": "e2b",
-        "widgetId": "com.usegdi.starter.tube-details",
-        "title": "Tube",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-012",
-        "flags": {},
-        "flavour": "item",
-        "props": {
-          "flavour": "tube"
-        }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.calendar",
+        "title": "Calendar",
         "position": {
           "x": 2,
           "y": 2
         },
         "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "props": {
-          "darkMode": false
+          "x": 119,
+          "y": 47
         },
         "boardId": "B-012",
-        "flags": {}
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
       }
     },
-    "mobile": {
-      "e2a": {
-        "id": "e2a",
-        "widgetId": "com.usegdi.starter.tube",
-        "title": "Tube",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-012",
-        "flags": {},
-        "props": {
-          "flavour": "tube"
-        },
-        "columnIndex": 0
-      },
-      "e2b": {
-        "id": "e2b",
-        "widgetId": "com.usegdi.starter.tube-details",
-        "title": "Tube",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-012",
-        "flags": {},
-        "props": {
-          "flavour": "tube"
-        },
-        "columnIndex": 1
-      }
-    }
+    "mobile": {}
   }
 }

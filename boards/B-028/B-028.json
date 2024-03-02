@@ -1,49 +1,31 @@
 {
   "id": "B-028",
-  "identifier": "com.usegdi.regex-wizard",
+  "identifier": "com.usegdi.tube",
   "version": "0.1.0",
   "url": "/boards/B-028",
   "boardInfo": {
-    "name": "Regex Wizard",
+    "name": "GDI Tube",
     "index": 28,
-    "imageUrl": "/images/boards/6.jpg",
-    "videoThumbUrl": "/images/boards/regex-wizard.mp4",
-    "videoUrl": "",
+    "imageUrl": "/images/boards/c0.jpg",
+    "videoThumbUrl": "/images/boards/tube.mp4",
     "boardType": "adhoc",
-    "description": "\"RegexWizard\" is an innovative tool designed to simplify the process of writing and debugging regular expressions. Programming tasks often involve intricate details, and regex can be particularly challenging. With the help of AI technology, this tool streamlines the creation of regex expressions, enabling users to craft accurate and effective patterns. Additionally, RegexWizard aids in identifying errors and inconsistencies, eliminating the need for lengthy and frustrating debugging sessions. Embrace the magic of seamless regex writing with RegexWizard and bid farewell to the complexities associated with this essential programming task.\n\nFeaturing an intuitive interface and powered by AI, RegexWizard revolutionizes the way regular expressions are handled. Its capabilities extend beyond traditional regex tools by offering not only assistance in writing expressions, but also in identifying potential issues. With its vast library of predefined patterns, RegexWizard helps programmers save time and effort by suggesting appropriate syntax and highlighting errors in real-time. Whether you are a novice or an experienced developer, RegexWizard is a game-changing tool that enables you to boost productivity and achieve more accurate results. With over 4000 installations and a solid rating of 4.5, RegexWizard is trusted and endorsed by the programming community. Supported resolutions include 2560x1440 and 3840x2160, ensuring compatibility across various devices and screen sizes.",
-    "descriptionLong": "\"RegexWizard\" is an innovative tool that simplifies the process of writing and debugging regular expressions. Programming tasks often involve intricate details, and regex can be particularly challenging. With the help of AI technology, RegexWizard streamlines the creation of regex expressions, enabling users to craft accurate and effective patterns. This tool also aids in identifying errors and inconsistencies, eliminating the need for lengthy and frustrating debugging sessions. By embracing the magic of seamless regex writing, programmers can bid farewell to the complexities associated with this essential programming task.\n\nFeaturing an intuitive interface and powered by AI, RegexWizard revolutionizes the way regular expressions are handled. It goes beyond traditional regex tools by offering assistance in writing expressions and identifying potential issues. With its vast library of predefined patterns, RegexWizard helps programmers save time and effort by suggesting appropriate syntax and highlighting errors in real-time. Regardless of whether you are a novice or an experienced developer, RegexWizard is a game-changing tool that enhances productivity and delivers more accurate results. With over 4000 installations and a solid rating of 4.5, RegexWizard is trusted and endorsed by the programming community. It is compatible across various devices and screen sizes, supporting resolutions such as 2560x1440 and 3840x2160.",
-    "oneLiner": "Simplify regex writing and debugging with AI-powered assistance, saving time and effort for accurate and effective patterns.",
-    "oneLinerShort": "Simplify regex with AI assistance",
-    "header": "a new take on feeds for the AI era",
-    "logoColor": "#FF5733",
-    "fields": [
-      {
-        "label": "feeds",
-        "content": "X, Reddit, Facebook"
-      },
-      {
-        "label": "era",
-        "content": "AI"
-      },
-      {
-        "label": "focus",
-        "content": "Personalization, Relevance, Reliability"
-      }
-    ],
+    "description": "GDI Tube is a board where you can experience real-time generated videos crafted with AI-powered assets. Explore a diverse range of videos powered by the BabylonJS 3d Engine, offering captivating and engaging content for viewers of all interests. From educational animations to visually stunning art pieces, GDITube offers an unparalleled viewing experience like never before.\n\nWith its user-friendly interface and intuitive functionality, GDITube ensures an immersive and seamless experience for both content creators and viewers. Whether you are looking for educational content or entertainment, GDITube has something for everyone. Boasting over 100,000 video uploads and a stellar rating of 4.8, GDITube has become a trusted platform for AI-generated content, providing flawless support for multiple resolutions. Experience the future of video content creation and consumption with GDITube!",
+    "descriptionLong": "GDI Tube is a board where you can experience real-time generated videos crafted with AI-powered assets. Explore a diverse range of videos powered by the BabylonJS 3d Engine, offering captivating and engaging content for viewers of all interests. From educational animations to visually stunning art pieces, GDITube offers an unparalleled viewing experience like never before.\n\nWith its user-friendly interface and intuitive functionality, GDITube ensures an immersive and seamless experience for both content creators and viewers. Whether you are looking for educational content or entertainment, GDITube has something for everyone. Boasting over 100,000 video uploads and a stellar rating of 4.8, GDITube has become a trusted platform for AI-generated content, providing flawless support for multiple resolutions. Experience the future of video content creation and consumption with GDITube!",
+    "oneLiner": "Experience the future of video content creation and consumption with GDITube, a platform showcasing real-time generated videos crafted with AI-powered assets.",
+    "oneLinerShort": "\"The future of AI-generated videos\"",
+    "header": "",
+    "fields": [],
     "tags": [
-      "feeds",
+      "video",
       "AI",
-      "content discovery",
-      "personalization",
-      "relevance",
-      "information"
+      "content creation",
+      "entertainment"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768",
-      "1280x720"
+      "1366x768"
     ],
-    "tsVersion": "2024-02-15 09:00:00"
+    "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
   "dependencies": {
@@ -51,59 +33,60 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "defaults": {},
-  "flowUrl": "/B-028/B-028.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/reorg/boards/B-028",
-  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
-  "isActive": true,
-  "isWip": true,
   "mobile": {
     "hidePrompt": true,
-    "darkMode": true
+    "hideArrows": true,
+    "darkMode": true,
+    "columns": 2
   },
+  "flowUrl": "/B-028/B-028.flow.json",
+  "apis": {},
+  "defaults": {},
+  "isActive": true,
+  "isWip": true,
   "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "reviewsCount": 2,
+    "installationCount": 5,
+    "rating": 4.2
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.regex",
-        "title": "Regex",
+      "e2a": {
+        "id": "e2a",
+        "widgetId": "com.usegdi.starter.tube",
+        "title": "Tube",
         "position": {
           "x": 1,
           "y": 1
         },
         "dimension": {
-          "x": 59,
+          "x": 121,
           "y": 48
         },
         "boardId": "B-028",
         "flags": {},
+        "flavour": "default",
         "props": {
-          "sceneUrl": ""
+          "flavour": "tube"
         }
       },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.regex-doc",
-        "title": "Regex Doc",
+      "e2b": {
+        "id": "e2b",
+        "widgetId": "com.usegdi.starter.tube-details",
+        "title": "Tube",
         "position": {
-          "x": 61,
+          "x": 1,
           "y": 1
         },
         "dimension": {
-          "x": 59,
+          "x": 121,
           "y": 48
         },
         "boardId": "B-028",
         "flags": {},
+        "flavour": "item",
         "props": {
-          "sceneUrl": ""
+          "flavour": "tube"
         }
       },
       "e3": {
@@ -126,10 +109,10 @@
       }
     },
     "mobile": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.regex",
-        "title": "Regex",
+      "e2a": {
+        "id": "e2a",
+        "widgetId": "com.usegdi.starter.tube",
+        "title": "Tube",
         "position": {
           "x": 1,
           "y": 1
@@ -138,17 +121,17 @@
           "x": 121,
           "y": 48
         },
-        "columnIndex": 0,
         "boardId": "B-028",
         "flags": {},
         "props": {
-          "sceneUrl": ""
-        }
+          "flavour": "tube"
+        },
+        "columnIndex": 0
       },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.regex-doc",
-        "title": "Regex Doc",
+      "e2b": {
+        "id": "e2b",
+        "widgetId": "com.usegdi.starter.tube-details",
+        "title": "Tube",
         "position": {
           "x": 1,
           "y": 1
@@ -157,12 +140,12 @@
           "x": 121,
           "y": 48
         },
-        "columnIndex": 1,
         "boardId": "B-028",
         "flags": {},
         "props": {
-          "sceneUrl": ""
-        }
+          "flavour": "tube"
+        },
+        "columnIndex": 1
       }
     }
   }

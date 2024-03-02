@@ -1,49 +1,46 @@
 {
   "id": "B-033",
-  "identifier": "com.usegdi.tdd-studio",
-  "version": "0.1.0",
+  "identifier": "com.usegdi.flow",
+  "version": "1.0.0",
   "url": "/boards/B-033",
   "boardInfo": {
-    "name": "TDD Studio",
+    "name": "Flow",
     "index": 33,
-    "imageUrl": "/images/boards/d_tdd.jpg",
-    "videoThumbUrl": "/images/boards/tdd-studio.mp4",
+    "imageUrl": "/images/docs/20.png",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Improve your Test-Driven Development (TDD) skills with the TDD Studio board. Streamline the process of writing simple input-output algorithms by constructing pure functions and validating their accuracy through test-case evaluation. Master TDD by efficiently composing tests, providing input-output pairs, and iteratively refining implementations for optimal outcomes.",
-    "descriptionLong": "The TDD Studio board serves as a valuable aid for honing Test-Driven Development proficiency. Enhance your ability to create pure functions and craft effective tests for input-output algorithms. With the ability to efficiently validate input-output pairs and iteratively refine implementations, this board empowers users to achieve robust, reliable, and optimized solutions through TDD.",
-    "oneLiner": "Refine TDD skills with efficient test-case verification and iterative implementation.",
-    "oneLinerShort": "Refine TDD skills with efficient test-case verification.",
-    "header": "streamline TDD process for input-output algorithms and pure functions",
-    "logoColor": "#FF1493",
+    "description": "Discover a world of premium royalty-free music with the Envato Elements Music Browser. Explore an extensive library of high-quality tracks for your creative projects. From energetic beats to soothing melodies, find the perfect sound for your content creation needs.",
+    "descriptionLong": "The Envato Elements Music Browser is your gateway to a vast collection of top-tier, royalty-free music. Access an array of genres and moods, ensuring there's always a perfect match for your creative endeavors. Elevate your projects with professional music that enhances the impact and emotive resonance of your content.",
+    "oneLiner": "Access premium royalty-free music with the Envato Elements Music Browser.",
+    "oneLinerShort": "Discover premium royalty-free music.",
+    "header": "gallery of 3D scenes made with BabylonJS",
+    "logoColor": "#32A1F5",
     "fields": [
       {
-        "label": "skills",
-        "content": "TDD, Test Composition, Input-Output Algorithms, Pure Functions"
+        "label": "scene",
+        "content": "BabylonJS Playground"
       },
       {
-        "label": "validation",
-        "content": "Test Efficiency, Implementation Refinement"
+        "label": "description",
+        "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
       },
       {
-        "label": "iterative",
-        "content": "Validate, Refine, Optimize"
+        "label": "author",
+        "content": "gdi"
       }
     ],
     "tags": [
-      "TDD",
-      "test-driven-development",
-      "algorithms",
-      "pure-functions",
-      "test-composition",
-      "efficiency"
+      "3D",
+      "BabylonJS",
+      "web-based",
+      "interactive",
+      "virtual_experience"
     ],
     "supportedResolutions": [
       "1920x1080",
-      "1366x768",
-      "1280x720"
+      "1366x768"
     ],
-    "tsVersion": "2024-03-07 10:00:00"
+    "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
   "dependencies": {
@@ -53,12 +50,10 @@
   },
   "apis": {},
   "defaults": {},
-  "flowUrl": "/B-033/B-033.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/reorg/boards/B-033",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-033",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
-  "isWip": true,
   "mobile": {
     "hidePrompt": true,
     "darkMode": true
@@ -71,100 +66,23 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.regex",
-        "title": "Regex",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 59,
-          "y": 48
-        },
-        "boardId": "B-033",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.regex-doc",
-        "title": "Regex Doc",
-        "position": {
-          "x": 61,
-          "y": 1
-        },
-        "dimension": {
-          "x": 59,
-          "y": 48
-        },
-        "boardId": "B-033",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
         "position": {
           "x": 2,
           "y": 2
         },
         "dimension": {
-          "x": 20,
-          "y": 6
+          "x": 120,
+          "y": 48
         },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "B-033",
-        "flags": {}
+        "boardId": "B-003",
+        "flags": {},
+        "props": {}
       }
     },
-    "mobile": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.regex",
-        "title": "Regex",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "columnIndex": 0,
-        "boardId": "B-033",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.regex-doc",
-        "title": "Regex Doc",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "columnIndex": 1,
-        "boardId": "B-033",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      }
-    }
+    "mobile": {}
   }
 }

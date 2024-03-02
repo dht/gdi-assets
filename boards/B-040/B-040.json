@@ -1,0 +1,132 @@
+{
+  "id": "B-040",
+  "identifier": "com.usegdi.premier-league",
+  "version": "0.1.0",
+  "url": "/boards/B-040",
+  "boardInfo": {
+    "name": "Premier League Analytics",
+    "index": 40,
+    "imageUrl": "/images/boards/d4.jpg",
+    "videoThumbUrl": "/images/boards/premier-league.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Gain deeper insights into Premier League matches with advanced sports analytics. Analyze plays, strategies, and player performance to understand the intricacies of the game. Leverage comprehensive data and visualizations to enhance your understanding of Premier League action.",
+    "descriptionLong": "The Premier League Sports Analytics board revolutionizes the way you analyze football matches. Dive into detailed breakdowns of plays, player movements, and game statistics. This board provides a comprehensive toolkit for coaches, analysts, and enthusiasts to uncover valuable insights and tactical trends within the Premier League.",
+    "oneLiner": "Uncover game-changing insights with Premier League Sports Analytics.",
+    "oneLinerShort": "Uncover game-changing insights.",
+    "header": "analysis of sports plays in the Premier League",
+    "logoColor": "#894785",
+    "fields": [
+      {
+        "label": "league",
+        "content": "Premier League"
+      },
+      {
+        "label": "topic",
+        "content": "Sports Analytics"
+      },
+      {
+        "label": "tools",
+        "content": "Playmaker Pro, Opta, Stats Perform"
+      }
+    ],
+    "tags": [
+      "sports",
+      "analytics",
+      "football",
+      "Premier League",
+      "data",
+      "visualizations"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x720"
+    ],
+    "tsVersion": "2024-02-10 15:30:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "flowUrl": "/B-040/B-040.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-040",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.premiere",
+        "title": "Premiere",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-016",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "B-016",
+        "flags": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.premiere",
+        "title": "Premiere",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-016",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      }
+    }
+  }
+}
