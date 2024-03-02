@@ -27,7 +27,7 @@
   "apis": {},
   "defaults": {},
   "flowUrl": "/{boardId}/{boardId}.flow.json",
-  "isActive": false,
+  "isActive": true,
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
