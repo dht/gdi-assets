@@ -6,7 +6,7 @@
   "boardInfo": {
     "name": "Locations",
     "index": "{index}",
-    "imageUrl": "/images/boards/ppl_thumb.png",
+    "imageUrl": "/images/boards/z_locations.png",
     "videoThumbUrl": "/images/boards/{identifier}.mp4",
     "boardType": "adhoc",
     "description": "Locations is a revolutionary app designed to help users track and organize places they frequently visit or wish to visit in the future. Whether it's a cozy coffee shop, a serene park, or a specific room in your house, Locations allows you to catalog these spots with ease. Simply enter their coordinates, and the app will do the rest. What sets Locations apart is its ability to filter your to-dos based on your current location, making it incredibly convenient to plan your visits or activities based on where you are at any given moment.",

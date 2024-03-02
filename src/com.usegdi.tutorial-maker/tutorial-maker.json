@@ -6,7 +6,7 @@
   "boardInfo": {
     "name": "Tutorial Maker",
     "index": "{index}",
-    "imageUrl": "/images/boards/tutorials.jpg",
+    "imageUrl": "/images/boards/z_tutorials.jpg",
     "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
     "boardType": "adhoc",
     "description": "TutorialMaster is a cutting-edge platform designed for educators, enthusiasts, and creators who are passionate about sharing knowledge through video tutorials. With TutorialMaster, users can effortlessly create, organize, and share their tutorials across a wide range of subjects. From step-by-step cooking guides to complex programming lessons, TutorialMaster is equipped with intuitive tools that simplify video production, enhance viewer engagement, and facilitate content management.",

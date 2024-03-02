@@ -9,11 +9,11 @@
     "imageUrl": "/images/boards/z_scene-player.jpg",
     "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
     "boardType": "adhoc",
-    "description": "TutorialMaster is a cutting-edge platform designed for educators, enthusiasts, and creators who are passionate about sharing knowledge through video tutorials. With TutorialMaster, users can effortlessly create, organize, and share their tutorials across a wide range of subjects. From step-by-step cooking guides to complex programming lessons, TutorialMaster is equipped with intuitive tools that simplify video production, enhance viewer engagement, and facilitate content management.",
-    "descriptionLong": "TutorialMaster revolutionizes the way knowledge is shared and consumed through video tutorials. It offers a comprehensive suite of tools that cater to the needs of both novice and experienced creators. Key features include an easy-to-use video editor, customizable templates for various tutorial genres, and advanced analytics to track viewer engagement and feedback. TutorialMaster also integrates seamlessly with other boards, allowing users to aggregate content, collaborate with others, and schedule their tutorial releases for maximum impact. Whether you're looking to share a unique skill, educate on a specific topic, or connect with a global audience, TutorialMaster provides a robust platform for all your video tutorial needs.",
-    "oneLiner": "Empower your passion for teaching and sharing knowledge with TutorialMaster, the ultimate platform for creating, organizing, and sharing video tutorials.",
-    "oneLinerShort": "\"Unleash the Power of Knowledge Sharing\"",
-    "header": "Create, Organize, and Share Engaging Video Tutorials with Ease",
+    "description": "Experience immersive 3D scenes created with GDI in real-time with the 3D Scene Player. Explore interactive environments and stunning visuals crafted using cutting-edge technology. This tool brings your creations to life, allowing seamless navigation and interaction within the 3D space.",
+    "descriptionLong": "The 3D Scene Player offers a seamless way to showcase and navigate through captivating 3D environments developed with GDI. Whether it's architectural visualizations, game levels, or product designs, this platform enables effortless exploration and interaction within the scenes. From detailed textures to dynamic lighting, experience the depth and creativity of GDI's 3D scenes in real-time.",
+    "oneLiner": "Immerse yourself in interactive 3D scenes crafted with GDI in real-time.",
+    "oneLinerShort": "Explore interactive 3D scenes made with GDI.",
+    "header": "experience immersive 3D scenes",
     "fields": [
       {
         "label": "input",

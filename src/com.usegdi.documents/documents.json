@@ -6,7 +6,7 @@
   "boardInfo": {
     "name": "Documents",
     "index": "{index}",
-    "imageUrl": "/images/boards/i_docs.jpg",
+    "imageUrl": "/images/boards/z_documents.jpg",
     "videoThumbUrl": "/images/boards/{identifier}.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
@@ -41,10 +41,7 @@
       "cloud_integration",
       "workflow_efficiency"
     ],
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
