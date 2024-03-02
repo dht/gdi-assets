@@ -6,7 +6,7 @@
   "boardInfo": {
     "name": "Lists",
     "index": "{index}",
-    "imageUrl": "/images/boards/z_multi.jpg",
+    "imageUrl": "/images/boards/i_multi.jpg",
     "videoThumbUrl": "/images/boards/{identifier}.mp4",
     "videoUrl": "https://www.youtube.com/embed/MULTI_PRODUCTIVITY_VIDEO_ID",
     "boardType": "adhoc",

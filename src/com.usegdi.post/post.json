@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "url": "/boards/{boardId}",
   "boardInfo": {
-    "name": "Events",
+    "name": "Post",
     "index": "{index}",
     "imageUrl": "/images/boards/z_post.jpg",
     "videoThumbUrl": "/images/boards/{identifier}.mp4",

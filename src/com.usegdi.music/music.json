@@ -6,7 +6,7 @@
   "boardInfo": {
     "name": "Music",
     "index": "{index}",
-    "imageUrl": "/images/boards/3d-gallery.jpg",
+    "imageUrl": "/images/boards/z_music.jpg",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Discover a world of premium royalty-free music with the Envato Elements Music Browser. Explore an extensive library of high-quality tracks for your creative projects. From energetic beats to soothing melodies, find the perfect sound for your content creation needs.",
@@ -29,17 +29,8 @@
         "content": "gdi"
       }
     ],
-    "tags": [
-      "3D",
-      "BabylonJS",
-      "web-based",
-      "interactive",
-      "virtual_experience"
-    ],
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "tags": ["3D", "BabylonJS", "web-based", "interactive", "virtual_experience"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",

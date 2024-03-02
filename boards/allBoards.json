@@ -1011,7 +1011,7 @@
     "boardInfo": {
       "name": "Lists",
       "index": 15,
-      "imageUrl": "/images/boards/z_multi.jpg",
+      "imageUrl": "/images/boards/i_multi.jpg",
       "videoThumbUrl": "/images/boards/lists.mp4",
       "videoUrl": "https://www.youtube.com/embed/MULTI_PRODUCTIVITY_VIDEO_ID",
       "boardType": "adhoc",
@@ -1507,7 +1507,7 @@
     "version": "0.1.0",
     "url": "/boards/B-022",
     "boardInfo": {
-      "name": "Events",
+      "name": "Post",
       "index": 22,
       "imageUrl": "/images/boards/z_post.jpg",
       "videoThumbUrl": "/images/boards/post.mp4",
@@ -2082,7 +2082,7 @@
     "boardInfo": {
       "name": "3D Scene Gallery",
       "index": 31,
-      "imageUrl": "/images/boards/3d-gallery.jpg",
+      "imageUrl": "/images/boards/z_babylon.jpg",
       "videoUrl": "",
       "boardType": "adhoc",
       "description": "Explore a captivating gallery of immersive 3D scenes created with BabylonJS. Experience the power of web-based 3D rendering and unleash your creativity with these interactive environments.",
@@ -2495,7 +2495,7 @@
     "boardInfo": {
       "name": "Music",
       "index": 37,
-      "imageUrl": "/images/boards/3d-gallery.jpg",
+      "imageUrl": "/images/boards/z_music.jpg",
       "videoUrl": "",
       "boardType": "adhoc",
       "description": "Discover a world of premium royalty-free music with the Envato Elements Music Browser. Explore an extensive library of high-quality tracks for your creative projects. From energetic beats to soothing melodies, find the perfect sound for your content creation needs.",
