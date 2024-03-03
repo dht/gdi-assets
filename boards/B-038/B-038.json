@@ -63,7 +63,7 @@
   },
   "examplesUrl": "/B-038/B-038.examples.json",
   "flowUrl": "/B-038/B-038.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-038",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-038",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

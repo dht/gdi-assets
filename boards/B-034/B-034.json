@@ -55,7 +55,7 @@
     "previewPath": "/static/git-evolution-visualizer-model.json"
   },
   "flowUrl": "/B-034/B-034.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-034",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-034",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

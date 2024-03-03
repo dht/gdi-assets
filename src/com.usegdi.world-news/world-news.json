@@ -30,17 +30,8 @@
         "content": "English, Spanish, French, Chinese, Arabic"
       }
     ],
-    "tags": [
-      "news",
-      "global",
-      "updates",
-      "information"
-    ],
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768",
-      "1280x720"
-    ],
+    "tags": ["news", "global", "updates", "information"],
+    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
     "tsVersion": "2024-02-07 10:30:00"
   },
   "author": "gdi",
@@ -52,7 +43,7 @@
   "apis": {},
   "defaults": {},
   "flowUrl": "/{boardId}/{boardId}.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

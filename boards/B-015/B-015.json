@@ -59,7 +59,7 @@
     "previewPath": "/static/lists-productivity-model.json"
   },
   "flowUrl": "/B-015/B-015.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-015",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-015",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

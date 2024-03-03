@@ -58,7 +58,7 @@
     "previewPath": "/static/personal-finances-model.json"
   },
   "flowUrl": "/B-011/B-011.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-011",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-011",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

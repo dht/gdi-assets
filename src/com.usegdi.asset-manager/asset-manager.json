@@ -16,16 +16,8 @@
     "oneLinerShort": "Centralize and streamline asset management with Asset Manager.",
     "header": "",
     "fields": [],
-    "tags": [
-      "asset management",
-      "images",
-      "voice files",
-      "3D objects"
-    ],
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "tags": ["asset management", "images", "voice files", "3D objects"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -38,7 +30,7 @@
   "defaults": {},
   "flowUrl": "/{boardId}/{boardId}.flow.json",
   "isActive": true,
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "mobile": {
     "darkMode": true,
@@ -184,7 +176,5 @@
       }
     }
   },
-  "storeNodes": [
-    "assets"
-  ]
+  "storeNodes": ["assets"]
 }

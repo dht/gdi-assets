@@ -63,7 +63,7 @@
     "previewPath": "/static/MoodAlchemy-model.json"
   },
   "flowUrl": "/B-036/B-036.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-036",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-036",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

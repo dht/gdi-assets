@@ -59,7 +59,7 @@
     "previewPath": "/static/sales-pipeline-model.json"
   },
   "flowUrl": "/B-019/B-019.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-019",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-019",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

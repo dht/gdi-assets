@@ -34,7 +34,7 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-005",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-005",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "apis": {},
   "elements": {

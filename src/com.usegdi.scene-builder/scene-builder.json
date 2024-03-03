@@ -16,16 +16,8 @@
     "oneLinerShort": "Simplify 3D scene creation with Scene Builder.",
     "header": "",
     "fields": [],
-    "tags": [
-      "3D",
-      "scene",
-      "visualization",
-      "creation"
-    ],
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "tags": ["3D", "scene", "visualization", "creation"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -34,7 +26,7 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "apis": {},
   "elements": {

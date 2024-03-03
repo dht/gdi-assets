@@ -46,10 +46,7 @@
       "multimedia",
       "personal_growth"
     ],
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -63,7 +60,7 @@
     "previewPath": "/static/MoodAlchemy-model.json"
   },
   "flowUrl": "/{boardId}/{boardId}.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

@@ -30,19 +30,8 @@
         "content": "Playmaker Pro, Opta, Stats Perform"
       }
     ],
-    "tags": [
-      "sports",
-      "analytics",
-      "football",
-      "Premier League",
-      "data",
-      "visualizations"
-    ],
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768",
-      "1280x720"
-    ],
+    "tags": ["sports", "analytics", "football", "Premier League", "data", "visualizations"],
+    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
     "tsVersion": "2024-02-10 15:30:00"
   },
   "author": "gdi",
@@ -54,7 +43,7 @@
   "apis": {},
   "defaults": {},
   "flowUrl": "/{boardId}/{boardId}.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
