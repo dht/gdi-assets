@@ -1,42 +1,31 @@
 {
   "id": "B-032",
-  "identifier": "com.usegdi.smb",
+  "identifier": "com.usegdi.claire",
   "version": "0.1.0",
   "url": "/boards/B-032",
   "boardInfo": {
-    "name": "SMB",
+    "name": "Claire",
     "index": 32,
-    "imageUrl": "/images/i_smb.jpg",
-    "videoThumbUrl": "/images/B-032.mp4",
-    "videoUrl": "",
+    "imageUrl": "/images/boards/c1.jpg",
+    "videoThumbUrl": "/images/boards/claire.mp4",
     "boardType": "adhoc",
-    "description": "Empower your small business with a versatile CRM that centralizes customer interactions and enhances relationship management. SMB is designed to optimize customer retention, streamline communication, and track sales opportunities. Tailored for small businesses, it offers a user-friendly interface and scalable features to foster growth and customer satisfaction.",
-    "descriptionLong": "SMB serves as the all-in-one solution for small businesses seeking to build and nurture customer relationships effectively. Its robust functionalities enable seamless contact management, lead tracking, and customized communication. With insightful analytics and collaboration tools, it equips businesses to deliver personalized experiences and drive revenue.",
-    "oneLiner": "Elevate customer relationships with SMB's scalable features.",
-    "oneLinerShort": "Centralize customer management and boost sales.",
-    "header": "SMB for streamlined customer engagement",
-    "logoColor": "#49A078",
-    "fields": [
-      {
-        "label": "contactName",
-        "content": "String"
-      },
-      {
-        "label": "email",
-        "content": "String"
-      },
-      {
-        "label": "phone",
-        "content": "String"
-      },
-      {
-        "label": "company",
-        "content": "String"
-      }
+    "description": "Claire is your personal AI assistant designed to control IoT devices in your apartment and provide real-time sensor information from IoT sensors located throughout the living space. Whether you want to adjust the smart thermostat, dim the lights, or receive updates on environmental conditions, Claire offers a convenient and efficient solution for managing your home environment.\n\nWith its user-friendly interface and intuitive functionality, Claire ensures seamless control and access to sensor data, empowering you to create a comfortable and personalized living space. Interact with Claire to monitor and optimize your home environment for sustainability, comfort, and security. With support for a wide range of IoT devices and sensors, Claire is the ultimate assistant for modern, connected living.",
+    "descriptionLong": "Claire is your personal AI assistant designed to control IoT devices in your apartment and provide real-time sensor information from IoT sensors located throughout the living space. Whether you want to adjust the smart thermostat, dim the lights, or receive updates on environmental conditions, Claire offers a convenient and efficient solution for managing your home environment.\n\nWith its user-friendly interface and intuitive functionality, Claire ensures seamless control and access to sensor data, empowering you to create a comfortable and personalized living space. Interact with Claire to monitor and optimize your home environment for sustainability, comfort, and security. With support for a wide range of IoT devices and sensors, Claire is the ultimate assistant for modern, connected living.",
+    "oneLiner": "Meet Claire, Your Personal AI Assistant for IoT Control and Sensor Information in Your Apartment",
+    "oneLinerShort": "\"Your AI Apartment Assistant\"",
+    "header": "",
+    "fields": [],
+    "tags": [
+      "IoT",
+      "smart home",
+      "personal assistant",
+      "apartment",
+      "sensors"
     ],
-    "tags": ["CRM", "customer_relationship", "small_business", "sales", "communication", "growth"],
-    "order": 4,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -47,27 +36,41 @@
   },
   "apis": {},
   "defaults": {
-    "previewPath": "/static/small-business-crm-model.json"
+    "exampleId": "claire",
+    "setupId": "claire"
   },
+  "examplesUrl": "/B-032/B-032.examples.json",
   "flowUrl": "/B-032/B-032.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-032",
-  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
   "isWip": true,
-  "mobile": {
-    "hidePrompt": true,
-    "darkMode": true
-  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
-    "rating": 0
+    "rating": 0,
+    "reviews": {}
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.claire",
+        "title": "Claire",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-032",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
         "widgetId": "com.usegdi.starter.logo",
         "title": "Logo",
         "position": {
@@ -81,67 +84,15 @@
         "props": {
           "darkMode": false
         },
-        "boardId": "B-023",
+        "boardId": "B-032",
         "flags": {}
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 56,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 63,
-          "y": 39
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "default",
-        "props": {
-          "showBigWip": true
-        }
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
+        "widgetId": "com.usegdi.starter.claire",
+        "title": "Claire",
         "position": {
           "x": 1,
           "y": 1
@@ -150,46 +101,11 @@
           "x": 121,
           "y": 48
         },
-        "columnIndex": 1,
-        "boardId": "B-023",
+        "boardId": "B-032",
         "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
+        "props": {
+          "sceneUrl": ""
+        }
       }
     }
   }

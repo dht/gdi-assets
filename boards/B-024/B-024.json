@@ -1,20 +1,20 @@
 {
   "id": "B-024",
-  "identifier": "com.usegdi.contacts",
+  "identifier": "com.usegdi.diy",
   "version": "0.1.0",
   "url": "/boards/B-024",
   "boardInfo": {
-    "name": "Contacts",
+    "name": "DIY",
     "index": 24,
-    "imageUrl": "/images/i_contacts.jpg",
-    "videoThumbUrl": "/images/B-024.mp4",
+    "imageUrl": "/images/boards/z_diy.jpg",
+    "videoThumbUrl": "/images/boards/diy.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Efficiently organize and manage your contacts with Contacts. This versatile tool is designed to streamline the process of storing, accessing, and updating contact information. From personal connections to professional networks, Contacts simplifies contact management for enhanced productivity and connectivity.",
-    "descriptionLong": "Contacts is the ultimate solution for individuals and businesses seeking to effectively manage their contacts. With its user-friendly interface and robust features, it empowers users to maintain comprehensive contact databases effortlessly. Seamlessly organize, update, and access critical contact information, fostering better communication and relationship management.",
-    "oneLiner": "Simplify contact management with Contacts's intuitive tools.",
-    "oneLinerShort": "Streamline contact management with ease.",
-    "header": "Contacts for efficient contact organization",
+    "description": "Empower your DIY journey with the DIY Project Manager, a comprehensive platform to track your projects, collect ideas with detailed instructions, monitor progress, and schedule project sessions. With a focus on creativity and hands-on learning, this board is designed to support and inspire your DIY endeavors.",
+    "descriptionLong": "Unlock the full potential of your DIY projects with the DIY Project Manager, offering a centralized platform to track your projects, gather ideas with step-by-step instructions, monitor project progress, and schedule dedicated project sessions. Designed to foster creativity and hands-on learning, this board is your gateway to enhanced DIY experiences.",
+    "oneLiner": "Elevate your DIY experiences with the DIY Project Manager's comprehensive project tracking and inspiration platform.",
+    "oneLinerShort": "Empower your DIY journey with the DIY Project Manager.",
+    "header": "Inspire and organize your DIY endeavors with the DIY Project Manager's all-in-one project management platform.",
     "logoColor": "#4A90E2",
     "fields": [
       {
@@ -34,9 +34,17 @@
         "content": "String"
       }
     ],
-    "tags": ["contacts", "management", "organization", "productivity", "business"],
-    "order": 2,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tags": [
+      "contacts",
+      "management",
+      "organization",
+      "productivity",
+      "business"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -48,7 +56,7 @@
   "apis": {},
   "defaults": {},
   "flowUrl": "/B-024/B-024.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-002",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
@@ -65,131 +73,25 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.diy",
+        "title": "DIY",
         "position": {
           "x": 2,
           "y": 2
         },
         "dimension": {
-          "x": 20,
-          "y": 6
+          "x": 119,
+          "y": 47
         },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "B-023",
-        "flags": {}
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 56,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
+        "boardId": "B-024",
         "flags": {},
         "props": {
           "showBigWip": true
         }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 63,
-          "y": 39
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
       }
     },
-    "mobile": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "columnIndex": 1,
-        "boardId": "B-023",
-        "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
-      }
-    }
+    "mobile": {}
   }
 }

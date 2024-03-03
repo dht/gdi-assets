@@ -1,0 +1,62 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.locations",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Locations",
+    "index": "{index}",
+    "imageUrl": "/images/boards/z_locations.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "boardType": "adhoc",
+    "description": "Locations is a revolutionary app designed to help users track and organize places they frequently visit or wish to visit in the future. Whether it's a cozy coffee shop, a serene park, or a specific room in your house, Locations allows you to catalog these spots with ease. Simply enter their coordinates, and the app will do the rest. What sets Locations apart is its ability to filter your to-dos based on your current location, making it incredibly convenient to plan your visits or activities based on where you are at any given moment.",
+    "descriptionLong": "Imagine having a personal assistant that helps you keep track of all the places that hold significance in your life - from your favorite eateries and parks to the most tranquil spots for relaxation. Locations is not just an app; it's your personal guide to the world around you. By allowing users to input the coordinates of places they love or wish to explore, Locations creates a personalized board of destinations. Its advanced filtering feature then tailors your to-do lists according to your current location, making spontaneous adventures or planned visits equally effortless to organize. Whether you're looking for the perfect place to dine, seeking a quiet spot for contemplation, or planning an efficient route to visit several locations in one go, Locations has you covered.",
+    "oneLiner": "Keep track of your favorite places and discover new ones with Locations, your personal guide to the world around you.",
+    "oneLinerShort": "\"Your Personal Guide to the World\"",
+    "header": "Discover and Organize Your Favorite Places with Ease",
+    "fields": [],
+    "tags": ["history", "interaction", "education", "virtual", "famous figures"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "apis": {},
+  "defaults": {},
+  "isActive": true,
+  "isWip": true,
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.locations",
+        "title": "Locations",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 119,
+          "y": 47
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
+      }
+    },
+    "mobile": {}
+  }
+}

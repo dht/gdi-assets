@@ -1,48 +1,49 @@
 {
   "id": "B-010",
-  "identifier": "com.usegdi.fourth-wall",
+  "identifier": "com.usegdi.balance",
   "version": "0.1.0",
   "url": "/boards/B-010",
   "boardInfo": {
-    "name": "Fourth Wall",
+    "name": "Balance",
     "index": 10,
-    "imageUrl": "/images/z_scene_builder.jpg",
-    "videoThumbUrl": "/images/B-010.mp4",
-    "videoUrl": "https://www.youtube.com/embed/d8_OIj8L77s",
-    "boardType": "continues",
-    "description": "Fourth Wall is a board that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
-    "descriptionLong": "Fourth Wall is a board that allows you to generate short 3D theater plays on a miniature stage with voice and lip syncing.",
-    "oneLiner": "Create 3D theater plays on a miniature stage",
-    "oneLinerShort": "3D Theater Play Generator",
-    "header": "Fourth Wall - 3D Theater Play Generator",
+    "imageUrl": "/images/boards/z_balance.jpg",
+    "videoThumbUrl": "/images/boards/balance.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "The Life Balance Tool helps users allocate and manage their time across different domains of life. It enables users to monitor the time invested in various activities and produce real-time statistics and graphs. By ensuring a balanced distribution of time among different pillars of life, users can achieve a well-rounded and fulfilling lifestyle.",
+    "descriptionLong": "Achieve a harmonious lifestyle with the Life Balance Tool, a comprehensive solution for managing and monitoring your time across diverse domains of life. From work and family to health and personal growth, this tool provides real-time statistics and graphical insights, empowering users to allocate their time effectively and foster a balanced and fulfilling life.",
+    "oneLiner": "Achieve balance and fulfillment by allocating time wisely with the Life Balance Tool's real-time statistics and graphs.",
+    "oneLinerShort": "Achieve balance and fulfillment with the Life Balance Tool.",
+    "header": "Manage and monitor your time allocation across life domains with real-time insights from the Life Balance Tool.",
+    "logoColor": "#4A90E2",
     "fields": [
       {
-        "label": "input",
-        "content": "Prompt"
+        "label": "name",
+        "content": "String"
       },
       {
-        "label": "output",
-        "content": "3D theater play scene"
+        "label": "email",
+        "content": "String"
       },
       {
-        "label": "engines",
-        "content": "LLM #1, LLM #2, ElevenLabs"
+        "label": "phone",
+        "content": "String"
+      },
+      {
+        "label": "company",
+        "content": "String"
       }
     ],
     "tags": [
-      "theater",
-      "3D",
-      "play generation",
-      "voice syncing",
-      "lip syncing",
-      "creative",
-      "entertainment"
+      "contacts",
+      "management",
+      "organization",
+      "productivity",
+      "business"
     ],
-    "order": 2,
     "supportedResolutions": [
       "1920x1080",
-      "1366x768",
-      "1280x800"
+      "1366x768"
     ],
     "tsVersion": "2024-02-03 14:44:00"
   },
@@ -53,83 +54,44 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {
-    "exampleId": "vision-couple",
-    "setupId": "vision-couple"
-  },
-  "examplesUrl": "/B-010/B-010.examples.json",
+  "defaults": {},
   "flowUrl": "/B-010/B-010.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi/tree/main/web/public/boards/C-010",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
+  "isWip": true,
   "mobile": {
-    "darkMode": true,
-    "hidePrompt": true
+    "hidePrompt": true,
+    "darkMode": true
   },
   "reviewInfo": {
-    "reviewsCount": 4,
-    "installationCount": 3,
-    "rating": 4.2
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
   },
   "elements": {
     "default": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.fourth-wall",
-        "title": "Fourth wall",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-010",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
+        "widgetId": "com.usegdi.starter.balance",
+        "title": "Calendar",
         "position": {
           "x": 2,
           "y": 2
         },
         "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "B-010",
-        "flags": {}
-      }
-    },
-    "mobile": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.fourth-wall",
-        "title": "Fourth wall",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
+          "x": 119,
+          "y": 47
         },
         "boardId": "B-010",
         "flags": {},
         "props": {
-          "sceneUrl": ""
+          "showBigWip": true
         }
       }
-    }
+    },
+    "mobile": {}
   }
 }

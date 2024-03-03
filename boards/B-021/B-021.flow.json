@@ -1,31 +1,32 @@
 {
   "flowConfig": {
-    "flowId": "fb-021",
-    "name": "Park Conversation",
-    "flowType": "linear",
-    "variables": {
-      "topic": "variables.prompt"
-    },
+    "flowId": "fb-movement",
+    "name": "Events",
+    "flowType": "continues",
     "output": {
       "transcriptLines": "actions.transcriptLines.setAll"
     },
-    "clearVariables": true,
-    "cumulativeThread": false
+    "cumulativeThread": true,
+    "clearVariables": false
   },
-  "flowApis": {
-    "conversation": {
-      "id": "conversation",
-      "endpoint": "speech.conversation",
-      "vendor": "openAI"
+  "flowApis": {},
+  "flowAssistants": {
+    "as-movement-chat": {
+      "id": "as-movement-chat",
+      "name": "Chat",
+      "description": "Helpful assistant that provides a conversation about a topic.",
+      "instructions": "You are a helpful assistant",
+      "model": "gpt-3.5-turbo-1106",
+      "tools": [],
+      "isDynamic": true
     }
   },
-  "flowAssistants": {},
   "flowNodes": {
     "n-001": {
       "id": "n-001",
       "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-002-chat",
+      "assistantId": "as-movement-chat",
       "input": {
         "prompt": "${prompt}"
       },
@@ -41,7 +42,9 @@
         "x": 250,
         "y": 0
       },
-      "connectors": ["n-002"],
+      "connectors": [
+        "n-002"
+      ],
       "isStart": true
     },
     "n-002": {

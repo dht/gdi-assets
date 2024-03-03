@@ -1,33 +1,24 @@
 {
   "flowConfig": {
-    "flowId": "fb-009",
-    "name": "Simple chat",
+    "flowId": "fb-calendar",
+    "name": "Calendar",
     "flowType": "continues",
-    "variables": {},
     "output": {
       "transcriptLines": "actions.transcriptLines.setAll"
     },
     "cumulativeThread": true,
-    "clearVariables": false,
-    "textToSpeech": false
+    "clearVariables": false
   },
   "flowApis": {},
   "flowAssistants": {
-    "as-002-chat": {
-      "id": "as-002-chat",
+    "as-calendar-chat": {
+      "id": "as-calendar-chat",
       "name": "Chat",
       "description": "Helpful assistant that provides a conversation about a topic.",
       "instructions": "You are a helpful assistant",
       "model": "gpt-3.5-turbo-1106",
-      "tools": []
-    },
-    "as-009-chat": {
-      "id": "as-009-chat",
-      "name": "Chat",
-      "description": "Helpful assistant that provides a conversation about a topic.",
-      "instructions": "You are a helpful assistant",
-      "model": "gpt-3.5-turbo-1106",
-      "tools": []
+      "tools": [],
+      "isDynamic": true
     }
   },
   "flowNodes": {
@@ -35,7 +26,7 @@
       "id": "n-001",
       "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-009-chat",
+      "assistantId": "as-calendar-chat",
       "input": {
         "prompt": "${prompt}"
       },

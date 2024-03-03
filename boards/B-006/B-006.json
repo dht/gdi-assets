@@ -1,20 +1,21 @@
 {
   "id": "B-006",
-  "identifier": "com.usegdi.assistants",
+  "identifier": "com.usegdi.3d-animations",
   "version": "0.1.0",
   "url": "/boards/B-006",
   "boardInfo": {
-    "name": "Assistants",
-    "index": 9,
-    "imageUrl": "/images/z_assistants.jpg",
-    "videoThumbUrl": "/images/B-006.mp4",
-    "videoUrl": "https://www.youtube.com/embed/JmdpS7bc9C4",
-    "boardType": "continues",
-    "description": "Assistants serves as a gateway to the OpenAI Assistant API, redefining interactions with virtual assistants. This board facilitates the creation of bespoke virtual assistants, leveraging advanced AI akin to GPTs. It offers developers the flexibility to tailor assistants to specific use cases, ranging from personal to business applications. With Assistants, gone are the limitations of generic assistants; instead, users can build assistants that align perfectly with their unique requirements and preferences.",
-    "descriptionLong": "Assistants stands at the forefront of virtual assistant technology, mirroring the conceptual framework of GPTs and tapping into the capabilities of the OpenAI Assistant API. Developers can utilize this board to craft tailored assistant experiences, generating JSON configurations or exploring an extensive library of IO assistants. It's designed to facilitate a deeper level of customization and integration, offering a dynamic platform for creating assistants that truly understand and respond to user needs in a sophisticated, AI-driven manner.",
-    "oneLiner": "Craft tailored virtual assistants using GPT-like AI with Assistants.",
-    "oneLinerShort": "Create bespoke AI assistants akin to GPTs with Assistants.",
-    "header": "show about ${prompt}",
+    "name": "3D Ad Creator",
+    "index": 6,
+    "imageUrl": "/images/boards/z_3d.jpg",
+    "videoThumbUrl": "/images/boards/3d-animations.mp4",
+    "videoUrl": "https://www.youtube.com/embed/c7jAhBZgZuI",
+    "boardType": "adhoc",
+    "description": "3D Ad Creator redefines digital advertising by enabling the creation of immersive 3D video ads with ease. Leveraging advanced AI technology, it allows both novices and professionals to craft engaging content effortlessly. This tool transforms ad creation into an intuitive and rewarding experience, ensuring your message captivates and resonates with audiences.",
+    "descriptionLong": "The 3D Ad Creator stands as a cornerstone in digital advertising innovation. Its state-of-the-art AI technology facilitates the creation of mesmerizing 3D video advertisements. The platform is designed for creators at every skill level, simplifying the process while delivering high-quality, impactful results. The 3D Ad Creator is not just a tool; it's a gateway to creating ads that leave a lasting impression.",
+    "oneLiner": "Elevate digital advertising with 3D Ad Creator's AI-driven, immersive video ads.",
+    "oneLinerShort": "Elevate ads with AI-driven 3D videos.",
+    "header": "commercial for a ${topic}",
+    "logoColor": "#565",
     "fields": [
       {
         "label": "input",
@@ -22,7 +23,7 @@
       },
       {
         "label": "output",
-        "content": "3d conversation"
+        "content": "3d ad"
       },
       {
         "label": "engines",
@@ -30,17 +31,17 @@
       }
     ],
     "tags": [
-      "animation",
-      "stop motion",
+      "video",
+      "ads",
       "3D",
-      "creativity",
-      "young_artists"
+      "media",
+      "top_installed",
+      "editor_choice",
+      "young_professionals"
     ],
-    "order": 2,
     "supportedResolutions": [
       "1920x1080",
-      "1366x768",
-      "1280x720"
+      "1366x768"
     ],
     "tsVersion": "2024-02-03 14:44:00"
   },
@@ -50,25 +51,24 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "apis": {
-    "turbo-3.5": "OpenAI"
+  "apis": {},
+  "defaults": {
+    "exampleId": "modelz"
   },
-  "defaults": {},
+  "examplesUrl": "/B-006/B-006.examples.json",
   "flowUrl": "/B-006/B-006.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-006",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-006",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
   "mobile": {
-    "darkMode": true,
-    "columns": 3,
-    "flowColumnIndex": 2,
-    "outputColumnIndex": 1
+    "hidePrompt": true,
+    "darkMode": true
   },
   "reviewInfo": {
-    "reviewsCount": 6,
-    "installationCount": 18,
-    "rating": 4.4
+    "reviewsCount": 5,
+    "installationCount": 35,
+    "rating": 4.5
   },
   "elements": {
     "default": {
@@ -85,51 +85,22 @@
           "y": 6
         },
         "boardId": "B-006",
-        "flags": {}
+        "flags": {},
+        "props": {
+          "darkMode": true
+        }
       },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.chat",
-        "title": "Chat",
+        "widgetId": "com.usegdi.starter.bit-builder",
+        "title": "sixty",
         "position": {
-          "x": 56,
-          "y": 4
+          "x": 1,
+          "y": 1
         },
         "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-006",
-        "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.assistants-panel",
-        "title": "Assistants Panel",
-        "position": {
-          "x": 4,
-          "y": 33
-        },
-        "dimension": {
-          "x": 50,
-          "y": 13
-        },
-        "boardId": "B-006",
-        "flags": {},
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.flow",
-        "title": "Flow",
-        "position": {
-          "x": 5,
-          "y": 7
-        },
-        "dimension": {
-          "x": 44,
-          "y": 24
+          "x": 121,
+          "y": 47
         },
         "boardId": "B-006",
         "flags": {},
@@ -139,8 +110,8 @@
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.chat",
-        "title": "Chat",
+        "widgetId": "com.usegdi.starter.bit-builder",
+        "title": "sixty",
         "position": {
           "x": 1,
           "y": 1
@@ -149,48 +120,23 @@
           "x": 121,
           "y": 48
         },
-        "columnIndex": 1,
         "boardId": "B-006",
         "flags": {},
         "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.assistants-panel",
-        "title": "Assistants Panel",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "columnIndex": 0,
-        "boardId": "B-006",
-        "flags": {},
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.flow",
-        "title": "Flow",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-006",
-        "flags": {},
-        "props": {},
-        "columnIndex": 2
       }
     }
   },
   "storeNodes": [
-    "messages"
+    "sceneConfig",
+    "sceneCameras",
+    "sceneLights",
+    "sceneBits",
+    "sceneMeshes",
+    "scenePacks",
+    "sceneVASPs",
+    "sceneDots",
+    "sceneExternals",
+    "sceneAudios",
+    "sceneEffects"
   ]
 }

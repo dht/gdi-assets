@@ -1,0 +1,195 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.assistants",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Assistants",
+    "index": "{index}",
+    "imageUrl": "/images/boards/z_assistants.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "https://www.youtube.com/embed/JmdpS7bc9C4",
+    "boardType": "continues",
+    "description": "Assistants serves as a gateway to the OpenAI Assistant API, redefining interactions with virtual assistants. This board facilitates the creation of bespoke virtual assistants, leveraging advanced AI akin to GPTs. It offers developers the flexibility to tailor assistants to specific use cases, ranging from personal to business applications. With Assistants, gone are the limitations of generic assistants; instead, users can build assistants that align perfectly with their unique requirements and preferences.",
+    "descriptionLong": "Assistants stands at the forefront of virtual assistant technology, mirroring the conceptual framework of GPTs and tapping into the capabilities of the OpenAI Assistant API. Developers can utilize this board to craft tailored assistant experiences, generating JSON configurations or exploring an extensive library of IO assistants. It's designed to facilitate a deeper level of customization and integration, offering a dynamic platform for creating assistants that truly understand and respond to user needs in a sophisticated, AI-driven manner.",
+    "oneLiner": "Craft tailored virtual assistants using GPT-like AI with Assistants.",
+    "oneLinerShort": "Create bespoke AI assistants akin to GPTs with Assistants.",
+    "header": "show about ${prompt}",
+    "fields": [
+      {
+        "label": "input",
+        "content": "Prompt"
+      },
+      {
+        "label": "output",
+        "content": "3d conversation"
+      },
+      {
+        "label": "engines",
+        "content": "LLM #1, LLM #2, ElevenLabs"
+      }
+    ],
+    "tags": [
+      "animation",
+      "stop motion",
+      "3D",
+      "creativity",
+      "young_artists"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x720"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {
+    "turbo-3.5": "OpenAI"
+  },
+  "defaults": {},
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "mobile": {
+    "darkMode": true,
+    "columns": 3,
+    "flowColumnIndex": 2,
+    "outputColumnIndex": 1
+  },
+  "reviewInfo": {
+    "reviewsCount": 6,
+    "installationCount": 18,
+    "rating": 4.4
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "{boardId}",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.chat",
+        "title": "Chat",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.assistants-panel",
+        "title": "Assistants Panel",
+        "position": {
+          "x": 4,
+          "y": 33
+        },
+        "dimension": {
+          "x": 50,
+          "y": 13
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "dimension": {
+          "x": 44,
+          "y": 24
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.chat",
+        "title": "Chat",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 1,
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.assistants-panel",
+        "title": "Assistants Panel",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 0,
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {},
+        "columnIndex": 2
+      }
+    }
+  },
+  "storeNodes": [
+    "messages"
+  ]
+}

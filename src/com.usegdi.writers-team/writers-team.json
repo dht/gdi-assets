@@ -1,0 +1,178 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.writers-team",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Writers Team",
+    "index": "{index}",
+    "imageUrl": "/images/boards/z_writer.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "https://www.youtube.com/embed/yz5NuRxs39E",
+    "boardType": "continues",
+    "description": "Writers Team is an essential starting point for many workflows in the GDI ecosystem, to generate script initial content. It offers a straightforward interface for generating AI-driven documents, serving as a foundational tool for further project development. From here, users can take their AI-scripted output to other boards, integrating and building upon it. Whether drafting initial scripts or creating detailed documentation, Writers Team provides a robust platform to produce high-quality, unique content tailored to your project needs.",
+    "descriptionLong": "Writers Team stands as a cornerstone in the GDI ecosystem. It simplifies the initial scripting process with its advanced AI technology, making it a go-to board for generating the foundational documents needed in various workflows. This board's intuitive interface welcomes users of all skill levels to create professional-quality scripts and documents. These AI-crafted outputs serve as the perfect starting point, which can be further developed and refined across the GDI platform. Writers Team is not just a document creator; it's a springboard for innovative project development, ensuring unique, tailored content for every use case.",
+    "oneLiner": "Start your GDI workflow with AI-scripted documents from Writers Team.",
+    "oneLinerShort": "Initiate GDI projects with AI-driven scripting on Writers Team.",
+    "header": "Write about ${prompt}",
+    "fields": [
+      {
+        "label": "input",
+        "content": "Prompt"
+      },
+      {
+        "label": "output",
+        "content": "3d conversation"
+      },
+      {
+        "label": "engines",
+        "content": "LLM #1, LLM #2, ElevenLabs"
+      }
+    ],
+    "tags": [],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x800"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {
+    "turbo-3.5": "OpenAI"
+  },
+  "defaults": {},
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "mobile": {
+    "darkMode": true,
+    "columns": 3,
+    "flowColumnIndex": 2,
+    "outputColumnIndex": 1
+  },
+  "reviewInfo": {
+    "reviewsCount": 6,
+    "installationCount": 40,
+    "rating": 4
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.document",
+        "title": "Document",
+        "position": {
+          "x": 56,
+          "y": 2
+        },
+        "dimension": {
+          "x": 63,
+          "y": 44
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      },
+      "e3a": {
+        "id": "e3a",
+        "widgetId": "com.usegdi.starter.document-bootstrap",
+        "title": "Document Bootstrap",
+        "position": {
+          "x": 5,
+          "y": 2
+        },
+        "dimension": {
+          "x": 48,
+          "y": 18
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {},
+        "flavour": "default"
+      },
+      "e3b": {
+        "id": "e3b",
+        "widgetId": "com.usegdi.starter.writer-panel",
+        "title": "Writer Panel",
+        "position": {
+          "x": 5,
+          "y": 2
+        },
+        "dimension": {
+          "x": 48,
+          "y": 18
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {},
+        "flavour": "adhoc"
+      }
+    },
+    "mobile": {
+      "e3a": {
+        "id": "e3a",
+        "widgetId": "com.usegdi.starter.document-bootstrap",
+        "title": "Document Bootstrap",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {},
+        "flavour": "default",
+        "columnIndex": 0
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.document",
+        "title": "Document",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {},
+        "columnIndex": 1
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {},
+        "columnIndex": 2
+      }
+    }
+  },
+  "storeNodes": [
+    "document",
+    "documentSuggestions"
+  ]
+}

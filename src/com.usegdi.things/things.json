@@ -1,0 +1,88 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.things",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Things",
+    "index": "{index}",
+    "imageUrl": "/images/boards/z_things.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Curate and celebrate your favorite activities and moments with the Favourite Things Collector. From timeless experiences to unique idiosyncrasies, this platform empowers you to collect and cherish an array of cherished memories and delights, fostering a sense of gratitude and joy in your everyday life.",
+    "descriptionLong": "Unleash a sense of joy and gratitude by curating your array of cherished memories and delights with the Favourite Things Collector. Whether they're timeless experiences or unique idiosyncrasies, this platform is designed to celebrate and preserve the beautiful moments that enrich your life, cultivating a greater appreciation for the world around you.",
+    "oneLiner": "Celebrate life's joys with the Favourite Things Collector by curating your cherished memories and delights.",
+    "oneLinerShort": "Curate your cherished memories and delights with the Favourite Things Collector.",
+    "header": "Embrace moments of joy and appreciation through the Favourite Things Collector’s celebration of life's cherished experiences and delights.",
+    "logoColor": "#4A90E2",
+    "fields": [
+      {
+        "label": "name",
+        "content": "String"
+      },
+      {
+        "label": "email",
+        "content": "String"
+      },
+      {
+        "label": "phone",
+        "content": "String"
+      },
+      {
+        "label": "company",
+        "content": "String"
+      }
+    ],
+    "tags": ["contacts", "management", "organization", "productivity", "business"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.things",
+        "title": "Things",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 119,
+          "y": 47
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
+      }
+    },
+    "mobile": {}
+  }
+}

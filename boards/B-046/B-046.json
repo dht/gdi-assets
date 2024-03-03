@@ -1,0 +1,170 @@
+{
+  "id": "B-046",
+  "identifier": "com.usegdi.tdd-studio",
+  "version": "0.1.0",
+  "url": "/boards/B-046",
+  "boardInfo": {
+    "name": "TDD Studio",
+    "index": 46,
+    "imageUrl": "/images/boards/d_tdd.jpg",
+    "videoThumbUrl": "/images/boards/tdd-studio.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Improve your Test-Driven Development (TDD) skills with the TDD Studio board. Streamline the process of writing simple input-output algorithms by constructing pure functions and validating their accuracy through test-case evaluation. Master TDD by efficiently composing tests, providing input-output pairs, and iteratively refining implementations for optimal outcomes.",
+    "descriptionLong": "The TDD Studio board serves as a valuable aid for honing Test-Driven Development proficiency. Enhance your ability to create pure functions and craft effective tests for input-output algorithms. With the ability to efficiently validate input-output pairs and iteratively refine implementations, this board empowers users to achieve robust, reliable, and optimized solutions through TDD.",
+    "oneLiner": "Refine TDD skills with efficient test-case verification and iterative implementation.",
+    "oneLinerShort": "Refine TDD skills with efficient test-case verification.",
+    "header": "streamline TDD process for input-output algorithms and pure functions",
+    "logoColor": "#FF1493",
+    "fields": [
+      {
+        "label": "skills",
+        "content": "TDD, Test Composition, Input-Output Algorithms, Pure Functions"
+      },
+      {
+        "label": "validation",
+        "content": "Test Efficiency, Implementation Refinement"
+      },
+      {
+        "label": "iterative",
+        "content": "Validate, Refine, Optimize"
+      }
+    ],
+    "tags": [
+      "TDD",
+      "test-driven-development",
+      "algorithms",
+      "pure-functions",
+      "test-composition",
+      "efficiency"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x720"
+    ],
+    "tsVersion": "2024-03-07 10:00:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "flowUrl": "/B-046/B-046.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-046",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.regex",
+        "title": "Regex",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 59,
+          "y": 48
+        },
+        "boardId": "B-046",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.regex-doc",
+        "title": "Regex Doc",
+        "position": {
+          "x": 61,
+          "y": 1
+        },
+        "dimension": {
+          "x": 59,
+          "y": 48
+        },
+        "boardId": "B-046",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "B-046",
+        "flags": {}
+      }
+    },
+    "mobile": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.regex",
+        "title": "Regex",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 0,
+        "boardId": "B-046",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.regex-doc",
+        "title": "Regex Doc",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 1,
+        "boardId": "B-046",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      }
+    }
+  }
+}

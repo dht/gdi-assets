@@ -1,23 +1,46 @@
 {
   "id": "B-014",
-  "identifier": "com.usegdi.ppl",
+  "identifier": "com.usegdi.assistants",
   "version": "0.1.0",
   "url": "/boards/B-014",
   "boardInfo": {
-    "name": "PPL",
+    "name": "Assistants",
     "index": 14,
-    "imageUrl": "/images/ppl_thumb.png",
-    "videoThumbUrl": "/images/B-014.mp4",
-    "boardType": "adhoc",
-    "description": "PPL is an innovative board that allows you to explore famous figures alive today and from history. Engage in thought-provoking conversations, ask questions, or chat with virtual representations of these renowned personalities. Whether you seek wisdom from historical icons or insights from contemporary influencers, PPL Explorer offers a unique opportunity to interact with iconic figures and gain valuable knowledge.\n\nWith its user-friendly interface and intuitive functionality, PPL Explorer ensures an immersive and seamless experience for users of all backgrounds. Whether you are a history enthusiast or eager to connect with living legends, PPL Explorer provides a dynamic platform for enriching interactions. Boasting a vast database of famous figures and receiving accolades for its educational value, PPL Explorer has emerged as a revered destination for virtual conversations and insightful exchanges.",
-    "descriptionLong": "PPL is an innovative board that allows you to explore famous figures alive today and from history. Engage in thought-provoking conversations, ask questions, or chat with virtual representations of these renowned personalities. Whether you seek wisdom from historical icons or insights from contemporary influencers, PPL Explorer offers a unique opportunity to interact with iconic figures and gain valuable knowledge.\n\nWith its user-friendly interface and intuitive functionality, PPL Explorer ensures an immersive and seamless experience for users of all backgrounds. Whether you are a history enthusiast or eager to connect with living legends, PPL Explorer provides a dynamic platform for enriching interactions. Boasting a vast database of famous figures and receiving accolades for its educational value, PPL Explorer has emerged as a revered destination for virtual conversations and insightful exchanges.",
-    "oneLiner": "Explore, chat, and engage with famous figures from history and present-day influencers on PPL Explorer, a dynamic platform for virtual interactions and insightful exchanges.",
-    "oneLinerShort": "\"Virtual Conversations with Famous Figures\"",
-    "header": "",
-    "fields": [],
-    "tags": ["history", "interaction", "education", "virtual", "famous figures"],
-    "order": 8,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "imageUrl": "/images/boards/z_assistants.jpg",
+    "videoThumbUrl": "/images/boards/assistants.mp4",
+    "videoUrl": "https://www.youtube.com/embed/JmdpS7bc9C4",
+    "boardType": "continues",
+    "description": "Assistants serves as a gateway to the OpenAI Assistant API, redefining interactions with virtual assistants. This board facilitates the creation of bespoke virtual assistants, leveraging advanced AI akin to GPTs. It offers developers the flexibility to tailor assistants to specific use cases, ranging from personal to business applications. With Assistants, gone are the limitations of generic assistants; instead, users can build assistants that align perfectly with their unique requirements and preferences.",
+    "descriptionLong": "Assistants stands at the forefront of virtual assistant technology, mirroring the conceptual framework of GPTs and tapping into the capabilities of the OpenAI Assistant API. Developers can utilize this board to craft tailored assistant experiences, generating JSON configurations or exploring an extensive library of IO assistants. It's designed to facilitate a deeper level of customization and integration, offering a dynamic platform for creating assistants that truly understand and respond to user needs in a sophisticated, AI-driven manner.",
+    "oneLiner": "Craft tailored virtual assistants using GPT-like AI with Assistants.",
+    "oneLinerShort": "Create bespoke AI assistants akin to GPTs with Assistants.",
+    "header": "show about ${prompt}",
+    "fields": [
+      {
+        "label": "input",
+        "content": "Prompt"
+      },
+      {
+        "label": "output",
+        "content": "3d conversation"
+      },
+      {
+        "label": "engines",
+        "content": "LLM #1, LLM #2, ElevenLabs"
+      }
+    ],
+    "tags": [
+      "animation",
+      "stop motion",
+      "3D",
+      "creativity",
+      "young_artists"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x720"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -26,16 +49,25 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "flowUrl": "/B-014/B-014.flow.json",
-  "apis": {},
+  "apis": {
+    "turbo-3.5": "OpenAI"
+  },
   "defaults": {},
+  "flowUrl": "/B-014/B-014.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-014",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
-  "isWip": true,
+  "mobile": {
+    "darkMode": true,
+    "columns": 3,
+    "flowColumnIndex": 2,
+    "outputColumnIndex": 1
+  },
   "reviewInfo": {
-    "reviewsCount": 0,
-    "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "reviewsCount": 6,
+    "installationCount": 18,
+    "rating": 4.4
   },
   "elements": {
     "default": {
@@ -51,30 +83,8 @@
           "x": 20,
           "y": 6
         },
-        "props": {
-          "darkMode": false
-        },
         "boardId": "B-014",
         "flags": {}
-      },
-      "e2a": {
-        "id": "e2a",
-        "widgetId": "com.usegdi.starter.ppl-switch",
-        "title": "Ppl Switch",
-        "position": {
-          "x": 56,
-          "y": 5
-        },
-        "dimension": {
-          "x": 63,
-          "y": 2
-        },
-        "boardId": "B-014",
-        "flags": {},
-        "flavour": "default",
-        "props": {
-          "sceneUrl": ""
-        }
       },
       "e2": {
         "id": "e2",
@@ -82,11 +92,11 @@
         "title": "Chat",
         "position": {
           "x": 56,
-          "y": 7
+          "y": 4
         },
         "dimension": {
           "x": 63,
-          "y": 39
+          "y": 42
         },
         "boardId": "B-014",
         "flags": {},
@@ -94,41 +104,35 @@
       },
       "e3": {
         "id": "e3",
-        "widgetId": "com.usegdi.starter.ppl-grid",
-        "title": "Ppl grid",
+        "widgetId": "com.usegdi.starter.assistants-panel",
+        "title": "Assistants Panel",
         "position": {
-          "x": 2,
-          "y": 7
+          "x": 4,
+          "y": 33
         },
         "dimension": {
           "x": 50,
-          "y": 39
+          "y": 13
         },
         "boardId": "B-014",
         "flags": {},
-        "flavour": "default",
-        "props": {
-          "sceneUrl": ""
-        }
+        "props": {}
       },
       "e4": {
         "id": "e4",
-        "widgetId": "com.usegdi.starter.ppl-details",
-        "title": "Ppl details",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
         "position": {
-          "x": 2,
+          "x": 5,
           "y": 7
         },
         "dimension": {
-          "x": 50,
-          "y": 39
+          "x": 44,
+          "y": 24
         },
         "boardId": "B-014",
         "flags": {},
-        "flavour": "focus",
-        "props": {
-          "sceneUrl": ""
-        }
+        "props": {}
       }
     },
     "mobile": {
@@ -145,46 +149,47 @@
           "y": 48
         },
         "columnIndex": 1,
-        "boardId": "B-006",
+        "boardId": "B-014",
         "flags": {},
         "props": {}
       },
       "e3": {
         "id": "e3",
-        "widgetId": "com.usegdi.starter.ppl-grid",
-        "title": "Ppl grid",
+        "widgetId": "com.usegdi.starter.assistants-panel",
+        "title": "Assistants Panel",
         "position": {
-          "x": 2,
-          "y": 4
+          "x": 1,
+          "y": 1
         },
         "dimension": {
           "x": 121,
           "y": 48
         },
-        "boardId": "B-014",
         "columnIndex": 0,
+        "boardId": "B-014",
         "flags": {},
-        "flavour": "default",
         "props": {}
       },
       "e4": {
         "id": "e4",
-        "widgetId": "com.usegdi.starter.ppl-details",
-        "title": "Ppl details",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
         "position": {
-          "x": 2,
-          "y": 4
+          "x": 1,
+          "y": 1
         },
         "dimension": {
           "x": 121,
           "y": 48
         },
         "boardId": "B-014",
-        "columnIndex": 0,
         "flags": {},
-        "flavour": "focus",
-        "props": {}
+        "props": {},
+        "columnIndex": 2
       }
     }
-  }
+  },
+  "storeNodes": [
+    "messages"
+  ]
 }

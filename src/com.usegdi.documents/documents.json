@@ -1,0 +1,181 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.documents",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Documents",
+    "index": "{index}",
+    "imageUrl": "/images/boards/z_documents.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Empower collaboration and productivity with Documents. This versatile tool revolutionizes document creation and editing, offering a user-friendly interface, real-time collaborative features, and seamless integration with cloud storage. Whether it's drafting reports, creating presentations, or editing spreadsheets, Documents enhances workflow efficiency for individuals and teams.",
+    "descriptionLong": "Documents is a simple Documents. It combines advanced editing capabilities with cloud-based collaboration, enabling users to work together in real time on a variety of document formats. From basic text editing to complex formatting, Documents delivers an intuitive and robust platform for creative and practical document management.",
+    "oneLiner": "Transform document editing with real-time collaboration and intuitive features.",
+    "oneLinerShort": "Enhance collaboration and productivity in document editing.",
+    "header": "Documents for seamless document collaboration",
+    "logoColor": "#4285F4",
+    "fields": [
+      {
+        "label": "documentType",
+        "content": "String"
+      },
+      {
+        "label": "collaborators",
+        "content": "Array"
+      },
+      {
+        "label": "lastEditedBy",
+        "content": "String"
+      },
+      {
+        "label": "formattingOptions",
+        "content": "Object"
+      }
+    ],
+    "tags": [
+      "document_editing",
+      "collaboration",
+      "productivity",
+      "cloud_integration",
+      "workflow_efficiency"
+    ],
+    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {
+    "previewPath": "/static/document-editor-model.json"
+  },
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 63,
+          "y": 39
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 1,
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    }
+  }
+}

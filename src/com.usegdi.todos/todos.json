@@ -1,0 +1,88 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.todos",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Todos",
+    "index": "{index}",
+    "imageUrl": "/images/boards/z_todos.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Todos Manager is an efficient application designed to help users organize and manage their tasks seamlessly. With intuitive task creation, prioritization, and progress tracking features, users can stay productive while enjoying a stress-free task management experience. Whether for personal or professional use, Todos Manager is the go-to tool for effective task organization.",
+    "descriptionLong": "Todos Manager is your ultimate solution for streamlined task management. This intuitive application offers essential features such as task creation, prioritization, deadline setting, and progress tracking, empowering users to stay organized and productive. Whether managing personal errands or professional projects, Todos Manager simplifies task handling for a stress-free experience.",
+    "oneLiner": "Stay organized and productive with Todos Manager's intuitive task management features.",
+    "oneLinerShort": "Organize tasks with Todos Manager.",
+    "header": "Efficiently manage tasks with Todos Manager's intuitive task organization features.",
+    "logoColor": "#4A90E2",
+    "fields": [
+      {
+        "label": "name",
+        "content": "String"
+      },
+      {
+        "label": "email",
+        "content": "String"
+      },
+      {
+        "label": "phone",
+        "content": "String"
+      },
+      {
+        "label": "company",
+        "content": "String"
+      }
+    ],
+    "tags": ["contacts", "management", "organization", "productivity", "business"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.todos",
+        "title": "Calendar",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 119,
+          "y": 47
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
+      }
+    },
+    "mobile": {}
+  }
+}

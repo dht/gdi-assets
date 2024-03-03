@@ -1,0 +1,156 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.debater-workshop",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Debater's Workshop",
+    "index": "{index}",
+    "imageUrl": "/images/boards/d0.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Develop your critical thinking skills with education centered on logical fallacies, rhetoric, and information analysis. Learn through practical examples and diverse methods that empower you to recognize, evaluate, and respond to different forms of reasoning and argumentation in an informed and analytical manner.",
+    "descriptionLong": "The Debate's Workshop board is your gateway to mastering logical fallacies, rhetoric, and information analysis. Explore diverse methods and real-world examples to sharpen your skills in identifying faulty reasoning, analyzing rhetoric, and critically evaluating information. Gain the expertise to engage in informed, thoughtful, and analytical discourse.",
+    "oneLiner": "Empower critical thinking through practical education and real-world examples.",
+    "oneLinerShort": "Empower critical thinking through practical education.",
+    "header": "education on logical fallacies, rhetoric, and information analysis",
+    "logoColor": "#8A2BE2",
+    "fields": [
+      {
+        "label": "skills",
+        "content": "Logical Fallacies, Rhetoric, Information Analysis"
+      },
+      {
+        "label": "methods",
+        "content": "Practical Examples, Learning by Example, Diverse Methods"
+      },
+      {
+        "label": "focus",
+        "content": "Critical Thinking, Analytical Discourse"
+      }
+    ],
+    "tags": [
+      "critical-thinking",
+      "logical-fallacies",
+      "rhetoric",
+      "information-analysis",
+      "education",
+      "real-world-examples"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x720"
+    ],
+    "tsVersion": "2024-03-01 14:00:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "B-801",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.youtube",
+        "title": "Youtube",
+        "position": {
+          "x": 62,
+          "y": 4
+        },
+        "dimension": {
+          "x": 57,
+          "y": 17
+        },
+        "boardId": "B-801",
+        "flags": {},
+        "props": {
+          "autoSize": true,
+          "videoId": "s0dMTAQM4cw"
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.transcript",
+        "title": "Transcript",
+        "position": {
+          "x": 62,
+          "y": 21
+        },
+        "dimension": {
+          "x": 57,
+          "y": 25
+        },
+        "boardId": "B-004",
+        "flags": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.youtube-layers",
+        "title": "YoutubeLayers",
+        "position": {
+          "x": 2,
+          "y": 8
+        },
+        "dimension": {
+          "x": 57,
+          "y": 9
+        },
+        "boardId": "B-801",
+        "flags": {},
+        "props": {}
+      },
+      "e5": {
+        "id": "e5",
+        "widgetId": "com.usegdi.starter.youtube-layer",
+        "title": "YoutubeLayer",
+        "position": {
+          "x": 2,
+          "y": 17
+        },
+        "dimension": {
+          "x": 57,
+          "y": 29
+        },
+        "boardId": "B-801",
+        "flags": {}
+      }
+    }
+  }
+}

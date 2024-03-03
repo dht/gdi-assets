@@ -1,0 +1,201 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.git-evolution",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Git Evolution",
+    "index": "{index}",
+    "imageUrl": "/images/boards/i_git.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Step into the captivating visual world of your Git project's evolution with the Git Evolution. This immersive tool transforms your codebase history into an animated visual journey, illustrating code contributions, branch activities, and collaborative development. Witness the evolution of your project in an engaging and dynamic presentation reminiscent of Gource's visual storytelling.",
+    "descriptionLong": "The Git Evolution offers a unique perspective on your Git project's evolution. Through dynamic visual animations and interactive displays, it provides a compelling narrative of code contributions, branch activities, and collaborative efforts over time. Experience the power of visual storytelling as your project's history comes to life in an enthralling and captivating presentation.",
+    "oneLiner": "Experience the animated evolution of your Git project's codebase.",
+    "oneLinerShort": "Engage with your project's history through captivating visual storytelling.",
+    "header": "Git Evolution for captivating codebase storytelling",
+    "logoColor": "#FF7043",
+    "fields": [
+      {
+        "label": "codeContributions",
+        "content": "Animation"
+      },
+      {
+        "label": "branchActivities",
+        "content": "Animation"
+      },
+      {
+        "label": "collaborativeDevelopment",
+        "content": "Animation"
+      }
+    ],
+    "tags": [
+      "git",
+      "project_evolution",
+      "visualizer",
+      "code_contributions",
+      "collaborative_development",
+      "storytelling"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {
+    "previewPath": "/static/git-evolution-visualizer-model.json"
+  },
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "{boardId}",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 63,
+          "y": 39
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 1,
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    }
+  }
+}

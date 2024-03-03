@@ -1,0 +1,80 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.flow",
+  "version": "1.0.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Flow",
+    "index": "{index}",
+    "imageUrl": "/images/docs/20.png",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Discover a world of premium royalty-free music with the Envato Elements Music Browser. Explore an extensive library of high-quality tracks for your creative projects. From energetic beats to soothing melodies, find the perfect sound for your content creation needs.",
+    "descriptionLong": "The Envato Elements Music Browser is your gateway to a vast collection of top-tier, royalty-free music. Access an array of genres and moods, ensuring there's always a perfect match for your creative endeavors. Elevate your projects with professional music that enhances the impact and emotive resonance of your content.",
+    "oneLiner": "Access premium royalty-free music with the Envato Elements Music Browser.",
+    "oneLinerShort": "Discover premium royalty-free music.",
+    "header": "gallery of 3D scenes made with BabylonJS",
+    "logoColor": "#32A1F5",
+    "fields": [
+      {
+        "label": "scene",
+        "content": "BabylonJS Playground"
+      },
+      {
+        "label": "description",
+        "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
+      },
+      {
+        "label": "author",
+        "content": "gdi"
+      }
+    ],
+    "tags": ["3D", "BabylonJS", "web-based", "interactive", "virtual_experience"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 120,
+          "y": 48
+        },
+        "boardId": "B-003",
+        "flags": {},
+        "props": {}
+      }
+    },
+    "mobile": {}
+  }
+}

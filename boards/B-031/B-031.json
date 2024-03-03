@@ -1,42 +1,46 @@
 {
   "id": "B-031",
-  "identifier": "com.usegdi.sales",
-  "version": "0.1.0",
+  "identifier": "com.usegdi.babylon-gallery",
+  "version": "1.0.0",
   "url": "/boards/B-031",
   "boardInfo": {
-    "name": "Sales",
+    "name": "Babylon Gallery",
     "index": 31,
-    "imageUrl": "/images/i_sales.jpg",
-    "videoThumbUrl": "/images/B-031.mp4",
-    "videoUrl": "https://www.youtube.com/embed/SALES_PIPELINE_MANAGER_VIDEO_ID",
+    "imageUrl": "/images/boards/z_babylon.jpg",
+    "videoThumbUrl": "/images/boards/babylon-gallery.mp4",
+    "videoUrl": "/images/boards/babylon-gallery.mp4",
     "boardType": "adhoc",
-    "description": "Efficiently track, manage, and optimize sales pipelines with Sales. This comprehensive tool empowers sales teams to visualize, organize, and progress deals through customizable pipelines. From lead acquisition to deal closure, Sales streamlines the sales process, driving productivity and revenue growth.",
-    "descriptionLong": "Sales is designed to be the ultimate ally for sales professionals, offering intuitive features to monitor and advance deals through every stage of the pipeline. With its visual interface and robust functionality, users can gain valuable insights, prioritize tasks, and nurture leads effectively. Elevate your sales performance with Sales.",
-    "oneLiner": "Optimize sales pipelines with Sales's intuitive interface.",
-    "oneLinerShort": "Track, organize, and close deals with ease.",
-    "header": "Sales for enhanced sales performance",
-    "logoColor": "#FF5733",
+    "description": "Explore a captivating gallery of immersive 3D scenes created with BabylonJS. Experience the power of web-based 3D rendering and unleash your creativity with these interactive environments.",
+    "descriptionLong": "Step into the world of breathtaking 3D scenes crafted with BabylonJS. This gallery showcases the remarkable potential of web-based 3D rendering, offering a glimpse into the future of interactive, virtual experiences. Whether you're a developer or an enthusiast, these scenes will ignite your imagination and inspire you to push the boundaries of what's possible.",
+    "oneLiner": "Embark on an immersive journey with the 3D Scene Gallery powered by BabylonJS.",
+    "oneLinerShort": "Discover immersive 3D scenes with BabylonJS.",
+    "header": "gallery of 3D scenes made with BabylonJS",
+    "logoColor": "#32A1F5",
     "fields": [
       {
-        "label": "dealName",
-        "content": "String"
+        "label": "scene",
+        "content": "BabylonJS Playground"
       },
       {
-        "label": "dealValue",
-        "content": "Number"
+        "label": "description",
+        "content": "Immerse yourself in stunning 3D scenes created using BabylonJS."
       },
       {
-        "label": "dealStage",
-        "content": "String"
-      },
-      {
-        "label": "contactName",
-        "content": "String"
+        "label": "author",
+        "content": "gdi"
       }
     ],
-    "tags": ["sales", "pipelines", "CRM", "deals", "productivity", "business"],
-    "order": 3,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tags": [
+      "3D",
+      "BabylonJS",
+      "web-based",
+      "interactive",
+      "virtual_experience"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -47,14 +51,13 @@
   },
   "apis": {},
   "defaults": {
-    "previewPath": "/static/sales-pipeline-model.json"
+    "previewPath": "/static/modelz.json"
   },
   "flowUrl": "/B-031/B-031.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-031",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-031",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
-  "isWip": true,
   "mobile": {
     "hidePrompt": true,
     "darkMode": true
@@ -67,8 +70,26 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.tube",
+        "title": "Tube",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-013",
+        "flags": {},
+        "props": {
+          "flavour": "babylon"
+        }
+      },
+      "e3": {
+        "id": "e3",
         "widgetId": "com.usegdi.starter.logo",
         "title": "Logo",
         "position": {
@@ -82,67 +103,15 @@
         "props": {
           "darkMode": false
         },
-        "boardId": "B-023",
+        "boardId": "B-013",
         "flags": {}
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 56,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 63,
-          "y": 39
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "default",
-        "props": {
-          "showBigWip": true
-        }
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
+        "widgetId": "com.usegdi.starter.tube",
+        "title": "Tube",
         "position": {
           "x": 1,
           "y": 1
@@ -151,46 +120,11 @@
           "x": 121,
           "y": 48
         },
-        "columnIndex": 1,
-        "boardId": "B-023",
+        "boardId": "B-013",
         "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
+        "props": {
+          "flavour": "babylon"
+        }
       }
     }
   }

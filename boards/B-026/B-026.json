@@ -1,48 +1,50 @@
 {
   "id": "B-026",
-  "identifier": "com.usegdi.documents",
+  "identifier": "com.usegdi.fun",
   "version": "0.1.0",
   "url": "/boards/B-026",
   "boardInfo": {
-    "name": "Documents",
+    "name": "Fun",
     "index": 26,
-    "imageUrl": "/images/i_docs.jpg",
-    "videoThumbUrl": "/images/B-026.mp4",
+    "imageUrl": "/images/boards/z_fun.jpg",
+    "videoThumbUrl": "/images/boards/fun.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Empower collaboration and productivity with Documents. This versatile tool revolutionizes document creation and editing, offering a user-friendly interface, real-time collaborative features, and seamless integration with cloud storage. Whether it's drafting reports, creating presentations, or editing spreadsheets, Documents enhances workflow efficiency for individuals and teams.",
-    "descriptionLong": "Documents is a simple Documents. It combines advanced editing capabilities with cloud-based collaboration, enabling users to work together in real time on a variety of document formats. From basic text editing to complex formatting, Documents delivers an intuitive and robust platform for creative and practical document management.",
-    "oneLiner": "Transform document editing with real-time collaboration and intuitive features.",
-    "oneLinerShort": "Enhance collaboration and productivity in document editing.",
-    "header": "Documents for seamless document collaboration",
-    "logoColor": "#4285F4",
+    "description": "Fun is an innovative board within our app that aggregates events, activities, and preferences from other boards to inject excitement and enjoyment into your weekly routine. It intelligently compiles suggestions based on your interests, past activities, and even upcoming local events to ensure there's always something engaging on your horizon. Whether you're looking to break the monotony of daily life or just seeking new experiences, Fun is your go-to source for making every week memorable.",
+    "descriptionLong": "In today's fast-paced world, finding time for fun and relaxation can often fall by the wayside. That's where Fun comes in – a dynamic board designed to seamlessly integrate enjoyment into your weekly schedule. By gathering data from other boards in the app, including your likes, hobbies, and even places you've marked as wanting to visit, Fun offers personalized recommendations to brighten your days. From local concerts and art exhibitions to hobby classes and outdoor adventures, Fun ensures you're never out of options. It even considers your availability and preferences to suggest activities at the perfect time, making it easier than ever to plan your leisure time effectively.",
+    "oneLiner": "Elevate your weeks with Fun, your personalized board for discovering and scheduling enjoyable activities tailored to your interests.",
+    "oneLinerShort": "Inject Fun into Every Week",
+    "header": "Make Every Week Unforgettable with Personalized Fun Activities",
+    "logoColor": "#4A90E2",
     "fields": [
       {
-        "label": "documentType",
+        "label": "name",
         "content": "String"
       },
       {
-        "label": "collaborators",
-        "content": "Array"
-      },
-      {
-        "label": "lastEditedBy",
+        "label": "email",
         "content": "String"
       },
       {
-        "label": "formattingOptions",
-        "content": "Object"
+        "label": "phone",
+        "content": "String"
+      },
+      {
+        "label": "company",
+        "content": "String"
       }
     ],
     "tags": [
-      "document_editing",
-      "collaboration",
+      "contacts",
+      "management",
+      "organization",
       "productivity",
-      "cloud_integration",
-      "workflow_efficiency"
+      "business"
     ],
-    "order": 5,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -52,11 +54,9 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {
-    "previewPath": "/static/document-editor-model.json"
-  },
+  "defaults": {},
   "flowUrl": "/B-026/B-026.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-026",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
@@ -68,135 +68,30 @@
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
-    "rating": 0
+    "rating": 0,
+    "reviews": {}
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.fun",
+        "title": "Fun",
         "position": {
           "x": 2,
           "y": 2
         },
         "dimension": {
-          "x": 20,
-          "y": 6
+          "x": 119,
+          "y": 47
         },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "B-023",
-        "flags": {}
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 56,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
+        "boardId": "B-026",
         "flags": {},
         "props": {
           "showBigWip": true
         }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 63,
-          "y": 39
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
       }
     },
-    "mobile": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "columnIndex": 1,
-        "boardId": "B-023",
-        "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
-      }
-    }
+    "mobile": {}
   }
 }

@@ -1,49 +1,50 @@
 {
   "id": "B-023",
-  "identifier": "com.usegdi.books",
+  "identifier": "com.usegdi.mindfulness",
   "version": "0.1.0",
   "url": "/boards/B-023",
   "boardInfo": {
-    "name": "Books",
+    "name": "Mindfulness",
     "index": 23,
-    "imageUrl": "/images/i_books.jpg",
-    "videoThumbUrl": "/images/B-023.mp4",
+    "imageUrl": "/images/boards/z_mindfulness.jpg",
+    "videoThumbUrl": "/images/boards/mindfulness.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Discover, track, and recommend books with the Books. This platform offers personalized book tracking, reading progress monitoring, and intelligent book recommendations based on your preferences. Whether you're an avid reader or looking for your next great read, Books enriches your reading experience and fosters a vibrant community of book enthusiasts.",
-    "descriptionLong": "Books is your ultimate companion for literary exploration. By seamlessly tracking your reading journey and providing tailored recommendations, it ensures that you stay engaged and inspired. The platform's algorithm learns your reading habits and preferences to offer compelling book suggestions, creating a space where book lovers connect and share their literary discoveries.",
-    "oneLiner": "Enhance your reading experience with personalized book tracking and recommendations.",
-    "oneLinerShort": "Track, discover, and recommend books tailored just for you.",
-    "header": "Books for an enriched literary adventure",
-    "logoColor": "#7E57C2",
+    "description": "Immerse yourself in mindfulness with the Mindfulness Hub, a comprehensive board that enables you to play ambient sounds or guided meditation instructions to enhance your practice. Schedule mindfulness sessions, track your progress, and cultivate inner peace and well-being.",
+    "descriptionLong": "Embrace a journey of mindfulness with the Mindfulness Hub, designed to facilitate a deep sense of calm and well-being. Access ambient sounds and guided meditation instructions to enhance your practice, schedule sessions for consistency, and track your progress as you nurture inner peace and resilience.",
+    "oneLiner": "Cultivate inner peace and well-being with the Mindfulness Hub's comprehensive mindfulness support platform.",
+    "oneLinerShort": "Immerse yourself in mindfulness with the Mindfulness Hub.",
+    "header": "Elevate your mindfulness practice with the Mindfulness Hub's immersive support platform.",
+    "logoColor": "#4A90E2",
     "fields": [
       {
-        "label": "bookTitle",
+        "label": "name",
         "content": "String"
       },
       {
-        "label": "author",
+        "label": "email",
         "content": "String"
       },
       {
-        "label": "readingProgress",
-        "content": "Number"
+        "label": "phone",
+        "content": "String"
       },
       {
-        "label": "recommendations",
-        "content": "Array"
+        "label": "company",
+        "content": "String"
       }
     ],
     "tags": [
-      "book_tracker",
-      "reading_progress",
-      "literary_discoveries",
-      "book_recommendations",
-      "community",
-      "book_enthusiasts"
+      "contacts",
+      "management",
+      "organization",
+      "productivity",
+      "business"
     ],
-    "order": 8,
-    "supportedResolutions": ["1920x1080", "1366x768"],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -55,7 +56,7 @@
   "apis": {},
   "defaults": {},
   "flowUrl": "/B-023/B-023.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-023",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
@@ -67,135 +68,30 @@
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
-    "rating": 0
+    "rating": 0,
+    "reviews": {}
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.mindfulness",
+        "title": "Mindfulness",
         "position": {
           "x": 2,
           "y": 2
         },
         "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "props": {
-          "darkMode": false
-        },
-        "boardId": "B-023",
-        "flags": {}
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 56,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
+          "x": 119,
+          "y": 47
         },
         "boardId": "B-023",
         "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 63,
-          "y": 39
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "default",
         "props": {
           "showBigWip": true
         }
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 63,
-          "y": 42
-        },
-        "boardId": "B-023",
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
       }
     },
-    "mobile": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "columnIndex": 1,
-        "boardId": "B-023",
-        "flags": {},
-        "props": {}
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "default",
-        "props": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.blank",
-        "title": "Blank",
-        "position": {
-          "x": 2,
-          "y": 4
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-023",
-        "columnIndex": 0,
-        "flags": {},
-        "flavour": "focus",
-        "props": {}
-      }
-    }
+    "mobile": {}
   }
 }

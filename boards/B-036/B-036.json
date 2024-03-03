@@ -1,0 +1,209 @@
+{
+  "id": "B-036",
+  "identifier": "com.usegdi.mood-alchemy",
+  "version": "0.1.0",
+  "url": "/boards/B-036",
+  "boardInfo": {
+    "name": "Mood Alchemy",
+    "index": 36,
+    "imageUrl": "/images/boards/i_mood.jpg",
+    "videoThumbUrl": "/images/boards/mood-alchemy.mp4",
+    "videoUrl": "https://www.youtube.com/embed/BIBLIO_THERAPY_VIDEO_ID",
+    "boardType": "adhoc",
+    "description": "Embark on a transformative literary journey tailored to your emotional needs with MoodAlchemy. Experience the power of curated literary works, passages, poems, and multimedia content that uplift and inspire, aligning with your current and desired emotional states. Whether seeking solace, joy, or reflection, MoodAlchemy is your personalized guide to emotional well-being through literature and multimedia art forms.",
+    "descriptionLong": "MoodAlchemy harnesses the potential of literature, poetry, and multimedia to nurture emotional well-being. Using advanced algorithms, it offers carefully selected short reads, book excerpts, poetry, and multimedia content that resonate with your current mood and desired emotional state. By immersing yourself in this transformative experience, you can find solace, motivation, and healing through the power of words and creative expression.",
+    "oneLiner": "Discover emotional well-being through curated literature, poetry, and multimedia art.",
+    "oneLinerShort": "Find solace and inspiration through curated literary and multimedia works.",
+    "header": "MoodAlchemy for personalized emotional well-being",
+    "logoColor": "#9C27B0",
+    "fields": [
+      {
+        "label": "currentMood",
+        "content": "String"
+      },
+      {
+        "label": "desiredMood",
+        "content": "String"
+      },
+      {
+        "label": "readingMaterial",
+        "content": "Array"
+      },
+      {
+        "label": "poems",
+        "content": "Array"
+      },
+      {
+        "label": "shortClips",
+        "content": "Array"
+      }
+    ],
+    "tags": [
+      "MoodAlchemy",
+      "emotional_well-being",
+      "literature",
+      "poetry",
+      "multimedia",
+      "personal_growth"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {
+    "previewPath": "/static/MoodAlchemy-model.json"
+  },
+  "flowUrl": "/B-036/B-036.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-036",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "B-036",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-036",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 63,
+          "y": 39
+        },
+        "boardId": "B-036",
+        "flags": {},
+        "flavour": "default",
+        "props": {
+          "showBigWip": true
+        }
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-036",
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "columnIndex": 1,
+        "boardId": "B-036",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-036",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-036",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
+      }
+    }
+  }
+}

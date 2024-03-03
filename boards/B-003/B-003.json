@@ -6,7 +6,7 @@
   "boardInfo": {
     "name": "Image Generator",
     "index": 3,
-    "imageUrl": "/images/z_paint.jpg",
+    "imageUrl": "/images/boards/z_paint.jpg",
     "videoUrl": "https://www.youtube.com/embed/W2fnrmo0MOM",
     "boardType": "linear",
     "description": "Image Generator simplifies the task of creating AI-generated visuals. Designed for developers and users of all skill levels, it offers an intuitive interface for crafting high-quality images. Utilize state-of-the-art generative AI to produce visuals ranging from practical designs to creative explorations. This tool streamlines the process of transforming your ideas into stunning visuals, ideal for projects requiring unique, AI-generated imagery.",
@@ -37,7 +37,6 @@
       "editor_choice",
       "designers"
     ],
-    "order": 2,
     "supportedResolutions": [
       "1920x1080",
       "1366x768",
@@ -56,7 +55,7 @@
   },
   "defaults": {},
   "flowUrl": "/B-003/B-003.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-003",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-003",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,

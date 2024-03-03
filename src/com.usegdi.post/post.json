@@ -1,0 +1,88 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.post",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Post",
+    "index": "{index}",
+    "imageUrl": "/images/boards/z_post.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Enhance your writing with the Post Writing Assistant, a comprehensive tool that supports the creation of new posts and replies. From grammar checking and wording suggestions to tone and length optimization, this platform provides invaluable assistance to ensure your posts are crafted with clarity, precision, and impact.",
+    "descriptionLong": "Craft impactful posts and replies with the Post Writing Assistant, offering comprehensive support for grammar checking, wording refinement, tone adjustment, and length optimization. Empower your writing process with valuable assistance to ensure that your posts resonate with clarity, precision, and influence.",
+    "oneLiner": "Elevate your posts and replies with the Post Writing Assistant's comprehensive writing support platform.",
+    "oneLinerShort": "Enhance your writing with the Post Writing Assistant.",
+    "header": "Maximize the impact of your posts and replies with comprehensive writing assistance from the Post Writing Assistant.",
+    "logoColor": "#4A90E2",
+    "fields": [
+      {
+        "label": "name",
+        "content": "String"
+      },
+      {
+        "label": "email",
+        "content": "String"
+      },
+      {
+        "label": "phone",
+        "content": "String"
+      },
+      {
+        "label": "company",
+        "content": "String"
+      }
+    ],
+    "tags": ["contacts", "management", "organization", "productivity", "business"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.post",
+        "title": "Post",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 119,
+          "y": 47
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
+      }
+    },
+    "mobile": {}
+  }
+}

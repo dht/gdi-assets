@@ -1,0 +1,18 @@
+{
+  "modelz": {
+    "id": "modelz",
+    "title": "ModelZ Hovercraft",
+    "description": "A 60 seconds futuristic hovercraft ad",
+    "dbPath": "/static/modelz.json",
+    "screenshotUrl": "/static/modelz.png",
+    "dateAdded": "2023-02-08"
+  },
+  "juno": {
+    "id": "juno",
+    "title": "Juno",
+    "description": "A 40 seconds Vision Pro app ad",
+    "dbPath": "/static/juno.json",
+    "screenshotUrl": "/static/juno.png",
+    "dateAdded": "2023-02-08"
+  }
+}

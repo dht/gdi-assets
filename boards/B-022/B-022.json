@@ -1,46 +1,51 @@
 {
   "id": "B-022",
-  "identifier": "com.usegdi.debater-workshop",
+  "identifier": "com.usegdi.post",
   "version": "0.1.0",
   "url": "/boards/B-022",
   "boardInfo": {
-    "name": "Debater's Workshop",
+    "name": "Post",
     "index": 22,
-    "imageUrl": "/images/d0.jpg",
-    "videoThumbUrl": "/images/B-022.mp4",
+    "imageUrl": "/images/boards/z_post.jpg",
+    "videoThumbUrl": "/images/boards/post.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Develop your critical thinking skills with education centered on logical fallacies, rhetoric, and information analysis. Learn through practical examples and diverse methods that empower you to recognize, evaluate, and respond to different forms of reasoning and argumentation in an informed and analytical manner.",
-    "descriptionLong": "The Debate's Workshop board is your gateway to mastering logical fallacies, rhetoric, and information analysis. Explore diverse methods and real-world examples to sharpen your skills in identifying faulty reasoning, analyzing rhetoric, and critically evaluating information. Gain the expertise to engage in informed, thoughtful, and analytical discourse.",
-    "oneLiner": "Empower critical thinking through practical education and real-world examples.",
-    "oneLinerShort": "Empower critical thinking through practical education.",
-    "header": "education on logical fallacies, rhetoric, and information analysis",
-    "logoColor": "#8A2BE2",
+    "description": "Enhance your writing with the Post Writing Assistant, a comprehensive tool that supports the creation of new posts and replies. From grammar checking and wording suggestions to tone and length optimization, this platform provides invaluable assistance to ensure your posts are crafted with clarity, precision, and impact.",
+    "descriptionLong": "Craft impactful posts and replies with the Post Writing Assistant, offering comprehensive support for grammar checking, wording refinement, tone adjustment, and length optimization. Empower your writing process with valuable assistance to ensure that your posts resonate with clarity, precision, and influence.",
+    "oneLiner": "Elevate your posts and replies with the Post Writing Assistant's comprehensive writing support platform.",
+    "oneLinerShort": "Enhance your writing with the Post Writing Assistant.",
+    "header": "Maximize the impact of your posts and replies with comprehensive writing assistance from the Post Writing Assistant.",
+    "logoColor": "#4A90E2",
     "fields": [
       {
-        "label": "skills",
-        "content": "Logical Fallacies, Rhetoric, Information Analysis"
+        "label": "name",
+        "content": "String"
       },
       {
-        "label": "methods",
-        "content": "Practical Examples, Learning by Example, Diverse Methods"
+        "label": "email",
+        "content": "String"
       },
       {
-        "label": "focus",
-        "content": "Critical Thinking, Analytical Discourse"
+        "label": "phone",
+        "content": "String"
+      },
+      {
+        "label": "company",
+        "content": "String"
       }
     ],
     "tags": [
-      "critical-thinking",
-      "logical-fallacies",
-      "rhetoric",
-      "information-analysis",
-      "education",
-      "real-world-examples"
+      "contacts",
+      "management",
+      "organization",
+      "productivity",
+      "business"
     ],
-    "order": 1,
-    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
-    "tsVersion": "2024-03-01 14:00:00"
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
   "dependencies": {
@@ -51,7 +56,7 @@
   "apis": {},
   "defaults": {},
   "flowUrl": "/B-022/B-022.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-022",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
@@ -68,86 +73,25 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.post",
+        "title": "Post",
         "position": {
           "x": 2,
           "y": 2
         },
         "dimension": {
-          "x": 20,
-          "y": 6
+          "x": 119,
+          "y": 47
         },
-        "boardId": "B-801",
-        "flags": {}
-      },
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.youtube",
-        "title": "Youtube",
-        "position": {
-          "x": 62,
-          "y": 4
-        },
-        "dimension": {
-          "x": 57,
-          "y": 17
-        },
-        "boardId": "B-801",
+        "boardId": "B-022",
         "flags": {},
         "props": {
-          "autoSize": true,
-          "videoId": "s0dMTAQM4cw"
+          "showBigWip": true
         }
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.transcript",
-        "title": "Transcript",
-        "position": {
-          "x": 62,
-          "y": 21
-        },
-        "dimension": {
-          "x": 57,
-          "y": 25
-        },
-        "boardId": "B-004",
-        "flags": {}
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.youtube-layers",
-        "title": "YoutubeLayers",
-        "position": {
-          "x": 2,
-          "y": 8
-        },
-        "dimension": {
-          "x": 57,
-          "y": 9
-        },
-        "boardId": "B-801",
-        "flags": {},
-        "props": {}
-      },
-      "e5": {
-        "id": "e5",
-        "widgetId": "com.usegdi.starter.youtube-layer",
-        "title": "YoutubeLayer",
-        "position": {
-          "x": 2,
-          "y": 17
-        },
-        "dimension": {
-          "x": 57,
-          "y": 29
-        },
-        "boardId": "B-801",
-        "flags": {}
       }
-    }
+    },
+    "mobile": {}
   }
 }

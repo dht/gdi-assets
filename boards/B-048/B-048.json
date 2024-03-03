@@ -1,0 +1,136 @@
+{
+  "id": "B-048",
+  "identifier": "com.usegdi.tutorial-maker",
+  "version": "0.1.0",
+  "url": "/boards/b-802",
+  "boardInfo": {
+    "name": "Tutorial Maker",
+    "index": 48,
+    "imageUrl": "/images/boards/z_tutorials.jpg",
+    "videoThumbUrl": "/images/boards/tutorial-maker.mp4",
+    "videoUrl": "https://www.youtube.com/embed/8-GSV_oyjEk?autoplay=1&loop=1",
+    "boardType": "adhoc",
+    "description": "TutorialMaster is a cutting-edge platform designed for educators, enthusiasts, and creators who are passionate about sharing knowledge through video tutorials. With TutorialMaster, users can effortlessly create, organize, and share their tutorials across a wide range of subjects. From step-by-step cooking guides to complex programming lessons, TutorialMaster is equipped with intuitive tools that simplify video production, enhance viewer engagement, and facilitate content management.",
+    "descriptionLong": "TutorialMaster revolutionizes the way knowledge is shared and consumed through video tutorials. It offers a comprehensive suite of tools that cater to the needs of both novice and experienced creators. Key features include an easy-to-use video editor, customizable templates for various tutorial genres, and advanced analytics to track viewer engagement and feedback. TutorialMaster also integrates seamlessly with other boards, allowing users to aggregate content, collaborate with others, and schedule their tutorial releases for maximum impact. Whether you're looking to share a unique skill, educate on a specific topic, or connect with a global audience, TutorialMaster provides a robust platform for all your video tutorial needs.",
+    "oneLiner": "Empower your passion for teaching and sharing knowledge with TutorialMaster, the ultimate platform for creating, organizing, and sharing video tutorials.",
+    "oneLinerShort": "\"Unleash the Power of Knowledge Sharing\"",
+    "header": "Create, Organize, and Share Engaging Video Tutorials with Ease",
+    "fields": [
+      {
+        "label": "input",
+        "content": "Prompt"
+      },
+      {
+        "label": "output",
+        "content": "3d ad"
+      },
+      {
+        "label": "engines",
+        "content": "LLM #1, LLM #2, ElevenLabs"
+      }
+    ],
+    "tags": [
+      "video",
+      "ads",
+      "3D",
+      "media",
+      "top_installed",
+      "editor_choice",
+      "young_professionals"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "sourceUrl": "https://github.com/dht/gdi/tree/staging/web/public/boards/C-022",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "B-007",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.guidance-editor",
+        "title": "Guidance Editor",
+        "position": {
+          "x": 56,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-007",
+        "flags": {},
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.speech-params",
+        "title": "Speech Params",
+        "position": {
+          "x": 5,
+          "y": 23
+        },
+        "dimension": {
+          "x": 48,
+          "y": 23
+        },
+        "boardId": "B-007",
+        "flags": {},
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.video-effects",
+        "title": "Video Effects",
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "dimension": {
+          "x": 48,
+          "y": 14
+        },
+        "boardId": "B-007",
+        "flags": {},
+        "props": {}
+      }
+    }
+  }
+}

@@ -1,39 +1,52 @@
 {
   "id": "B-019",
-  "identifier": "com.usegdi.regex-wizard",
+  "identifier": "com.usegdi.sales",
   "version": "0.1.0",
   "url": "/boards/B-019",
   "boardInfo": {
-    "name": "Regex Wizard",
+    "name": "Sales",
     "index": 19,
-    "imageUrl": "/images/6.jpg",
-    "videoThumbUrl": "/images/B-019.mp4",
-    "videoUrl": "",
+    "imageUrl": "/images/boards/z_sales.jpg",
+    "videoThumbUrl": "/images/boards/sales.mp4",
+    "videoUrl": "https://www.youtube.com/embed/SALES_PIPELINE_MANAGER_VIDEO_ID",
     "boardType": "adhoc",
-    "description": "\"RegexWizard\" is an innovative tool designed to simplify the process of writing and debugging regular expressions. Programming tasks often involve intricate details, and regex can be particularly challenging. With the help of AI technology, this tool streamlines the creation of regex expressions, enabling users to craft accurate and effective patterns. Additionally, RegexWizard aids in identifying errors and inconsistencies, eliminating the need for lengthy and frustrating debugging sessions. Embrace the magic of seamless regex writing with RegexWizard and bid farewell to the complexities associated with this essential programming task.\n\nFeaturing an intuitive interface and powered by AI, RegexWizard revolutionizes the way regular expressions are handled. Its capabilities extend beyond traditional regex tools by offering not only assistance in writing expressions, but also in identifying potential issues. With its vast library of predefined patterns, RegexWizard helps programmers save time and effort by suggesting appropriate syntax and highlighting errors in real-time. Whether you are a novice or an experienced developer, RegexWizard is a game-changing tool that enables you to boost productivity and achieve more accurate results. With over 4000 installations and a solid rating of 4.5, RegexWizard is trusted and endorsed by the programming community. Supported resolutions include 2560x1440 and 3840x2160, ensuring compatibility across various devices and screen sizes.",
-    "descriptionLong": "\"RegexWizard\" is an innovative tool that simplifies the process of writing and debugging regular expressions. Programming tasks often involve intricate details, and regex can be particularly challenging. With the help of AI technology, RegexWizard streamlines the creation of regex expressions, enabling users to craft accurate and effective patterns. This tool also aids in identifying errors and inconsistencies, eliminating the need for lengthy and frustrating debugging sessions. By embracing the magic of seamless regex writing, programmers can bid farewell to the complexities associated with this essential programming task.\n\nFeaturing an intuitive interface and powered by AI, RegexWizard revolutionizes the way regular expressions are handled. It goes beyond traditional regex tools by offering assistance in writing expressions and identifying potential issues. With its vast library of predefined patterns, RegexWizard helps programmers save time and effort by suggesting appropriate syntax and highlighting errors in real-time. Regardless of whether you are a novice or an experienced developer, RegexWizard is a game-changing tool that enhances productivity and delivers more accurate results. With over 4000 installations and a solid rating of 4.5, RegexWizard is trusted and endorsed by the programming community. It is compatible across various devices and screen sizes, supporting resolutions such as 2560x1440 and 3840x2160.",
-    "oneLiner": "Simplify regex writing and debugging with AI-powered assistance, saving time and effort for accurate and effective patterns.",
-    "oneLinerShort": "Simplify regex with AI assistance",
-    "header": "a new take on feeds for the AI era",
+    "description": "Efficiently track, manage, and optimize sales pipelines with Sales. This comprehensive tool empowers sales teams to visualize, organize, and progress deals through customizable pipelines. From lead acquisition to deal closure, Sales streamlines the sales process, driving productivity and revenue growth.",
+    "descriptionLong": "Sales is designed to be the ultimate ally for sales professionals, offering intuitive features to monitor and advance deals through every stage of the pipeline. With its visual interface and robust functionality, users can gain valuable insights, prioritize tasks, and nurture leads effectively. Elevate your sales performance with Sales.",
+    "oneLiner": "Optimize sales pipelines with Sales's intuitive interface.",
+    "oneLinerShort": "Track, organize, and close deals with ease.",
+    "header": "Sales for enhanced sales performance",
     "logoColor": "#FF5733",
     "fields": [
       {
-        "label": "feeds",
-        "content": "X, Reddit, Facebook"
+        "label": "dealName",
+        "content": "String"
       },
       {
-        "label": "era",
-        "content": "AI"
+        "label": "dealValue",
+        "content": "Number"
       },
       {
-        "label": "focus",
-        "content": "Personalization, Relevance, Reliability"
+        "label": "dealStage",
+        "content": "String"
+      },
+      {
+        "label": "contactName",
+        "content": "String"
       }
     ],
-    "tags": ["feeds", "AI", "content discovery", "personalization", "relevance", "information"],
-    "order": 1,
-    "supportedResolutions": ["1920x1080", "1366x768", "1280x720"],
-    "tsVersion": "2024-02-15 09:00:00"
+    "tags": [
+      "sales",
+      "pipelines",
+      "CRM",
+      "deals",
+      "productivity",
+      "business"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
   "dependencies": {
@@ -41,9 +54,12 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "defaults": {},
+  "apis": {},
+  "defaults": {
+    "previewPath": "/static/sales-pipeline-model.json"
+  },
   "flowUrl": "/B-019/B-019.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-019",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-019",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
@@ -60,85 +76,62 @@
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.regex",
-        "title": "Regex",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 59,
-          "y": 48
-        },
-        "boardId": "B-019",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.regex-doc",
-        "title": "Regex Doc",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
-          "x": 61,
-          "y": 1
+          "x": 56,
+          "y": 4
         },
         "dimension": {
-          "x": 59,
-          "y": 48
+          "x": 63,
+          "y": 42
         },
         "boardId": "B-019",
         "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
+        "props": {}
       },
       "e3": {
         "id": "e3",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 2,
-          "y": 2
+          "y": 7
         },
         "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "props": {
-          "darkMode": false
+          "x": 63,
+          "y": 39
         },
         "boardId": "B-019",
-        "flags": {}
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-019",
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
       }
     },
     "mobile": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.regex",
-        "title": "Regex",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "columnIndex": 0,
-        "boardId": "B-019",
-        "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
-      },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.regex-doc",
-        "title": "Regex Doc",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 1,
           "y": 1
@@ -150,9 +143,43 @@
         "columnIndex": 1,
         "boardId": "B-019",
         "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-019",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-019",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
       }
     }
   }

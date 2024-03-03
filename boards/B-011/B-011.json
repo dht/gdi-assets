@@ -1,23 +1,50 @@
 {
   "id": "B-011",
-  "identifier": "com.usegdi.vision-simulator",
+  "identifier": "com.usegdi.finances",
   "version": "0.1.0",
   "url": "/boards/B-011",
   "boardInfo": {
-    "name": "Vision Simulator",
+    "name": "Finances",
     "index": 11,
-    "imageUrl": "/images/b_2.jpg",
-    "videoThumbUrl": "/images/B-011.mp4",
+    "imageUrl": "/images/boards/i_finances.jpg",
+    "videoThumbUrl": "/images/boards/finances.mp4",
+    "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Vision Pro Simulator is a cutting-edge board designed to provide users with a simulated experience of the Apple Vision Pro spatial computing headset. This advanced simulator offers a realistic environment for users to explore the features and functionalities of the Vision Pro headset without the need for physical hardware. With its immersive simulations and interactive interface, Vision Pro Simulator serves as a valuable tool for developers, designers, and enthusiasts looking to understand the capabilities of Apple's innovative spatial computing technology.\n\nExplore the potential of spatial computing through lifelike simulations and interactive scenarios. Vision Pro Simulator offers a seamless experience, allowing users to experiment with spatial mapping, gesture recognition, and immersive AR experiences. Whether you're a seasoned developer or a curious enthusiast, Vision Pro Simulator provides a unique platform to grasp the possibilities offered by the Vision Pro headset.\n\nWith over 5,000 installations and a stellar rating of 4.8, Vision Pro Simulator has garnered praise for its accuracy and user-friendly interface. Take a step into the future of spatial computing and unlock the potential of the Apple Vision Pro headset right at your fingertips!",
-    "descriptionLong": "Vision Pro Simulator is a cutting-edge board designed to provide users with a simulated experience of the Apple Vision Pro spatial computing headset. This advanced simulator offers a realistic environment for users to explore the features and functionalities of the Vision Pro headset without the need for physical hardware. With its immersive simulations and interactive interface, Vision Pro Simulator serves as a valuable tool for developers, designers, and enthusiasts looking to understand the capabilities of Apple's innovative spatial computing technology.\n\nExplore the potential of spatial computing through lifelike simulations and interactive scenarios. Vision Pro Simulator offers a seamless experience, allowing users to experiment with spatial mapping, gesture recognition, and immersive AR experiences. Whether you're a seasoned developer or a curious enthusiast, Vision Pro Simulator provides a unique platform to grasp the possibilities offered by the Vision Pro headset.\n\nWith over 5,000 installations and a stellar rating of 4.8, Vision Pro Simulator has garnered praise for its accuracy and user-friendly interface. Take a step into the future of spatial computing and unlock the potential of the Apple Vision Pro headset right at your fingertips!",
-    "oneLiner": "Experience the future of spatial computing with lifelike simulations of the Apple Vision Pro headset through Vision Pro Simulator.",
-    "oneLinerShort": "\"Explore spatial computing\"",
-    "header": "",
-    "fields": [],
-    "tags": ["spatial computing", "AR", "VR", "simulation"],
-    "order": 11,
-    "supportedResolutions": ["1920x1080", "2560x1440"],
+    "description": "Take control of your finances with Finances. This all-in-one platform enables users to track expenses, manage budgets, set financial goals, and gain valuable insights into their financial health. From expense categorization to investment tracking, Finances offers a comprehensive toolkit to promote financial well-being and informed decision-making.",
+    "descriptionLong": "Finances is designed to empower individuals to make informed financial decisions and achieve their monetary objectives. With intuitive visualizations and robust analysis tools, users can gain a clear understanding of their spending habits, savings progress, and investment performance. Whether managing day-to-day expenses or planning for the future, this platform is your trusted financial companion.",
+    "oneLiner": "Empower yourself with personalized financial management and insightful analytics.",
+    "oneLinerShort": "Track expenses, manage budgets, and achieve financial goals effortlessly.",
+    "header": "Finances for holistic financial well-being",
+    "logoColor": "#4CAF50",
+    "fields": [
+      {
+        "label": "expenseCategory",
+        "content": "String"
+      },
+      {
+        "label": "budgetAllocation",
+        "content": "Object"
+      },
+      {
+        "label": "investmentPerformance",
+        "content": "Array"
+      },
+      {
+        "label": "financialGoals",
+        "content": "Object"
+      }
+    ],
+    "tags": [
+      "personal_finance",
+      "expense_tracking",
+      "budget_management",
+      "investment_tracking",
+      "financial_goals"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -26,65 +53,83 @@
     "@gdi/ui": "^1.0.0",
     "@gdi/widgets-starter": "^1.0.0"
   },
-  "flowUrl": "/B-011/B-011.flow.json",
-  "examplesUrl": "/B-011/B-011.examples.json",
   "apis": {},
   "defaults": {
-    "exampleId": "vision-pro",
-    "setupId": "vision-pro"
+    "previewPath": "/static/personal-finances-model.json"
   },
-  "isWip": true,
+  "flowUrl": "/B-011/B-011.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-011",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
   "reviewInfo": {
     "reviewsCount": 0,
     "installationCount": 0,
-    "rating": 0,
-    "reviews": {}
+    "rating": 0
   },
   "elements": {
     "default": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.vision-simulator",
-        "title": "Vision Simulator",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
-          "x": 1,
-          "y": 1
+          "x": 56,
+          "y": 4
         },
         "dimension": {
-          "x": 121,
-          "y": 48
+          "x": 63,
+          "y": 42
         },
         "boardId": "B-011",
         "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
+        "props": {}
       },
       "e3": {
         "id": "e3",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 2,
-          "y": 2
+          "y": 7
         },
         "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "props": {
-          "darkMode": false
+          "x": 63,
+          "y": 39
         },
         "boardId": "B-011",
-        "flags": {}
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 63,
+          "y": 42
+        },
+        "boardId": "B-011",
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.vision-simulator",
-        "title": "Vision Simulator",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
         "position": {
           "x": 1,
           "y": 1
@@ -93,11 +138,46 @@
           "x": 121,
           "y": 48
         },
+        "columnIndex": 1,
         "boardId": "B-011",
         "flags": {},
-        "props": {
-          "sceneUrl": ""
-        }
+        "props": {}
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-011",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "default",
+        "props": {}
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.blank",
+        "title": "Blank",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-011",
+        "columnIndex": 0,
+        "flags": {},
+        "flavour": "focus",
+        "props": {}
       }
     }
   }

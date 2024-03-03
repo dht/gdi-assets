@@ -1,28 +1,46 @@
 {
   "id": "B-009",
-  "identifier": "com.usegdi.asset-manager",
+  "identifier": "com.usegdi.calendar",
   "version": "0.1.0",
   "url": "/boards/B-009",
   "boardInfo": {
-    "name": "Asset Manager",
+    "name": "Calendar",
     "index": 9,
-    "imageUrl": "/images/10.jpg",
-    "videoThumbUrl": "/images/B-009.mp4",
-    "videoUrl": "https://www.youtube.com/embed/PJkWAnKCdyQ",
+    "imageUrl": "/images/boards/z_calendar.jpg",
+    "videoThumbUrl": "/images/boards/calendar.mp4",
+    "videoUrl": "",
     "boardType": "adhoc",
-    "description": "Asset Manager is a utility board essential for organizing and managing a diverse range of digital assets, from images and textual documents to background music, voice recordings, and even JSONs of 3D scenes. It offers an efficient way to import external assets and integrate them with those created in other boards. The board facilitates tagging, grouping by projects, and managing assets as easily as navigating a filesystem. Its versatility makes it ideal for users who need to maintain an organized repository of various digital elements for their projects.",
-    "descriptionLong": "Asset Manager is designed to be the backbone of asset organization within your project workflows, accommodating everything from images and textual content to audio files and 3D scene JSONs. This board simplifies the process of handling diverse digital assets, providing functionalities akin to a robust filesystem. Users can import assets from external sources, categorize them with multiple tags, and organize them into project-specific groups. Asset Manager’s interface is intuitive, allowing for easy navigation, copying, moving, and management of assets. It’s an indispensable utility for anyone dealing with a multitude of digital components, streamlining the asset management process and ensuring efficient access and organization.",
-    "oneLiner": "Efficiently manage a wide range of digital assets with Asset Manager, your go-to board for organized asset control.",
-    "oneLinerShort": "Centralize and streamline asset management with Asset Manager.",
-    "header": "",
-    "fields": [],
-    "tags": [
-      "asset management",
-      "images",
-      "voice files",
-      "3D objects"
+    "description": "Calendar Manager is a user-friendly app designed to efficiently manage meetings and events. Stay organized, set reminders, and streamline your scheduling process with ease. This intuitive tool is perfect for professionals and individuals seeking effective time management and productivity.",
+    "descriptionLong": "Empower yourself with Calendar Manager, the ultimate solution for managing meetings and events. This user-friendly app offers essential features, including schedule organization, customizable alerts, and seamless event management. Whether for personal or professional use, Calendar Manager is your go-to tool for efficient time planning and execution.",
+    "oneLiner": "Streamline your scheduling with Calendar Manager's intuitive meeting and event management.",
+    "oneLinerShort": "Streamline scheduling with Calendar Manager.",
+    "header": "Efficiently manage meetings and events with Calendar Manager.",
+    "logoColor": "#4A90E2",
+    "fields": [
+      {
+        "label": "name",
+        "content": "String"
+      },
+      {
+        "label": "email",
+        "content": "String"
+      },
+      {
+        "label": "phone",
+        "content": "String"
+      },
+      {
+        "label": "company",
+        "content": "String"
+      }
     ],
-    "order": 9,
+    "tags": [
+      "contacts",
+      "management",
+      "organization",
+      "productivity",
+      "business"
+    ],
     "supportedResolutions": [
       "1920x1080",
       "1366x768"
@@ -38,169 +56,42 @@
   "apis": {},
   "defaults": {},
   "flowUrl": "/B-009/B-009.flow.json",
-  "isActive": true,
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-009",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
   "mobile": {
-    "darkMode": true,
-    "columns": 2,
-    "hidePrompt": true
+    "hidePrompt": true,
+    "darkMode": true
   },
   "reviewInfo": {
-    "reviewsCount": 2,
-    "installationCount": 30,
-    "rating": 4
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
-        "position": {
-          "x": 2,
-          "y": 2
-        },
-        "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "boardId": "B-009",
-        "flags": {}
-      },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.asset-preview",
-        "title": "Chat",
-        "position": {
-          "x": 62,
-          "y": 7
-        },
-        "dimension": {
-          "x": 58,
-          "y": 39
-        },
-        "boardId": "B-009",
-        "flags": {},
-        "props": {},
-        "flavour": "viewer"
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.asset-list",
-        "title": "Asset List #2",
-        "position": {
-          "x": 62,
-          "y": 7
-        },
-        "dimension": {
-          "x": 58,
-          "y": 39
-        },
-        "boardId": "B-009",
-        "flags": {},
-        "props": {
-          "listId": "right"
-        },
-        "flavour": "default"
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.asset-list",
-        "title": "Asset List #1",
+        "widgetId": "com.usegdi.starter.calendar",
+        "title": "Calendar",
         "position": {
           "x": 2,
-          "y": 7
-        },
-        "dimension": {
-          "x": 58,
-          "y": 39
-        },
-        "boardId": "B-009",
-        "flags": {},
-        "props": {
-          "listId": "left"
-        }
-      },
-      "e5": {
-        "id": "e5",
-        "widgetId": "com.usegdi.starter.asset-new",
-        "title": "Asset New",
-        "position": {
-          "x": 24,
           "y": 2
         },
         "dimension": {
-          "x": 96,
-          "y": 4
+          "x": 119,
+          "y": 47
         },
         "boardId": "B-009",
         "flags": {},
         "props": {
-          "listId": "left"
+          "showBigWip": true
         }
       }
     },
-    "mobile": {
-      "e2": {
-        "id": "e2",
-        "widgetId": "com.usegdi.starter.asset-preview",
-        "title": "Chat",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-009",
-        "flags": {},
-        "props": {},
-        "columnIndex": 1,
-        "flavour": "viewer"
-      },
-      "e3": {
-        "id": "e3",
-        "widgetId": "com.usegdi.starter.asset-list",
-        "title": "Asset List #2",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-009",
-        "flags": {},
-        "props": {
-          "listId": "right"
-        },
-        "flavour": "default"
-      },
-      "e4": {
-        "id": "e4",
-        "widgetId": "com.usegdi.starter.asset-list",
-        "title": "Asset List #1",
-        "position": {
-          "x": 1,
-          "y": 1
-        },
-        "dimension": {
-          "x": 121,
-          "y": 48
-        },
-        "boardId": "B-009",
-        "flags": {},
-        "props": {
-          "listId": "left"
-        },
-        "columnIndex": 0
-      }
-    }
-  },
-  "storeNodes": [
-    "assets"
-  ]
+    "mobile": {}
+  }
 }

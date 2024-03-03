@@ -1,0 +1,88 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.balance",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Balance",
+    "index": "{index}",
+    "imageUrl": "/images/boards/z_balance.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "The Life Balance Tool helps users allocate and manage their time across different domains of life. It enables users to monitor the time invested in various activities and produce real-time statistics and graphs. By ensuring a balanced distribution of time among different pillars of life, users can achieve a well-rounded and fulfilling lifestyle.",
+    "descriptionLong": "Achieve a harmonious lifestyle with the Life Balance Tool, a comprehensive solution for managing and monitoring your time across diverse domains of life. From work and family to health and personal growth, this tool provides real-time statistics and graphical insights, empowering users to allocate their time effectively and foster a balanced and fulfilling life.",
+    "oneLiner": "Achieve balance and fulfillment by allocating time wisely with the Life Balance Tool's real-time statistics and graphs.",
+    "oneLinerShort": "Achieve balance and fulfillment with the Life Balance Tool.",
+    "header": "Manage and monitor your time allocation across life domains with real-time insights from the Life Balance Tool.",
+    "logoColor": "#4A90E2",
+    "fields": [
+      {
+        "label": "name",
+        "content": "String"
+      },
+      {
+        "label": "email",
+        "content": "String"
+      },
+      {
+        "label": "phone",
+        "content": "String"
+      },
+      {
+        "label": "company",
+        "content": "String"
+      }
+    ],
+    "tags": ["contacts", "management", "organization", "productivity", "business"],
+    "supportedResolutions": ["1920x1080", "1366x768"],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-002",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.balance",
+        "title": "Calendar",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 119,
+          "y": 47
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "showBigWip": true
+        }
+      }
+    },
+    "mobile": {}
+  }
+}

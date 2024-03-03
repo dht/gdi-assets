@@ -1,6 +1,6 @@
 {
   "flowConfig": {
-    "flowId": "fb-027",
+    "flowId": "fb-locations",
     "name": "Simple chat",
     "flowType": "continues",
     "output": {
@@ -11,8 +11,8 @@
   },
   "flowApis": {},
   "flowAssistants": {
-    "as-027-chat": {
-      "id": "as-027-chat",
+    "as-locations-chat": {
+      "id": "as-locations-chat",
       "name": "Chat",
       "description": "Helpful assistant that provides a conversation about a topic.",
       "instructions": "You are a helpful assistant",
@@ -26,7 +26,7 @@
       "id": "n-001",
       "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-027-chat",
+      "assistantId": "as-locations-chat",
       "input": {
         "prompt": "${prompt}"
       },
@@ -38,8 +38,13 @@
       "completionParams": {
         "maxTokens": 200
       },
-      "position": { "x": 250, "y": 0 },
-      "connectors": ["n-002"],
+      "position": {
+        "x": 250,
+        "y": 0
+      },
+      "connectors": [
+        "n-002"
+      ],
       "isStart": true
     },
     "n-002": {
@@ -47,7 +52,10 @@
       "name": "Respond",
       "nodeType": "outcome",
       "parentId": "n-001",
-      "position": { "x": 250, "y": 150 },
+      "position": {
+        "x": 250,
+        "y": 150
+      },
       "isEnd": true
     }
   }

@@ -1,0 +1,152 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.tube",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "GDI Tube",
+    "index": "{index}",
+    "imageUrl": "/images/boards/c0.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "boardType": "adhoc",
+    "description": "GDI Tube is a board where you can experience real-time generated videos crafted with AI-powered assets. Explore a diverse range of videos powered by the BabylonJS 3d Engine, offering captivating and engaging content for viewers of all interests. From educational animations to visually stunning art pieces, GDITube offers an unparalleled viewing experience like never before.\n\nWith its user-friendly interface and intuitive functionality, GDITube ensures an immersive and seamless experience for both content creators and viewers. Whether you are looking for educational content or entertainment, GDITube has something for everyone. Boasting over 100,000 video uploads and a stellar rating of 4.8, GDITube has become a trusted platform for AI-generated content, providing flawless support for multiple resolutions. Experience the future of video content creation and consumption with GDITube!",
+    "descriptionLong": "GDI Tube is a board where you can experience real-time generated videos crafted with AI-powered assets. Explore a diverse range of videos powered by the BabylonJS 3d Engine, offering captivating and engaging content for viewers of all interests. From educational animations to visually stunning art pieces, GDITube offers an unparalleled viewing experience like never before.\n\nWith its user-friendly interface and intuitive functionality, GDITube ensures an immersive and seamless experience for both content creators and viewers. Whether you are looking for educational content or entertainment, GDITube has something for everyone. Boasting over 100,000 video uploads and a stellar rating of 4.8, GDITube has become a trusted platform for AI-generated content, providing flawless support for multiple resolutions. Experience the future of video content creation and consumption with GDITube!",
+    "oneLiner": "Experience the future of video content creation and consumption with GDITube, a platform showcasing real-time generated videos crafted with AI-powered assets.",
+    "oneLinerShort": "\"The future of AI-generated videos\"",
+    "header": "",
+    "fields": [],
+    "tags": [
+      "video",
+      "AI",
+      "content creation",
+      "entertainment"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "mobile": {
+    "hidePrompt": true,
+    "hideArrows": true,
+    "darkMode": true,
+    "columns": 2
+  },
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "apis": {},
+  "defaults": {},
+  "isActive": true,
+  "isWip": true,
+  "reviewInfo": {
+    "reviewsCount": 2,
+    "installationCount": 5,
+    "rating": 4.2
+  },
+  "elements": {
+    "default": {
+      "e2a": {
+        "id": "e2a",
+        "widgetId": "com.usegdi.starter.tube",
+        "title": "Tube",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "flavour": "default",
+        "props": {
+          "flavour": "tube"
+        }
+      },
+      "e2b": {
+        "id": "e2b",
+        "widgetId": "com.usegdi.starter.tube-details",
+        "title": "Tube",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "flavour": "item",
+        "props": {
+          "flavour": "tube"
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "{boardId}",
+        "flags": {}
+      }
+    },
+    "mobile": {
+      "e2a": {
+        "id": "e2a",
+        "widgetId": "com.usegdi.starter.tube",
+        "title": "Tube",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "flavour": "tube"
+        },
+        "columnIndex": 0
+      },
+      "e2b": {
+        "id": "e2b",
+        "widgetId": "com.usegdi.starter.tube-details",
+        "title": "Tube",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "flavour": "tube"
+        },
+        "columnIndex": 1
+      }
+    }
+  }
+}

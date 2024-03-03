@@ -1,45 +1,27 @@
 {
   "id": "B-001",
-  "identifier": "com.usegdi.3d-ad-creator",
+  "identifier": "com.usegdi.asset-manager",
   "version": "0.1.0",
   "url": "/boards/B-001",
   "boardInfo": {
-    "name": "3D Ad Creator",
+    "name": "Asset Manager",
     "index": 1,
-    "imageUrl": "/images/z_3d.jpg",
-    "videoThumbUrl": "/images/B-001.mp4",
-    "videoUrl": "https://www.youtube.com/embed/c7jAhBZgZuI",
+    "imageUrl": "/images/boards/10.jpg",
+    "videoThumbUrl": "/images/boards/asset-manager.mp4",
+    "videoUrl": "https://www.youtube.com/embed/PJkWAnKCdyQ",
     "boardType": "adhoc",
-    "description": "3D Ad Creator redefines digital advertising by enabling the creation of immersive 3D video ads with ease. Leveraging advanced AI technology, it allows both novices and professionals to craft engaging content effortlessly. This tool transforms ad creation into an intuitive and rewarding experience, ensuring your message captivates and resonates with audiences.",
-    "descriptionLong": "The 3D Ad Creator stands as a cornerstone in digital advertising innovation. Its state-of-the-art AI technology facilitates the creation of mesmerizing 3D video advertisements. The platform is designed for creators at every skill level, simplifying the process while delivering high-quality, impactful results. The 3D Ad Creator is not just a tool; it's a gateway to creating ads that leave a lasting impression.",
-    "oneLiner": "Elevate digital advertising with 3D Ad Creator's AI-driven, immersive video ads.",
-    "oneLinerShort": "Elevate ads with AI-driven 3D videos.",
-    "header": "commercial for a ${topic}",
-    "logoColor": "#565",
-    "fields": [
-      {
-        "label": "input",
-        "content": "Prompt"
-      },
-      {
-        "label": "output",
-        "content": "3d ad"
-      },
-      {
-        "label": "engines",
-        "content": "LLM #1, LLM #2, ElevenLabs"
-      }
-    ],
+    "description": "Asset Manager is a utility board essential for organizing and managing a diverse range of digital assets, from images and textual documents to background music, voice recordings, and even JSONs of 3D scenes. It offers an efficient way to import external assets and integrate them with those created in other boards. The board facilitates tagging, grouping by projects, and managing assets as easily as navigating a filesystem. Its versatility makes it ideal for users who need to maintain an organized repository of various digital elements for their projects.",
+    "descriptionLong": "Asset Manager is designed to be the backbone of asset organization within your project workflows, accommodating everything from images and textual content to audio files and 3D scene JSONs. This board simplifies the process of handling diverse digital assets, providing functionalities akin to a robust filesystem. Users can import assets from external sources, categorize them with multiple tags, and organize them into project-specific groups. Asset Manager’s interface is intuitive, allowing for easy navigation, copying, moving, and management of assets. It’s an indispensable utility for anyone dealing with a multitude of digital components, streamlining the asset management process and ensuring efficient access and organization.",
+    "oneLiner": "Efficiently manage a wide range of digital assets with Asset Manager, your go-to board for organized asset control.",
+    "oneLinerShort": "Centralize and streamline asset management with Asset Manager.",
+    "header": "",
+    "fields": [],
     "tags": [
-      "video",
-      "ads",
-      "3D",
-      "media",
-      "top_installed",
-      "editor_choice",
-      "young_professionals"
+      "asset management",
+      "images",
+      "voice files",
+      "3D objects"
     ],
-    "order": 1,
     "supportedResolutions": [
       "1920x1080",
       "1366x768"
@@ -53,66 +35,101 @@
     "@gdi/widgets-starter": "^1.0.0"
   },
   "apis": {},
-  "defaults": {
-    "exampleId": "modelz"
-  },
-  "examplesUrl": "/B-001/B-001.examples.json",
+  "defaults": {},
   "flowUrl": "/B-001/B-001.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-001",
-  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
-  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/B-001",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "mobile": {
-    "hidePrompt": true,
-    "darkMode": true
+    "darkMode": true,
+    "columns": 2,
+    "hidePrompt": true
   },
   "reviewInfo": {
-    "reviewsCount": 5,
-    "installationCount": 35,
-    "rating": 4.5
+    "reviewsCount": 2,
+    "installationCount": 30,
+    "rating": 4
   },
   "elements": {
     "default": {
-      "e1": {
-        "id": "e1",
-        "widgetId": "com.usegdi.starter.logo",
-        "title": "Logo",
-        "position": {
-          "x": 2,
-          "y": 2
-        },
-        "dimension": {
-          "x": 20,
-          "y": 6
-        },
-        "boardId": "B-009",
-        "flags": {},
-        "props": {
-          "darkMode": true
-        }
-      },
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.bit-builder",
-        "title": "sixty",
+        "widgetId": "com.usegdi.starter.asset-preview",
+        "title": "Chat",
         "position": {
-          "x": 1,
-          "y": 1
+          "x": 62,
+          "y": 7
         },
         "dimension": {
-          "x": 121,
-          "y": 47
+          "x": 58,
+          "y": 39
         },
         "boardId": "B-001",
         "flags": {},
-        "props": {}
+        "props": {},
+        "flavour": "viewer"
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.asset-list",
+        "title": "Asset List #2",
+        "position": {
+          "x": 62,
+          "y": 7
+        },
+        "dimension": {
+          "x": 58,
+          "y": 39
+        },
+        "boardId": "B-001",
+        "flags": {},
+        "props": {
+          "listId": "right"
+        },
+        "flavour": "default"
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.asset-list",
+        "title": "Asset List #1",
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "dimension": {
+          "x": 58,
+          "y": 39
+        },
+        "boardId": "B-001",
+        "flags": {},
+        "props": {
+          "listId": "left"
+        }
+      },
+      "e5": {
+        "id": "e5",
+        "widgetId": "com.usegdi.starter.asset-new",
+        "title": "Asset New",
+        "position": {
+          "x": 24,
+          "y": 2
+        },
+        "dimension": {
+          "x": 96,
+          "y": 4
+        },
+        "boardId": "B-001",
+        "flags": {},
+        "props": {
+          "listId": "left"
+        }
       }
     },
     "mobile": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.bit-builder",
-        "title": "sixty",
+        "widgetId": "com.usegdi.starter.asset-preview",
+        "title": "Chat",
         "position": {
           "x": 1,
           "y": 1
@@ -123,21 +140,51 @@
         },
         "boardId": "B-001",
         "flags": {},
-        "props": {}
+        "props": {},
+        "columnIndex": 1,
+        "flavour": "viewer"
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.asset-list",
+        "title": "Asset List #2",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-001",
+        "flags": {},
+        "props": {
+          "listId": "right"
+        },
+        "flavour": "default"
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.asset-list",
+        "title": "Asset List #1",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-001",
+        "flags": {},
+        "props": {
+          "listId": "left"
+        },
+        "columnIndex": 0
       }
     }
   },
   "storeNodes": [
-    "sceneConfig",
-    "sceneCameras",
-    "sceneLights",
-    "sceneBits",
-    "sceneMeshes",
-    "scenePacks",
-    "sceneVASPs",
-    "sceneDots",
-    "sceneExternals",
-    "sceneAudios",
-    "sceneEffects"
+    "assets"
   ]
 }

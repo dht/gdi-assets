@@ -1,0 +1,131 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.periscope",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Periscope",
+    "index": "{index}",
+    "imageUrl": "/images/boards/d3.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "videoUrl": "",
+    "boardType": "adhoc",
+    "description": "Gain comprehensive insights with Periscope. Explore diverse perspectives, uncover information, and find varying opinions on a particular focus. Seamlessly shift through different angles and narratives to gain a multifaceted understanding of the subject, supported by varied sources, videos, and imagery.",
+    "descriptionLong": "Periscope is your tool for in-depth exploration of, well, anything, offering a holistic view of the subject matter. By placing the focus at the center, this board presents diverse perspectives from multiple sources, providing a rich narrative woven from various angles. Dive into comprehensive information, videos, imagery, and more to gain a nuanced understanding.",
+    "oneLiner": "Explore multifaceted perspectives with Periscope.",
+    "oneLinerShort": "Explore multifaceted perspectives.",
+    "header": "comprehensive insights gathered around a focus from diverse sources",
+    "logoColor": "#FF5733",
+    "fields": [
+      {
+        "label": "focus",
+        "content": "Individuals, Events"
+      },
+      {
+        "label": "information",
+        "content": "Multiple Angles, Varied Sources"
+      },
+      {
+        "label": "media",
+        "content": "Videos, Imagery, Text"
+      }
+    ],
+    "tags": [
+      "Periscope",
+      "multi-perspective",
+      "comprehensive-insights",
+      "focused-exploration",
+      "varied-sources"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "1366x768",
+      "1280x720"
+    ],
+    "tsVersion": "2024-02-25 11:00:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "apis": {},
+  "defaults": {},
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/staging/boards/{boardId}",
+  "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
+  "vscodeUrl": "https://vscode.dev/github/dht/gdi",
+  "isActive": true,
+  "isWip": true,
+  "mobile": {
+    "hidePrompt": true,
+    "darkMode": true
+  },
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.periscope",
+        "title": "Periscope",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "props": {
+          "darkMode": false
+        },
+        "boardId": "{boardId}",
+        "flags": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.periscope",
+        "title": "Periscope",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "{boardId}",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      }
+    }
+  }
+}

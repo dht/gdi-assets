@@ -1,0 +1,285 @@
+{
+  "id": "{boardId}",
+  "identifier": "com.usegdi.spotlight",
+  "version": "0.1.0",
+  "url": "/boards/{boardId}",
+  "boardInfo": {
+    "name": "Spotlight",
+    "index": "{index}",
+    "imageUrl": "/images/boards/b_0.jpg",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
+    "boardType": "adhoc",
+    "description": "Spotlight is a powerful board that generates a 30-second 3D advertisement based on user-provided prompts. With its advanced AI-driven engine, Spotlight is capable of crafting captivating promotional content with dynamic camera movements, scripted voiceovers, and immersive visuals. This innovative tool opens up a world of creative possibilities for businesses and individuals seeking high-quality promotional material.\n\nLeverage the creative potential of Spotlight to bring your ideas to life. Whether it's for product launches, marketing campaigns, or social media promotions, Spotlight offers a seamless solution for generating engaging 3D advertisements. From vibrant visuals to compelling narratives, the 30-second ad produced by Spotlight is tailor-made to captivate audiences and drive engagement.\n\nEmpower your promotional efforts with Spotlight's intuitive interface and customizable options. Witness your vision come to life as Spotlight crafts a stunning 3D advertisement that reflects your unique brand identity and messaging. Release the power of compelling 3D ads and elevate your promotional strategies with the unparalleled capabilities of Spotlight!",
+    "descriptionLong": "Spotlight is a powerful board that generates a 30-second 3D advertisement based on user-provided prompts. With its advanced AI-driven engine, Spotlight is capable of crafting captivating promotional content with dynamic camera movements, scripted voiceovers, and immersive visuals. This innovative tool opens up a world of creative possibilities for businesses and individuals seeking high-quality promotional material.\n\nLeverage the creative potential of Spotlight to bring your ideas to life. Whether it's for product launches, marketing campaigns, or social media promotions, Spotlight offers a seamless solution for generating engaging 3D advertisements. From vibrant visuals to compelling narratives, the 30-second ad produced by Spotlight is tailor-made to captivate audiences and drive engagement.\n\nEmpower your promotional efforts with Spotlight's intuitive interface and customizable options. Witness your vision come to life as Spotlight crafts a stunning 3D advertisement that reflects your unique brand identity and messaging. Release the power of compelling 3D ads and elevate your promotional strategies with the unparalleled capabilities of Spotlight!",
+    "oneLiner": "Unleash the power of 3D advertisement generation with Spotlight's AI-driven engine and captivating visuals.",
+    "oneLinerShort": "\"AI 3D ad generation\"",
+    "header": "",
+    "fields": [],
+    "tags": [
+      "advertising",
+      "3D",
+      "marketing",
+      "AI"
+    ],
+    "supportedResolutions": [
+      "1920x1080",
+      "3840x2160"
+    ],
+    "tsVersion": "2024-02-03 14:44:00"
+  },
+  "author": "gdi",
+  "dependencies": {
+    "@gdi/store-base": "^1.0.0",
+    "@gdi/ui": "^1.0.0",
+    "@gdi/widgets-starter": "^1.0.0"
+  },
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "apis": {},
+  "defaults": {
+    "setupId": "helmet",
+    "exampleId": "helmet"
+  },
+  "examplesUrl": "/{boardId}/{boardId}.examples.json",
+  "isActive": true,
+  "isWip": true,
+  "reviewInfo": {
+    "reviewsCount": 0,
+    "installationCount": 0,
+    "rating": 0,
+    "reviews": {}
+  },
+  "elements": {
+    "default": {
+      "e1": {
+        "id": "e1",
+        "widgetId": "com.usegdi.starter.logo",
+        "title": "Logo",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "dimension": {
+          "x": 20,
+          "y": 6
+        },
+        "boardId": "B-004",
+        "flags": {}
+      },
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.spotlight",
+        "title": "spotlight",
+        "position": {
+          "x": 56,
+          "y": 2
+        },
+        "dimension": {
+          "x": 63,
+          "y": 24
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        }
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.transcript",
+        "title": "Transcript",
+        "position": {
+          "x": 56,
+          "y": 27
+        },
+        "dimension": {
+          "x": 63,
+          "y": 19
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "flavour": "outcome"
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "dimension": {
+          "x": 44,
+          "y": 32
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "props": {}
+      },
+      "e6": {
+        "id": "e6",
+        "widgetId": "com.usegdi.starter.playback",
+        "title": "Playback",
+        "position": {
+          "x": 57,
+          "y": 3
+        },
+        "dimension": {
+          "x": 25,
+          "y": 5
+        },
+        "boardId": "B-004",
+        "flags": {}
+      },
+      "e7": {
+        "id": "e7",
+        "widgetId": "com.usegdi.starter.mode",
+        "title": "Mode",
+        "position": {
+          "x": 110,
+          "y": 1
+        },
+        "dimension": {
+          "x": 16,
+          "y": 2
+        },
+        "boardId": "B-004",
+        "flags": {}
+      },
+      "e8": {
+        "id": "e8",
+        "widgetId": "com.usegdi.starter.logger",
+        "title": "Logger",
+        "position": {
+          "x": 56,
+          "y": 27
+        },
+        "dimension": {
+          "x": 63,
+          "y": 19
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "flavour": "prepare"
+      },
+      "e9": {
+        "id": "e9",
+        "widgetId": "com.usegdi.starter.start-play",
+        "title": "StartPlay",
+        "position": {
+          "x": 56,
+          "y": 27
+        },
+        "dimension": {
+          "x": 63,
+          "y": 19
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "flavour": "default"
+      },
+      "e10": {
+        "id": "e10",
+        "widgetId": "com.usegdi.starter.save-board",
+        "title": "SaveBoard",
+        "position": {
+          "x": 115,
+          "y": 27
+        },
+        "dimension": {
+          "x": 1,
+          "y": 1
+        },
+        "boardId": "B-004",
+        "flags": {}
+      }
+    },
+    "mobile": {
+      "e2": {
+        "id": "e2",
+        "widgetId": "com.usegdi.starter.spotlight",
+        "title": "spotlight",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 24
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "props": {
+          "sceneUrl": ""
+        },
+        "columnIndex": 0
+      },
+      "e3": {
+        "id": "e3",
+        "widgetId": "com.usegdi.starter.transcript",
+        "title": "Transcript",
+        "position": {
+          "x": 1,
+          "y": 24
+        },
+        "dimension": {
+          "x": 121,
+          "y": 24
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "flavour": "outcome",
+        "columnIndex": 0
+      },
+      "e9": {
+        "id": "e9",
+        "widgetId": "com.usegdi.starter.start-play",
+        "title": "StartPlay",
+        "position": {
+          "x": 1,
+          "y": 24
+        },
+        "dimension": {
+          "x": 121,
+          "y": 24
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "flavour": "default",
+        "columnIndex": 0
+      },
+      "e6": {
+        "id": "e6",
+        "widgetId": "com.usegdi.starter.playback",
+        "title": "Playback",
+        "position": {
+          "x": 62,
+          "y": 3
+        },
+        "dimension": {
+          "x": 25,
+          "y": 5
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "columnIndex": 0
+      },
+      "e4": {
+        "id": "e4",
+        "widgetId": "com.usegdi.starter.flow",
+        "title": "Flow",
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "dimension": {
+          "x": 121,
+          "y": 48
+        },
+        "boardId": "B-004",
+        "flags": {},
+        "props": {},
+        "columnIndex": 1
+      }
+    }
+  }
+}
