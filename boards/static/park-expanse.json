@@ -562,19 +562,19 @@
   "sceneExternals": {
     "x1": {
       "id": "x1",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/ville.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/assets/glb/ville.glb",
       "fileName": "ville.glb",
       "enabled": true
     },
     "x2": {
       "id": "x2",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/tree.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/assets/glb/tree.glb",
       "fileName": "tree.glb",
       "position": [-8.74, 0, 5.388]
     },
     "x3": {
       "id": "x3",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/glb/fountain-01.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/assets/glb/fountain-01.glb",
       "fileName": "fountain-01.glb",
       "position": [15.9, 0, -8.57]
     }

@@ -49,12 +49,12 @@
         "widgetId": "com.usegdi.starter.express-debugger",
         "title": "Express Debugger",
         "position": {
-          "x": 2,
-          "y": 2
+          "x": 1,
+          "y": 1
         },
         "dimension": {
-          "x": 119,
-          "y": 47
+          "x": 121,
+          "y": 48
         },
         "boardId": "{boardId}",
         "flags": {},
