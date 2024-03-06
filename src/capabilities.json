@@ -8,6 +8,13 @@
     "pilar": "content",
     "imageUrl": "/images/docs/1.png",
     "verb": "create",
+    "parameters": {
+      "topic": {
+        "type": "string",
+        "description": "The topic of the animation",
+        "isRequired": false
+      }
+    },
     "ingredients": [
       {
         "id": "script",
@@ -59,6 +66,18 @@
     "imageUrl": "/images/docs/2.png",
     "pilar": "productivity",
     "verb": "analyze",
+    "parameters": {
+      "topic": {
+        "type": "string",
+        "description": "The topic of the meeting",
+        "isRequired": false
+      },
+      "attendees": {
+        "type": "string",
+        "description": "The attendees of the meeting",
+        "isRequired": false
+      }
+    },
     "iconName": "",
     "ingredients": [],
     "instructions": []
@@ -68,6 +87,18 @@
     "identifier": "com.usegdi.build-a-website",
     "name": "Build a website",
     "imageUrl": "/images/docs/3.png",
+    "parameters": {
+      "topic": {
+        "type": "string",
+        "description": "The topic of the website",
+        "isRequired": false
+      },
+      "style": {
+        "type": "string",
+        "description": "The style of the website",
+        "isRequired": false
+      }
+    },
     "description": "Build a website using AI-powered tools",
     "pilar": "content",
     "verb": "create",
@@ -80,6 +111,23 @@
     "identifier": "com.usegdi.write-a-post",
     "name": "Write a post",
     "imageUrl": "/images/docs/4.png",
+    "parameters": {
+      "topic": {
+        "type": "string",
+        "description": "The topic of the post",
+        "isRequired": false
+      },
+      "style": {
+        "type": "string",
+        "description": "The style of the post",
+        "isRequired": false
+      },
+      "platform": {
+        "type": "string",
+        "description": "The platform of the post",
+        "isRequired": false
+      }
+    },
     "description": "Write a post using AI-powered tools",
     "pilar": "content",
     "verb": "create",
@@ -92,6 +140,13 @@
     "identifier": "com.usegdi.manage-finances",
     "name": "Manage Finances",
     "imageUrl": "/images/docs/5.png",
+    "parameters": {
+      "personal": {
+        "type": "boolean",
+        "description": "Personal or business",
+        "isRequired": false
+      }
+    },
     "pilar": "productivity",
     "verb": "manage",
     "description": "Manage your finances using AI-powered tools",
@@ -105,6 +160,13 @@
     "name": "Rhetoric",
     "description": "Build an argument using AI-powered tools",
     "pilar": "knowledge",
+    "parameters": {
+      "topic": {
+        "type": "string",
+        "description": "The topic of the argument",
+        "isRequired": false
+      }
+    },
     "imageUrl": "/images/docs/6.png",
     "verb": "other",
     "iconName": "",
@@ -115,6 +177,7 @@
     "id": "debug-express",
     "identifier": "com.usegdi.debug-express",
     "name": "Debug an Express App",
+    "parameters": {},
     "imageUrl": "/images/docs/7.png",
     "description": "Debug an Express app using AI-powered tools",
     "pilar": "productivity",

@@ -10,6 +10,7 @@ const copyFiles = {
   'capabilities.json': 'allCapabilities.json',
   'providers.json': 'allApiProviders.json',
   'videos.json': 'allVideos.json',
+  'capabilities.json': '../../gdi/packages/ai-runner/src/data/data.capabilities.json',
 };
 
 const order = fs.readJsonSync(`${SOURCE}/order.json`);
@@ -196,3 +197,4 @@ const transformBoard = (dir) => {
 };
 
 run();
+console.log('done.');
