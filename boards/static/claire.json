@@ -373,18 +373,18 @@
         }
       },
       "mouthShapeUrls": {
-        "aei": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_aei.png",
-        "bmp": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_bmp.png",
-        "cdgknstxyz": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_cdgknstxyz.png",
-        "chshj": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_chshj.png",
-        "Ee": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_Ee.png",
-        "fv": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_fv.png",
-        "l": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_l.png",
-        "o": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_o.png",
-        "qw": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_qw.png",
-        "r": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_r.png",
-        "th": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_th.png",
-        "u": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_u.png"
+        "aei": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/mouth-set-5/mouth_aei.png",
+        "bmp": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/mouth-set-5/mouth_bmp.png",
+        "cdgknstxyz": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/mouth-set-5/mouth_cdgknstxyz.png",
+        "chshj": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/mouth-set-5/mouth_chshj.png",
+        "Ee": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/mouth-set-5/mouth_Ee.png",
+        "fv": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/mouth-set-5/mouth_fv.png",
+        "l": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/mouth-set-5/mouth_l.png",
+        "o": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/mouth-set-5/mouth_o.png",
+        "qw": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/mouth-set-5/mouth_qw.png",
+        "r": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/mouth-set-5/mouth_r.png",
+        "th": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/mouth-set-5/mouth_th.png",
+        "u": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/mouth-set-5/mouth_u.png"
       }
     }
   },
@@ -393,7 +393,7 @@
       "duration": 0,
       "fileName": "juno-01.mp3",
       "id": "voice-juno-01",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-01.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/juno/juno-01.mp3",
       "timestamp": 0.5,
       "balance": 0.3
     },
@@ -401,7 +401,7 @@
       "duration": 0,
       "fileName": "juno-02.mp3",
       "id": "voice-juno-02",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-02.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/juno/juno-02.mp3",
       "timestamp": 10.5,
       "balance": 0.3
     },
@@ -409,7 +409,7 @@
       "duration": 0,
       "fileName": "juno-03.mp3",
       "id": "voice-juno-03",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-03.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/juno/juno-03.mp3",
       "timestamp": 18.5,
       "balance": 0.3
     },
@@ -417,7 +417,7 @@
       "duration": 0,
       "fileName": "juno-04.mp3",
       "id": "voice-juno-04",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-04.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/juno/juno-04.mp3",
       "timestamp": 21.5,
       "balance": 0.3
     },
@@ -425,7 +425,7 @@
       "duration": 0,
       "fileName": "juno-05.mp3",
       "id": "voice-juno-05",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-05.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/juno/juno-05.mp3",
       "timestamp": 27.5,
       "balance": 0.3
     },
@@ -433,7 +433,7 @@
       "duration": 0,
       "fileName": "juno-06.mp3",
       "id": "voice-juno-06",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/juno-06.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/juno/juno-06.mp3",
       "timestamp": 34,
       "balance": 0.3
     },
@@ -442,7 +442,7 @@
       "fileName": "rain-long.mp3",
       "isMain": true,
       "id": "audio-main",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/juno/light-funk.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/juno/light-funk.mp3",
       "timestamp": 0,
       "balance": 0.3,
       "volume": 0.3

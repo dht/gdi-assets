@@ -279,7 +279,7 @@
       "duration": 0,
       "fileName": "voice-fred-01.mp3",
       "id": "voice-fred-01",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-01.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/voice-fred-01.mp3",
       "timestamp": 2,
       "balance": 0.3
     },
@@ -287,7 +287,7 @@
       "duration": 0,
       "fileName": "voice-mary-01.mp3",
       "id": "voice-mary-01",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-01.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/voice-mary-01.mp3",
       "timestamp": 6,
       "balance": 0.7
     },
@@ -295,7 +295,7 @@
       "duration": 0,
       "fileName": "voice-fred-02.mp3",
       "id": "voice-fred-02",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-02.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/voice-fred-02.mp3",
       "timestamp": 9,
       "balance": 0.3
     },
@@ -303,7 +303,7 @@
       "duration": 0,
       "fileName": "voice-mary-02.mp3",
       "id": "voice-mary-02",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-02.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/voice-mary-02.mp3",
       "timestamp": 13.5,
       "balance": 0.7
     },
@@ -311,7 +311,7 @@
       "duration": 0,
       "fileName": "voice-fred-03.mp3",
       "id": "voice-fred-03",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-03.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/voice-fred-03.mp3",
       "timestamp": 16.5,
       "balance": 0.3
     },
@@ -319,7 +319,7 @@
       "duration": 0,
       "fileName": "voice-mary-03.mp3",
       "id": "voice-mary-03",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-03.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/voice-mary-03.mp3",
       "timestamp": 21,
       "balance": 0.7
     },
@@ -327,7 +327,7 @@
       "duration": 0,
       "fileName": "voice-fred-04.mp3",
       "id": "voice-fred-04",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-04.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/voice-fred-04.mp3",
       "timestamp": 27,
       "balance": 0.3
     },
@@ -335,7 +335,7 @@
       "duration": 0,
       "fileName": "voice-mary-04.mp3",
       "id": "voice-mary-04",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-04.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/voice-mary-04.mp3",
       "timestamp": 30,
       "balance": 0.7
     },
@@ -343,7 +343,7 @@
       "duration": 0,
       "fileName": "voice-fred-05.mp3",
       "id": "voice-fred-05",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-fred-05.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/voice-fred-05.mp3",
       "timestamp": 33,
       "balance": 0.3
     },
@@ -351,7 +351,7 @@
       "duration": 0,
       "fileName": "voice-mary-05.mp3",
       "id": "voice-mary-05",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/voice-mary-05.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/voice-mary-05.mp3",
       "timestamp": 36,
       "balance": 0.7
     },
@@ -360,7 +360,7 @@
       "fileName": "rain-long.mp3",
       "isMain": true,
       "id": "audio-main",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/fourth-wall/rain-long.mp3",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/rain-long.mp3",
       "timestamp": 0,
       "balance": 0.3,
       "volume": 0.3
