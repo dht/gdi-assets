@@ -11,9 +11,9 @@
     "activeCameras": ["free", "cornerCam1", "cornerCam2"]
   },
   "sceneStage": {
-    "bkUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/bk.png",
-    "stageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/stage.png",
-    "stageMaskUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/stage-mask.png"
+    "bkUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/fourth-wall/bk.png",
+    "stageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/fourth-wall/stage.png",
+    "stageMaskUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/fourth-wall/stage-mask.png"
   },
   "sceneCameras": {
     "cornerCam1": {
@@ -392,24 +392,24 @@
         }
       },
       "mouthShapeUrls": {
-        "aei": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_aei.png",
-        "bmp": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_bmp.png",
-        "cdgknstxyz": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_cdgknstxyz.png",
-        "chshj": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_chshj.png",
-        "Ee": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_Ee.png",
-        "fv": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_fv.png",
-        "l": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_l.png",
-        "o": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_o.png",
-        "qw": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_qw.png",
-        "r": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_r.png",
-        "th": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_th.png",
-        "u": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_u.png"
+        "aei": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_aei.png",
+        "bmp": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_bmp.png",
+        "cdgknstxyz": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_cdgknstxyz.png",
+        "chshj": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_chshj.png",
+        "Ee": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_Ee.png",
+        "fv": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_fv.png",
+        "l": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_l.png",
+        "o": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_o.png",
+        "qw": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_qw.png",
+        "r": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_r.png",
+        "th": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_th.png",
+        "u": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_u.png"
       }
     },
     "woman": {
       "id": "woman",
       "meshNames": "",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/assets/glb/main-2.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main//assets/glb/main-2.glb",
       "animations": [],
       "meshId": "Ch37",
       "rootId": "__root__",
@@ -430,18 +430,18 @@
         }
       },
       "mouthShapeUrls": {
-        "aei": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_aei.png",
-        "bmp": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_bmp.png",
-        "cdgknstxyz": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_cdgknstxyz.png",
-        "chshj": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_chshj.png",
-        "Ee": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_Ee.png",
-        "fv": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_fv.png",
-        "l": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_l.png",
-        "o": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_o.png",
-        "qw": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_qw.png",
-        "r": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_r.png",
-        "th": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_th.png",
-        "u": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/mouth-set-5/mouth_u.png"
+        "aei": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_aei.png",
+        "bmp": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_bmp.png",
+        "cdgknstxyz": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_cdgknstxyz.png",
+        "chshj": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_chshj.png",
+        "Ee": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_Ee.png",
+        "fv": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_fv.png",
+        "l": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_l.png",
+        "o": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_o.png",
+        "qw": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_qw.png",
+        "r": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_r.png",
+        "th": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_th.png",
+        "u": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/assets/images/mouth/mouth-set-5/mouth_u.png"
       }
     }
   },
@@ -460,7 +460,7 @@
           "specular": [0, 0, 0]
         },
         "values": {
-          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/snow.mp4"
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/snow.mp4"
         }
       },
       "position": [100, 4.5, -15],
@@ -480,7 +480,7 @@
         "alpha": 0.2
       },
       "position": [5.1, -0.5, 0.05],
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/smoke.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/assets/images/smoke.png",
       "index": 0
     },
     "tea2": {
@@ -495,13 +495,13 @@
         "alpha": 0.2
       },
       "position": [5.1, -0.6, 0.38],
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/smoke.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/assets/images/smoke.png",
       "index": 0
     },
     "pot": {
       "id": "pot",
       "vaspType": "particle",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/smoke.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/assets/images/smoke.png",
       "values": {
         "maxLifeTime": 8,
         "emitRate": 6,
