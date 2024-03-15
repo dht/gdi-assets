@@ -11,9 +11,9 @@
     "activeCameras": ["free", "cornerCam1", "cornerCam2"]
   },
   "sceneStage": {
-    "bkUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/fourth-wall/bk.png",
-    "stageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/fourth-wall/stage.png",
-    "stageMaskUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/fourth-wall/stage-mask.png"
+    "bkUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/bk.png",
+    "stageUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/stage.png",
+    "stageMaskUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/boards/static/assets/fourth-wall/stage-mask.png"
   },
   "sceneCameras": {
     "cornerCam1": {
