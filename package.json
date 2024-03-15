@@ -1,7 +1,10 @@
 {
   "name": "gdi-assets",
   "version": "1.0.0",
-  "description": "",
+  "description": "Explore GDI, an open-source project shaping user interfaces for the AI era. Discover how GDI simplifies asset management, model orchestration, data handling, cost optimization, and privacy protection. Join us in giving the AI revolution a face.",
+  "author": {
+    "name": "GDI"
+  },
   "main": "index.js",
   "scripts": {
     "build": "node scripts/build.js",
@@ -12,7 +15,6 @@
     "doc": "docs"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.4.0",
