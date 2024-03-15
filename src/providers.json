@@ -17,9 +17,41 @@
   "elevenLabs": {
     "id": "elevenLabs",
     "name": "ElevenLabs",
-    "description": "ElevenLabs  specializes in Speech and Audio AI models and APIs.",
+    "description": "ElevenLabs specializes in Speech and Audio AI models and APIs.",
     "providerType": "AI",
     "imageUrl": "/images/docs/21.png",
     "models": ["text-to-speech", "text-to-audio", "speech-to-text", "speech-to-speech"]
+  },
+  "anthropic": {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "description": "Anthropic is a leading provider of AI models and APIs.",
+    "providerType": "AI",
+    "imageUrl": "/images/docs/12.png",
+    "models": ["text-to-speech", "text-to-audio", "speech-to-text", "speech-to-speech"]
+  },
+  "whatsapp": {
+    "id": "whatsapp",
+    "name": "Whatsapp",
+    "description": "Whatsapp is a leading provider of messaging and communication APIs.",
+    "providerType": "NON-AI",
+    "imageUrl": "/images/docs/13.png",
+    "models": []
+  },
+  "x": {
+    "id": "x",
+    "name": "X",
+    "description": "X is a social platform providing realtime posts",
+    "providerType": "NON-AI",
+    "imageUrl": "/images/docs/16.png",
+    "models": []
+  },
+  "storyblocks": {
+    "id": "storyblocks",
+    "name": "Storyblocks",
+    "description": "Royalty-free stock audio, video, and images",
+    "providerType": "NON-AI",
+    "imageUrl": "/images/docs/17.png",
+    "models": []
   }
 }
