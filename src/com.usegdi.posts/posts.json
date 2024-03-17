@@ -1,10 +1,10 @@
 {
   "id": "{boardId}",
-  "identifier": "com.usegdi.post",
+  "identifier": "com.usegdi.posts",
   "version": "0.1.0",
   "url": "/boards/{boardId}",
   "boardInfo": {
-    "name": "Post",
+    "name": "Posts",
     "index": "{index}",
     "imageUrl": "/images/boards/z_post.jpg",
     "videoThumbUrl": "/images/boards/{identifier}.mp4",
@@ -66,7 +66,7 @@
     "default": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.post",
+        "widgetId": "com.usegdi.starter.posts",
         "title": "Post",
         "position": {
           "x": 2,

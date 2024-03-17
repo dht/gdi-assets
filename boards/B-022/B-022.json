@@ -1,13 +1,13 @@
 {
   "id": "B-022",
-  "identifier": "com.usegdi.post",
+  "identifier": "com.usegdi.posts",
   "version": "0.1.0",
   "url": "/boards/B-022",
   "boardInfo": {
-    "name": "Post",
+    "name": "Posts",
     "index": 22,
     "imageUrl": "/images/boards/z_post.jpg",
-    "videoThumbUrl": "/images/boards/post.mp4",
+    "videoThumbUrl": "/images/boards/posts.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Enhance your writing with the Post Writing Assistant, a comprehensive tool that supports the creation of new posts and replies. From grammar checking and wording suggestions to tone and length optimization, this platform provides invaluable assistance to ensure your posts are crafted with clarity, precision, and impact.",
@@ -75,7 +75,7 @@
     "default": {
       "e2": {
         "id": "e2",
-        "widgetId": "com.usegdi.starter.post",
+        "widgetId": "com.usegdi.starter.posts",
         "title": "Post",
         "position": {
           "x": 2,

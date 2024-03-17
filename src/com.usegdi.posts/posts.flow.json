@@ -1,6 +1,6 @@
 {
   "flowConfig": {
-    "flowId": "fb-post",
+    "flowId": "fb-posts",
     "name": "Events",
     "flowType": "continues",
     "output": {
@@ -11,8 +11,8 @@
   },
   "flowApis": {},
   "flowAssistants": {
-    "as-post-chat": {
-      "id": "as-post-chat",
+    "as-posts-chat": {
+      "id": "as-posts-chat",
       "name": "Chat",
       "description": "Helpful assistant that provides a conversation about a topic.",
       "instructions": "You are a helpful assistant",
@@ -26,7 +26,7 @@
       "id": "n-001",
       "name": "Prompt",
       "nodeType": "llm",
-      "assistantId": "as-post-chat",
+      "assistantId": "as-posts-chat",
       "input": {
         "prompt": "${prompt}"
       },
