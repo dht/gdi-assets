@@ -76,7 +76,7 @@
       "e2": {
         "id": "e2",
         "widgetId": "com.usegdi.starter.todos",
-        "title": "Calendar",
+        "title": "Todos",
         "position": {
           "x": 2,
           "y": 2

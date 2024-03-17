@@ -1,13 +1,13 @@
 {
-  "id": "B-020",
+  "id": "{boardId}",
   "identifier": "com.usegdi.reads",
   "version": "0.1.0",
-  "url": "/boards/B-020",
+  "url": "/boards/{boardId}",
   "boardInfo": {
     "name": "Reads",
-    "index": 20,
+    "index": "{index}",
     "imageUrl": "/images/boards/i_reads.jpg",
-    "videoThumbUrl": "/images/boards/reads.mp4",
+    "videoThumbUrl": "/images/boards/{identifier}.mp4",
     "videoUrl": "",
     "boardType": "adhoc",
     "description": "Discover, track, and recommend reads with the Reads. This platform offers personalized read tracking, reading progress monitoring, and intelligent read recommendations based on your preferences. Whether you're an avid reader or looking for your next great read, Reads enriches your reading experience and fosters a vibrant community of read enthusiasts.",
@@ -42,10 +42,7 @@
       "community",
       "read_enthusiasts"
     ],
-    "supportedResolutions": [
-      "1920x1080",
-      "1366x768"
-    ],
+    "supportedResolutions": ["1920x1080", "1366x768"],
     "tsVersion": "2024-02-03 14:44:00"
   },
   "author": "gdi",
@@ -56,8 +53,8 @@
   },
   "apis": {},
   "defaults": {},
-  "flowUrl": "/B-020/B-020.flow.json",
-  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/B-020",
+  "flowUrl": "/{boardId}/{boardId}.flow.json",
+  "sourceUrl": "https://github.com/dht/gdi-assets/tree/main/boards/{boardId}",
   "npmUrl": "https://www.npmjs.com/package/@gdi/widgets-starter",
   "vscodeUrl": "https://vscode.dev/github/dht/gdi",
   "isActive": true,
@@ -85,7 +82,7 @@
           "x": 119,
           "y": 47
         },
-        "boardId": "B-020",
+        "boardId": "{boardId}",
         "flags": {},
         "props": {
           "showBigWip": true
