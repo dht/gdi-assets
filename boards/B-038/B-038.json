@@ -326,5 +326,6 @@
     "sceneEffects",
     "transcriptLines",
     "transcriptAudios"
-  ]
+  ],
+  "tutorialPack": null
 }

@@ -120,5 +120,6 @@
     "sceneExternals",
     "sceneAudios",
     "sceneEffects"
-  ]
+  ],
+  "tutorialPack": null
 }

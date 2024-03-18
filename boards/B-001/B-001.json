@@ -186,5 +186,6 @@
   },
   "storeNodes": [
     "assets"
-  ]
+  ],
+  "tutorialPack": null
 }

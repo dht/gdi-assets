@@ -75,6 +75,7 @@ const loadBoard = (dir) => {
     examples: `${SOURCE}/${dir}/${identifier}.examples.json`,
     flow: `${SOURCE}/${dir}/${identifier}.flow.json`,
     reviews: `${SOURCE}/${dir}/${identifier}.reviews.json`,
+    tutorials: `${SOURCE}/${dir}/${identifier}.tutorials.json`,
     index: `${SOURCE}/${dir}/index.json`,
   };
 
@@ -89,12 +90,14 @@ const loadBoard = (dir) => {
     examples: fs.existsSync(paths.examples),
     flow: fs.existsSync(paths.flow),
     reviews: fs.existsSync(paths.reviews),
+    tutorials: fs.existsSync(paths.tutorials),
   };
 
   output.mainData = output.exists.main ? fs.readJsonSync(paths.main) : null;
   output.examplesData = output.exists.examples ? fs.readJsonSync(paths.examples) : null;
   output.flowData = output.exists.flow ? fs.readJsonSync(paths.flow) : null;
   output.reviewsData = output.exists.reviews ? fs.readJsonSync(paths.reviews) : null;
+  output.tutorialsData = output.exists.tutorials ? fs.readJsonSync(paths.tutorials) : null;
 
   return output;
 };
@@ -168,11 +171,12 @@ const transformBoard = (dir) => {
   const boardDataRaw = loadBoard(dir);
 
   const boardData = parseBoard(boardDataRaw);
-  const { id, index, exists, pathsOutput, identifier } = boardData;
+  const { id, index, exists, pathsOutput, identifier, tutorialsData } = boardData;
 
   traverseBoard(boardData.mainData, '{boardId}', id);
   traverseBoard(boardData.mainData, '{identifier}', identifier);
   set(boardData.mainData, 'boardInfo.index', index);
+  set(boardData.mainData, 'tutorialPack', tutorialsData);
   const { root, main, flow, examples } = pathsOutput;
 
   fs.removeSync(root);

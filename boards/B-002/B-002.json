@@ -174,5 +174,6 @@
   "storeNodes": [
     "document",
     "documentSuggestions"
-  ]
+  ],
+  "tutorialPack": null
 }

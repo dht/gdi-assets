@@ -53,7 +53,8 @@
     },
     "storeNodes": [
       "assets"
-    ]
+    ],
+    "tutorialPack": null
   },
   "B-002": {
     "id": "B-002",
@@ -123,7 +124,8 @@
     "storeNodes": [
       "document",
       "documentSuggestions"
-    ]
+    ],
+    "tutorialPack": null
   },
   "B-003": {
     "id": "B-003",
@@ -199,7 +201,8 @@
     },
     "storeNodes": [
       "appState"
-    ]
+    ],
+    "tutorialPack": null
   },
   "B-004": {
     "id": "B-004",
@@ -260,7 +263,8 @@
     },
     "storeNodes": [
       "appState"
-    ]
+    ],
+    "tutorialPack": null
   },
   "B-005": {
     "id": "B-005",
@@ -320,7 +324,40 @@
       "scenePacks",
       "sceneVASPs",
       "sceneExternals"
-    ]
+    ],
+    "tutorialPack": {
+      "id": "scene-builder-tutorials",
+      "title": "Scene Builder Tutorials",
+      "description": "Learn how to use Scene Builder to create a 3d scene",
+      "tutorials": [
+        {
+          "id": "scene-builder-tutorial-1",
+          "title": "Scene Builder Tutorial 1",
+          "description": "Learn how to create a 3d scene using Scene Builder",
+          "author": "John Doe",
+          "date": "2014-01-01",
+          "tags": [
+            "scene-builder",
+            "3d",
+            "tutorial"
+          ],
+          "youtubeId": "I6syvfYrLSg"
+        },
+        {
+          "id": "scene-builder-tutorial-2",
+          "title": "Scene Builder Tutorial 2",
+          "description": "Learn how to create a 3d scene using Scene Builder",
+          "author": "John Doe",
+          "date": "2014-01-01",
+          "tags": [
+            "scene-builder",
+            "3d",
+            "tutorial"
+          ],
+          "youtubeId": "I6syvfYrLSg"
+        }
+      ]
+    }
   },
   "B-006": {
     "id": "B-006",
@@ -406,7 +443,8 @@
       "sceneExternals",
       "sceneAudios",
       "sceneEffects"
-    ]
+    ],
+    "tutorialPack": null
   },
   "B-007": {
     "id": "B-007",
@@ -480,7 +518,8 @@
       "reviewsCount": 4,
       "installationCount": 3,
       "rating": 4.2
-    }
+    },
+    "tutorialPack": null
   },
   "B-008": {
     "id": "B-008",
@@ -554,7 +593,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-009": {
     "id": "B-009",
@@ -628,7 +668,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-010": {
     "id": "B-010",
@@ -702,7 +743,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-011": {
     "id": "B-011",
@@ -777,7 +819,8 @@
       "reviewsCount": 0,
       "installationCount": 0,
       "rating": 0
-    }
+    },
+    "tutorialPack": null
   },
   "B-012": {
     "id": "B-012",
@@ -851,7 +894,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-013": {
     "id": "B-013",
@@ -926,7 +970,8 @@
       "reviewsCount": 0,
       "installationCount": 0,
       "rating": 0
-    }
+    },
+    "tutorialPack": null
   },
   "B-014": {
     "id": "B-014",
@@ -1001,7 +1046,8 @@
     },
     "storeNodes": [
       "messages"
-    ]
+    ],
+    "tutorialPack": null
   },
   "B-015": {
     "id": "B-015",
@@ -1077,7 +1123,8 @@
       "reviewsCount": 0,
       "installationCount": 0,
       "rating": 0
-    }
+    },
+    "tutorialPack": null
   },
   "B-016": {
     "id": "B-016",
@@ -1151,7 +1198,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-018": {
     "id": "B-018",
@@ -1204,7 +1252,8 @@
       "reviewsCount": 0,
       "installationCount": 0,
       "rating": 0
-    }
+    },
+    "tutorialPack": null
   },
   "B-019": {
     "id": "B-019",
@@ -1281,7 +1330,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-020": {
     "id": "B-020",
@@ -1355,7 +1405,8 @@
       "reviewsCount": 0,
       "installationCount": 0,
       "rating": 0
-    }
+    },
+    "tutorialPack": null
   },
   "B-021": {
     "id": "B-021",
@@ -1429,7 +1480,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-022": {
     "id": "B-022",
@@ -1503,7 +1555,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-023": {
     "id": "B-023",
@@ -1577,7 +1630,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-024": {
     "id": "B-024",
@@ -1651,7 +1705,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-025": {
     "id": "B-025",
@@ -1725,7 +1780,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-026": {
     "id": "B-026",
@@ -1799,7 +1855,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-027": {
     "id": "B-027",
@@ -1847,7 +1904,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-028": {
     "id": "B-028",
@@ -1899,7 +1957,8 @@
       "reviewsCount": 2,
       "installationCount": 5,
       "rating": 4.2
-    }
+    },
+    "tutorialPack": null
   },
   "B-030": {
     "id": "B-030",
@@ -1947,7 +2006,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-031": {
     "id": "B-031",
@@ -2018,7 +2078,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-032": {
     "id": "B-032",
@@ -2070,7 +2131,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-033": {
     "id": "B-033",
@@ -2138,7 +2200,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-034": {
     "id": "B-034",
@@ -2210,7 +2273,8 @@
       "reviewsCount": 0,
       "installationCount": 0,
       "rating": 0
-    }
+    },
+    "tutorialPack": null
   },
   "B-035": {
     "id": "B-035",
@@ -2282,7 +2346,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-036": {
     "id": "B-036",
@@ -2362,7 +2427,8 @@
       "reviewsCount": 0,
       "installationCount": 0,
       "rating": 0
-    }
+    },
+    "tutorialPack": null
   },
   "B-037": {
     "id": "B-037",
@@ -2430,7 +2496,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-038": {
     "id": "B-038",
@@ -2526,7 +2593,8 @@
       "sceneEffects",
       "transcriptLines",
       "transcriptAudios"
-    ]
+    ],
+    "tutorialPack": null
   },
   "B-039": {
     "id": "B-039",
@@ -2597,7 +2665,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-040": {
     "id": "B-040",
@@ -2669,7 +2738,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-041": {
     "id": "B-041",
@@ -2740,7 +2810,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-042": {
     "id": "B-042",
@@ -2796,7 +2867,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-043": {
     "id": "B-043",
@@ -2866,7 +2938,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-044": {
     "id": "B-044",
@@ -2942,7 +3015,8 @@
       "reviewsCount": 0,
       "installationCount": 0,
       "rating": 0
-    }
+    },
+    "tutorialPack": null
   },
   "B-045": {
     "id": "B-045",
@@ -2993,7 +3067,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-046": {
     "id": "B-046",
@@ -3065,7 +3140,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-047": {
     "id": "B-047",
@@ -3137,7 +3213,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-048": {
     "id": "B-048",
@@ -3206,7 +3283,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-049": {
     "id": "B-049",
@@ -3253,7 +3331,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-050": {
     "id": "B-050",
@@ -3304,7 +3383,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-051": {
     "id": "B-051",
@@ -3374,7 +3454,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-052": {
     "id": "B-052",
@@ -3448,7 +3529,8 @@
       "installationCount": 0,
       "rating": 0,
       "reviews": {}
-    }
+    },
+    "tutorialPack": null
   },
   "B-053": {
     "id": "B-053",

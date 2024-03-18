@@ -146,5 +146,6 @@
   },
   "storeNodes": [
     "appState"
-  ]
+  ],
+  "tutorialPack": null
 }
