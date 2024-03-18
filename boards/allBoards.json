@@ -294,7 +294,8 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": "2024-02-03 14:44:00"
+      "tsVersion": "2024-02-03 14:44:00",
+      "forceDarkMode": true
     },
     "author": "gdi",
     "dependencies": {
@@ -404,7 +405,8 @@
         "1920x1080",
         "1366x768"
       ],
-      "tsVersion": "2024-02-03 14:44:00"
+      "tsVersion": "2024-02-03 14:44:00",
+      "forceDarkMode": true
     },
     "author": "gdi",
     "dependencies": {
