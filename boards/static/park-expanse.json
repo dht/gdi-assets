@@ -116,7 +116,7 @@
         "values": {
           "vScale": 24,
           "uScale": 24,
-          "textureUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/texture-grass-1c.png"
+          "textureUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/texture-grass-1c.png"
         },
         "id": "g2-material"
       }
@@ -136,7 +136,7 @@
           "specular": [0, 0, 0]
         },
         "values": {
-          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/videos/water-2.mp4"
+          "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/videos/water-2.mp4"
         },
         "id": "fountain-material"
       },
@@ -148,77 +148,77 @@
     "p1-woman-red": {
       "id": "p1-woman-red",
       "identifier": "p1-woman-red",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p1-woman-red.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/p1-woman-red.png",
       "capacity": 1
     },
     "p2-main-spikyHair": {
       "id": "p2-man-spikyHair",
       "identifier": "p2-man-spikyHair",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p2-man-spikyHair.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/p2-man-spikyHair.png",
       "capacity": 1
     },
     "p3-woman-blueHair": {
       "id": "p3-woman-blueHair",
       "identifier": "p3-woman-blueHair",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p3-woman-blueHair.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/p3-woman-blueHair.png",
       "capacity": 1
     },
     "p4-woman-fourthWall": {
       "id": "p4-woman-fourthWall",
       "identifier": "p4-woman-fourthWall",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p4-woman-fourthWall.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/p4-woman-fourthWall.png",
       "capacity": 1
     },
     "p5-woman-redHead": {
       "id": "p5-woman-redHead",
       "identifier": "p5-woman-redHead",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p5-woman-redHead.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/p5-woman-redHead.png",
       "capacity": 1
     },
     "p6-man-coffee": {
       "id": "p6-man-coffee",
       "identifier": "p6-man-coffee",
       "capacity": 1,
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p6-man-coffee.png"
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/p6-man-coffee.png"
     },
     "p7-man-phone": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p7-man-phone.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/p7-man-phone.png",
       "id": "p7-man-phone",
       "capacity": 1,
       "identifier": "p7-man-phone"
     },
     "p8-woman-dog": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p8-woman-dog.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/p8-woman-dog.png",
       "id": "p8-woman-dog",
       "capacity": 1,
       "identifier": "p8-woman-dog"
     },
     "p9-woman-brownHair": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p9-woman-brownHair.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/p9-woman-brownHair.png",
       "id": "p9-woman-brownHair",
       "capacity": 1,
       "identifier": "p9-woman-brownHair"
     },
     "p10-man-ordering": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p10-man-ordering.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/p10-man-ordering.png",
       "id": "p10-man-ordering",
       "capacity": 1,
       "identifier": "p10-man-ordering"
     },
     "p11-woman-purpleHair": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p11-woman-purpleHair.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/p11-woman-purpleHair.png",
       "id": "p11-woman-purpleHair",
       "capacity": 1,
       "identifier": "p11-woman-purpleHair"
     },
     "p12-man-book": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/p12-man-book.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/p12-man-book.png",
       "id": "p12-man-book",
       "capacity": 1,
       "identifier": "p12-man-book"
     },
     "p1": {
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/people-0.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/people-0.png",
       "id": "p1",
       "capacity": 100,
       "identifier": "p1"
@@ -226,19 +226,19 @@
     "p2": {
       "capacity": 1,
       "id": "p2",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/props.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/props.png",
       "identifier": "p2"
     },
     "p3": {
       "capacity": 10,
       "id": "p3",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/faces.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/faces.png",
       "identifier": "p3"
     },
     "p4": {
       "capacity": 10,
       "id": "p4",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/mouthShapes.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/mouthShapes.png",
       "identifier": "p4"
     }
   },
@@ -254,13 +254,13 @@
         "speed": 1,
         "emitRate": 10
       },
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/smoke.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/smoke.png",
       "index": 0
     },
     "i2": {
       "id": "i2",
       "vaspType": "particle",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/smoke.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/smoke.png",
       "values": {
         "maxLifeTime": 4,
         "emitRate": 2,
@@ -531,7 +531,7 @@
     },
     "a1": {
       "vaspType": "microAnimation",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/sprites/bird-1.png",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/sprites/bird-1.png",
       "values": {
         "size": 2,
         "toFrame": 3,
@@ -562,19 +562,19 @@
   "sceneExternals": {
     "x1": {
       "id": "x1",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/assets/glb/ville.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/assets/glb/ville.glb",
       "fileName": "ville.glb",
       "enabled": true
     },
     "x2": {
       "id": "x2",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/assets/glb/tree.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/assets/glb/tree.glb",
       "fileName": "tree.glb",
       "position": [-8.74, 0, 5.388]
     },
     "x3": {
       "id": "x3",
-      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/assets/glb/fountain-01.glb",
+      "url": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/assets/glb/fountain-01.glb",
       "fileName": "fountain-01.glb",
       "position": [15.9, 0, -8.57]
     }
@@ -694,7 +694,7 @@
     "1": {
       "id": "1",
       "audioId": "5288",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/5288.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/5288.mp3",
       "cost": 0.00084,
       "isSuccess": true,
       "meta": {
@@ -706,7 +706,7 @@
     "2": {
       "id": "2",
       "audioId": "305f",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/305f.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/305f.mp3",
       "cost": 0.0007199999999999999,
       "isSuccess": true,
       "meta": {
@@ -718,7 +718,7 @@
     "3": {
       "id": "3",
       "audioId": "f1f3",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/f1f3.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/f1f3.mp3",
       "cost": 0.001125,
       "isSuccess": true,
       "meta": {
@@ -730,7 +730,7 @@
     "4": {
       "id": "4",
       "audioId": "4483",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/4483.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/4483.mp3",
       "cost": 0.0035399999999999997,
       "isSuccess": true,
       "meta": {
@@ -742,7 +742,7 @@
     "5": {
       "id": "5",
       "audioId": "ea49",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/ea49.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/ea49.mp3",
       "cost": 0.0018299999999999998,
       "isSuccess": true,
       "meta": {
@@ -754,7 +754,7 @@
     "6": {
       "id": "6",
       "audioId": "4488",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/4488.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/4488.mp3",
       "cost": 0.00087,
       "isSuccess": true,
       "meta": {
@@ -766,7 +766,7 @@
     "7": {
       "id": "7",
       "audioId": "c0ec",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/c0ec.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/c0ec.mp3",
       "cost": 0.0011099999999999999,
       "isSuccess": true,
       "meta": {
@@ -778,7 +778,7 @@
     "8": {
       "id": "8",
       "audioId": "ea6d",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/ea6d.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/ea6d.mp3",
       "cost": 0.001275,
       "isSuccess": true,
       "meta": {
@@ -790,7 +790,7 @@
     "9": {
       "id": "9",
       "audioId": "3275",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/3275.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/3275.mp3",
       "cost": 0.00096,
       "isSuccess": true,
       "meta": {
@@ -802,7 +802,7 @@
     "10": {
       "id": "10",
       "audioId": "953f",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/953f.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/953f.mp3",
       "cost": 0.00138,
       "isSuccess": true,
       "meta": {
@@ -814,7 +814,7 @@
     "11": {
       "id": "11",
       "audioId": "45b7",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/45b7.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/45b7.mp3",
       "cost": 0.001125,
       "isSuccess": true,
       "meta": {
@@ -826,7 +826,7 @@
     "12": {
       "id": "12",
       "audioId": "45f8",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/45f8.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/45f8.mp3",
       "cost": 0.0010949999999999998,
       "isSuccess": true,
       "meta": {
@@ -838,7 +838,7 @@
     "13": {
       "id": "13",
       "audioId": "37cc",
-      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/voices/park/37cc.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/dht/gdi-assets/main/static/assets/park/voices/park/37cc.mp3",
       "cost": 0.0005250000000000001,
       "isSuccess": true,
       "meta": {
