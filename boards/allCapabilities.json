@@ -82,10 +82,10 @@
     "ingredients": [],
     "instructions": []
   },
-  "build-a-website": {
-    "id": "build-a-website",
-    "identifier": "com.usegdi.build-a-website",
-    "name": "Build a website",
+  "manage-a-website": {
+    "id": "manage-an-index-website",
+    "identifier": "com.usegdi.manage-an-index-website",
+    "name": "Build am index website",
     "imageUrl": "/images/docs/3.png",
     "parameters": {
       "topic": {
@@ -99,7 +99,7 @@
         "isRequired": false
       }
     },
-    "description": "Build a website using AI-powered tools",
+    "description": "Manage an index website using AI-powered tools",
     "pilar": "content",
     "verb": "create",
     "iconName": "",
