@@ -1,0 +1,60 @@
+{
+  "id": "modelz",
+  "layerType": "hud",
+  "config": {
+    "id": "hud_tour",
+    "type": "hud",
+    "color": "#00ff15",
+    "height": 650,
+    "width": 700,
+    "initialPosition": {
+      "radius": 17,
+      "alpha": 345,
+      "beta": 83
+    }
+  },
+  "items": [
+    {
+      "id": "1",
+      "text": "Quantum-Singularity Hyperdrive",
+      "tsStart": 0,
+      "tsEnd": 2600,
+      "origin": [0, -250],
+      "textTop": 60,
+      "isLeft": true,
+      "cameraValues": {
+        "alpha": -67.77,
+        "beta": 37.1,
+        "radius": 14
+      }
+    },
+    {
+      "id": "2",
+      "text": "Adaptive Nano-Fluid Seismic Engine",
+      "tsStart": 3000,
+      "tsEnd": 5300,
+      "origin": [50, -100],
+      "textTop": 400,
+      "isLeft": false,
+      "cameraValues": {
+        "alpha": 95.88,
+        "beta": 85.1,
+        "radius": 14
+      }
+    },
+    {
+      "id": "3",
+      "text": "Holographic Interface, Zero-Gravity Seating",
+      "tsStart": 6600,
+      "tsEnd": 9600,
+      "origin": [-30, -50],
+      "textTop": 450,
+      "isLeft": true,
+      "cameraValues": {
+        "alpha": -152.76,
+        "beta": 68.23,
+        "radius": 14
+      }
+    }
+  ]
+}
